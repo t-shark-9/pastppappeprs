@@ -1,0 +1,319 @@
+M14/5/FURMA/HP1/ENG/TZ0/XX
+
+
+
+
+      22147101
+
+FURTHER MATHEMATICS
+HIGHER LEVEL
+PAPER 1
+
+Wednesday 21 May 2014 (afternoon)
+
+2 hours 30 minutes
+
+
+INSTRUCTIONS TO CANDIDATES
+
+ Do not open this examination paper until instructed to do so.
+ Answer all questions.
+ Unless otherwise stated in the question, all numerical answers should be given exactly or
+  correct to three significant figures.
+ A graphic display calculator is required for this paper.
+ A clean copy of the Mathematics HL and Further Mathematics HL formula booklet is required
+  for this paper.
+ The maximum mark for this examination paper is [150 marks].
+
+
+
+
+2214-7101                                                                                       7 pages
+                                                        © International Baccalaureate Organization 2014
+                                                        –2–                       M14/5/FURMA/HP1/ENG/TZ0/XX
+
+Full marks are not necessarily awarded for a correct answer with no working. Answers must be supported
+by working and/or explanations. In particular, solutions found from a graphic display calculator should
+be supported by suitable working. For example, if graphs are used to find a solution, you should sketch
+these as part of your answer. Where an answer is incorrect, some marks may be given for a correct method,
+provided this is shown by written working. You are therefore advised to show all working.
+
+1.    [Maximum mark: 6]
+
+      Find the positive square root of the base 7 number (551662)7 , giving your answer as a
+      base 7 number.
+
+
+2.    [Maximum mark: 7]
+
+                                            dy
+      Consider the differential equation     = y 3 − x3 for which y = 1 when x = 0 . Use Euler’s
+                                            dx
+      method with a step length of 0.1 to find an approximation for the value of y when x = 0.4 .
+
+
+3.    [Maximum mark: 6]
+
+      The following table shows the probability distribution of the discrete random variable X .
+
+
+                           x                  1                               2         3
+
+                                              1                           1             1
+                       P ( X = x)
+                                              4                           2             4
+
+
+      (a)   Show that the probability generating function of X is given by
+
+                                                             t (1 + t ) 2
+                                                  G (t ) =                .                                  [2]
+                                                                  4
+
+      (b)   Given that Y = X 1 + X 2 + X 3 + X 4 , where X 1 , X 2 , X 3 , X 4 is a random sample from the
+            distribution of X ,
+
+		          (i)    state the probability generating function of Y ;
+
+		          (ii)   hence find the value of P (Y = 8) .                                                       [4]
+
+
+
+
+2214-7101
+                                                     –3–                  M14/5/FURMA/HP1/ENG/TZ0/XX
+
+4.    [Maximum mark: 12]
+
+
+                                     a b
+      The matrix M is defined by M =     .
+                                     c d 
+
+      The eigenvalues of M are denoted by λ1 , λ2 .
+
+      (a)   Show that λ1 + λ2 =a + d and λ1λ2 = det ( M ) .                                                   [3]
+
+      (b)   Given that a + b = c + d = 1 , show that 1 is an eigenvalue of M .                                [2]
+
+
+                                              2 −1 
+      (c)   Find eigenvectors for the matrix       .                                                        [7]
+                                              3 −2 
+
+
+5.    [Maximum mark: 7]
+
+      (a)   Assuming the Maclaurin series for e x , determine the first three non-zero terms in the
+                                   e x − e− x                                                                 [3]
+            Maclaurin expansion of            .
+                                       2
+
+      (b)   The random variable X has a Poisson distribution with mean µ . Show that
+            P ( X ≡ 1(mod 2) ) =
+                               a + becµ where a , b and c are constants whose values are to
+            be found.                                                                                         [4]
+
+
+6.    [Maximum mark: 9]
+
+      The parabola P has equation y 2 = 4ax . The distinct points U ( au 2 , 2au ) and V ( av 2 , 2av ) lie
+                                           ˆ is a right angle, where O denotes the origin,
+      on P , where u , v ≠ 0 . Given that UOV
+
+                           4
+      (a)   show that v = − ;                                                                                 [3]
+                           u
+
+      (b)   find expressions for the coordinates of W, the midpoint of [UV], in terms of a and u ;            [2]
+
+      (c)   show that the locus of W, as u varies, is the parabola P′ with equation =
+                                                                                    y 2 2ax − 8a 2 ;          [2]
+
+      (d)   determine the coordinates of the vertex of P′ .                                                   [2]
+
+
+
+
+2214-7101                                                                                            Turn over
+                                                     –4–                   M14/5/FURMA/HP1/ENG/TZ0/XX
+
+7.    [Maximum mark: 11]
+
+      The weights, in grams, of 10 apples were measured with the following results:
+
+            212.2 216.9      209.0    215.5     215.9      213.5   208.9    213.8   216.4   209.9
+
+      You may assume that this is a random sample from a normal distribution with mean µ and
+      variance σ 2 .
+
+      (a)    Giving all your answers correct to four significant figures,
+
+		           (i)    determine unbiased estimates for µ and σ 2 ;
+
+		           (ii)   find a 95 % confidence interval for µ .                                              [5]
+
+      Another confidence interval for µ , [211.5, 214.9], was calculated using the above data.
+
+      (b)    Find the confidence level of this interval.                                                 [6]
+
+
+8.    [Maximum mark: 12]
+
+      The group {G , *} has a subgroup { H , *} . The relation R is defined, for x , y ∈ G , by xRy if
+      and only if x −1 * y ∈ H .
+
+      (a)    Show that R is an equivalence relation.                                                     [8]
+
+      (b)    Given that G = {0, ± 1, ± 2, …} , H = {0, ± 4, ± 8, …} and * denotes addition, find the
+             equivalence class containing the number 3.                                                  [4]
+
+
+9.    [Maximum mark: 5]
+
+      ABCDEF is a hexagon. A circle lies inside the hexagon and touches each of the six sides.
+      Show that AB + CD + EF = BC + DE + FA .
+
+
+
+
+2214-7101
+                                                        –5–            M14/5/FURMA/HP1/ENG/TZ0/XX
+
+10.   [Maximum mark: 12]
+
+
+                                   1 2 1
+      The matrix A is given by A =  1 1 2  .
+                                   2 3 1
+                                          
+
+      (a)   Given that A3 can be expressed in the form A3 = aA2 + bA + cI , determine the values of
+            the constants a , b , c .                                                                   [7]
+
+      (b)   (i)    Hence express A−1 in the form A−1 = dA2 + eA + fI where d , e , f ∈  .
+
+		          (ii)   Use this result to determine A−1 .                                                   [5]
+
+
+11.   [Maximum mark: 9]
+
+      The random variables X , Y follow a bivariate normal distribution with product moment
+      correlation coefficient ρ . The following table gives a random sample from this distribution.
+
+
+            x      5.1      3.8     3.7      2.5        4.0   3.7     1.6      2.8   3.3     2.9
+            y      4.6      4.9     4.1      5.9        4.2   1.6     5.1      2.1   6.4     4.7
+
+
+      (a)   Determine the value of r , the product moment correlation coefficient of this sample.       [2]
+
+      (b)   (i)    Write down hypotheses in terms of ρ which would enable you to test whether or
+                   not X and Y are independent.
+
+		          (ii)   Determine the p-value of the above sample and state your conclusion at the
+                   5 % significance level. Justify your answer.                                         [5]
+
+      (c)   (i)    Determine the equation of the regression line of y on x .
+
+		          (ii)   State whether or not this equation can be used to obtain an accurate prediction of
+                   the value of y for a given value of x . Give a reason for your answer.               [2]
+
+
+
+
+2214-7101                                                                                       Turn over
+                                                       –6–                  M14/5/FURMA/HP1/ENG/TZ0/XX
+
+12.   [Maximum mark: 11]
+
+                                         ∞
+                                                 xn
+      Consider the infinite series S = ∑ 2n             .
+                                       n =1 2 ( 2n −1 )
+                                                   2
+
+
+
+
+      (a)   Determine the radius of convergence.                                                       [4]
+
+      (b)   Determine the interval of convergence.                                                     [7]
+
+
+13.   [Maximum mark: 9]
+
+                                                                              x
+      The function f :  + ×  + →  + ×  + is defined by f ( x , y ) =  xy ,  .
+                                                                              y
+
+      Prove that f is a bijection.
+
+
+14.   [Maximum mark: 12]
+
+      (a)   The function g is defined by g ( x , y ) = x 2 + y 2 + dx + ey + f and the circle C1 has
+            equation g ( x , y ) = 0 .
+
+                                                               d    e
+            (i)    Show that the centre of C1 has coordinates  − , −  and the radius of C1
+                                                               2    2
+                        d 2 e2
+                   is      + −f .
+                         4 4
+
+            (ii)   The point P (a , b) lies outside C1 . Show that the length of the tangents from P
+                   to C1 is equal to g (a , b) .                                                       [6]
+
+      (b)   The circle C2 has equation x 2 + y 2 − 6 x − 2 y + 6 =.
+                                                                  0
+
+            The line y = mx meets C2 at the points R and S.
+
+            (i)    Determine the quadratic equation whose roots are the x-coordinates of R and S.
+
+            (ii)   Hence, given that L denotes the length of the tangents from the origin O to C2 ,
+                   show that OR × OS = L2 .                                                            [6]
+
+
+
+
+2214-7101
+                                                    –7–                 M14/5/FURMA/HP1/ENG/TZ0/XX
+
+15.   [Maximum mark: 12]
+
+      (a)   Show that the solution to the linear congruence ax ≡ b (mod p ) , where a , x , b , p ∈  + ,
+            p is prime and a , p are relatively prime, is given by x ≡ a p−2 b (mod p ) .                   [4]
+
+      (b)   Consider the congruences
+
+                                                 7 x ≡ 13(mod 19)
+                                                 2 x ≡ 1(mod 7) .
+
+
+		          (i)    Use the result in (a) to solve the first congruence, giving your answer in the form
+                   x ≡ k (mod 19) where 1 ≤ k ≤ 18 .
+
+		          (ii)   Find the set of integers which satisfy both congruences simultaneously.                  [8]
+
+
+16.   [Maximum mark: 10]
+
+      {G , *} is a group of order N and {H , *} is a proper subgroup of {G , *} of order n .
+
+      (a)   Define the right coset of { H , *} containing the element a ∈ G .                               [1]
+
+      (b)   Show that each right coset of { H , *} contains n elements.                                     [2]
+
+      (c)   Show that the union of the right cosets of { H , *} is equal to G .                             [2]
+
+      (d)   Show that any two right cosets of { H , *} are either equal or disjoint.                        [4]
+
+      (e)   Give a reason why the above results can be used to prove that N is a multiple of n .            [1]
+
+
+
+
+2214-7101
+

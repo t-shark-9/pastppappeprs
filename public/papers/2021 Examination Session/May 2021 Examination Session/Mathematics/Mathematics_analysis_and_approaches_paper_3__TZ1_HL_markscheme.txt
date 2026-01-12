@@ -1,0 +1,905 @@
+M21/5/MATHX/HP3/ENG/TZ1/XX/M
+
+
+
+
+                       Markscheme
+
+
+                               May 2021
+
+
+                    Mathematics:
+               analysis and approaches
+
+
+                           Higher level
+
+
+                               Paper 3
+
+
+
+
+24 pages
+                                            –2–                 M21/5/MATHX/HP3/ENG/TZ1/XX/M
+
+
+
+
+© International Baccalaureate Organization 2021
+
+All rights reserved. No part of this product may be reproduced in any form or by any
+electronic or mechanical means, including information storage and retrieval systems,
+without the prior written permission from the IB. Additionally, the license tied with this
+product prohibits use of any selected files or extracts from this product. Use by third
+parties, including but not limited to publishers, private teachers, tutoring or study services,
+preparatory schools, vendors operating curriculum mapping services or teacher resource
+digital platforms and app developers, whether fee-covered or not, is prohibited and is a
+criminal offense.
+
+More information on how to request written permission in the form of a license can be
+obtained from https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-
+license/.
+
+© Organisation du Baccalauréat International 2021
+
+Tous droits réservés. Aucune partie de ce produit ne peut être reproduite sous quelque
+forme ni par quelque moyen que ce soit, électronique ou mécanique, y compris des
+systèmes de stockage et de récupération d’informations, sans l’autorisation écrite
+préalable de l’IB. De plus, la licence associée à ce produit interdit toute utilisation de tout
+fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris, sans
+toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de tutorat ou
+d’aide aux études, des établissements de préparation à l’enseignement supérieur, des
+fournisseurs de services de planification des programmes d’études, des gestionnaires de
+plateformes pédagogiques en ligne, et des développeurs d’applications, moyennant
+paiement ou non, est interdite et constitue une infraction pénale.
+
+Pour plus d’informations sur la procédure à suivre pour obtenir une autorisation écrite
+sous la forme d’une licence, rendez-vous à l’adresse https://ibo.org/become-an-ib-school/
+ib-publishing/licensing/applying-for-a-license/.
+
+© Organización del Bachillerato Internacional, 2021
+
+Todos los derechos reservados. No se podrá reproducir ninguna parte de este producto
+de ninguna forma ni por ningún medio electrónico o mecánico, incluidos los sistemas de
+almacenamiento y recuperación de información, sin la previa autorización por escrito del
+IB. Además, la licencia vinculada a este producto prohíbe el uso de todo archivo o
+fragmento seleccionado de este producto. El uso por parte de terceros —lo que incluye,
+a título enunciativo, editoriales, profesores particulares, servicios de apoyo académico o
+ayuda para el estudio, colegios preparatorios, desarrolladores de aplicaciones y
+entidades que presten servicios de planificación curricular u ofrezcan recursos para
+docentes mediante plataformas digitales—, ya sea incluido en tasas o no, está prohibido
+y constituye un delito.
+
+En este enlace encontrará más información sobre cómo solicitar una autorización por
+escrito en forma de licencia: https://ibo.org/become-an-ib-school/ib-publishing/licensing/
+applying-for-a-license/.
+                                                  –3–                 M21/5/MATHX/HP3/ENG/TZ1/XX/M
+
+
+                                      Instructions to Examiners
+
+Abbreviations
+
+M    Marks awarded for attempting to use a correct Method.
+A    Marks awarded for an Answer or for Accuracy; often dependent on preceding M marks.
+R    Marks awarded for clear Reasoning.
+AG   Answer given in the question and so no marks are awarded.
+FT   Follow through. The practice of awarding marks, despite candidate errors in previous parts, for their
+     correct methods/answers using incorrect results.
+
+
+Using the markscheme
+
+1    General
+
+     Award marks using the annotations as noted in the markscheme eg M1, A2.
+
+
+2    Method and Answer/Accuracy marks
+
+     • Do not automatically award full marks for a correct answer; all working must be checked,
+       and marks awarded according to the markscheme.
+     • It is generally not possible to award M0 followed by A1, as A mark(s) depend on
+       the preceding M mark(s), if any.
+     • Where M and A marks are noted on the same line, e.g. M1A1, this usually means M1 for
+       an attempt to use an appropriate method (e.g. substitution into a formula) and A1 for using
+       the correct values.
+     • Where there are two or more A marks on the same line, they may be awarded
+       independently; so if the first value is incorrect, but the next two are correct, award A0A1A1.
+     • Where the markscheme specifies A3, M2 etc., do not split the marks, unless there is a note.
+     • The response to a “show that” question does not need to restate the AG line, unless a Note
+       makes this explicit in the markscheme.
+     • Once a correct answer to a question or part question is seen, ignore further working even if
+       this working is incorrect and/or suggests a misunderstanding of the question. This will
+       encourage a uniform approach to marking, with less examiner discretion. Although some
+       candidates may be advantaged for that specific question item, it is likely that these candidates
+       will lose marks elsewhere too.
+     • An exception to the previous rule is when an incorrect answer from further working is used in
+       a subsequent part. For example, when a correct exact value is followed by an incorrect
+       decimal approximation in the first part and this approximation is then used in the second part.
+       In this situation, award FT marks as appropriate but do not award the final A1 in the first part.
+       Examples:
+
+     Correct        Further            Any FT issues?
+                                                                  Action
+     answer seen    working seen
+1.                     5.65685...        No.                       Award A1 for the final mark
+       8 2           (incorrect          Last part in question.    (condone the incorrect further
+                    decimal value)                                 working)
+2.                    0.468111…          Yes.                      Award A0 for the final mark
+        35
+                     (incorrect          Value is used in          (and full FT is available in
+        72          decimal value)       subsequent parts.         subsequent parts)
+                                                –4–               M21/5/MATHX/HP3/ENG/TZ1/XX/M
+
+
+3   Implied marks
+
+    Implied marks appear in brackets e.g. (M1),and can only be awarded if correct work is seen or
+    implied by subsequent working/answer.
+
+
+4   Follow through marks (only applied after an error is made)
+
+    Follow through (FT) marks are awarded where an incorrect answer from one part of a question
+    is used correctly in subsequent part(s) (e.g. incorrect value from part (a) used in part (d) or
+    incorrect value from part (c)(i) used in part (c)(ii)). Usually, to award FT marks, there must be
+    working present and not just a final answer based on an incorrect answer to a previous part.
+    However, if all the marks awarded in a subsequent part are for the answer or are implied, then
+    FT marks should be awarded for their correct answer, even when working is not present.
+
+    For example: following an incorrect answer to part (a) that is used in subsequent parts, where
+    the markscheme for the subsequent part is (M1)A1, it is possible to award full marks for their
+    correct answer, without working being seen. For longer questions where all but the answer
+    marks are implied this rule applies but may be overwritten by a Note in the Markscheme.
+
+    • Within a question part, once an error is made, no further A marks can be awarded for work
+      which uses the error, but M marks may be awarded if appropriate.
+
+    • If the question becomes much simpler because of an error then use discretion to award
+      fewer FT marks, by reflecting on what each mark is for and how that maps to the simplified
+      version.
+
+    • If the error leads to an inappropriate value (e.g. probability greater than 1, sin q = 1.5 , non-
+      integer value where integer required), do not award the mark(s) for the final answer(s).
+
+    • The markscheme may use the word “their” in a description, to indicate that candidates may
+      be using an incorrect value.
+
+    • If the candidate’s answer to the initial question clearly contradicts information given in the
+      question, it is not appropriate to award any FT marks in the subsequent parts. This includes
+      when candidates fail to complete a “show that” question correctly, and then in subsequent parts
+      use their incorrect answer rather than the given value.
+
+    • Exceptions to these FT rules will be explicitly noted on the markscheme.
+
+    • If a candidate makes an error in one part but gets the correct answer(s) to subsequent
+      part(s), award marks as appropriate, unless the command term was “Hence”.
+                                               –5–                M21/5/MATHX/HP3/ENG/TZ1/XX/M
+
+
+5   Mis-read
+
+    If a candidate incorrectly copies values or information from the question, this is a mis-read
+    (MR). A candidate should be penalized only once for a particular misread. Use the MR stamp
+    to indicate that this has been a misread and do not award the first mark, even if this is an M
+    mark, but award all others as appropriate.
+
+    • If the question becomes much simpler because of the MR, then use discretion to award
+      fewer marks.
+
+    • If the MR leads to an inappropriate value (e.g. probability greater than 1, sin q = 1.5 , non-
+      integer value where integer required), do not award the mark(s) for the final answer(s).
+
+    • Miscopying of candidates’ own work does not constitute a misread, it is an error.
+
+    • If a candidate uses a correct answer, to a “show that” question, to a higher degree of
+      accuracy than given in the question, this is NOT a misread and full marks may be scored in
+      the subsequent part.
+
+    • MR can only be applied when work is seen. For calculator questions with no working and
+      incorrect answers, examiners should not infer that values were read incorrectly.
+
+
+6   Alternative methods
+
+    Candidates will sometimes use methods other than those in the markscheme. Unless the
+    question specifies a method, other correct methods should be marked in line with the
+    markscheme. If the command term is ‘Hence’ and not ‘Hence or otherwise’ then alternative
+    methods are not permitted unless covered by a note in the mark scheme.
+
+    • Alternative methods for complete questions are indicated by                         METHOD   1,
+      METHOD 2, etc.
+    • Alternative solutions for parts of questions are indicated by EITHER . . . OR.
+                                                      –6–                   M21/5/MATHX/HP3/ENG/TZ1/XX/M
+
+
+7   Alternative forms
+
+    Unless the question specifies otherwise, accept equivalent forms.
+
+    • As this is an international examination, accept all alternative forms of notation for example
+      1.9 and 1,9 or 1000 and 1,000 and 1.000 .
+
+    • Do not accept final answers written using calculator notation. However, M marks and
+      intermediate A marks can be scored, when presented using calculator notation, provided
+      the evidence clearly reflects the demand of the mark.
+
+    • In the markscheme, equivalent numerical and algebraic forms will generally be written in
+      brackets immediately following the answer.
+
+    • In the markscheme, some equivalent answers will generally appear in brackets. Not all
+      equivalent notations/answers/methods will be presented in the markscheme and examiners are
+      asked to apply appropriate discretion to judge if the candidate work is equivalent.
+
+8   Format and accuracy of answers
+
+    If the level of accuracy is specified in the question, a mark will be linked to giving the answer
+    to the required accuracy. If the level of accuracy is not stated in the question, the general rule
+    applies to final answers: unless otherwise stated in the question all numerical answers must
+    be given exactly or correct to three significant figures.
+
+    Where values are used in subsequent parts, the markscheme will generally use the exact
+    value, however candidates may also use the correct answer to 3 sf in subsequent parts. The
+    markscheme will often explicitly include the subsequent values that come “from the use of 3 sf
+    values”.
+
+    Simplification of final answers: Candidates are advised to give final answers using good
+    mathematical form. In general, for an A mark to be awarded, arithmetic should be completed,
+                                                                                       25
+    and any values that lead to integers should be simplified; for example,               should be written
+                                                                                       4
+        5
+    as    . An exception to this is simplifying fractions, where lowest form is not required
+        2
+                                                                                         10
+    (although the numerator and the denominator must be integers); for example,             may be left
+                                                                                          4
+                              5               10
+    in this form or written as . However,         should be written as 2, as it simplifies to an
+                              2                5
+    integer.
+
+    Algebraic expressions should be simplified by completing any operations such as addition
+    and multiplication, e.g. 4e 2 x ´ e3 x should be simplified to 4e5 x , and 4e2 x ´ e3 x - e4 x ´ e x should
+    be simplified to 3e 5 x . Unless specified in the question, expressions do not need to be
+    factorized, nor do factorized expressions need to be expanded, so x ( x + 1) and x 2 + x are
+    both acceptable.
+
+    Please note: intermediate A marks do NOT need to be simplified.
+                                                   –7–                M21/5/MATHX/HP3/ENG/TZ1/XX/M
+
+
+9     Calculators
+
+      A GDC is required for this paper, but If you see work that suggests a candidate has used any
+      calculator not approved for IB DP examinations (eg CAS enabled devices), please follow the
+      procedures for malpractice.
+
+
+10.   Presentation of candidate work
+
+      Crossed out work: If a candidate has drawn a line through work on their examination script,
+      or in some other way crossed out their work, do not award any marks for that work unless
+      an explicit note from the candidate indicates that they would like the work to be marked.
+
+      More than one solution: Where a candidate offers two or more different answers to the
+      same question, an examiner should only mark the first response unless the candidate
+      indicates otherwise. If the layout of the responses makes it difficult to judge, examiners
+      should apply appropriate discretion to judge which is “first”.
+                                                   –8–                  M21/5/MATHX/HP3/ENG/TZ1/XX/M
+
+
+1.   (a)   (i)
+
+
+
+
+                 c = 1 : positive cubic with correct y-intercept labelled                      A1
+                 local maximum point correctly labelled                                        A1
+                 local minimum point correctly labelled                                        A1
+                                                                                         [3 marks]
+
+
+                                                                                        continued…
+                                                  –9–                  M21/5/MATHX/HP3/ENG/TZ1/XX/M
+
+
+Question 1 continued
+
+
+          (ii)
+
+
+
+
+                 c = 2 : positive cubic with correct y-intercept labelled                     A1
+                 local maximum point correctly labelled                                       A1
+                 local minimum point correctly labelled                                       A1
+
+
+     Note: Accept the following exact answers:
+
+                                             (
+            Local maximum point coordinates - 2,2 + 4 2 .   )
+            Local minimum point coordinates ( 2,2 - 4 2 ) .
+
+
+
+                                                                                        [3 marks]
+                                                                                       continued…
+                                                     – 10 –               M21/5/MATHX/HP3/ENG/TZ1/XX/M
+
+
+Question 1 continued
+
+
+     (b)    f ¢ ( x ) = 3x2 - 3c                                                                   A1
+
+
+
+     Note: Accept 3x 2 - 3c (an expression).
+
+
+                                                                                              [1 mark]
+
+
+
+
+     (c)   (i)     c=0                                                                             A1
+                                                                                              [1 mark]
+
+
+
+
+           (ii)    considers the number of solutions to their f ¢ ( x ) = 0                      (M1)
+
+                   3x 2 - 3c = 0
+                   c>0                                                                             A1
+                                                                                             [2 marks]
+
+
+
+
+           (iii)   c<0                                                                             A1
+
+
+     Note: The (M1) in part (c)(ii) can be awarded for work shown in either (ii) or (iii).
+
+
+                                                                                              [1 mark]
+                                                       – 11 –           M21/5/MATHX/HP3/ENG/TZ1/XX/M
+
+
+(d)   attempts to solve their f ¢ ( x ) = 0 for x                                             (M1)
+
+      x=± c                                                                                   (A1)
+
+
+
+Note: Award (A1) if either x = - c or x =               c is subsequently considered.
+        Award the above (M1)(A1) if this work is seen in part (c).
+
+
+
+
+      (i)    correctly evaluates f - c     (       )                                           A1
+
+                               3       3
+
+                 (     )                       (
+             f - c = -c + 3c + 2 = -c c + 3c c + 2
+                               2       2
+                                                                    )
+                                                                        3
+             the y - coordinate of the local maximum point is 2c 2 + 2                         AG
+                                                                                         [3 marks]
+
+
+
+
+      (ii)   correctly evaluates f         ( c)                                                A1
+
+                           3       3
+             f   ( )                       (
+                     c = c 2 - 3c 2 + 2 = c c - 3c c + 2        )
+                                                                         3
+             the y - coordinate of the local minimum point is -2c 2 + 2                        AG
+                                                                                          [1 mark]
+                                                                                        continued…
+                                                   – 12 –               M21/5/MATHX/HP3/ENG/TZ1/XX/M
+
+
+Question 1 continued
+
+
+     (e)   (i)    the graph of y = f ( x ) will have one x - axis intercept if
+
+                  EITHER
+                       3
+                  -2c 2 + 2 > 0 (or equivalent reasoning)                                          R1
+
+
+                  OR
+                  the minimum point is above the x - axis                                          R1
+
+
+     Note: Award R1 for a rigorous approach that does not (only) refer to sketched graphs.
+
+
+                  THEN
+                  0 < c <1                                                                         A1
+
+
+     Note: Condone c < 1 . The A1 is independent of the R1.
+
+
+                                                                                             [2 marks]
+
+
+           (ii)   the graph of y = f ( x ) will have two x - axis intercepts if
+
+                  EITHER
+                       3
+                  -2c 2 + 2 = 0 (or equivalent reasoning)                                        (M1)
+                  OR
+                  evidence from the graph in part(a)(i)                                          (M1)
+                  THEN
+                  c =1                                                                             A1
+                                                                                             [2 marks]
+                                                                                         continued…
+                                                    – 13 –               M21/5/MATHX/HP3/ENG/TZ1/XX/M
+
+
+Question 1 continued
+
+          (iii)   the graph of y = f ( x ) will have three x - axis intercepts if
+
+                  EITHER
+                       3
+                  -2c 2 + 2 < 0 (or equivalent reasoning)                                      (M1)
+                  OR
+                  reasoning from the results in both parts (e)(i) and (e)(ii)                  (M1)
+                  THEN
+                  c >1                                                                          A1
+                                                                                          [2 marks]
+
+
+                                                                                         continued…
+                                                    – 14 –               M21/5/MATHX/HP3/ENG/TZ1/XX/M
+
+
+Question 1 continued
+
+
+     (f)   case 1:
+           c £ 0 (independent of the value of d )                                               A1
+
+
+           EITHER
+
+           g ¢ ( x ) = 0 does not have two solutions (has no solutions or 1 solution)           R1
+
+           OR
+
+           Þ g ¢ ( x ) ³ 0 for x Î !                                                            R1
+
+           OR
+
+           the graph of y = f ( x ) has no local maximum or local minimum points,
+           hence any vertical translation of this graph ( y = g ( x ) ) will also have
+           no local maximum or local minimum points                                             R1
+           THEN
+           therefore there is only one x- axis intercept                                        AG
+
+
+     Note: Award at most A0R1 if only c < 0 is considered.
+                                                                                         continued…
+                                                  – 15 –              M21/5/MATHX/HP3/ENG/TZ1/XX/M
+
+
+Question 1 continued
+          case 2
+           c>0
+           æ          3
+                            ö                              æ         3
+                                                                           ö
+           ç - c , 2c 2
+                        + d ÷ is a local maximum point and ç c , -2c 2
+                                                                       + d ÷ is a
+           è                ø                              è               ø
+          local minimum point                                                                   (A1)
+
+
+     Note: Award (A1) for a correct y - coordinate seen for either the maximum or the
+           minimum.
+
+
+          considers the positions of the local maximum point and/or the local minimum point     (M1)
+
+
+          EITHER
+          considers both points above the x- axis or both points below the x- axis
+          OR
+          considers either the local minimum point only above the x- axis OR
+          the local maximum point only below the x- axis
+          THEN
+                   3
+           d > 2c 2 (both points above the x- axis)                                               A1
+                       3
+           d < -2c (both points below the x- axis)
+                       2                                                                          A1
+
+
+     Note: Award at most (A1)(M1)A0A0 for case 2 if c > 0 is not clearly stated.
+
+
+                                                                                           [6 marks]
+                                                                                     Total [27 marks]
+                                               – 16 –             M21/5/MATHX/HP3/ENG/TZ1/XX/M
+
+
+2.   (a)   A = s 2 and P = 4 s                                                                 (A1)
+
+           A = P Þ s 2 = 4s                                                                    (M1)
+
+           s ( s - 4) = 0
+
+           Þ s = 4 ( s > 0)                                                                     A1
+
+
+     Note: Award A1M1A0 if both s = 4 and s = 0 are stated as final answers.
+                                                                                          [3 marks]
+
+
+
+
+                  1 2     2π
+     (b)   AT =     x sin                                                                       A1
+                  2        n
+
+
+     Note: Award A1 for a correct alternative form expressed in terms of x and n only.
+
+                                                                   π 2 2 2π
+            For example, using Pythagoras’ theorem, AT = x sin       x - x sin   or
+                                                                   n           n
+                   æ1æ      π öæ     π öö                π   π
+            AT = 2 ç ç x sin ÷ç x cos ÷ ÷ or AT = x 2 sin cos .
+                   è 2è     n øè     n øø                n   n
+
+
+                                                                                           [1 mark]
+                                                                                         continued…
+                                               – 17 –             M21/5/MATHX/HP3/ENG/TZ1/XX/M
+
+
+Question 2 continued
+
+
+     (c)   METHOD 1
+                               opp
+           uses sin q =                                                                 (M1)
+                               hyp
+           y
+           2 = sin π                                                                     A1
+           x       n
+                           π
+           y = 2 x sin                                                                   AG
+                           n
+                                                                                   [2 marks]
+
+
+           METHOD 2
+                                          2
+                                    æ yö
+           uses Pythagoras’ theorem ç ÷ + h 2 = x 2 and h = x cos
+                                                                  π
+                                                                                        (M1)
+                                    è2ø                           n
+                2                    2
+           æ yö æ       πö    2 æ 2     2æ       2 π öö
+           ç ÷ + ç x cos ÷ = x ç y = 4 x ç1 - cos ÷ ÷
+           è2ø è        nø      è        è         n øø
+                           π
+           = 4 x 2 sin 2                                                                 A1
+                           n
+                           π
+           y = 2 x sin                                                                   AG
+                           n
+                                                                                   [2 marks]
+                                                                                  continued…
+                                                          – 18 –   M21/5/MATHX/HP3/ENG/TZ1/XX/M
+
+
+Question 2 continued
+          METHOD 3
+          uses the cosine rule                                                           (M1)
+
+                                     2π æ         æ       2π ö ö
+           y 2 = 2 x 2 - 2 x 2 cos      ç = 2 x 2 ç1 - cos ÷ ÷
+                                      n è         è        n øø
+                           π
+           = 4 x 2 sin 2                                                                  A1
+                           n
+                           π
+           y = 2 x sin                                                                    AG
+                           n
+                                                                                    [2 marks]
+
+
+
+
+          METHOD 4
+          uses the sine rule                                                             (M1)
+              y          x
+                  =
+               2π       æπ πö
+           sin      sin ç - ÷
+                n       è2 nø
+                   π          π    π
+           y cos     = 2 x sin cos                                                        A1
+                   n          n    n
+                           π
+           y = 2 x sin                                                                    AG
+                           n
+                                                                                    [2 marks]
+
+
+                                                                                   continued…
+                                                    – 19 –           M21/5/MATHX/HP3/ENG/TZ1/XX/M
+
+
+Question 2 continued
+
+
+     (d)   A = P Þ nAT = ny                                                                (M1)
+
+
+     Note: Award M1 for equating correct expressions for A and P .
+
+
+           1 2      2π          π æ        π   π         πö
+             nx sin    = 2nx sin ç nx 2 sin cos = 2nx sin ÷
+           2         n          n è        n   n         nø
+           1 2     2π          π æ       π   π         πö
+             x sin    = 2 x sin ç x 2 sin cos = 2 x sin ÷                                   A1
+           2        n          n è       n   n         nø
+                      2π       π   π
+           uses sin      = 2sin cos (seen anywhere in part (d) or in part (b))             (M1)
+                       n       n   n
+                  π   π          π
+           x 2 sin cos = 2 x sin
+                  n   n          n
+           attempts to either factorise or divide their expression                         (M1)
+                πæ      π    ö
+           x sin ç x cos - 2 ÷ = 0
+                nè      n    ø
+                  2     æ      π    ö
+           x=         , ç x sin ¹ 0 ÷ (or equivalent)                                       A1
+                    π è        n    ø
+                cos
+                    n
+                                                                                     continued…
+                                                     – 20 –        M21/5/MATHX/HP3/ENG/TZ1/XX/M
+
+
+Question 2 continued
+
+
+          EITHER
+                                2
+          substitutes x =           (or equivalent) into P = ny                                 (M1)
+                                π
+                            cos
+                                n
+                  æ      ö
+                  ç 2 ÷æ        πö
+           P = 2n ç      ÷ ç sin ÷                                                                A1
+                       π
+                  ç cos ÷ è     nø
+                  è    nø
+
+
+                                                                                  π     π
+     Note: Other approaches are possible. For example, award A1 for P = 2nx cos     tan
+                                                                                  n     n
+                                             2
+            and M1 for substituting x =            into P .
+                                               π
+                                           cos
+                                               n
+
+
+          OR
+                                2
+          substitutes x =           (or equivalent) into A = nAT                                (M1)
+                                π
+                            cos
+                                n
+                            2
+                æ       ö
+              1 ç 2 ÷ æ 2π ö
+           A = nç       ÷ ç sin ÷
+              2 ç cos π ÷ è    n ø
+                è     nø
+                            2
+                æ       ö
+              1 ç 2 ÷ æ         π   πö
+           A = nç       ÷ ç 2sin cos ÷                                                            A1
+              2 ç cos π ÷ è     n   nø
+                è     nø
+          THEN
+                            π
+           A = P = 4n tan                                                                        AG
+                            n
+                                                                                            [7 marks]
+
+
+                                                                                        continued…
+                                                    – 21 –            M21/5/MATHX/HP3/ENG/TZ1/XX/M
+
+
+Question 2 continued
+
+
+                                                                            π
+     (e)   (i)    attempts to use the Maclaurin series for tan x with x =                   (M1)
+                                                                            n
+                                    3         5
+                          æπö    æπö
+                          ç   ÷ 2ç ÷
+                     π π    n      n
+                  tan = + è ø + è ø ( +...)
+                     n n    3     15
+                           π      æ π π3 2π5          ö
+                                             5(
+                  4n tan     = 4n ç + 3 +       +...) ÷ (or equivalent)                      A1
+                           n      è n 3n 15n          ø
+                     æ     π3  2π5        ö
+                  = 4ç π + 2 +    4
+                                    + ... ÷
+                     è    3n 15n          ø
+                         æ      πö
+                  Þ lim ç 4n tan ÷ = 4π                                                      A1
+                    n ®¥
+                         è      nø
+
+
+     Note: Award a maximum of M1A1A0 if lim is not stated anywhere.
+                                                  n®¥
+
+                                                                                       [3 marks]
+
+
+
+
+           (ii)   (as n ® ¥ , P ® 4π and A ® 4π )
+                  the polygon becomes a circle of radius 2                                   R1
+
+
+     Note: Award R1 for alternative responses such as:
+     the polygon becomes a circle of area 4π OR
+     the polygon becomes a circle of perimeter 4π OR
+     the polygon becomes a circle with A = P = 4π .
+     Award R0 for polygon becomes a circle.
+
+
+                                                                                        [1 mark]
+                                                    – 22 –                      M21/5/MATHX/HP3/ENG/TZ1/XX/M
+
+
+         1
+(f)   A = ab and P = a + b + a 2 + b2                                                             (A1)(A1)
+         2
+      equates their expressions for A and P                                                            M1
+                                 1
+      A = P Þ a + b + a 2 + b 2 = ab
+                                 2
+                  1
+        a 2 + b2 = ab - ( a + b )                                                                      M1
+                  2
+
+
+Note: Award M1 for isolating             a2 + b2 or ±2 a 2 + b2 . This step may be seen later.
+
+                                     2
+              æ1               ö
+      a + b = ç ab - ( a + b ) ÷
+       2     2
+
+              è2               ø
+                 1           æ1 ö
+      a 2 + b 2 = a 2b 2 - 2 ç ab ÷ ( a + b ) + ( a + b )
+                                                          2
+                                                                                                       M1
+                 4           è2 ø
+      æ 1 2 2 2                       2ö
+      ç = a b - a b - ab + a + 2ab + b ÷
+                        2   2
+
+      è 4                              ø
+
+
+Note: Award M1 for attempting to expand their RHS of either a 2 + b 2 = ...
+
+            (         )
+       or 4 a 2 + b2 = ....
+
+
+      EITHER
+
+         æ1               ö
+      ab ç ab - a - b + 2 ÷ = 0 ( ab ¹ 0 )                                                             A1
+         è4               ø
+      1
+        ab - a - b + 2 = 0
+      4
+      ab - 4a = 4b - 8
+      OR
+      1 2 2
+        a b - a 2b - ab 2 + 2ab = 0
+      4
+        æ1        ö
+                                          (
+      a ç b 2 - b ÷ + ( 2b - b 2 ) = 0 a ( b 2 - 4b ) + ( 8b - 4b 2 ) = 0
+        è4        ø
+                                                                            )                          A1
+
+
+           4b2 - 8b
+      a=
+           b2 - 4b
+                                                                                                continued…
+                                                  – 23 –             M21/5/MATHX/HP3/ENG/TZ1/XX/M
+
+
+Question 2 continued
+
+
+          THEN
+                   4b - 8
+           Þa=                                                                                  A1
+                   b-4
+                4b - 16 + 8
+           a=
+                   b-4
+                 8
+           a=       +4                                                                          AG
+                b-4
+
+
+     Note: Award a maximum of A1A1M1M1M0A0A0 for attempting to verify.
+                                                   16
+            For example, verifying that A = P =       + 2b + 4 gains 4 of the 7 marks.
+                                                  b-4
+                                                                                          [7 marks]
+                                                                                         continued…
+                                                   – 24 –               M21/5/MATHX/HP3/ENG/TZ1/XX/M
+
+
+Question 2 continued
+
+
+     (g)   (i)    using an appropriate method                                                   (M1)
+                  eg substituting values for b or using divisibility properties
+
+                  (5,12,13) and ( 6,8,10 )                                                     A1A1
+
+
+     Note: Award A1A0 for either one set of three correct side lengths or two sets of two
+           correct side lengths.
+
+
+                                                                                            [3 marks]
+           (ii)   A = P = 30 and A = P = 24                                                       A1
+
+
+     Note: Do not award A1FT.
+
+
+                                                                                             [1 mark]
+                                                                                    Total [28 marks]
+

@@ -1,0 +1,291 @@
+M18/5/FURMA/HP1/ENG/TZ0/XX
+
+
+
+
+Further mathematics
+Higher level
+Paper 1
+
+
+Thursday 17 May 2018 (afternoon)
+
+
+2 hours 30 minutes
+
+
+Instructions to candidates
+yyDo not open this examination paper until instructed to do so.
+yyAnswer all questions.
+yyUnless otherwise stated in the question, all numerical answers should be given exactly or
+  correct to three significant figures.
+yyA graphic display calculator is required for this paper.
+yyA clean copy of the mathematics HL and further mathematics HL formula booklet is
+  required for this paper.
+yyThe maximum mark for this examination paper is [150 marks].
+
+
+
+
+                                                                                              2218 – 7101
+     7 pages                                              © International Baccalaureate Organization 2018
+                                                   –2–                M18/5/FURMA/HP1/ENG/TZ0/XX
+
+Full marks are not necessarily awarded for a correct answer with no working. Answers must be
+supported by working and/or explanations. In particular, solutions found from a graphic display
+calculator should be supported by suitable working. For example, if graphs are used to find a solution,
+you should sketch these as part of your answer. Where an answer is incorrect, some marks may be
+given for a correct method, provided this is shown by written working. You are therefore advised to
+show all working.
+
+1.   [Maximum mark: 9]
+
+     (a)   Use the Euclidean algorithm to find the greatest common divisor of 74 and 383.                 [4]
+
+     (b)   Hence find integers s and t such that 74s + 383t = 1 .                                         [5]
+
+
+2.   [Maximum mark: 6]
+
+     Let A2 = 2A + I where A is a 2 × 2 matrix.
+
+     (a)   Show that A4 = 12A + 5I .                                                                      [3]
+
+
+              4 2 
+     Let B =      .
+              1 −3
+
+                                     k 0 
+     (b)   Given that B 2 – B – 4I =      , find the value of k .                                       [3]
+                                     0 k 
+
+
+3.   [Maximum mark: 7]
+
+     (a)   A number written in base 5 is 4303. Find this as a number written in base 10.                  [2]
+
+     (b)   1000 is a number written in base 10. Find this as a number written in base 7.                  [5]
+                                                     –3–                           M18/5/FURMA/HP1/ENG/TZ0/XX
+
+4.   [Maximum mark: 12]
+
+     The transformations T1 , T2 , T3 , T4 , in the plane are defined as follows:
+
+     T1 : A rotation of 360 about the origin
+     T2 : An anticlockwise rotation of 270 about the origin
+     T3 : A rotation of 180 about the origin
+     T4 : An anticlockwise rotation of 90 about the origin.
+
+     (a)   Copy and complete the following Cayley table for the transformations of T1 , T2 , T3 , T4 ,
+           under the operation of composition of transformations.
+
+
+                                      T1            T2           T3                 T4
+
+                          T1          T1            T2           T3                 T4
+
+                          T2          T2
+
+                          T3          T3
+
+                          T4          T4
+                                                                                                           [2]
+
+     (b)   (i)    Show that T1 , T2 , T3 , T4 under the operation of composition of transformations
+                  form a group. Associativity may be assumed.
+
+		         (ii)   Show that this group is cyclic.                                                          [4]
+
+     The transformation T5 is defined as a reflection in the x-axis.
+
+     (c)   Write down the 2 × 2 matrices representing T3 , T4 and T5 .                                     [3]
+
+     (d)   The transformation T is defined as the composition of T3 followed by T5 followed
+           by T4 .
+
+		         (i)    Find the 2 × 2 matrix representing T .
+
+		         (ii)   Give a geometric description of the transformation T .                                   [3]
+
+
+5.   [Maximum mark: 7]
+
+                                                           ∞
+                                                                     1
+     Use the integral test to determine whether or not     ∑ n ln n              converges.                [7]
+                                                                 (       )
+                                                                             2
+                                                           n=2
+
+
+
+
+                                                                                                     Turn over
+                                                     –4–                 M18/5/FURMA/HP1/ENG/TZ0/XX
+
+6.   [Maximum mark: 9]
+
+  (a) Consider the integers between 1 and 20 inclusive.
+		Let A = {multiples of 2} , B = {multiples of 3} , C = {multiples of 4} .
+		    Find the elements in each of the following sets,
+
+		(i)             A ∩ (B ∪ C) ;
+
+		(ii)            A \ (B \ C) .                                                                           [5]
+
+     (b)   Let M = {x : x is an integer multiple of 10} and let N = {x : x is an integer multiple of 5}
+           Prove that M is a proper subset of N .                                                         [4]
+
+
+7.   [Maximum mark: 9]
+
+     A sample of size 100 is taken from a normal population with unknown mean µ and known
+     variance 36.
+
+     (a)   An investigator wishes to test the hypotheses H0 : µ = 65 , H1 : µ > 65 .
+
+		         He decides on the following acceptance criteria:
+           Accept H0 if the sample mean x ≤ 66.5
+           Accept H1 if x > 66.5
+
+           Find the probability of a Type I error.                                                        [3]
+
+     (b)   Another investigator decides to use the same data to test the hypotheses
+           H0 : µ = 65 , H1 : µ = 67.9 .
+
+		         (i)    She decides to use the same acceptance criteria as the previous investigator.
+                  Find the probability of a Type II error.
+
+		         (ii)   Find the critical value for x if she wants the probabilities of a Type I error and a
+                  Type II error to be equal.                                                              [6]
+                                                     –5–                 M18/5/FURMA/HP1/ENG/TZ0/XX
+
+ 8.   [Maximum mark: 13]
+
+      Consider the simultaneous linear equations
+                                              x+z=-1
+                                              3x + y + 2z = 1
+                                              2x + ay - z = b
+      where a and b are constants.
+
+      (a)   Using row reduction, find the solutions in terms of a and b when a ≠ 3 .                     [8]
+
+      (b)   Explain why the equations have no unique solution when a = 3 .                               [1]
+
+      (c)   Find all the solutions to the equations when a = 3 , b = 10 in the form r = s + λt .         [4]
+
+
+ 9.   [Maximum mark: 13]
+
+      (a)   Given that A is the interval {x : 0 ≤ x ≤ 3} and B is the interval {y : 0 ≤ y ≤ 4} then
+            describe A × B in geometric form.                                                            [3]
+
+
+      (b)   Let f :  ×  →  ×  be defined by f (x , y) = (x + 3y , 2x - y) .
+
+            (i)    Show that the function f is a bijection.
+
+            (ii)   Hence find the inverse function f -1 .                                               [10]
+
+
+10.   [Maximum mark: 12]
+
+      (a)   By considering the images of the points (1, 0) and (0, 1),
+
+            (i)    determine the 2 × 2 matrix P which represents a reflection in the line
+                   y = (tan θ)x ;
+
+            (ii)   determine the 2 × 2 matrix Q which represents an anticlockwise rotation of θ
+                   about the origin.                                                                     [5]
+
+      (b)   Describe the transformation represented by the matrix PQ .                                   [5]
+
+      (c)   A matrix M is said to be orthogonal if M TM = I where I is the identity. Show that Q is
+            orthogonal.                                                                                  [2]
+
+
+
+
+                                                                                                   Turn over
+                                                     –6–                  M18/5/FURMA/HP1/ENG/TZ0/XX
+
+11.   [Maximum mark: 12]
+
+
+                                                                        y−x
+      Given that y is a function of x , the function z is given by z =     , where x ∈  , x ≠ 3 ,
+      y + x ≠ 0.                                                       y+x
+
+
+                           dz     2       dy   
+      (a)   Show that         =        2 
+                                           x − y.                                                     [3]
+                           dx ( y + x )  d x   
+
+                                                        dy     
+      (b)   Show that the differential equation f ( x)  x  − y  = y 2 − x 2 can be written as
+                      dz                                dx     
+             f ( x)      = 2z .                                                                        [2]
+                      dx
+
+                                                                                dy     
+      (c)   Hence show that the solution to the differential equation ( x − 3)  x  − y  = y2 − x2
+                                                                                dx     
+                                           y − x  x −3
+                                                             2
+
+            given that x = 4 when y = 5 is      =      .                                             [7]
+                                           y+x  3 
+
+
+12.   [Maximum mark: 15]
+
+      (a)   Solve the recurrence relation un = 4un-1 - 4un-2 given that u0 = u1 = 1 .                  [6]
+
+      Consider vn which satisfies the recurrence relation 2vn = 7vn-1 - 3vn-2 subject to the initial
+      conditions v0 = v1 = 1 .
+
+                                                                 n
+                                                     41 1
+      (b)   Prove by using strong induction that vn =   + (3) n for n ∈  .                          [9]
+                                                     52 5
+
+
+13.   [Maximum mark: 9]
+
+
+                                   2 −4 
+      Consider the matrix M =           .
+                                   −1 −1
+
+      (a)   Show that the linear transformation represented by M transforms any point on the line
+            y = x to a point on the same line.                                                         [2]
+
+      (b)   Explain what happens to points on the line 4y + x = 0 when they are transformed
+            by M .                                                                                     [3]
+
+      (c)   State the two eigenvalues of M .                                                           [2]
+
+      (d)   State two eigenvectors of M which correspond to the two eigenvalues.                       [2]
+                                                  –7–                 M18/5/FURMA/HP1/ENG/TZ0/XX
+
+14.   [Maximum mark: 8]
+
+      At an early stage in analysing the marks scored by candidates in an examination paper,
+      the examining board takes a random sample of 250 candidates and finds that the marks, x ,
+      of these candidates give ∑   x = 10985 and  ∑ x 2 = 598736 .
+
+
+      (a)   Calculate a 90% confidence interval for the population mean mark µ for this paper.    [4]
+
+      (b)   The null hypothesis µ = 46.5 is tested against the alternative hypothesis µ < 46.5
+            at the λ% significance level. Determine the set of values of λ for which the null
+            hypothesis is rejected in favour of the alternative hypothesis.                       [4]
+
+
+15.   [Maximum mark: 9]
+
+      Given that the tangents at the points P and Q on the parabola y2 = 4ax are perpendicular,
+      find the locus of the midpoint of PQ.                                                       [9]
+

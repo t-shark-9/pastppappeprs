@@ -1,0 +1,163 @@
+N14/5/MATHL/HP3/ENG/TZ0/SE
+
+
+
+
+      88147208
+
+MATHEMATICS
+HIGHER LEVEL
+PAPER 3 – CALCULUS
+
+Thursday 13 November 2014 (afternoon)
+
+1 hour
+
+
+INSTRUCTIONS TO CANDIDATES
+
+ Do not open this examination paper until instructed to do so.
+ Answer all the questions.
+ Unless otherwise stated in the question, all numerical answers should be given exactly or
+  correct to three significant figures.
+ A graphic display calculator is required for this paper.
+ A clean copy of the Mathematics HL and Further Mathematics HL formula booklet is required
+  for this paper.
+ The maximum mark for this examination paper is [60 marks].
+
+
+
+
+8814-7208                                                                                       4 pages
+                                                        © International Baccalaureate Organization 2014
+                                                     –2–                  N14/5/MATHL/HP3/ENG/TZ0/SE
+
+Please start each question on a new page. Full marks are not necessarily awarded for a correct answer
+with no working. Answers must be supported by working and/or explanations. In particular, solutions
+found from a graphic display calculator should be supported by suitable working. For example, if graphs
+are used to find a solution, you should sketch these as part of your answer. Where an answer is incorrect,
+some marks may be given for a correct method, provided this is shown by written working. You are therefore
+advised to show all working.
+
+1.    [Maximum mark: 14]
+
+      (a)   Use the integral test to determine the convergence or divergence of
+
+                                                        ∞
+                                                              1
+                                                       ∑n
+                                                       n =1
+                                                              0.5   .                                 [3]
+
+
+                      ∞
+                          ( x + 1) n
+      (b)   Let S = ∑       n    0.5
+                                     .
+                     n =1 2 × n
+
+
+
+		          (i)    Use the ratio test to show that S is convergent for −3 < x < 1 .
+
+            (ii)   Hence find the interval of convergence for  S .                                   [11]
+
+
+
+
+8814-7208
+                                                      –3–                      N14/5/MATHL/HP3/ENG/TZ0/SE
+
+2.    [Maximum mark: 14]
+
+                                                                                        dx x   2
+      (a)   Use an integrating factor to show that the general solution for               − = − , t > 0 is
+                                                                                        dt t   t
+            x = 2 + ct , where c is a constant.                                                              [4]
+
+      The weight in kilograms of a dog, t weeks after being bought from a pet shop, can be
+      modelled by the following function:
+
+                                                     2 + ct 0 ≤ t ≤ 5
+                                                    
+                                           w (t ) =      35           .
+                                                    16 − t   t >5
+
+
+      (b)   Given that w (t ) is continuous, find the value of  c .                                          [2]
+
+      (c)   Write down
+
+		          (i)    the weight of the dog when bought from the pet shop;
+
+		          (ii)   an upper bound for the weight of the dog.                                                 [2]
+
+      (d)   Prove from first principles that w (t ) is differentiable at t = 5 .                             [6]
+
+
+3.    [Maximum mark: 10]
+
+                                           dy
+      Consider the differential equation      = f ( x , y ) where f ( x , y ) = y − 2 x .
+                                           dx
+
+      (a)   Sketch, on one diagram, the four isoclines corresponding to f ( x , y ) = k where k takes
+            the values −1, − 0.5 , 0 and 1. Indicate clearly where each isocline crosses the y axis.         [2]
+
+      A curve, C, passes through the point (0 , 1) and satisfies the differential equation above.
+
+      (b)   Sketch C on your diagram.                                                                        [3]
+
+      (c)   State a particular relationship between the isocline f ( x , y ) = − 0.5 and the curve C,
+            at their point of intersection.                                                                  [1]
+
+      (d)   Use Euler’s method with a step interval of 0.1 to find an approximate value for  y on C,
+            when x = 0.5 .                                                                                   [4]
+
+
+
+
+8814-7208                                                                                             Turn over
+                                                        –4–                    N14/5/MATHL/HP3/ENG/TZ0/SE
+
+4.    [Maximum mark: 22]
+
+      In this question you may assume that arctan x is continuous and differentiable for x ∈  .
+
+      (a)   Consider the infinite geometric series
+
+                                       1 − x 2 + x 4 − x 6 +…       x < 1.
+
+                                                      1
+		          Show that the sum of the series is            .                                                   [1]
+                                                   1 + x2
+
+                                                                               x3 x5 x 7
+      (b)   Hence show that an expansion of arctan x is arctan x = x −           + − +…                       [4]
+                                                                               3 5 7
+
+
+      (c)   f  is a continuous function defined on [a , b] and differentiable on ] a , b [ with f ′( x) > 0
+            on ] a , b [ .
+
+		          Use the mean value theorem to prove that for any x , y ∈ [a , b] , if y > x
+            then f ( y ) > f ( x) .                                                                           [4]
+
+      (d)   (i)    Given g ( x) = x − arctan x , prove that g ′ ( x) > 0 , for x > 0 .
+
+		          (ii)   Use the result from part (c) to prove that arctan x < x , for x > 0 .                      [4]
+
+
+                                                                     x3
+      (e)   Use the result from part (c) to prove that arctan x > x − , for x > 0 .                           [5]
+                                                                     3
+
+                                 16     6
+      (f)   Hence show that         <π<    .                                                                  [4]
+                                3 3      3
+
+
+
+
+8814-7208
+

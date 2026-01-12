@@ -1,0 +1,165 @@
+M14/5/MATHL/HP3/ENG/TZ0/SP
+
+
+
+
+      22147210
+
+MATHEMATICS
+HIGHER LEVEL
+PAPER 3 – STATISTICS AND PROBABILITY
+
+Thursday 15 May 2014 (afternoon)
+
+1 hour
+
+
+INSTRUCTIONS TO CANDIDATES
+
+ Do not open this examination paper until instructed to do so.
+ Answer all the questions.
+ Unless otherwise stated in the question, all numerical answers should be given exactly or
+  correct to three significant figures.
+ A graphic display calculator is required for this paper.
+ A clean copy of the Mathematics HL and Further Mathematics HL formula booklet is required
+  for this paper.
+ The maximum mark for this examination paper is [60 marks].
+
+
+
+
+2214-7210                                                                                       5 pages
+                                                        © International Baccalaureate Organization 2014
+                                                      –2–                   M14/5/MATHL/HP3/ENG/TZ0/SP
+
+Please start each question on a new page. Full marks are not necessarily awarded for a correct answer
+with no working. Answers must be supported by working and/or explanations. In particular, solutions
+found from a graphic display calculator should be supported by suitable working. For example, if graphs
+are used to find a solution, you should sketch these as part of your answer. Where an answer is incorrect,
+some marks may be given for a correct method, provided this is shown by written working. You are therefore
+advised to show all working.
+
+1.    [Maximum mark: 14]
+
+      The random variable X has probability distribution Po(8) .
+
+      (a)   (i)    Find P ( X = 6) .
+
+		(ii)             Find P ( X = 6 | 5 ≤ X ≤ 8) .                                                      [5]
+
+      (b)   X denotes the sample mean of n > 1 independent observations from X .
+
+
+		(i)              Write down E ( X ) and Var ( X ) .
+
+		          (ii)   Hence, give a reason why X is not a Poisson distribution.                          [3]
+
+      (c)   A random sample of 40 observations is taken from the distribution for X .
+
+
+		(i)              Find P ( 7.1 < X < 8.5) .
+
+
+		(ii)             Given that P (| X − 8 | ≤ k ) =
+                                                 0.95 , find the value of k .                         [6]
+
+
+
+
+2214-7210
+                                                    –3–                   M14/5/MATHL/HP3/ENG/TZ0/SP
+
+2.    [Maximum mark: 16]
+
+      The following table gives the average yield of olives per tree, in kg, and the rainfall, in cm,
+      for nine separate regions of Greece. You may assume that these data are a random sample from
+      a bivariate normal distribution, with correlation coefficient ρ .
+
+
+       Rainfall (x)    11       10       15        13        7       18       22       20        28
+       Yield (y)       56       53       67        61       54       78       86       88        78
+
+      A scientist wishes to use these data to determine whether there is a positive correlation
+      between rainfall and yield.
+
+      (a)   State suitable hypotheses.                                                                   [2]
+
+      (b)   Determine the product moment correlation coefficient for these data.                         [2]
+
+      (c)   Determine the associated p-value and comment on this value in the context of the question.   [2]
+
+      (d)   Find the equation of the regression line of y on x .                                         [2]
+
+      (e)   Hence, estimate the yield per tree in a tenth region where the rainfall was 19 cm.           [2]
+
+      (f)   Determine the angle between the regression line of y on x and that of x on y . Give your
+            answer to the nearest degree.                                                                [6]
+
+
+
+
+2214-7210                                                                                        Turn over
+                                                     –4–                   M14/5/MATHL/HP3/ENG/TZ0/SP
+
+3.    [Maximum mark: 14]
+
+      (a)                                                 ) aλ + b , where a and b are constants
+            Consider the random variable X for which E ( X=
+            and λ is a parameter.
+
+		Show that X − b is an unbiased estimator for λ .                                                  [3]
+             a
+
+      (b)   The continuous random variable Y has probability density function
+
+                                     2
+                                      (3 + y − λ ), for λ − 3 ≤ y ≤ λ
+                            f ( y) =  9
+                                               0, otherwise
+
+		where λ is a parameter.
+
+		          (i)   Verify that f ( y) is a probability density function for all values of λ .
+
+		(ii)            Determine E (Y ) .
+
+		          (iii) Write down an unbiased estimator for λ .                                         [11]
+
+
+
+
+2214-7210
+                                                      –5–                   M14/5/MATHL/HP3/ENG/TZ0/SP
+
+4.    [Maximum mark: 16]
+
+      Consider the random variable X ∼ Geo (p ) .
+
+      (a)   State P ( X < 4) .                                                                                  [2]
+
+                                                                                                       pt
+      (b)   Show that the probability generating function for X is given by G X (t ) =                      ,
+                                                                                                     1 − qt
+		where q = 1 − p .                                                                                             [3]
+
+      Let the random variable Y = 2 X .
+
+
+      (c)   (i)    Show that the probability generating function for Y is given by GY (t ) = G X ( t 2 ) .
+
+		(ii)             By considering GY′ (1) , show that E (Y ) = 2E (X ) .                                        [6]
+
+                              W 2 X + 1.
+      Let the random variable =
+
+      (d)   (i)    Find the probability generating function for W in terms of the probability generating
+                   function of Y .
+
+		          (ii)                    E (W ) 2E ( X ) + 1 .
+                   Hence, show that =                                                                           [5]
+
+
+
+
+2214-7210
+

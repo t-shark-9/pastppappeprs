@@ -1,0 +1,390 @@
+M11/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+
+
+                  MARKSCHEME
+
+
+                          May 2011
+
+
+
+                COMPUTER SCIENCE
+
+
+                        Higher Level
+
+
+
+                               Paper 1
+
+
+
+
+10 pages
+                              –2–           M11/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+
+
+This markscheme is confidential and for the exclusive use of
+examiners in this examination session.
+
+It is the property of the International Baccalaureate and must not
+be reproduced or distributed to any other person without the
+authorization of IB Cardiff.
+                                                   –3–             M11/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+General Marking Instructions
+
+Subject Details:               Computer Science HL Paper 1 Markscheme
+Mark Allocation
+
+Section A:      Candidates are required to answer all questions. Total 40 marks.
+Section B:      Candidates are required to answer all questions. Total 60 marks.
+                Maximum total = 100 marks.
+
+General
+
+A markscheme often has more specific points worthy of a mark than the total allows. This is intentional.
+Do not award more than the maximum marks allowed for that part of a question.
+
+When deciding upon alternative answers by candidates to those given in the markscheme, consider the
+following points:
+
+            Each statement worth one point has a separate line and the end is signified by means of a
+             semi-colon (;).
+
+            An alternative answer or wording is indicated in the markscheme by a “/”; either wording can
+             be accepted.
+
+            Words in ( … ) in the markscheme are not necessary to gain the mark.
+
+            If the candidate’s answer has the same meaning or can be clearly interpreted as being the
+             same as that in the markscheme then award the mark.
+
+            Mark positively. Give candidates credit for what they have achieved and for what they have
+             got correct, rather than penalizing them for what they have not achieved or what they have got
+             wrong.
+
+            Occasionally, a part of a question may require a calculation whose answer is required for
+             subsequent parts. If an error is made in the first part then it should be penalized.
+                                                  –4–              M11/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+                                              SECTION A                                Total: [40 marks]
+
+1.   Award up to [2 marks max].
+
+     Example answers:
+     A compiler produces an executable / machine code / object code file whereas an
+     interpreter compiles and executes each line of code without saving a compiled copy.
+
+     A compiler does not execute any code until the translation process is complete
+     whereas an interpreter executes each line of code as soon as it has translated it.
+
+     A compiler will not run any code until all syntax errors are eliminated whereas an
+     interpreter will translate and execute each line of code until it encounters a
+     syntax error.                                                                            [2 marks]
+
+2.   Award [2 marks] for any suitable application outlined in part (a) and part (b).
+
+     Example answers:
+
+     (a)   Scanning text into a computer readable form;
+           So that it can be edited (on a computer);
+
+           Award marks for other examples that may be mentioned here:
+           Banks process checks without human involvement;
+           Digital library initiatives are adopting advanced OCR technology to convert
+           large book collections for on-line viewing of content (they provide a high
+           degree of reliability);                                                            [2 marks]
+
+     (b)   Ticket machine at a train station;
+           Screen allows you to select options / work through menus;
+
+           Award marks for other examples that may be mentioned here:
+           Information Kiosk Systems used for product information or advertisements or
+           as guides at museums;
+           The touch screen lets DJs manipulate and play music;                               [2 marks]
+
+3.   (a)   Allocates an appropriate section / amount of memory;
+           For each program (currently) running;
+           Do not accept answers describing the management of hard drives.                    [2 marks]
+
+     (b)   Deals with passwords / access levels;
+           So that only the appropriate person(s) can work with particular files;
+           Do not accept answers describing firewall and anti-virus functions.                [2 marks]
+
+4.   (a)   010001;                                                                             [1 mark]
+
+     (b)   101111;                                                                             [1 mark]
+                                                   –5–              M11/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+5.   Defragmentation software places sections of the same file next to each other;
+     To allow for faster access (to that file);
+     Do not credit answers which imply that extra space is created.                        [2 marks]
+
+
+6.   (a)   (double)(11 % 2) / 2 = 1.0/2 = 0.5 ;                                            [1 mark]
+           Award [1 mark] for 0.5. Working does not need to be shown.
+
+     (b)   To prevent a possible “division by zero” / run-time/execution error /
+           program from crashing;                                                          [1 mark]
+
+     (c)   Award up to [2 marks max].
+           Because (otherwise) the operator “/” will perform integer division;
+           And return the answer 0;
+           And the method has to return a double;
+           The cast (double) ensures that (x % y) is of type double;
+           So real division is carried out/better accuracy;
+           So the cast / (double) converts the answer to a double;                         [2 marks]
+
+
+7.   Data could be compressed (before sending);
+     Which means less data to send;
+
+     High speed lines / fibre optics / dedicated lines could be used;
+     Which allow faster transmission than “traditional lines”;
+     Or
+     Greater the bandwidth of a communication channel;
+     The higher the data transfer rate;                                                    [4 marks]
+
+
+8.   (a)   Award up to [2 marks max].
+           A truncation error is one in which bits can be lost from a number;
+           Due to only a certain number of bits being allocated for storing that number;
+           Which will result in an incorrect value being stored / displayed;               [2 marks]
+
+     (b)   Award up to [2 marks max].
+           A floating-point representation might not have enough bits allocated to
+           the mantissa;
+           To hold / store the results of an operation;
+           Or
+           A fixed point representation might not have enough bits allocated for the
+           fraction;
+           To hold / store the results of an operation;                                    [2 marks]
+                                                    –6–              M11/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+9.    (a)   Award [1 mark] for the correct inputs, [1 mark] for the correct answer.
+
+                    A                B              A nand B
+                    0                0                 1
+                    0                1                 1
+                    1                0                 1
+                    1                1                 0
+                                                                                              [2 marks]
+
+      (b)   AB+ A ;                                                                          [1 mark]
+
+      (c)   Allow follow through from part (b).
+            AB+ A =   A;                                                                     [1 mark]
+
+
+10.   (a)   Award up to [1 mark max].
+            Return addresses (for subroutines) might be placed on a stack;
+            Stacks are used in evaluating expressions;
+            Stacks are used in translating from one computer language to another;
+            All processing is based on the Last-In-First-Out (LIFO) policy;                   [1 mark]
+
+      (b)   Award up to [1 mark max].
+            Key strokes from a keyboard would be placed in a queue;
+            Items from processor/memory to output to a peripheral device would be place
+            in a queue;
+            Programs which are ready to run are placed in a queue;
+            Queues are used in simulation processes;
+            Supports remove and insert operations using FIFO (First-In-First-Out) mode;       [1 mark]
+
+
+11.   Award up to [2 marks max].
+      A gateway provides the link between systems;
+      By providing the appropriate conversions / adding the appropriate data;
+      It is a network point that leads to another network, may be with different protocols;   [2 marks]
+
+
+12.   (a)   Award up to [2 marks max].
+            The exchange of (predetermined) signals / messages;
+            When a connection is established between two devices or components;
+            To establish that the devices are ready to exchange data;                         [2 marks]
+
+      (b)   Award up to [2 marks max].
+            Interrogation / checking of a device / sensor / series of sensors;
+            To see if action needs to be taken (or equivalent);
+            In a rotational order (as in round-robin sequence);                               [2 marks]
+
+
+13.   Award [2 marks] if completely correct, or [1 mark] for only one error.
+      Coffee, Beer, Tea, Lemonade, Milk, Soda, Water, Wine                                    [2 marks]
+                                                    –7–              M11/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+                                                SECTION B                                  Total: [60 marks]
+14.   (a)   Award [1 mark] for the method of data collection, [1 mark] for the benefit,
+            up to [4 marks max].
+            Observation;
+            Allows the analyst to see exactly how the processes are carried out;
+            Questionnaires;
+            Can cover every aspect;
+            Can (potentially) reach every employee;
+            Research;
+            Allows analyst to see how other similar businesses solve the problem;
+            Relatively cheap to administer;
+            Interviews;
+            Interaction allows all aspects to be thoroughly investigated;
+            Structured interviews provide ability to record the emotion and explore further
+            into pros and cons of a particular application (although budgeting time for
+            interviews needs care);                                                               [4 marks]
+      (b)   (i)    Award [1 mark] for “feasibility report”, [1 mark] for at least two items
+                   from the report list.
+                   Feasibility report;
+                   Containing: a brief description of the proposed system / estimated costs /
+                   economic / technical / and legal responsibility / and a possible
+                   completion date;                                                               [2 marks]
+            (ii)   Award [1 mark] for “requirements specification”, [1 mark] for at least
+                   two items from the report list.
+                   Requirements specification;
+                   A (precise) definition of the problem, a definition of inputs and outputs,
+                   a list of tools, facilities, people available for developing the solution,
+                   a schedule for the next stages of the project, systems flowchart (or similar
+                   diagrams);                                                                     [2 marks]
+      (c)   Award up to [2 marks max].
+            All stages are after the analysis stage so award marks for any additional
+            documentation.
+            Example answers:
+            User guide;
+            For the personnel that will use the system;
+            Flowcharts / code;
+            To aid programmers in future modifications;
+            Technical documentation;
+            Helps future teams to alter/improve the system;
+            Interactive prototypes;
+            Consistency must be ensured in re-designing;                                          [2 marks]
+                                                                                           Total: [10 marks]
+                                                     –8–                M11/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+15.   (a)   (i)    It is within the ALU;
+                   Temporarily stores the results of any calculation;                             [2 marks]
+            (ii)   Award up to [2 marks max].
+                   It is within the CU;
+                   Stores the instruction/op code of instruction;
+                   That is currently being processed;                                             [2 marks]
+            (iii) It is within the CU;
+                  Stores the address of the next instruction to be executed;
+                  Incremented each time an instruction is carried out;                            [2 marks]
+      (b)   Award [1 mark] for the bus, [1 mark] for the role, up to [4 marks max].
+            Address bus;
+            Provides the pathway from the memory to the processing unit that carries the
+            address in memory to and from which data is transferred;
+            The address can only be passed from the CPU to external memory or I / O
+            ports (one way);
+            Data bus/accept memory bus;
+            Carries the data to and from the memory/registers within the CPU; (bi-directional)
+            Control bus;
+            Carries the read/write signals/interrupt request signal/reset signal between
+            different parts of the processor;                                                     [4 marks]
+                                                                                           Total: [10 marks]
+
+16.   (a)   The method is called from within itself (allow the actual code);                       [1 mark]
+      (b)   Award [1 mark] for each correct row.
+             target         low         high       middle      return value
+               9             0           6           3
+               9             0           2           1
+               9             2           2           2                  2
+                                                                                                  [3 marks]
+      (c)   Otherwise the processing will never change;
+            Which will lead to an infinite loop;                                                  [2 marks]
+      (d)   (i)    O(log(n));                                                                      [1 mark]
+            (ii)   O(n);                                                                           [1 mark]
+                   Accept notation log n and n.
+      (e)   A binary search is more efficient because it eliminates one half of the set with
+            each comparison (since the pre-condition for binary search is that the array
+            must be sorted in some order);
+            Whilst a linear search works its way through the whole list;                          [2 marks]
+                                                                                           Total: [10 marks]
+                                                    –9–              M11/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+17.   (a)   (i)    The processing of the staff’s wages/total patients expenses;
+                   Which will take place at regular intervals / each month;                     [2 marks]
+
+            (ii)   Booking appointments;
+                   Over the Internet;                                                           [2 marks]
+
+            (iii) Award up to [2 marks max].
+                  Monitoring of intensive care patients;
+                  Made possible by patient and staff alerts being interactive;
+                  Must react immediately to any changes/safety-critical;                        [2 marks]
+
+      (b)   Award marks as follows, up to [4 marks max].
+            Award [1–2 marks] if the relative importance of the systems are addressed.
+            Award [3–4 marks] if the relative importance of all three of the systems are
+            addressed and examples are also given.
+
+            The batch and on-line would cause inconvenience but would not be critical;
+            Could perhaps be routed through other systems;
+            Or suspended until system is back on-line;
+            Real-time system would be critical;
+            Could cause patient deaths;
+            Therefore must have immediate back-up system;                                       [4 marks]
+
+                                                                                         Total: [10 marks]
+
+
+18.   (a)   000110.11;                                                                           [1 mark]
+
+      (b)   Decimal fractions other than 14 , 12 or 34 / example of a decimal fraction that
+            cannot be converted;
+            Will not be able to be converted exactly into the binary representation;            [2 marks]
+
+      (c)   The precision / accuracy will be increased;
+            (But) the range will be decreased;                                                  [2 marks]
+
+      (d)   9 12 / 9.5                                                                          [2 marks]
+            (Award [1 mark] for the correct evaluation of the mantissa and exponent but
+            with an incorrect final answer.)
+
+      (e)   010010 0010                                                                         [3 marks]
+
+            (Award [1 mark] for normalization
+            (2.25(10) = 10.01(2)={normalization}=0.1001(2) x 1010(2));
+            Award [1 mark] for the mantissa (010010);
+            Award [1 mark] for the exponent (0010);
+
+                                                                                         Total: [10 marks]
+                                                    – 10 –           M11/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+19.   (a)   Award up to [2 marks max].
+            Standard protocols are rules/procedures;
+            Governing the transmission of data;
+            That allow data to be correctly received;                                            [2 marks]
+
+      (b)   Award [1 mark] for each difference, up to [2 marks max].
+            Data security
+            Deals with preventing the data being intercepted by a third party (or equivalent);
+            Ensures that the people who must have access to data are the only ones who
+            can have access to it;
+            Whilst
+            Data integrity is concerned with the data not being altered during transmission;
+            Making sure that the data is complete and not corrupted;                             [2 marks]
+
+      (c)   (i)    Award up to [2 marks max].
+                   Data is not sent as one unit / all together;
+                   But is divided / sent in separate packets;
+                   Each packet is formatted, addressed and routed;
+                   Packets sent (possibly) by different routes;
+                   Making the complete message more difficult to intercept;                      [2 marks]
+
+            (ii)   Individual packets can be sent by different routes;
+                   So if one route is down, others can be used;                                  [2 marks]
+
+      (d)   As each packet contains control data / packet sequence number;
+            Receiving computer can combine packets in correct order;                             [2 marks]
+
+                                                                                          Total: [10 marks]
+

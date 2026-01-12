@@ -1,0 +1,178 @@
+N10/5/COMSC/SP1/ENG/TZ0/XX
+
+
+
+
+       88107013
+
+
+Computer science
+Standard level
+Paper 1
+
+Tuesday 16 November 2010 (afternoon)
+
+1 hour 30 minutes
+
+
+INSTRUCTIONS TO CANDIDATES
+
+ Do not open this examination paper until instructed to do so.
+ Section A: answer all the questions.
+ Section B: answer all the questions.
+
+
+
+
+8810-7013                                                                                          4 pages
+                                                           © International Baccalaureate Organization 2010
+                                                      –2–                   N10/5/COMSC/SP1/ENG/TZ0/XX
+
+                                                 SECTION A
+
+Answer all the questions.
+
+1.    (a)   Outline the purpose of the systems life cycle model.                                      [2 marks]
+
+      (b)   Identify the stage of the systems life cycle in which a feasibility report is prepared.    [1 mark]
+
+
+2.    Customer orders are collected on paper, keyed in, and stored in the customer orders file.
+      A stock master file is searched to determine whether sufficient stock is available and
+      an appropriate report is produced.
+
+      Construct a systems flowchart representing the process described above.                         [5 marks]
+
+
+3.    Draw a labelled diagram representing the basic structure of the central processing
+      unit (CPU).                                                                                     [4 marks]
+
+
+4.    Outline one example of online processing.                                                       [2 marks]
+
+
+5.    (a)   Convert, showing your working, the decimal number 205 into binary.                        [2 marks]
+
+      (b)   Convert the binary number 1010  1001 into hexadecimal.                                    [1 mark]
+
+
+6.    Describe the phased introduction method of implementing a new system.                           [2 marks]
+
+
+7.    Data is collected by groups of students on a field trip, and later transferred to a
+      central computer.
+
+      (a)   Identify one method of data capture.                                                      [1 mark]
+
+      (b)   Identify one method of transferring data from the field to the central computer.          [1 mark]
+
+      (c)   There have been concerns about the accuracy of the data. Outline how
+            verification and validation can be used to ensure it is as accurate as possible.          [4 marks]
+
+
+8.    State the nature of the Boolean data type.                                                      [1 mark]
+
+
+9.    Define the terms local area network (LAN) and wide area network (WAN).                          [2 marks]
+
+
+10.   State two types of utility software.                                                            [2 marks]
+
+
+
+8810-7013
+                                                  –3–                 N10/5/COMSC/SP1/ENG/TZ0/XX
+
+                                              SECTION B
+
+Answer all the questions.
+
+11.   Consider the following method.
+
+      static void calc(int d, int q)
+      {
+        int r = 0, p = 0;
+        while (q >= d * p)
+        {
+           p = p + 1;
+        }
+        p = p – 1;
+        r = q – (d * p);
+        output("p = " + p);
+        output("r = " + r);
+      }
+
+      (a)   Construct the trace table, started below, for the method call calc(8, 37).        [5 marks]
+
+                    d          q          p       r      q >= d * p         output
+
+
+
+
+      (b)   In the method, identify
+
+		          (i)    the parameters ;                                                           [2 marks]
+
+		          (ii)   the local variables.                                                       [2 marks]
+
+      (c)   Assuming that the arguments are both positive, state the operation performed by
+            this method.                                                                       [1 mark]
+
+
+
+
+8810-7013                                                                                     Turn over
+                                                    –4–                 N10/5/COMSC/SP1/ENG/TZ0/XX
+
+12.   A digital music player stores a song as a file of numbers (each of which is called
+      a sample) that are converted to a signal for the audio speaker or headphones.
+
+      (a)   Define the term analog data.                                                         [1 mark]
+
+      (b)   Define the term digital data.                                                        [1 mark]
+
+      (c)   Identify one example of analog data and one example of digital data in a
+            digital music player.                                                                [2 marks]
+
+      (d)   A CD-quality recording requires 44100 samples for every second of time and
+            each sample is a 16-bit integer (2 bytes).
+
+		          (i)    Outline how the number of kilobytes required for a CD-quality recording
+                   of a 3-minute song would be calculated.                                       [2 marks]
+
+		          (ii)   State the type of software that could be used to reduce the size of
+                   the recording.                                                                [1 mark]
+
+      (e)   Discuss one ethical issue created by the availability of digital music recordings
+            on a computer network.                                                               [3 marks]
+
+
+13.   A school has a local area network (LAN) used by students, teachers and administrators.
+      The LAN is not connected to the Internet.
+
+      (a)   Student marks are stored on a server that is connected to the network.
+            Identify ways in which the data could be protected so that only teachers can
+            change the marks.                                                                    [2 marks]
+
+      It is suggested that all students be given internal e-mail accounts on the system.
+
+      (b)   Identify two possible technical issues that might result from providing e-mail
+            access to the students.                                                              [2 marks]
+
+      (c)   Discuss two possible social/ethical issues that might result from providing e-mail
+            access to the students.                                                              [6 marks]
+
+
+14.   A particular computer is designed to work with non-volatile memory in place of a
+      disk drive.
+
+      (a)   Draw a block diagram of the computer showing the CPU, cache, primary memory
+            and non-volatile memory.                                                             [4 marks]
+
+      (b)   Outline the function of cache memory.                                                [2 marks]
+
+      (c)   Explain reasons for having both volatile and non-volatile memory in a computer.      [4 marks]
+
+
+8810-7013
+

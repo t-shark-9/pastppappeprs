@@ -1,0 +1,283 @@
+N11/3/ITGSX/SP2/ENG/TZ0/XX
+
+
+
+
+     88115515
+
+INFORMATION TECHNOLOGY IN A GLOBAL SOCIETY
+STANDARD LEVEL
+PAPER 2
+
+Friday 4 November 2011 (morning)
+
+2 hours
+
+
+INSTRUCTIONS TO CANDIDATES
+
+ Do not open this examination paper until instructed to do so.
+ Section A: answer all parts of the question.
+ Section B: answer two questions.
+
+
+
+
+8811-5515                                                                                          9 pages
+                                                           © International Baccalaureate Organization 2011
+              –2–        N11/3/ITGSX/SP2/ENG/TZ0/XX
+
+
+
+
+            Blank page
+
+
+
+
+8811-5515
+                                                           –3–                        N11/3/ITGSX/SP2/ENG/TZ0/XX
+
+                                                     SECTION A
+
+Answer all parts of the question.
+
+                                 Area of impact: Business and employment
+
+1.    Biometrics makes use of pattern recognition in order to identify individuals. It is no longer confined
+      to major physical characteristics such as fingerprints. More subtle measures, such as a person’s gait
+      (the way a person walks), are now being used to identify individuals through video matching.
+
+      Recently, gait recognition using recorded video images was admitted as evidence in UK courts.
+      One man was convicted of a burglary after experts used video matching to compare video images of
+      him at the crime scene with images of him in custody.
+
+                     [Source: http://news.bbc.co.uk/2/hi/programmes/click_online/7702065.stm, 15 October 2009]
+
+
+
+
+                 [Source: adapted from http://lfb.rwth-aachen.de/en/education/Workshop/s.meyer.html, 23 March 2011]
+
+
+
+      (a)   Define the term pattern recognition.                                                                       [2 marks]
+
+      (b)   In addition to fingerprints, describe two other methods of biometric recognition.                          [4 marks]
+
+      (c)   Explain why biometrics is increasingly used to authenticate employees entering
+            a building.                                                                                                [4 marks]
+
+      (d)   Discuss the advantages and disadvantages of using the way a person walks
+            (video gait pattern recognition) to verify the person’s identity.                                         [10 marks]
+
+
+
+
+8811-5515                                                                                                             Turn over
+                                                                   –4–                         N11/3/ITGSX/SP2/ENG/TZ0/XX
+
+                                                             SECTION B
+
+Answer two questions.
+
+                                                    Area of impact: Education
+
+2.      Simplified Alerts is an internet-based, mass SMS* alert notification system. It is designed for schools
+        to send SMS advisory, weather, and emergency alerts to the cell (mobile) phones or e-mail addresses
+        of parents and school staff. Administrators can customize a sign-up form, pre-set text messages,
+        and send to user categories or entire lists. Parents need to sign up and opt in to receive messages.
+        This ensures that messages will not be treated as spam.
+
+                  [Source: adapted from http://simplifiedalerts.com/schoolalerts/index.html, 12 October 2009, used with permission]
+
+
+
+
+*    SMS: a text message sent on a cell (mobile) phone
+
+
+
+
+        (a)     Define the term spam.                                                                                          [2 marks]
+
+        (b)     Many schools no longer print and post newsletters.
+
+                Describe two ways schools can distribute newsletters electronically to parents
+                and the school community.                                                                                      [4 marks]
+
+        (c)     Many parents receive the SMS alerts on their smart phones. The latest smart
+                phones come with up to 32 GB of storage.
+
+                Explain the reasons why many people want this amount of storage on their
+                smart phones.                                                                                                  [4 marks]
+
+        (d)     Discuss the advantages and disadvantages of introducing Simplified Alerts for
+                schools and parents.                                                                                         [10 marks]
+
+
+
+
+8811-5515
+                                                          –5–                        N11/3/ITGSX/SP2/ENG/TZ0/XX
+
+                                              Area of impact: Health
+
+3.    In the past, during a medical visit, it was common for the doctor to consult a textbook before prescribing
+      drugs for a patient. This book listed prescribed doses, any side effects, interactions with other drugs
+      the patient is taking and warnings for patients with certain conditions such as pregnancy.
+
+      Today these textbooks are being replaced by electronic versions which use relational databases to
+      store the information. A simplified version of a prescription database is shown in the diagram below.
+
+                          DRUGS                                                   INTERACTIONS
+               Drug_Name                              1                    Interaction_ID
+               (e.g. Doxycycline_100)                                      (e.g. Int001)
+               Description                                               ∞ Drug_Name
+               (e.g. Antibiotic)                                           (e.g. Doxycycline_100)
+               Dose (adult)                                                Reacts_With
+               (e.g. One daily)                                            (e.g. Antacids)
+               Side_Effects                                                Reaction
+               (e.g. Nausea, Diarrhoea)                                    (e.g. Prevents drug absorbing)
+
+      Using this relational database a doctor can search DRUGS to check the correct dose for the patient
+      and warn the patient about side effects. By linking to INTERACTIONS the doctor can check if the
+      prescribed drug has any adverse interactions with other drugs the patient is taking.
+
+      By linking to another table, such as one containing information about drug warnings, the doctor is
+      alerted to potential problems. For example, some drugs taken during pregnancy can harm the baby.
+
+      The information is stored in a relational database such as the one illustrated above. The brackets
+      contain examples of typical data for the antibiotic Doxycycline_100.
+
+                       [Source: http://mims.com.au, 13 October 2009] © MIMS Australia. Used with permission
+
+
+
+      (a)   With reference to the relational database diagram above, describe the nature
+            of the relationship between the table DRUGS and the table INTERACTIONS.                            [2 marks]
+
+      (b)   It is important that the database is accurate.
+
+            Describe two design features that a database designer could use to prevent data
+            input errors.                                                                                      [4 marks]
+
+      (c)   This prescription database now comes in many electronic formats. Two possible
+            formats are a CD-ROM version and an online version accessible through a
+            web site.
+
+            Compare the effectiveness of these two formats in providing a doctor with the
+            necessary information.                                                                             [4 marks]
+
+      (d)   Discuss how the use of the prescription database shown above can help a doctor
+            to improve medical care.                                                                          [10 marks]
+
+8811-5515                                                                                                     Turn over
+            –6–                N11/3/ITGSX/SP2/ENG/TZ0/XX
+
+
+
+
+                  (This question continues on the following page)
+
+
+
+
+8811-5515
+                                                   –7–                   N11/3/ITGSX/SP2/ENG/TZ0/XX
+
+(Question 4 continued)
+
+      (a)   Identify the data type for:
+
+		(i)             player’s name                                                                  [1 mark]
+
+		(ii)            player’s account balance.                                                      [1 mark]
+
+      (b)   Identify the steps involved in updating the database when a player purchases a
+            street from the bank or other players.                                               [4 marks]
+
+      (c)   Explain the possible reasons for the increased interest in playing internet-based
+            versions of popular board games such as Monopoly.                                    [4 marks]
+
+      (d)   Discuss the agreements that need to be in place between Google and Hasbro
+            to retain the integrity of the Google Maps database and to ensure the accuracy
+            of the game data.                                                                   [10 marks]
+
+
+
+
+8811-5515                                                                                       Turn over
+                                                   –8–                    N11/3/ITGSX/SP2/ENG/TZ0/XX
+
+                             Area of impact: Science and the environment
+
+5.    Robots that mimic the behaviour of fish that swim in groups have been developed by a Japanese
+      car company. The purpose of this research is to develop anti-collision vehicles that can travel
+      intelligently, avoiding each other and obstacles.
+
+      They model the behaviour of fish by two simple rules. They must:
+      • travel together as closely as possible but without touching
+      • change travelling direction without colliding.
+
+      A vehicle is being developed as a tiny robot called EPORO that can move in a group without touching
+      its travelling companions. The new three-wheeled robot is designed to travel in groups. Each uses
+      a laser sensor to measure the distance between obstacles. The data is constantly shared between
+      the robots, allowing the group to travel together without bumping into each other. The technique
+      allows the cars to travel side-by-side or quickly switch direction as a group.
+
+
+
+
+      (a)   Describe one way in which a robot can distinguish between another robot and a
+            different object.                                                                     [2 marks]
+
+      (b)   Identify the step-by-step process that robots follow in order to remain within a
+            certain distance of each other.                                                       [4 marks]
+
+      (c)   Explain two real-life situations on a road that would make the model ineffective.     [4 marks]
+
+      (d)   Discuss the issues that arise when putting total responsibility for driving in the
+            hands of robots.                                                                     [10 marks]
+
+
+
+
+8811-5515
+                                                        –9–                         N11/3/ITGSX/SP2/ENG/TZ0/XX
+
+                               Area of impact: Politics and government
+
+6.    Highly sensitive details of a United States military missile air defence system were found on a
+      second-hand hard drive bought on eBay, an online auction web site. The test launch procedures to
+      shoot down missiles were found on the hard drive. The hard drive also contained security policies,
+      details of the layout of the facilities and personal information on military employees.
+
+      The government is keen to ensure that old computers are disposed of in a responsible way.
+
+                           [Source: http://dailymail.co.uk/news/article-1178239/Computer-hard-drive-
+                            sold-eBay-details-secret-U-S-missile-defence-system.html, 7 May 2009]
+
+
+
+      (a)   Identify two devices that can be used as portable storage media.                            [2 marks]
+
+      (b)   Describe two ways to ensure that data cannot be retrieved when computer
+            components are disposed of.                                                                 [4 marks]
+
+      (c)   Compare two different methods used to dispose of computer hardware that is no
+            longer required by an organization.                                                         [4 marks]
+
+      (d)   A government has introduced two policies to prevent unauthorized access to
+            sensitive data:
+            • employees must have secure passwords that they do not share with anyone
+            • no sensitive data can be downloaded from the main server to any other devices.
+
+            To what extent will these two policies prevent unauthorized access to
+            sensitive data?                                                                            [10 marks]
+
+
+
+
+8811-5515
+

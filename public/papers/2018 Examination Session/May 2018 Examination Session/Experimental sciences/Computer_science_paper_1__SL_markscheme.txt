@@ -1,0 +1,351 @@
+                         M18/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+
+
+            Markscheme
+
+
+              May 2018
+
+
+           Computer science
+
+
+            Standard level
+
+
+               Paper 1
+
+
+
+
+10 pages
+                          è2è
+
+
+
+
+This markscheme is the property of the International
+Baccalaureate and must not be reproduced or distributed
+to any other person without the authorization of the IB
+Global Centre, Cardiff.
+                                                  è3è
+
+
+                                              Section A
+1.   (a)   Award [2] for one method that is suitable for the given scenario.
+
+           Answers may include:
+           Interviews could be held (with the librarian/stakeholders);
+           To establish the functions required by the system;
+
+           Direct observation could be made of the users/students using the present
+           system;
+           To gain an insight on how the library is being used;                         [2 max]
+
+     (b)   Allows stakeholders to gain an idea of how the system would be/work/look;
+           so they can provide feedback / suggest improvements;                             [2]
+
+
+2.   Holds (a copy of) the contents of the memory;
+     Which are to be transferred from/to memory to/from other CPU components;
+     Allowing the processor and memory to act independently/processor not affected by
+     differences in the speed of operation;                                             [2 max]
+
+
+3.   2 hex = 4 + 4 = 8 bits;
+     hence 2^8/16^2/256 colours;
+     Note: Allow [2] for 16^2 = 256 colours with no workings and also ONLY 256              [2]
+
+
+4.   Award [3] as follows:
+     The function of the memory management [1].
+     An example if its use [1].
+     Reason for the importance [1].
+
+     Example:
+     Allocates and de-allocates memory/ assignes blocks of memory to programs;
+     Ensures a program has sufficient memory to run/manages virtual memory if needed;
+     To avoid overwriting /clashing of programs/optimise system performance/maximise
+     memory usage                                                                           [3]
+                                                   è4è               M18/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+5.   Award [3] as follows:
+     Clearly a logic diagram with 2 inputs, 1 output and 3 logic gates [1];
+     OR gate has two inputs one of which is NOT A [1] and the other is A AND B [1]
+
+
+
+
+                                                                                                    [3]
+6.   It contains a set amount of data;
+     It contains a fixed structure (or identify elements of the structure other than data);
+     It contains data that is to be sent via a communications channel;
+     It contains specific details for transmission e.g. address of sender and receiver, error
+     codes etc.;                                                                                [2 max]
+
+     Award 2 marks if two of the contents of a packet are given and expanded
+
+7.   Protocols are a set of rules;
+     (That are used) so that both sender and receiver are using/expecting the same
+     formats/methods;
+     To allow data to be transmitted successfully / without errors;                                 [3]
+
+8.   47, 23, 11
+     Award [1] per output.
+     Note: Allow FT if either of the first two outputs are wrong.                                   [3]
+
+
+9.   For example, [2 max] if no application given;
+     Searching through a database of names;
+     That contains a large amount of data;
+     That is already sorted;
+     And needs to be searched in the least amount of time;
+     Is faster because binary search divides and searches smaller blocks of data/does not
+     have to compare each element in the list;                                                  [3 max]
+                                                      è5è
+
+
+                                                  Section B
+10.   (a)   Award marks for a response which indicates the logical steps that have to be followed.
+
+            Award [5 max] as follows:
+            Iterate through the appointments file;
+            Check for correct day;
+            Repeat for each appointment on that day;
+            Using the patient ID for that appointment;
+            Iterate through the patients file until record for that ID found;
+            Retrieve phone number and send out SMS;
+
+            Example:
+            loop for every appointment in the appointments file
+               if the appointment is for the correct day
+                   Store patient ID
+                      loop until found in the patients file
+                         if patient ID (patients file) = patient ID (appointments file)
+                             get phone number from patient’s file to send SMS
+                         end if
+                      end loop
+               end if
+            end loop
+
+            Note: Candidates are not requested to construct the (algorithm in) pseudocode.       [5 max]
+
+      (b)   Award [1] for method and [1] for description – only accept TWO methods.
+            Mark as [2] and [2].
+
+            Backup;
+            Data files on a regular basis;
+
+            Printed copies;
+            Printouts can be kept of transactions;
+
+            Transaction Log file;
+            Written for each transaction can be used to restore;
+
+            Accept any reasonable methods described including second server and cloud
+            use.                                                                                 [4 max]
+                                             è6è                M18/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+
+(c)   There are 2 possible issues here: who has what level of access to the data in the
+      hospital and whether storing in the cloud is safer than storing locally.
+
+      For each of these 2 issues award [3 max] as follows:
+      Award [1] for identifying the issue.
+      Award [1] for some valid development of the issue.
+      Award [1] for a suitable discussion.
+
+      Example answers could include reference to the following but this is not an
+      exclusive list. Award marks for any two reasonable issues discussed – one of
+      which is access and the other security.
+
+      Official access to the data [3 max]:
+      Access to this sensitive data must be restricted.
+      Only those directly concerned can be able to access it.
+      Even less people should be able to edit it.
+      Therefore access levels should be set up, with strong levels of authentication.
+      Physical access to servers should be controlled if using the local system;
+
+      Data security [3 max]:
+      Is the data safer stored locally or on the cloud?
+      Cloud service providers are professionals – they should have stronger security
+      than a hospital system.
+      What track record / reputation does the cloud service provider have?
+      If patient data could be sold/inspected, then both the patient and hospital could
+      suffer serious consequences.
+      Is the cloud governed by appropriate privacy laws?
+      Is it located internationally or is it governed by the laws of the country in
+      question?
+      Could be intercepted in transmission;                                               [6 max]
+                                                    è7è
+
+
+11.   (a)   Processes/task are carried out simultaneously/at the same time;                        [1]
+
+      (b)   Install connectors on wall of server room AND Install connector on wall of new
+            office space;
+
+            OR
+
+            Test the cabling AND Connect the new computers with the cabling;                   [1 max]
+
+      (c)   Any pair of tasks that are NOT a correct answer to part (b);                       [1 max]
+
+      (d)   Award [1] for stating an advantage, [1] for expansion/example in context.
+            Mark as [2] and [2]
+
+            Answers may include:
+            Use on the move;
+            More versatile staff encouraged to collaborate etc.;
+
+            Allows BYOD:
+            Which could lead to greater productivity (as familiarity with device);
+
+            No extra equipment is needed for expansion after initial set-up;
+            Which will save the company time and money;
+
+            Reduces wiring;
+            Therefore improved safety for employees;                                           [4 max]
+
+      (e)   Mark as [2] and [2].
+
+            The data can be intercepted as it goes through “the air”;
+            Can be resolved by strong encryption/protocols;
+            WPA-2 / a description of WPA-2;
+            Use of trusted MAC addresses;
+            Regular changes of router password; [2 max]
+
+            BYOD issues leading to insecure devices;
+            Clear company policy regarding use;
+            Use of sand-box;
+            Only approved devices allowed;
+            MAC addresses – only adding clean and tested devices brought in by staff;
+            Installation of MDM services;
+            Authentication (user ID + password on all devices including BYOD);
+            Security features added by company; [2 max]                                        [4 max]
+
+      (f)   A VPN/tunneling allows the employee’s device to appear to be part of / a node of
+            the internal company network;
+            Thus affording him/her full access to the network resources;
+
+            Data that passes through a VPN can be encrypted;
+            So any unauthorized access will not be able to understand the data;
+
+            Tunnelling allows the company’s own protocols to be used/IPsec/TSL ensure
+            security;
+            Even though the data is passing over an outside network;
+
+            Multiple exit nodes / hidden IP addresses/encrypted connections;
+            Make it hard to distinguish where the data was generated;                          [4 max]
+                                                    è8è                 M18/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+
+12.   (a)
+                 X          ARRAY[X]        COUNTER           SUM           output
+                                               0               0
+                 0               2             1               2
+                 1               4             2               6
+                 2               1             3               7
+                 3                             3               7
+                 4                             3               7
+                 5               1             4               8
+                 6                             4               8                2
+
+            Award [1] for each correct column (excepting the first). If the first row is not
+            completed, mark as follows:
+            All 4 correct except for first row: [3]
+            3 correct except for first row: [2]
+            2 correct except for first row: [1]
+            1 correct except for first row: [0].
+
+            Follow through for an output that is correct from their incorrect COUNTER or
+            SUM columns.                                                                          [4]
+
+      (b)   P_ARRAY // array declaration
+            X = 0
+            (PASSENGERS.resetNext())
+            while PASSENGERS.hasNext()
+              P_ARRAY[X] = PASSENGERS.getNext()
+              X = X + 1
+            end while
+
+            Award [1] for evidence of the idea of a loop (for or while etc.).
+            Award [1] for correct while/until loop with correct condition.
+            Award [1] for correct reading of collection into array.
+            Award [1] for declaring and incrementing X.                                           [4]
+                                            è9è
+
+
+(c)   The following are two alternative approaches. Most solutions should fit one or the
+      other markscheme. Do not penalise those who introduce separate variables
+      instead of arrays.
+
+      Example 1:
+
+      MAXAV = 0
+        X = (P_ARRAY.length) - 1
+        MAXDAY
+        loop for DAY from 0 to 6
+           SUM = 0
+           COUNTER = 0
+           loop for C from DAY to X //loop while C < X
+             SUM = SUM + P_ARRAY[C]
+             COUNTER = COUNTER + 1
+             C = C + 6 // C = C + 7 or allow step 7 in the loop
+           end loop
+           if SUM/COUNTER > MAXAV
+             MAXAV = SUM/COUNTER
+             MAXDAY = DAY
+           end if
+        end loop
+      output convert(MAXDAY)
+
+      Award [1] for correct initialization of numerical variables (eg MAXAV, COUNTER, SUM).
+      Award [1] for correct loop through each day.
+      Award [1] for correct for loop through array.
+      Award [1] for incrementing array position by 7 each time.
+      Award [1] for calculation of average (SUM/COUNTER).
+      Award [1] for comparing this with MAXAV.
+      Award [1] for adjusting MAXAV and MAXDAY if necessary.
+      Award [1] for correct use of CONVERT sub-procedure.                                 [7 max]
+                                     – 10 –            M18/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+Example 2:
+
+MAXDAY = 0
+DAYSUM ARRAY
+WEEKS ARRAY
+COUNT = 0
+
+while COUNT < P_ARRAY.length //loop through p.array
+  DAY = COUNT MOD 7
+  WEEKS[DAY] = WEEKS[DAY] + 1 //add number of weeks for this day
+  DAYSUM[DAY] = DAYSUM[day] + P_ARRAY[COUNT]
+  COUNT = COUNT + 1
+end while
+COUNT = 0 //reinitialize
+while COUNT < DAYSUM.length //loop through dayArray can also be
+                            //a for loop as there are 7 days.
+  if DAYSUM[COUNT] / WEEKS[COUNT] > MAXDAY //find maxDay
+     MAXDAY = COUNT
+  end if
+  COUNT = COUNT + 1
+end while
+output convert(MAXDAY)
+
+
+Award [1] for correct initialisation of variables/arrays.
+Award [1] for correct loop through array.
+Award [1] mark for incrementing day.
+Award [1] mark for incrementing sum for each day.
+Award [1] mark for incrementing number of weeks for each day.
+Award [1] mark for correct calculation of average for each day.
+Award [1] mark for finding MAXDAY.
+Award [1] mark for correct use of CONVERT procedure.                         [7 max]
+

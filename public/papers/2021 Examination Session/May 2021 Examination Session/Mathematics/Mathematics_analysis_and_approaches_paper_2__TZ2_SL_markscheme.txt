@@ -1,0 +1,780 @@
+M21/5/MATHX/SP2/ENG/TZ2/XX/M
+
+
+
+
+                       Markscheme
+
+
+                               May 2021
+
+
+                    Mathematics:
+               analysis and approaches
+
+
+                         Standard level
+
+
+                               Paper 2
+
+
+
+
+21 pages
+                                            –2–                 M21/5/MATHX/SP2/ENG/TZ2/XX/M
+
+
+
+
+© International Baccalaureate Organization 2021
+
+All rights reserved. No part of this product may be reproduced in any form or by any
+electronic or mechanical means, including information storage and retrieval systems,
+without the prior written permission from the IB. Additionally, the license tied with this
+product prohibits use of any selected files or extracts from this product. Use by third
+parties, including but not limited to publishers, private teachers, tutoring or study services,
+preparatory schools, vendors operating curriculum mapping services or teacher resource
+digital platforms and app developers, whether fee-covered or not, is prohibited and is a
+criminal offense.
+
+More information on how to request written permission in the form of a license can be
+obtained from https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-
+license/.
+
+© Organisation du Baccalauréat International 2021
+
+Tous droits réservés. Aucune partie de ce produit ne peut être reproduite sous quelque
+forme ni par quelque moyen que ce soit, électronique ou mécanique, y compris des
+systèmes de stockage et de récupération d’informations, sans l’autorisation écrite
+préalable de l’IB. De plus, la licence associée à ce produit interdit toute utilisation de tout
+fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris, sans
+toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de tutorat ou
+d’aide aux études, des établissements de préparation à l’enseignement supérieur, des
+fournisseurs de services de planification des programmes d’études, des gestionnaires de
+plateformes pédagogiques en ligne, et des développeurs d’applications, moyennant
+paiement ou non, est interdite et constitue une infraction pénale.
+
+Pour plus d’informations sur la procédure à suivre pour obtenir une autorisation écrite
+sous la forme d’une licence, rendez-vous à l’adresse https://ibo.org/become-an-ib-school/
+ib-publishing/licensing/applying-for-a-license/.
+
+© Organización del Bachillerato Internacional, 2021
+
+Todos los derechos reservados. No se podrá reproducir ninguna parte de este producto
+de ninguna forma ni por ningún medio electrónico o mecánico, incluidos los sistemas de
+almacenamiento y recuperación de información, sin la previa autorización por escrito del
+IB. Además, la licencia vinculada a este producto prohíbe el uso de todo archivo o
+fragmento seleccionado de este producto. El uso por parte de terceros —lo que incluye,
+a título enunciativo, editoriales, profesores particulares, servicios de apoyo académico o
+ayuda para el estudio, colegios preparatorios, desarrolladores de aplicaciones y
+entidades que presten servicios de planificación curricular u ofrezcan recursos para
+docentes mediante plataformas digitales—, ya sea incluido en tasas o no, está prohibido
+y constituye un delito.
+
+En este enlace encontrará más información sobre cómo solicitar una autorización por
+escrito en forma de licencia: https://ibo.org/become-an-ib-school/ib-publishing/licensing/
+applying-for-a-license/.
+                                                  –3–                 M21/5/MATHX/SP2/ENG/TZ2/XX/M
+
+
+                                      Instructions to Examiners
+
+Abbreviations
+
+M    Marks awarded for attempting to use a correct Method.
+A    Marks awarded for an Answer or for Accuracy; often dependent on preceding M marks.
+R    Marks awarded for clear Reasoning.
+AG   Answer given in the question and so no marks are awarded.
+FT   Follow through. The practice of awarding marks, despite candidate errors in previous parts, for their
+     correct methods/answers using incorrect results.
+
+
+Using the markscheme
+
+1    General
+
+     Award marks using the annotations as noted in the markscheme eg M1, A2.
+
+
+2    Method and Answer/Accuracy marks
+
+     • Do not automatically award full marks for a correct answer; all working must be checked,
+       and marks awarded according to the markscheme.
+     • It is generally not possible to award M0 followed by A1, as A mark(s) depend on
+       the preceding M mark(s), if any.
+     • Where M and A marks are noted on the same line, e.g. M1A1, this usually means M1 for
+       an attempt to use an appropriate method (e.g. substitution into a formula) and A1 for using
+       the correct values.
+     • Where there are two or more A marks on the same line, they may be awarded
+       independently; so if the first value is incorrect, but the next two are correct, award A0A1A1.
+     • Where the markscheme specifies A3, M2 etc., do not split the marks, unless there is a note.
+     • The response to a “show that” question does not need to restate the AG line, unless a Note
+       makes this explicit in the markscheme.
+     • Once a correct answer to a question or part question is seen, ignore further working even if
+       this working is incorrect and/or suggests a misunderstanding of the question. This will
+       encourage a uniform approach to marking, with less examiner discretion. Although some
+       candidates may be advantaged for that specific question item, it is likely that these candidates
+       will lose marks elsewhere too.
+     • An exception to the previous rule is when an incorrect answer from further working is used in
+       a subsequent part. For example, when a correct exact value is followed by an incorrect
+       decimal approximation in the first part and this approximation is then used in the second part.
+       In this situation, award FT marks as appropriate but do not award the final A1 in the first part.
+       Examples:
+
+     Correct        Further            Any FT issues?
+                                                                  Action
+     answer seen    working seen
+1.                     5.65685...        No.                       Award A1 for the final mark
+       8 2           (incorrect          Last part in question.    (condone the incorrect further
+                    decimal value)                                 working)
+2.                    0.468111…          Yes.                      Award A0 for the final mark
+        35
+                     (incorrect          Value is used in          (and full FT is available in
+        72          decimal value)       subsequent parts.         subsequent parts)
+                                                –4–               M21/5/MATHX/SP2/ENG/TZ2/XX/M
+
+
+3   Implied marks
+
+    Implied marks appear in brackets e.g. (M1),and can only be awarded if correct work is seen or
+    implied by subsequent working/answer.
+
+
+4   Follow through marks (only applied after an error is made)
+
+    Follow through (FT) marks are awarded where an incorrect answer from one part of a question
+    is used correctly in subsequent part(s) (e.g. incorrect value from part (a) used in part (d) or
+    incorrect value from part (c)(i) used in part (c)(ii)). Usually, to award FT marks, there must be
+    working present and not just a final answer based on an incorrect answer to a previous part.
+    However, if all the marks awarded in a subsequent part are for the answer or are implied, then
+    FT marks should be awarded for their correct answer, even when working is not present.
+
+    For example: following an incorrect answer to part (a) that is used in subsequent parts, where
+    the markscheme for the subsequent part is (M1)A1, it is possible to award full marks for their
+    correct answer, without working being seen. For longer questions where all but the answer
+    marks are implied this rule applies but may be overwritten by a Note in the Markscheme.
+
+    • Within a question part, once an error is made, no further A marks can be awarded for work
+      which uses the error, but M marks may be awarded if appropriate.
+
+    • If the question becomes much simpler because of an error then use discretion to award
+      fewer FT marks, by reflecting on what each mark is for and how that maps to the simplified
+      version.
+
+    • If the error leads to an inappropriate value (e.g. probability greater than 1, sin q = 1.5 , non-
+      integer value where integer required), do not award the mark(s) for the final answer(s).
+
+    • The markscheme may use the word “their” in a description, to indicate that candidates may
+      be using an incorrect value.
+
+    • If the candidate’s answer to the initial question clearly contradicts information given in the
+      question, it is not appropriate to award any FT marks in the subsequent parts. This includes
+      when candidates fail to complete a “show that” question correctly, and then in subsequent parts
+      use their incorrect answer rather than the given value.
+
+    • Exceptions to these FT rules will be explicitly noted on the markscheme.
+
+    • If a candidate makes an error in one part but gets the correct answer(s) to subsequent
+      part(s), award marks as appropriate, unless the command term was “Hence”.
+                                               –5–                M21/5/MATHX/SP2/ENG/TZ2/XX/M
+
+
+5   Mis-read
+
+    If a candidate incorrectly copies values or information from the question, this is a mis-read
+    (MR). A candidate should be penalized only once for a particular misread. Use the MR stamp
+    to indicate that this has been a misread and do not award the first mark, even if this is an M
+    mark, but award all others as appropriate.
+
+    • If the question becomes much simpler because of the MR, then use discretion to award
+      fewer marks.
+
+    • If the MR leads to an inappropriate value (e.g. probability greater than 1, sin q = 1.5 , non-
+      integer value where integer required), do not award the mark(s) for the final answer(s).
+
+    • Miscopying of candidates’ own work does not constitute a misread, it is an error.
+
+    • If a candidate uses a correct answer, to a “show that” question, to a higher degree of
+      accuracy than given in the question, this is NOT a misread and full marks may be scored in
+      the subsequent part.
+
+    • MR can only be applied when work is seen. For calculator questions with no working and
+      incorrect answers, examiners should not infer that values were read incorrectly.
+
+
+6   Alternative methods
+
+    Candidates will sometimes use methods other than those in the markscheme. Unless the
+    question specifies a method, other correct methods should be marked in line with the
+    markscheme. If the command term is ‘Hence’ and not ‘Hence or otherwise’ then alternative
+    methods are not permitted unless covered by a note in the mark scheme.
+
+    • Alternative methods for complete questions are indicated by                         METHOD   1,
+      METHOD 2, etc.
+    • Alternative solutions for parts of questions are indicated by EITHER . . . OR.
+                                                      –6–                   M21/5/MATHX/SP2/ENG/TZ2/XX/M
+
+
+7   Alternative forms
+
+    Unless the question specifies otherwise, accept equivalent forms.
+
+    • As this is an international examination, accept all alternative forms of notation for example
+      1.9 and 1,9 or 1000 and 1,000 and 1.000 .
+
+    • Do not accept final answers written using calculator notation. However, M marks and
+      intermediate A marks can be scored, when presented using calculator notation, provided
+      the evidence clearly reflects the demand of the mark.
+
+    • In the markscheme, equivalent numerical and algebraic forms will generally be written in
+      brackets immediately following the answer.
+
+    • In the markscheme, some equivalent answers will generally appear in brackets. Not all
+      equivalent notations/answers/methods will be presented in the markscheme and examiners are
+      asked to apply appropriate discretion to judge if the candidate work is equivalent.
+
+8   Format and accuracy of answers
+
+    If the level of accuracy is specified in the question, a mark will be linked to giving the answer
+    to the required accuracy. If the level of accuracy is not stated in the question, the general rule
+    applies to final answers: unless otherwise stated in the question all numerical answers must
+    be given exactly or correct to three significant figures.
+
+    Where values are used in subsequent parts, the markscheme will generally use the exact
+    value, however candidates may also use the correct answer to 3 sf in subsequent parts. The
+    markscheme will often explicitly include the subsequent values that come “from the use of 3 sf
+    values”.
+
+    Simplification of final answers: Candidates are advised to give final answers using good
+    mathematical form. In general, for an A mark to be awarded, arithmetic should be completed,
+                                                                                       25
+    and any values that lead to integers should be simplified; for example,               should be written
+                                                                                       4
+        5
+    as    . An exception to this is simplifying fractions, where lowest form is not required
+        2
+                                                                                         10
+    (although the numerator and the denominator must be integers); for example,             may be left
+                                                                                          4
+                              5               10
+    in this form or written as . However,         should be written as 2, as it simplifies to an
+                              2                5
+    integer.
+
+    Algebraic expressions should be simplified by completing any operations such as addition
+    and multiplication, e.g. 4e 2 x ´ e3 x should be simplified to 4e5 x , and 4e2 x ´ e3 x - e4 x ´ e x should
+    be simplified to 3e 5 x . Unless specified in the question, expressions do not need to be
+    factorized, nor do factorized expressions need to be expanded, so x ( x + 1) and x 2 + x are
+    both acceptable.
+
+    Please note: intermediate A marks do NOT need to be simplified.
+                                                   –7–                M21/5/MATHX/SP2/ENG/TZ2/XX/M
+
+
+9     Calculators
+
+      A GDC is required for this paper, but If you see work that suggests a candidate has used any
+      calculator not approved for IB DP examinations (eg CAS enabled devices), please follow the
+      procedures for malpractice.
+
+
+10.   Presentation of candidate work
+
+      Crossed out work: If a candidate has drawn a line through work on their examination script,
+      or in some other way crossed out their work, do not award any marks for that work unless
+      an explicit note from the candidate indicates that they would like the work to be marked.
+
+      More than one solution: Where a candidate offers two or more different answers to the
+      same question, an examiner should only mark the first response unless the candidate
+      indicates otherwise. If the layout of the responses makes it difficult to judge, examiners
+      should apply appropriate discretion to judge which is “first”.
+                                                  –8–                M21/5/MATHX/SP2/ENG/TZ2/XX/M
+
+
+                                               Section A
+
+1.   (a)   (i)    a = 0.805084... and b = 2.88135...
+                  a = 0.805 and b = 2.88                                                         A1A1
+
+
+           (ii)   r = 0.97777...
+                  r = 0.978                                                                         A1
+                                                                                              [3 marks]
+
+
+
+
+     (b)   a represents the (average) increase in waiting time ( 0.805 mins) per additional
+           customer (waiting to receive their coffee)                                               R1
+                                                                                               [1 mark]
+
+
+
+
+     (c)   attempt to substitute x = 7 into their equation                                        (M1)
+           8.51693...
+           8.52 (mins)                                                                              A1
+                                                                                              [2 marks]
+                                                                                      Total [6 marks]
+                                                 –9–                M21/5/MATHX/SP2/ENG/TZ2/XX/M
+
+
+2.   (a)
+
+
+
+
+                                                                                           A1A1A1
+
+
+     Note: Award A1 for a smooth concave down curve with generally correct
+          shape. If first mark is awarded, award A1 for local maximum and x-
+          intercept in approximately correct position, award A1 for endpoints at x = 0
+          and x = 3 with approximately correct y-coordinates.
+
+
+                                                                                          [3 marks]
+
+
+
+
+     (b)   recognizing that f  ( x ) = 0 at local maximum                                     (M1)
+
+           x = 2.33084...
+           x = 2.33                                                                             A1
+                                                                                          [2 marks]
+                                                                                     Total [5 marks]
+                                                     – 10 –        M21/5/MATHX/SP2/ENG/TZ2/XX/M
+
+
+3.   (a)   attempt to use u1 + ( n − 1) d = 0                                             (M1)
+
+           60 − 2.5 ( k − 1) = 0
+           k = 25                                                                           A1
+                                                                                     [2 marks]
+
+
+
+
+     (b)   METHOD 1
+           attempting to express S n in terms of n                                        (M1)
+
+           use of a graph or a table to attempt to find the maximum sum                   (M1)
+           = 750                                                                            A1
+
+
+           METHOD 2
+
+
+           EITHER
+           recognizing maximum occurs at n = 25                                           (M1)
+                   25                   25
+           S25 =      ( 60 + 0 ) , S25 = ( 2  60 + 24  −2.5)                            (A1)
+                   2                    2
+           OR
+           attempting to calculate S24                                                    (M1)
+
+                   24
+           S24 =      ( 2  60 + 23  −2.5)                                               (A1)
+                   2
+           THEN
+           = 750                                                                            A1
+                                                                                     [3 marks]
+                                                                                Total [5 marks]
+                                                        – 11 –                  M21/5/MATHX/SP2/ENG/TZ2/XX/M
+
+
+4.   (a)   EITHER
+
+                                                                                 (
+           P( S ) + P(T ) + P ( S   T  ) − P ( S  T ) = 1 OR P ( S  T ) = P ( S   T ) '   )       (M1)
+
+           0.7 + 0.2 + 0.18 − P ( S  T ) = 1 OR P ( S  T ) = 1 − 0.18
+
+
+           OR
+           a clearly labelled Venn diagram                                                                (M1)
+
+
+           THEN
+           P ( S  T ) = 0.08 (accept 8%)                                                                   A1
+
+
+     Note: To obtain the M1 for the Venn diagram all labels must be correct and in the
+     correct sections. For example, do not accept 0.7 in the area corresponding to S  T  .
+                                                                                                      [2 marks]
+
+
+
+
+     (b)   EITHER
+           P (T  S  ) = P (T ) − P (T  S )( = 0.2 − 0.08 ) OR
+           P (T  S  ) = P (T  S ) − P ( S )( = 0.82 − 0.7 )
+                                                                                                          (M1)
+
+
+           OR
+           a clearly labelled Venn diagram including P ( S ) , P (T ) and P ( S  T )                     (M1)
+
+
+           THEN
+           = 0.12 (accept 12%)                                                                              A1
+
+
+                                                                                                      [2 marks]
+continued…
+                                                       – 12 –       M21/5/MATHX/SP2/ENG/TZ2/XX/M
+
+
+Question 4 continued
+     (c)   P ( G  T ) = P (T / G ) P ( G ) ( 0.25  0.48 )                                (M1)
+
+           = 0.12                                                                            A1
+                                                                                      [2 marks]
+
+
+
+
+     (d)   METHOD 1
+           P ( G )  P (T )( = 0.48  0.2 ) = 0.096                                          A1
+
+           P ( G )  P (T )  P ( G  T )  G and T are not independent                      R1
+
+
+
+
+           METHOD 2
+           P (T | G ) = 0.25                                                                 A1
+
+           P (T | G )  P (T )  G and T are not independent                                 R1
+
+
+     Note: Do not award A0R1.
+                                                                                      [2 marks]
+                                                                                 Total [8 marks]
+                                                         – 13 –                    M21/5/MATHX/SP2/ENG/TZ2/XX/M
+
+
+5.   (a)   attempting to find the vertex                                                                  (M1)
+
+           x = 1 OR y = −5 OR f ( x ) = 6 ( x − 1) − 5
+                                                         2
+
+
+
+           range is y  −5                                                                                  A1
+                                                                                                     [2 marks]
+
+
+
+
+     (b)   METHOD 1
+
+           ( g f )( x ) = − ( 6 x2 − 12 x + 1) + c ( = − ( 6 ( x − 1) − 5) + c )
+                                                                    2
+                                                                                                          (A1)
+
+
+
+           EITHER
+           relating to the range of f OR attempting to find g ( −5)                                       (M1)
+
+           5+c  0                                                                                        (A1)
+
+
+           OR
+           attempting to find the discriminant of ( g         f )( x )                                    (M1)
+
+           144 + 24 ( c − 1)  0 (120 + 24c  0 )                                                         (A1)
+
+           THEN
+           c  −5                                                                                           A1
+                                                                                                     [4 marks]
+
+
+           METHOD 2
+           vertical reflection followed by vertical shift                                                 (M1)
+           new vertex is (1,5 + c )                                                                       (A1)
+
+           5+c  0                                                                                        (A1)
+           c  −5                                                                                           A1
+                                                                                                     [4 marks]
+                                                                                                Total [6 marks]
+                                                  – 14 –              M21/5/MATHX/SP2/ENG/TZ2/XX/M
+
+
+6.   (a)   100 = A0e0                                                                           A1
+
+             A0 = 100                                                                          AG
+
+                                                                                           [1 mark]
+
+
+     (b)   correct substitution of values into exponential equation                           (M1)
+                                              1
+           50 = 100e −5730 k OR e −5730 k =
+                                              2
+
+
+           EITHER
+                          1
+           −5730k = ln                                                                          A1
+                          2
+                1                 1
+           ln     = − ln 2 OR − ln = ln 2                                                       A1
+                2                 2
+
+
+           OR
+           e5730 k = 2                                                                          A1
+           5730k = ln 2                                                                         A1
+
+
+           THEN
+                  ln 2
+           k=                                                                                  AG
+                 5730
+
+
+                                                                 ln 2
+     Note: There are many different ways of showing that k =          which involve
+                                                                5730
+           showing different steps. Award full marks for at least two correct algebraic
+           steps seen.
+                                                                                          [3 marks]
+
+
+continued…
+                                                 – 15 –           M21/5/MATHX/SP2/ENG/TZ2/XX/M
+
+
+Question 6 continued
+
+
+     (c)   if 25 % of the carbon-14 has decayed, 75 % remains ie, 75 units remain             (A1)
+                           ln 2
+                       −          t
+           75 = 100e 5730
+
+
+           EITHER
+           using an appropriate graph to attempt to solve for t                               (M1)
+
+
+           OR
+           manipulating logs to attempt to solve for t                                        (M1)
+                            ln 2
+           ln 0.75 = −           t
+                           5730
+           t = 2378.164...
+
+
+           THEN
+
+
+           t = 2380 (years) (correct to the nearest 10 years)                                   A1
+                                                                                         [3 marks]
+                                                                                    Total [7 marks]
+                                                      – 16 –               M21/5/MATHX/SP2/ENG/TZ2/XX/M
+
+
+                                            Section B
+
+
+                        h
+7.   (a)   tan 0.6 =                                                                             (M1)
+                       12
+           8.20964...
+           8.21 (m)                                                                                A1
+                                                                                            [2 marks]
+
+
+
+
+                      8.2096...
+     (b)   tan B =              OR tan −1 1.6419...                                               (A1)
+                         5
+           1.02375…
+           1.02 (radians) (accept 58.7°)                                                           A1
+                                                                                            [2 marks]
+
+
+
+
+     (c)   x + 1.8 + 2.5 = 8.20964... (or equivalent)                                             (A1)
+           3.90964…
+           3.91 (m)                                                                                A1
+                                                                                            [2 marks]
+
+
+
+
+     (d)   METHOD 1
+                                                               max − min
+           recognition that blade length = amplitude, p =                                        (M1)
+                                                                   2
+           p = 3.91                                                                                A1
+
+                                                      max + min
+           centre of windmill = vertical shift, q =                                              (M1)
+                                                          2
+           q = 8.21                                                                                A1
+
+
+           METHOD 2
+           attempting to form two equations in terms of p and q                              (M1) (M1)
+
+                               3π                            3π 10 
+           12.1192... = p cos   0  + q , 4.3000... = p cos    + q
+                               10                            10 3 
+           p = 3.91                                                                                A1
+           q = 8.21                                                                                A1
+                                                                                            [4 marks]
+                                               – 17 –             M21/5/MATHX/SP2/ENG/TZ2/XX/M
+
+
+(e)   appropriate working towards finding the period                                     (M1)
+                 2
+      period =
+                 3π
+                    ( = 6.6666...)
+                 10
+                                     60
+      rotations per minute =                                                             (M1)
+                                their period
+      n = 9 (must be an integer) (accept n = 10 , n = 18 , n = 19 )                        A1
+                                                                                    [3 marks]
+                                                                              Total [13 marks]
+                                                      – 18 –            M21/5/MATHX/SP2/ENG/TZ2/XX/M
+
+
+8.   (a)   use of inverse normal to find z-score                                              (M1)
+             z = 2.0537...
+                         82 − 75
+           2.0537... =                                                                        (A1)
+                             
+            = 3.408401...
+            = 3.41                                                                            A1
+                                                                                         [3 marks]
+
+
+
+
+     (b)   evidence of identifying the correct area under the normal curve                    (M1)
+           P (T  80 ) = 0.071193...
+
+           P (T  80 ) = 0.0712                                                                A1
+
+                                                                                         [2 marks]
+
+
+
+
+     (c)   recognition that P ( 80  T  82 ) is required                                     (M1)
+
+                                    P ( 80  T  82 )  0.051193... 
+             P (T  82 T  80 ) =                    =                                  (M1)(A1)
+                                       P (T  80 )     0.071193... 
+           = 0.719075...
+           = 0.719                                                                             A1
+                                                                                         [4 marks]
+continued…
+                                                       – 19 –       M21/5/MATHX/SP2/ENG/TZ2/XX/M
+
+
+Question 8 continued
+
+
+     (d)   recognition of binomial probability                                             (M1)
+
+
+           X    B ( 64,0.071193...) or E ( X ) = 64  0.071193...                          (A1)
+
+
+
+           E ( X ) = 4.556353...
+
+           E ( X ) = 4.56 (flights)                                                          A1
+
+                                                                                      [3 marks]
+
+
+
+
+     (e)   P ( X  6) = P ( X  7 ) = 1 − P ( X  6)                                       (M1)
+
+           = 1 − 0.83088...                                                                (A1)
+           = 0.1691196...
+           = 0.169                                                                           A1
+                                                                                      [3 marks]
+                                                                                Total [15 marks]
+                                                     – 20 –                 M21/5/MATHX/SP2/ENG/TZ2/XX/M
+
+
+9.   (a)   considering that sum of probabilities is 1                                                   (M1)
+           0.85 + c + 0.03 + 0.002 + 0.0001 = 1
+           0.1179                                                                                         A1
+                                                                                                    [2 marks]
+
+
+
+
+     (b)   valid attempt to find E ( D )                                                                (M1)
+
+           E ( D ) = ( 0  0.85) + ( 2  0.1179 ) + (10  0.03) + (50  0.002 ) + (1000  0.0001)
+
+           E ( D ) = 0.7358                                                                               A1
+
+           No, not a fair game                                                                            A1
+           for a fair game, E ( D ) would be $2 OR players expected winnings
+           are 1.264                                                                                      R1
+
+
+                                                                                                    [4 marks]
+
+
+
+
+     (c)   recognition of GP with r = 2                                                                 (M1)
+
+           1000  2n−1 OR 500 ( 2n )                                                                      A1
+
+                                                                                                    [2 marks]
+
+
+
+
+continued…
+                                                      – 21 –                M21/5/MATHX/SP2/ENG/TZ2/XX/M
+
+
+Question 9 continued
+
+
+     (d)   recognizing E ( D )  2                                                                           (M1)
+
+           correct expression for wth week (or nth week)                                                     (A1)
+
+           ( 0  0.85) + ( 2  0.1179 ) + (10  0.03) + ( 50  0.002 ) + (1000  2w−1  0.0001)
+           correct inequality (accept equation)                                                              (A1)
+
+                      (                     )
+           0.6358 + 1000  2w−1  0.0001  2 OR 2n−1  13.642
+
+
+           EITHER
+           n − 1  3.76998 OR w = 4.76998...                                                                 (A1)
+
+
+           OR
+           E ( D ) = 1.4358 in week 4 or E ( D ) = 2.2358 in week 5                                          (A1)
+
+
+           THEN
+           w=5                                                                                                 A1
+           expected profit per ticket = their E( D) − 2                                                      (M1)
+           = 0.2358                                                                                            A1
+                                                                                                        [7 marks]
+                                                                                                  Total [15 marks]
+

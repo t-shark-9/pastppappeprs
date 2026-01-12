@@ -1,0 +1,374 @@
+N12/5/COMSC/SP2/ENG/TZ0/XX/M
+
+
+
+
+                   MARKSCHEME
+
+
+                      November 2012
+
+
+
+                COMPUTER SCIENCE
+
+
+
+                      Standard Level
+
+
+
+                               Paper 2
+
+
+
+
+11 pages
+                              –2–            N12/5/COMSC/SP2/ENG/TZ0/XX/M
+
+
+
+
+This markscheme is confidential and for the exclusive use of
+examiners in this examination session.
+
+It is the property of the International Baccalaureate and must not
+be reproduced or distributed to any other person without the
+authorization of the IB Assessment Centre.
+                                                –3–              N12/5/COMSC/SP2/ENG/TZ0/XX/M
+
+
+General Marking Instructions
+
+After marking a sufficient number of scripts to become familiar with the markscheme and
+candidates’ responses to all or the majority of questions, Assistant Examiners (AEs) will be
+contacted by their Team Leader (TL). The purpose of this contact is to discuss the standard
+of marking, the interpretation of the markscheme and any difficulties with particular questions.
+It may be necessary to review your initial marking after contacting your TL. DO NOT BEGIN
+THE FINAL MARKING OF YOUR SCRIPTS IN RED INK UNTIL YOU RECEIVE
+NOTIFICATION THAT THE MARKSCHEME IS FINALIZED. You will be informed by
+e-mail, fax or post of modifications to the markscheme and should receive these about one week
+after the date of the examination. If you have not received them within 10 days you should
+contact your TL and the IB Assessment Centre. Make an allowance for any difference in time
+zone before calling. AEs WHO DO NOT COMPLY WITH THESE INSTRUCTIONS MAY
+NOT BE INVITED TO MARK IN FUTURE SESSIONS.
+
+
+You should contact the TL whose name appears on your “Allocation of Schools listing” sheet.
+
+
+Note:
+Please use a personal courier service when sending sample materials to TLs unless postal services can
+be guaranteed. Record the costs on your examiner claim form.
+                                                    –4–               N12/5/COMSC/SP2/ENG/TZ0/XX/M
+
+
+General Marking Instructions
+
+1.    Once markscheme is received mark in pencil until final markscheme is received.
+
+
+2.    Follow the markscheme provided, do not use decimals or fractions and mark only in RED.
+
+
+3.    Where a mark is awarded, a tick (ü) should be placed in the text at the precise point where it
+      becomes clear that the candidate deserves the mark.
+
+
+4.    Sometimes, careful consideration is required to decide whether or not to award a mark. Indeed,
+      another examiner may have arrived at the opposite decision. In these cases write a brief annotation
+      in the left-hand margin to explain your decision. You are encouraged to write comments where it
+      helps clarity, especially for moderation and re-marking.
+
+
+5.    Unexplained symbols or personal codes/notations on their own are unacceptable.
+
+
+6.    Record subtotals (where applicable) in the right-hand margin against the part of the answer to which
+      they refer. Show a mark for each part question (a), (b), etc. Do not circle sub-totals. Circle the total
+      mark for the question in the right-hand margin opposite the last line of the answer.
+
+
+7.    Where an answer to a part question is worth no marks, put a zero in the right-hand margin.
+
+
+8.    Record the mark awarded for each of the four questions answered in the Examiner Column on the
+      cover sheet. Add up the marks awarded and enter this in the box marked TOTAL in the Examiner
+      Column on the cover sheet.
+
+
+9.    After entering the marks on the cover sheet check your addition of all marks to ensure that you have
+      not made an arithmetical error. Check also that you have transferred the marks correctly to the
+      cover sheet. We have script checking and a note of all clerical errors may be given in feedback
+      to all examiners.
+
+
+10.   Every page and every question must have an indication that you have marked it. Do this by writing
+      your initials on each page where you have made no other mark.
+
+
+11.   A candidate can be penalized if he/she clearly contradicts him/herself within an answer. Once again
+      make a comment to this effect in the left-hand margin.
+                                                  –5–              N12/5/COMSC/SP2/ENG/TZ0/XX/M
+
+
+Subject Details:             Computer Science SL Paper 2 Markscheme
+
+Mark Allocation
+
+Candidates are required to answer ALL questions [20 marks] for question 1, [20 marks] for question 2
+and [30 marks] for question 3. Maximum total = [70 marks].
+
+General
+
+A markscheme often has more specific points worthy of a mark than the total allows. This is intentional.
+Do not award more than the maximum marks allowed for that part of a question.
+
+When deciding upon alternative answers by candidates to those given in the markscheme, consider the
+following points:
+
+         Each statement worth one point has a separate line and the end is signified by means of a
+           semi-colon (;).
+
+         An alternative answer or wording is indicated in the markscheme by a “/”; either wording can
+           be accepted.
+
+         Words in ( … ) in the markscheme are not necessary to gain the mark.
+
+         If the candidate’s answer has the same meaning or can be clearly interpreted as being the
+           same as that in the markscheme then award the mark.
+
+         Mark positively. Give candidates credit for what they have achieved, and for what they have
+           got correct, rather than penalizing them for what they have not achieved or what they have got
+           wrong.
+
+         Remember that many candidates are writing in a second language; be forgiving of minor
+           linguistic slips. In this subject effective communication is more important than grammatical
+           accuracy.
+
+         Occasionally, a part of a question may require a calculation whose answer is required for
+           subsequent parts. If an error is made in the first part then it should be penalized. However, if
+           the incorrect answer is used correctly in subsequent parts then follow through marks should
+           be awarded. Indicate this with “FT”.
+                                                   –6–              N12/5/COMSC/SP2/ENG/TZ0/XX/M
+
+
+1.   (a)   Award [1 mark] for each row.
+               Original     7        2        9       –3        4        1
+               1st pass     2        7        9       –3        4        1
+               2nd pass     2        7        9       –3        4        1
+               3rd pass     2        7       –3        9        4        1
+               4th pass     2        7       –3        4        9        1
+               5th pass     2        7       –3        4        1        9
+                                                                                        [5 marks]
+
+     (b)   Award up to [2 marks max].
+           The largest element of the array;
+           Will be moved to the last location;
+           It is an incomplete sort;
+           Which is ordering in ascending order;                                        [2 marks]
+
+     (c)   Award marks as follows up to [7 marks max].
+           Award [1 mark] for the correct method signature;
+           Award [1 mark] for determining the length of the array;
+           Award [1 mark] for using the array length to set the number of times the
+           loop executes;
+           Award [1 mark] for creating a variable to count the swaps;
+           Award [1 mark] for initializing the variable to zero;
+           Award [1 mark] for incrementing the count with each swap;
+           Award [1 mark] for returning the swap count;
+
+           Example answer:
+           int doIt(int[] dArray)
+           {
+             int n = dArray.length;
+             int iCount = 0;
+
+               for (int i = 1; i < n; i = i +1)
+               {
+                 if (dArray[i] < dArray[i - 1] )
+                 {
+                   int t = dArray[i];
+                   dArray[i] = dArray[i - 1];
+                   dArray[i - 1] = t;
+                   iCount = iCount + 1;
+                 }
+               }
+               return iCount;
+           }                                                                            [7 marks]
+
+     (d)   The value passed to doIt is the base address of the array (a pointer);
+           Accessing an array element i an offset from the base;                        [2 marks]
+
+
+
+                                                                                      continued …
+                                                  –7–        N12/5/COMSC/SP2/ENG/TZ0/XX/M
+
+
+Question 1 continued
+
+     (e)   Award [1 mark] for calling doIt(). Award an additional [1 mark] if the
+           method is correct.
+
+           Example answer:
+           void sortUp(int[] dArray)
+           {
+             while (doIt(dArray) != 0);
+           }                                                                         [2 marks]
+
+     (f)   (i)    Once;                                                               [1 mark]
+
+           (ii)   The number of elements in the array / 6;                            [1 mark]
+
+                                                                              Total: [20 marks]
+                                                  –8–                N12/5/COMSC/SP2/ENG/TZ0/XX/M
+
+
+2.   (a)   (long1, lat1);                                                                         [1 mark]
+
+     (b)   Award marks as follows up to [3 marks max].
+           Award [1 mark] for the correct method signature;
+           Award [1 mark] for setting latitude correctly;
+           Award [1 mark] for setting longitude correctly;
+
+           Example answer:
+           public Location(double dLatitude, double dLongitude)
+           {
+             latitude = dLatitude;
+             longitude = dLongitude;
+           }                                                                                     [3 marks]
+
+     (c)   Award marks as follows up to [3 marks max].
+           Award [1 mark] for the correct method signature;
+           Award [1 mark] for the correct calculation of distance;
+           Award [1 mark] for returning the calculated distance;
+
+           Example answer:
+           double distance(Location A, Location B)
+           {
+             return sqrt((A.latitude – B.latitude) * (A.latitude – B.latitude)
+                    + (A.longitude –B.longitude) * (A.longitude –B.longitude));
+           }                                                               [3 marks]
+
+     (d)   Award marks as follows up to [6 marks max].
+           Award [1 mark] for the correct method signature;
+           Award [1 mark] for creating variable to keep track of the closest stand;
+           Award [1 mark] for choosing reasonable initial values for the variables;
+           Award [1 mark] for correctly looping through all the stands;
+           Award [1 mark] for correctly updating the variables when a closer stand is found;
+           Award [1 mark] for returning the index of the closest stand;
+
+           Example answer:
+           int closest(Location[] AllStands, Location B)
+           {
+             int closestID = 0;
+             double leastDistance = distance(AllStands[0], B);
+
+               for (i = 1; i < AllStands.length; i = i + 1)
+               {
+                 if (distance(AllStands[i], B) < leastDistance)
+                 {
+                   leastDistance = distance( AllStands[i], B);
+                   closestID = i;
+                 }
+               }
+
+               return closestID;
+           }                                                                                     [6 marks]
+
+                                                                                               continued …
+                                                   –9–               N12/5/COMSC/SP2/ENG/TZ0/XX/M
+
+
+Question 2 continued
+
+     (e)   Creating a data structure containing the distance to each stand;
+           Sorting the data structure based on distance to the stand;
+           Displaying the five closest stands to the driver;
+           Award an additional [1 mark] for explaining the process clearly;
+           Award an additional [1 mark] for a correct, workable proposal;                        [5 marks]
+
+     (f)   Award [1 mark] for a reasonable suggestion and [1 mark] for a more complete
+           outline.
+
+           Example answers:
+
+           The route to the nearest stand is blocked by traffic
+           The route to the nearest stand is long due to one-way streets
+           The nearest stand is on the other side of a river and the bridge is far away          [2 marks]
+
+                                                                                          Total: [20 marks]
+                                                  – 10 –            N12/5/COMSC/SP2/ENG/TZ0/XX/M
+
+
+3.   (a)   Award up to [2 marks max].
+           WiMax has much greater range than Wi-Fi;
+           WiMax has greater bandwidth (speed) than Wi-Fi;
+           WiMax is more secure than Wi-Fi;                                                       [2 marks]
+
+     (b)   Award up to [2 marks max].
+           Bluetooth has much less range than Wi-Fi;
+           Bluetooth uses much less power than Wi-Fi;
+           Bluetooth cannot work through building walls, Wi-Fi can;                               [2 marks]
+
+     (c)   Award [1 mark] for each reason identified, up to [2 marks max]. Award up to
+           an additional [2 marks] for reasonable explanations.
+           Device is for very text-heavy use (e.g. Blackberry for email);
+           Device may have to work in environment where touchpad will not work;
+           Device may be subjected to impacts that would break a touchscreen;
+           Device may have to be operated without looking at it;
+           etc.                                                                                   [4 marks]
+
+     (d)   Award [1 mark] for each reason identified, up to [2 marks max]. Award up to
+           an additional [2 marks] for reasonable explanations.
+           Patient data would be sent over Internet;
+           Patient data may remain on phone (in cache) after it is sent;
+           User error could result in the patient data being sent to an unintended recipient;
+           etc.                                                                                   [4 marks]
+
+     (e)   Award [1 mark] for each mechanism identified, up to [2 marks max].
+           Award up to an additional [2 marks] for reasonable explanations.
+           Man-in-the-middle public Wi-Fi attacks;
+           A trojan in an installed app;
+           Phishing and other scams;
+           The mobile device is used to access a compromised or malicious host;
+           etc.                                                                                   [4 marks]
+
+     (f)   Award [1 mark] for each advantage identified. Only award the third mark for
+           an answer that outlines these advantages beyond simply stating them.
+           example:
+           Companies may produce apps specific to one area (e.g. medicine);
+           Greater competition may lower prices / produce a greater variety of apps;              [3 marks]
+
+     (g)   Award [1 mark] for defining social engineering.
+           Award [2 marks] for describing a method of getting a user to reveal personal data.
+           Award [1 mark] clearly identifying the social engineering element of the
+           method described.
+           example:
+           Social engineering tries to make use of previously know information and/or
+           promise of rewards in order to persuade users to part with sensitive data.
+           For example, an email pretending to be from the user’s bank, but with a
+           slightly altered address, requesting certain actions, which could involve the
+           user revealing bank account details.                                                   [4 marks]
+
+
+                                                                                                continued …
+                                                 – 11 –            N12/5/COMSC/SP2/ENG/TZ0/XX/M
+
+
+Question 3 continued
+
+     (h)   Award [1 mark] for either ROM or flash;                                             [1 mark]
+
+     (i)   The discussion should have two distinct areas. For each area, award [1 mark]
+           for identifying a reasonable area, [1 mark] for an elaboration and [1 mark] for
+           an example.
+
+           Possible areas for discussion:
+           Work/life balance issues.
+           Employer monitoring of personal behaviour outside of work environment and hours.
+           Personal use of employer-owned mobile device.                                      [6 marks]
+
+                                                                                       Total: [30 marks]
+

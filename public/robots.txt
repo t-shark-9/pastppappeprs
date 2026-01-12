@@ -1,0 +1,37 @@
+# TooEssay Robots.txt - Optimized for SEO
+# https://tooessay.app
+
+# Allow all search engines to crawl public pages
+User-agent: *
+Allow: /
+Allow: /ia-guides
+Allow: /extended-essay-guide
+Allow: /theory-of-knowledge-guide
+Allow: /grade-boundaries
+Allow: /exam-resources
+Allow: /books
+Allow: /about
+Allow: /auth
+
+# Disallow private/authenticated pages
+Disallow: /dashboard
+Disallow: /editor
+Disallow: /notes
+Disallow: /admin
+Disallow: /settings
+Disallow: /trash
+Disallow: /improvements
+Disallow: /study
+
+# Disallow API routes
+Disallow: /api/
+
+# Allow CSS and JS for proper rendering
+Allow: /*.css
+Allow: /*.js
+
+# Sitemap location
+Sitemap: https://tooessay.app/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1

@@ -1,0 +1,529 @@
+M15/4/COMSC/SP2/ENG/TZ0/XX
+
+
+
+
+Computer science
+Standard level
+Paper 2
+
+
+Wednesday 20 May 2015 (morning)
+
+
+1 hour
+
+
+Instructions to candidates
+ Do not open this examination paper until instructed to do so.
+ Answer all of the questions from one of the options.
+ The maximum mark for this examination paper is [45 marks].
+
+                    Option                          Questions
+   Option A – Databases                               1–3
+   Option B – Modelling and simulation                4–6
+   Option C – Web science                             7–9
+   Option D – Object-oriented programming            10–12
+
+
+
+
+                                                                                             2215 – 7015
+     12 pages                                            © International Baccalaureate Organization 2015
+                                                   –2–                      M15/4/COMSC/SP2/ENG/TZ0/XX
+
+Option A — Databases
+
+1.   A tourist has booked a double room, non-smoking, at the Overlook Hotel. The tourist used
+     an online booking service called Best Fare that compares offers from different hotels.
+
+     Best Fare confirms the transaction by communicating only the booking code 3EP9RE to
+     the tourist. The tourist later receives an email from the hotel, with further details.
+
+     (a)   Outline the difference between data and information, in relation to the booking code.     [2]
+
+     (b)   Define the term database transaction.                                                     [2]
+
+     (c)   Describe the use of transactions to maintain data consistency.                            [3]
+
+     (d)   Explain what is meant by isolation in the transaction described above.                    [2]
+
+     (e)   Explain the benefits offered by data sharing in databases, for two of the stakeholders
+           in this scenario.                                                                         [6]
+
+
+2.   An information system is used to manage the pharmacy of a hospital.  It includes the
+     database that contains the availability of different types of medicine.  Data on patients who
+     are taking specific medicines are also stored in the database.
+
+     The database can be used by the database administrator, internal hospital staff and also the
+     staff of nearby hospitals.
+
+     (a)   Outline the role of a database administrator, in the hospital.                            [2]
+
+     (b)   Outline what is meant by a data dictionary.                                               [2]
+
+     (c)   Discuss why the view of the database is different for different users in this scenario.   [6]
+
+
+
+(Option A continues on the following page)
+                                                     –3–                  M15/4/COMSC/SP2/ENG/TZ0/XX
+
+(Option A continued)
+
+3.     The following data represent orders for shelving units.  Each order specifies:
+       • an order number
+       • an order date
+       • a product code
+       • a description
+       • a quantity
+       • unit prices
+       • a total price.
+
+       The shelving units are available in wood or plastic, in small, medium or large size. There is
+       also an extra-strong shelving unit, made from steel, which is only available in the large size.
+
+     OrderNr     OrderDate     ProductCode      Description           Quantity    UnitPrice      TotalPrice
+
+     100         10/10/2014    WS               Wood, Small           1           30.00
+                               WL               Wood, Large           1           80.00
+                               PS               Plastic, Small        2           40.00
+                                                                                                 190.00
+
+     101         11/10/2014    PS               Plastic, Small        1           40.00
+                               PM               Plastic, Medium       2           75.00
+                                                                                                 190.00
+
+     102         11/10/2014    XX               Extra-strong, Large   3           200.00
+                                                                                                 600.00
+
+       (a)     Outline why this table is not in 1st Normal Form (1NF).                                        [3]
+
+       (b)     State three advantages of normalization.                                                       [3]
+
+       (c)     State, with a reason, whether “TotalPrice” alone can be a primary key.                         [2]
+
+       (d)     Suggest a way to ensure that “Description” contains atomic values in a table.                  [2]
+
+       (e)     Construct the table(s) in 1st Normal Form (1NF), for the given data.                           [3]
+
+       (f)     State the condition that attributes must meet, with respect to composite primary keys,
+               to produce 2nd Normal Form (2NF).                                                              [2]
+
+       (g)     Using your answer to part (e), construct the table(s) in 3rd Normal Form (3NF).                [5]
+
+
+
+
+                                           End of Option A
+
+
+
+
+                                                                                                    Turn over
+                                                    –4–                    M15/4/COMSC/SP2/ENG/TZ0/XX
+
+Option B — Modelling and simulation
+
+4.   A specific type of fish lives and breeds in a lake.  It is important that the fish population in the
+     lake has stability and does not decrease too much.
+
+     Each year people who want to fish from the lake are issued licences under the following
+     conditions.
+
+     • The estimated number of fish in the lake has not fallen by more than 5 % over the last
+       five years.
+     • The estimated average length of fish is greater than 20 cm.
+
+     These estimates are based on samples taken throughout the year from random sections of
+     the lake.
+
+     (a)   Outline the steps involved in combining and recording the results from five separate
+           samples taken from the lake in one year.                                                         [4]
+
+     (b)   Identify the variables needed to create a model that can be used to decide whether or
+           not licences should be issued.                                                                   [2]
+
+     (c)   Explain how the model from part (b) could be constructed and used.  You should make
+           reference to specific software with which you are familiar.                                      [3]
+
+     People who want to fish have complained that the model is not working and that often they
+     are denied licences unnecessarily.  At the same time, a protest group is complaining that too
+     many fish are being taken out of the lake.
+
+     (d)   Discuss how the model may be tested and corrected if necessary.                                  [6]
+
+
+5.   Climate is cyclical as well as being affected by other factors.
+
+     (a)   Identify four factors that could be used to define the current weather in a particular
+           area on a particular day.                                                                        [2]
+
+     (b)   Suggest how values for these factors could be presented to show weather patterns
+           over one year.                                                                                   [3]
+
+     One aspect of climate change is displacement; for example, summer weather beginning later
+     than in previous years.
+
+     (c)   Outline how a computer system could be used to detect displacement trends in climate
+           change.		                                                                                        [4]
+
+     (d)   Discuss the advantages and disadvantages of using the results from a computer
+           simulation to predict long term climate change.                                                  [6]
+
+
+
+(Option B continues on the following page)
+                                                 –5–                  M15/4/COMSC/SP2/ENG/TZ0/XX
+
+(Option B continued)
+
+6.   Computer gaming, whether alone or as part of an online group, is increasingly popular.  
+     With realistic graphics, players become involved in simulated virtual worlds.
+
+     (a)   Define the term visualization.                                                             [2]
+
+     (b)   With reference to lighting and rendering, outline how an image held in memory can be
+           shown on screen as a realistic 3D image.                                                   [5]
+
+     (c)   Outline the specifications of the software and hardware required to run a successful
+           online game simulation on a home computer.                                                 [3]
+
+     (d)   Discuss the advantages and disadvantages of participating in a simulated world of
+           online gaming.                                                                             [5]
+
+
+
+
+                                        End of Option B
+
+
+
+
+                                                                                                Turn over
+                                                   –6–                   M15/4/COMSC/SP2/ENG/TZ0/XX
+
+Option C — Web science
+
+7.   (a)   Outline the principal difference between HTML and HTTP.                                   [2]
+
+     Consider the section of XML code shown below:
+
+  <bird>
+		 <name>Eagle Owl</name>
+		 <species>Bubo bubo</species>
+		 <description>An owl the size of an eagle</description>
+		<habitat>Forests</habitat>
+  </bird>
+
+     (b)   Identify one similarity between HTML and XML.                                             [1]
+
+     One of the characteristics of XML code is its ability to describe data.
+
+     (c)   By making direct reference to the XML code above, outline one way in which this
+           characteristic is shown.                                                                  [2]
+
+     The XML code, above, is sent via the HTTP protocol from a client to a server where it is used
+     to update a database.
+
+     (d)   Describe how the structure of XML code allows data to be used to update a database.       [2]
+
+     When a user enters a URL into the search bar of the browser the URL will normally be sent
+     to a domain name server.
+
+     (e)   Identify the two possible actions that this domain name server will then take.            [2]
+
+     Protocols and standards are essential features of the successful operation and development
+     of the web.
+
+     (f)   (i)    Distinguish between the terms protocol and standard.                               [2]
+
+           (ii)   With specific references to one protocol and one standard, discuss the
+                  consequences if they did not exist.                                                [6]
+
+
+
+(Option C continues on the following page)
+                                                   –7–                   M15/4/COMSC/SP2/ENG/TZ0/XX
+
+(Option C continued)
+
+8.   The PageRank algorithm is used by Google’s search engine.
+
+     (a)   Identify the specific purpose of the PageRank algorithm.                                     [2]
+
+     A page has more chance of being listed on the first page of a Google search if it has many
+     links coming into it from other websites.
+
+     Page A links to Page B as shown in the diagram below.  The arrows represent some of the
+     links from the two pages.
+
+                                   Page A
+
+
+
+
+                                                            Page B
+
+
+
+
+     (b)   Identify two factors that will determine the effect that the link from Page A will have on
+           the PageRank of Page B.                                                                      [2]
+
+     (c)   Describe why the use of meta-tags might not always return the results expected by a
+           search query.                                                                                [2]
+
+     (d)   Explain, with the use of three examples, how black hat search engine optimization tries
+           to manipulate page ranking.                                                                  [6]
+
+
+9.   (a)   Identify two different types of file which, if compressed, could make use of a lossy
+           compression algorithm.                                                                       [2]
+
+     (b)   With the use of examples, outline the difference between interoperability and open
+           standards. 		                                                                                [4]
+
+     The technologies associated with Web 2.0 have often been described as leading to the
+     emergence of social networking.
+
+     (c)   Describe two different features, associated with these new technologies, which have
+           contributed to this emergence.                                                               [4]
+
+     A small company is deciding whether to make use of a private cloud service for storing their
+     customer data instead of storing it on their own server.
+
+     (d)   Discuss the security issues that will affect the company’s decision.                         [6]
+
+
+
+
+                                        End of Option C
+
+                                                                                                  Turn over
+                                                  –8–                M15/4/COMSC/SP2/ENG/TZ0/XX
+
+Option D — Object-oriented programming
+
+A library in a college loans books to students.
+
+The current book borrowing system, which was developed years ago, is prone to error.  You are a
+member of the new program development team which has decided to develop a system using an
+object-oriented programming (OOP) approach.  The team will be divided into small sub-groups.
+
+The program development team is aware of the following user requirements.
+
+• Certain books are classified as short term and can only be borrowed for 5 days.  Other books
+  are classified as long term and can be borrowed for 30 days.
+• Fines are charged at a rate of $1.50 for each day that a short term book is overdue.
+• Fines are charged at a rate of 10 cents for each day that a long term book is overdue.
+• If the overdue period exceeds 4 days for any short term loan book students are not allowed to
+  borrow any more books and their borrowing rights are suspended; this does not apply for long
+  term book loans.
+• Students can borrow a total of 10 books.
+
+10.   (a)   Outline two advantages that the programming team should expect from using an OOP
+            approach.		                                                                           [4]
+
+      (b)   Explain two ethical issues which should be taken into account when working on
+            the project.		                                                                        [4]
+
+
+
+(Option D continues on the following page)
+                                                –9–                  M15/4/COMSC/SP2/ENG/TZ0/XX
+
+(Option D, question 10 continued)
+
+     Following some analysis, the team determined that the Loan and Student classes will be
+     used.  Part of the Student class is shown below.
+
+      import java.util.*;
+      public class Student
+      {
+     		private int studentID;
+     		private String studentName;
+     		private Loan[] booksBorrowed = new Loan[10];
+     		private int numBooks = 0;
+     		public Student(int studentID, String studentName)
+     		{
+     			this.studentID=studentID;
+     			this.studentName=studentName;
+     		}
+     		public Loan getLoan (int x)
+     		{
+     			return this.booksBorrowed[x];
+     		}
+     		public void addLoan(Loan book)
+     		{
+     			this.booksBorrowed[numBooks] = book;
+     			numBooks++;
+     		}
+     		public int getStudentID()
+     		{
+     			return this.studentID;
+     		}
+     		public String getStudentName()
+     		{
+     			return this.studentName;
+     		}
+      }
+
+     When creating objects, encapsulation is an important design consideration.
+
+     (c)   Outline, with direct reference to the Student class, how security can be enhanced by
+           using encapsulation.                                                                     [3]
+
+     To use the Student class in a program an object has to be created or instantiated.
+
+     (d)   Construct a statement to create a Student object for a student with an ID of 93003
+           and a name of “Smith”.                                                                   [2]
+
+
+
+(Option D continues on the following page)
+
+
+
+
+                                                                                              Turn over
+                                                – 10 –               M15/4/COMSC/SP2/ENG/TZ0/XX
+
+(Option D, question 10 continued)
+
+     The basic Loan class is shown below.  Every time a book is borrowed, an instance of the
+     Loan class is created.  In the Student class, the books borrowed by a single student are
+     stored in an array called booksBorrowed.
+
+  import java.util.*;
+  public class Loan
+  {
+		  private int bookID;
+		  private String bookTitle;
+		  private Date d;
+		  static int numBooksLoaned = 0;
+		  public Loan(int bookID, String bookTitle)
+		{
+			 this.bookID = bookID;
+			 this.bookTitle = bookTitle;
+			 this.d = new Date(); //set date borrowed
+			 numBooksLoaned = numBooksLoaned +1;
+		}
+		  public int getBookID()
+		{
+			return this.bookID;
+		}
+		  public String getBookTitle()
+		{
+			return this.bookTitle;
+		}
+		  public Date getDate()
+		{
+			return this.d;
+		}
+		  public void setBookID(int id)
+		{
+			 this.bookID = id;
+		}
+		  public void setBookTitle(String title)
+		{
+			 this.bookTitle = title;
+		}
+		  public void setDate(Date d)
+		{
+			 this.d = d;
+		}
+  }
+
+     Note the use of the keyword static in the statement static int numBooksLoaned = 0
+     and that this term is not used in the other variable declarations.
+
+     (e)   Explain the use of the term static for the variable numBooksLoaned in the Loan class.   [3]
+
+     (f)   Construct the code needed to add a loan with a book ID of 212000 and a book title of
+           “The Stars” to a Student object, ST.                                                    [3]
+
+(Option D continues on the following page)
+                                                   – 11 –                M15/4/COMSC/SP2/ENG/TZ0/XX
+
+(Option D continued)
+
+11.   In order to store each Student object the team has decided to use the borrowers array of
+      type Student.  The team has also decided to use the student’s ID as the index into the array.  
+      For example, a Student object with a student ID of 1111 would have its reference stored in
+      position 1111 of the array.
+
+      Consider the code fragment below which would appear in a suitably constructed main class.
+
+      public static void main(String[] args)
+      {
+           Student temp;
+           Student[] borrowers = new Student[100000];
+
+            temp = new Student(93001, "Jones");
+            temp.addLoan(new Loan(210001,"The Sky"));
+            borrowers[93001] = temp;
+
+            temp = new Student(3012, "Zang");
+            temp.addLoan(new Loan(210121, "The Animals"));
+            borrowers[3012] = temp;
+
+            borrowers[93001].addLoan(new Loan(210002, "The Spooks"));
+
+            temp = new Student(93002, "Nguyen");
+            temp.addLoan(new Loan(210011, "The Ocean"));
+            borrowers[93002] = temp;
+
+            System.out.println(borrowers[93001].getStudentName());
+            System.out.println(borrowers[93001].getLoan(1).getBookTitle());
+            System.out.println(borrowers[3012].getLoan(0).getBookTitle());
+      }
+
+      (a)   Determine the output from the following statements.
+
+		(i)             System.out.println(borrowers[93001].getStudentName());                                 [1]
+
+		(ii)            System.out.println(borrowers[93001].getLoan(1).getBookTitle());                        [1]
+
+		(iii)           System.out.println(borrowers[3012].getLoan(0).getBookTitle());                         [1]
+
+      The librarian requires a display of the student name, the titles of the books and the dates that
+      they were borrowed, corresponding to a specific student ID.
+
+      (b)   Construct the method showDetails() that could be used in the main class,
+            which accepts a student ID as a parameter, and then uses this to access the
+            appropriate Student object producing the desired output as indicated above.                  [7]
+
+      (c)   State three aspects of the user requirements that are not addressed by the current
+            design.                                                                                      [3]
+
+      (d)   Describe a modification to the Student class that would address one of the missing
+            requirements.                                                                                [2]
+(Option D continues on the following page)
+
+                                                                                                  Turn over
+                                                 – 12 –               M15/4/COMSC/SP2/ENG/TZ0/XX
+
+(Option D continued)
+
+12.   The team has decided to use inheritance in its design.
+
+      (a)   Describe one benefit that inheritance brings to OOP.                                    [2]
+
+      Two sub-classes will be created: shortTerm and longTerm.
+
+      (b)   State two additional attributes that each shortTerm object should have.                 [2]
+
+      (c)   Construct a suitable UML diagram showing the relationships between the Student
+            class, the Loan superclass and the two sub-classes. Note: there is no need to include
+            the attributes or methods of each class.                                                [4]
+
+      (d)   Outline, using an OOP technique, how the total number of books on loan could be
+            displayed without processing the borrowers array.                                       [3]
+
+
+
+
+                                        End of Option D
+

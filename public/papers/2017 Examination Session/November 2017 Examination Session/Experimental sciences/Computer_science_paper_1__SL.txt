@@ -1,0 +1,252 @@
+N17/4/COMSC/SP1/ENG/TZ0/XX
+
+
+
+
+Computer science
+Standard level
+Paper 1
+
+
+Friday 3 November 2017 (afternoon)
+
+
+1 hour 30 minutes
+
+
+Instructions to candidates
+yy Do not open this examination paper until instructed to do so.
+yy Section A: answer all questions.
+yy Section B: answer all questions.
+yy The maximum mark for this examination paper is [70 marks].
+
+
+
+
+                                                                                              8817 – 7014
+     7 pages                                              © International Baccalaureate Organization 2017
+                                                  –2–                N17/4/COMSC/SP1/ENG/TZ0/XX
+
+                                               Section A
+
+Answer all questions.
+
+1.   Identify two essential features of a computer language.                                         [2]
+
+
+2.   Two fundamental operations of a computer are add and retrieve. State another two
+     fundamental operations.                                                                         [2]
+
+
+3.   In the context of the networked world, state the role of
+
+     (a)   a client.                                                                                 [1]
+
+     (b)   a server.                                                                                 [1]
+
+
+4.   Identify one method of inputting data that can improve the accessibility of a computer system
+     for some users.                                                                                 [1]
+
+
+5.   Copy and complete the following truth table.                                                    [3]
+
+                         A             B               A NOR B     (A NOR B) OR A
+                       FALSE         FALSE                …              …
+                         …             …                  …              …
+
+
+
+6.   Construct a logic diagram for the Boolean expression
+
+                                         NOT A OR B AND C.                                           [3]
+                                                   –3–                   N17/4/COMSC/SP1/ENG/TZ0/XX
+
+7.    Consider the following algorithm, where N is a positive integer.
+
+  loop for K from 1 to N
+		 loop for J from 1 to N
+			 if K = J then
+				output K
+			 end if
+		 end loop
+  end loop
+
+      (a)   Determine the number of times the comparison K = J will be performed.                     [1]
+
+      (b)   Determine the number of times the statement output K will be executed.                    [1]
+
+      (c)   Construct the algorithm which performs the same task using a single while loop,
+            instead of nested for loops.                                                              [4]
+
+
+8.    The machine instruction cycle is the process by which a program instruction is fetched,
+      decoded, executed and the results are stored.
+
+      (a)   State where all instructions and data are stored.                                         [1]
+
+      (b)   Outline the role of the data bus and address bus in this process.                         [2]
+
+
+9.    Define the term bit.                                                                            [1]
+
+
+10.   Outline what is meant by beta testing.                                                          [2]
+
+
+
+
+                                                                                                Turn over
+                                                     –4–                  N17/4/COMSC/SP1/ENG/TZ0/XX
+
+                                                 Section B
+
+Answer all questions.
+
+11.   An application package used in an office includes a word processor.  A secretary uses the
+      word processor to create a text file.
+
+      (a)   Describe how a spellchecker checks whether a word in a text file is correctly spelt
+            or not.                                                                                  [2]
+
+      The text file is automatically saved at regular periods while being edited.
+
+      (b)   State one advantage of this feature.                                                     [1]
+
+      (c)   Identify two additional features of a word processing package that could be useful for
+            this office.                                                                             [2]
+
+      (d)   Outline the purpose of one application software package other than a word processing
+            package that could be used in this office.                                               [2]
+
+      All files created in this office contain information important to the business.
+
+      (e)   Outline the security measures that should be taken to prevent data loss.                 [2]
+
+      The office manager decides to buy and install new software and hardware.  
+
+      (f)   Outline one problem that may arise from the installation of new hardware and software
+            in the office.                                                                           [2]
+
+      The changeover to the new system can be achieved by either direct changeover or
+      phased conversion.
+
+      (g)   Compare direct changeover and phased conversion.                                         [4]
+                                                    –5–                 N17/4/COMSC/SP1/ENG/TZ0/XX
+
+12.   A wireless local area network (WLAN) is used to extend access to a school’s wired
+      local area network.
+
+      (a)   Identify one hardware component of the WLAN, other than computers.                           [1]
+
+      The advantages of this WLAN are user-mobility and economical access points.
+
+      (b)   Outline two disadvantages of this WLAN.                                                      [4]
+
+      (c)   Identify three ways in which the network administrator can reduce the risk of unauthorized
+            access to confidential data.                                                                 [3]
+
+      The concept of packet data transmission is used within this network.
+      Figure 1 shows the simplified structure of a data packet.
+
+                                Figure 1: The structure of a data packet
+
+            Header (12 bytes)                 Data (112 bytes)          Trailer / Footer (4 bytes)
+       yy address of sender                                           yy transmission codes
+       yy address of receiver                                         yy error checking codes
+                                        Actual data to be transmitted
+       yy protocol                                                    yy control bits
+                                        (payload)
+       yy sequence number                                             yy …
+       yy …
+
+
+      (d)   Define the term protocol.                                                                    [1]
+
+      (e)   With reference to Figure 1, explain how data is transferred by packet switching.             [6]
+
+
+
+
+                                                                                                 Turn over
+                                                    –6–                   N17/4/COMSC/SP1/ENG/TZ0/XX
+
+13.   A character array S holds the word “PSEUDOCODE”.
+
+                               [0] [1] [2] [3] [4] [5] [6] [7] [8] [9]
+                                P S E U D O C O D E
+
+
+      (a)   State the index of character “U” in the array S.                                               [1]
+
+      (b)   Consider the following algorithm. The function len() returns the number of characters
+            in an array (for example, len(S) is 10).
+
+		 K = 0
+		 CL = 0
+		 loop while K < len(S)
+			 if S[K] = "E" then
+				 CL = CL + 1
+			  end if
+			 K = K + 1
+		end loop
+		output CL
+
+		          For this algorithm, copy and complete the following trace table.                               [4]
+
+                 K                CL         K < len(S)        S[K] = "E"         output
+                 0                 0            TRUE              FALSE              …
+                 …                 …              …                 …                …
+
+
+      A simple method of encoding a message is to use substitutions to produce a cryptogram.
+
+      Given a positive integer N and the array UPCASELETTERS containing letters in alphabetical
+      order, a new array SUBSTITUTE is created by shifting the entire contents of UPCASELETTERS
+      to the left, N times.  As an element moves off the left of the array, it moves back into the right
+      side of the array.
+
+      For example, given the array UPCASELETTERS:
+
+[0] [1] [2] [3] [4] [5] [6] [7] [8] [9] [10][11][12][13][14][15][16][17][18][19][20][21][22][23][24][25]
+ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+
+      When N = 5 the array SUBSTITUTE will be:
+
+[0] [1] [2] [3] [4] [5] [6] [7] [8] [9] [10][11][12][13][14][15][16][17][18][19][20][21][22][23][24][25]
+ F G H I J K L M N O P Q R S T U V W X Y Z A B C D E
+
+      (c)   Construct an algorithm which creates the array SUBSTITUTE. You may assume that a
+            positive integer N and array UPCASELETTERS are given.                                          [5]
+
+
+
+
+(This question continues on the following page)
+                                                 –7–                  N17/4/COMSC/SP1/ENG/TZ0/XX
+
+(Question 13 continued)
+
+     This encoding method produces a cryptogram of a sentence by replacing each uppercase
+     letter of the sentence with its substitute. Other characters in the sentence are not changed.
+
+     For example, using the arrays shown on page 6:
+
+		         Input (sentence):      ARS LONGA, VITA BREVIS.
+		         Output (cryptogram):   FWX QTSLF, ANYF GWJANX.
+
+     The following algorithm fragment inputs the characters, one by one, from the input sentence,
+     and outputs its cryptogram using the method encode().
+
+  loop while NOT end-of-input-sentence
+		     CH = input()
+		     CRYPTEDCH= encode(CH, UPCASELETTERS, SUBSTITUTE)
+		output CRYPTEDCH
+  end loop
+
+     The method encode() accepts a character CH and two arrays UPCASELETTERS and
+     SUBSTITUTE, as defined above, and returns the corresponding character CRYPTEDCH of the
+     character CH.
+
+     (d)   Explain the steps to construct an algorithm for the method encode().                      [5]
+

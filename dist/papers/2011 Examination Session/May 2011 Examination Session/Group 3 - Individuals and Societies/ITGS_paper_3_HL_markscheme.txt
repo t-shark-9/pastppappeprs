@@ -1,0 +1,308 @@
+M11/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+
+
+                   MARKSCHEME
+
+
+                               May 2011
+
+
+
+      INFORMATION TECHNOLOGY IN A
+            GLOBAL SOCIETY
+
+
+
+                         Higher Level
+
+
+
+                               Paper 3
+
+
+
+
+8 pages
+                              –2–             M11/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+
+
+This markscheme is confidential and for the exclusive use of
+examiners in this examination session.
+
+It is the property of the International Baccalaureate and must not
+be reproduced or distributed to any other person without the
+authorization of IB Cardiff.
+                                                  –3–              M11/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+Examiners should be aware that in some cases, candidates may take a different approach, which if
+appropriate should be rewarded. If in doubt check with your Team Leader.
+
+In the case of an “identify” question read all answers and mark positively up to the maximum marks.
+Disregard incorrect answers. In the case of a “describe” question, which asks for a certain number of
+facts e.g. “describe two kinds”, mark the first two correct answers. This could include two descriptions,
+one description and one identification, or two identifications. In the case of an “explain” question,
+which asks for a specified number of explanations e.g. “explain two reasons”, mark the first two
+correct answers. This could include two full explanations, one explanation, one partial explanation, etc.
+
+“ITGS terminology refers to both the IT technical terminology and to the terminology related to social
+and ethical impacts.”
+
+
+1.   Describe two characteristics of open source software.                                      [4 marks]
+
+      the source code is available free of charge to the general public. It can be used,
+       modified and/or distributed
+      it is often developed by a community – this allows shared expertise/collective
+       intelligence
+      the user is usually expected to divulge any changes and improvements made to the
+       software for others to use – this allows continual / coordinated development by the
+       community
+      the eliminations of bugs and improving the software is realized at a much quicker
+       rate – this is because many programmers are working on the software.
+
+     Award [1 mark] for identifying each characteristic up to a maximum of [2 marks].
+     Award an additional [1 mark] for the relevant description of each characteristic up to a
+     maximum of [2 marks].
+                                                  –4–              M11/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+2.   (a)   Carmen’s web site makes use of the MySQL database management system (DBMS).
+           Explain how a DBMS protects underlying data (lines 76–77) in the database
+           from unintended alterations.                                                [6 marks]
+
+           A database management system (DBMS) is a set of computer programs that
+           controls the creation, maintenance and the use of a database. A DBMS allows
+           users to store, edit and retrieve data in a structured way which can be done using
+           the DBMS interface or using a structured query language (SQL). Also it provides
+           facilities for controlling data access, enforcing data integrity, managing
+           concurrent users of the database, and backup and recovery of the database.
+
+           Answers may include:
+
+              access privileges (any comment about user logins/profiles/passwords/
+               read-write-edit)
+              enforces ACID rules (any comment about transactions e.g. commit/timeout/
+               rollback)
+              concurrency (any mention of prevention of conflicting data accesses, record
+               locking etc.)
+              enforcement of a key field
+              data restoration features (not ordinary data backup but features that allow
+               roll back if damage occurs)
+              protects the data from conflicting actions by the applications
+              provides data/application independence
+              makes it possible to produce new / alter old applications without having to
+               change the schema
+              enforcement of integrity rules
+              data validation (any mention of examples such as existence of data in a field,
+               size, length).
+
+           N.B. Candidates may inadvertently refer to validation processes in a database
+           rather than those provided by a DBMS.
+
+           [1–2 marks]
+           A limited answer where only one feature is considered showing little
+           understanding of the topic.
+
+           [3–4 marks]
+           A reasonable explanation that demonstrates some understanding of the topic.
+           One in depth explanation of a feature or the explanation of two features that lack
+           detail must be present for 4 marks.
+
+           [5–6 marks]
+           A clear and detailed explanation of 2 or 3 DBMS features that prevent the
+           unintentional alteration of the underlying data.
+                                            –5–               M11/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+(b)   With reference to lines 99–100, examine two of the methods of payment that
+      could be provided on Carmen’s improved web site.                           [8 marks]
+
+      An extensive list of points about each method of payment is provided below.
+      Only some of these are needed in the examination of the two methods of payment
+      chosen.
+
+      Marks should be based on the quality of the examination, not on the number of
+      points used.   A detailed and balanced examination of advantages and
+      disadvantages with use of examples and ITGS terminology is required for
+      full marks.
+
+      Considerations that apply to the choice of using a gateway payment service,
+      e.g. PayPal
+       security, use, access to and privacy of financial information obtained by the
+         gateway service
+       number of currencies, credit cards accepted linked to retail outlets and banks
+         using validation checks such as card code verification (CCV) ensuring secure
+         money transfer
+       various fees – monthly, setup, cancellation, transaction (variable rate
+         depending on sales volume), other services
+       takes into account the country‟s financial, tax and privacy regulations and laws
+       analytical information about the sales is provided
+       delivery and payment dispute resolution service / aid
+       integrates payment and delivery services so that payment and delivery are
+         secure and trouble free
+       call back security – e-mail sent to buyer to confirm sale
+       automatic confirmation of payment to buyer
+       PayPal can immediately freeze your account and hold your money if they feel
+         that you have committed a fraud or violated its user policy.
+
+      Considerations that apply to the choice of using a manual credit card
+      processing system
+       manual system may be time consuming – taking details off web site and
+        putting them through manual system, sending confirmation back to buyer and
+        can slow down receipt of money by Carmen and delivery of goods
+       credit card may not be accepted by Carmen‟s bank (unilateral agreement
+        required for each type of credit card)
+       privacy policy about credit card details needs to be developed and published on
+        web site (should already be one there about other purchase details)
+       need for SSL encryption on form where the buyer enters credit card details
+       buyer may not get quick confirmation of payment for purchase of goods
+       buyer may be suspicious about security and use of credit details as not linked to
+        recognised secure system – may not purchase
+       legal and financial regulations and laws about storage, privacy and access to
+        the credit details need to be checked
+       buyer may be worried about receiving the goods after payment is made.
+                                      –6–              M11/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+Considerations that apply to the choice of using a direct deposit payment system
+ needs to set up a separate bank account from all other accounts for deposits to
+  be put into – for security
+ buyer has control over their financial details
+ potential security problem with publication of bank account details on the
+  Internet
+ unless automated delivery process slowed down if buyer does not deposit
+  quickly
+ chance of error on part of buyer – may deposit to wrong account
+ buyer may not be familiar or comfortable with this type of payment method
+ need for Carmen to set up an international transfer facility with the bank for
+  international customers.
+
+The question specifically stipulates only the methods of payment in lines 99–100
+can be used. If a student provides a similar or modified method of payment please
+consult your team leader. A completely different method of payment should not be
+awarded any marks, but do not reject without consulting your team leader.
+
+[1–3 marks]
+The answer is largely descriptive and may make unsupported assertions about the
+advantages and/or disadvantages of the options. Little or no appropriate ITGS
+terminology is used.
+
+[4–6 marks]
+The examination may be partial or unbalanced.                 Advantages and/or
+disadvantages of the options are supported with some relevant examples.
+Some appropriate ITGS terminology is used. At the lower end of the band some
+parts of the answer may still be descriptive and lack detail.
+
+[7–8 marks]
+The examination is detailed and balanced. Advantages and disadvantages of the
+options are developed and supported with relevant examples. Appropriate ITGS
+terminology is used.
+                                                 –7–               M11/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+3.   Discuss the use of site traffic analysis (line 69) and search engine optimization
+     (line 102) as e-marketing tools.
+
+     Use information from the case study and give examples of services offered by the
+     companies that you have investigated.                                            [12 marks]
+
+     E-marketing is the marketing/advertising of products over the Internet in order to entice
+     customers to purchase products from the company directly or over the Internet.
+
+     Both site traffic analysis (STA) and search engine optimization (SEO) are required for
+     a balanced examination and discussion. If only one is discussed the maximum is
+     [8 marks].
+
+     STA may include:
+      analysis of behaviour of visitors to a web site
+      use of the info to assess marketing opportunities
+      can be used as a basis to adapt the page to ensure it is found higher up the ranking,
+       e.g. Google Page Rank
+      specific reference to example(s) of suitable services.
+
+     SEO may include:
+      used to ensure visibility
+      can be provided by companies
+      based on the use of meta tags, although some search engines have rules to counteract
+       meta tag abuse
+      can be carried out using white hat search optimisation (ethical and longer term) or
+       black hat (in many cases unethically and short term)
+      may be linked to web farms, but page ranking algorithms are designed to ignore
+       these links, known as domain spam
+      look for reciprocal links to, or banner advertising on, established pages, which tend
+       to have a higher page rank, pay per click advertising
+      aims to be seen as a hub or authority in this domain of discourse (photography /
+       photographic services) using HITS to raise its rank
+      can be achieved by purchasing a „sponsored link‟ on a well known web site such as
+       Google or Facebook
+      specific reference to example(s) of suitable services.
+
+     A candidate will be considered to have carried out research if the response goes beyond
+     the Case Study. It is not necessary to cite URLs.
+                                                  –8–              M11/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+                                 No knowledge or understanding of IT issues and concepts or use of
+                      0
+                                 IT terminology.
+                                 A brief and generalized response with very little knowledge and
+                  1–3 marks      understanding of IT issues and concepts with very little use of
+                                 IT terminology.
+                                 A response that may include opinions, conclusions and/or
+                                 judgments that are no more than unsubstantiated statements.
+                                 The response will largely take the form of a description with a
+                                 limited use of IT terminology and some knowledge and/or
+                                 understanding of IT issues and/or concepts.
+                  4–6 marks
+                                 If no reference is made to the information in the stimulus material,
+                                 award up to [4 marks].
+                                        At the top end of the band the description is sustained.
+                                        At the lower end of the band a tendency towards fragmentary,
+                                        common sense points with very little use of IT terminology.
+                                 A response that demonstrates opinions, conclusions and/or
+                                 judgments that have limited support.
+                                 The response is a competent analysis that uses IT terminology
+                                 appropriately. If there is no reference to IT terminology the
+                                 candidate cannot access this markband.
+   Opinion
+                                 There is evidence that the response is linked to the information in
+   discuss,
+                                 the stimulus material.
+  evaluate,
+                                        At the top end of the band the response is balanced,
+   justify,       7–9 marks
+                                        the response is explicitly linked to the information in the
+ recommend
+                                        stimulus material and there may be an attempt to evaluate it
+ and to what
+                                        in the form of largely unsubstantiated comments. There is
+    extent
+                                        also evidence of clear and coherent connections between the
+                                        IT issues.
+                                        At the lower end of the band the response may lack depth,
+                                        be unbalanced or tend to be descriptive. There may be also
+                                        implicit links to the information in the stimulus.
+                                 There must be evidence of independent research for candidates to
+                                 reach this markband.
+                                 A detailed and balanced (at least one argument in favour and one
+                                 against) response that demonstrates opinions, conclusions and/or
+                                 judgments that are well supported and a clear understanding of the
+                                 way IT facts and ideas are related.
+                                 Thorough knowledge and understanding of IT issues and concepts.
+                10–12 marks
+                                 Appropriate use of ITGS terminology and application to specific
+                                 situations throughout the response. If there is no reference to
+                                 ITGS terminology candidates cannot access this markband.
+                                 The response is explicitly linked to the information in the stimulus
+                                 material.
+                                        At the lower end of the band opinions, conclusions and/or
+                                        judgment may be tentative.
+
+“ITGS terminology refers to both the IT technical terminology and to the terminology related to social
+and ethical impacts.”
+

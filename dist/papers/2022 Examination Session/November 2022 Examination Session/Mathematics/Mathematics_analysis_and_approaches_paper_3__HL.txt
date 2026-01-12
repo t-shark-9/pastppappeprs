@@ -1,0 +1,336 @@
+© International Baccalaureate Organization 2022
+
+All rights reserved. No part of this product may be reproduced in any form or by any
+electronic or mechanical means, including information storage and retrieval systems,
+without the prior written permission from the IB. Additionally, the license tied with this
+product prohibits use of any selected files or extracts from this product. Use by third
+parties, including but not limited to publishers, private teachers, tutoring or study services,
+preparatory schools, vendors operating curriculum mapping services or teacher resource
+digital platforms and app developers, whether fee-covered or not, is prohibited and is a
+criminal offense.
+
+More information on how to request written permission in the form of a license can be
+obtained from https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-
+license/.
+
+© Organisation du Baccalauréat International 2022
+
+Tous droits réservés. Aucune partie de ce produit ne peut être reproduite sous quelque
+forme ni par quelque moyen que ce soit, électronique ou mécanique, y compris des
+systèmes de stockage et de récupération d’informations, sans l’autorisation écrite
+préalable de l’IB. De plus, la licence associée à ce produit interdit toute utilisation de tout
+fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris, sans
+toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de tutorat ou
+d’aide aux études, des établissements de préparation à l’enseignement supérieur, des
+fournisseurs de services de planification des programmes d’études, des gestionnaires de
+plateformes pédagogiques en ligne, et des développeurs d’applications, moyennant
+paiement ou non, est interdite et constitue une infraction pénale.
+
+Pour plus d’informations sur la procédure à suivre pour obtenir une autorisation écrite
+sous la forme d’une licence, rendez-vous à l’adresse https://ibo.org/become-an-ib-school/
+ib-publishing/licensing/applying-for-a-license/.
+
+© Organización del Bachillerato Internacional, 2022
+
+Todos los derechos reservados. No se podrá reproducir ninguna parte de este producto
+de ninguna forma ni por ningún medio electrónico o mecánico, incluidos los sistemas de
+almacenamiento y recuperación de información, sin la previa autorización por escrito del
+IB. Además, la licencia vinculada a este producto prohíbe el uso de todo archivo o
+fragmento seleccionado de este producto. El uso por parte de terceros —lo que incluye,
+a título enunciativo, editoriales, profesores particulares, servicios de apoyo académico o
+ayuda para el estudio, colegios preparatorios, desarrolladores de aplicaciones y
+entidades que presten servicios de planificación curricular u ofrezcan recursos para
+docentes mediante plataformas digitales—, ya sea incluido en tasas o no, está prohibido
+y constituye un delito.
+
+En este enlace encontrará más información sobre cómo solicitar una autorización por
+escrito en forma de licencia: https://ibo.org/become-an-ib-school/ib-publishing/licensing/
+applying-for-a-license/.
+Mathematics: analysis and approaches
+Higher level
+Paper 3
+
+Tuesday 8 November 2022 (afternoon)
+
+
+1 hour
+
+
+Instructions to candidates
+y Do not open this examination paper until instructed to do so.
+y A graphic display calculator is required for this paper.
+y Answer all the questions in the answer booklet provided.
+y Unless otherwise stated in the question, all numerical answers should be given exactly or
+  correct to three significant figures.
+y A clean copy of the mathematics: analysis and approaches formula booklet is required for
+  this paper.
+y The maximum mark for this examination paper is [55 marks].
+
+
+
+
+                                                                                           8822 – 7103
+     6 pages                                           © International Baccalaureate Organization 2022
+                                                                      –2–                                           8822 – 7103
+
+
+Answer all questions in the answer booklet provided. Please start each question on a new page. Full
+marks are not necessarily awarded for a correct answer with no working. Answers must be supported
+by working and/or explanations. Solutions found from a graphic display calculator should be supported
+by suitable working. For example, if graphs are used to find a solution, you should sketch these as part
+of your answer. Where an answer is incorrect, some marks may be given for a correct method, provided
+this is shown by written working. You are therefore advised to show all working.
+
+1.   [Maximum mark: 28]
+
+     In this question you will investigate series of the form
+                                     n
+
+                                ∑ i = 11 ++ †22 + †3 †+ †…
+                                    i =1
+                                           q   qq       qq       qq
+                                                         ...†++††nn where
+                                                                    †     n, q ∈     qq                        +
+
+
+
+     and use various methods to find polynomials, in terms of n , for such series.
+
+     When q = 1 , the above series is arithmetic.
+                          n
+                                1
+     (a)   Show that    ∑ i = 2 n ( n + 1) .[1]
+                         i =1
+
+     Consider the case when q = 2 .
+                                                                                n
+     (b)   The following table gives values of n2 and                          ∑ i for n = 1 , 2 , 3 .
+                                                                               i =1
+                                                                                       2
+
+
+
+
+                                                                                                n
+                                                    n                     n2               ∑i  i =1
+                                                                                                        2
+
+
+
+
+                                                    1                     1                         1
+                                                    2                     4                         5
+                                                    3                     9                         p
+
+           (i)     Write down the value of p .                                                                             [1]
+
+           (ii)    The sum of the first n square numbers can be expressed as a cubic polynomial
+                   with three terms:
+                                    n
+
+                                ∑ i = a n + a n + a n where a , a , a ∈  .
+                                i =1
+                                           2
+                                               1        2
+                                                             2
+                                                                      3
+                                                                          3
+                                                                                           1            2   3
+                                                                                                                +
+
+
+
+                   Hence, write down a system of three linear equations in a1 , a2 and a3 .                                [3]
+
+           (iii)   Hence, find the values of a1 , a2 and a3 .                                                              [2]
+
+(This question continues on the following page)
+                                                           –3–                                        8822 – 7103
+
+
+(Question 1 continued)
+
+     You will now consider a method that can be generalized for all values of q .
+
+     Consider the function f (x) = 1 + x + x2 + … + xn , n ∈ + .
+
+     (c)   Show that x f ′(x) = x + 2x2 + 3x3 + … + nxn .                                                    [1]
+
+     Let f 1(x) = x f ′(x) and consider the following family of functions:
+
+                                                     f 2(x) = x f 1′(x)
+
+                                                     f 3(x) = x f 2′(x)
+
+                                                     f 4(x) = x f 3′(x)
+
+                                                             …
+
+                                                     f q(x) = x f q-1′(x)
+                                         n
+     (d)                           ∑ i x .[2]
+           (i)	Show that f 2 ( x ) =
+                                        i =1
+                                               2 i
+
+                                                                              n
+           (ii)    Prove by mathematical induction that f ( x ) = ∑ i x , q ∈  .
+                                                                       q
+                                                                                    q i
+                                                                                   [6]      +
+
+                                                                             i =1
+
+           (iii)   Using sigma notation, write down an expression for f q(1) .                               [1]
+
+     (e)   By considering f (x) = 1 + x + x2 + … + xn as a geometric series, for x ≠ 1 ,
+                              x n+1 − 1
+           show that f ( x) =           .[2]
+                                x −1
+                                               nx n+2 − ( n + 1) x n+1 + x
+     (f)   For x ≠ 1 , show that f1 ( x) =                                   .[3]
+                                                        ( x − 1)
+                                                                   2
+
+
+
+     (g)   (i)	Show that lim f1 ( x) is in indeterminate form.                                              [1]
+                               x→1
+                                                                                          1
+           (ii)    Hence, by applying l’Hôpital’s rule, show that lim f1 ( x) =             n ( n + 1) .[5]
+                                                                             x→1          2
+
+
+
+
+                                                                                                     Turn over
+                                                    –4–                                            8822 – 7103
+
+
+2.   [Maximum mark: 27]
+
+     In this question you will investigate curved surface areas and use calculus to derive
+     key formulae used in geometry.
+
+     Consider the straight line from the origin, y = mx , where 0 ≤ x ≤ h and m , h are positive
+     constants.
+
+                                             y
+
+                                                       y = mx
+
+
+
+
+                                                                 x
+                                                        h
+
+     When this line is rotated through 360° about the x-axis, a cone is formed with a curved
+     surface area A given by:
+                                                   h
+                                            A = 2π∫ y 1 + m 2 dx .
+                                                   0
+
+     (a)   Given that m = 2 and h = 3 , show that A = 18 5 π .[2]
+
+     (b)   Now consider the general case where a cone is formed by rotating the line y = mx
+           where 0 ≤ x ≤ h through 360° about the x-axis.
+
+           (i)     Deduce an expression for the radius of this cone r in terms of h and m .               [1]
+
+           (ii)    Deduce an expression for the slant height l in terms of h and m .                      [2]
+
+           (iii)   Hence, by using the above integral, show that A = πrl .                                [3]
+
+(This question continues on the following page)
+                                                        –5–                                   8822 – 7103
+
+
+(Question 2 continued)
+
+     Consider the semi-circle, with radius r , defined by y = r 2 − x 2 where -r ≤ x ≤ r .
+
+                                                    y
+
+
+
+
+                                                                  y   r2   x2
+
+
+
+
+                                                                                   x
+                       −r                                                  r
+
+
+
+                                     dy
+     (c)   Find an expression for       .[2]
+                                     dx
+     A differentiable curve y = f (x) is defined for x1 ≤ x ≤ x2 and y ≥ 0 . When any such curve is
+     rotated through 360° about the x-axis, the surface formed has an area A given by:
+                                               x2             2
+                                                         dy 
+                                        A = 2 π ∫ y 1 +   dx .
+                                                x1       dx 
+
+     (d)   A sphere is formed by rotating the semi-circle y = r 2 − x 2 where -r ≤ x ≤ r
+           through 360° about the x-axis. Show by integration that the surface area of this
+           sphere is 4πr2 .                                                                          [4]
+
+(This question continues on the following page)
+
+
+
+
+                                                                                              Turn over
+                                                        –6–                                             8822 – 7103
+
+
+(Question 2 continued)
+
+      (e)     Let f ( x ) = r 2 − x 2 where -r ≤ x ≤ r .
+
+              The graph of y = f (x) is transformed to the graph of y = f (kx) , k > 0 . This forms a
+              different curve, called a semi-ellipse.
+
+              (i)     Describe this geometric transformation.                                                  [2]
+
+              (ii)    Write down the x-intercepts of the graph y = f (kx) in terms of r and k .                [1]
+                                                             dy
+              (iii)   For y = f (kx) , find an expression for   in terms of x , r and k .                      [2]
+                                                             dx
+              (iv)    The semi-ellipse y = f (kx) is rotated 360° about the x-axis to form a solid called
+                      an ellipsoid.
+
+                      Find an expression in terms of r and k for the surface area, A , of the ellipsoid.
+                                                         x2
+
+                      Give your answer in the form 2π    ∫ p ( x ) dx , where p(x) is a polynomial.
+                                                         x1
+                                                                                                                [4]
+
+              (v)     Planet Earth can be modelled as an ellipsoid. In this model:
+
+                      •	the ellipsoid has an axis of rotational symmetry running from the North Pole to
+                         the South Pole.
+
+                      • the distance from the North Pole to the South Pole is 12 714 km .
+
+                      • the diameter of the equator is 12 756 km .
+
+                      By choosing suitable values for r and k , find the surface area of Earth
+                      in km2 correct to 4 significant figures. Give your answer in the form a × 10q
+                      where 1 ≤ a < 10 and q ∈ + .                                                            [4]
+
+
+
+
+
+
+
+
+References:
+© International Baccalaureate Organization 2022
+

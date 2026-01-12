@@ -1,0 +1,271 @@
+© International Baccalaureate Organization 2022
+
+All rights reserved. No part of this product may be reproduced in any form or by any
+electronic or mechanical means, including information storage and retrieval systems,
+without the prior written permission from the IB. Additionally, the license tied with this
+product prohibits use of any selected files or extracts from this product. Use by third
+parties, including but not limited to publishers, private teachers, tutoring or study services,
+preparatory schools, vendors operating curriculum mapping services or teacher resource
+digital platforms and app developers, whether fee-covered or not, is prohibited and is a
+criminal offense.
+
+More information on how to request written permission in the form of a license can be
+obtained from https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-
+license/.
+
+© Organisation du Baccalauréat International 2022
+
+Tous droits réservés. Aucune partie de ce produit ne peut être reproduite sous quelque
+forme ni par quelque moyen que ce soit, électronique ou mécanique, y compris des
+systèmes de stockage et de récupération d’informations, sans l’autorisation écrite
+préalable de l’IB. De plus, la licence associée à ce produit interdit toute utilisation de tout
+fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris, sans
+toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de tutorat ou
+d’aide aux études, des établissements de préparation à l’enseignement supérieur, des
+fournisseurs de services de planification des programmes d’études, des gestionnaires de
+plateformes pédagogiques en ligne, et des développeurs d’applications, moyennant
+paiement ou non, est interdite et constitue une infraction pénale.
+
+Pour plus d’informations sur la procédure à suivre pour obtenir une autorisation écrite
+sous la forme d’une licence, rendez-vous à l’adresse https://ibo.org/become-an-ib-school/
+ib-publishing/licensing/applying-for-a-license/.
+
+© Organización del Bachillerato Internacional, 2022
+
+Todos los derechos reservados. No se podrá reproducir ninguna parte de este producto
+de ninguna forma ni por ningún medio electrónico o mecánico, incluidos los sistemas de
+almacenamiento y recuperación de información, sin la previa autorización por escrito del
+IB. Además, la licencia vinculada a este producto prohíbe el uso de todo archivo o
+fragmento seleccionado de este producto. El uso por parte de terceros —lo que incluye,
+a título enunciativo, editoriales, profesores particulares, servicios de apoyo académico o
+ayuda para el estudio, colegios preparatorios, desarrolladores de aplicaciones y
+entidades que presten servicios de planificación curricular u ofrezcan recursos para
+docentes mediante plataformas digitales—, ya sea incluido en tasas o no, está prohibido
+y constituye un delito.
+
+En este enlace encontrará más información sobre cómo solicitar una autorización por
+escrito en forma de licencia: https://ibo.org/become-an-ib-school/ib-publishing/licensing/
+applying-for-a-license/.
+Mathematics: analysis and approaches
+Higher level
+Paper 3
+
+Thursday 12 May 2022 (morning)
+
+
+1 hour
+
+
+Instructions to candidates
+y Do not open this examination paper until instructed to do so.
+y A graphic display calculator is required for this paper.
+y Answer all the questions in the answer booklet provided.
+y Unless otherwise stated in the question, all numerical answers should be given exactly or
+  correct to three significant figures.
+y A clean copy of the mathematics: analysis and approaches formula booklet is required for
+  this paper.
+y The maximum mark for this examination paper is [55 marks].
+
+
+
+
+                                                                                           2222 – 7108
+     5 pages                                           © International Baccalaureate Organization 2022
+                                                      –2–                                                  2222 – 7108
+
+
+Answer all questions in the answer booklet provided. Please start each question on a new page. Full
+marks are not necessarily awarded for a correct answer with no working. Answers must be supported
+by working and/or explanations. Solutions found from a graphic display calculator should be supported
+by suitable working. For example, if graphs are used to find a solution, you should sketch these as part
+of your answer. Where an answer is incorrect, some marks may be given for a correct method, provided
+this is shown by written working. You are therefore advised to show all working.
+
+1.   [Maximum marks: 27]
+
+     This question asks you to explore some properties of polygonal numbers and to
+     determine and prove interesting results involving these numbers.
+
+     A polygonal number is an integer which can be represented as a series of dots arranged
+     in the shape of a regular polygon. Triangular numbers, square numbers and pentagonal
+     numbers are examples of polygonal numbers.
+
+     For example, a triangular number is a number that can be arranged in the shape of an
+     equilateral triangle. The first five triangular numbers are 1, 3, 6, 10 and 15 .
+
+     The following table illustrates the first five triangular, square and pentagonal numbers
+     respectively. In each case the first polygonal number is one represented by a single dot.
+
+        Type of
+       polygonal                     Geometric representation                                       Values
+        number
+
+       Triangular
+                                                                                             1, 3, 6, 10, 15, ...
+       numbers
+                                                                                     …
+
+       Square
+                                                                                             1, 4, 9, 16, 25, ...
+       numbers
+                                                                                     …
+
+
+       Pentagonal
+                                                                                             1, 5, 12, 22, 35, ...
+       numbers
+                                                                                         …
+
+     For an r-sided regular polygon, where r ∈ + , r ≥ 3, the nth polygonal number Pr (n) is given by
+
+                                          (r - 2) n 2 - (r - 4) n
+                               Pr (n) =                           , where n ∈ + .
+                                                     2
+
+(This question continues on the following page)
+                                                        –3–                                                 2222 – 7108
+
+
+(Question 1 continued)
+
+
+     Hence, for square numbers, P4 ( n ) =
+                                               ( 4 − 2 ) n2 − ( 4 − 4 ) n = n2 .
+                                                          2
+                                                                     n (n + 1)
+     (a)   (i)	For triangular numbers, verify that P3 (n) =                   .[2]
+                                                                         2
+           (ii)    The number 351 is a triangular number. Determine which one it is.                               [2]
+
+     (b)   (i)	Show that P3 (n) + P3 (n + 1) ≡ (n + 1)2 .                                                         [2]
+
+           (ii)    State, in words, what the identity given in part (b)(i) shows for two consecutive
+                   triangular numbers.                                                                             [1]
+
+           (iii)   For n = 4 , sketch a diagram clearly showing your answer to part (b)(ii).[1]
+
+     (c)   Show that 8P3 (n) + 1 is the square of an odd number for all n ∈ + .                                   [3]
+
+     The nth pentagonal number can be represented by the arithmetic series
+
+                                        P5 (n) = 1 + 4 + 7 + ... + (3n - 2) .
+
+                                         n (3n - 1)
+     (d)   Hence show that P5 (n) =                 for n ∈ + .                                                   [3]
+                                             2
+     (e)   By using a suitable table of values or otherwise, determine the smallest positive integer,
+           greater than 1, that is both a triangular number and a pentagonal number.                               [5]
+
+     A polygonal number, Pr (n) , can be represented by the series
+
+                                  n
+
+                                 ∑ (1 + (m − 1)(r − 2) ) where r ∈  , r ≥ 3 .
+                                 m =1
+                                                                            +
+
+
+
+                                                                       (r - 2) n 2 - (r - 4) n
+     (f)   Use mathematical induction to prove that Pr (n) =                                   where n ∈ + .      [8]
+                                                                                  2
+
+
+
+
+                                                                                                            Turn over
+                                                     –4–                                              2222 – 7108
+
+
+2.   [Maximum marks: 28]
+
+     This question asks you to explore cubic polynomials of the form
+     (x - r)(x2 -2ax + a2 + b2) for x ∈  and corresponding cubic equations with one real
+     root and two complex roots of the form (z - r)(z2 - 2az + a2 + b2) = 0 for z ∈  .
+
+     In parts (a), (b) and (c), let r = 1 , a = 4 and b = 1 .
+
+     Consider the equation (z - 1)(z2 - 8z + 17) = 0 for z ∈  .
+
+     (a)   (i)	Given that 1 and 4 + i are roots of the equation, write down the third root.                 [1]
+
+           (ii)   Verify that the mean of the two complex roots is 4 .                                       [1]
+
+     Consider the function f (x) = (x - 1)(x2 - 8x + 17) for x ∈  .
+
+     (b)   Show that the line y = x - 1 is tangent to the curve y = f (x) at the point A (4 , 3) .           [4]
+
+     (c)   Sketch the curve y = f (x) and the tangent to the curve at point A , clearly showing
+           where the tangent crosses the x-axis.[2]
+
+     Consider the function g (x) = (x - r)(x2 - 2ax + a2 + b2) for x ∈  where r , a ∈  and
+     b ∈ , b > 0.
+
+     (d)   (i)	Show that g′(x) = 2(x - r)(x - a) + x2 - 2ax + a2 + b2 .                                     [2]
+
+           (ii)   Hence, or otherwise, prove that the tangent to the curve y = g (x) at the point
+                  A (a , g(a)) intersects the x-axis at the point R (r , 0) .                                [6]
+
+     The equation (z - r)(z2 - 2az + a2 + b2) = 0 for z ∈  has roots r and a ± bi where r , a ∈ 
+     and b ∈  , b > 0 .
+
+     (e)   Deduce from part (d)(i) that the complex roots of the equation
+           (z - r)(z2 - 2az + a2 + b2) = 0 can be expressed as a ± i g ′(a ) .[1]
+
+(This question continues on the following page)
+                                                      –5–                                           2222 – 7108
+
+
+(Question 2 continued)
+
+                                                  (        )              (        )
+      On the Cartesian plane, the points C1 a, g ′ ( a ) and C 2 a, − g ′ ( a ) represent the real
+      and imaginary parts of the complex roots of the equation (z - r)(z2 - 2az + a2 + b2) = 0 .
+
+      The following diagram shows a particular curve of the form y = (x - r)(x2 - 2ax + a2 + 16)
+      and the tangent to the curve at the point A (a , 80). The curve and the tangent both intersect
+      the x-axis at the point R (-2 , 0). The points C1 and C2 are also shown.
+                                                      y
+
+
+
+
+                                                                              A (a , 80)
+
+
+
+
+                                R (−2 , 0)                                    C1
+                                                                                              x
+
+                                                                              C2
+
+
+
+      (f)     (i)	Use this diagram to determine the roots of the corresponding equation of the
+                   form (z - r)(z2 - 2az + a2 + 16) = 0 for z ∈  .                                        [4]
+
+              (ii)   State the coordinates of C2 .                                                         [1]
+
+      Consider the curve y = (x - r)(x2 - 2ax + a2 + b2) for a ≠ r , b > 0 . The points A (a , g(a)) and
+      R (r , 0) are as defined in part (d)(ii). The curve has a point of inflexion at point P .
+
+                                                          1
+      (g)     (i)	Show that the x-coordinate of P is       (2a + r ) .
+                                                          3
+                     You are not required to demonstrate a change in concavity.                            [2]
+
+              (ii)   Hence describe numerically the horizontal position of point P relative to the
+                     horizontal positions of the points R and A .[1]
+
+      Consider the special case where a = r and b > 0 .
+
+      (h)     (i)	Sketch the curve y = (x - r)(x2 - 2ax + a2 + b2) for a = r = 1 and b = 2 .[2]
+
+              (ii)   For a = r and b > 0 , state in terms of r , the coordinates of points P and A .[1]
+
+
+References:
+
+© International Baccalaureate Organization 2022
+

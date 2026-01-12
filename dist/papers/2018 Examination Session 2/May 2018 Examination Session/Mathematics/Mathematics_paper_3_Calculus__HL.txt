@@ -1,0 +1,151 @@
+M18/5/MATHL/HP3/ENG/TZ0/SE
+
+
+
+
+Mathematics
+Higher level
+Paper 3 – calculus
+
+
+Wednesday 9 May 2018 (afternoon)
+
+
+1 hour
+
+
+Instructions to candidates
+yy Do not open this examination paper until instructed to do so.
+yy Answer all the questions.
+yy Unless otherwise stated in the question, all numerical answers should be given exactly or
+   correct to three significant figures.
+yy A graphic display calculator is required for this paper.
+yy A clean copy of the mathematics HL and further mathematics HL formula booklet is
+   required for this paper.
+yy The maximum mark for this examination paper is [50 marks].
+
+
+
+
+                                                                                               2218 – 7208
+     3 pages                                               © International Baccalaureate Organization 2018
+                                                             –2–                  M18/5/MATHL/HP3/ENG/TZ0/SE
+
+Please start each question on a new page. Full marks are not necessarily awarded for a correct answer
+with no working. Answers must be supported by working and/or explanations. In particular, solutions
+found from a graphic display calculator should be supported by suitable working. For example, if
+graphs are used to find a solution, you should sketch these as part of your answer. Where an answer
+is incorrect, some marks may be given for a correct method, provided this is shown by written working.
+You are therefore advised to show all working.
+
+1.   [Maximum mark: 10]
+
+     (a)   Given that n > ln n for n > 0 , use the comparison test to show that the series
+            ∞
+                   1
+           ∑ ln(n + 2) is divergent.
+           n =0
+                                                                                                          [3]
+
+
+                                                         ∞
+                                                             (3 x) n
+     (b)   Find the interval of convergence for      ∑
+                                                     n = 0 ln( n + 2)
+                                                                      .                                   [7]
+
+
+
+2.   [Maximum mark: 6]
+
+     The function f is defined by
+                                                       x − 2 +1 x < 2
+                                              f ( x) =  2
+                                                        ax + bx x ≥ 2
+     where a and b are real constants.
+
+     Given that both f and its derivative are continuous at x = 2 , find the value of a and the
+     value of b .
+
+
+3.   [Maximum mark: 11]
+
+                               ∞
+                                   1
+     (a)   Find the value of   ∫ x dx .
+                               4
+                                   3
+                                                                                                          [3]
+
+
+                                                     ∞              ∞       ∞
+                                                         1       1             1
+     (b)   Illustrate graphically the inequality    ∑
+                                                    n =5 n
+                                                           3
+                                                             < ∫ x 3
+                                                                     d x < ∑
+                                                                           n=4 n
+                                                                                 3
+                                                                                   .                      [4]
+                                                               4
+
+
+                                                          ∞
+                                                                1
+     (c)   Hence write down a lower bound for            ∑n .
+                                                         n= 4
+                                                                3                                         [1]
+
+
+                                          ∞
+                                              1
+     (d)   Find an upper bound for     ∑n .
+                                       n= 4
+                                               3                                                          [3]
+                                                            –3–                 M18/5/MATHL/HP3/ENG/TZ0/SE
+
+4.   [Maximum mark: 11]
+
+     The function f is defined by f (x) = (arcsin x)2 , -1 ≤ x ≤ 1 .
+
+     (a)   Show that f '(0) = 0 .                                                                            [2]
+
+     The function f satisfies the equation (1 - x2) f "(x) - xf '(x) - 2 = 0 .
+
+     (b)   By differentiating the above equation twice, show that
+
+                                (1 - x2) f (4)(x) - 5xf (3)(x) - 4 f "(x) = 0
+           where f (3)(x) and f (4)(x) denote the 3rd and 4th derivative of f (x) respectively.              [4]
+
+     (c)   Hence show that the Maclaurin series for f (x) up to and including the term in x4 is
+                   1 4
+            x2 +     x .                                                                                     [3]
+                   3
+
+                                                                   1
+     (d)   Use this series approximation for f (x) with x =          to find an approximate value for π2 .   [2]
+                                                                   2
+
+5.   [Maximum mark: 12]
+
+                                              dy
+     Consider the differential equation x        − y = x p + 1 where x ∈  , x ≠ 0 and p is a positive
+                                              dx
+     integer, p > 1 .
+
+     (a)   Solve the differential equation given that y = - 1 when x = 1 . Give your answer in the
+           form y = f (x) .                                                                                  [8]
+
+
+                                                                                                  dy
+     (b)   (i)     Show that the x-coordinate(s) of the points on the curve y = f (x) where          =0
+                                            p−1       1                                           dx
+                   satisfy the equation x         =     .
+                                                      p
+
+		         (ii)    Deduce the set of values for p such that there are two points on the curve
+                                     dy
+                   y = f (x) where      = 0 . Give a reason for your answer.                                 [4]
+                                     dx
+

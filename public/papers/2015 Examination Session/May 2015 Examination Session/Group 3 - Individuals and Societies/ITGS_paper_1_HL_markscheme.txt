@@ -1,0 +1,943 @@
+M15/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+
+
+                        Markscheme
+
+
+                                May 2015
+
+
+                 Information technology
+                    in a global society
+
+
+                               Higher level
+
+
+                                 Paper 1
+
+
+
+
+25 pages
+                          –2–              M15/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+
+
+This markscheme is confidential and for the exclusive use
+of examiners in this examination session.
+
+It is the property of the International Baccalaureate and
+must not be reproduced or distributed to any other person
+without the authorization of the IB Assessment Centre.
+                                                   –3–                  M15/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+Examiners should be aware that in some cases, candidates may take a different approach, which if
+appropriate should be rewarded. If in doubt, check with your team leader.
+
+In the case of an “identify” question read all answers and mark positively up to the maximum marks.
+Disregard incorrect answers. In all other cases where a question asks for a certain number of facts
+eg “describe two kinds”, mark the first two correct answers. This could include two descriptions,
+one description and one identification, or two identifications.
+
+It should be recognized that, given time constraints, answers for part (c) questions are likely to include a
+much narrower range of issues and concepts than identified in the markband. There is no “correct”
+answer. Examiners must be prepared to award full marks to answers which synthesize and evaluate
+even if they do not examine all the stimulus material.
+                                                    –4–                  M15/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+
+                                                 Section A
+1.    BodyGuardian
+
+     Note to examiners.
+      All part a questions are marked using ticks and annotations where appropriate
+      Part b and part c are marked using markbands. Use annotations and text comments
+        to provide a rationale behind the marks you awarded. Do not use ticks
+
+      (a)   (i)    Identify two health indicators that could be measured by the BodyGuardian
+                   device.                                                                          [2]
+
+                   Answers may include:
+                    body temperature
+                    respiratory rate
+                    blood pressure
+                    sugar levels (blood glucose)
+                    heart rate/pulse rate
+                    electrocardiogram (ECG).
+
+                   Award [1] for each of the above up to a maximum of [2].
+
+            (ii)   Identify four steps taken by the software to decide if a health indicator
+                   measurement needs to be sent to a doctor for a decision.                         [4]
+
+                   Answers may include:
+                    device takes the measurement
+                    measurement converted to digital data/ analogue to digital conversion
+                     (ADC)
+                    data sent from BodyGuardian device to smartphone
+                    patient data is uploaded to mHealth system for analysis
+                    value is compared with the “normal” value stored in device for patient
+                    if value is outside accepted range, then signal is sent to doctor for action
+                     to be taken
+                    if value is inside accepted range, then no signal is sent
+                    device waits for next time interval to take new measurement.
+
+                   Consider any four steps in the response.
+
+                   Award [1] for each step up to a maximum of [4].
+                                              –5–                 M15/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+
+
+(b)   The managers of mHealth are investigating the nature of passwords used by
+      doctors to access patient information. The two options being investigated are:
+       the doctor creates a password that does not need to be changed
+       the mHealth system requires doctors to create a strong password that must be
+        changed every 40 days.
+
+      Analyse these two options.                                                              [6]
+
+      Answers may include:
+       Option: password created by doctor that does not need to be changed
+        - familiar for doctor and probably easy for him to remember
+        - no need to write it down therefore it will not be found by others
+        - others with access to the computer may “guess” it if they know the doctor
+          well
+        - if the password is discovered/cracked it can be used for an indefinite time
+          period. the doctor may not be aware that the password has been
+          compromised
+        - may allow doctor to access account faster as no need to look-up the
+          password
+        - a password that is never changed creates a security problem as people
+          close to doctor may find out the password (ie see it, guess it)
+        - may not be a strong password
+       Option: strong password created by doctors that must be changed every 40
+        days
+        - secure as it may not be related to the doctor – therefore difficult to guess
+        - the need of constantly updating the password in mHealth will improve the
+          security as it may be harder to guess
+        - may be difficult for doctors to remember which variant of the password they
+          have used
+        - doctor may need to keep it written down – therefore it has the risk of being
+          found by others
+        - may have difficult characters that may not be in a keyboard of mobile
+          devices.
+
+      [1–2]: A limited response that demonstrates minimal knowledge and
+      understanding of the topic and uses little or no appropriate ITGS terminology.
+      Only one of the options is addressed in the response.
+
+      [3–4]: A partial analysis, either lacking detail or balance, that demonstrates some
+      knowledge and understanding of the topic. Some relevant examples from the
+      scenario are used within the response. There is some use of appropriate ITGS
+      terminology in the response. Both options are either explicitly or implicitly implied
+      in the response.
+
+      [5–6]: A balanced and detailed analysis of the issue which demonstrates
+      thorough knowledge and understanding of the topic. Relevant examples from the
+      scenario are used throughout the response. There is appropriate ITGS
+      terminology throughout the response. Both options are explicitly addressed in
+      the response.
+                                             –6–                  M15/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+
+(c)   As part of the development of the BodyGuardian device, it is being tested in
+      clinical trials by doctors and patients.
+
+      Discuss the implications for doctors and patients of trialling the BodyGuardian
+      device before it is sold publicly.                                                   [8]
+
+      Answers may include:
+       may have to do double checks: with and without the device – this will take
+        more time and put the patient under unnecessary stress / may take time from
+        busy doctors
+       if doctors/patients discover that incorrect information is being sent from the
+        device they may not trust it / feel uncomfortable about having to use it
+       if device works well doctors/patients may advertise it positively, making others
+        more willing to use it
+       doctors/patients may need training to use the device
+       patients in the trial may feel their health is being more effectively monitored
+       patients and/or doctors may provide feedback to improve final device
+       patients may need to be assured that security measures have been taken to
+        protect the privacy of their data
+       doctors may have an opportunity to learn how to use the device before it is
+        sold publicly.
+
+      In part (c) of this question it is expected there will be a balance in the ITGS
+      terminology between IT technical terminology and the terminology related to
+      social and ethical impacts.
+
+      Please see generic markband information sheet on page 25.
+                                                   –7–                 M15/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+
+
+2.   3D printing
+
+     Note to examiners.
+       All part a questions are marked using ticks and annotations where appropriate
+       Part b and part c are marked using markbands. Use annotations and text
+        comments to provide a rationale behind the marks you awarded. Do not use ticks
+
+     (a)   (i)    Identify two ways that a 2D image file can be input into the 3D printer
+                  software.                                                                     [2]
+
+                  Answers may include:
+                   2D images imported imported into the 3D printer software
+                   2D images are opened by the 3D printer software
+                   2D file is converted into a format required by the 3D printer software by
+                    another file conversion program.
+
+                  Award [1] for each way up to a maximum of [2].
+
+           (ii)   Identify four of the steps required to produce Charlie’s replacement foot.    [4]
+
+                  Answers may include:
+                   images of the other duck's foot are imported into the 3D
+                    printer/modelling software
+                   the software creates a 3D image/model of the foot from the images
+                   the 3D image/model is edited to make it the same size as Charlie’s foot
+                   printer is loaded with the type of raw material needed for creating the
+                    foot
+                   the 3D image/model of the foot is sent to the 3D printer
+                   the 3D printer creates the replacement foot
+
+                  Award [1] for each step up to a maximum of [4].
+                                             –8–                  M15/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+
+(b)   Analyse Alejandro Toys’s decision to either use open source software or to
+      purchase proprietary software to produce the company’s 3D toys.                       [6]
+
+      Answers may include:
+       open-source software is often free or low-cost, allowing the company to aquire
+        more software within a limited budget / proprietary software may demand a
+        higher level of investment by the company
+       open-source software can be changed or customised to suit the company’s
+        requirements – the source code is available for programmers to modify /
+        proprietary software can only be modified by the manufacturer
+       open-source software may have “bugs” that have not yet been reported which
+        affect the company’s production (ie may take time to be fixed) / proprietary
+        software manufacturers may release patches/bug-fixes on a regular basis
+       open-source software may not have all the options/features needed by the
+        company / proprietary software often has a greater range of options/features
+       manufacturers of proprietary software can provide support and assistance to
+        the company / open-source software often has limited support
+       using open source software for producing the 3D toys may require hiring more
+        programming staff to upgrade the software
+
+      [1–2]: A limited response that demonstrates minimal knowledge and
+      understanding of the topic and uses little or no appropriate ITGS terminology.
+      Only open-source software or proprietary software is explicitly referred to in the
+      response.
+
+      [3–4]: A partial analysis, either lacking detail or balance, that demonstrates some
+      knowledge and understanding of the topic. Some relevant examples are used
+      within the response. There is some use of appropriate ITGS terminology in the
+      response. Both open-source software and proprietary software are explicitly or
+      implicitly referred to in the response.
+
+      [5–6]: A balanced and detailed analysis of the issue which demonstrates
+      thorough knowledge and understanding of the topic. Relevant examples are
+      used throughout the response. There is appropriate ITGS terminology
+      throughout the response. Both open-source software and proprietary software
+      are explicitly referred to in the response.
+                                              –9–                  M15/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+
+(c)   It is now possible to use a 3D printer to print a large range of products in addition
+      to toys. These include guns, bicycles and human prosthetic limbs. However
+      some governments are concerned about the software for 3D printers being freely
+      available on the internet.
+
+      To what extent should governments regulate the access to software for
+      3D printers?                                                                            [8]
+
+      Answers may include:
+      Regulation of the access to software for 3D printers
+       could aim to ensure good quality of the 3D objects being made. 3D software
+        may allow for sub-standard / faulty 3D objects to be manufactured, creating
+        risks for users
+       could aim to prevent the manufacture of artifacts that are only sold with a
+        licence (eg guns). However if similar shapes are needed for other articles,
+        their manufacture may be prevented by mistake Eg: if a certain shape is
+        recognized the software may not allow it to be printed
+       could protect manufacturers of copyrighted products. Owners of 3D printers
+        would be prevented from making them
+       could prevent owners of 3D printers making their own objects freely, stifling
+        innovation
+       could mean an invasion of privacy. It is possible to know what blueprint is
+        being downloaded to which IP address
+       to what extent is regulation possible.
+
+      In part (c) of this question it is expected there will be a balance in the ITGS
+      terminology between IT technical terminology and the terminology related to
+      social and ethical impacts.
+
+      Please see generic markband information sheet on page 25.
+                                                  – 10 –               M15/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+
+3.   Small town book shop moves to computer-based records
+
+     Note to examiners.
+       Part a and part b questions are marked using ticks and annotations where
+        appropriate
+      Part c are marked using markbands. Use annotations and text comments to provide
+        a rationale behind the marks you awarded. Do not use ticks
+
+     (a)   (i)    Daniela needs to see the books in alphabetical order, with the “Subject
+                  area” sorted from A to Z and then the “Number of books” sorted from
+                  largest to smallest.
+
+                  State the author that would appear in the first row of the sorted spreadsheet
+                  using only the books shown in Figure 5.                                         [1]
+
+                   Badke
+
+                  Award [1] for the correct answer shown above.
+
+           (ii)   State the formula that would be required to add up the cost of all the books
+                  in the book store.                                                              [1]
+
+                  Answer may include:
+                   =SUM(G2:G401)
+                   =SUMA(G2:G401)
+                   =ADD(G2:G401)
+                   =  (G2:G401). (where xxxx is another valid formula which adds the
+                    numbers in cells G2 through G401)
+                   =G2+G3+...+G401
+
+                  Award [1] for any one of the above.
+                                        – 11 –               M15/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+
+
+(iii)   Daniela now thinks that she should have installed a database for the
+        information about the books. Outline two advantages that a database
+        would have over a spreadsheet for the El Hoyo book shop.                      [4]
+
+        Answers may include:
+         queries can be done to select specific records, ie English books
+         reports can be made (ie summary of all the books that have been
+          purchased, labels can be printed to label the books/bookshelves etc.)
+         databases may reduce data redundancy and allow for more efficient
+          storage & updating of data than spreadsheets
+         a user interface can be included for the book shop staff without much IT
+          knowledge, using spreadsheets may require a greater level of IT
+          capability
+         databases allow for data for a large number of books to be stored and
+          accessed without increasing complexity for the user.
+         databases allow the field choices to be set so that only certain types of
+          data may be entered (e.g. Type of book, language etc.). Spreadsheets
+          to not have this possibility.
+         a database can limit the view of the data for particular users (e.g.
+          Daniela as the shop manager, may be able to view more data than the
+          rest of the staff), a spreadsheet does not have this capability
+
+        Note:. If an advantage is generic with no reference to the book shop, a
+        maximum of 1 mark is awarded for identifying the advantage.
+
+        Award [1] for identifying an advantage and an additional [1] for an outline
+        for that advantage.
+
+        Award up to a maximum of [4] for the question.
+                                            – 12 –               M15/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+
+(b)   Explain three impacts that the new computer system may have for the staff at the
+      book shop.                                                                          [6]
+
+      Answers may include:
+       the salesperson may have to learn/receive training on how to use the
+        computer and software. This may involve additional time commitment.
+       the salesperson may request new software applications (ie image editing
+        software to create posters about the books) or hardware (ie barcode
+        scanners) and this may involve costs
+       shop owner may now expect the salesperson to perform analysis of
+        sales/inventory
+       having a computer may allow the salesperson to perform additional tasks
+        (ie printing of advertisements about new books, mail merged letters, ordering
+        books from their supplier)
+       employees work will be easier and faster as they can check directly in the
+        computer if they have a copy of the book
+       staff will no longer have to calculate the costs of books manually leading to
+        less errors in charging customers/fewer customer complaints.
+
+      Award [1] for each impact identified, and an additional [1] for an appropriate
+      explanation of that impact.
+
+      Award a maximum of [6] for the response.
+                                             – 13 –               M15/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+
+(c)   El Hoyo receives a large number of tourists during the summer when the fruit
+      festival takes place, but suffers from periods of poor internet connectivity.
+      Daniela has now created a separate area in the book shop that has several
+      computers with free broadband internet access so that tourists can use them to
+      check their emails and find information about the local area.
+
+      Evaluate the impacts of this initiative for Daniela as shop manager.                 [8]
+
+       Answers may include:
+        additional staff with IT expertise may be needed to work in that area if the
+         demand is high installation, maintenance and repairs may be needed if the
+         equipment is used frequently
+        antivirus and firewalls may be needed to be installed
+        the shop may become a popular place and sales of books may increase
+        Daniela’s investment may not be cost effective if demand for the bookshop’s
+         internet access decreases
+        Daniela may need to develop an acceptable use policy
+        Daniella may have access to the browser histories on the computers and
+         could use that information to help decide what books to stock
+       staff are able to query the book database for specific information (e.g. all of
+         the books written by a certain author, all books which cost less than $200).
+
+      In part (c) of this question it is expected there will be a balance in the ITGS
+      terminology between IT technical terminology and the terminology related to
+      social and ethical impacts.
+
+      Please see generic markband information sheet on page 25.
+                                                    – 14 –              M15/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+
+                                                 Section B
+4.   Penrose Airport (UK) automated baggage system
+
+     Note to examiners.
+       Part a and part b questions are marked using ticks and annotations where
+        appropriate
+      Part c are marked using markbands. Use annotations and text comments to provide
+        a rationale behind the marks you awarded. Do not use ticks
+
+     (a)   (i)     Identify two key stakeholders in this automated baggage system project.       [2]
+
+                   Answers may include:
+                    passengers
+                    airlines
+                    airport’s chief engineer
+                    airport’s managers
+                    firm that built the system (or its senior management team)
+                    system development personnel
+                    project management team.
+
+                   Note: reward a specific member of any team i.e. someone who would be on
+                   the project management team, but do NOT reward two members of the
+                   same team.
+
+                   Award [1] for each of the points identified above up to a maximum of [2].
+
+           (ii)    Identify two characteristics of a “prototype”.                                [2]
+
+                   Answers may include:
+                    early working model of a system or subsystem
+                    used to test the system (eg interface, functioning)
+                    used to demonstrate how the system will work
+                    used to check whether the systems will meet the target user’s
+                     requirements.
+
+                   Award [1] for each of the points identified above up to a maximum of [2].
+
+           (iii)   Identify two types of information that should have been gathered at the
+                   beginning of the automated baggage system project.                            [2]
+
+                   Answers may include:
+                    amount of baggage the system will need to handle
+                    maximum size and weight of baggage
+                    needs of individual airlines
+                    time parameters ie when is the automated baggage system scheduled to
+                     open
+                    number of concourses or gates to be served by the system
+                    cost estimate.
+
+                   Award [1] for each kind of information identified up to a maximum of [2].
+                                             – 15 –               M15/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+
+(b)   Explain three reasons why the use of the AGILE system of project development
+      might have prevented the failure of the automated baggage system project.             [6]
+
+      Answers may include:
+       project could be adapted to changing needs of the stakeholders
+       the concerns of lower level managers would have been heeded (eg resolving
+        issues early on before they became significant
+       small parts of the system can be tested as they are developed (eg the parts of
+        the baggage system that failed would have been caught early)
+       requires stakeholders and developers to work together throughout the process
+        (eg airlines would have communicated requirements throughout the process)
+       developers work in teams increasing communication
+       deadlines can be adjusted based on concrete information about the current
+        performance of the system.
+
+      Award [1] for each reason why the use of the AGILE system of project
+      development might have avoided the failure of the automated baggage system
+      project.
+
+      Award [1] linked to each reason identified for why the use of the AGILE system of
+      project development might have avoided the failure of the automated baggage
+      system project. [1] giving a maximum of [2] for each reason.
+
+      Mark as [2 + 2 + 2].
+
+(c)   To what extent is the success of projects such as the Penrose Airport automated
+      baggage system dependent on the involvement of key stakeholders throughout
+      the development process?                                                              [8]
+
+      Advantages may include:
+       needs of all stakeholders will be taken into account from the beginning/avoids
+        sudden dramatic changes in the project
+       key stakeholders will have a clear idea of how the project is progressing
+       regular communication with stakeholders ensures that the solution will meet
+        their needs
+       affords developers the possibility of working with experts who have detailed
+        knowledge of the system requirement
+       enables early recognition of small problems before they become huge
+        problems
+       regular communication ensures that necessary resources can be identified
+        and provided.
+
+      Disadvantages may include:
+       if views of some stakeholders are divergent from the rest, the project could fail
+       coordination problems, ie between stakeholders, could cause delays in the
+         project
+       if there is no centralized control and knowledge, the project could fail
+       meetings with stakeholders can be time consuming and/or non-productive.
+
+      In part (c) of this question it is expected there will be a balance in the ITGS
+      terminology between IT technical terminology and the terminology related to
+      social and ethical impacts.
+
+      Please see generic markband information sheet on page 25.
+                                                   – 16 –                M15/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+
+5.   Zunica Chocolates
+
+     Note to examiners.
+       All part a questions are marked using ticks and annotations where appropriate
+       Part b and part c are marked using markbands. Use annotations and text
+        comments to provide a rationale behind the marks you awarded. Do not use ticks
+
+     (a)   (i)    Identify three requirements for an e-commerce website in order to be
+                  user-friendly.                                                                  [3]
+
+                  Answers may include:
+                   shopping cart
+                   search box
+                   login box
+                   social media links
+                   payment options
+                   contact information
+                   clear presentation of products/services
+                   use smaller files and images and files to reduce load times
+                   includes functions to aid the disabled
+                   included FAQs about transactions, delivery etc.
+                   allows users to compare products
+                   easy for users to provide information to the seller ,i.e. financial and
+                    shipping information
+                   offers a wishlist .
+
+                   Award [1] for each of the points identified above up to a maximum of [3].
+
+           (ii)   Identify three components of a “feasibility study”.                             [3]
+
+                  Answers may include:
+                   analysis of the likely success of a project
+                   considers cost
+                   technical issues
+                   resources needed
+                   value to or needs of the stakeholder(s)
+                   determine estimated date of completion.
+
+                  Award [1] for each of the points identified above up to a maximum of [3].
+                                              – 17 –               M15/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+
+(b)   Explain why Zunica Chocolates uses both alpha testing and beta testing to
+      ensure the functionality of their website.                                            [6]
+
+                        Alpha                                      Beta
+       First stage of testing, prepares for       Occurs when software passes alpha
+       beta testing.                              testing.
+       Tests if software meets design             Last stage of testing/pre-release.
+       specifications.
+       Normally done by software testers          Test by group of “real world” users.
+       within the company that created the
+       software.
+       Reveals bugs, crashes, missing             Some bugs or crashes but features
+       features etc.                              should be complete.
+       Critical issues are fixed, some            Only important/critical changes are
+       features might be changed.                 made, new features are not added.
+       White box testing ie checks internal       Black box testing ie tests how it
+       workings of the software (code).           actually performs.
+
+      [1–2]: A limited response that indicates very little understanding of the topic.
+
+      [3–4]: A reasonable explanation of how both alpha and beta testing can be used
+      to ensure the success of the project. The answer may be unbalanced and lack
+      appropriate reasoning at the lower end of the band.
+
+      [5–6]: A clear, detailed explanation of how both alpha and beta testing can be
+      used to ensure the success of the project.
+
+(c)   To what extent could the use of a Gantt chart such as the one above lead to the
+      successful development of Zunica Chocolates's website?                                [8]
+
+      Benefits may include:
+       use of a Gantt chart visualizes the process eg helps to maintain organization
+       it illustrates which tasks must be completed before the next one can begin
+       task can be viewed against a calendar showing start and end dates
+       resources required for tasks can be linked to the tasks on the chart.
+
+      Drawbacks may include:
+       it is a linear ie step-by-step process so it is very inflexible. Changes are
+        difficult to make
+       errors are difficult to correct
+       changes could result in significant costs
+       chart can be too simplistic ie does not provide enough detail for a complex
+        project ie this chart leaves out the construction of the database
+       it is difficult to show where there is slack time in the project.
+
+      In part (c) of this question it is expected there will be a balance in the ITGS
+      terminology between IT technical terminology and the terminology related to
+      social and ethical impacts.
+
+      Please see generic markband information sheet on page 25.
+                                                  – 18 –               M15/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+
+                                               Section C
+6.   Telepresence robots
+
+     Note to examiners.
+       All part a questions are marked using ticks and annotations where appropriate
+       Part b and part c are marked using markbands. Use annotations and text
+        comments to provide a rationale behind the marks you awarded. Do not use ticks
+
+     (a)   (i)    Identify two of the sensors that the robot must have in order to move
+                  around the classroom.                                                         [2]
+
+                  Answers may include:
+                   cliff/edge detection
+                   sensor to detect edge of the wireless network
+                   sensor to detect battery level
+                   motion sensor
+                   proximity sensor (obstacle detection)
+                   visual sensor.
+
+                  Note: do not accept distance sensor or cameras.
+                  Award [1] for each sensor identified up to a maximum of [2].
+
+           (ii)   Outline two characteristics that make the VGo different from a fixed video
+                  system such as Skype.                                                         [4]
+
+                  Answers may include:
+                   the VGo robot is portable while the video system must be available in
+                    every classroom
+                   the student controls the VGo robot, can move from class to class along
+                    with everyone else while a portable video system must be wheeled
+                    around by a staff member
+                   the student controls the VGo while someone in each classroom needs to
+                    position the camera
+                   the student can move around the classroom as if she were physically
+                    present but the video system is relatively fixed
+                   the camera in the VGO system can look all around instead of having a
+                    fixed perspective
+                   student can control the robot from a remote place
+                   student can zoom in and out to see details or get a better perspective on
+                    the room.
+
+                  Award [1] for each characteristic that makes the VGo different from a fixed
+                  video system such as Skype identified up to a maximum of [2].
+
+                  Award [1] for each expansion of each characteristic identified up to a
+                  maximum of [1] giving a maximum of [2].
+
+                  Mark as [2 + 2].
+                                             – 19 –                M15/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+
+(b)   Analyse the impact that using a VGo robot would have on a student who cannot
+      attend school in person.                                                              [6]
+
+      Advantages may include:
+       students will be able to participate fully in interactive class discussions/group
+        work/working in pairs so they will have the full educational experience
+       students will be able to move from class to class with peers/go to the
+        lunchroom/chat while walking through the halls so they will be able to develop
+        friendships
+       student can participate in some extracurricular activities.
+
+      Disadvantages may include:
+       sitting in front of a computer monitor can be tiring for the user
+       parents might have privacy concerns about using cameras in class
+       if the robot loses power, drops the internet connection or there’s a hardware
+         or software failure, the student will not be able to follow the lesson
+       The student might play with the robot and get distracted
+       Other students in school might make the student using the robot feel
+         uncomfortable
+       if the student is not confident or competent at using the VGo, the student’s
+         ability to follow the lesson will be reduced
+
+      [1–2]: A limited response that indicates very little understanding of the topic.
+
+      [3–4]: A reasonable description of the positive and negative impacts of using the
+      VGo robot in this scenario. The answer may be unbalanced and lack appropriate
+      reasoning at the lower end of the band.
+
+      [5–6]: A balanced and thorough analysis of the positive and negative impacts of
+      using the VGo robot in this scenario.
+                                             – 20 –               M15/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+
+(c)   Larsson Laboratories, which makes drugs for rare diseases, is considering the
+      use of VGo robots for company communications. The head office is in central
+      Stockholm, with a research laboratory in a nearby town and a production facility
+      in Germany. The VGo robots would be used for meetings and visits to the
+      laboratory and production facility by managers, as well as by workers who are in
+      the office for some of the time, and work from home (telecommute) for the rest.
+
+      Discuss the potential effects of the use of VGo robots for Larsson Laboratories.      [8]
+
+      Advantages may include:
+       the system would allow employees who telecommute to interact with
+        colleagues in the office
+       would save the business the costs of travel ie transportation,
+        accommodations, meals; especially important for global companies
+       employees can gain visual access to remote facilities such as manufacturing
+        facilities, laboratories, etc
+       employees can be more productive as time will not need to be spent on travel
+        eg managers can visit multiple locations in a short period of time
+       allows for “walk and talk” or “watercooler” discussions ie informal collaboration
+       allows direct monitoring and interaction with employees if the supervisor is not
+        physically present
+       fewer people physically present means less risk of contamination in the
+        laboratory.
+
+      Disadvantages may include:
+       trust is harder to build when working with telecommunication technologies eg
+         personal relationships are often critical in business environments
+       bandwidth can be a problem ie video requires significant bandwidth.
+         Companies may be limited in the use of robots by cost of bandwidth or may
+         find their networks cannot handle the telepresence robots
+       security is a problem because remote control cameras are moving around a
+         financial institution or research laboratory
+       the use of the internet to transmit the video opens up the company to
+         breaches of security
+       can make employees uncomfortable because they feel as if they’re being
+         spied on
+       cannot be sure the robot will be controlled by the person who is supposed to
+         be controlling it
+       the field of vision of VGo’s camera is not as wide as a human’s, so it is
+         impossible to have a view of the whole room
+       a moving robot may risk expensive equipment or spill chemicals if not
+         controlled correctly by the remote control user.
+
+      In part (c) of this question it is expected there will be a balance in the ITGS
+      terminology between IT technical terminology and the terminology related to
+      social and ethical impacts.
+
+      Please see generic markband information sheet on page 25.
+                                                    – 21 –             M15/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+
+7.   Art and expert systems
+
+     Note to examiners.
+         Part a and part b questions are marked using ticks and annotations where
+            appropriate
+         Part c are marked using markbands. Use annotations and text comments to
+            provide a rationale behind the marks you awarded. Do not use ticks
+
+     (a)   AARON, like all expert systems, has a knowledge base and inference engine.
+
+           (i)     Identify two possible items that could be included in AARON’s knowledge
+                   base.                                                                        [2]
+
+                   Answers may include:
+                    part of a human body
+                    physical types
+                    a set of colours to choose from
+                    basic shapes.
+
+                   Award [1] for each item that could be in AARON’s knowledge base
+                   identified up to a maximum of [2].
+
+           (ii)    Programs like AARON often contain fuzzy logic. Identify two
+                   characteristics of fuzzy logic.                                              [2]
+
+                   Answers may include:
+                    based on degrees of truth not “true or false”, eg percentages
+                    can quantify natural language expressions that state imprecise values,
+                     eg hot, warm, cool
+                    can be used in situations where precise values are not known, eg the
+                     temperature in a clothes dryer
+                    uses the logical values between 0 and 1 ie things can be partly true and
+                     partly false at the same time.
+
+                   Award [1] for each characteristic identified.
+
+           (iii)   Identify two characteristics of machine learning.                            [2]
+
+                   Answers may include:
+                    software learns from data/input
+                    software can perform new tasks after processing the data
+                    software can react to new inputs it has not encountered before
+                    software searches through data for patterns and adjusts accordingly
+                    an example might be the newsfeed in Facebook/adjusts to the users
+                     behaviour.
+
+                   Award [1] for each of the characteristics stated above up to a maximum
+                   of [2].
+                                                 – 22 –              M15/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+
+     (b) (i)    AARON needs to select colours for leaves and flowers in each drawing.
+Once a shape is selected, it must follow these rules:
+                 AARON can colour large flowers red
+                 AARON can colour small flowers blue
+                 if the shape is a leaf, AARON can colour it green
+                 if the shape is neither a leaf nor a flower, AARON should not colour it.
+
+                 Copy and complete the information below to construct a decision tree that
+                 AARON could use to colour its drawings.                                      [4]
+
+
+
+
+                 Answers may include:
+                  Y/N at each decision node
+                  leads to correct conclusions, bottom line
+                  exactly four levels
+                  exactly four terminators
+                  no false leads.
+
+                 Any four points, award [1] each up to a maximum of [4].
+                                       – 23 –               M15/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+
+(ii)   Explain one weakness of using a decision tree like this one for AARON.         [2]
+
+       Answers may include:
+        the decision tree is based on preset parameters which may not address
+         all of the eventualities encountered when AARON is trying to complete a
+         painting
+        “flower size: large or small” is ambiguous and relative
+        the decision tree is made up of binary choices which are very limited,
+         ie only two choices for colour/only flowers vs. leaves. This could be very
+         limiting OR could lead to a huge decision tree thus a very slow program
+        the decision tree may be influenced by new information as a result of
+         machine learning during the creation of a painting by AARON. This may
+         lead to paintings being created using different inference rules (and not
+         being consistent in the style intended).
+
+       Award [1] for identifying one reason why the use of a decision tree like the
+       one in b(i) for AARON may be considered a weakness.
+
+       Award [1] for why the use of a decision tree like the one in b(i) for AARON
+       may be considered a weakness. [1] giving a maximum of [2].
+                                             – 24 –               M15/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+
+(c)   Discuss the museums’ decision to list AARON as the artist when exhibiting
+      AARON’s paintings and drawings.                                                      [8]
+
+      Reasons supporting the decision may include:
+       each of AARON’s works is unique, ie AARON remembers its drawings so it
+        does not repeat itself
+       AARON makes all the decisions so it is the artist
+       works to be exhibited in museums are judged to be art by the curators, ie they
+        are appreciated as fine art
+       it is impossible to know what an artist was feeling when she/he created the
+        work of art
+       human brains work creatively while we are unconscious, ie asleep.
+
+      Reasons against the decision may include:
+       Harold Cohen wrote the program so he is the artist
+       AARON cannot experience the world the way a human can so he cannot
+        create art
+       AARON is not conscious so it cannot make decisions about the quality of its
+        art
+       there can be multiple copies of the program, so there is no individual artist
+       AARON can only create images out of the knowledge that Cohen has
+        programmed into it
+       real art communicates the emotion/passion of the artist.
+
+      In part (c) of this question it is expected there will be a balance in the ITGS
+      terminology between IT technical terminology and the terminology related to
+      social and ethical impacts.
+
+      Please see generic markband information sheet on page 25.
+                                            – 25 –               M15/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+SL and HL paper 1 part (c) and HL paper 3 question 3 markband
+          Marks                                      Level descriptor
+                             A response with no knowledge or understanding of the relevant
+        No marks              ITGS issues and concepts.
+                             A response that includes no appropriate ITGS terminology.
+                             A response with minimal knowledge and understanding of the
+                              relevant ITGS issues and concepts.
+                             A response that includes minimal use of appropriate ITGS
+          Basic               terminology.
+
+        1–2 marks            A response that has no evidence of judgments and/or conclusions.
+                             No reference is made to the scenario in the stimulus material in the
+                              response.
+                             The response may be no more than a list.
+                             A descriptive response with limited knowledge and/or
+                              understanding of the relevant ITGS issues and/or concepts.
+                             A response that includes limited use of appropriate ITGS
+                              terminology.
+        Adequate
+                             A response that has evidence of conclusions and/or judgments that
+        3–4 marks
+                              are no more than unsubstantiated statements. The analysis
+                              underpinning them may also be partial or unbalanced.
+                             Implicit references are made to the scenario in the stimulus material
+                              in the response.
+                             A response with knowledge and understanding of the relevant ITGS
+                              issues and/or concepts.
+                             A response that uses ITGS terminology appropriately in places.
+        Competent
+                             A response that includes conclusions and/or judgments that have
+        5–6 marks
+                              limited support and are underpinned by a balanced analysis.
+                             Explicit references to the scenario in the stimulus material are made
+                              at places in the response.
+                             A response with a detailed knowledge and understanding of the
+                              relevant ITGS issues and/or concepts.
+                             A response that uses ITGS terminology appropriately throughout.
+        Proficient
+                             A response that includes conclusions and/or judgments that are
+        7–8 marks
+                              well supported and underpinned by a balanced analysis.
+                             Explicit references are made appropriately to the scenario in the
+                              stimulus material throughout the response.
+

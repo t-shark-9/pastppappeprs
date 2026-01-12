@@ -1,0 +1,384 @@
+No part of this product may be reproduced in any form or by any electronic or
+mechanical means, including information storage and retrieval systems, without written
+permission from the IB.
+
+Additionally, the license tied with this product prohibits commercial use of any selected
+files or extracts from this product. Use by third parties, including but not limited to
+publishers, private teachers, tutoring or study services, preparatory schools, vendors
+operating curriculum mapping services or teacher resource digital platforms and app
+developers, is not permitted and is subject to the IB’s prior written consent via a license.
+More information on how to request a license can be obtained from
+https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-license/.
+
+Aucune partie de ce produit ne peut être reproduite sous quelque forme ni par quelque
+moyen que ce soit, électronique ou mécanique, y compris des systèmes de stockage et
+de récupération d’informations, sans l’autorisation écrite de l’IB.
+
+De plus, la licence associée à ce produit interdit toute utilisation commerciale de
+tout fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris,
+sans toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de
+tutorat ou d’aide aux études, des établissements de préparation à l’enseignement
+supérieur, des fournisseurs de services de planification des programmes
+d’études, des gestionnaires de plateformes pédagogiques en ligne, et des
+développeurs d’applications, n’est pas autorisée et est soumise au consentement écrit
+préalable de l’IB par l’intermédiaire d’une licence. Pour plus d’informations sur la
+procédure à suivre pour demander une licence, rendez-vous à l’adresse suivante :
+https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-license/.
+
+No se podrá reproducir ninguna parte de este producto de ninguna forma ni por ningún
+medio electrónico o mecánico, incluidos los sistemas de almacenamiento y
+recuperación de información, sin que medie la autorización escrita del IB.
+
+Además, la licencia vinculada a este producto prohíbe el uso con fines comerciales de
+todo archivo o fragmento seleccionado de este producto. El uso por parte de terceros
+—lo que incluye, a título enunciativo, editoriales, profesores particulares, servicios
+de apoyo académico o ayuda para el estudio, colegios preparatorios, desarrolladores
+de aplicaciones y entidades que presten servicios de planificación curricular u
+ofrezcan recursos para docentes mediante plataformas digitales— no está permitido
+y estará sujeto al otorgamiento previo de una licencia escrita por parte del IB. En este
+enlace encontrará más información sobre cómo solicitar una licencia:
+https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-license/.
+Computer science
+Case study: A local economy driven by blockchain
+
+
+For use in May 2020, November 2020 and May 2021
+
+
+
+
+Instructions to candidates
+y Case study booklet required for higher level paper 3.
+
+
+
+
+     8 pages                                              © International Baccalaureate Organization 2019
+                                               –2–
+
+     Introduction
+
+     Santa Monica is typical of many towns around the world. Over the past few decades the
+     population has declined and many local businesses have closed. When the people of Santa
+     Monica spend their pesos in the stores owned by multinational companies, the money leaves
+ 5   the town.
+
+     Pablo, the mayor, wants to reverse this process. He has investigated towns that have created their
+     own local currency, and thinks that this is an idea that could work in Santa Monica. He found that
+     these local currencies worked alongside the national currency. For example, one unit of the local
+     currency would equal one peso. The local currency also had no value outside of the local area,
+10   so it could not be exchanged for other currencies, such as US dollars. However, if adopted in
+     Santa Monica, citizens would be able to change the new local currency back to pesos whenever
+     they wanted.
+
+     Pablo’s investigations showed that once a local currency had become established it brought
+     considerable benefits to a town. Local businesses had more customers and were able to provide
+15   discounts for those who decided to use the new local currency. Many local workers saw the
+     benefits of using the local currency and decided to accept some of their salary in it. However,
+     many of these local currencies failed because of the administration costs they incurred, such as
+     the cost of printing notes, combating fraud and providing additional banking services.
+
+     One Santa Monica resident, Dolores, a local computer science graduate, has suggested a way to
+20   overcome these problems. She has explained that “a cryptocurrency based on blockchain could
+     help Santa Monica to avoid these problems because it doesn’t require any central administration.
+     People who don’t know each other can transact without any need for a central authority, and that
+     will remove these costs”. Pablo and Dolores have decided that the next step would be to promote
+     the idea of a new cryptocurrency, called MONS, for Santa Monica.
+
+25   The MONS project
+
+     In a traditional banking system, a payment goes through a clearing process that may take as
+     many as ten working days. During this time, the payer’s bank and the payee coordinate to
+     validate the transaction, move the money, and verify that the payment has been successful.
+     MONS would not have a central bank to do this, so an alternative would have to be found.
+
+30   Some challenges of using a cryptocurrency are:
+     • how to create a transaction
+     • how to check that the transaction is accurate
+     • how to record a transaction in such a way that it cannot later be changed.
+
+     Dolores has explained to Pablo how MONS transactions could be created and validated by the
+35   nodes in the network, rather than a central authority. These can then be added in groups called
+     blocks, which are similar to pages in a digital ledger. “Once a transaction has been validated,
+     a new block can be added to the blockchain,” she said. “It can be viewed by everyone but it
+     cannot be changed.”
+                                                 –3–
+
+                                   Figure 1: The journey of a transaction
+
+
+
+
+               buyer                 seller
+
+
+
+
+                   new transaction               transaction pool
+
+                                                                                        miners
+
+
+
+
+                             blockchain                      candidate block
+
+
+     Dolores explained that “modern cryptocurrencies operate using a peer-2-peer (P2P) network
+40   to make and receive payments. The device of each MONS user is a node on the network and
+     has an address consisting of 26 alphanumeric characters. When a user spends the currency,
+     they transfer the MONS value from their address to the account address of the person that they
+     are paying. The details of this transaction are then broadcast onto the network.”
+
+     “The other nodes on the network validate each transaction independently by running a range
+45    of checks. One check uses the transaction’s digital signature to verify the identity of the sender.
+      Another check ensures that the buyer has not already spent the MONS being used in this
+      transaction (known as the double-spend problem).” If the transaction is valid, the node sends it to
+      its own neighbouring nodes, which also check it and send it on. In this way, only valid transactions
+      are propagated across the network and, crucially, there is no single authority that determines
+50    transaction validity. The set of validated transactions is known as the transaction pool.
+
+     Even though transactions in the transaction pool have been validated, they remain unconfirmed.
+     There are also specialized nodes on the network called miners. They are responsible for
+     grouping unconfirmed transactions from the pool into candidate blocks to be added to the
+     blockchain. The blockchain contains all the confirmed transactions that have ever taken place.
+
+55   A proof of work is calculated by the miners. This is required to find a nonce to solve a block, and
+     then add the candidate block to the blockchain. The incentive for miners to do this work is that
+     they will receive a small amount of MONS from the network together with a nominal transaction
+     fee from the participants of the sale. Dolores said that “the amount of time needed to solve a block
+     should not be too short, but it should not be too long either. We will aim for around 10 minutes”.
+
+
+
+
+                                                                                                 Turn over
+                                               –4–
+
+60   Miners can improve their chances of being the first to solve a block by using large numbers of
+     graphics processing units (GPUs). She explained that, “as the currency becomes more widely
+     used, there will be more miners trying to solve the proof of work and of course more miners will
+     be able to solve each block more quickly. However, one of the great things about the blockchain
+     is that we can ensure that the solution time remains at 10 minutes, and we can do this even as
+65   the number of MONS miners increases.”
+
+     The structure of the blockchain
+
+     The blockchain is a self-referential data structure in which each block contains a reference to
+     the next block.
+
+                      Figure 2: A diagrammatic representation of the blockchain
+
+                       hash (n-1)              hash (n)                hash (n+1)
+                       nonce                   nonce                   nonce
+                       Merkle root             Merkle root             Merkle root
+                       …                       …                       …
+
+
+     A set of metadata called the block header contains detailed information about each block.
+
+                                Figure 3: An example of a block header
+
+                       "number_of_transactions":188
+                       "height":5432
+                       "block_reward":2
+                       "timestamp":1391270636
+                       "merkle_root":0e83db9efb10076982a……94574318e7e
+                       "previous_block":5341
+                       "difficulty":2548.2
+                       "bits":172758700
+                       "size":317202
+                       "version":912
+                       "nonce":196898444
+                       "next_block":5433
+                                                 –5–
+
+  70   The list of transactions in each block is stored in a Merkle tree, the root of which is referenced
+       by the block header. A Merkle tree is a binary tree in which each parent node contains the
+       cryptographic hash of its child nodes, and each leaf node contains the cryptographic hash of its
+       single data node. In the MONS blockchain, each data node stores the details of one transaction.
+
+                               Figure 4: An example of a Merkle tree
+
+
+                                                Root
+                                              SHA(A,B)
+
+
+
+
+                       A                                                     B
+                   SHA(C,D)                                              SHA(E,F)
+
+
+
+
+           C                         D                         E                          F
+       SHA(G,H)                  SHA(I,J)                  SHA(K,L)                   SHA(M,N)
+
+
+
+
+    G         H         I         J         K         L         M         N
+SHA(data) SHA(data) SHA(data) SHA(data) SHA(data) SHA(data) SHA(data) SHA(data)
+
+
+
+
+Transaction Transaction Transaction Transaction Transaction Transaction Transaction Transaction
+   data        data        data        data        data        data        data        data
+
+
+
+
+                                                                                              Turn over
+                                                  –6–
+
+      The use of cryptography in the MONS project
+
+ 75    Dolores was keen to emphasize the role of cryptographic algorithms in the proposed MONS project.
+      “Cryptography will be used throughout the system, particularly hashing algorithms such as SHA256,”
+       she explained. “The essential characteristics of good hashing algorithms are determinism, non-
+       invertibility and collision resistance.”
+
+                           Table 1: Some examples of SHA256 input and output
+
+                            Input                                                      Output
+       "a"                                                8​7​4​2​8​f​c​5​2​2​8​0​3​d​3​1​0​6​5​e​7​b​c​e​3​c​f​0​3​f​e​4​7​5​0​
+                                                          9​6​6​3​1​e​5​e​0​7​b​b​d​7​a​0​f​d​e​6​0​c​4​c​f​2​5​c​7
+       "The quick brown fox jumps over the                c​0​3​9​0​5​f​c​d​a​b​2​9​7​5​1​3​a​6​2​0​e​c​8​1​e​d​4​6​c​a​4​4​d​d​
+       lazy dog"                                          b​6​2​d​4​1​c​b​b​d​8​3​e​b​4​a​5​a​3​5​9​2​b​e​2​6​a​6​9
+       "The quick brown fox jumps over the                b​4​7​c​c​0​f​1​0​4​b​6​2​d​4​c​7​c​3​0​b​c​d​6​8​f​d​8​e​6​7​6​1​3​e​
+       lazy dog."                                         2​8​7​d​c​4​a​d​8​c​3​1​0​e​f​1​0​c​b​a​d​e​a​9​c​4​3​8​0
+       [The IB Computer Science Guide PDF]                3​
+                                                           7​0​e​5​6​5​5​f​f​
+                                                                           2​e​4​e​6​3​e​3​0​7​e​0​9​e​5​6​0​6​3​9​
+                                                                                                                  c​7​
+                                                                                                                     2​a​
+                                                                                                                        b​b​
+                                                          b​8​b​5​0​6​6​6​1​6​a​7​2​a​1​3​0​e​2​e​b​0​2​4​0​b​8​a
+
+
+      Dolores went on to identify the following four key areas of the project in which cryptographic
+ 80   algorithms will play a central role.
+
+      The digital signature
+      The digital signature relies on asymmetric key cryptography and hashing to guarantee three
+      crucial criteria. These criteria are:
+      • Authentication
+ 85   • Non-repudiation
+      • Integrity
+
+      Digital signatures are used to validate MONS transactions before they are added to the
+      transaction pool. There are three steps in the validation process:
+      • Key generation
+ 90   • Creation of a signature
+      • Verification of a signature
+
+      “Key generation software, such as PuTTYgen, often uses a physical source of entropy to
+       generate key pairs,” she stated.
+
+      The proof of work
+ 95   In addition, the proof of work will require miners to find a hash with a particular characteristic,
+      which we can decide. Some existing cryptocurrencies specify that the hash has to begin with
+      a certain number of zeroes, for instance.
+
+      The blockchain
+      The blockchain uses hashing to ensure that transactions in the ledger, while accessible to every
+100   user of the network, cannot be altered.
+                                                    –7–
+
+        The Merkle tree
+        The Merkle tree is also known as a hash tree. It allows the existence of a transaction in a block
+        to be determined much more efficiently than if the transactions were just held in a list.
+
+        Promoting MONS to the citizens of Santa Monica
+
+ 105    Dolores has convinced Pablo about the benefits of adopting MONS as a local cryptocurrency,
+        but he is concerned that the citizens of Santa Monica may be reluctant to switch from the peso
+        to MONS.
+
+        He points out one difference between a traditional currency and MONS that will need to be
+        explained carefully: “In a traditional banking system, users trust the banks to keep everyone’s
+  110   money safe; but with MONS, the whole blockchain, right from the very first transaction, would be
+        visible to all MONS users, so it is important to be able to explain to citizens how their money is
+        guaranteed to be safe.”
+
+        Dolores replies that “a user’s MONS balance is not stored, but it is calculated in real time by
+        checking all the previous transactions. So, as long as all the previous transactions are still accurate,
+  115   their current balance will also be accurate. The blockchain relies on a distributed consensus across
+        all the nodes of the network, so in a sufficiently large network it is difficult to stage a 51 % attack.”
+
+        Pablo is also wondering about some of the potential consequences for the residents of the
+        lack of a central authority managing MONS, as well as other potential disadvantages of a
+        cryptocurrency.
+
+ 120    Challenges faced
+
+        There are a number of challenges that are linked to the introduction of MONS. These include:
+        • understanding how new blocks are added to the ledger and how the proof of work prevents
+          malicious nodes from taking over the MONS network
+        • understanding how the MONS architecture is scalable and can remain efficient as the
+ 125      number of users increases
+        • understanding the use of cryptographic techniques in the MONS project
+        • explaining to the Santa Monica citizens how their MONS balance is calculated from
+          transaction data securely stored in a publicly accessible blockchain ledger
+        • investigating how the distributed nature of a blockchain cryptocurrency and the confirmation
+ 130      process may have disadvantages for the citizens of Santa Monica.
+
+
+Candidates are not required to know the details of how any particular hashing algorithm is
+implemented.
+
+Discussion of the economic arguments for or against local currencies and cryptocurrencies is
+beyond the scope of this case study.
+
+
+
+
+                                                                                                     Turn over
+                                             –8–
+
+Additional terminology to the guide
+
+51 % attack
+Block
+Blockchain
+Block header
+Candidate block
+Collision resistance
+Cryptocurrency
+Cryptographic hash
+Determinism
+Digital signature
+Distributed consensus
+Double-spend problem
+Entropy
+Genesis block
+Immutable transactions
+Key pair generation
+Ledger
+Merkle proof
+Merkle tree
+Miner
+Mining
+Nonce
+Non-invertibility
+Non-repudiation
+One-way function
+Proof of work
+PuTTYgen
+Self-referential data structure
+SHA256
+Takeover attack
+Transaction pool
+
+
+Some companies, products, or individuals named in this case study are fictitious and any
+similarities with actual entities are purely coincidental.
+
+
+
+
+
+

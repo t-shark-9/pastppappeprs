@@ -1,0 +1,703 @@
+N13/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+
+
+                   MARKSCHEME
+
+
+                      November 2013
+
+
+
+                MATHEMATICS
+            DISCRETE MATHEMATICS
+
+
+
+                        Higher Level
+
+
+
+                               Paper 3
+
+
+
+
+15 pages
+                              –2–           N13/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+
+
+This markscheme is confidential and for the exclusive use of
+examiners in this examination session.
+
+It is the property of the International Baccalaureate and must not
+be reproduced or distributed to any other person without the
+authorization of the IB Assessment Centre.
+                                                     –3–              N13/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+                                         Instructions to Examiners
+
+Abbreviations
+
+M     Marks awarded for attempting to use a correct Method; working must be seen.
+
+(M)   Marks awarded for Method; may be implied by correct subsequent working.
+
+A     Marks awarded for an Answer or for Accuracy; often dependent on preceding M marks.
+
+(A)   Marks awarded for an Answer or for Accuracy; may be implied by correct subsequent working.
+
+R     Marks awarded for clear Reasoning.
+
+N     Marks awarded for correct answers if no working shown.
+
+AG    Answer given in the question and so no marks are awarded.
+
+
+Using the markscheme
+
+1     General
+
+      Mark according to Scoris instructions and the document “Mathematics HL: Guidance for e-marking
+      November 2013”. It is essential that you read this document before you start marking. In particular, please
+      note the following.
+
+      Marks must be recorded using the annotation stamps. Please check that you are entering marks for the right
+      question.
+
+      • If a part is completely correct, (and gains all the “must be seen” marks), use the ticks with numbers to
+      stamp full marks.
+      • If a part is completely wrong, stamp A0 by the final answer.
+      • If a part gains anything else, it must be recorded using all the annotations.
+
+      All the marks will be added and recorded by Scoris.
+
+
+2     Method and Answer/Accuracy marks
+
+      • Do not automatically award full marks for a correct answer; all working must be checked, and marks
+        awarded according to the markscheme.
+      • It is not possible to award M0 followed by A1, as A mark(s) depend on the preceding M mark(s), if any.
+      • Where M and A marks are noted on the same line, for example, M1A1, this usually means M1 for an
+        attempt to use an appropriate method (for example, substitution into a formula) and A1 for using the
+        correct values.
+      • Where the markscheme specifies (M2), N3, etc, do not split the marks.
+      • Once a correct answer to a question or part-question is seen, ignore further working.
+                                                    –4–              N13/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+3   N marks
+
+    Award N marks for correct answers where there is no working.
+
+    • Do not award a mixture of N and other marks.
+    • There may be fewer N marks available than the total of M, A and R marks; this is deliberate as it
+      penalizes candidates for not following the instruction to show their working.
+
+
+4   Implied marks
+
+    Implied marks appear in brackets, for example, (M1), and can only be awarded if correct work is seen or if
+    implied in subsequent working.
+
+    • Normally the correct work is seen or implied in the next line.
+    • Marks without brackets can only be awarded for work that is seen.
+
+
+5   Follow through marks
+
+    Follow through (FT) marks are awarded where an incorrect answer from one part of a question is used
+    correctly in subsequent part(s). To award FT marks, there must be working present and not just a final
+    answer based on an incorrect answer to a previous part.
+
+    • If the question becomes much simpler because of an error then use discretion to award fewer FT marks.
+    • If the error leads to an inappropriate value (for example, sin θ = 1.5 ), do not award the mark(s) for the
+      final answer(s).
+    • Within a question part, once an error is made, no further dependent A marks can be awarded,
+      but M marks may be awarded if appropriate.
+    • Exceptions to this rule will be explicitly noted on the markscheme.
+
+
+6   Mis-read
+
+    If a candidate incorrectly copies information from the question, this is a mis-read (MR). A candidate should
+    be penalized only once for a particular mis-read. Use the MR stamp to indicate that this has been a
+    mis-read.    Then deduct the first of the marks to be awarded, even if this is an M mark,
+    but award all others so that the candidate only loses one mark.
+
+    • If the question becomes much simpler because of the MR, then use discretion to award fewer marks.
+    • If the MR leads to an inappropriate value (for example, sin θ = 1.5 ), do not award the mark(s) for the
+      final answer(s).
+
+
+7   Discretionary marks (d)
+
+    An examiner uses discretion to award a mark on the rare occasions when the markscheme does not cover the
+    work seen. In such cases the annotation DM should be used and a brief note written next to the mark
+    explaining this decision.
+                                                        –5–                 N13/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+8    Alternative methods
+
+     Candidates will sometimes use methods other than those in the markscheme. Unless the question specifies
+     a method, other correct methods should be marked in line with the markscheme. If in doubt, contact your
+     team leader for advice.
+
+     • Alternative methods for complete questions are indicated by METHOD 1, METHOD 2, etc.
+     • Alternative solutions for part-questions are indicated by EITHER . . . OR.
+     • Where possible, alignment will also be used to assist examiners in identifying where these alternatives
+       start and finish.
+
+
+9    Alternative forms
+
+     Unless the question specifies otherwise, accept equivalent forms.
+
+     • As this is an international examination, accept all alternative forms of notation.
+     • In the markscheme, equivalent numerical and algebraic forms will generally be written in brackets
+       immediately following the answer.
+     • In the markscheme, simplified answers, (which candidates often do not write in examinations),
+       will generally appear in brackets. Marks should be awarded for either the form preceding the bracket or
+       the form in brackets (if it is seen).
+        Example: for differentiating=
+                                    f ( x ) 2sin (5 x − 3) , the markscheme gives:
+
+               f ′ ( x)
+               =          ( 2 cos (5 x −=
+                                        3) ) 5 ( 10 cos (5 x − 3) )                           A1
+
+                 Award A1 for ( 2 cos (5 x − 3) ) 5 , even if 10 cos (5 x − 3) is not seen.
+
+
+10   Accuracy of Answers
+
+     Candidates should NO LONGER be penalized for an accuracy error (AP).
+
+     If the level of accuracy is specified in the question, a mark will be allocated for giving the answer to the
+     required accuracy. When this is not specified in the question, all numerical answers should be given exactly
+     or correct to three significant figures. Please check work carefully for FT.
+
+
+11   Crossed out work
+
+     If a candidate has drawn a line through work on their examination script, or in some other way crossed out
+     their work, do not award any marks for that work.
+                                                     –6–               N13/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+12   Calculators
+
+     A GDC is required for paper 3, but calculators with symbolic manipulation features (for example, TI-89)
+     are not allowed.
+
+     Calculator notation
+     The Mathematics HL guide says:
+                    Students must always use correct mathematical notation, not calculator notation.
+     Do not accept final answers written using calculator notation. However, do not penalize the use of calculator
+     notation in the working.
+
+
+13   More than one solution
+
+     Where a candidate offers two or more different answers to the same question, an examiner should only mark
+     the first response unless the candidate indicates otherwise.
+                                                              –7–       N13/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+1.   (a)   use Kruskal’s algorithm: begin by choosing the shortest edge and then select
+           a sequence of edges of non-decreasing weights, checking at each stage that no
+           cycle is completed                                                            (M1)
+
+             choice       edge       weight
+               1           BG          1                                                 A1
+               2           AG          2
+               3           FG          3
+               4           BC          4
+               5           DE          5
+               6           AH          6
+               7           EG          7
+                                                                                         A3
+
+      Note: A1 for steps 2–4, A1 for step 5 and A1 for steps 6, 7.
+            Award marks only if it is clear that Kruskal’s algorithm is being used.
+
+                                                                                              [5 marks]
+
+     (b)   weight =1 + 2 + 3 + 4 + 5 + 6 + 7 = 28                                        A1
+                                          B           4         C
+
+
+                                              1
+                 A               2                                           D
+
+                                                  G
+                                                                    7
+                                                                             5
+                      6                           3
+                                                                         E
+
+
+                             H
+
+                                                          F
+                                                                                         A1
+
+      Note: Award FT only if it is a spanning tree.
+
+                                                                                              [2 marks]
+
+                                                                                        Total [7 marks]
+                                                            –8–               N13/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+2.   (a)   (i)
+                                                                                          6
+                    11        10           9                      8       7
+                                                     1
+
+                                                                  2       3       4       5
+                   12          13
+                                                                                                        (M1)A1
+
+            Note: Do not penalize candidates who include the entrance foyer.
+
+           (ii)   the degrees of the vertices are 4, 2, 4, 4, 2, 2, 4, 2, 2, 2, 2, 2, 2                 A1
+
+           (iii) the degree of all vertices is even and hence a Eulerian circuit exists,   A1
+                 hence it is possible to enter the museum through the foyer and visit each
+                 room 1–13 going through each internal doorway exactly once                AG
+
+            Note: The connected graph condition is not required.
+
+                                                                                                             [4 marks]
+
+     (b)   (i)
+                                   G                                          H
+                                                    total
+
+
+
+
+                                                                                              total
+                         A   B     C   D   E F                        P   Q   R   S   T U
+                     A   0   2     0   2   0 0       4        P       0   1   3   0   1 2      7
+                     B   2   0     1   1   0 1       5        Q       1   0   1   3   2 0      7
+                     C   0   1     0   1   2 1       5        R       3   1   0   2   1 3     10
+                     D   2   1     1   0   2 0       6        S       0   3   2   0   2 0      7
+                     E   0   0     2   2   0 2       6        T       1   2   1   2   0 1      7
+                     F   0   1     1   0   2 0       4        U       2   0   3   0   1 0      6
+                                           total    30                                total   44
+                                                                                                        (M1)
+                  graph G has 15 edges and graph H has 22 edges                                         A1A1
+
+           (ii)   the degree of every vertex is equal to the sum of the numbers in the
+                  corresponding row (or column) of the adjacency table
+                  exactly two of the vertices of G have an odd degree (B and C)        A1
+                  H has four vertices with odd degree                                  A1
+                  G is the graph that has a Eulerian trail (and H does not)            R1
+
+           (iii) neither graph has all vertices of even degree                                          R1
+                 therefore neither of them has a Eulerian circuit                                       AG
+                                                                                                             [7 marks]
+
+                                                                                                      Total [11 marks]
+                                                        –9–                N13/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+3.   (a)     10 ≡ 1(mod 9) ⇒ 10i ≡ 1(mod 9), i =1, …, n                                       M1A1
+             ⇒ 10i ai ≡ ai (mod 9), i =
+                                      1, …, n                                                 M1
+
+     Note: Allow i = 0 but do not penalize its omission.
+
+             ⇒ (10n an + 10n−1 an−1 +…+ a0 ) ≡ (an + an−1 + ..... + a0 ) (mod 9)              AG
+                                                                                                   [3 marks]
+
+     (b)      4 + 7 + 6 + x + 2 + 1 + 2 +=
+                                         y 9k , k ∈                                          (M1)
+             ⇒ (22 + x + y ) ≡ 0(mod 9), ⇒ ( x + y ) ≡ 5(mod 9)
+             ⇒ x+ y =     5 or 14                                                             A1
+             if 5 divides a , then y = 0 or 5                                                 M1
+             so y = 0 ⇒ x = 5 , ( ie ( x , y ) = (5, 0) )                                     A1
+             y = 5 ⇒ x = 0 or x = 9 , ( ie ( x , y ) (0,
+                                                      =  5) or ( x , y ) (9, 5) )             A1A1
+                                                                                                   [6 marks]
+
+     (c)     (i)
+                        34390      1
+                         3821      5
+                          424      1
+                           47      2
+                            5
+                                                                                              (M1)A1
+                    b = (52151)9                                                              AG
+
+             (ii)
+
+                                                                5     2      1      5   1
+                                                         ×      5     2      1      5   1
+                                                                5     2      1      5   1
+                                                  2      8      1     7      7      5
+                                                  5      2      1     5      1
+                                       1    1     4      3      1     2
+                              2        8    1     7      7      5
+                              3        0    4     2      3      5     8      1      1   1
+                                                                                              M1A3
+
+                                                                                                   [6 marks]
+
+           Note: M1 for attempt, A1 for two correct lines of multiplication, A2 for
+                 two correct lines of multiplication and a correct addition, A3 for all
+                 correct.
+
+                                                                                            Total [15 marks]
+                                                      – 10 –         N13/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+4.   (a)   eg the cycle A → B → C → D → E → A is Hamiltonian                                A1
+           starting from any vertex there are four choices
+           from the next vertex there are three choices, etc …                              R1
+           so the number of Hamiltonian cycles is 4!(= 24)                                  A1
+
+       Note: Allow 12 distinct cycles (direction not considered) or 60 (if different
+             starting points count as distinct). In any case, just award the second A1 if
+             R1 is awarded.
+
+                                                                                                 [3 marks]
+
+     (b)   total weight of any Hamiltonian cycles stated
+           eg A → B → C → D → E → A has weight 5 + 6 + 7 + 8 + 9 =35                        A1
+                                                                                                 [1 mark]
+
+     (c)   consider the graph obtained from G after removing the vertex C
+                                              A
+
+
+
+                                    9                     5
+                                         4
+
+
+                                                  5
+                            E                                   B
+
+
+                                                      8
+                                8
+
+
+                                    D
+           start (for instance) at A, using Prim’s algorithm                                M1
+           then D is the nearest vertex (add AD to the tree)                                A1
+           next B is the nearest vertex (add AB to the tree)                                A1
+           finally E is the nearest vertex (add BE to the tree)                             A1
+           so a minimum spanning tree (of weight 4 + 5 + 5 =    14 ) is
+                                              A
+
+
+
+                                                          5
+                                         4
+
+
+                                                  5
+                            E                                   B
+
+
+
+
+                                    D
+                                                                                            A1
+                                                                                                 [5 marks]
+
+
+                                                                                             continued …
+                                                       – 11 –               N13/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+Question 4 continued
+
+     (d)   a lower bound for the travelling salesman problem is then obtained by adding
+           the weights of CA and CB to the weight of the minimum spanning tree          (M1)
+                                               A
+
+
+
+                                                          5
+                                       4           6
+
+                                               5                        B
+                           E
+
+
+                                                                    6
+
+
+
+                                 D                              C
+
+           a lower bound is then 14 + 6 + 6 =26                                              A1
+                                                                                                  [2 marks]
+
+     (e)   METHOD 1
+           eg eliminating A from G, a minimum spanning tree of weight 18 is                  (M1)
+                                               5                        B
+                           E
+
+
+                                                                    6
+
+
+
+                                 D             7                C
+
+                                                                                             A1
+           adding AD and AB to the spanning tree gives a lower bound of
+           18 + 4 + 5 = 27 > 26                                         A1
+                                               A
+
+
+
+                                                          5
+                                       4
+
+                                               5                        B
+                           E
+
+
+                                                                    6
+
+
+
+                                 D             7                C
+
+           so 26 is not the best lower bound                                                 AG
+
+      Note: Candidates may delete other vertices and the lower bounds obtained are
+            B-28, D-27 and E-28.
+
+
+                                                                                             continued …
+                                                  – 12 –           N13/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+Question 4 continued
+
+           METHOD 2
+           there are 12 distinct cycles (ignoring direction) with the following lengths
+
+           Cycle             Length
+           ABCDEA            35                                                             M1
+           ABCEDA            33
+           ABDCEA            39
+           ABDECA            37
+           ABECDA            31
+           ABEDCA            31
+           ACBDEA            37
+           ACBEDA            29
+           ACDBEA            35
+           ACEBDA            33
+           AEBCDA            31
+           AECBDA            37                                                             A1
+
+           as the optimal solution has length 29                                            A1
+           26 is not the best possible lower bound                                          AG
+
+      Note: Allow answers where candidates list the 24 cycles obtained by allowing
+            both directions.
+
+                                                                                                 [3 marks]
+
+                                                                                          Total [14 marks]
+                                                               – 13 –             N13/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+5.   (a)   METHOD 1
+           n5 − n= n (n − 1) (n + 1) (n 2 + 1) ≡ 0(mod 6)                                          M1
+                           
+                     3 consecutive integers
+
+           at least a factor is multiple of 3 and at least a factor is multiple of 2               R1
+            n5 − =
+                 n n (n 4 − 1) ≡ 0(mod 5) as n 4 ≡ 1(mod 5) by FLT                                 R1
+           therefore, as (5, 6) = 1 ,                                                              R1
+                                
+            n5 − n ≡ 0  mod 5
+                              ×6                                                                  A1
+                             30 
+
+           ie 30 is a factor of n5 − n                                                             AG
+
+           METHOD 2
+           let P ( n ) be the proposition: n5 − n =    30α for some α ∈ 
+           0 − 0 = 30 × 0 , so P (0) is true
+             5
+                                                                                                   A1
+           assume P ( k ) is true for some k and consider P (k + 1)
+           (k + 1)5 − (k + 1) = k 5 + 5k 4 + 10k 3 + 10k 2 + 5k + 1 − k − 1                        M1
+                                                                                     
+                               = (k 5 − k ) + 5k  k
+                                                     3
+                                                       + 3k
+                                                             2
+                                                                     + 1 − (k 2 + k ) 
+                                                                + 3k 
+                                                                                     
+                                                         ( k +1)3                    
+                                = (k − k ) + 5k ( (k + 1) − k (k + 1) )
+                                    5                     3
+
+
+                                                   2               
+                              = 30α + 5 k (k + 1)  k   +   k  +
+                                                                 
+                                                                  1                                M1
+                                                        
+                                             k ( k +1) +1 
+                                                                  
+                                                    multiple of 6
+
+                        = 30α + 30 β                                                           A1
+           as P (0) is true and P( k ) true implies P ( k + 1) true, by PMI P( n ) is true for
+           all values n ∈                                                                     R1
+
+     Note: Award the first M1 only if the correct induction procedure is followed
+           and the correct first line is seen.
+
+
+     Note: Award R1 only if both M marks have been awarded.
+
+           METHOD 3
+            n5 − =
+                 n n (n 4 − 1)                                                                     M1
+                  = n (n 2 − 1) (n 2 + 1)                                                          A1
+                  = (n − 1) n (n + 1) (n 2 − 4 + 5)                                                R1
+                  =−(n 2) (n − 1) n (n + 1) (n + 2) + 5(n − 1) n (n + 1)                           A1
+           each term is multiple of 2, 3 and 5                                                     R1
+           therefore is divisible by 30                                                            AG
+                                                                                                   [5 marks]
+
+
+                                                                                                   continued …
+                                                                 – 14 –           N13/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+Question 5 continued
+
+     (b)   (i)      METHOD 1
+
+                 case 1: m = 0 and 33 ≡ 3mod 4 is true
+                                                     0
+                                                                                                   A1
+                 case 2: m > 0
+                     = 3m ≥ 3 and consider the binomial expansion
+                 let N                                                                             M1
+                                   N
+                                     N               N
+                                                         N
+                 3N = (1 + 2) N = ∑  2k = 1 + 2 N + ∑  2k ≡ 1 + 2 N (mod 4)                    A1
+                 =                   k
+                                  k 0=                k 2 k 
+                                                          
+                                                                      ≡0(mod 4)
+
+                    as 3 ≡ (−1) (mod 4) ⇒ 1 + 2 N ≡ 1 + 2(−1) m (mod 4)
+                          m          m
+                                                                                                   R1
+                          N
+
+                                                         3  ≡ 1
+                                                                 + 2 (mod 4) for m even
+                                                                          m
+                                                            3
+
+                                                         
+                                                          3N    3
+                    therefore 3 ≡ 1 + 2( −1) (mod 4) ⇒  m
+                                3m           m
+                                                                                                   R1
+                                                         3 ≡ 1  − 2 (mod 4) for m odd
+                                                            3
+                               3N
+                                                         3N −1≡3(mod 4)
+                    which proves that 33 ≡ 3(mod 4) for any m ∈ 
+                                                     m
+                                                                                                   AG
+
+                    METHOD 2
+
+                    let P (n) be the proposition: 33 − 3 ≡ 0(mod 4, or 24)
+                                                             n
+
+
+
+
+                    33 − 3 = 3 − 3 ≡ 0(mod 4 or 24) , so P (0) is true
+                      0
+                                                                                                   A1
+                    assume P (k ) is true for some k                                               M1
+                    consider 33 −=  3 33 ×3 − 3
+                                   k+1                   k
+                                                                                                 M1
+                                       =+(3 24r ) − 3
+                                                   3
+
+
+                                       ≡ 27 + 24t − 3                                            R1
+                                       ≡ 0 (mod 4 or 24)
+                    as P (0) is true and P (k ) true implies P (k + 1) true, by PMI P (n) is true
+                    for all values n ∈                                                          R1
+
+                    METHOD 3
+
+                       − 3 3(33 −1 − 1)
+                    33 =
+                      m                  m
+                                                                                                   M1A1
+                      = 3(32 k − 1)                                                                R1
+                          = 3(9k − 1)
+                              = 3 ( (8 + 1) k − 1)                                                 R1
+                                  
+                                     multiple of 8
+
+                              ≡ 0(mod 24)                                                          A1
+                    which proves that 33 ≡ 3(mod 4) for any m ∈ 
+                                                     m
+                                                                                                   AG
+
+
+
+
+                                                                                                   continued …
+                                                       – 15 –        N13/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+Question 5 continued
+
+                  for m ∈  , 33 ≡ 3(mod 4) and, as 22 ≡ 0(mod 4) and 52 ≡ 1(mod 4) then
+                                m                          n
+           (ii)
+                  22 + 52 ≡ 1(mod 4) for n ∈  +
+                    n
+
+
+
+
+                  there is no solution to 3= 22 + 52 for pairs (m , n) ∈  ×  +
+                                           m       n
+                                           3
+                                                                                            R1
+                  when n = 0 , we have 33 = 22 + 52 ⇒ 33 = 27 ⇒ m = 1
+                                           m     0              m
+                                                                                            M1
+                  therefore (m , n) = (1, 0)                                                A1
+                  is the only pair of non-negative integers that satisfies the equation     AG
+                                                                                                 [8 marks]
+
+                                                                                          Total [13 marks]
+

@@ -1,0 +1,196 @@
+No part of this product may be reproduced in any form or by any electronic
+or mechanical means, including information storage and retrieval systems,
+without written permission from the IB.
+
+Additionally, the license tied with this product prohibits commercial use of
+any selected files or extracts from this product. Use by third parties,
+including but not limited to publishers, private teachers, tutoring or study
+services, preparatory schools, vendors operating curriculum mapping
+services or teacher resource digital platforms and app developers, is not
+permitted and is subject to the IB’s prior written consent via a license. More
+information on how to request a license can be obtained from http://
+www.ibo.org/contact-the-ib/media-inquiries/for-publishers/guidance-for-
+third-party-publishers-and-providers/how-to-apply-for-a-license.
+
+Aucune partie de ce produit ne peut être reproduite sous quelque forme ni
+par quelque moyen que ce soit, électronique ou mécanique, y compris des
+systèmes de stockage et de récupération d’informations, sans l’autorisation
+écrite de l’IB.
+
+De plus, la licence associée à ce produit interdit toute utilisation
+commerciale de tout fichier ou extrait sélectionné dans ce produit.
+L’utilisation par des tiers, y compris, sans toutefois s’y limiter, des éditeurs,
+des professeurs particuliers, des services de tutorat ou d’aide aux études,
+des établissements de préparation à l’enseignement supérieur, des
+fournisseurs de services de planification des programmes d’études, des
+gestionnaires de plateformes pédagogiques en ligne, et des développeurs
+d’applications, n’est pas autorisée et est soumise au consentement écrit
+préalable de l’IB par l’intermédiaire d’une licence. Pour plus d’informations
+sur la procédure à suivre pour demander une licence, rendez-vous à
+l’adresse http://www.ibo.org/fr/contact-the-ib/media-inquiries/for-publishers/
+guidance-for-third-party-publishers-and-providers/how-to-apply-for-a-
+license.
+
+No se podrá reproducir ninguna parte de este producto de ninguna forma ni
+por ningún medio electrónico o mecánico, incluidos los sistemas de
+almacenamiento y recuperación de información, sin que medie la
+autorización escrita del IB.
+
+Además, la licencia vinculada a este producto prohíbe el uso con fines
+comerciales de todo archivo o fragmento seleccionado de este producto. El
+uso por parte de terceros —lo que incluye, a título enunciativo, editoriales,
+profesores particulares, servicios de apoyo académico o ayuda para el
+estudio, colegios preparatorios, desarrolladores de aplicaciones y
+entidades que presten servicios de planificación curricular u ofrezcan
+recursos para docentes mediante plataformas digitales— no está permitido
+y estará sujeto al otorgamiento previo de una licencia escrita por parte del
+IB. En este enlace encontrará más información sobre cómo solicitar una
+licencia: http://www.ibo.org/es/contact-the-ib/media-inquiries/for-publishers/
+guidance-for-third-party-publishers-and-providers/how-to-apply-for-a-
+license.
+M19/5/MATHL/HP3/ENG/TZ0/DM
+
+
+
+
+Mathematics
+Higher level
+Paper 3 – discrete mathematics
+
+
+Wednesday 15 May 2019 (morning)
+
+
+1 hour
+
+
+Instructions to candidates
+yyDo not open this examination paper until instructed to do so.
+yyAnswer all the questions.
+yyUnless otherwise stated in the question, all numerical answers should be given exactly or
+  correct to three significant figures.
+yyA graphic display calculator is required for this paper.
+yyA clean copy of the mathematics HL and further mathematics HL formula booklet is
+  required for this paper.
+yyThe maximum mark for this examination paper is [50 marks].
+
+
+
+
+                                                                                              2219 – 7207
+     4 pages                                              © International Baccalaureate Organization 2019
+                                                        –2–                       M19/5/MATHL/HP3/ENG/TZ0/DM
+
+Please start each question on a new page. Full marks are not necessarily awarded for a correct answer
+with no working. Answers must be supported by working and/or explanations. In particular, solutions
+found from a graphic display calculator should be supported by suitable working. For example, if
+graphs are used to find a solution, you should sketch these as part of your answer. Where an answer is
+incorrect, some marks may be given for a correct method, provided this is shown by written working.
+You are therefore advised to show all working.
+
+1.   [Maximum mark: 14]
+
+     In a housing complex a TV company is installing cables to five houses A, B, C, D and E.
+     The possible routes for the cables are given by the following graph G where each vertex
+     represents a house and each edge represents a possible route for the cables. The weights of
+     the edges represent the cost, in thousands of dollars, of installing the cables between the houses.
+
+                                                                B
+                                                    7
+                                          A         9                    4
+                                               5
+                                                                    12           C
+                                         13
+                                                8
+                                                                             11
+                                                        6
+
+                                         E
+                                                            9
+                                                                             D
+
+     The company wants to find the lowest installation cost that includes each house and returns
+     to the start.
+
+     (a)   Starting at A, use the nearest-neighbour algorithm to find an upper bound for the
+           lowest installation cost.                                                                     [3]
+
+     (b)   By removing A, use the deleted vertex algorithm to find a lower bound for the lowest
+           installation cost.                                                                            [5]
+
+     (c)   (i)    State a route which produces the lower bound.
+
+           (ii)   State why this is a solution to finding the lowest installation cost.                  [2]
+
+
+
+(This question continues on the following page)
+                                                    –3–                  M19/5/MATHL/HP3/ENG/TZ0/DM
+
+(Question 1 continued)
+
+     In a second housing complex the design for installing cables between five houses P, Q, R, S
+     and T is given in the following adjacency table.
+
+                              P              Q                R               S                T
+            P                 –              1                0               0                1
+            Q                 1              –                1               1                0
+            R                 0              1                –               0                1
+            S                 0              1                0               –                1
+            T                 1              0                1               1                –
+
+     In the adjacency table 0 denotes no cable connecting the two houses and 1 denotes a cable
+     connecting the two houses.
+
+     (d)   Draw a graph H to represent the second housing complex.                                      [2]
+
+     (e)   Explain why the graph H is bipartite.                                                        [2]
+
+
+2.   [Maximum mark: 16]
+
+     (a)   Use the Euclidean algorithm to find gcd (564 , 254) .                                        [5]
+
+     (b)   Find a general solution to the linear Diophantine equation 564x + 254y = 94 .                [8]
+
+     (c)   Find the two solutions such that x , y ∈ [–300 , 300] .[3]
+
+
+3.   [Maximum mark: 12]
+
+     On the 1st March in a country there are 5000 environmentally contaminated sites requiring
+     clean-up. By the 1st April 80 % of these 5000 contaminated sites are cleaned up but 200 new
+     sites requiring clean-up are identified. This situation is assumed to recur every month. Jim
+     sets up a first-degree recurrence relation that represents this information.
+
+     (a)   (i)    State Jim’s first-degree recurrence relation for the number of sites, un , requiring
+                  clean-up after n months in the form un = Aun-1 + B , where A and B are non-zero
+                  constants.
+
+           (ii)   State the value of u0 .                                                               [2]
+
+     (b)   Solve Jim’s first-degree recurrence relation.                                                [5]
+
+     Jim now sets up a second-degree recurrence relation that gives information regarding
+     environmental clean-up in a different country.
+     The second model is dn = 0.6dn-1 - 0.09dn-2 with initial conditions d0 = d1 = 4000 .
+
+     (c)   Solve Jim’s second-degree recurrence relation.                                               [5]
+
+
+
+
+                                                                                                   Turn over
+                                                   –4–          M19/5/MATHL/HP3/ENG/TZ0/DM
+
+4.   [Maximum mark: 8]
+
+     (a)   Using Fermat’s little theorem, show that the congruence x22 + x11 ≡ 2 (mod 11) can be
+           expressed in the form (x + 6)2 - 36 ≡ 2 (mod 11) .[4]
+
+     (b)   Hence solve x22 + x11 ≡ 2 (mod 11) .                                             [4]
+
+
+
+
+

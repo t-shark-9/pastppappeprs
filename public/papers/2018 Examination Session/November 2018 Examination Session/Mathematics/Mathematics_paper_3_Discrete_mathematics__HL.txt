@@ -1,0 +1,137 @@
+N18/5/MATHL/HP3/ENG/TZ0/DM
+
+
+
+
+Mathematics
+Higher level
+Paper 3 – discrete mathematics
+
+
+Thursday 15 November 2018 (afternoon)
+
+
+1 hour
+
+
+Instructions to candidates
+yyDo not open this examination paper until instructed to do so.
+yyAnswer all the questions.
+yyUnless otherwise stated in the question, all numerical answers should be given exactly or
+  correct to three significant figures.
+yyA graphic display calculator is required for this paper.
+yyA clean copy of the mathematics HL and further mathematics HL formula booklet is
+  required for this paper.
+yyThe maximum mark for this examination paper is [50 marks].
+
+
+
+
+                                                                                              8818 – 7207
+     4 pages                                              © International Baccalaureate Organization 2018
+                                                    –2–                   N18/5/MATHL/HP3/ENG/TZ0/DM
+
+Please start each question on a new page. Full marks are not necessarily awarded for a correct answer
+with no working. Answers must be supported by working and/or explanations. In particular, solutions
+found from a graphic display calculator should be supported by suitable working. For example, if
+graphs are used to find a solution, you should sketch these as part of your answer. Where an answer
+is incorrect, some marks may be given for a correct method, provided this is shown by written working.
+You are therefore advised to show all working.
+
+1.   [Maximum mark: 8]
+
+     (a)   Use the Euclidean algorithm to find the greatest common divisor of 77 and 105.[3]
+
+     (b)   Hence state a condition on c for the Diophantine equation 77x + 105y = c to have
+           a solution.                                                                                   [1]
+
+     (c)   Find all the solutions of the Diophantine equation 11x + 15y = 1 .                            [4]
+
+
+2.   [Maximum mark: 12]
+
+     Let N = (dn dn-1 … d1d0)5 = dn × 5n + dn-1 × 5n-1 + … + d1 × 5 + d0 be the representation of a
+     positive integer N in base 5.
+
+     Let a = (143)5 and b = (24)5 .
+
+     (a)   Expressing your answers in base 5, calculate
+
+           (i)    (a + b)5 ;
+
+           (ii)   (ab)5 .[5]
+
+     (b)   Show that (dn dn-1 … d1d0)5 is exactly divisible by 4 if and only if dn + dn-1 + … + d1 + d0
+           is exactly divisible by 4.                                                                    [5]
+
+     (c)   Show that (x12x)5 cannot be exactly divisible by 4.                                           [2]
+                                                     –3–                   N18/5/MATHL/HP3/ENG/TZ0/DM
+
+3.   [Maximum mark: 13]
+
+     A contagious virus affects the population of a small town with 5000 inhabitants.
+     Let In denote the total number of people who have been infected by the end of the nth week.
+     In the first week there were 10 cases of infection and by the end of the second week there
+     was a total of 22 cases. A proposed model is that the number of cases is increasing in such
+     a way that the number of new cases in any week is 1.2 times the number of new cases in the
+     previous week.
+
+     (a)   Show that In satisfies the recurrence relation In+2 - 2.2In+1 + 1.2In = 0 .            [2]
+
+     (b)   State appropriate initial conditions.                                                  [1]
+
+     (c)   Solve the recurrence relation to obtain an expression for In in terms of n .[6]
+
+     (d)   Hence find during which week the whole town will become infected.                      [2]
+
+     (e)   State two limitations of the model.                                                    [2]
+
+
+
+
+                                                                                             Turn over
+                                                      –4–               N18/5/MATHL/HP3/ENG/TZ0/DM
+
+4.   [Maximum mark: 17]
+
+     Consider the graph G represented in the following diagram.
+
+                                                        A
+                                             6                  6
+                                   F                                      B
+                                                            7
+
+                                             8                      5
+                                                            I
+                                       7                                 10
+
+                                            11                      6
+                                                            9
+                                                            H
+                                   E                                      C
+                                                 10             8
+                                                            5
+                                             11                     7
+
+                                                        D
+
+     (a)   State, with a reason, whether or not G has an Eulerian circuit.                             [1]
+
+     (b)   Use Kruskal’s algorithm to find a minimum spanning tree for G, stating its total weight.
+           Indicate clearly the order in which the edges are added.                                    [4]
+
+     The graph G is a plan of a holiday resort where each vertex represents a villa and the edges
+     represent the roads between villas. The weights of the edges are the times, in minutes,
+     Mr José, the security guard, takes to walk along each of the roads. Mr José is based at villa A.
+
+     (c)   Use a suitable algorithm to show that the minimum time in which Mr José can get from
+           A to E is 13 minutes.                                                                       [5]
+
+     (d)   Find the minimum time it takes Mr José to patrol the resort if he has to walk along
+           every road at least once, starting and ending at A. State clearly which roads need to
+           be repeated.                                                                                [7]
+
+
+
+
+

@@ -1,0 +1,207 @@
+N10/5/COMSC/SP2/ENG/TZ0/XX
+
+
+
+
+       88107014
+
+
+Computer science
+Standard level
+Paper 2
+
+Wednesday 17 November 2010 (morning)
+
+1 hour 30 minutes
+
+
+INSTRUCTIONS TO CANDIDATES
+
+• Do not open this examination paper until instructed to do so.
+• Answer all the questions.
+
+
+
+
+8810-7014                                                                                          5 pages
+                                                           © International Baccalaureate Organization 2010
+                                                 –2–                N10/5/COMSC/SP2/ENG/TZ0/XX
+
+Answer all the questions.
+
+1.    A program has been written to process student data in a school.   For each student,
+      the student’s name and date of birth are stored.  The following class  Student has
+      been designed to hold these details.
+
+      class Student
+      {
+        private String name;
+        private int yearOfBirth; // Year in which student was born
+        private int monthOfBirth; // 1–12 corresponds to Jan–Dec
+        private int dayOfBirth;   // 1–31 day in birth month
+
+            public Student()
+            {
+              // constructor
+            }
+
+            public String getName()
+            {
+              return name;
+            }
+
+            // other methods follow
+            // ...
+      }
+
+      (a)     With reference to the  Student class, describe the differences between
+              public and  private identifiers.                                                [4 marks]
+
+      (b)     Construct a method  getYearOfBirth() that returns the year in which a
+              student was born.                                                               [2 marks]
+
+
+
+
+                                                         (This question continues on the following page)
+
+
+
+
+8810-7014
+                                                    –3–                  N10/5/COMSC/SP2/ENG/TZ0/XX
+
+(Question 1 continued)
+
+      The  Student  object only stores the date of birth of the student, therefore the age of
+      the student must be calculated based upon the current date.
+
+      (c)   (i)    Assuming that the current date is 17 November 2010, calculate the age,
+                   in years, for each of the students in the following table.                     [2 marks]
+
+                        Student         Year of birth     Month of birth      Day of birth
+                       Student A           2000                08                 15
+                       Student B           2000                11                 16
+                       Student C           2000                11                 18
+
+
+
+            (ii)   Explain how it can be determined if a student’s birthday in the current year
+                   has passed.                                                                    [2 marks]
+
+            (iii) The  int variables  currentYear,  currentMonth and  currentDay
+                  hold the current year, month and day, respectively.  Using these variables,
+                  construct the method  getAge() that returns the age of a student, in years.     [5 marks]
+
+      (d)   The school’s student data is contained in a file.  The method  getNext() reads
+            from the file, returning a  Student object each time it is called.  When the end
+            of the file is reached,  getNext() returns a  Student object containing the
+            name “XXX”.
+
+            Construct a program fragment that will output a list of the names of all the
+            students whose age is 12.  You should use the method  getAge().                       [5 marks]
+
+
+
+
+8810-7014                                                                                         Turn over
+                                                     –4–                N10/5/COMSC/SP2/ENG/TZ0/XX
+
+2.    A program contains a  String array of student names and a  float array of student
+      grade averages.
+
+      There are  int numStudents elements in each array.
+
+      For example:
+
+                                  0         1          2         3        4         ...
+            studentNames        Mary      John       Paul      Luke     Trina
+
+                                   0         1         2         3         4        ...
+            gradeAverages         78        62        71        89        52
+
+
+      The program needs to sort the students into order based on their grade averages.
+
+      (a)     (i)    Outline the advantages of storing the student names and grade averages
+                     in arrays.                                                                 [2 marks]
+
+              (ii)   Construct the method  bestStudent(), started below, that returns the
+                     name of the student with the highest grade average.
+
+                     String bestStudent(String[] names, float[] averages, int numStudents)
+                     {
+                       // Insert code here
+                     }                                                                     [4 marks]
+
+      (b)     (i)    Explain why the  gradeAverages array should not be sorted into
+                     descending order without also making changes to the  studentNames array.   [2 marks]
+
+              (ii)   Construct the method  rankStudents(), started below, that uses
+                     a bubble sort to sort the two arrays into descending order based on the
+                     grade average.
+
+                     void rankStudents(String[] names, float[] averages, int numStudents)
+                     {
+                       // Insert code here
+                     }                                                                    [8 marks]
+
+      (c)     Explain how the difficulty of keeping the corresponding elements of the two
+              arrays aligned can be avoided by using  objects.                                  [4 marks]
+
+
+
+
+8810-7014
+                                                    –5–                   N10/5/COMSC/SP2/ENG/TZ0/XX
+
+3.    This question requires the use of the case study.
+
+      (a)   Terminal 5 has a number of areas that require access to be authorized.  
+            The management of the airport is considering introducing different methods of
+            security across the airport.
+
+            Smart cards,  magnetic strip cards and  bar codes can be used by airport staff as
+            a means of gaining access to any secure area within the airport.  The smart cards
+            do not contain biometric information.
+
+            (i)    Outline why the use of smart cards is an effective security measure.         [2 marks]
+
+            To enhance security the smart cards could be linked to biometric identification
+            systems.
+
+            (ii)   State two types of biometric identification systems.                         [2 marks]
+
+            (iii) Describe how biometric identification systems work.                           [4 marks]
+
+            (iv) Compare the different levels of security that could be applied to staff
+                 and passengers.                                                                [4 marks]
+
+      (b)   Operation of each of the airport computer systems is controlled by the
+            operating system.  Operating systems can be either single or multi-user and
+            are capable of allowing multi-tasking.
+
+            (i)    Define the term  operating system.                                           [1 mark]
+
+            (ii)   Define the term  multi-user.                                                 [1 mark]
+
+            (iii) Define the term  multi-tasking.                                               [1 mark]
+
+            (iv) Identify three reasons for multi-tasking in Air Traffic Control.               [3 marks]
+
+            (v)    Explain how a multi-user system is used in the check-in system.              [2 marks]
+
+      (c)   Outline the principle characteristics of the following modes of operation.
+
+            (i)    batch processing                                                             [2 marks]
+
+            (ii)   real-time processing                                                         [2 marks]
+
+            (iii) online processing                                                             [2 marks]
+
+      (d)   Computer systems at the modern airport are linked via a  network.  With reference
+            to the airport systems, outline the meaning of the terms  client and  server .      [4 marks]
+
+
+8810-7014
+

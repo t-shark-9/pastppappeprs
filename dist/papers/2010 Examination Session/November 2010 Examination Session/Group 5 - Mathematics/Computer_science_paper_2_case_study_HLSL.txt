@@ -1,0 +1,629 @@
+M&N10&11/5/COMSC/BP2/ENG/TZ0/XX/CS
+
+
+
+
+COMPUTER SCIENCE
+CASE STUDY: Computer systems in AIRPORTS
+
+
+For use in May 2010, November 2010, May 2011 and November 2011.
+
+
+
+
+INSTRUCTIONS TO CANDIDATES
+
+• Case study booklet required for higher level paper 2 and standard level paper 2 computer
+  science examinations.
+
+
+
+
+                                                                                               16 pages
+                                                        © International Baccalaureate Organization 2008
+                                                                             –2–        M&N10&11/5/COMSC/BP2/ENG/TZ0/XX/CS
+
+Contents
+
+Introduction.................................................................................................................................................3
+Networks.......................................................................................................................................................3
+    Integration...............................................................................................................................................3
+    Brief description of each system...........................................................................................................3
+	Network security....................................................................................................................................4
+Airport security...........................................................................................................................................5
+	Employees.................................................................................................................................................5
+	Passengers................................................................................................................................................6
+Check-in.........................................................................................................................................................7
+Air traffic control......................................................................................................................................8
+Baggage handling: Software design. ........................................................................................................9
+Reservation systems...................................................................................................................................10
+Passenger services. ....................................................................................................................................11
+	Displays...................................................................................................................................................11
+	Announcements......................................................................................................................................11
+	Wi-Fi........................................................................................................................................................12
+Is there an overdependence on computer systems?. ..............................................................................13
+Appendix I – Abbreviations used in the case study. ...............................................................................14
+Appendix II – Bibliography........................................................................................................................15
+                                                   –3–       M&N10&11/5/COMSC/BP2/ENG/TZ0/XX/CS
+
+Computer systems in airports
+
+Introduction
+Modern airports are now highly reliant on computerized systems that provide the facilities for safe and
+efficient access to air travel, as well as making the airport a pleasant environment for passengers.  
+This case study explores some of the areas that make use of such systems.
+
+
+Networks
+Integration
+Computer systems have now been developed that integrate all areas of a modern airport.   These areas
+(or modules) are linked via a network to powerful servers (see diagram below).
+
+                                        Integrated airport system
+
+
+                                                  Arrivals
+
+                                                   FIDS
+                 Air traffic control                                       Baggage system
+
+
+                       Gulf Air
+                        Qantas
+
+                  Flight schedules            Central database
+                                                                           Staff information
+
+
+
+
+                        $
+                    Billing system            Ground services              Handling agents
+
+
+Brief description of each system
+                                              Controls the air space around the airport
+                     Air traffic control
+                                              including landing and take off.
+                     Baggage system           Movement of baggage around airport.
+                     Billing system           Calculates fees for the airlines.
+                     FIDS                     Flight information display systems.
+                     Flight schedules         Flight details for each airline.
+                     Ground services          Catering, use of buses, refueling, etc.
+                     Handling agents          Airline check-in and other services.
+                     Staff information        Airport staff information.
+
+
+                                                                                               Turn over
+                                                               –4–      M&N10&11/5/COMSC/BP2/ENG/TZ0/XX/CS
+
+The complexity of the computer networks that manage modern airports can be seen by looking at some
+of the technical details for London Heathrow’s Terminal 5 (T5), which opened at the beginning of 2008,
+and which was designed to handle up to 30 million passengers each year.
+
+The high bandwidth backbone of the terminal’s network contains over 2500 km of cable which connect two
+central data centres and 66 secondary communication centres.  Over 9000 different devices are connected
+to the network which uses internet protocol (IP) to carry voice and data systems.1
+
+A new control centre for the whole airport is also based at T5.  This manages the movement of aircraft to
+and from the airport, communications with the airplanes’ crews, and the movement of aircraft on the ground.  
+The new control tower was planned to run in parallel with the old tower for three months before making
+the final switchover.2
+
+All systems were tested for the six months preceeding the opening of the terminal with 16 000 people
+recruited to act as “passengers”.
+
+
+Network security
+Failure to secure the network from either accidental or deliberate errors could have a dramatic effect on the
+functioning of the network.  If the different systems are integrated into one network, then care must be taken
+that a failure in one section does not have similar effects in other parts of the network.
+
+Parts of the system are safety-critical, such as Air Traffic Control (see page 8).  Even a failure in systems
+that are not safety-critical, such as baggage handling, could bring the effective functioning of the airport to
+a halt.
+
+Airport networks must also be protected from potential dangers from the Internet, to which it will be
+connected through a gateway.
+
+Various back-up systems must be considered.  For example, some airports lay multiple fibre-optic links
+between the server room and the control tower so that the controllers would stay connected even if one line
+was cut.
+
+
+1
+    http://www.pcw.co.uk/computing/analysis/2187576/pilots-t5-technical-systems
+2
+    http://www.airport-technology.com/features/feature916/
+                                                      –5–    M&N10&11/5/COMSC/BP2/ENG/TZ0/XX/CS
+
+Airport security
+Airport security can be separated into three areas:
+
+      • securing the perimeter of the airport
+      • security for the airport itself
+      • the security of each plane.
+
+CCTV cameras are used extensively within airports, to monitor both the perimeter of the airport and the
+airport itself. Images are monitored by security personnel, and they can be stored digitally, and played back
+at any time. Some cameras can switch to infrared. Expert systems have been developed that attempt to
+recognize “unusual behaviour” within the airport buildings.
+
+
+Employees
+Every person that works within an airport, whether they are airport staff, employed by one of the many
+shops or restaurants, or airline staff, will require a security clearance to be able to enter any area within the
+airport. Each area can be “isolated” from the rest, requiring some kind of ID to be able to pass from one
+area to another. A device secured beside the access point or door will be able to verify the identity of an
+employee in a system.
+
+These IDs could take the form of smart cards linked to some type of biometric identification system, such as:
+
+      •   iris identification
+      •   digital fingerprints
+      •   hand geometry
+      •   voice recognition
+      •   facial recognition
+      •   retina eye patterns
+      •   signature identification.
+
+Each system works by digitizing certain characteristics of the feature used, and storing these as a record for
+each individual on a computer system. Each security point in the airport will have a biometric device that
+could be a stand-alone system that compares the biometric data of the person with the data on the smart card.
+Alternatively, the device could be connected to a central database.
+
+                                           Fingerprint technology has been used for a long time and is
+                                           consequently quite sophisticated. There are, however, ways to
+                                           circumvent this system. Iris identification could offer a more
+                                           secure system in the future, as it is difficult to forge, and is
+                                           regarded as one the most accurate of the biometric technologies.
+                                           It works by dividing an image of the iris into sections and turning
+                                           the various patterns into mathematical expressions.3
+
+
+
+
+3
+    http://www.idlane.com/technology.htm
+
+
+
+
+                                                                                                     Turn over
+                                                         –6–      M&N10&11/5/COMSC/BP2/ENG/TZ0/XX/CS
+
+Passengers
+Passengers are required to carry a form of identification (normally a passport) in order to board planes.
+For the airline, this matches the traveller with a particular flight reservation.  For the security or immigration
+services, this determines whether or not the person will be allowed to continue with their journey.  Modern
+passports are able to be scanned, allowing the passport data to be matched with data on the central database.
+
+Airports are considering adding another layer of security with regards to the passengers.   Consider the
+following article taken from The Guardian newspaper.
+
+
+        How tagging passengers could improve airport security
+        Friday 13 October, 2006
+        Alok Jha, science correspondent for The Guardian
+
+        Air travellers could soon be electronically tagged inside airports in a bid to improve security.
+        The technology would use wrist bands or boarding passes embedded with computer chips and allow
+        authorities to track passenger movement around terminal buildings.
+
+        Paul Brennan, an electronic engineer at University College London who is leading work on the
+        EU-funded Optag system, said it would combine high resolution panoramic video imaging with
+        radio frequency identification (RFID) tags to enhance airport security, safety and efficiency.
+        “It would work if each passenger were issued with a tag, which could allow location to about
+        one metre accuracy,” he said.   “The video and tag data can be merged to give a very powerful
+        surveillance capability.”
+
+        RFID tags work by emitting a short radio message when interrogated by an electronic tag reader.
+        Dr Brennan said that Optag RFID chips would not store any personal details.
+
+        “They emit a unique ID which is then cross-referenced to the passenger information already on the
+        system – maybe the name and flight number of the passenger.  Perhaps in the future that would be
+        extended to things like biometric data.”  The tags would be linked to a network of CCTV cameras,
+        which could be used to monitor movement of people around terminal buildings.
+
+        Dr Brennan said: “It can allow precise tracking of certain individuals if they seem to be a security
+        risk of any sort.  It can help to evacuate the airport.  It can provide rapid location of lost children.”
+
+        Optag could also ensure that passengers get to a gate on time to board aircraft.  Dr Brennan said that
+        flight delays due to late-running passengers cost airlines €100m a year in Europe. 4
+
+
+
+
+            TAG
+
+        RFID TAG                         READER                   ETHERNET                    PC / SERVER
+
+
+4
+    The Guardian newspaper, Friday 13 October, 2006
+                                                      –7–     M&N10&11/5/COMSC/BP2/ENG/TZ0/XX/CS
+
+Check-in
+Airlines are looking for ways of using computer systems to help speed up the check-in process.
+Several airlines allow passengers to print their own boarding cards at home, allowing them to by-pass the
+normal check-in process at the airport, if they only have carry-on luggage.
+
+Others provide self-service check-in kiosks, offering a quick, easy and safe alternative to traditional
+check-in desks.  These self-service desks are computer terminals that are linked to the airline’s computer
+system.  They allow you to choose your seat and print your boarding card, or in some cases make changes
+to your travel schedule.
+
+				                  A self-service kiosk
+
+
+
+
+                [Source: Adapted from http://www.britishairways.com/travel/sscidemo7/public/en_gb]
+
+
+
+
+                                                                                                     Turn over
+                                                            –8–      M&N10&11/5/COMSC/BP2/ENG/TZ0/XX/CS
+
+Air traffic control
+“Air traffic control (ATC) is a service provided by ground-based controllers who direct aircraft on the
+ground and in the air.  A controller’s primary task is to separate certain aircraft – to prevent them from
+coming too close to each other.  Secondary tasks include ensuring safe, orderly and expeditious flow of
+traffic and providing information to pilots, such as weather and navigation information.” 5  
+
+ATC will also update the flight details files in the main server, which will in turn update flight information
+display systems around the airport, and possibly trigger passenger announcements.
+
+ATC has also seen the widespread integration of computer systems, primarily to allow increased traffic flow,
+whilst at the same time maintaining the same high levels of safety.  This process, however, has raised an
+interesting question: can all (manual) systems be successfully computerized?
+
+Air traffic controllers work in centres that control a certain area of air space.  They deal with aircraft that
+enter that space by monitoring the position of the aircraft using radar, and maintaining contact with the
+pilots by radio.  Whenever an aircraft enters their air space, a computer prints off a strip of paper which
+contains details of that aircraft (type, departure/arrival airports, flight number, ID number, etc.) and their
+flight plans (speed, course, altitude, etc.).
+
+A controller, on hearing the printer, will take this strip and place it in front of him with other strips representing
+the aircraft that are his responsibility.  As each aircraft passes through the sector, the controller will regularly
+annotate each strip by hand, indicating, for example, changes of height, control passed to another centre, etc.
+A strip will typically end up with many annotations, all made by hand.  He will also change the position of
+the strips grouping together aircraft that are close to one another, or arranging them in groups depending
+upon which sector they are in.  When aircraft pass out of their control (for example, when they have landed),
+the relevant strip is removed.
+
+An example of an annotated flight strip is shown below:
+
+
+
+
+      [Source: http://perso.tls.cena.fr/chatty/biblio/CHI96/sc_txt.htm]
+
+A great deal of money has been spent in developing software that would replace the paper strips, but many
+controllers remain reluctant to change a system that has proven so reliable in such a safety-critical area as
+flight control.  
+
+“Air traffic controllers like paper flight strips.  The interface is familiar, easy-to-use, helps controllers instantly
+ understand the current state of the traffic and lets them communicate without interrupting each other.” 6   
+
+In particular, they are concerned that manipulating a computer-user interface will distract them from their
+tasks, and that important data automatically updated on a computer screen will go unnoticed.
+
+
+5
+    en.wikipedia.org/wiki/Air_traffic_control
+6
+    Wendy E. MacKay, University of Aarhus
+                                                                 –9–   M&N10&11/5/COMSC/BP2/ENG/TZ0/XX/CS
+
+Baggage handling: Software design
+The main function of a baggage handling system is to transport bags quickly from a baggage entry
+point (e.g. a check-in desk) to a pre-determined output point (e.g. into a container for loading onto the
+aircraft). Parts of the system life cycle for the design of the baggage system for London’s Heathrow Airport
+(Terminal 5) are outlined below.
+
+Requirements specifications
+Specifications had to be agreed between the two major stakeholders, the company that runs the airport
+(British Airports Authority), and the airline that would exclusively use the new terminal (British Airways).
+
+Between the bag entering the system and arriving at its destination within the airport, several processes
+could be applied to the bags. These include bags being:
+
+      •   automatically identified by their bag label
+      •   screened for explosives (by automatic in-line hold baggage screening machines)
+      •   stored in an early bag store (if passengers are too early for their flight)
+      •   manually encoded (for resolving problems with bag information)
+      •   sorted to flight allocated loading positions (automated sorting)
+      •   fast tracked (for late bags that require urgent processing)
+      •   manually handled (for large bags; and loading and unloading systems)
+      •   reconciled (checked to see if bags are authorised to load onto aircraft e.g. to avoid a bag
+          travelling without its owner).7
+
+Development problems
+Potential problems involved:
+
+      • the use of many different suppliers
+      • the use of a completely new design
+      • the length of the project, which had a life-cycle of 7 years, which meant that specifications
+        could change.
+
+Testing
+As the system will be in operation for 24 hours a day,
+it is essential that extensive testing takes place before
+installation. This testing includes the use of 3D virtual
+reality baggage handling simulators.
+
+
+
+
+7
+    http://newsweaver.ie/qualtech/e_article000776781.cfm?x=b11
+
+
+
+
+                                                                                                   Turn over
+                                                     – 10 – M&N10&11/5/COMSC/BP2/ENG/TZ0/XX/CS
+
+Reservation systems
+When a customer makes a flight reservation a unique “passenger name record” (PNR) is created, which
+contains flight information and personal details of the person flying.  If a car is hired or a hotel is booked at
+the same time, this information will also be stored on the PNR.
+
+Few airlines store these records on their own system, but instead subscribe to a “global distribution
+system” (GDS), which is an organization that stores flight details and PNRs for several airlines on its databases.
+At present, there are four major GDSs: Amadeus, Galileo, Sabre and Wordspan.   Travel agents are
+connected to these GDSs through Wide Area Networks.
+
+                                  Various sources contribute to a PNR record
+
+
+
+
+                                                     Hotels
+
+                             Car hire
+
+
+
+                                            GDS #1            GDS #2            Governments
+
+
+
+
+                             On-line booking                    Travel agents
+
+
+
+These GDSs use a similar format for their records so that information can be passed between them.  
+This allows computerized reservation systems to book flights using one or more airlines with minimal
+delay.  In recent years, certain governments have requested that more detailed personal information is added
+to a PNR.  Agreement has been reached, to the alarm of human rights organizations, that the information on
+these records can be accessed by governments and used to fight certain serious crimes.
+
+A PNR could, therefore, contain credit card details, addresses, phone numbers, emergency contacts,
+information on people who travel together, personal preferences (such as meal choices), details of medical
+conditions and so on.
+                                                               – 11 – M&N10&11/5/COMSC/BP2/ENG/TZ0/XX/CS
+
+Passenger services
+Displays
+Information is transmitted to passengers either via screens (flight information display systems) or by means
+of public announcements.
+
+
+                                          ARRIVALS                    Date: Jul 29     Time: 11 : 38 : 00
+
+                             FLIGHT No.     TIME     FROM                       FLIGHT INFORMATION
+                             RE 311        11:30     DUBLIN                     LANDED             11:28
+                             GR 067        11:35     GUERNSEY                   LANDED             11:35
+                             EZY 359       11:50     GLASGOW                    EXPECTED           11:55
+                             FCA 101       12:10     RHODES                     DELAYED            12:55
+                             KL 227        12:22     AMSTERDAM                  EXPECTED           12:28
+                             OL 863        12:56     HAMBURG                    DELAYED            13:43
+                             EZY 797       13:12     MALAGA                     EXPECTED           13:14
+                             SN 257        13:20     BRUSSELS                   EXPECTED           13:20
+                             AF 263        13:35     PARIS
+                             EZY 179       13:42     EDINBURGH
+                             EZY 479       13:48     VALENCIA
+                               Mr Wallace meeting Mr Jones on Flight EZY 359 from Glasgow
+                                        Please go to the Airport Information Desk
+
+
+
+Each flight is automatically categorised as either arrival or departure, and included on the appropriate
+set of pages with a choice of arrivals or departures on each individual public screen.  Displayed information
+includes: flight number, airport name, scheduled time and expected time, and status (on-time, expected,
+landed/departed).
+
+Flight records are sorted according to the same criteria as the ATC displays (i.e. expected movement time)
+and removed from the display a few minutes after the flight has been shown as “landed” or “departed”,
+which occurs when ATC enter an actual movement time for the flight.
+
+
+Announcements
+Traditionally, airport announcements were made using recordings of actual voices.  This inevitably led to
+awkward sounding messages, as different phrases were “patched” together.  Problems would occur if new
+airlines or new destinations arose, as new recordings would have to be made (with, perhaps, different voices).
+Over the past few years, companies have been developing new automated systems that do not rely on actual
+voice recordings.  
+
+The system developed for Heathrow Airport works by generating and storing the individual phonemes
+(sounds) that make up a particular language.  The phonemes depend, not only on the arrangement of letters
+within a syllable but also on the position of the words within a sentence, and the words appearing
+immediately before and after it.  The word “passenger” for example, has 36 phonemes associated with it.8  
+The system is being linked to the flight information display system at the airport, so that announcements can
+be made dynamically in real time.  The system was introduced in two phases.  The first dealt with general
+passenger announcements in the different terminals.   The second phase was introduced at the different
+boarding gates, and allowed individual PCs to generate local announcements.
+
+
+8
+    http://www.airport-int.com/categories/airport-terminal-announcements/its-phonemenal.asp
+
+
+
+                                                                                                            Turn over
+                                                     – 12 – M&N10&11/5/COMSC/BP2/ENG/TZ0/XX/CS
+
+Wi-Fi
+Most airports now provide Wi-Fi “hotspots” which allow users to connect their laptops to the Internet.  
+In order to connect, users have to enter their username and password.  These are given once the service has
+been paid for (using vouchers, credit cards, etc.).
+
+Wi-Fi originally used “wired equivalent privacy” (WEP), which is encryption technology designed to
+secure the data being transferred between the transmitter and the user’s laptop.  However, this technology
+was shown to be easily broken.  One method was to “trick” the user’s laptop into thinking that it had logged
+onto a secure network, when it had not.  It did this by exploiting the basic hand-shaking system.
+
+An improved security system, “Wi-Fi protected access” (WPA2) is now available, which has shown itself to
+be very secure.  However, it is still recommended that the service provider makes use of strong passwords.
+
+Wi-Fi is a global set of standards that use a radio frequency of 2.4 GHz (the same as mobile phones) with a
+range up to 100 metres.  Transfer rates, by 2008, had reached 11 Mbits/s.
+
+
+
+
+                    [Source: http://www.bbc.co.uk/news]
+                                                               – 13 – M&N10&11/5/COMSC/BP2/ENG/TZ0/XX/CS
+
+Is there an overdependence on computer systems?
+This case study has demonstrated how computer systems are now at the heart of all areas of a modern airport,
+and are helping to make air travel safer, more efficient, and more pleasant for the thousands of passengers
+who pass through these airports.
+
+It is, perhaps, inevitable, that as technology develops, such systems become more and more complex, and it
+is this very complexity which can, at times, cause problems.
+
+In August 2007, the computer system used by the US Customs and Immigration Service malfunctioned at
+Los Angeles International Airport.  This resulted in over 20 000 passengers being stranded at the airport for
+several hours awaiting clearance to enter the country.9
+
+In July 2008, a faulty network card caused the US$100 million radar system at Ireland’s Dublin airport
+to malfunction, causing delays for several thousand passengers.10
+
+We often hear of systems being affected by hackers or unhappy employees, but the culprits for the two
+problems outlined above (and for many others) were the systems themselves.
+
+The more complex a system is, the more ways there are for it to go wrong and the longer it will take to
+be fixed.  As we become more and more dependent on computer systems, not just in airports but in all areas
+of our lives, the consequences of failure become increasingly severe.
+
+
+
+9
+     The New York Times, 12 September 2007
+10
+     http://www.irishtimes.com/newspaper/breaking/2008/0717/breaking73.htm     
+
+
+
+
+                                                                                                  Turn over
+                                             – 14 – M&N10&11/5/COMSC/BP2/ENG/TZ0/XX/CS
+
+Appendix I – Abbreviations used in the case study
+    3D    –   3-dimensional
+
+    ATC   –   Air traffic control
+
+    CCTV –    Closed circuit television
+
+    EU    –   European Union
+
+    FIDS –    Flight information display system
+
+    IP    –   Internet protocol
+
+    T5    –   Terminal 5 (London Heathrow Airport)
+
+    PNR   –   Personal name record
+
+    RFID –    Radio frequency identification device
+
+    WEP –     Wired equivalent privacy
+
+    Wi-Fi –   Wireless fidelity
+
+    WPA –     Wi-Fi protected access
+                                                   – 15 – M&N10&11/5/COMSC/BP2/ENG/TZ0/XX/CS
+
+Appendix II – Bibliography
+Air traffic control.
+URL:  http://en.wikipedia.org/wiki/Air_traffic_control
+
+Airport Security.
+URL:  http://www.saic.com/aviation/security.html
+
+Banks, J.  T5 – We Have the Technology.  1 February 2007.
+URL:  http://www.airport-technology.com/features/feature916/
+
+The Brain in Spain.
+URL:  http://www.airport-int.com/categories/artificial-announcement-systems/artificial-announcement-
+systems.asp
+
+Derksen, R. van der Wouden, H. and Heath, P.  
+Testing The Heathrow Terminal 5 Baggage Handling System – Before It Is Built.  3 April 2007.
+URL:  http://newsweaver.ie/qualtech/e_article000776781.cfm?x=b11,0,w
+
+Duffy, J.  The future of airport security.  12 November 2003.
+URL:  http://news.bbc.co.uk/2/hi/uk_news/magazine/3263343.stm
+
+Faulty computer blamed for airport radar breakdown.  17 July 2008.
+URL: http://www.irishtimes.com/newspaper/breaking/2008/0717/breaking73.htm
+
+Friedlos, D.  BA pilots T5 technical systems.  12 April 2007.
+URL:  http://www.pcw.co.uk/computing/analysis/2187576/pilots-t5-technical-systems
+
+Gibbs, W. (September 1994), “Software’s Chronic Crisis”.  Scientific American.  271, pages 72-81.
+URL:  http://www.cis.gsu.edu/~mmoore/CIS3300/handouts/SciAmSept1994.html
+
+Godin, J.  It’s Phoneme-nal.
+URL:  http://www.airport-int.com/categories/airport-terminal-announcements/its-phonemenal.asp
+
+Hasbrouck, E.  What’s in a Passenger Name Record (PNR)?  
+URL:  http://www.hasbrouck.org/articles/PNR.html
+
+Jha, A.  How tagging passengers could improve airport security.  13 October 2006.
+URL:  http://www.guardian.co.uk/business/2006/oct/13/theairlineindustry.terrorism
+
+Leake, J.  Chaos continues at Heathrow’s T5 as more flights are cancelled.  29 March 2008.
+URL:  http://www.timesonline.co.uk/tol/news/uk/article3645398.ece
+
+Mackay, W. (2000), “Is Paper Safer? The Role of Paper Flight Strips in Air Traffic Control”.
+ACM/Transactions on Computer-Human Interaction.  6 (4), pages 311-340.
+
+Passengers stuck in planes after computer fails.  12 August 2007.  
+URL:  http://www.cnn.com/2007/US/08/12/LAXBackup.ap/index.html
+
+
+                                                                                               Turn over
+                                                 – 16 – M&N10&11/5/COMSC/BP2/ENG/TZ0/XX/CS
+
+Ranganathan, A.  Fog and the air traffic chaos.  27 December 2006.
+URL:  http://www.thehindubusinessline.com/2006/12/27/stories/2006122700070900.htm
+
+Schwartz, J.  Who Needs Hackers?  12 September 2007.
+URL:  http://www.nytimes.com/2007/09/12/technology/techspecial/12threat.html  
+
+Stevens, T.  The cost of privacy: biometrics at London Heathrow T5.  24 March 2008.
+URL:  http://www.computerweekly.com/blogs/the-data-trust-blog/2008/03/the-cost-of-privacy-biometrics.html
+
+Technology.  
+URL:  http://www.idlane.com/technology.htm
+
+Valdes, M.  Alaska Airlines, Sea-Tac Airport look to streamline check-in.  10 August 2007
+URL:  http://seattletimes.nwsource.com/html/travel/2003830033_alaskaairweb10.html
+
+Vancouver Airport.
+URL:  http://www.alstec.com/Main/ALSTECGroup/AirportsLogistics/CaseStudies/VancouverAirport/
+
+WiFi at the Airport.
+URL:  http://www2.prg.aero/en/site/klient/sluzby_kontakty/komunikace/wifi.htm
+
+Wi-Fi security system is “broken”.  19 October 2007.
+URL:  http://news.bbc.co.uk/2/hi/technology/7052223.stm
+

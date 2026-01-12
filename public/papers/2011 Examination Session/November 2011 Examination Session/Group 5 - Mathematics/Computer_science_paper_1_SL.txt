@@ -1,0 +1,209 @@
+N11/5/COMSC/SP1/ENG/TZ0/XX
+
+
+
+
+     88117013
+
+Computer science
+Standard level
+Paper 1
+
+Thursday 17 November 2011 (afternoon)
+
+1 hour 30 minutes
+
+
+INSTRUCTIONS TO CANDIDATES
+
+ Do not open this examination paper until instructed to do so.
+ Section A: answer all the questions.
+ Section B: answer all the questions.
+
+
+
+
+8811-7013                                                                                          5 pages
+                                                           © International Baccalaureate Organization 2011
+                                                      –2–                     N11/5/COMSC/SP1/ENG/TZ0/XX
+
+                                                Section A
+
+Answer all the questions.
+
+1.    (a)   State one advantage and one disadvantage of communication by electronic mail
+            rather than by telephone.                                                           [2 marks]
+
+      (b)   Outline two possible measures that prevent computers from being affected
+            by viruses, when using electronic mail.                                             [2 marks]
+
+
+2.    (a)   State one application that uses robots.                                              [1 mark]
+
+      (b)   Outline two advantages of using robots rather than manual-based systems.            [2 marks]
+
+
+3.    A code for representing colours is used, where each colour is stored using 8 bits.
+
+      (a)   State the number of different colours that can be represented.                       [1 mark]
+
+      (b)   The binary representation of a particular colour is shown below.
+
+                            0     0      0       1      1      1          0       0
+
+		          (i)    State the decimal representation of this colour. Show all of your working.   [2 marks]
+
+		          (ii)   State the hexadecimal representation of this colour.                          [1 mark]
+
+
+4.    (a)   Define the term syntax.                                                              [1 mark]
+
+      (b)   Define the term semantics.                                                           [1 mark]
+
+      (c)   Describe, using examples from the code below, how each of the following types
+            of error could occur: syntax error, logical error and run-time error.
+
+                                             a = b / c + d                                      [3 marks]
+
+
+5.    Systems analysis, software design and program construction are all stages of the
+      software life cycle.
+
+      Outline two other stages in the software life cycle.                                      [4 marks]
+
+
+
+
+8811-7013
+                                                   –3–               N11/5/COMSC/SP1/ENG/TZ0/XX
+
+6.    (a)   Using computer memory as an example, outline the meaning of the term volatile.   [2 marks]
+
+      (b)   Outline the reasons for having both primary memory and secondary memory.         [2 marks]
+
+
+7.    Consider the following program fragment.
+
+      String name1 = new String("Maria");
+      String name2 = new String("Maria");
+
+      if (name1 == name2)
+      { output("TWO NAMES ARE THE SAME"); }
+
+      else
+      { output("TWO NAMES ARE DIFFERENT"); }
+
+      if (name1.equals(name2))
+      { output("TWO NAMES ARE THE SAME"); }
+
+      else
+      { output("TWO NAMES ARE DIFFERENT"); }
+
+      The following output is produced by this program fragment.
+
+                                  TWO NAMES ARE DIFFERENT
+                                  TWO NAMES ARE THE SAME
+
+      Explain line by line, how this output is produced.                                     [4 marks]
+
+
+8.    Outline two functions of an operating system.                                          [2 marks]
+
+
+
+
+8811-7013                                                                                    Turn over
+                                                    –4–               N11/5/COMSC/SP1/ENG/TZ0/XX
+
+                                                Section b
+
+Answer all the questions.
+
+9.    Consider the following method.
+
+      public int mystery(int x, int y)
+      {
+        int q = x;
+        if (y < x)
+        { q = y; }
+        return q;
+      }
+
+      (a)   (i)    Define the term method signature.                                     [1 mark]
+
+		          (ii)   Identify the parameters passed to this method.                        [1 mark]
+
+      (b)   Consider the following statements.
+
+                                     c = mystery(2, 1);
+                                     b = (mystery(1, 2) < c);
+
+		          (i)    State the value of variable c.                                        [1 mark]
+
+		          (ii)   State the data type and the value of variable b.                     [2 marks]
+
+		          (iii) Deduce the purpose of the method.                                     [2 marks]
+
+      (c)   The same class contains the following method.
+
+            public int two(int i, int j, int k)
+            {
+              return mystery(mystery(i, j), k);
+            }
+
+            Explain how the following statement is executed.
+
+                                       int a = two(4, 1, 5);                            [3 marks]
+
+
+
+
+8811-7013
+                                                   –5–                  N11/5/COMSC/SP1/ENG/TZ0/XX
+
+10.   A program accesses a text file on disk. To edit the text the user of the program enters
+      data using a keyboard. The program then amends the text which was read from the file,
+      writes the updated file back to disk and produces a printed report of all amendments
+      made to the text file.
+
+      (a)   Construct a systems flowchart representing this process.                            [4 marks]
+
+      The data on disk can be lost due to various errors.
+
+      (b)   (i)    State two examples of how data can be lost due to human error.               [2 marks]
+
+		          (ii)   State two examples of how data can be lost other than by human error.        [2 marks]
+
+		          (iii) Describe how data lost from disk could be recovered.                          [2 marks]
+
+
+11.   (a)   State two problems associated with the use of images, that have large file sizes,
+            in computer systems.                                                                [2 marks]
+
+      (b)   One photograph is estimated to occupy 2000 KB. Outline the steps needed to
+            calculate the number of gigabytes (GB) required for 50  000 photographs.            [2 marks]
+
+      (c)   Outline one advantage of using data compression software on stored images.          [2 marks]
+
+      (d)   Discuss the ethical considerations linked to the misuse of image processing
+            software.                                                                           [4 marks]
+
+
+12.   A garage uses a computer system to test whether the amount of exhaust fumes emitted
+      by a car is at an acceptable level.
+
+      A sensor, used to measure exhaust fumes, is placed in the exhaust pipe.
+
+      (a)   Outline the processing taking place in this computer system.                        [4 marks]
+
+      (b)   Explain why the sensor data needs to be converted before being processed.           [2 marks]
+
+      (c)   Outline three errors that can occur in this system.                                 [3 marks]
+
+      (d)   Identify one appropriate output device for this system.                             [1 mark]
+
+
+
+
+8811-7013
+

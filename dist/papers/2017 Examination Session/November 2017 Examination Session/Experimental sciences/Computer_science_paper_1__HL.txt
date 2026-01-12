@@ -1,0 +1,355 @@
+N17/4/COMSC/HP1/ENG/TZ0/XX
+
+
+
+
+Computer science
+Higher level
+Paper 1
+
+
+Friday 3 November 2017 (afternoon)
+
+
+2 hour 10 minutes
+
+
+Instructions to candidates
+yy Do not open this examination paper until instructed to do so.
+yy Section A: answer all questions.
+yy Section B: answer all questions.
+yy The maximum mark for this examination paper is [100 marks].
+
+
+
+
+                                                                                             8817 – 7011
+     9 pages                                             © International Baccalaureate Organization 2017
+                                                  –2–                N17/4/COMSC/HP1/ENG/TZ0/XX
+
+                                               Section A
+
+Answer all questions.
+
+1.   Identify two essential features of a computer language.                                  [2]
+
+
+2.   In the context of a networked world, state the role of
+
+     (a)   a client.                                                                          [1]
+
+     (b)   a server.                                                                          [1]
+
+
+3.   Identify one method of inputting data that can improve the accessibility of a computer
+     system for some users.                                                                   [1]
+
+
+4.   Copy and complete the following truth table.                                             [3]
+
+                         A             B               A NOR B      (A NOR B) OR A
+                       FALSE         FALSE                …               …
+                         …             …                  …               …
+
+
+
+5.   Construct a logic diagram for the Boolean expression
+
+                                         NOT A OR B AND C.                                    [3]
+
+
+6.   Consider the following recursive method, where N is a positive integer
+
+  mystery(N)
+		 if (N > 0) AND (N mod 2 = 0) then
+      mystery(N−2)
+		 end if
+		 output N
+  end mystery
+
+     (a)   Determine the output produced by the method call mystery(5).                       [1]
+
+     (b)   Determine the output produced by the method call mystery(4).                       [3]
+
+     (c)   Construct an iterative algorithm for the method mystery(), which uses a single
+           while loop instead of recursion.                                                   [4]
+                                                  –3–                 N17/4/COMSC/HP1/ENG/TZ0/XX
+
+7.   The machine instruction cycle is the process by which a program instruction is fetched,
+     decoded, executed and the results are stored.
+
+     (a)   State where all instructions and data are stored.                                         [1]
+
+     (b)   Outline the role of the data bus and address bus in this process.                         [2]
+
+
+8.   Define the term bit.                                                                            [1]
+
+
+9.   Outline what is meant by beta testing.                                                          [2]
+
+
+
+
+                                                                                               Turn over
+                                                        –4–              N17/4/COMSC/HP1/ENG/TZ0/XX
+
+                                                  Section B
+
+Answer all questions.
+
+10.    An application package used in an office includes a word processor.
+
+       (a)    Describe how a spellchecker checks whether a word in a text file is correctly spelt
+              or not.                                                                                 [2]
+
+       The office manager decides to buy and install new software and hardware.
+
+       (b)    Outline one problem that may arise from the installation of new hardware and software
+              in the office.                                                                          [2]
+
+       The changeover to the new system can be achieved by either direct changeover or
+       phased conversion.
+
+       (c)    Compare direct changeover and phased conversion.                                        [4]
+
+       The new software allows basic text summaries and analysis to help check text files,
+       including functions such as calculating word frequency.
+
+       (d)    Identify one way of testing this software.                                              [1]
+
+       One of the methods in this software is findFirst(CH, CHARARRAY) which accepts a
+       character, CH, and a one-dimensional array of characters, CHARARRAY, and returns the
+       position of the first occurrence of character CH in CHARARRAY. It returns −1 if CH does not
+       appear in the array CHARARRAY.
+
+       For example, consider the character array MESSAGE, which is of length 19.
+
+ [0]    [1]   [2]   [3]   [4]   [5]   [6]   [7]   [8]   [9] [10] [11] [12] [13] [14] [15] [16] [17] [18]
+  A      U     R     O     R     A           M     U     S   I    S         A    M    I    C    A    .
+
+       For this array:
+       yy The character at position 8 in the sentence is “U” and hence MESSAGE[8] = "U".
+       yy The character at position 18 in the sentence is “.” and hence MESSAGE[18] = ".".
+       yy The method findFirst('A', MESSAGE) returns 0.
+       yy The method findFirst('S', MESSAGE) returns 9.
+       yy The method findFirst('Z', MESSAGE) returns −1.
+
+       (e)    Construct an efficient algorithm for the method findFirst(). You should use the
+              function len(), which returns the number of characters in an array (for example,
+              len(MESSAGE) returns 19).                                                               [6]
+                                                    –5–                N17/4/COMSC/HP1/ENG/TZ0/XX
+
+11.   A wireless local area network (WLAN) is used to extend access to a school’s wired
+      local area network.
+
+      (a)   Identify one hardware component of the WLAN, other than computers.                        [1]
+
+      The advantages of this WLAN are user-mobility and economical access points.
+
+      (b)   Outline two disadvantages of this WLAN.                                                   [4]
+
+      (c)   Identify three ways in which the network administrator can reduce the risk of
+            unauthorized access to confidential data.                                                 [3]
+
+      The concept of packet data transmission is used within this network.
+      Figure 1 shows the simplified structure of a data packet.
+
+                                Figure 1: The structure of a data packet
+
+            Header (12 bytes)                 Data (112 bytes)          Trailer / Footer (4 bytes)
+       yy address of sender                                           yy transmission codes
+       yy address of receiver                                         yy error checking codes
+                                        Actual data to be transmitted
+       yy protocol                                                    yy control bits
+                                        (payload)
+       yy sequence number                                             yy …
+       yy …
+
+
+      (d)   Define the term protocol.                                                                 [1]
+
+      (e)   With reference to Figure 1, explain how data is transferred by packet switching.          [6]
+
+
+
+
+                                                                                                Turn over
+                                                   –6–                    N17/4/COMSC/HP1/ENG/TZ0/XX
+
+12.   A biotechnology company owns a resource centre which collects and classifies organisms
+      for use in research.
+
+      Only authorized employees are allowed access to some laboratories in the resource centre.
+
+      These laboratories are protected by locked doors. Each door is controlled by a separate
+      microprocessor. A digital camera is used to scan the iris of an employee who wishes to
+      enter the lab. If the employee is authorized the doors are unlocked.
+
+      (a)   Identify two benefits of using a digital camera as an input device in this control system.   [2]
+
+      (b)   Outline the use of a microprocessor in this control system.                                  [2]
+
+      (c)   Outline the function of an output transducer.                                                [2]
+
+      The company is planning to use a centralized computer system to secure the resource
+      centre’s building.
+
+      (d)   Compare a centrally controlled system with the system described above.                       [4]
+
+      The operating system has an important role in this system.
+
+      (e)   Identify two functions of the operating system.                                              [2]
+
+      Polling and interrupt are two operating system management techniques.
+
+      (f)   Suggest with reasons which of these two techniques is the most appropriate for this
+            centrally controlled system.                                                                 [3]
+                                                  –7–                  N17/4/COMSC/HP1/ENG/TZ0/XX
+
+13.   (a)   Describe the features of a dynamic data structure.                                       [2]
+
+      Consider the following doubly linked list which holds the names of flowers in
+      alphabetical order.
+
+            FIRST      NULL   Aster            Camellia             Lavender NULL      LAST
+
+
+
+      (b)   Explain how “Primrose” could be inserted into this doubly linked list. You should draw
+            a labelled diagram in your answer.                                                       [6]
+
+      Consider the two stacks: FLOWERS and FRUITS.
+
+                     FLOWERS                              FRUITS
+                                    Aster                             Apple
+                                    Broom                            Cherry
+                                  Camellia                           Orange
+                                  Day Lily                             Pear
+                                  Lavender
+                                  Primrose
+                                   Yarrow
+
+
+      (c)   Show the output produced by the following algorithm.                                     [4]
+
+   loop while (NOT FRUITS.isEmpty()) AND (NOT FLOWERS.isEmpty())
+     X = FRUITS.pop()
+     Y = FLOWERS.pop()
+     if X < Y then
+					output X
+				else
+       output Y
+				end if
+			end loop
+
+      A third stack, FLOFRU, is needed. It should contain all the data from FLOWERS and FRUITS
+      and will store it as shown below
+
+                                      FLOFRU
+                                                    Yarrow
+                                                   Primrose
+                                                   Lavender
+                                                   Day Lily
+                                                   Camellia
+                                                     Broom
+                                                     Aster
+                                                      Pear
+                                                    Orange
+                                                    Cherry
+                                                     Apple
+
+      (d)   Describe how the FLOFRU stack could be created.                                          [3]
+
+                                                                                              Turn over
+                                                  –8–                N17/4/COMSC/HP1/ENG/TZ0/XX
+
+14.   Consider the following two-dimensional array, MAT, with dimensions 6 × 6.
+
+                                    [0] [1] [2] [3] [4] [5]
+                              [0]    7   0   0   0   0   0
+                              [1]    0   0   0   0   0   0
+                              [2]    0   0 −3    0   9   0
+                              [3]    0   0   0   0   0   0
+                              [4]    0   0 −1    0   0   0
+                              [5]    0 −6    0   0 −5    1
+
+
+      The value −1 is stored in MAT at position [4][2]. The position [4][2] means row 4
+      and column 2.
+
+      (a)   State the total number of elements stored in MAT.                                     [1]
+
+      (b)   State the number of non-zero elements in MAT.                                         [1]
+
+      A two-dimensional array in which most of the elements are zero is called a sparse matrix.
+      A sparse matrix can be compressed by storing only non-zero elements using three
+      one‑dimensional arrays.
+
+      The first array, VALUES, stores all non-zero elements taken from the sparse matrix in
+      row‑major order (left-to-right then top-to-bottom order).
+
+      The length of the array VALUES is equal to the number of non-zero elements in the sparse
+      matrix. For the sparse matrix above, MAT, the array VALUES is:
+
+                                 [0] [1] [2] [3] [4] [5] [6]
+                                  7   −3  9   −1 −6 −5    1
+
+      The second array is ROWC. ROWC[i] stores the number of non-zero elements, from row 0 to
+      row i of the sparse matrix, inclusive.
+
+      The length of ROWC is equal to the number of rows in the sparse matrix. For MAT the array
+      ROWC is:
+
+                                    [0] [1] [2] [3] [4] [5]
+                                     1   1   3   3   4   7
+
+      For example, ROWC[2] stores 3 because in MAT there are three non-zero elements from
+      row 0 to row 2, inclusive.
+
+      The third array, COL, stores the column index for each non-zero element in the sparse
+      matrix. COL[i] stores the sparse matrix column index for the non-zero element stored in
+      VALUES[i]. For MAT the array COL is:
+
+                                 [0] [1] [2] [3] [4] [5] [6]
+                                  0   2   4   2   1   4   5
+
+
+(This question continues on the following page)
+                                                    –9–                 N17/4/COMSC/HP1/ENG/TZ0/XX
+
+(Question 14 continued)
+
+     (c)    Construct an algorithm that compresses a 6 × 6 two-dimensional array, such as MAT,
+            into the three one-dimensional arrays described on page 8. You may assume that the
+            6 × 6 array is inputted and all three one-dimensional arrays are initialized.           [6]
+
+     Consider the following three arrays. They hold the compressed contents of a 7 × 7 sparse
+     matrix, BIGMAT.
+
+     VALUES
+                   [0] [1] [2] [3] [4] [5] [6] [7] [8] [9]
+                    15 20 37 43 57 60 70 89 90 92
+
+
+     ROWC
+                   [0] [1] [2] [3] [4] [5] [6]
+                    1   3   4   5   5   7   10
+
+
+     COL
+                   [0] [1] [2] [3] [4] [5] [6] [7] [8] [9]
+                    0   1   2   1   3   0   1   0   5   6
+
+
+     (d)    For a given column, C, in BIGMAT, outline how it could be determined that this column
+            contains no non-zero elements.                                                          [2]
+
+     (e)    State how many rows in BIGMAT contain only zeros.                                       [1]
+
+     (f)    (i)     State the index in VALUES of the first non-zero element in row 5 of BIGMAT.     [1]
+
+		          (ii)    For a given row, R, in BIGMAT, determine the range of indexes in VALUES where
+                    non-zero elements in row R of BIGMAT are placed. You may assume that there
+                    is at least one non-zero element in row R.                                      [3]
+

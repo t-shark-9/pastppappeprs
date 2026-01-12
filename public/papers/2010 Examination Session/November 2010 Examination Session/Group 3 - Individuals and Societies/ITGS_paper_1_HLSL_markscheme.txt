@@ -1,0 +1,261 @@
+N10/3/ITGSX/BP1/ENG/TZ0/XX/M
+
+
+
+
+                    MARKSCHEME
+
+
+                       November 2010
+
+
+
+      INFORMATION TECHNOLOGY IN A
+            GLOBAL SOCIETY
+
+
+
+          Higher Level and Standard Level
+
+
+
+                               Paper 1
+
+
+
+
+8 pages
+                              –2–             N10/3/ITGSX/BP1/ENG/TZ0/XX/M
+
+
+
+
+This markscheme is confidential and for the exclusive use of
+examiners in this examination session.
+
+It is the property of the International Baccalaureate and must not
+be reproduced or distributed to any other person without the
+authorization of IB Cardiff.
+                                                  –3–               N10/3/ITGSX/BP1/ENG/TZ0/XX/M
+
+
+Examiners should be aware that in some cases, candidates may take a different approach, which if
+appropriate should be rewarded. If in doubt check with your Team Leader.
+
+In the case of an “identify” question read all answers and mark positively up to the maximum marks.
+Disregard incorrect answers. In the case of a “describe” question, which asks for a certain number of
+facts e.g. “describe two kinds”, mark the first two correct answers. This could include two descriptions,
+one description and one identification, or two identifications.
+
+
+1.   (a)   Define the term multitasking.                                                       [2 marks]
+
+           Answers may include:
+           • more than one program/process
+           • is (apparently) being executed at the same time
+           • control shifts between processes very rapidly
+           • example of multitasking described.
+
+           Award [1 mark] for any of the above points up to a maximum of [2 marks].
+
+     (b)   Identify four reasons why Windows has required increasing amounts
+           of system resources as it has been developed.                     [4 marks]
+
+           Answers may include:
+           • more features added
+           • the software has become bigger
+           • more automation
+           • higher resolutions of screen supported
+           • hardware has become cheaper
+           • older versions were constrained by the hardware that was then current
+           • development tools do not require new code to be efficient
+           • Internet developments require more support.
+
+           Award [1 mark] for any of the above points up to a maximum of [4 marks].
+                                              –4–                N10/3/ITGSX/BP1/ENG/TZ0/XX/M
+
+
+(c)   A company is considering changing the operating system that it uses
+      on its PCs to Linux, which is free open source software. Explain reasons why
+      a company might choose to pay for commercial software rather than obtain
+      it free.                                                                     [4 marks]
+
+      Answers may include:
+      • free software may lack compatibility with other users/business partners
+      • free applications are different from commercial applications
+      • free applications may not be well tested
+      • free applications may have less features
+      • retraining may be required
+      • there may be resistance from users
+      • commercial – availability of support
+      • commercial – might carry a guarantee.
+
+      [1 mark]
+      A limited response that indicates very little understanding of the topic.
+
+      [2–3 marks]
+      A reasonable description, although the answer may lack appropriate reasoning
+      at the lower end of the band.
+
+      [4 marks]
+      A clear, detailed explanation of the issue with reasons.
+                                                 –5–               N10/3/ITGSX/BP1/ENG/TZ0/XX/M
+
+
+2.   (a)   With reference to a computer system, define the term Trojan horse.                 [2 marks]
+
+           Answers may include:
+           • malware
+           • software that appears to be something useful and hides its malicious purpose
+             (i.e. installing software without user’s knowledge or recording actions)
+           • may be used to help a hacker access a system remotely.
+
+           Award [1 mark] for any of the above points up to a maximum of [2 marks].
+
+     (b)   Describe two ways in which keylogging software could make its logged data
+           available to a remotely located observer.                                 [4 marks]
+
+           Answers may include:
+           • data is uploaded – to a web site or an FTP account
+           • data is periodically e-mailed – to a pre-defined e-mail address
+           • data is wirelessly transmitted – by means of an attached hardware system
+           • any reference to P2P methods or example of file sharing software (if in doubt,
+             look it up on Wikipedia)
+           • it allows the observer to log into the local machine – via the Internet
+             or Ethernet, and access the logs stored on the target machine.
+
+           Do not allow just “Internet” or “network”.
+
+           Award [1 mark] for two techniques that are identified up to a maximum
+           of [2 marks]. Award an additional [1 mark] for any two descriptions up to
+           a maximum of an additional [2 marks]. Award a maximum of [4 marks] for
+           the answer.
+
+     (c)   Explain two reasons why a network administrator might install a keylogger.         [4 marks]
+
+           Answers may include:
+           • to monitor the use of a machine when the user is not present
+           • to monitor a user’s activity
+           • to recover data in the event of a failure
+           • to monitor software use
+           • to monitor system performance
+           • to monitor system usability
+           • to assist in providing technical help.
+
+           For the first two valid reasons award [1 mark] for each reason identified and
+           [1 mark] for it explained up to a maximum of [2 marks].
+                                                 –6–              N10/3/ITGSX/BP1/ENG/TZ0/XX/M
+
+
+3.   (a)   (i)    A query is applied to the data shown in the table above using
+                  the following condition:
+
+                  date_of_arrival>24.05.09 AND number_nights=8
+
+                  Identify the number of records generated as a result of this query.   [1 mark]
+
+                  1
+
+           (ii)   A query is applied to the data shown in the table above using
+                  the following condition:
+
+                  date_of_arrival>24.05.09 OR number_nights=8
+
+                  Identify the number of records generated as a result of this query.   [1 mark]
+
+                  3
+
+     (b)   Describe two ways in which each record in the data table on the previous
+           page could be uniquely identified.                                       [4 marks]
+
+           Answers may include:
+           • combined key
+           • date_of_arrival and room_number.
+
+           Award [1 mark] for each of the above points up to a maximum of [2 marks].
+
+           • create a new field
+           • unique reference number / ID / other suitably named unique field.
+
+           Do not allow telephone numbers or e-mail addresses.
+
+           Award [1 mark] for each of the above points up to a maximum of [2 marks].
+                                              –7–                N10/3/ITGSX/BP1/ENG/TZ0/XX/M
+
+
+(c)   Many booking agencies can access the hotel bookings database
+      simultaneously. Explain how the integrity and the security of the data can
+      be maintained.                                                             [4 marks]
+
+      Answers may include:
+      Integrity
+      • validation
+      • examples of relevant validation
+      • any correct comment about verification
+      • limited options available on data entry form
+      • record locking
+      • make record read-only if open to another agent.
+
+      Security
+      • limited access to parts of the database needed
+      • login ID / password protected
+      • access limited to certain IP addresses
+      • encryption – use of keys.
+
+      [1 mark]
+      A limited response that indicates very little understanding of the topic.
+
+      [2–3 marks]
+      A reasonable description, although the answer may lack appropriate reasoning at
+      the lower end of the band. The candidate may correctly refer to either integrity or
+      security.
+
+      [4 marks]
+      A clear, detailed explanation of the issue with reasons. The candidate must
+      clearly demonstrate an understanding of the difference between integrity
+      and security.
+                                                  –8–                N10/3/ITGSX/BP1/ENG/TZ0/XX/M
+
+
+4.   (a)   Define the term computer model.                                                  [2 marks]
+
+           Answers may include:
+           • a mathematical/digital representation
+           • of the functioning of a system / real-life scenario
+           • in the form of a computer program
+           • used as the basis of a computer simulation.
+
+           Do not allow answers that imply it is the same thing as a computer simulation.
+
+           Award [1 mark] for any of the above points up to a maximum of [2 marks].
+
+     (b)   A student wishes to create an animated movie that starts with Image 1 and
+           ends with Image 2.
+
+           Describe the processes by which this computer model can be used to generate
+           a sequence of images to create an animated movie.                           [4 marks]
+
+           Answers may include:
+           • input value for snow density
+           • input value for total time (length of animated movie)
+           • input value for the time intervals
+           • input value for wind speed/direction
+           • capture images at set time intervals
+           • run model with image
+           • until enough snow density is reached.
+
+           Award [1 mark] for any of the above points up to a maximum of [4 marks].
+
+     (c)   Explain two factors that would contribute to the accuracy of this
+           computer model.                                                   [4 marks]
+
+           Answers may include:
+           • enough factors / sufficient data incorporated
+           • the factors used are well understood
+           • the factors used are correctly represented mathematically
+           • the factors used represent reality
+           • the data input is as accurate as possible.
+
+           For the first two valid factors award [1 mark] for each factor identified and
+           [1 mark] for it explained up to a maximum of [2 marks].
+

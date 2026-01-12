@@ -1,0 +1,179 @@
+N12/5/COMSC/SP2/ENG/TZ0/XX
+
+
+
+
+     88127014
+
+COMPUTER SCIENCE
+STANDARD LEVEL
+PAPER 2
+
+Friday 9 November 2012 (morning)
+
+1 hour 30 minutes
+
+
+INSTRUCTIONS TO CANDIDATES
+
+•   Do not open this examination paper until instructed to do so.
+•   Answer all the questions.
+•   A clean copy of the Computer Science case study is required for this paper.
+•   The maximum mark for this examination paper is [70 marks].
+
+
+
+
+8812-7014                                                                                             4 pages
+                                                              © International Baccalaureate Organization 2012
+                                                      –2–                    N12/5/COMSC/SP2/ENG/TZ0/XX
+
+Answer all the questions.
+
+1.    Consider the array  dArray and program fragment shown below.
+
+                                       [0]   [1]     [2]      [3]    [4]     [5]
+                         dArray         7        2    9       –3         4    1
+
+      n = 6;
+      for (int i = 1; i < n; i = i + 1)
+      {
+        if (dArray[i] < dArray[i – 1])
+        {
+          int t = dArray[i];
+          dArray[i] = dArray[i – 1];
+          dArray[i – 1] = t;
+        }
+      }
+
+      (a)   Copy and complete the following table showing the contents of the array  dArray
+            after each pass through the loop.                                                  [5 marks]
+
+                   Original     7            2            9         –3        4      1
+
+                   1st pass
+
+                   2nd pass
+                     …
+
+
+
+
+      (b)   Describe the results of running the code fragment.                                 [2 marks]
+
+      (c)   Construct a method  doIt(int[] dArray) that takes an array of any size as
+            a formal parameter and which contains the code fragment, setting a reasonable
+            value for the variable  n based on the size of the array.  The method should
+            return the number of times the condition  dArray[i] < dArray[i – 1] is true.       [7 marks]
+
+      (d)   Explain why the method call  doIt(dArray) is able to change the contents of
+            the array  dArray.                                                                 [2 marks]
+
+      (e)   Construct a method that will repeatedly call the method  doIt() until it
+            returns zero.                                                                      [2 marks]
+
+      (f)   State the number of times the method  doIt() will be called if the values in the
+            array  dArray  are in:
+
+            (i)     ascending order;                                                            [1 mark]
+
+            (ii)    descending order.                                                           [1 mark]
+
+8812-7014
+                                                              –3–               N12/5/COMSC/SP2/ENG/TZ0/XX
+
+2.    A taxi firm has twenty different locations (stands) in the town where its taxis can wait
+      for passengers.
+
+      Each taxi has an onboard Global Positioning System (GPS) device which provides
+      the present location of that taxi as two coordinates: latitude (lat) and longitude (long).
+      With this information, it is possible to calculate the distance to a given destination.
+
+                                    lat2                         destination
+
+                                    lat1               taxi
+
+
+                                               long1          long2
+
+      (a)     State the location of the taxi as a pair of coordinates.                              [1 mark]
+
+      An object of class type  Location defines the coordinates of a location.
+      public class Location
+      {
+        double latitude;
+        double longitude;
+            // constructor
+      }
+
+      (b)     Construct a constructor method that takes two  double arguments to initialize
+              the latitude and longitude coordinates of a new  Location object.                    [3 marks]
+
+      The distance between location A and location B within the town is approximated by
+                                   ( (lat − lat ) + (long − long ) ) .
+                                           A   B
+                                                   2
+                                                                A       B
+                                                                            2
+
+
+
+      (c)     Construct the  distance(Location A, Location B) method, that returns the
+              distance between two locations.  You can use the method  sqrt() to calculate
+              the square root.                                                                     [3 marks]
+
+      A computer onboard the taxi receives the taxi’s current position from the GPS.  
+      It also has a file containing the locations of all the taxi stands.  The array  AllStands
+      contains the locations of all twenty taxi stands.
+
+      (d)     Construct the  closest(Location[] AllStands, Location B) method that
+              searches through the array  AllStands and returns the index of the point closest
+              to location B.  You should use the  distance() method from part (c).                 [6 marks]
+
+      After taking a passenger to their destination, the taxi must return to a stand.
+
+      (e)     Explain how the onboard computer could provide the driver with a list of the five
+              closest taxi stands ordered by their distance from that taxi’s present location.     [5 marks]
+
+      In some cases it might take longer to reach the closest taxi stand than to reach one of
+      the other stands.
+
+      (f)     Outline one reason why this may occur.                                               [2 marks]
+
+8812-7014                                                                                          Turn over
+                                                    –4–            N12/5/COMSC/SP2/ENG/TZ0/XX
+
+3.    This question requires the use of the case study.
+
+      (a)   State two differences between Wi-Fi and WiMAX.                                [2 marks]
+
+      (b)   State two differences between Wi-Fi and Bluetooth.                            [2 marks]
+
+      (c)   Explain two reasons why a mobile phone designer might choose to provide a
+            keyboard instead of a touch screen.                                           [4 marks]
+
+      (d)   Explain two ways in which using a mobile phone to link an ambulance to a
+            hospital could compromise the privacy of a patient.                           [4 marks]
+
+      (e)   Outline two ways in which data interception can occur when using a
+            mobile device.                                                                [4 marks]
+
+      (f)   Outline two advantages of not restricting the development of apps to the
+            manufacturers of mobile devices.                                              [3 marks]
+
+      (g)   Describe how social engineering is used to persuade mobile device users to
+            reveal personal information.                                                  [4 marks]
+
+      (h)   Identify the type of memory in which the software for controlling a mobile
+            device is most likely to be stored.                                           [1 mark]
+
+      Many employers are providing their employees with mobile devices so that they can
+      be connected to their work 24/7.
+
+      (i)   Discuss the effects of this on the employee.                                  [6 marks]
+
+
+
+
+8812-7014
+

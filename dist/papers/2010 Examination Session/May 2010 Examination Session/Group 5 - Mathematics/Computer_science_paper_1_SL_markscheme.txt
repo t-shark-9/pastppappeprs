@@ -1,0 +1,288 @@
+M10/5/COMSC/SP1/ENG/TZ0/XX/M+
+
+
+
+
+                   MARKSCHEME
+
+
+                           May 2010
+
+
+
+                COMPUTER SCIENCE
+
+
+
+                      Standard Level
+
+
+
+                            Paper 1
+
+
+
+
+10 pages
+                              –2–           M10/5/COMSC/SP1/ENG/TZ0/XX/M+
+
+
+
+
+This markscheme is confidential and for the exclusive use of
+examiners in this examination session.
+
+It is the property of the International Baccalaureate and must not
+be reproduced or distributed to any other person without the
+authorization of IB Cardiff.
+                                                 –5–            M10/5/COMSC/SP1/ENG/TZ0/XX/M+
+
+
+Subject Details:             Computer Science SL Paper 1 Markscheme
+Mark Allocation
+
+Section A:    Candidates are required to answer all questions. Total 30 marks.
+Section B:    Candidates are required to answer all questions. Total 40 marks.
+              Maximum total = 70 marks.
+
+General
+
+A markscheme often has more specific points worthy of a mark than the total allows. This is intentional.
+Do not award more than the maximum marks allowed for that part of a question.
+
+When deciding upon alternative answers by candidates to those given in the markscheme, consider the
+following points:
+
+      Each statement worth one point has a separate line and the end is signified by means of a
+        semi-colon (;).
+
+      An alternative answer or wording is indicated in the markscheme by a “/”; either wording can
+        be accepted.
+
+      Words in ( … ) in the markscheme are not necessary to gain the mark.
+
+      If the candidate’s answer has the same meaning or can be clearly interpreted as being the
+        same as that in the markscheme then award the mark.
+
+      Mark positively. Give candidates credit for what they have achieved and for what they have
+        got correct, rather than penalising them for what they have not achieved or what they have got
+        wrong.
+
+      Remember that many candidates are writing in a second language; be forgiving of minor
+        linguistic slips. In this subject effective communication is more important than grammatical
+        accuracy.
+
+     Occasionally, a part of a question may require a calculation whose answer is required for
+        subsequent parts. If an error is made in the first part then it should be penalized. However, if
+        the incorrect answer is used correctly in subsequent parts then follow through marks should
+        be awarded. Indicate this with “FT”.
+                                                   –6–             M10/5/COMSC/SP1/ENG/TZ0/XX/M+
+
+
+                                              SECTION A                                   Total: [30 marks]
+
+1.   Award up to [2 marks max].
+     A list of available tools/hardware/software etc.;
+     Facilities;
+     Communication;
+     People available;
+     Schedule for the next stage;                                                                [2 marks]
+
+
+2.   (a)   Any of the following would be acceptable.
+           JPEG (JPG), GIF, PNG                                                                   [1 mark]
+
+     (b)   Award [2 marks] for any of the following with some elaboration.
+           Size is small enough for upload/download
+           Compatibility
+           Quality                                                                               [2 marks]
+
+
+3.   (a)   11000                                                                                  [1 mark]
+
+     (b)   101000                                                                                 [1 mark]
+
+     (c)   0101 1111                                                                             [2 marks]
+
+
+4.   Award up to [2 marks max].
+     The ALU receives data to be processed;
+     Performs arithmetical;
+     And logical operations;
+     (Uses logic gates) to perform the calculations;
+     (Uses logic gates) to perform comparisons;
+     Returns the answer to the accumulator / (output registers);                                 [2 marks]
+
+
+5.   (a)   Sequential access requires accessing one item after the other in the file;             [1 mark]
+
+     (b)   Direct access means any item can be accessed directly without reading through
+           the preceding items;                                                                   [1 mark]
+
+
+6.   (a)   Award [2 marks] for the outline of a suitable application.
+           Example:
+           To run a heating system which heats or not according to the ambient temperature.      [2 marks]
+
+     (b)   Award [1 mark] each for suitable inputs and outputs.
+           Would need to input the temperature;
+           And output heater On or Off;
+
+           Do not accept physical inputs or outputs (i.e. water instead of water level etc.).    [2 marks]
+                                                   –7–             M10/5/COMSC/SP1/ENG/TZ0/XX/M+
+
+
+7.    Private class members can only be accessed from within the class (in which they
+      are defined);
+      Public class members can be accessed from outside the class;                    [2 marks]
+
+
+8.    (a)   Award [1 mark] for suitable macro and [1 mark] for appropriate package up to
+            [2 marks max].
+            Example:
+            A macro to clear/update entries in a spreadsheet;
+            A macro to type a name using a hotkey in a word processor;
+            Creating a circle for a given radius in a graphics package;                  [2 marks]
+
+      (b)   Award [1 mark] for each suitable advantage.
+            Example:
+            Saves time as code does not have to be reproduced;
+            Portability – can be used again (sometimes across different applications);
+            Adaptability – can easily be changed to suit needs;                                    [2 marks]
+
+
+9.    Award up to [3 marks max].
+      Groups of bits are added before transmission and the sum appended to the group;
+      When the data is received the actual sum is compared with the check sum;
+      If the two are the same it is assumed that the data has not been corrupted;
+      Otherwise a re-send would be requested;                                                      [3 marks]
+
+
+10.   Accept any reasonable answers, given that characteristics evolve rapidly.
+
+      Award up to [2 marks max] for an appropriate application of each with reference to backup.
+      Example:
+      Tape could be used for regular backup of large amounts of data, flash memory to back
+      up immediately when needed.
+
+      Award up to [2 marks max] for the advantages/disadvantages of each.
+      Example:
+      Flash memory is more portable between machines – tape has large capacity and can be
+      programmed to back up as a batch job.                                               [4 marks]
+                                                    –8–           M10/5/COMSC/SP1/ENG/TZ0/XX/M+
+
+
+                                                SECTION B                                   Total: [40 marks]
+11.   (a)   Card reader;
+            Barcode scanner;                                                                       [2 marks]
+      (b)   Scanner barcode converted to number;
+            Number related to key field of record for item;                                        [2 marks]
+      (c)   Award up to [4 marks max].
+            Card swiped at checkout (could be checked that is valid – but not essential);
+            Each item scanned and price and any discount returned from server;
+            Total calculated;
+            Bill printed with items listed;
+            Price and discount against each item;                                                  [4 marks]
+      (d)   Award [2 marks] for a suitable suggestion elaboration.
+            Example 1:
+            If prices changed whilst the store was open to customers, customers would see a
+            change of prices between selecting an item and paying for it;
+            Example 2:
+            It would be a better use of system resources as the system would be busy when the
+            store were open and idle when closed;                                             [2 marks]
+                                                                                            Total: [10 marks]
+
+12.   (a)   (i)    Ethernet or wireless within college;                                             [1 mark]
+            (ii)   This would depend on the connection over Internet of the student;
+                   (Could be ADSL via telephone line, cable, wireless to home router)               [1 mark]
+      (b)   (i)    Everything would be password protected;
+                   Student and teacher would have to logon to the network with username and
+                   password access to the students file with different permissions;
+                   Document read only to teacher;                                           [3 marks]
+            (ii)   Award [1 mark] for a suitable system.
+                   Teacher can email with comments;
+                   Could be a comment in the same directory;                                        [1 mark]
+      (c)   Award [2 marks] for suitable method of controlling data storage and [2 marks]
+            for suitable method of controlling print services.
+            Examples:
+            Amount of storage allocated in advance and if this is exceeded a warning message
+            is given and the student needs to delete unwanted files before able to save again.
+            Log taken of print access and then analysed for amount used, once over limit
+            printing is denied when the user attempts to print.
+            Different types of users may have different storage needs which the server will
+            meet by allocating different amounts of storage based on policies set by
+            administrators.                                                                 [4 marks]
+                                                                                            Total: [10 marks]
+                                                   –9–            M10/5/COMSC/SP1/ENG/TZ0/XX/M+
+
+
+13.   (a)
+             name       j   c       student[c] == name student[c]          grade[c]
+             Archie     0   0       false              Pietro              7
+             "          "   1       false              Michelle            4
+             "          "   2       true               Archie              5
+             "          2   3       false              Sol Me              2
+             "          "   4       false              Dyna                5
+             "          "   5       false              Clara               9
+
+            Award [1 mark] for each row. Accept j=2 in the third row.                        [4 marks]
+
+      (b)   (i)    Award [1 mark] for either of the following.
+                   2nd loop will attempt to reach student[6];
+                   2nd loop will give out of bounds error;                                    [1 mark]
+                   Also accept == cannot be used to compare strings;
+
+            (ii)   Award [1 mark] for either of the following.
+                   Logical error;
+                   Runtime error;                                                             [1 mark]
+
+      (c)   Change the loop boundary;
+            To c < 5;
+            or
+            Change string comparison: student[c].equals(name)                                [2 marks]
+
+      (d)   Award [2 marks] for an improvement in efficiency.
+            Example:
+            Stop 1st loop when found by introducing a boolean variable found.                [2 marks]
+
+                                                                                      Total: [10 marks]
+                                                  – 10 –          M10/5/COMSC/SP1/ENG/TZ0/XX/M+
+
+
+14.   (a)   Award [2 marks] for a suitable method elaborated.
+            Example:
+            Interviews with personnel;
+            To see how the process works at the moment/analyse the essential parts of
+            the system;
+
+            Watch the process as it works at the moment;
+            To see the strong and weak parts of the current system;
+
+            Research other automated systems;
+            To learn from other systems;                                                       [2 marks]
+
+      (b)   Award [2 marks] for a suitable description.
+            Example:
+            More than one prototype allows the factory to choose one which is most suitable;
+            Means that a selection could be made from more than one – giving more flexibility;
+            Increased dialogue between user and computer company will improve final product; [2 marks]
+
+      (c)   Award [1 mark] for each advantage up to [2 marks max]. To receive full marks,
+            at least one of the advantages must be unique to the use of multiple (as opposed to
+            single) prototypes.
+            Example:
+            Large system with a lot of coding;
+            Makes the job quicker as more than one programmer can be used;
+            Helps in debugging as separate parts can be independently tested;                   [2 marks]
+
+      (d)   Award [2 marks] for each implication.
+            Example:
+            Employment – some people will lose their jobs;
+            State of job will change and need new skills;
+
+            There are many and mostly involve the well being of the people employed
+            (changed conditions/new skills/redundancy) as opposed to increased efficiency
+            and output for the factory.                                                   [4 marks]
+
+                                                                                       Total: [10 marks]
+

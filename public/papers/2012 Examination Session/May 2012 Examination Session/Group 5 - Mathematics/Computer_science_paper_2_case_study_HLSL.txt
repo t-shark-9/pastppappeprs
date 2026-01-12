@@ -1,0 +1,558 @@
+M&N12&13/5/COMSC/BP2/ENG/TZ0/XX/CS
+
+
+
+
+COMPUTER SCIENCE
+CASE STUDY: SMARTPHONES
+
+
+For use in May 2012, November 2012, May 2013 and November 2013
+
+
+
+
+INSTRUCTIONS TO CANDIDATES
+
+ Case study booklet required for higher level paper 2 and standard level paper 2 computer
+  science examinations.
+
+
+
+
+                                                                                               14 pages
+                                                        © International Baccalaureate Organization 2011
+                                                                                                                 – 2 – M&N12&13/5/COMSC/BP2/ENG/TZ0/XX/CS
+
+Contents
+
+Introduction. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 3
+Convergence of Technologies. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 3
+Fundamentals. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 4
+Communication . .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 5
+      Bluetooth. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 5
+      Other Communication Technologies. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 6
+Interfaces . .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 7
+      Keyboard . .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 7
+      Touch screen. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 7
+Generations. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 8
+Security. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 9
+Smartphone Applications. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 10
+Effects on Society . .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 11
+Welcome to the Future . .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 12
+Appendix I – Abbreviations used in the case study . .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 13
+Appendix II – Additional terminology to the guide. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 13
+Appendix III – Bibliography. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 14
+
+
+
+
+    The IB respects the principles of intellectual property and makes strenuous efforts to identify and obtain
+    permission before publication from rights holders of all copyright material it uses. It is grateful for
+    permissions received for material used in this publication and will be pleased to correct any errors or
+    omissions at the earliest opportunity.
+                                                     – 3 – M&N12&13/5/COMSC/BP2/ENG/TZ0/XX/CS
+
+Introduction
+This case study is intended to act as a starting point for investigating a number of topics related to the use
+of mobile devices.  These include:
+•   the technology underpinning mobile devices
+•   the application and evolution of mobile devices in society
+•   social and ethical issues, such as security and privacy, relating to the use of mobile devices
+•   independent research linked to the additional terminology in this case study.
+
+Mobile devices have become essential requirements for people living in the modern world.  Whether it be
+for business men and women keeping track of appointments or for working on the move, teenagers keeping
+in (almost permanent) touch with friends or relaxing to music, or simply as a must-have fashion accessory,
+the mobile device in its various forms has become a prominent symbol of today’s world.  It is advances
+in technology coupled with our insatiable desire for communication that has driven the evolution from
+the early days of the palm top computer to today’s smartphone and, no doubt, to more complex forms in
+the future.
+
+Convergence of Technologies
+
+                                               Mobile Phone
+                         Digital Camera                            Mp3/4 Player
+
+
+
+                          PIM                                                  Web Browser
+
+                                            Smartphone
+                   Wireless                                                    E-mail Client
+                  Credit Card
+
+
+                              Direct links                         What next?
+                              with social        Palm-Top
+                               networks          Computer
+
+
+
+
+                                                                                                     Turn over
+                                                          – 4 – M&N12&13/5/COMSC/BP2/ENG/TZ0/XX/CS
+
+Fundamentals
+Memory
+
+Mobile devices have the following
+types of memory built in:
+•   ROM (firmware)
+•   Cache Memory
+•   RAM
+•   Flash Memory.
+
+Additional memory is also provided
+for some devices through the use of
+memory cards.
+
+
+Operating Systems
+In comparison to the dominance that
+Microsoft experiences with computer
+operating systems (OS), there is no
+such dominance with mobile devices,
+as illustrated by the accompanying
+graph, which shows the share of sales
+in August 2010.  The most popular OS                [Source: www.allaboutsymbian.com/features/item/Keeping_It_Clean.php]
+is Symbian, which is an open-source
+development.                                                  2.4 % 1.8 %                               RIM
+                                                                               18.2 %
+                                                17.2 %
+                                                                                                        Apple
+Processor
+                                                                                                        Symbian
+The vast majority of mobile devices 5.0 %
+have processors based on the ARM                                                         14.2 %         Windows Mobile
+family of 32-bit RISC architecture.                                                                     Android
+One of the principle features of
+this architecture is very low power                                                                     Linux
+consumption.   It was estimated that
+90 % of all mobile phones operating in                                                                  Other
+                                                                 41.2 %
+2010 would incorporate this design.1
+                                                       [Source: adapted from www.gartner.com/it/page.jsp?id=1421013]
+
+
+
+
+1
+    www.reuters.com/article/idUKTRE6111TA20100202
+                                                                 – 5 – M&N12&13/5/COMSC/BP2/ENG/TZ0/XX/CS
+
+Communication
+Mobile devices rely on their ability to communicate both with each other and with fixed devices such as
+personal computers.  At times this communication is direct, but at other times a mobile phone (cell phone)
+network is used.   There are various methods of communication, each with its own protocol, and each
+providing certain advantages and disadvantages when compared with one another. 
+
+
+Bluetooth2
+A common means of communication is Bluetooth, which uses radio waves in the frequency band
+2.402 GHz – 2.480 GHz to allow Bluetooth enabled devices to automatically connect with each other.  
+Once a connection is made, data can be transferred in either direction, although this will depend upon the
+security mode selected for each device.  One important use for this is the synchronization of data between
+two devices.
+
+The power consumed in communicating is very low and consequently the range is limited.   However,
+signals can pass through the walls of a building as line-of-sight is not required.
+
+When a connection is made between two or more devices a piconet (personal area network) is formed.  
+Several piconets can exist within the same area without interfering with each other.  This is achieved both
+by frequency hopping and by the use of device addresses.
+
+An example of multiple piconets is shown below.
+
+
+                                    s                Piconet B
+
+                                             s
+                                                                             • temporary network
+                m           s/m              s
+                                                                             • up to 8 active devices (as of 2010)
+
+                                                                             • master (m) controls the piconet
+                s                  s                                           and the slaves (s)
+                                                        m
+       Piconet A                                                             • each Bluetooth device can act as
+                                        s                                      both a slave in one piconet and a
+                                                                               master in another
+                                                 s        s
+
+                                              Piconet C
+     [Source: http://developers.sun.com/mobility/midp/articles/bluetooth1]
+
+
+The number of devices that incorporate Bluetooth has increased dramatically since its conception,
+as are the uses to which they are put.  These include the use of Bluetooth headsets and Bluetooth enabled
+GPS devices.
+
+2
+    http://electronics.howstuffworks.com/bluetooth2.htm
+
+
+                                                                                                              Turn over
+                                                  – 6 – M&N12&13/5/COMSC/BP2/ENG/TZ0/XX/CS
+
+Other Communication Technologies
+In addition to Bluetooth there are other means of communication between mobile devices, each having their
+own advantages and disadvantages.  These include the following:
+•   Wi-Fi
+•   Mobile Phone (Cell Phone) Networks
+•   Infra-Red
+•   USB
+•   Ethernet
+•   WiMAX
+•   Firewire.
+                                                   – 7 – M&N12&13/5/COMSC/BP2/ENG/TZ0/XX/CS
+
+Interfaces
+People will not pay for complex technology if they are unable to use it.  The means of interacting with their
+mobile device has become as important a factor in buying it as the functions that it actually carries out.  
+Consequently, companies have devoted considerable time and money into researching ways of providing
+easy access to multiple functions on a device small enough to fit into your pocket.  The keyboard and the
+touch screen have become the two most common interfaces.
+
+
+Keyboard
+A variety of different keyboards have been incorporated into most mobile devices (although some are
+touch screen only).  Manufacturers have tried to overcome the limitations of space with various designs
+or techniques, some of which are listed below:
+•   detachable keyboards
+•   scroll wheel
+•   thumb wheel
+•   multi-touch.
+
+
+Touch screen
+The touch screen has played an important role since the days of the original PDAs and has appeared in
+various incarnations ever since.
+
+The original touch screens provided a limited number of options but modern versions provide multi-level
+menus and the ability to “scroll” through various screens.
+
+Styluses have been used with touch screens combined with a form of handwriting recognition (Graffiti).
+
+
+
+                                                            The iPhone 4 includes a panel laminated
+                                                            on the glass which uses electrical
+                                                            fields to sense the user’s touch.   It has
+                                                            a multi-touch feature that can register
+                                                            simultaneous touches.   The user can
+                                                            bring up different information or menus
+                                                            by actions such as swiping, tapping and
+                                                            pinching.   Information is displayed on
+                                                            the panel using a “Retina display”.
+
+                                                            This display contains a high pixel density
+                                                            (326 pixels per inch) that provides clear,
+                                                            sharp images.3
+
+
+
+
+3
+    www.apple.com/iphone/design
+
+
+                                                                                                 Turn over
+                                                           – 8 – M&N12&13/5/COMSC/BP2/ENG/TZ0/XX/CS
+
+Generations
+The communications industry has found it convenient to refer to major advances in mobile phone
+technology in terms of generations, a generation appearing approximately every 10 years.  The International
+Telecommunication Union4 has attempted to standardize the industry by detailing the features expected in
+each generation, some of which are listed in the table below.
+
+    1G        1979      • First generation deals with the analog transmission of data.
+
+    2G        1991      • Digital transmission of data.
+                        • Speed in terms of Kilobits per second.
+
+    3G        2001      • Much faster speeds (in terms of Megabits per second).
+                        • Good for multimedia/video streaming.
+                        • Data sent in packets.
+                        • Simultaneous use of speech and data services.
+                        • New frequency bands, higher data rates and non-backwards-compatible
+                          transmission technology.
+                        • 3G networks offer greater security than their 2G predecessors.  By allowing the
+                          equipment to authenticate the network it is attached to, the user can be sure the
+                          network is the intended one and not an impersonator.
+
+    4G        2011      • Speed in terms of Gigabits per second.
+                        • All networks will be IP packet-switched.
+
+                  [Source: adapted from www.brighthub.com/mobile/emerging-platforms/articles/30965.aspx and
+                            http://asia.cnet.com/reviews/mobilephones/0,39050603,39242481-2,00.htm]
+
+
+
+New technologies can either be known as:
+
+• a revolution (not backwards-compatible so a new frequency spectrum is needed)
+• an evolution (which can use the same frequency-bands).
+
+
+
+4
+    www.itu.int
+                                                             – 9 – M&N12&13/5/COMSC/BP2/ENG/TZ0/XX/CS
+
+Security
+Smartphones are as susceptible as normal computers to attacks from outside sources including viruses,
+phishing and social engineering efforts.  However, as no one operating system dominates the smartphone
+market, data is more likely to be compromised by leaving the device in the back of a taxi than through
+virus attacks.5
+
+
+
+
+                                                   Symbian Skull Virus
+
+                                                   This virus produces a flashing skull animation in the
+                                                   background regardless of what application is being used.6
+
+
+
+
+Following the advice given below will reduce the chances of data loss:
+•   encrypt all data that a smartphone receives
+•   clear all caches after each VPN (Virtual Private Network) session
+•   choose one with a “kill” switch
+•   password before opening applications such as e-mail, web browser
+•   keep data permanently in your data centre, not on the smartphone
+•   some companies can wipe the data off your stolen smartphone remotely
+•   only run apps approved by the phone company
+•   do not use unsecured Wi-Fi networks (to avoid “man-in-the-middle” attacks)
+•   do not “jail-break” your smartphone.7
+
+
+
+5
+    http://news.cnet.com/8301-27080_3-10424759-245.html
+6
+    http://computer.howstuffworks.com/worst-computer-viruses5.htm
+7
+    http://news.cnet.com/8301-27080_3-10424759-245.html
+
+
+
+
+                                                                                                        Turn over
+                                                   – 10 – M&N12&13/5/COMSC/BP2/ENG/TZ0/XX/CS
+
+Smartphone Applications
+The smartphone manufacturers main target has been the general public (particularly the young)
+who want to be in touch whenever and wherever, and business people, many of whom now see their phone
+as indispensable in organizing their working lives.
+
+However the smartphone is increasingly finding its way into specialized markets, either by the manufacturers
+themselves customizing their units to a particular profession or fuelled by the application (apps) market
+which allow users to download specific software modules developed by independent companies.
+
+One such targeted market is the medical profession, which is fast swapping its pagers for smartphones.  
+Links to reference material have become standard aids for many doctors, but increasingly specialized
+applications are becoming available.  One such application not only alerts them to emergencies (as would
+a pager) but automatically accesses and displays information from the relevant patient’s files or lab results. 
+
+Others are able to link in with monitoring equipment that can send data from, for example, an ambulance
+that is bringing in a patient or images from equipment monitoring a pregnant woman in the hospital.
+
+However, there are concerns regarding privacy of data and data security with such applications.
+
+The diagram below shows a small selection of the different uses of a smartphone.
+
+
+
+                         Personal Use                          General Business Use
+
+
+
+                                                USERS
+
+                             Educators                               Motorists
+
+                                            Specialized Use
+
+                               Doctors                                Police
+
+                                                  Scientists
+                                                                – 11 – M&N12&13/5/COMSC/BP2/ENG/TZ0/XX/CS
+
+Effects on Society
+Mankind’s development has been driven in part by social instincts, the desire for improving quality of life
+and the need for better and better communication.  Rapid technological advances, particularly over the last
+two decades, have led to the ability to be connected 24/7.  However, opinion is divided on the effect that
+this has had on the quality of life of users.  Consider the following articles.
+
+Article 1
+
+    Always On: One Third of Employees Feel the Need to Stay Connected 24/7
+    For a lot of us, the Internet has made it possible to work from anywhere and connect to work at any time.  
+    Without a doubt, this 24/7 connectivity is both a blessing and a curse.  According to a new survey by
+    web conferencing firm InterCall, 30 % of workers in the U.S.  who use technology to do their jobs
+    feel the need to stay connected to work 24/7, even during weekends, breaks and holidays.  One in two
+    workers also say that taking time off is becoming increasingly challenging.
+
+    Clearly, the current economic climate isn’t helping employees to relax.  Almost 40 % of all respondents
+    noted that they are doing the job of two people because of the impact of the economic recession on
+    their company.   Today, 25 % of workers think that their supervisors expect them to be online and
+    connected to work after hours and that their job security depends on this.  Almost 15 % of respondents
+    say that they plan to attend at least one work-related call or web meeting during their next vacation and
+    17 % say that it is frowned upon if they don’t connect to work during their vacations.
+
+                   [Source: from an article by Frederic Lardinois on the website www.readwriteweb.com, 20 April 2010]
+
+
+Article 2
+
+    My Mobile Phone
+    “It’s right by my bed when I go to sleep and right by my bed when I wake-up and it’s like the first thing
+    I go to,” 15-year-old Sarah Matzkin told CNN.
+
+    “If someone responds right away, you’re like yay they responded and if someone responds two to three
+    hours later you’re like, what’s going on?”8
+
+
+
+8
+      http://connecttheworld.blogs.cnn.com/2010/04/20/are-you-addicted-to-your-mobile-phone
+
+
+
+
+                                                                                                                        Turn over
+                                                     – 12 – M&N12&13/5/COMSC/BP2/ENG/TZ0/XX/CS
+
+Welcome to the Future
+It would seem that today’s smartphone has everything: a combination of mobile phone, computer,
+web browser, camera, social networking device, amongst others, and at a size to fit in your pocket.  
+What more could you want?  Yet, in 10 years time, today’s “must-have” devices will be consigned to the
+trash can, to be replaced be new products of man’s ingenuity, fuelled by the knowledge that people will
+continually be seduced by the “next big thing”.
+
+Nobody can be completely sure of just how mobile devices such as the smartphone will evolve, but each
+company’s research teams will already have their own ideas about how the future might unfold.
+
+One such idea is Nokia’s concept phone, Nokia Morph9, which suggests how nanotechnology may become
+involved in transforming our phone into the ultimate fashion accessory.  Why should the phone look like a
+phone when it can become a bracelet, a pendant, or basically anything else that looks good?
+
+
+
+
+                                                                  Nokia Morph
+                                                                  •   flexible materials
+                                                                  •   transparent electronics
+                                                                  •   self-cleaning
+                                                                  •   charged by solar power
+                                                                  •   senses our environment
+
+
+
+
+                        [Source: www.nokiablog.nl]
+
+
+
+
+9
+    www.youtube.com/watch?v=IX-gTobCJHs
+                                          – 13 – M&N12&13/5/COMSC/BP2/ENG/TZ0/XX/CS
+
+Appendix I – Abbreviations used in the case study
+GHz – Gigahertz
+
+GPS – Global Positioning System
+
+IP    – Internet Protocol
+
+PIM – Personal Information Manager
+
+RISC – Reduced Instruction Set Computer
+
+USB – Universal Serial Bus
+
+VPN – Virtual Private Network
+
+
+Appendix II – Additional terminology to the guide
+1G, 2G, 3G, 4G
+“apps”
+backwards-compatible
+Bluetooth
+cells (in mobile phone networks)
+firewire
+frequency reuse
+frequency hopping
+Graffiti
+hot-spots
+infra-red
+“kill” switch
+“jail-break”
+“man-in-the-middle” attack
+multi-touch
+nanotechnology
+open-source
+PDA
+phishing
+piconet
+scroll wheel
+social engineering
+stylus
+synchronization
+thumb wheel
+USB connectors
+video streaming
+virtual private network
+Wi-Fi
+WiMAX
+
+                                                                           Turn over
+                                               – 14 – M&N12&13/5/COMSC/BP2/ENG/TZ0/XX/CS
+
+Appendix III – Bibliography
+All about Symbian.com
+URL:  www.allaboutsymbian.com/features/item/Keeping_It_Clean.php
+
+Apple
+URL:  www.apple.com
+
+ARM
+URL:  www.arm.com
+
+Blackberry
+URL:  http://na.blackberry.com/eng/devices
+
+Bluetooth
+URL:  www.bluetooth.com/English/Products/Pages/Bluetooth_Low_Energy_Technology_Advantages.aspx
+
+Cnet news
+URL:  http://news.cnet.com
+
+How Stuff Works
+URL:  http://electronics.howstuffworks.com/bluetooth2.htm
+
+Memory Breakthroughs Will Propel Smartphone Development
+URL:  www.smartphonemag.com/cms/_archives/Sep05/memory.aspx?page=0%2C1
+
+Smartphones
+URL:  www.pcworld.com/article/199243/a_brief_history_of_smartphones.html
+
+Smartphone security lacking at many businesses
+URL:  http://searchsecurity.techtarget.com/news/column/0,294698,sid14_gci1348589,00.html
+
+Smartphone security put on test
+URL:  www.bbc.co.uk/news/technology-10912376
+
+Symbian Ships Nearly 300,000 Devices A Day In Q2 2010.
+URL:  www.symbian.org/news-and-media
+
+Virus writers hit Google Android phones
+URL:  www.bbc.co.uk/news/technology-10928070
+
+What really is a Third Generation (3G) Mobile Technology
+URL:  www.itu.int/ITU-D/imt-2000/DocumentsIMT2000/What_really_3G.pdf
+

@@ -1,0 +1,211 @@
+/* Override Ketcher default styles to match design system */
+
+/* Main editor background */
+.ketcher-root,
+.Ketcher-root {
+  background-color: hsl(var(--background)) !important;
+  color: hsl(var(--foreground)) !important;
+}
+
+/* Toolbar styling */
+.ketcher-toolbar,
+.Ketcher-toolbar {
+  background-color: hsl(var(--card)) !important;
+  border-color: hsl(var(--border)) !important;
+}
+
+/* Button states */
+.ketcher-button,
+.Ketcher-button,
+button[class*="ketcher"],
+button[class*="Ketcher"] {
+  background-color: hsl(var(--secondary)) !important;
+  color: hsl(var(--secondary-foreground)) !important;
+  border-color: hsl(var(--border)) !important;
+}
+
+.ketcher-button:hover,
+.Ketcher-button:hover,
+button[class*="ketcher"]:hover,
+button[class*="Ketcher"]:hover {
+  background-color: hsl(var(--secondary) / 0.8) !important;
+}
+
+.ketcher-button.selected,
+.Ketcher-button.selected,
+.ketcher-button[class*="selected"],
+.Ketcher-button[class*="selected"] {
+  background-color: hsl(var(--primary)) !important;
+  color: hsl(var(--primary-foreground)) !important;
+}
+
+/* Panel backgrounds */
+.ketcher-panel,
+.Ketcher-panel,
+div[class*="ketcher-panel"],
+div[class*="Ketcher-panel"] {
+  background-color: hsl(var(--card)) !important;
+  border-color: hsl(var(--border)) !important;
+  color: hsl(var(--card-foreground)) !important;
+}
+
+/* Modal/Dialog styling */
+.ketcher-modal,
+.Ketcher-modal,
+div[class*="modal"] {
+  background-color: hsl(var(--popover)) !important;
+  color: hsl(var(--popover-foreground)) !important;
+  border-color: hsl(var(--border)) !important;
+}
+
+/* Canvas background */
+.ketcher-canvas,
+.Ketcher-canvas,
+canvas[class*="ketcher"],
+canvas[class*="Ketcher"] {
+  background-color: hsl(var(--background)) !important;
+}
+
+/* Input fields */
+input[class*="ketcher"],
+input[class*="Ketcher"],
+select[class*="ketcher"],
+select[class*="Ketcher"],
+textarea[class*="ketcher"],
+textarea[class*="Ketcher"] {
+  background-color: hsl(var(--input)) !important;
+  color: hsl(var(--foreground)) !important;
+  border-color: hsl(var(--border)) !important;
+}
+
+/* Dropdown menus */
+.ketcher-dropdown,
+.Ketcher-dropdown,
+div[class*="dropdown"] {
+  background-color: hsl(var(--popover)) !important;
+  border-color: hsl(var(--border)) !important;
+  box-shadow: var(--shadow-medium);
+}
+
+/* Menu items */
+.ketcher-menu-item,
+.Ketcher-menu-item,
+div[class*="menu-item"] {
+  color: hsl(var(--popover-foreground)) !important;
+}
+
+.ketcher-menu-item:hover,
+.Ketcher-menu-item:hover,
+div[class*="menu-item"]:hover {
+  background-color: hsl(var(--accent)) !important;
+  color: hsl(var(--accent-foreground)) !important;
+}
+
+/* Separator lines */
+.ketcher-separator,
+.Ketcher-separator,
+hr[class*="ketcher"],
+hr[class*="Ketcher"] {
+  border-color: hsl(var(--border)) !important;
+}
+
+/* Scrollbars */
+.ketcher-root ::-webkit-scrollbar,
+.Ketcher-root ::-webkit-scrollbar {
+  width: 8px;
+}
+
+.ketcher-root ::-webkit-scrollbar-track,
+.Ketcher-root ::-webkit-scrollbar-track {
+  background: hsl(var(--muted));
+}
+
+.ketcher-root ::-webkit-scrollbar-thumb,
+.Ketcher-root ::-webkit-scrollbar-thumb {
+  background: hsl(var(--muted-foreground) / 0.3);
+  border-radius: 4px;
+}
+
+.ketcher-root ::-webkit-scrollbar-thumb:hover,
+.Ketcher-root ::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--muted-foreground) / 0.5);
+}
+
+/* Hide unwanted Ketcher UI elements */
+
+/* Hide top menu items except fullscreen and undo/redo */
+.ketcher-root button[title="Open"],
+.ketcher-root button[title="Save"],
+.ketcher-root button[title="Save As"],
+.ketcher-root button[title="New"],
+.ketcher-root button[title="Paste"],
+.ketcher-root button[title="Copy"],
+.ketcher-root button[title="Cut"],
+.ketcher-root button[title="Settings"],
+.ketcher-root button[title="Help"],
+.ketcher-root button[title="About"],
+.ketcher-root button[title="Zoom In"],
+.ketcher-root button[title="Zoom Out"],
+.ketcher-root button[title="Layout"],
+.ketcher-root button[title="Clean Up"],
+.ketcher-root button[title="Calculate CIP"],
+.ketcher-root button[title="Check Structure"],
+.ketcher-root button[title="Calculated Values"],
+.ketcher-root button[title="3D Viewer"],
+.ketcher-root div[title="Open"] button,
+.ketcher-root div[title="Save"] button,
+.ketcher-root div[title="Settings"] button,
+.ketcher-root div[title="Help"] button,
+.ketcher-root div[title="About"] button,
+.ketcher-root [class*="zoom"],
+.ketcher-root [class*="Zoom"],
+.ketcher-root select[class*="molecules"],
+.ketcher-root [class*="dropdown"][class*="molecules"] {
+  display: none !important;
+}
+
+/* Hide left toolbar items */
+.ketcher-root button[title*="Stereochemistry"],
+.ketcher-root button[title*="S-Group"],
+.ketcher-root button[title*="R-Group"],
+.ketcher-root button[title*="Shape"],
+.ketcher-root button[title*="Enhanced Stereochemistry"],
+.ketcher-root button[title*="Reaction"],
+.ketcher-root button[title*="reaction"],
+.ketcher-root button[title="Add/Remove explicit hydrogens"],
+.ketcher-root button[title*="Arrow"],
+.ketcher-root button[title*="Plus"],
+.ketcher-root button[title*="Mapping"],
+.ketcher-root button[title*="Text"],
+.ketcher-root button[title*="Image"],
+.ketcher-root button[title*="Rotate"],
+.ketcher-root div[title*="Stereochemistry"],
+.ketcher-root div[title*="S-Group"],
+.ketcher-root div[title*="R-Group"],
+.ketcher-root div[title*="Shape"] {
+  display: none !important;
+}
+
+/* Hide items below arrow tool */
+.ketcher-root button[title="Rectangle Selection"],
+.ketcher-root button[title="Lasso Selection"],
+.ketcher-root button[title="Fragment Selection"] {
+  display: none !important;
+}
+
+/* Hide text editor toolbar items */
+.ketcher-root .editor-toolbar {
+  display: none !important;
+}
+
+/* Hide right panel extended table and items above it */
+.ketcher-root button[title*="Extended"],
+.ketcher-root button[title*="Template"],
+.ketcher-root button[title*="Functional Groups"],
+.ketcher-root button[title*="Salts and Solvents"],
+.ketcher-root button[title*="Periodic Table"],
+.ketcher-root button[title*="Generic"],
+.ketcher-root div[title*="Extended"],
+.ketcher-root div[title*="Template"] {
+  display: none !important;
+}

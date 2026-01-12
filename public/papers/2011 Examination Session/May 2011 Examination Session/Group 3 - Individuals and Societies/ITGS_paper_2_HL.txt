@@ -1,0 +1,273 @@
+M11/3/ITGSX/HP2/ENG/TZ0/XX
+
+
+
+
+     22115512
+
+Information technology in a global society
+HIGHER level
+PAPER 2
+
+Friday 6 May 2011 (morning)
+
+2 hours
+
+
+INSTRUCTIONS to candidates
+
+ Do not open this examination paper until instructed to do so.
+ Answer three questions.
+
+
+
+
+2211-5512                                                                                          8 pages
+                                                           © International Baccalaureate Organization 2011
+                                                      –2–                       M11/3/ITGSX/HP2/ENG/TZ0/XX
+
+Answer three questions.
+
+                               Area of impact: Business and employment
+
+1.    Kiva is a company that lends money to small businesses in the developing world. Details of each
+      business are displayed on the Kiva web site. New businesses wanting loans can sign up, at no cost,
+      and individuals who wish to lend money can register as lenders. Lenders can search the Kiva
+      database and choose a new business from countries such as Kenya and Vietnam.
+
+      Lenders transfer money to the Kiva web site in the form of a loan using PayPal or a credit card.
+      Lenders may lend as little as US$25 so a loan is usually shared by many lenders. The loan is
+      complete when the total of individual lenders’ loans equals the sum required by the business owner.
+      Provided the business is successful the business owner gradually repays each loan.
+
+      Regular electronic feedback is provided to the lenders on the status of their loans and the success
+      of the business. Lenders can also log in to the web site at any time and check current and past loans.
+      Download speeds vary and are often slow in developing countries. Lenders find information about
+      the progress of each loan useful and it makes them feel valued. This often encourages further loans.
+
+
+
+
+                                       [Source: www.kiva.org. Used with permission]
+
+
+
+
+                                                                (This question continues on the following page)
+
+
+
+
+2211-5512
+                                                      –3–                        M11/3/ITGSX/HP2/ENG/TZ0/XX
+
+(Question 1 continued)
+
+      (a)   The information about loans is stored in a relational database such as the one
+            illustrated below.
+
+
+              LENDERS                  LOANS                            RECEIVER_OF_LOAN
+                                                                        (i.e. BUSINESS)
+              Lender_ID                Loan_ID                          Business_ID
+              First_Name               Business_ID                      Business_Name
+              Family_Name              Lender_ID                        Business_Description
+              Street                   Amount_Loaned                    Contact_Name
+              City                     Date_Loaned                      Address
+              Country                                                   Phone_Number
+              Email_Address                                             Loan_Status
+              Payment_Method
+
+
+
+		          (i)    Identify the key field in the RECEIVER_OF_LOAN table.                              [1 mark]
+
+		          (ii)   Identify the data type for            the    field     Phone_Number    in   the
+                   RECEIVER_OF_LOAN table.                                                            [1 mark]
+
+      (b)   The database administrator wishes to produce an alphabetical list of lenders from
+            France who have contributed at least US$50 after 01/01/2001.
+
+            Describe the query that produces the list specified above.                                [4 marks]
+
+      (c)   The field Business_Description should not be included in the LOANS table
+            because this would lead to data redundancy.
+
+            Explain why this could lead to inaccuracies in the database.                              [4 marks]
+
+      (d)   “Kiva provides a data-rich, transparent lending platform. We are constantly
+            working to make the system more transparent to show how money flows
+            throughout the entire cycle, and what effect it has on the people and institutions
+            that lend, borrow and manage it along the way.”
+
+                                  [Source: www.kiva.org. Used with permission]
+
+
+		          Discuss what online services the Kiva web site could provide for effective online
+            reporting back to the lenders about the status of the recipient’s business and the
+            loan repayments.                                                                         [10 marks]
+
+
+
+
+2211-5512                                                                                            Turn over
+                                                      –4–                      M11/3/ITGSX/HP2/ENG/TZ0/XX
+
+                       Area of impact: Arts, entertainment and leisure / Health
+
+2.    The exercise watch is a device which detects physiological parameters (e.g. heart rate,
+      body temperature), concerned with an individual’s fitness. These parameters are sampled by sensors
+      and stored inside the watch in flash memory. Data can be uploaded to a web site in order to produce
+      a visual display of the user’s fitness. Once the memory inside the watch is full, data must be deleted.
+
+      Many people who exercise regularly use a device similar to the exercise watch shown below.
+      This acts as a stop watch and includes a timer which allows the user to time laps on a running track.
+
+      This exercise watch comes with a chest strap which communicates with the watch so the user can see
+      details of heart rate and calories burned. The heart rate can be recorded every five seconds.
+
+
+
+
+                                  [Source: www.garmin.co.uk. Reproduced with permission]
+
+
+
+
+                                                                (This question continues on the following page)
+
+
+
+
+2211-5512
+                                                       –5–                      M11/3/ITGSX/HP2/ENG/TZ0/XX
+
+(Question 2 continued)
+
+      Suppliers such as Garmin have training web sites and data can be uploaded once the exercise
+      is finished. The results can then be displayed as shown in the example below.
+
+
+
+
+                                   [Source: www.garmin.co.uk. Reproduced with permission]
+
+
+
+      (a)   Define the term sensor.                                                                 [2 marks]
+
+      (b)   Describe the steps involved in the transmission of the user’s heart rate data to the
+            exercise watch and then to the Garmin web site.                                         [4 marks]
+
+      (c)   Some users have seen unusual/unexpected information displayed on the watch.
+
+            Explain two possible causes of inaccuracies in the data.                                [4 marks]
+
+      (d)   Exercise watches have become very popular for athletes and individuals who
+            exercise regularly. Evaluate the features of this technology for the user.             [10 marks]
+
+
+
+2211-5512                                                                                          Turn over
+                                                        –6–                       M11/3/ITGSX/HP2/ENG/TZ0/XX
+
+                              Area of impact: Science and the environment
+
+3.    A government bureau of meteorology collects data from weather stations. This data is imported into
+      a database and displayed on a web site.
+
+      On the web site (Diagram 1) it is possible for a user to select a particular weather station, e.g. 23090,
+      and display data such as temperature, rainfall and other weather conditions, and to choose daily or
+      monthly statistics.
+
+      Diagram 1
+
+
+
+
+                               [Source: http://bom.gov.au. Commonwealth of Australia permission]
+
+
+
+
+                                                                  (This question continues on the following page)
+
+
+
+
+2211-5512
+                                                        –7–                       M11/3/ITGSX/HP2/ENG/TZ0/XX
+
+(Question 3 continued)
+
+      This data is also used for climatic modelling and is used by companies who need additional analysis
+      of the information provided. This data is stored in the form of spreadsheets.
+
+      When station 23090 is selected the screen displays a snapshot of data from Adelaide Hyde Park
+      (Diagram 2). Collection began in 1977 and continues to the present day.
+
+      Diagram 2
+
+
+
+
+                               [Source: http://bom.gov.au. Commonwealth of Australia permission]
+
+
+
+      (a)   Identify two methods of updating a database with data from a spreadsheet.               [2 marks]
+
+      (b)   A spreadsheet will be unreliable if data has been entered incorrectly.
+
+            Describe two ways to prevent the input of invalid data.                                 [4 marks]
+
+      (c)   The output from the spreadsheet (Diagram 2) contains valuable data for users of
+            the web site. Compare two different ways a user may choose to save copies of
+            this data to a personal computer (PC).                                                  [4 marks]
+
+      (d)   Many companies create their own spreadsheets so they can use the data from
+            the government bureau of meteorology web site in order to assist in their
+            decision-making. Results are often limited due to poor design, maintenance or
+            control of these spreadsheets.
+
+            Discuss the policies that a company can implement to overcome such problems.           [10 marks]
+                         Area of impact: Education / Politics and government
+
+2211-5512                                                                                           Turn over
+                                                           –8–                        M11/3/ITGSX/HP2/ENG/TZ0/XX
+
+
+4.    A government is donating money to high (secondary) schools in order to improve students’ access
+      to computers. The aim is to ensure that high (secondary) schools use the computers in the best
+      possible way. Some schools have already introduced mobile devices, such as personal digital
+      assistants (PDAs), netbooks and laptops instead of desktop personal computers (PCs).
+
+      Students may buy a laptop through the school which has applications pre-installed and is configured
+      to access the school network. The school also allows students to bring in their own private laptops.
+
+      Below is a diagram of part of a school network.
+
+
+
+
+                     [Source: adapted from http://creativecomputers.us/images/lan.gi, 19 September 2009]
+
+
+      (a)   Identify two steps that must be taken in order for students to be able to log in to
+            the school network shown in the diagram above.                                                  [2 marks]
+
+      (b)   Describe the role of the uninterruptible power supply (UPS) and the role of the
+            firewall shown in the diagram above.                                                            [4 marks]
+
+      (c)   Explain why a school may decide to spend their money on training and network
+            infrastructure before purchasing more hardware and software.                                    [4 marks]
+
+      (d)   In certain schools, students are able to purchase their own laptops which can be
+            brought into school and configured to access the school network. Evaluate the
+            school’s decision to allow this to happen.                                                     [10 marks]
+
+
+
+
+2211-5512
+

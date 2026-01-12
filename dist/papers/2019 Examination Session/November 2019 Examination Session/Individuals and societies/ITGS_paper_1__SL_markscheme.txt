@@ -1,0 +1,664 @@
+N19/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+
+
+                        Markscheme
+
+
+                         November 2019
+
+
+                 Information technology
+                    in a global society
+
+
+                          Standard level
+
+
+                               Paper 1
+
+
+
+16 pages
+                                           –2–                  N19/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+
+
+No part of this product may be reproduced in any form or by any electronic or
+mechanical means, including information storage and retrieval systems, without written
+permission from the IB.
+
+Additionally, the license tied with this product prohibits commercial use of any selected
+files or extracts from this product. Use by third parties, including but not limited to
+publishers, private teachers, tutoring or study services, preparatory schools, vendors
+operating curriculum mapping services or teacher resource digital platforms and app
+developers, is not permitted and is subject to the IB’s prior written consent via a license.
+More information on how to request a license can be obtained from
+http://www.ibo.org/contact-the-ib/media-inquiries/for-publishers/guidance-for-third-party-
+publishers-and-providers/how-to-apply-for-a-license.
+
+Aucune partie de ce produit ne peut être reproduite sous quelque forme ni par quelque
+moyen que ce soit, électronique ou mécanique, y compris des systèmes de stockage et
+de récupération d’informations, sans l’autorisation écrite de l’IB.
+
+De plus, la licence associée à ce produit interdit toute utilisation commerciale de tout
+fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris, sans
+toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de tutorat
+ou d’aide aux études, des établissements de préparation à l’enseignement supérieur,
+des fournisseurs de services de planification des programmes d’études, des
+gestionnaires de plateformes pédagogiques en ligne, et des développeurs
+d’applications, n’est pas autorisée et est soumise au consentement écrit préalable de
+l’IB par l’intermédiaire d’une licence. Pour plus d’informations sur la procédure à suivre
+pour demander une licence, rendez-vous à l’adresse http://www.ibo.org/fr/contact-the-
+ib/media-inquiries/for-publishers/guidance-for-third-party-publishers-and-providers/how-
+to-apply-for-a-license.
+
+No se podrá reproducir ninguna parte de este producto de ninguna forma ni por ningún
+medio electrónico o mecánico, incluidos los sistemas de almacenamiento y
+recuperación de información, sin que medie la autorización escrita del IB.
+
+Además, la licencia vinculada a este producto prohíbe el uso con fines comerciales de
+todo archivo o fragmento seleccionado de este producto. El uso por parte de terceros
+—lo que incluye, a título enunciativo, editoriales, profesores particulares, servicios de
+apoyo académico o ayuda para el estudio, colegios preparatorios, desarrolladores de
+aplicaciones y entidades que presten servicios de planificación curricular u ofrezcan
+recursos para docentes mediante plataformas digitales— no está permitido y estará
+sujeto al otorgamiento previo de una licencia escrita por parte del IB. En este enlace
+encontrará más información sobre cómo solicitar una licencia: http://www.ibo.org/es/
+contact-the-ib/media-inquiries/for-publishers/guidance-for-third-party-publishers-and-
+providers/how-to-apply-for-a-license.
+                                                    –3–                  N19/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+
+
+Critical Thinking – explanation, analysis and evaluation
+
+
+These trigger words often signal critical thinking. The bold words are the key terms in the various
+criteria.
+Explanation – Because, as a result of, due to, therefore, consequently, for example
+Analysis – Furthermore, additionally, however, but, conversely, likewise, in addition, on the other hand,
+whereas
+Evaluation ‫ –ؘ‬My opinion, overall, although, despite, on balance, weighing up
+
+Examiners should be aware that in some cases, candidates may take a different approach, which if
+appropriate should be rewarded. If in doubt, check with your team leader.
+
+In the case of an “identify” question read all answers and mark positively up to the maximum marks.
+Disregard incorrect answers. In all other cases where a question asks for a certain number of facts
+eg “describe two kinds”, mark the first two correct answers. This could include two descriptions,
+one description and one identification, or two identifications.
+
+It should be recognized that, given time constraints, answers for part (c) questions are likely to include a
+much narrower range of issues and concepts than identified in the markband. There is no “correct”
+answer. Examiners must be prepared to award full marks to answers which synthesize and evaluate
+even if they do not examine all the stimulus material.
+                                                    –4–                     N19/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+1.   Biometric authorization
+
+     Note to examiners:
+     • All part (a) questions are marked using ticks and annotations where appropriate.
+     • Part (b) and part (c) are marked using markbands. Use annotations and text comments to
+       provide a rationale behind the marks you awarded. Do not use ticks.
+
+     (a)   (i)     Identify two fields that could be in the Employee table of the database.          [2]
+
+                   Answers may include:
+                   • First name
+                   • Surname
+                   • ID number
+                   • Gender / sex
+                   • Phone number
+                   • Date of birth
+                   • Manager’s name
+                   • Position
+                   • Department e-mail.
+
+                   Award [1] for identifying each appropriate field up to maximum of [2].
+
+           (ii)    Identify two characteristics of a relational database.                            [2]
+
+                   Answers may include:
+                   • more than one linked table/entity
+                   • primary key fields linked to foreign key fields
+                   • each record is unique
+                   • eliminates data redundancy
+                   • is a smaller file than a flatfile database.
+
+                   Award [1] for identifying each characteristic of a relational database up to
+                   maximum of [2].
+
+           (iii)   Identify two methods that could be used to ensure that the data input to the
+                   database is accurate.                                                             [2]
+
+                   Answers may include:
+                   • validation
+                   • verification.
+
+                   Award [1] for identifying each method that can be used to ensure the data
+                   added into the database is accurate up to maximum of [2].
+                                             –5–                  N19/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+(b)   As part of the implementation of the biometric authorization system,
+      Bright Creativa has written a privacy policy.
+
+      Explain three features that Bright Creativa would need to include in a privacy
+      policy linked to the company’s biometric authorization system.                          [6]
+
+      Answers may include:
+      • The privacy policy will need to be easily understood/transparent.
+      • So employees are able to understand how their data will be collected, stored
+         or who it may be shared with.
+
+      •   The privacy policy must explain what data is being collected about them.
+      •   And this data is intended to be used by the company.
+
+      •   The privacy policy will need to explain that data will only be stored for as long
+          as necessary / for the length of time the employee is with the company.
+      •   And that appropriate measures have been taken to safeguard it from
+          unauthorized access.
+
+      •   If a data breach occurs, i.e. the data is compromised or stolen.
+      •   The company must inform the users immediately.
+
+Award [1] for identifying a feature that Bright Creativa would need to include in a privacy
+policy and [1] for explaining why that feature should be included up to a maximum of [2].
+
+Mark as [2] + [2] + [2].
+                                           –6–                 N19/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+
+(c)   To what extent is the employees’ improved access to company resources
+      outweighed by their concerns about the level of surveillance by the company?      [8]
+
+      Answers may include:
+      Advantages to the employee
+      • convenience, such as there is no need to carry ID cards to unlock doors
+      • there is no need to remember passwords to logon to the network, or to
+         continuously change the password
+      • is likely to be more secure than relying on authentication techniques such as
+         a username and password as it is harder to forge a fingerprint than
+         remember a password
+      • may provide quicker access to resources
+      • they don’t need to carry cash to buy items from the café.
+
+      Concerns of the employee may
+      • their performance could be monitored and performance ratings based on
+         potentially information provided by the system
+      • monitoring may become covert surveillance which may be unethical,
+         especially if the employees are not aware of the ways in which the
+         information is used
+      • purchases are tracked and judgements might be made about them, for
+         example, what foods they purchase
+      • the fingerprints may not always be reliable, for example if the employee cuts
+         the finger that is used for biometric authentication, which means that a
+         resource may not be accessible
+      • logging on to each resource using biometric identification may be time
+         consuming and lead to inefficient working practices.
+
+      Please see generic markband information sheet on page 16.
+                                                    –7–                  N19/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+2.   Wildfire modelling
+
+     Note to examiners:
+     • All part (a) questions are marked using ticks and annotations where appropriate.
+     • Part (b) and part (c) are marked using markbands. Use annotations and text comments to
+       provide a rationale behind the marks you awarded. Do not use ticks.
+
+     (a)   (i)     Identify two stages of the product development life cycle (PDLC).                [2]
+
+                   Answers may include:
+                   • investigation of existing system
+                   • feasibility study
+                   • requirement Specification
+                   • project schedule
+                   • product Design
+                   • product development
+                   • prototyping
+                   • technical documentation
+                   • client and end-user evaluation
+                   • testing and debugging.
+
+                   Award [1] for identifying each stage of the product development life cycle
+                   (PDLC) up to maximum of [2].
+
+           (ii)    Identify two methods that could be used to train the staff to use the new
+                   modelling system.                                                                [2]
+
+                   Answers may include:
+                   • video tutorials
+                   • “how to” guides
+                   • face-to-face training
+                   • online training courses.
+
+                   Award [1] for identifying each method that could be used to train the staff to
+                   use the new modelling system up to maximum of [2].
+
+           (iii)   Identify two measurements that could be taken by the weather sensors in
+                   the Kinakora National Park.                                                      [2]
+
+                   Answers may include:
+                   • air temperature
+                   • wind speed
+                   • wind direction
+                   • humidity
+                   • the amount of precipitation
+                   • ground temperature.
+
+                   Award [1] for identifying each measurement that could be taken by the
+                   weather sensors in the Kinakora National Park up to maximum of [2].
+                                             –8–                   N19/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+(b)   Two methods for informing tourists about wildfires in Kinakora National Park are:
+       • Short Message Service (SMS) texting/text messaging
+       • Posting information on the Kinakora National Park website.
+
+      Analyse these two methods.                                                            [6]
+
+      Answers may include:
+      Advantages of using SMS texting
+      • easy to use
+      • information is pushed out to the tourists
+      • not dependent on internet access
+      • cheap
+      • low tech / can be done from very old hardware
+      • faster than posting information in a website / synchronous.
+
+      Disadvantages of using SMS texting
+      • tourists need phone reception to get the message
+      • the national park needs all tourists’ phone numbers to ensure all tourists can
+         access this information
+      • data needs to be stored (phone numbers) so an appropriate privacy policy
+         needs to be in place
+      • there is no guarantee the message has got through
+      • some tourist might not have their phone
+      • batteries can run out.
+
+      Advantages of using the Kinakora National Park website
+      • the information can use graphics/maps
+      • it is not necessary to collect/store tourists’ phone numbers.
+
+      Disadvantages of using the Kinakora National Park website
+      • tourists need to visit the website to get information
+      • tourist may not have web access
+      • visually impaired visitors might not get the information.
+
+      Note: Many of the advantages of SMS text are automatically disadvantages of
+      the Kinakora National Park website or vice versa.
+
+[0]
+No knowledge or understanding of ITGS issues and concepts. No use of appropriate
+ITGS terminology.
+
+[1–2]
+A limited response that indicates very little understanding of the topic or the reason is
+not clear. Uses little or no appropriate ITGS terminology. No reference is made to the
+scenario in the stimulus material. The response is theoretical.
+
+[3–4]
+A description, unbalanced or partial analysis of the issues related to using SMS texting
+or the Kinakora National Park website. There is some use of appropriate ITGS
+terminology in the response.
+
+[5–6]
+A balanced and detailed analysis of the relative advantages and disadvantages of
+using SMS texting or the Kinakora National Park website. Explicit and relevant
+references are made to the scenario in the stimulus material. There is appropriate
+ITGS terminology throughout the response.
+                                            –9–                   N19/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+(c)   Evaluate Kinakora National Park’s decision to use computer modelling to develop
+      strategies for dealing with wildfires.                                                 [8]
+
+      Answers may include:
+      Advantages of using computer models to develop strategies to deal with
+      wildfires
+      • many different scenarios can be tried out before a final strategy is determined
+      • dangerous situations can be tried without the risk to human life
+      • possible fires can be predicted, and strategies can be defined to deal with
+         them
+      • the development of the model may lead to a greater understanding of the
+         factors that influence the start and spread of forest fires; for example, fires
+         starting in similar circumstances may not always follow same pattern
+      • models may be revised as the nature of forest fires evolves, for example, as a
+         result of drier conditions, hotter summer temperatures
+      • models can be used for training.
+
+      Disadvantages of using computer models to develop strategies to deal with
+      wildfires
+      • the data that is being input / data must be reliable / GIGO
+      • the model is a simplification of a real situation and there may be factors that it
+         is not possible to consider
+      • expensive to develop a model/ requires large amount of processing power
+         and this may not be an effective use of resources
+      • the conditions in the national park may evolve more quickly than the model is
+         able to which may lead to predictions not being as accurate as expected.
+
+      Please see generic markband information sheet on page 16.
+                                                       – 10 –              N19/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+3.   Online learning
+
+     Note to examiners:
+     • All part (a) questions are marked using ticks and annotations where appropriate.
+     • Part (b) and part (c) are marked using markbands. Use annotations and text comments to
+       provide a rationale behind the marks you awarded. Do not use ticks.
+
+     (a)   (i)     Identify two ways that the TailorEd system could provide feedback to the
+                   students.                                                                        [2]
+
+                   Answers may include:
+                   • graphics/text on the screen
+                   • sent by email to the student
+                   • haptic feedback on correct answers in a mobile version
+                   • notifications in a mobile app
+                   • by awarding badges
+                   • chat/chatbot.
+
+                   Award [1] for identifying each way the TailorEd system could provide
+                   feedback to the students up to maximum of [2].
+
+           (ii)    Identify two ways that the data collected about students’ academic
+                   progress could be used by TailorEd.                                              [2]
+
+                   Answers may include:
+                   • to send students advertisements of relevant educational material
+                   • to ascertain the effectiveness of the lessons
+                   • to adapt the tasks to the students’ abilities
+                   • to offer tutoring if students fail a particular unit
+                   • to share with universities and aid candidate selection
+                   • to give opportunities to high scoring students
+                   • to keep parents informed.
+
+                   Award [1] for identifying each way the data collected about students’
+                   academic progress could be used by TailorEd up to maximum of [2].
+
+           (iii)   Outline how a firewall functions.                                                [2]
+
+                   Answers may include:
+                   • monitors incoming and outgoing traffic
+                   • acts like a filter between the computer and the Internet
+                   • blocks specific ports / IP addresses / protocols / words or phrases
+                   • either allows traffic to pass through the firewall or not based on a set of
+                     predetermined rules.
+
+                   Award [1] for identifying the basic function of a firewall and [1] for a
+                   development of the initial idea up to maximum of [2].
+                                             – 11 –                N19/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+(b)   There are two possible methods for ensuring students use the TailorEd online
+      learning system responsibly. They are:
+      • Restrict access to sites that may be considered inappropriate.
+      • Educate the students about acceptable use.
+
+      Analyse these two options.                                                              [6]
+
+      Answers may include:
+      Reasons for restricting access to sites that may be considered
+      inappropriate
+      • to stop students going to websites they shouldn’t
+      • to ensure the schools bandwidth is used for education rather than for other
+         purposes
+      • to protect students from dangers on the web / some inappropriate sites
+         appear without warning and they are hard to avoid
+      • parents may be happier knowing the filtering technology is in place as it will
+         restrict access for younger students who cannot filter for themselves.
+
+      Reasons for educating students about acceptable use
+      • the students learn to take responsibility for their actions as this will be a skill
+         they will need outside of school
+      • students will always find ways to circumvent the filters applied by the school
+      • who decides what will be blocked? Learning may be constricted by the use of
+         a white list.
+
+[0]
+No knowledge or understanding of ITGS issues and concepts. No use of appropriate
+ITGS terminology.
+
+[1–2]
+A limited response that indicates very little understanding of the topic or the reason is
+not clear. Uses little or no appropriate ITGS terminology. No reference is made to the
+scenario in the stimulus material. The response is theoretical.
+
+[3–4]
+A description, unbalanced or partial analysis of the decision whether to either restrict
+access to certain websites or to educate the students about using the platform in an
+acceptable manner. There is some use of appropriate ITGS terminology in the
+response.
+
+[5–6]
+A balanced and detailed analysis of the decision whether to either restrict access to
+certain websites or to educate the students about using the platform in an acceptable
+manner. Explicit and relevant references are made to the scenario in the stimulus
+material. There is appropriate ITGS terminology throughout the response.
+                                            – 12 –               N19/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+(c)   To what extent do the benefits of collecting students’ progress data outweigh the
+      concerns of the students, teachers and parents?                                     [8]
+
+      Answers may include:
+      Benefits of collecting students’ progress data
+      • the data collected can be tailored to provide more individualized learning for
+         the student
+      • the student’s progress can be reported back to the teacher/parent on a more
+         regular basis and in a more standardized format
+      • the school is able to use the data to identify trends and patterns that may not
+         be immediately obvious and use this data driven approach to improve the
+         performance of its teachers and students
+      • this information can be used by the students when applying for jobs or even
+         for further education.
+
+      Concerns of the students, teachers and parents
+      • they may not know what data is being collected, stored and/or disseminated
+      • they may not know the degree to which the identity of the student is
+        anonymized
+      • there may be a purely data driven approach to the use of the student data
+        which may lead to a narrowing of the teaching to ensure short term targets
+        are met at the expense of the whole learning experience
+      • large amounts of teachers’ time may be taken up with the collection and
+        entering of this data into the TailorEd database
+      • the cost of purchasing the TailorEd system may not be cost-effective as it
+        may involve staff training costs or the employment of staff to enter the data.
+
+      Please see generic markband information sheet on page 16.
+                                                   – 13 –               N19/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+4.   Sharing dashcam footage with police
+
+     Note to examiners:
+     • All part (a) questions are marked using ticks and annotations where appropriate.
+     • Part (b) and part (c) are marked using markbands. Use annotations and text comments to
+       provide a rationale behind the marks you awarded. Do not use ticks.
+
+     (a)   (i)    Identify one video file type that could be uploaded to the police department
+                  server.                                                                        [1]
+
+                  Answers may include:
+                  • Audio Video Interleave (AVI)
+                  • Flash Video Format (FLV)
+                  • Windows Media Video (WMV)
+                  • Apple QuickTime Movie (MOV)
+                  • Moving Pictures Expert Group 4 (MP4).
+
+                  Award [1] for identifying an appropriate file type.
+
+           (ii)   Calculate how long it would take to upload a 1 gigabyte (GB) video file to
+                  the police website using 80 million bits per second (Mb/s) internet
+                  connection.
+
+                  1 gigabyte (GB) = 1000 megabytes (MB).                                         [2]
+
+                  Answers may include:
+
+                  Convert Mb/s to MB/s:
+                  80 Mb/s
+                          = 10 MB/s
+                     8
+
+                  Convert GB to MB
+                  1 GB = 1000 MB
+
+                  Calculate the time
+                  1000
+                       = 100 seconds
+                   10
+
+                  = 1 minute 40 seconds.
+
+                  Award [1] for the working.
+                  Award [1] for an answer of 1 minute 40 seconds.
+                                               – 14 –                N19/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+      (iii)   Identify three steps that the public will need to take to upload their footage
+              to the police website.                                                           [3]
+
+              Answers may include:
+              • footage is recorded on a dashcam
+              • create an account on the police department website
+              • citizens enter their details on the police department website
+              • citizen is authenticated by matching their login details with those stored
+                in the police database
+              • footage is downloaded from the dashcam
+              • citizen logs into the police department website
+              • the video file is selected for upload to the police department website
+              • video is uploaded.
+
+              Award [1] for identifying each appropriate step up to maximum of [3].
+
+
+(b)   (i)     Distinguish between privacy and anonymity.                                       [2]
+
+              Answers may include:
+              • privacy is knowing the individual but not knowing what they are doing
+              • anonymity is knowing what the individual is doing, but not knowing who
+                they are.
+
+              Award [1] for the correct definition of either privacy or anonymity, and [1]
+              for an additional correct definition up to a maximum of [2].
+
+      (ii)    The police websites include help pages that give the public guidance on
+              files and on how to upload them.
+
+              Explain why the help pages should provide guidelines about the file format
+              and the file resolution.                                                         [4]
+
+              Answers may include:
+
+              File format
+              • Files uploaded should be compatible with the acceptable file formats
+                 required by the police department system
+              • Therefore, the help pages should explicitly state which file formats are
+                 acceptable.
+
+              File resolution
+              • Files created in a high resolution may lead to the creation of excessively
+                 large files
+              • This may lead to longer upload times than would be desirable
+              • Files created in a low file resolution may lead to grainy / poor quality
+                 images
+              • This may mean that the information provided may not be of a quality that
+                 can be used by the police department.
+
+              Award [1] for an identification of why the help pages should provide
+              guidelines about the file resolution and the format of the file and [1] for an
+              explanation of why it is appropriate up to a maximum of [2].
+
+              Mark as [2] + [2].
+                                           – 15 –               N19/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+
+(c)   The police are considering using dashcam footage uploaded by the public as part of their
+      attempt to reduce the number of accidents caused by dangerous driving.
+
+      Discuss whether this dashcam footage should be used by the police as part of
+      their attempt to reduce the number of accidents caused by dangerous driving.               [8]
+
+      Answers may include:
+      Advantages of a using dashcam footage
+      • perpetrators are not aware that their dangerous or illegal behaviour is being
+         filmed
+      • there are a lot of dashcams in use, whereas there is a limit to the number of
+         police on patrol so more information can be gathered
+      • some of the dashcam footage may be seen as entrapment
+      • the use of dashcam footage may have an effect of citizens improving their
+         behaviour as they are aware they are being filmed
+      • it may be used to corroborate the evidence gathered by the Police and/or
+         CCTV cameras.
+
+      Disadvantages of a dashcam footage
+      • the use of dashcam footage may not be admissible as evidence in court
+      • the dashcam footage may not be data stamped or may be doctored / falsified
+      • additional police servers may be required to store the large quantities of
+         dashcam footage provided
+      • there may be data protection issues relating to the storage and use of the
+         dashcam footage
+      • the quality of the dashcam footage may not be of a standard that is usable
+      • the format of the dashcam footage may not be compatible with the Police
+         software.
+
+      Please see generic markband information sheet on page 16.
+                                         – 16 –                N19/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+SL and HL paper 1 part (c) and HL paper 3 question 3 markband
+         Marks                                    Level descriptor
+                            • A response with no knowledge or understanding of the
+        No marks              relevant ITGS issues and concepts.
+                            • A response that includes no appropriate ITGS terminology.
+                            • A response with minimal knowledge and understanding of
+                              the relevant ITGS issues and concepts.
+                            • A response that includes minimal use of appropriate
+                              ITGS terminology.
+          Basic
+                            • A response that has no evidence of judgments and/or
+       1–2 marks              conclusions.
+                            • No reference is made to the scenario in the stimulus
+                              material in the response.
+                            • The response may be no more than a list.
+                            • A descriptive response with limited knowledge and/or
+                              understanding of the relevant ITGS issues and/or concepts.
+                            • A response that includes limited use of appropriate
+                              ITGS terminology.
+        Adequate
+                            • A response that has evidence of conclusions and/or
+       3–4 marks              judgments that are no more than unsubstantiated
+                              statements. The analysis underpinning them may also be
+                              partial or unbalanced.
+                            • Implicit references are made to the scenario in the stimulus
+                              material in the response.
+                            • A response with knowledge and understanding of the
+                              relevant ITGS issues and/or concepts.
+                            • A response that uses ITGS terminology appropriately
+                              in places.
+       Competent
+       5–6 marks            • A response that includes conclusions and/or judgments that
+                              have limited support and are underpinned by a balanced
+                              analysis.
+                            • Explicit references to the scenario in the stimulus material
+                              are made at places in the response.
+                            • A response with a detailed knowledge and understanding of
+                              the relevant ITGS issues and/or concepts.
+                            • A response that uses ITGS terminology appropriately
+        Proficient            throughout.
+       7–8 marks            • A response that includes conclusions and/or judgments that
+                              are well supported and underpinned by a balanced analysis.
+                            • Explicit references are made appropriately to the scenario in
+                              the stimulus material throughout the response.
+

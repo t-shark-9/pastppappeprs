@@ -1,0 +1,574 @@
+N12/3/ITGSX/HP1/ENG/TZ0/XX
+
+
+
+
+     88125511
+
+Information technology in a global society
+HIGHER LEVEL
+PAPER 1
+
+Wednesday 7 November 2012 (afternoon)
+
+2 hours 15 minutes
+
+
+INSTRUCTIONS to candidates
+
+   Do not open this examination paper until instructed to do so.
+   Section A: answer two questions.
+   Section B: answer one question.
+   Section C: answer one question.
+   Each question is worth [20 marks].
+   The maximum mark for this examination paper is [80 marks].
+
+
+
+
+8812-5511                                                                                           15 pages
+                                                             © International Baccalaureate Organization 2012
+                                                            –2–                       N12/3/ITGSX/HP1/ENG/TZ0/XX
+
+                                                      SECTION A
+Answer two questions. Each question is worth [20 marks].
+1.    Health and dentistry
+
+      Many dentists have upgraded their IT systems by using a local area network (LAN). This makes it
+      possible for the dental technician to take an X-ray of a patient’s teeth and for the dentist to review the
+      patient’s X-rays on a monitor in another room.
+
+
+
+
+                       [Source: http://www.bluehousedental.com.au/images/Xray/Digital_Dental_Xray.jpg]
+
+
+      The upgraded IT system includes simulation software which allows dentists to view the predicted
+      changes in the condition of a patient’s teeth over a period of time, showing the result with or
+      without treatment.
+
+      With these upgraded systems, dentists are now using electronic, instead of paper, charts for each
+      patient. These charts can be updated by the dental technician on one computer while the dentist views
+      them on another.
+
+      The patient can also view their charts on a monitor. This is useful when the dentist would like to
+      discuss a treatment with the patient.
+
+
+
+
+                [Source: http://www.cisco.com/web/solutions/smb/heroes/uk/index.html#/skyeDental, 18 July 2012]
+
+
+
+
+                                                                      (This question continues on the following page)
+
+
+
+
+8812-5511
+                                                  –3–                  N12/3/ITGSX/HP1/ENG/TZ0/XX
+
+(Question 1 continued)
+
+      (a)   (i)   Describe one difference between a local area network (LAN) and a wide area
+                  network (WAN).                                                                       [2]
+
+		(ii)            The upgraded IT system is a LAN based on a client/server network. Outline the
+                  relationship between the client and the server in the upgraded IT system.            [2]
+
+            (iii) The developers of the upgraded IT system own the intellectual property rights for
+                  the system. Define the term intellectual property.                                   [2]
+
+      (b)   Analyse the impacts of implementing the upgraded IT system for the dentist.                [6]
+
+      (c)   To what extent should dentists use simulation software to determine future treatment for
+            their patients?                                                                            [8]
+
+
+
+
+8812-5511                                                                                      Turn over
+                                                        –4–                       N12/3/ITGSX/HP1/ENG/TZ0/XX
+
+2.    Live-brary
+
+      A local library has acquired a lending service called Live-brary that uses Adobe Digital Editions
+      software which allows borrowers to access free digital content which can be both read online and
+      downloaded to read offline. To borrow e-books from the library, borrowers need to install special
+      software to download e-books on to their e-reader, smartphone, tablet or laptop.
+
+      Borrowers create an account to register the software. Activation allows the borrower to either read
+      the e-book online through streaming or read offline from the downloaded copy that is “borrowed”
+      for a period of 7, 14, or 21 days. If a borrower keeps an e-book for more than the number of days
+      allowed, then they must pay a fine for each day over the limit.
+
+
+
+
+                                Screenshot removed for copyright reasons
+                            For screenshot, please refer to www.live-brary.com
+
+
+
+
+      Borrowers will need a device to access the library’s website to download the book. The books are
+      available in both EPUB and PDF format. Both formats include digital rights management (DRM).
+
+
+                    [Source: http://www.pocket-lint.com/news/26619/how-to-loan-an-ebook, 27 August 2009 and
+                           http://news.cnet.com/8301-17938_105-20028767-1.html, 29 September 2011]
+
+
+
+                                                                  (This question continues on the following page)
+
+
+
+
+8812-5511
+                                                           –5–                         N12/3/ITGSX/HP1/ENG/TZ0/XX
+
+(Question 2 continued)
+
+      (a)      The information about the e-books, borrowers and circulation is stored in a
+               relational database, similar to the one shown below.
+
+
+            tblBook                           tblLoan                                      tblBorrower
+               ISBN                                LoanID                                     Borrower_ID
+               Author_Name                         Borrower_ID                                Surname
+               Title                               ISBN                                       Forename
+               Genre                               Date_Borrowed                              Gender
+                                                   Loan_Length                                Date_of_Birth
+                                                                                              House_Number
+                                                                                              Zip_Code
+                                                                                              Telephone
+                                                                                              email
+
+
+
+
+                                      [© International Baccalaureate Organization, 2013]
+
+
+               (i)    State the key field in the table tblBorrower.                                                       [1]
+
+               (ii)   State the data type for Telephone.                                                                  [1]
+
+               (iii) Loan_Length uses a drop-down list with 7, 14 and 21 days. Outline why the
+                     drop-down list is used for this field.                                                               [2]
+
+               (iv) Identify two features of the database query shown below.                                              [2]
+
+
+
+     Field: [Borrower_ID] [Forename]      [Gender]       [Date_of_Birth] IsJunior: [Date_of_Birth]<DateAdd(”yyyy”,-18,Date0)
+     Table: tblborrower   tblborrower     tblborrower    tblborrower
+      Sort:
+      Show:
+  Criteria:                                                               0
+        or:
+
+
+
+                                      [© International Baccalaureate Organization, 2013]
+
+
+      (b)      Explain two advantages that digital rights management (DRM), associated with the
+               e-books, provides to the Live-brary.                                                                       [6]
+
+      (c)      Live-brary allows borrowers to access free digital content which can be read online and
+               be downloaded to read offline. Evaluate both these options.                                                [8]
+
+
+
+
+8812-5511                                                                                                        Turn over
+                                                              –6–                       N12/3/ITGSX/HP1/ENG/TZ0/XX
+
+3.    Voice over internet protocol (VOIP)
+
+      Some countries ban services such as Skype, which use VOIP technology.
+
+      Skype and other operators offering VOIP services bypass telephone networks in favour of offering
+      free calls via the internet. These countries have laws that state all calls must pass through their
+      national telecom companies.
+
+      Skype has more than 500 million users worldwide and many cell/mobile phone providers now offer
+      Skype services.
+
+      Skype has been growing in popularity among individuals and businesses to make cheap or free
+      international phone calls. Some governments are concerned that their national telecom companies
+      will be losing income and will be unable to track conversations.
+
+      As a result, some countries are calling for severe measures to be taken against citizens using illegal
+      VOIP services.
+
+                            [Source: http://news.bbc.co.uk/2/hi/technology/8585998.stm, 24 March 2010 and
+                  http://www.theglobeandmail.com/news/technology/china-poised-for-skype-crackdown/article1854189/,
+                                                          31 December 2010]
+
+
+
+      (a)   (i)       Identify two characteristics of VOIP.                                                          [2]
+
+		(ii)                Define the term protocol.                                                                      [2]
+
+		(iii) State two stages where a Skype call can be blocked from reaching the
+        intended recipient.                                                                                          [2]
+
+      (b)   Analyse the decision of some countries to ban services such as Skype.                                    [6]
+
+      (c)   In most countries the use of VOIP is legal. Discuss the decision of a business in these
+            countries to use VOIP services instead of a conventional phone system.                                   [8]
+
+
+
+
+8812-5511
+              –7–        N12/3/ITGSX/HP1/ENG/TZ0/XX
+
+
+
+
+            Blank page
+
+
+
+
+8812-5511                                  Turn over
+                                                          –8–                         N12/3/ITGSX/HP1/ENG/TZ0/XX
+
+                                                     SECTION B
+
+Answer one question. Each question is worth [20 marks].
+
+4.    Online marking
+
+      An examining organization has been advised that it needs to find an IT system to replace its current
+      paper-based system. In the paper-based system the papers are sent to various examiners around the
+      world who mark the papers with red ink. When the examiner has finished, they send the marked
+      papers to the examining organization.
+
+      The proposed solution is to send the candidates’ handwritten exam papers to a scanning centre
+      in Singapore. Once the papers are scanned, they are made available to the examiners online. The new
+      system will have the following requirements specification:
+
+            Specification
+                                                            IT System Requirement
+              Number
+                 1          Able to handle the increasing number of students taking the exam each year
+                 2          Will speed up the marking and processing of the exam papers
+                 3          Will be cheaper than the cost of posting exam papers around the world
+                 4          Examiners can view the completed exam papers on their computers
+                            Able to provide remote access for the examining organization to monitor the
+                 5
+                            marking of each examiner
+                 6          Will be acceptable to all stakeholders
+
+                                     [© International Baccalaureate Organization, 2013]
+
+
+      The examiners have to install special client software on their PCs to access these online scans of
+      completed exam papers and carry out the marking. They also need to have a reliable broadband
+      connection because this system does not allow them to download and store the scanned exam papers
+      to be marked offline.
+
+      The examining organization has commissioned analysts from a software development company to
+      investigate possible solutions.
+
+
+
+                                                                     (This question continues on the following page)
+
+
+
+
+8812-5511
+                                                    –9–                   N12/3/ITGSX/HP1/ENG/TZ0/XX
+
+(Question 4 continued)
+
+      (a)   (i)   Identify three stakeholders that should be consulted in the initial investigation.      [3]
+
+		(ii)            Identify three methods that the analysts could use in order to collect information
+                  about the current system.                                                               [3]
+
+      (b)   As part of their investigation, the analysts carry out a feasibility study. Explain what
+            must be included in a feasibility study in this case to ensure that the final product meets
+            the client’s requirements.                                                                    [6]
+
+      (c)   All IT projects, such as that proposed by the examining organization, should be based on
+            a requirements specification to meet a client’s needs.
+
+		          To what extent does the requirements specification determine the success of IT projects?      [8]
+
+
+
+
+8812-5511                                                                                          Turn over
+                                                       – 10 –                            N12/3/ITGSX/HP1/ENG/TZ0/XX
+
+5.    Software development
+
+      La Vianda is a small supermarket whose manager is looking to develop a loyalty card system that
+      allows it to send promotional offers to members. To become a member, a customer fills in a form to
+      provide their personal details and information about the kind of products they buy.
+
+      The manager of the store has hired Rodriguez Developers to produce software to support this initiative.
+      The developers are intending to use agile methodology in order to produce the necessary software
+      and data structures. This is an iterative process that involves the supermarket manager as well as
+      the developers. The developers use a variety of modelling techniques in order to discuss plans with
+      the manager. The modelling process involves making diagrams such as the data flow diagram below.
+
+                                                         1.0
+                                    Forms
+                    Customer                          Check
+                                                    application
+                                     Forms             form
+                                   with errors
+                                                    Data entry
+                                                      clerk
+                                                           Validated
+                                                            forms
+
+                                                        2.0
+
+                                                       Input
+                         Mailing                     customer                              Customer
+                                                                                    D1
+                                                      details                              database
+
+                                                    Data entry
+                                                      clerk
+                                                                              Customer
+                                                                               details
+
+                                                        3.0
+
+                                                     Produce
+                                                   personalized
+                                                     mailing                        D2      Offers
+                                                                       promotions
+                                                                         Current
+
+
+
+
+                                                    Data entry
+                                                      clerk
+
+                                   [© International Baccalaureate Organization, 2013]
+
+
+
+                                                                   (This question continues on the following page)
+
+
+
+
+8812-5511
+                                                  – 11 –                 N12/3/ITGSX/HP1/ENG/TZ0/XX
+
+(Question 5 continued)
+
+      (a)   Use the data flow diagram to answer the following questions.
+
+		(i)            State two places where data will be stored in the planned system.                 [2]
+
+		(ii)           State two processes that are planned in this project.                             [2]
+
+		(iii) State one entity that is planned in this project.                                          [1]
+
+		          (iv) State the person responsible for checking that the customer forms are correctly
+                 filled in.                                                                        [1]
+
+      (b)   Explain why Rodriguez Developers use modelling techniques before undertaking
+            a project.                                                                             [6]
+
+      (c)   To what extent is the use of agile development methodology suitable for La Vianda’s
+            requirements in this case?                                                             [8]
+
+
+
+
+8812-5511                                                                                  Turn over
+                                                      – 12 –                       N12/3/ITGSX/HP1/ENG/TZ0/XX
+
+                                                  SECTION C
+
+Answer one question. Each question is worth [20 marks].
+
+6.    Artificial intelligence (AI) / pattern matching
+
+      Images can be analysed by computer software in order to identify the subject. Most image
+      analysis is done by looking for “features of interest”. Such features can be edges, corners or blobs
+      (binary large objects).
+
+      An edge can be detected by examining the intensity of colour of a row of pixels and determining
+      where there is a sudden change.
+
+      A blob is an area where all the pixels have some feature such as colour or shade that is distinct from
+      the background.
+
+      Each image has a set of characteristics, as illustrated by the dots in the picture below, that create a
+      unique “signature”. This allows the image to be compared with others.
+
+
+
+
+                                  [© International Baccalaureate Organization, 2013]
+
+
+
+                                                                  (This question continues on the following page)
+
+
+
+
+8812-5511
+                                                   – 13 –                N12/3/ITGSX/HP1/ENG/TZ0/XX
+
+(Question 6 continued)
+
+      Google has produced a phone app called Google Goggles which can examine an image and from this
+      information produce a list of likely locations.
+
+
+
+
+                                  Image removed for copyright reasons
+                         Availabe at:http://appadvice.com/appnn/2010/06/google-
+                                          goggles-coming-iphone/
+
+
+
+
+      Google Goggles can recognize faces of well-known people, many products, places and buildings.
+      It is not very good at recognizing animals or cars.
+
+      Most cell/mobile phones have a range of features such as GPS and a digital compass. They can also
+      detect their location with some accuracy by determining the identity of the nearest cell/mobile phone
+      base station.
+
+
+      (a)   (i)    State three practical uses of edge detection in image processing.                    [3]
+
+            (ii)   Identify the steps that Google Goggles may use to establish the location of the
+                   image in the photograph.                                                             [3]
+
+      (b)   Explain why the image recognition system is better at recognizing locations than it is at
+            recognizing people.                                                                         [6]
+
+      (c)   To what extent can artificial intelligence software combine image processing with
+            cell/mobile phone features to help a tourist get the most out of visiting a city?           [8]
+
+
+
+
+8812-5511                                                                                       Turn over
+                                                          – 14 –                         N12/3/ITGSX/HP1/ENG/TZ0/XX
+
+7.    Artificial intelligence (AI) / expert systems
+
+      Steve Jackson is a computer shop owner in Pittsburgh. Many people phone his shop saying their
+      computer will not start. Steve realizes that most of the problems could be solved by the owner rather
+      than needing him to make a visit to carry out the repair.
+
+      Expert systems can be used in a number of ways to try to resolve problems; they can be created using
+      an expert system shell.
+
+      Steve has created a simple chart to help his customers, which is based on a decision tree. He hopes
+      to develop it into an expert system that can be used to resolve simple computer problems.
+
+
+                                                           Does the
+                                                         computer start?
+
+                                           Y                                      N
+
+
+
+                             Can you access the
+                                                                                   Is it plugged in?
+                             BIOS? (press F11)
+
+
+                        Y                         N                          Y                            N
+
+
+
+
+                  Change order              Call Steve                Is there a loose                 Plug it in
+                  to hard drive                                         connection?
+
+
+                                                              Y                             N
+
+
+
+
+                                                      Reconnect cable                    Call Steve
+
+
+
+
+                                      [© International Baccalaureate Organization, 2013]
+
+
+      (a)   (i)     Define the term expert system.                                                                  [2]
+
+		(ii)              Identify two features of an expert system shell.                                                [2]
+
+		(iii) State two rules for chaining when solving a problem.                                                        [2]
+
+
+
+
+                                                                      (This question continues on the following page)
+
+
+8812-5511
+                                                      – 15 –                       N12/3/ITGSX/HP1/ENG/TZ0/XX
+
+(Question 7 continued)
+
+      (b)   A school has decided to interview students who need advice in choosing their
+            diploma subjects. It has purchased an expert system to assist with this. Students may take
+            either ITGS or computer science, but not both.
+
+             Both ITGS and computer science require students to have an interest in how
+              computers function.
+             Both ITGS and computer science require students to have an interest in social and
+              ethical issues related to computing.
+             Computer science is recommended to those students who enjoy programming.
+
+            Copy and complete the information below to construct a decision tree that could be
+            used as part of an expert system in order to automate this subject advice.                    [6]
+
+
+
+                                                  Interested in
+                                                 how computers
+                                                    function?
+
+
+
+
+                                  [© International Baccalaureate Organization, 2013]
+
+
+      (c)   Many schools are using expert systems to help students in making decisions about which
+            subjects to take as part of their diploma.
+
+            To what extent is it appropriate to use an expert system as the only method of giving
+            advice to a student in their choice of diploma subject?                                       [8]
+
+
+
+
+8812-5511
+

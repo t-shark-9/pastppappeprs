@@ -1,0 +1,523 @@
+M17/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+
+
+                        Markscheme
+
+
+                               May 2017
+
+
+                               Calculus
+
+
+                           Higher level
+
+
+                               Paper 3
+
+
+
+
+12 pages
+                          –2–            M17/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+
+
+This markscheme is the property of the International
+Baccalaureate and must not be reproduced or distributed
+to any other person without the authorization of the IB
+Global Centre, Cardiff.
+                                                  –3–                M17/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+                                       Instructions to Examiners
+
+Abbreviations
+
+M     Marks awarded for attempting to use a valid Method; working must be seen.
+
+(M)   Marks awarded for Method; may be implied by correct subsequent working.
+
+A     Marks awarded for an Answer or for Accuracy; often dependent on preceding M marks.
+
+(A)   Marks awarded for an Answer or for Accuracy; may be implied by correct subsequent working.
+
+R     Marks awarded for clear Reasoning.
+
+N     Marks awarded for correct answers if no working shown.
+
+AG    Answer given in the question and so no marks are awarded.
+
+
+Using the markscheme
+
+1     General
+
+      Mark according to RM™ Assessor instructions and the document “Mathematics HL: Guidance
+      for e-marking May 2017”. It is essential that you read this document before you start marking.
+      In particular, please note the following:
+
+       Marks must be recorded using the annotation stamps. Please check that you are entering
+        marks for the right question.
+       If a part is completely correct, (and gains all the “must be seen” marks), use the ticks with
+        numbers to stamp full marks.
+       If a part is completely wrong, stamp A0 by the final answer.
+       If a part gains anything else, it must be recorded using all the annotations.
+       All the marks will be added and recorded by RM™ Assessor.
+
+
+2     Method and Answer/Accuracy marks
+
+       Do not automatically award full marks for a correct answer; all working must be checked,
+        and marks awarded according to the markscheme.
+       It is not possible to award M0 followed by A1, as A mark(s) depend on the preceding M mark(s),
+        if any.
+       Where M and A marks are noted on the same line, eg M1A1, this usually means M1 for an
+        attempt to use an appropriate method (eg substitution into a formula) and A1 for using the
+        correct values.
+       Where the markscheme specifies (M2), N3, etc., do not split the marks.
+                                                     –4–                 M17/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+     Once a correct answer to a question or part-question is seen, ignore further correct working.
+      However, if further working indicates a lack of mathematical understanding do not award the final
+      A1. An exception to this may be in numerical answers, where a correct exact value is followed by
+      an incorrect decimal. However, if the incorrect decimal is carried through to a subsequent part,
+      and correct FT working shown, award FT marks as appropriate but do not award the final A1 in
+      that part.
+
+       Examples
+
+               Correct answer seen         Further working seen             Action
+         1.                                  5.65685                        Award the final A1
+                   8 2                       (incorrect decimal value)       (ignore the further working)
+         2.        1
+                     sin 4 x                 sin x                           Do not award the final A1
+                   4
+         3.        log a  log b             log (a  b)                     Do not award the final A1
+
+
+3   N marks
+
+    Award N marks for correct answers where there is no working.
+
+     Do not award a mixture of N and other marks.
+     There may be fewer N marks available than the total of M, A and R marks; this is deliberate as it
+      penalizes candidates for not following the instruction to show their working.
+
+
+4   Implied marks
+
+    Implied marks appear in brackets eg (M1), and can only be awarded if correct work is seen or if
+    implied in subsequent working.
+
+     Normally the correct work is seen or implied in the next line.
+     Marks without brackets can only be awarded for work that is seen.
+
+
+5   Follow through marks
+
+    Follow through (FT) marks are awarded where an incorrect answer from one part of a question is
+    used correctly in subsequent part(s). To award FT marks, there must be working present and
+    not just a final answer based on an incorrect answer to a previous part.
+
+     If the question becomes much simpler because of an error then use discretion to award fewer
+      FT marks.
+     If the error leads to an inappropriate value (eg sin   1.5 ), do not award the mark(s) for the final
+      answer(s).
+     Within a question part, once an error is made, no further dependent A marks can be awarded,
+      but M marks may be awarded if appropriate.
+     Exceptions to this rule will be explicitly noted on the markscheme.
+                                                          –5–                  M17/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+6   Misread
+
+    If a candidate incorrectly copies information from the question, this is a misread (MR). A candidate
+    should be penalized only once for a particular misread. Use the MR stamp to indicate that this has
+    been a misread. Then deduct the first of the marks to be awarded, even if this is an M mark, but
+    award all others so that the candidate only loses [1 mark].
+
+     If the question becomes much simpler because of the MR, then use discretion to award
+      fewer marks.
+     If the MR leads to an inappropriate value (eg sin   1.5 ), do not award the mark(s) for the
+      final answer(s).
+
+
+7   Discretionary marks (d)
+
+    An examiner uses discretion to award a mark on the rare occasions when the markscheme does
+    not cover the work seen. In such cases the annotation DM should be used and a brief note written
+    next to the mark explaining this decision.
+
+
+8   Alternative methods
+
+    Candidates will sometimes use methods other than those in the markscheme. Unless the
+    question specifies a method, other correct methods should be marked in line with the markscheme.
+    If in doubt, contact your team leader for advice.
+
+     Alternative methods for complete questions are indicated by METHOD 1, METHOD 2, etc.
+     Alternative solutions for part-questions are indicated by EITHER . . . OR.
+     Where possible, alignment will also be used to assist examiners in identifying where these
+      alternatives start and finish.
+
+
+9   Alternative forms
+
+    Unless the question specifies otherwise, accept equivalent forms.
+
+     As this is an international examination, accept all alternative forms of notation.
+     In the markscheme, equivalent numerical and algebraic forms will generally be written in
+      brackets immediately following the answer.
+     In the markscheme, simplified answers, (which candidates often do not write in examinations),
+      will generally appear in brackets. Marks should be awarded for either the form preceding the
+      bracket or the form in brackets (if it is seen).
+
+       Example: for differentiating f ( x)  2sin(5x  3) , the markscheme gives:
+
+                        f  ( x)   2cos(5 x  3)  5     10cos(5x  3)                A1
+
+              Award A1 for  2cos(5 x  3)  5 , even if 10cos(5x  3) is not seen.
+                                                   –6–                 M17/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+10   Accuracy of Answers
+
+     Candidates should NO LONGER be penalized for an accuracy error (AP).
+
+     If the level of accuracy is specified in the question, a mark will be allocated for giving the answer to
+     the required accuracy. When this is not specified in the question, all numerical answers should be
+     given exactly or correct to three significant figures. Please check work carefully for FT.
+
+
+11   Crossed out work
+
+     If a candidate has drawn a line through work on their examination script, or in some other way
+     crossed out their work, do not award any marks for that work.
+
+
+12   Calculators
+
+     A GDC is required for paper 3, but calculators with symbolic manipulation features (eg TI-89) are
+     not allowed.
+
+     Calculator notation The mathematics HL guide says:
+     Students must always use correct mathematical notation, not calculator notation.
+     Do not accept final answers written using calculator notation. However, do not penalize the use of
+     calculator notation in the working.
+
+
+13   More than one solution
+
+     Where a candidate offers two or more different answers to the same question, an examiner
+     should only mark the first response unless the candidate indicates otherwise.
+                                                            –7–      M17/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+1.   attempt to use l’Hôpital’s rule,                                                       M1
+                        2sin x cos x          sin 2 x
+     limit  lim                      or                                              A1A1
+              x 0                  x                 x
+                     ln(1  x)          ln(1  x) 
+                                 1 x                1 x
+ Note: Award A1 for numerator A1 for denominator.
+
+     this gives 0/0 so use the rule again                                               (M1)
+           lim 2cos x  2sin x
+                        2           2
+                                    2 cos 2 x
+                                or                                                   A1A1
+          x  0 1  1 x  x          2x
+               1 x    (1  x) 2
+                                    (1  x )2
+ Note: Award A1 for numerator A1 for denominator.
+
+     =1                                                                                     A1
+ Note: This A1 is dependent on all previous marks being awarded, except when the first
+       application of L'Hopital's does not lead to 0/0, when it should be awarded for the
+       correct limit of their derived function.
+                                                                                                 [7 marks]
+
+
+2.   (a)    (i)      (sec 2 x ) a1  3a3 x 2  5a5 x 4                                   A1
+
+
+                     sec2 x 1  a1 x  a3 x3  a5 x5 
+                                                             2
+            (ii)
+                             1 a12 x 2  2a1 a3 x 4                               M1A1
+
+             Note: Condone the presence of terms with powers greater than four.
+                                                                                                 [3 marks]
+
+     (b)    equating constant terms: a1  1                                                 A1
+                                                                 1
+            equating x 2 terms: 3a3  a12  1  a3                                         A1
+                                                                 3
+                                                     2         2
+            equating x 4 terms: 5a5  2a1a3            a5                                A1
+                                                     3        15
+                                                                                                 [3 marks]
+
+                                                                                        Total [6 marks]
+                                                     –8–                   M17/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+                          N
+                              dx
+3.   consider I           x ln x
+                          2
+                                                                                          M1A1
+
+
+ Note: Do not award A1 if n is used as the variable or if lower limit equal to 1,
+       but some subsequent A marks can still be awarded. Allow  as
+       upper limit.
+
+     let y  ln x                                                                         (M1)
+           dx
+      dy      ,                                                                           (A1)
+             x
+      [2, N ]  [ln 2, ln N ]
+           ln N
+                 dy
+      I                                                                                  (A1)
+            ln 2  y
+
+ Note: Condone absence of limits, or wrong limits.
+
+                   ln N
+        2 y                                                                            A1
+                  ln 2
+
+ Note:     A1 is for the correct integral, irrespective of the limits used.
+           Accept correct use of integration by parts.
+
+       2 ln N  2 ln 2                                                                   (M1)
+
+ Note:     M1 is for substituting their limits into their integral and subtracting.
+
+        as N                                                                            A1
+
+ Notes: Allow “=  ”, “limit does not exist”, “diverges” or equivalent.
+        Do not award if wrong limits substituted into the integral but allow N or  as
+        an upper limit in place of ln N.
+
+     (by the integral test) the series is divergent (because the integral is divergent)     A1
+ Notes: Do not award this mark if  used as upper limit throughout.
+
+                                                                                                  [9 marks]
+                                                    –9–     M17/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+                            dy      dv
+4.   (a)   y  vx             vx                                         M1
+                            dx      dx
+           the differential equation becomes
+                   dv
+           vx          f (v )                                             A1
+                   dx
+                 dv          dx
+             f (v )  v   x                                              A1
+
+                                dv
+           integrating,                ln x  Constant                    AG
+                            f (v )  v
+                                                                                  [3 marks]
+
+     (b)   EITHER
+           f (v)  1  3v  v 2                                            (A1)
+                  dv                dv
+                                           ln x  C                 M1A1
+            f (v )  v        1  3v  v  v
+                                          2
+
+
+                dv
+            1  v 2   ln x  C                                        A1
+
+
+      Note:      A1 is for correct factorization.
+
+                1
+                     ln x  C                                           A1
+               1 v
+
+           OR
+                   dv
+           vx         1  3v  v 2                                        A1
+                   dx
+
+                   dv           1
+            1  2v  v   x dx
+                            2
+                                                                            M1
+
+
+                  dv           1      
+            1  v     x dx 
+                        2
+                                                                           (A1)
+
+
+      Note:      A1 is for correct factorization.
+
+                1
+                    ln x  C                                          A1A1
+               1 v
+
+
+
+                                                                              continued…
+                                                  – 10 –               M17/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+Question 4 continued
+
+          THEN
+          substitute y  1 or v  1 when x  1                                        (M1)
+                          1
+          therefore C                                                                A1
+                          2
+      Note: This A1 can be awarded anywhere in their solution.
+
+          substituting for v,
+                 1                 1
+                        ln x                                                        M1
+                  y              2
+               1  
+                  x
+                                                 y
+      Note: Award for correct substitution of      into their expression.
+                                                 x
+
+                y      1
+          1                                                                         (A1)
+                x   1
+                       ln x
+                    2
+      Note: Award for any rearrangement of a correct expression that has y in the numerator.
+
+                                 
+                      1          
+           y  x               1 (or equivalent)                                    A1
+                  1  ln x     
+                2              
+                               
+                1  2ln x  
+             x           
+                1  2ln x  
+                                                                                             [10 marks]
+
+                                                                                     Total [13 marks]
+                                                              – 11 –            M17/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+5.   (a)
+
+
+
+
+                                                                                                A1
+      Note: Curve, both rectangles and correct x- values required.
+
+                                     1      1
+           area of rectangles          and                                                      A1
+                                     r     1 r
+      Note: Correct values on the y-axis are sufficient evidence for this mark if not
+            otherwise indicated.
+
+           in the above diagram, the area below the curve between x  r and x  r + 1
+           is between the areas of the larger and smaller rectangle
+                          r 1
+                 1            dx 1
+           or                                                                               (R1)
+               r 1      r
+                               x      r
+                            r 1 dx
+                                       ln x r   ln  r  1  ln  r  
+                                               r 1
+           integrating,                                                                        A1
+                           r      x
+              1         r  1 1
+                   ln                                                                       AG
+            r 1        r  r
+                                                                                                       [4 marks]
+
+     (b)   (i)     summing the right-hand part of the above inequality from r  1 to r  n,
+                    n
+                        1     n
+                                     r  1
+                   
+                   r 1 r
+                           
+                            r 1
+                                 ln 
+                                     r 
+                                                                                               M1
+
+                        2      3           n           n  1
+                    ln    ln      ln         ln                                  (A1)
+                        1      2           n  1       n 
+
+                   EITHER
+
+                        2 3        n    n  1
+                    ln                                                                        A1
+                        1 2      n 1     n 
+                   OR
+                   ln 2  ln1  ln 3  ln 2  ln (n  1)  ln (n)                             A1
+
+                    ln (n  1)                                                                 AG
+                                                                                                  continued…
+                                                            – 12 –                    M17/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+Question 5 continued
+
+           (ii)    n
+                         1     1     1        1           2         3              n 
+                   r  1  2  3  ...  n  1  ln  1   ln  2   ...  ln  n  1 
+                  r 1
+                                                                                                   M1A1A1
+
+
+                   n1 1        n 1
+                                          r 1  
+                    r 1
+                   1       1      ln       
+                   r 1         r 1     r 
+             Note:       M1 is for using the correct inequality from (a), A1 for both sides beginning
+                         with 1, A1 for completely correct expression.
+             Note:       The 1 might be added after the sums have been calculated.
+
+                   1  ln n                                                                           AG
+                                                                                                            [6 marks]
+
+     (c)   (i)    from (b)(i) U n  ln(1  n)  ln n  0                                               A1
+                                   n 1
+                                        1                   n
+                                                             1
+           (ii)   Un  1  Un            ln(n  1)    ln n                                       M1
+                                   r 1 r               r 1 r
+
+
+                       1          n  1
+                            ln                                                                     A1
+                     n 1         n 
+                   0 (using the result proved in (a))                                                 A1
+                  Un  1  Un                                                                          AG
+                                                                                                            [4 marks]
+
+     (d)   it follows from the two results that {U n } cannot be divergent either in the
+           sense of tending to  or oscillating therefore it must be convergent                       R1
+                                                                                                             [1 mark]
+      Note: Accept the use of the result that a bounded (monotonically) decreasing
+            sequence is convergent (allow “positive, decreasing sequence”).
+
+                                                                                                     Total [15 marks]
+

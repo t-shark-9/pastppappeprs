@@ -1,0 +1,154 @@
+M13/5/COMSC/SP2/ENG/TZ0/XX
+
+
+
+
+     22137014
+
+COMPUTER SCIENCE
+STANDARD LEVEL
+PAPER 2
+
+Wednesday 15 May 2013 (morning)
+
+1 hour 30 minutes
+
+
+INSTRUCTIONS TO CANDIDATES
+
+•   Do not open this examination paper until instructed to do so.
+•   Answer all the questions.
+•   A clean copy of the Computer Science case study is required for this paper.
+•   The maximum mark for this examination paper is [70 marks].
+
+
+
+
+2213-7014                                                                                             4 pages
+                                                              © International Baccalaureate Organization 2013
+                                                     –2–                 M13/5/COMSC/SP2/ENG/TZ0/XX
+
+Answer all the questions.
+
+1.    Data types and data structures are an important feature of every programming language.
+
+      (a)     State two possible consequences of selecting the wrong data type for the data
+              that you intend to store.                                                             [2 marks]
+
+      (b)     Outline a set of data that could be stored in a one-dimensional array of Boolean.     [2 marks]
+
+      (c)     Construct the method howMany() that will inspect your Boolean array in
+              part (b) and display the number of occurrences of each of the different values
+              stored in it.  You can assume that the size of the array is 100, and that your
+              data structure is declared globally.                                                  [5 marks]
+
+      The table below shows the wages paid to five employees for each month of the year
+      (in euros).
+
+
+               Jan     Feb     Mar     Apr    May     June     Jul    Aug     Sep     Oct    Nov     Dec
+     Adams     2456    2546   2967    3057    2347    2107    2346   3049    3246    3546    5940    3747
+      Parr     5463    3546   7564    3547    3856    3546    4536   3546    2435    3475    4657    3564
+     Rooney 4635       4657   4697    4839    4364    3465    5536   3546    2375    3546    3546    2435
+     Song      6346    7686   4657    9675    3645    6354    9765   2435    3542    6354    3647    3748
+     Suarez    2533    2536   2175    1869    2398    1384    1346   2813    2738    2738    1296    2375
+
+      (d)     Describe in full the data structure, table, that can be used for storing the
+              numerical data shown above.                                                           [2 marks]
+
+      (e)     Using your structure in part (d), construct the method adams() that would
+              add up the total wages for “Adams” for the year.  You can assume that table
+              is declared globally.                                                                 [5 marks]
+
+      (f)     Outline how you could use an additional data structure to link the names of the
+              employees to their wages.                                                             [2 marks]
+
+      (g)     Outline how you would modify the method in part (e) so that it could add up
+              the wages of any named employee.                                                      [2 marks]
+
+
+
+
+2213-7014
+                                                       –3–                M13/5/COMSC/SP2/ENG/TZ0/XX
+
+2.    An array of objects is being used to hold the marks for a class of 25 students.  
+      Each object is a member of the Student class, part of which is outlined below.
+
+      class Student
+      {
+        double averageMark;
+        String surname;
+        int studentID;
+        int[] marks;
+
+            public double average()
+      }
+
+
+      The values in the marks array represent the percentages obtained in 15 tests which
+      are given over the course of the year.  They are initially set to –1.
+
+      (a)     Suggest a reason for initially setting the values to –1.                      [2 marks]
+
+      (b)     Explain why the averageMark variable is of type double.                       [3 marks]
+
+      The method average() in the Student class calculates the average mark for a
+      particular student at any time during the year.
+
+      (c)     Construct the method average().                                               [6 marks]
+
+      The class that processes the Student data contains a modified bubble sort method.  
+      This method carries out the following steps:
+      • receives the Student array (originally initialized as Student[] s = Student[25];)
+      • calculates the average mark for each student
+      • sorts the Student array by average mark (highest first)
+      • returns the sorted Student array.
+
+      (d)     Construct this modified bubble sort method.   You should make use of any
+              previously defined methods.                                                   [6 marks]
+
+      (e)     Explain why it is convenient to store the student data as objects.            [3 marks]
+
+
+
+
+2213-7014                                                                                   Turn over
+                                                    –4–                M13/5/COMSC/SP2/ENG/TZ0/XX
+
+This question requires the use of the case study.
+
+3.    (a)   With reference to page 4 of the case study, explain with the use of examples why
+            RAM is also known as dynamic memory.                                               [2 marks]
+
+      (b)   Identify the data that would be stored in the firmware of a smartphone.             [1 mark]
+
+      (c)   Describe two ways in which manufacturers have overcome the limited number
+            of options that can be displayed on a touch screen.                                [4 marks]
+
+      (d)   Explain why the increase in use of 3G/4G phones might be of concern to
+            Internet Service Providers (ISPs).                                                 [3 marks]
+
+      (e)   By making use of both positive and negative examples, discuss whether students
+            should be allowed to use smartphones during lessons at school.                     [6 marks]
+
+      (f)   Outline why one of the chips inside a smartphone will contain an
+            analogue-to-digital converter (ADC).                                               [2 marks]
+
+      (g)   Describe two consequences of the low power consumption of Bluetooth for
+            smartphone users.                                                                  [4 marks]
+
+      Scientists often make use of sensors when taking part in field studies.
+
+      (h)   With reference to a specific example, describe how a smartphone could be used
+            in these studies.                                                                  [3 marks]
+
+      (i)   Suggest one reason for choosing a smartphone that makes use of a “kill” switch.    [2 marks]
+
+      (j)   Explain why higher-pixel density leads to sharper images on a screen.              [3 marks]
+
+
+
+
+2213-7014
+

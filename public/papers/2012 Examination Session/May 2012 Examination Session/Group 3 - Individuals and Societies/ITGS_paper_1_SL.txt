@@ -1,0 +1,357 @@
+M12/3/ITGSX/SP1/ENG/TZ0/XX
+
+
+
+
+     22125512
+
+Information technology in a global society
+STANDARD LEVEL
+PAPER 1
+
+Friday 4 May 2012 (afternoon)
+
+1 hour 45 minutes
+
+
+INSTRUCTIONS to candidates
+
+ Do not open this examination paper until instructed to do so.
+ Answer three questions. Each question is worth [20 marks].
+ The maximum mark for this examination paper is [60 marks].
+
+
+
+
+2212-5512                                                                                         11 pages
+                                                           © International Baccalaureate Organization 2012
+                                                     –2–                   M12/3/ITGSX/SP1/ENG/TZ0/XX
+
+Answer three questions. Each question is worth [20 marks].
+
+1.    Implementation of a school database
+
+      Golden Sylvie School needs to be able to manage information such as students’ personal details,
+      health details, grades, parents’ contact details and financial statements. To solve this management
+      problem the school has purchased a relational database application.
+
+      One purpose of this database is to keep a record of students’ visits to the school nurse. This part of
+      the relational database is illustrated below.
+
+
+
+
+      (a)   (i)    State the name of the primary key field of the table tblVisit.                        [1]
+
+		          (ii)   State the relationship between the tables tblNurse and tblVisit.                      [1]
+
+		          (iii) State a field type that would be suitable for Surname in the table tblStudent.         [1]
+
+		          (iv) State a field type that would be suitable for Salary in the table tblNurse.             [1]
+
+		          (v)    State a field type that would be suitable for Sent_Home? in the table tblVisit.       [1]
+
+		          (vi) State a field type that would be suitable for Telephone_Number in the table tblNurse.   [1]
+
+
+
+
+                                                             (This question continues on the following page)
+
+
+
+
+2212-5512
+                                                      –3–                M12/3/ITGSX/SP1/ENG/TZ0/XX
+
+(Question 1 continued)
+
+      (b)   (i)    The database will allow teachers to export data to a spreadsheet.
+
+			                Explain one reason why teachers would export data from the database to
+                   a spreadsheet.                                                                      [2]
+
+		          (ii)   The new database will also require teachers to undertake training to be able to
+                   use it.
+
+			                A local company is offering to train users in the use of the new system.
+			                The two options proposed are:
+                   • online training
+                   • face-to-face training.
+
+			                Contrast the two options.                                                           [4]
+
+      (c)   The following screen shows the options this database will have in its online version.
+
+
+
+
+                                               [Used with permission]
+
+
+		          When the system was purchased it was possible to include a Virtual Private Network
+            (VPN), giving remote access to teachers to this database, which is held on the
+            school’s server.
+
+		          Discuss the impact for the school of the decision to allow teachers remote access to the
+            school server.                                                                             [8]
+
+
+
+
+2212-5512                                                                                       Turn over
+                                                               –4–                       M12/3/ITGSX/SP1/ENG/TZ0/XX
+
+2.    Home network
+
+      James and James IT is an IT company that provides customers with a home service and can help them
+      install a local area network (LAN) at home. One of the company’s customers is the Perez family.
+
+      James and James IT will analyse the family needs, taking into account the type and number
+      of computers that will be used in the house and other peripherals such as printers and scanners.
+      It will also investigate the most likely pattern of computer usage to be able to recommend the best
+      possible solution.
+
+                  [Source: http://www.googobits.com/articles/2975-how-to-install-a-lan-in-your-home.html, 12 October 2005]
+
+
+
+      (a)   (i)      Identify four advantages of using a home local area network (LAN) rather than
+                     several stand alone computers.                                                                          [4]
+
+		(ii)               James and James IT will only deal with the installation of equipment in the house
+                     for the local area network (LAN). The family will have to contact the Internet
+                     Service Provider (ISP) they wish to use.
+
+			                  Describe the role of the ISP.                                                                           [2]
+
+
+
+
+                                                                         (This question continues on the following page)
+
+
+
+
+2212-5512
+                                                     –5–                  M12/3/ITGSX/SP1/ENG/TZ0/XX
+
+(Question 2 continued)
+
+      (b)     James and James IT have given the family a choice of a wireless network, a wired network,
+              or a mixture of both.
+
+		            The Perez family have chosen to have a combination of wireless and wired networks.
+              See the diagram below.
+
+
+
+            Internet                                       Ethernet or
+                                                           USB cable
+                                  ISP
+
+
+                                                                            Wi-Fi
+                                                                                       Computer 1
+                          Ethernet cable                Router
+
+
+
+                                                                                       Computer 2
+                                                                         Ethernet
+                                                Ethernet                    cable
+               Printers                            cable
+
+
+
+                                                                                       Computer 3
+                                                   Entertainment consoles
+
+
+
+		            Explain the decision of the Perez family to install a mixed network.                        [6]
+
+      (c)     The Perez family was concerned about having a peer-to-peer (P2P) network at home
+              and decided to ask James and James IT to convert their peer-to-peer network to a
+              client-server network.
+
+		            Evaluate this decision.                                                                     [8]
+
+
+
+
+2212-5512                                                                                         Turn over
+                                                                –6–                        M12/3/ITGSX/SP1/ENG/TZ0/XX
+
+3.    Telemedicine
+
+      Many countries are increasing their use of telemedicine as a method of providing healthcare in remote
+      locations. To transfer the data from a remote location to a hospital, two methods may be used:
+      real-time or store and forward. Store and forward is a technique common in messaging services.
+      Data is sent from one device to a receiving device, but first it passes through an exchange server,
+      such as an email server. It may take 24 to 48 hours for the message to be received.
+
+
+
+
+     [Source: http://historiadelatelemedicinaschirlysuarez.blogspot.com/2010/09/importancia-de-la-telemedicina.html, 17 June 2011]
+
+
+      (a)    (i)     Define the term real-time communication.                                                                        [2]
+
+		           (ii)    After an accident an image of an x-ray of a badly broken leg was taken in bitmap
+                     format. To ensure the resolution was clear/high enough for a doctor to see the
+                     extent of the injuries, the image size was 12 MB (Megabyte). The connection the
+                     doctor will be using has a speed of 240 kb/s (kilobit per second).
+
+			                  Calculate how long it will take to download the image of the x-ray. (Show your
+                     working.)                                                                                                       [2]
+
+		           (iii) In some cases the technology available in the remote locations will not allow for
+                   large images to be sent to the hospital.
+
+			Identify two methods to resolve this problem.                                                                                     [2]
+
+
+                                                                          (This question continues on the following page)
+
+
+
+
+2212-5512
+                                                    –7–                   M12/3/ITGSX/SP1/ENG/TZ0/XX
+
+(Question 3 continued)
+
+      (b)   (i)    Explain one situation in telemedicine that is better suited to real-time data
+                   transfer and one situation in telemedicine that is better suited to store and forward
+                   data transfer.                                                                          [4]
+
+		          (ii)   Many mobile devices use store and forward to manage data transfer.
+
+			                Explain one reason for using store and forward by such devices.                         [2]
+
+      (c)   In many countries doctors are using videoconferencing to treat patients remotely.
+            Evaluate this medical practice.                                                                [8]
+
+
+
+
+2212-5512                                                                                          Turn over
+                                                          –8–                       M12/3/ITGSX/SP1/ENG/TZ0/XX
+
+4.    Traffic control
+
+      Traffic control systems use digital video cameras at strategic locations to provide a view of the traffic.
+      Camera operators are able to move and zoom the cameras. Images are centrally stored on a network
+      and can be made available to emergency services and information services. Images can be refreshed
+      every 30 seconds.
+
+
+
+
+                     [Source: First image: http://commons.wikimedia.org/wiki/File:Trafic_control_center.jpg
+              Second image: http://commons.wikimedia.org/wiki/File:North_end_Truck_1-9_at_Tonnelle_Circle.jpg]
+
+
+      Traffic control systems provide traffic information to people who request it. This information is
+      available at their website or by request via emails or SMS alerts. This allows users to have the latest
+      information and traffic updates on the move as information is provided for cell phones and hand-held
+      devices as well.
+
+      (a)   (i)   Define the term SMS alerts.                                                                    [2]
+
+		(ii)            Identify two ways information about traffic can be captured electronically at a
+                  certain location.                                                                              [2]
+
+		(iii) Outline two ways how this information may be transferred to a central location.                          [2]
+
+
+
+
+                                                                    (This question continues on the following page)
+
+
+
+
+2212-5512
+                                                           –9–                        M12/3/ITGSX/SP1/ENG/TZ0/XX
+
+(Question 4 continued)
+
+
+
+
+                         [Source: www.dft.gov.uk/itstoolkit/Tools/T4.php, last accessed 7 July 2012]
+
+
+      (b)   The data collected can be used to develop models of traffic flow at various times of the
+            day and in various situations such as during periods of heavy snow. Information from
+            these models is used to manage traffic flows on major roads and will determine what
+            decisions need to be made in controlling traffic on a day-to-day basis.
+
+		          Analyse the decision to use these models to manage traffic flow.                                  [6]
+
+      (c)   Discuss the impact of having the information from traffic control systems available to
+            the police.                                                                                       [8]
+
+
+
+
+2212-5512                                                                                               Turn over
+                                                   – 10 –                M12/3/ITGSX/SP1/ENG/TZ0/XX
+
+5.    Improving Lima’s transport system
+
+      Lima has been promoting a new transport system which has been designed to make it easier to travel
+      from one side of the city to the other. However, the transport system has not worked as well as
+      expected and citizens of Lima have used social networking websites such as Facebook and YouTube
+      to report problems, such as extreme delays between buses, or a road accident.
+
+
+
+
+                                            [Used with permission]
+
+
+      (a)   (i)    Describe what is meant by social networking.                                         [2]
+
+		          (ii)   Different types of files can be uploaded to highlight the traffic problems
+                   described above.
+
+			Describe two appropriate types of files which could be uploaded and how they
+   highlight the problem.                                                                               [4]
+
+
+
+
+                                                             (This question continues on the following page)
+
+
+
+
+2212-5512
+                                                    – 11 –                M12/3/ITGSX/SP1/ENG/TZ0/XX
+
+(Question 5 continued)
+
+      (b)   Some managers of local businesses have realized that social networking may provide new
+            business opportunities and have created company webpages on Facebook.
+
+		          Explain why companies will use social networking websites to develop new business
+            opportunities.                                                                                  [6]
+
+      (c)   Although the Facebook page reporting system is not managed by the Lima authorities,
+            they are using it to solve the transport problems that happen in the city of Lima.
+
+		          The Lima authorities are considering implementing an official website for reporting
+            transport problems.
+
+		          To what extent is a social networking website preferable to an official website for reporting
+            transport problems?                                                                             [8]
+
+
+
+
+2212-5512
+

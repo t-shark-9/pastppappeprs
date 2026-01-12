@@ -1,0 +1,744 @@
+M23/5/MATHX/SP1/ENG/TZ1/XX/M
+
+
+
+
+                        Markscheme
+
+
+                               May 2023
+
+
+   Mathematics: analysis and approaches
+
+
+                         Standard level
+
+
+                               Paper1
+
+
+
+
+18 pages
+                                            –2–                 M23/5/MATHX/SP1/ENG/TZ1/XX/M
+
+
+
+
+© International Baccalaureate Organization 2023
+
+All rights reserved. No part of this product may be reproduced in any form or by any
+electronic or mechanical means, including information storage and retrieval systems,
+without the prior written permission from the IB. Additionally, the license tied with this
+product prohibits use of any selected files or extracts from this product. Use by third
+parties, including but not limited to publishers, private teachers, tutoring or study services,
+preparatory schools, vendors operating curriculum mapping services or teacher resource
+digital platforms and app developers, whether fee-covered or not, is prohibited and is a
+criminal offense.
+
+More information on how to request written permission in the form of a license can be
+obtained from https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-
+license/.
+
+© Organisation du Baccalauréat International 2023
+
+Tous droits réservés. Aucune partie de ce produit ne peut être reproduite sous quelque
+forme ni par quelque moyen que ce soit, électronique ou mécanique, y compris des
+systèmes de stockage et de récupération d’informations, sans l’autorisation écrite
+préalable de l’IB. De plus, la licence associée à ce produit interdit toute utilisation de tout
+fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris, sans
+toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de tutorat ou
+d’aide aux études, des établissements de préparation à l’enseignement supérieur, des
+fournisseurs de services de planification des programmes d’études, des gestionnaires de
+plateformes pédagogiques en ligne, et des développeurs d’applications, moyennant
+paiement ou non, est interdite et constitue une infraction pénale.
+
+Pour plus d’informations sur la procédure à suivre pour obtenir une autorisation écrite
+sous la forme d’une licence, rendez-vous à l’adresse https://ibo.org/become-an-ib-school/
+ib-publishing/licensing/applying-for-a-license/.
+
+© Organización del Bachillerato Internacional, 2023
+
+Todos los derechos reservados. No se podrá reproducir ninguna parte de este producto
+de ninguna forma ni por ningún medio electrónico o mecánico, incluidos los sistemas de
+almacenamiento y recuperación de información, sin la previa autorización por escrito del
+IB. Además, la licencia vinculada a este producto prohíbe el uso de todo archivo o
+fragmento seleccionado de este producto. El uso por parte de terceros —lo que incluye,
+a título enunciativo, editoriales, profesores particulares, servicios de apoyo académico o
+ayuda para el estudio, colegios preparatorios, desarrolladores de aplicaciones y
+entidades que presten servicios de planificación curricular u ofrezcan recursos para
+docentes mediante plataformas digitales—, ya sea incluido en tasas o no, está prohibido
+y constituye un delito.
+
+En este enlace encontrará más información sobre cómo solicitar una autorización por
+escrito en forma de licencia: https://ibo.org/become-an-ib-school/ib-publishing/licensing/
+applying-for-a-license/.
+                                                    –3–                 M23/5/MATHX/SP1/ENG/TZ1/XX/M
+
+
+                                        Instructions to Examiners
+
+Abbreviations
+
+M    Marks awarded for attempting to use a correct Method.
+
+A    Marks awarded for an Answer or for Accuracy; often dependent on preceding M marks.
+
+R    Marks awarded for clear Reasoning.
+
+AG   Answer given in the question and so no marks are awarded.
+
+FT   Follow through. The practice of awarding marks, despite candidate errors in previous parts, for
+     their correct methods/answers using incorrect results.
+
+
+Using the markscheme
+
+1    General
+
+     Award marks using the annotations as noted in the markscheme eg M1, A2.
+
+
+2    Method and Answer/Accuracy marks
+
+     • Do not automatically award full marks for a correct answer; all working must be checked, and
+       marks awarded according to the markscheme.
+     • It is generally not possible to award M0 followed by A1, as A mark(s) depend on the preceding M
+       mark(s), if any.
+     • Where M and A marks are noted on the same line, e.g. M1A1, this usually means M1 for an
+       attempt to use an appropriate method (e.g. substitution into a formula) and A1 for using the
+       correct values.
+     • Where there are two or more A marks on the same line, they may be awarded independently; so
+       if the first value is incorrect, but the next two are correct, award A0A1A1.
+     • Where the markscheme specifies A3, M2 etc., do not split the marks, unless there is a note.
+     • The response to a “show that” question does not need to restate the AG line, unless a Note
+       makes this explicit in the markscheme.
+     • Once a correct answer to a question or part question is seen, ignore further working even if this
+       working is incorrect and/or suggests a misunderstanding of the question. This will encourage a
+       uniform approach to marking, with less examiner discretion. Although some candidates may be
+       advantaged for that specific question item, it is likely that these candidates will lose marks elsewhere
+       too.
+     • An exception to the previous rule is when an incorrect answer from further working is used in a
+       subsequent part. For example, when a correct exact value is followed by an incorrect decimal
+       approximation in the first part and this approximation is then used in the second part. In this
+       situation, award FT marks as appropriate but do not award the final A1 in the first part.
+                                                    –4–                 M23/5/MATHX/SP1/ENG/TZ1/XX/M
+
+
+        Examples:
+
+
+     Correct         Further            Any FT issues?
+                                                                   Action
+     answer seen     working seen
+1.                      5.65685...        No.                       Award A1 for the final mark
+       8 2            (incorrect          Last part in question.    (condone the incorrect further
+                     decimal value)                                 working)
+2.      35            0.468111…           Yes.                      Award A0 for the final mark
+                      (incorrect          Value is used in          (and full FT is available in
+        72           decimal value)       subsequent parts.         subsequent parts)
+
+
+3    Implied marks
+
+     Implied marks appear in brackets e.g. (M1),and can only be awarded if correct work is seen or
+     implied by subsequent working/answer.
+
+
+4    Follow through marks (only applied after an error is made)
+
+     Follow through (FT) marks are awarded where an incorrect answer from one part of a question is
+     used correctly in subsequent part(s) (e.g. incorrect value from part (a) used in part (d) or incorrect
+     value from part (c)(i) used in part (c)(ii)). Usually, to award FT marks, there must be working
+     present and not just a final answer based on an incorrect answer to a previous part. However, if all
+     the marks awarded in a subsequent part are for the answer or are implied, then FT marks should
+     be awarded for their correct answer, even when working is not present.
+
+     For example: following an incorrect answer to part (a) that is used in subsequent parts, where the
+     markscheme for the subsequent part is (M1)A1, it is possible to award full marks for their correct
+     answer, without working being seen. For longer questions where all but the answer marks are
+     implied this rule applies but may be overwritten by a Note in the Markscheme.
+
+     • Within a question part, once an error is made, no further A marks can be awarded for work which
+       uses the error, but M marks may be awarded if appropriate.
+
+     • If the question becomes much simpler because of an error then use discretion to award fewer
+       FT marks, by reflecting on what each mark is for and how that maps to the simplified version.
+
+     • If the error leads to an inappropriate value (e.g. probability greater than 1, sin θ = 1.5 , non-integer
+       value where integer required), do not award the mark(s) for the final answer(s).
+
+     • The markscheme may use the word “their” in a description, to indicate that candidates may be
+       using an incorrect value.
+
+     • If the candidate’s answer to the initial question clearly contradicts information given in the
+       question, it is not appropriate to award any FT marks in the subsequent parts. This includes when
+       candidates fail to complete a “show that” question correctly, and then in subsequent parts use
+       their incorrect answer rather than the given value.
+
+     • Exceptions to these FT rules will be explicitly noted on the markscheme.
+
+     • If a candidate makes an error in one part but gets the correct answer(s) to subsequent part(s),
+       award marks as appropriate, unless the command term was “Hence”.
+                                                 –5–                 M23/5/MATHX/SP1/ENG/TZ1/XX/M
+
+
+
+5   Mis-read
+
+    If a candidate incorrectly copies values or information from the question, this is a mis-read (MR). A
+    candidate should be penalized only once for a particular misread. Use the MR stamp to indicate
+    that this has been a misread and do not award the first mark, even if this is an M mark, but award
+    all others as appropriate.
+    • If the question becomes much simpler because of the MR, then use discretion to award
+      fewer marks.
+
+    • If the MR leads to an inappropriate value (e.g. probability greater than 1, sin θ = 1.5 , non-integer
+      value where integer required), do not award the mark(s) for the final answer(s).
+
+    • Miscopying of candidates’ own work does not constitute a misread, it is an error.
+
+    • If a candidate uses a correct answer, to a “show that” question, to a higher degree of accuracy
+      than given in the question, this is NOT a misread and full marks may be scored in the subsequent
+      part.
+
+    • MR can only be applied when work is seen. For calculator questions with no working and incorrect
+      answers, examiners should not infer that values were read incorrectly.
+
+
+
+
+6   Alternative methods
+
+    Candidates will sometimes use methods other than those in the markscheme. Unless the question
+    specifies a method, other correct methods should be marked in line with the markscheme. If the
+    command term is ‘Hence’ and not ‘Hence or otherwise’ then alternative methods are not permitted
+    unless covered by a note in the mark scheme.
+
+    • Alternative methods for complete questions are indicated by                          METHOD        1,
+      METHOD 2, etc.
+    • Alternative solutions for parts of questions are indicated by EITHER . . . OR.
+
+
+7   Alternative forms
+    Unless the question specifies otherwise, accept equivalent forms.
+
+    • As this is an international examination, accept all alternative forms of notation for example 1.9
+      and 1,9 or 1000 and 1,000 and 1.000 .
+
+    • Do not accept final answers written using calculator notation. However, M marks and intermediate
+      A marks can be scored, when presented using calculator notation, provided the evidence clearly
+      reflects the demand of the mark.
+
+    • In the markscheme, equivalent numerical and algebraic forms will generally be written in
+      brackets immediately following the answer.
+                                                      –6–                  M23/5/MATHX/SP1/ENG/TZ1/XX/M
+
+
+      • In the markscheme, some equivalent answers will generally appear in brackets. Not all
+        equivalent notations/answers/methods will be presented in the markscheme and examiners are
+        asked to apply appropriate discretion to judge if the candidate work is equivalent.
+
+8     Format and accuracy of answers
+
+      If the level of accuracy is specified in the question, a mark will be linked to giving the answer to the
+      required accuracy. If the level of accuracy is not stated in the question, the general rule applies to
+      final answers: unless otherwise stated in the question all numerical answers must be given exactly
+      or correct to three significant figures.
+
+      Where values are used in subsequent parts, the markscheme will generally use the exact value,
+      however candidates may also use the correct answer to 3 sf in subsequent parts. The
+      markscheme will often explicitly include the subsequent values that come “from the use of 3 sf
+      values”.
+
+      Simplification of final answers: Candidates are advised to give final answers using good
+      mathematical form. In general, for an A mark to be awarded, arithmetic should be completed, and
+                                                                                 25                     5
+      any values that lead to integers should be simplified; for example,           should be written as .
+                                                                                 4                      2
+      An exception to this is simplifying fractions, where lowest form is not required (although the
+                                                                             10
+      numerator and the denominator must be integers); for example,             may be left in this form or
+                                                                              4
+                   5            10
+      written as     . However,    should be written as 2, as it simplifies to an integer.
+                   2             5
+
+      Algebraic expressions should be simplified by completing any operations such as addition and
+      multiplication, e.g. 4e 2 x × e3 x should be simplified to 4e5 x , and 4e 2 x × e3 x − e 4 x × e x should be
+      simplified to 3e5 x . Unless specified in the question, expressions do not need to be factorized, nor
+      do factorized expressions need to be expanded, so x ( x + 1) and x 2 + x are both acceptable.
+
+      Please note: intermediate A marks do NOT need to be simplified.
+
+9     Calculators
+
+      No calculator is allowed. The use of any calculator on this paper is malpractice and will result in no
+      grade awarded. If you see work that suggests a candidate has used any calculator, please follow
+      the procedures for malpractice.
+
+
+10.   Presentation of candidate work
+
+      Crossed out work: If a candidate has drawn a line through work on their examination script, or in
+      some other way crossed out their work, do not award any marks for that work unless an explicit
+      note from the candidate indicates that they would like the work to be marked.
+
+      More than one solution: Where a candidate offers two or more different answers to the same
+      question, an examiner should only mark the first response unless the candidate indicates
+      otherwise. If the layout of the responses makes it difficult to judge, examiners should apply
+      appropriate discretion to judge which is “first”.
+                                                 –7–          M23/5/MATHX/SP1/ENG/TZ1/XX/M
+
+
+                                             Section A
+
+
+1.   (a)   M ( 6, −3)                                                                A1A1
+
+                                                                                 [2 marks]
+
+
+
+
+                                  5
+     (b)   gradient of [PQ] = −                                                       (A1)
+                                  9
+                             9
+           gradient of L =                                                              A1
+                             5
+                                                                                 [2 marks]
+
+
+
+
+                    9(              9    69
+     (c)   y + 3=      x − 6 ) OR =
+                                  y   x−    (or equivalent)                             A1
+                    5               5     5
+
+                                  9   69
+                         L
+     Note: Do not accept =          x− .
+                                  5   5
+                                                                                  [1 mark]
+                                                                            Total [5 marks]
+                                                    –8–                  M23/5/MATHX/SP1/ENG/TZ1/XX/M
+
+
+2.   (a)   recognizing f ( x ) = 0                                                               (M1)
+
+           x = −1                                                                                  A1
+                                                                                            [2 marks]
+
+
+
+
+     (b)   (i)     x = 2 (must be an equation with x )                                             A1
+                          7
+           (ii)    y=       (must be an equation with y )                                          A1
+                          2
+                                                                                            [2 marks]
+
+
+
+
+     (c)   EITHER
+           interchanging x and y                                                                 (M1)
+           2 xy − 4 x = 7 y + 7
+           correct working with y terms on the same side: 2 xy − 7 y = 4 x + 7                   (A1)
+
+
+           OR
+           2 yx − 4 y = 7 x + 7
+           correct working with x terms on the same side: 2 yx − 7 x = 4 y + 7                   (A1)
+
+                                                                4y + 7
+           interchanging x and y OR making x the subject x =                                     (M1)
+                                                                2y − 7
+
+
+           THEN
+                          4x + 7                     7
+            f −1 ( x) =          (or equivalent)  x ≠                                            A1
+                          2x − 7                     2
+                                                                                            [3 marks]
+                                                                                       Total [7 marks]
+                                                   –9–             M23/5/MATHX/SP1/ENG/TZ1/XX/M
+
+
+3.   (a)   (i)    summing frequencies of riders or finding complement                      (M1)
+                                  34
+                  probability =                                                              A1
+                                  40
+
+
+           (ii)   attempt to find expected value                                           (M1)
+                  16  13         2       3 
+                    +  2 ×  +  3×  +  4 × 
+                  40  40   40   40 
+                  60
+                     ( = 1.5)                                                                A1
+                  40
+                                                                                      [4 marks]
+
+
+
+
+     (b)   evidence of their rides/visitor ×1000 or ÷10                                    (M1)
+           1500 OR 0.15
+           150 (times)                                                                       A1
+                                                                                      [2 marks]
+                                                                                 Total [6 marks]
+                                                   – 10 –                M23/5/MATHX/SP1/ENG/TZ1/XX/M
+
+
+4.   (a)   1 − 2sin 2 x =
+                        sin x                                                                      A1
+           2sin 2 x + sin x − 1 =0                                                                AG
+                                                                                             [1 mark]
+
+
+     (b)   valid attempt to solve quadratic                                                      (M1)
+
+                                        −1 ± 1 − 4(2)(−1)
+           (2sin x − 1)(sin x + 1) OR
+                                              2(2)
+           recognition to solve for sin x                                                        (M1)
+                     1
+           sin x =     OR sin x = −1
+                     2
+           any correct solution from sin x = −1                                                    A1
+                                               1
+           any correct solution from sin x =                                                       A1
+                                               2
+     Note: The previous two marks may be awarded for degree or radian values,
+           irrespective of domain.
+
+               π π 5π
+           x= − , ,                                                                                A1
+               2 6 6
+     Note: If no working shown, award no marks for a final value(s).
+                               π π 5π
+            Award A0 for − , ,        if additional values also given.
+                               2 6 6
+
+                                                                                            [5 marks]
+                                                                                       Total [6 marks]
+                                               – 11 –   M23/5/MATHX/SP1/ENG/TZ1/XX/M
+
+
+5.   recognition of quadratic in e x                                           (M1)
+
+     ( e ) − 3e + ln k ( =
+       x 2        x
+                         0 ) OR A − 3 A + ln k ( =
+                                   2
+                                                 0)
+     recognizing discriminant ≥ 0 (seen anywhere)                              (M1)
+
+     ( −3) − 4(1)(ln k ) OR 9 − 4 ln k
+          2
+                                                                                (A1)
+
+              9                                                                 (A1)
+     ln k ≤
+              4
+     e9/4 (seen anywhere)                                                        A1
+     0 < k ≤ e9/4                                                                A1
+                                                                           [6 marks]
+                                                  – 12 –             M23/5/MATHX/SP1/ENG/TZ1/XX/M
+
+
+6.   (a)   recognition that period is 4m OR substitution of a point on f (except the origin)       (M1)
+
+                  2π
+           4m =      OR 1 = sin qm
+                   q
+                π
+           m=                                                                                        A1
+                2q
+                                                                                               [2 marks]
+
+
+
+
+                                        3
+     (b)   horizontal scale factor is     (seen anywhere)                                           (A1)
+                                        2
+     Note: This (A1) may be earned by seeing a period of 6m , half period of 3m or
+           the correct x-coordinate of the maximum/minimum point.
+
+
+
+
+                                                                                                A1A1A1
+
+     Note: Curve must be an approximate sinusoidal shape (sine or cosine).
+           Only in this case, award the following:
+           A1 for correct amplitude.
+           A1 for correct domain.
+           A1 for correct max and min points and correct x-intercepts.
+
+                                                                                               [4 marks]
+                                                                                        Total [6 marks]
+                                                        – 13 –     M23/5/MATHX/SP1/ENG/TZ1/XX/M
+
+
+                                                  Section B
+
+7.   (a)   substitution of x = 0                                                          (M1)
+
+           ( y =) 3    (accept ( 0, 3) )                                                    A1
+
+                                                                                      [2 marks]
+
+
+
+
+     (b)   evidence of using the product rule                                             (M1)
+
+           h′(=
+              x) 2e x + 2 xe x                                                              A1
+                                                                                      [2 marks]
+
+
+
+
+     (c)   setting their derivative equal to zero                                         (M1)
+           correct working                                                                 (A1)
+           2e x (1 + x) ( =
+                          0 ) OR −2 x =
+                                      2
+           x = −1 (seen anywhere, and must follow on from their derivative)                 A1
+
+           substituting their value of x into h ( x )                                     (M1)
+
+               2
+           y =− + 3 ( =
+                      −2e −1 + 3)                                                           A1
+               e
+                   2 
+           A  −1, − + 3 
+                   e    
+                                                                                      [5 marks]
+                                                                                     continued…
+                                                        – 14 –            M23/5/MATHX/SP1/ENG/TZ1/XX/M
+
+
+Question 7 continued
+
+
+     (d)   (i)    h′′( x) = 2e x + 2e x + 2 xe x OR 2e x + 2e x (1 + x)                          A1A1
+
+
+     Note: Award A1 for 2e   ( )′ = 2e , A1 for 2e + 2 xe or ( 2 x + 2 ) e
+                                 x         x              x        x         x
+
+
+
+
+                  h′′(=
+                      x)   ( 2x + 4) ex                                                            AG
+
+
+           (ii)   recognition that h′′ > 0 OR attempt to find point of inflexion                  (M1)
+
+                  since e x > 0 , 2 x + 4 > 0 OR 2 x + 4 =0 ( ⇒ x =−2 )
+                  x > −2                                                                            A1
+                                                                                             [4 marks]
+                                                                                       Total [13 marks]
+                                                              – 15 –        M23/5/MATHX/SP1/ENG/TZ1/XX/M
+
+
+8.   (a)   (i)    recognition that n = 5                                                           (M1)
+                    S5 = 45                                                                          A1
+
+
+           (ii)   METHOD 1
+                  recognition that S5 + u6 =
+                                           S6                                                      (M1)
+
+                    u6 = 15                                                                          A1
+
+
+                  METHOD 2
+                                              6
+                  recognition that=
+                                  60            ( S1 + u6 )                                        (M1)
+                                              2
+
+                    60 3 ( 5 + u6 )
+                    =
+
+                    u6 = 15                                                                          A1
+
+
+                  METHOD 3
+                  substituting their u1 and d values into u1 + ( n − 1) d                          (M1)
+
+                    u6 = 15                                                                          A1
+
+                                                                                               [4 marks]
+
+
+
+
+     (b)   recognition that u1 = S1 (may be seen in (a)) OR substituting their u6 into S6          (M1)
+
+           OR equations for S5 and S6 in terms of u1 and d
+
+                               6
+                    60
+           1 + 4 OR =            ( u1 + 15)
+                               2
+           u1 = 5                                                                                    A1
+
+                                                                                               [2 marks]
+                                                                                              continued…
+                                                      – 16 –        M23/5/MATHX/SP1/ENG/TZ1/XX/M
+
+
+Question 8 continued
+
+
+     (c)   EITHER
+
+           valid attempt to find d (may be seen in (a) or (b))                              (M1)
+
+           d =2                                                                             (A1)
+
+           OR
+
+           valid attempt to find S n − S n −1                                               (M1)
+
+
+           n 2 + 4n − ( n 2 − 2n + 1 + 4n − 4 )                                             (A1)
+
+           OR
+
+                                  n
+                        2
+           equating n + 4n =        ( 5 + un )                                              (M1)
+                                  2
+
+           2n + 8 = 5 + un (or equivalent)                                                  (A1)
+
+           THEN
+
+               5 2(n − 1) OR u=
+           un =+              n 2n + 3                                                        A1
+
+
+                                                                                       [3 marks]
+
+
+
+           recognition that v2 r = v4 OR ( v3 )= v2 × v4
+                                  2               2
+     (d)                                                                                    (M1)
+
+           r 2 = 3 OR v3 =   (±)5 3                                                         (A1)
+
+           r= ± 3                                                                             A1
+
+     Note: If no working shown, award M1A1A0 for               3.
+                                                                                       [3 marks]
+
+
+
+
+     (e)   recognition that r is negative                                                   (M1)
+
+                       45 
+              −15 3  =
+           v5 =       −                                                                      A1
+                        3
+                                                                                       [2 marks]
+                                                                                 Total [14 marks]
+                                                        – 17 –          M23/5/MATHX/SP1/ENG/TZ1/XX/M
+
+
+9.   (a)   attempt to integrate v (integration of at least one term)                           (M1)
+                        1       7
+           ( s(t ) =−
+                    ) t 4 + t 3 − t 2 + 6t ( +C )                                                A2
+                        4       6
+     Note: Award A1 for at least two correct terms.
+
+           substitution of t = 1 into their integrated expression                              (M1)
+                                    11  71 
+           displacement = 5             =  (m)                                                 A1
+                                    12  12 
+                                                                                           [5 marks]
+
+
+
+
+     (b)   attempt to differentiate v (differentiation of at least one term)                   (M1)
+
+           a (t ) =−3t 2 + 7t − 2                                                                A1
+
+                                                                                           [2 marks]
+
+
+
+
+     (c)   setting their v ' ( t ) = 0                                                         (M1)
+
+           −3t 2 + 7t − 2 =0
+           valid attempt to solve quadratic                                                    (M1)
+
+                                         −7 ± 49 − 4 ( −3)( −2 )
+           ( 3t − 1)( t − 2 ) =
+                              0 OR
+                                                   −6
+              1         1
+           t = , 2 ( t = may be omitted)                                                        (A1)
+              3         3
+           substitute their largest positive t-value into v(t)                                 (M1)
+           greatest speed is 8 (ms-1)                                                            A1
+
+
+                                                                                           [5 marks]
+                                                                                          continued…
+                                                       – 18 –               M23/5/MATHX/SP1/ENG/TZ1/XX/M
+
+
+Question 9 continued
+
+
+     (d)   attempt to check other boundary value at t = 4                                           (M1)
+           v(4) =−64 + 56 − 8 + 6 ( =−10 )
+           greatest speed is 10 ms-1                                                                  A1
+
+
+                                                                                               [2 marks]
+
+
+
+
+     (e)   identifying correct intervals where speed increases (may be seen in integral)        (A1)(A1)
+              1
+           t = to t = 2 and t = k to t = 4
+              3
+            2            4                2        4            2            4
+           ∫ v ( t ) dt + ∫ v ( t ) dt OR ∫ vdt + ∫ vdt OR ∫ v ( t ) dt − ∫ v ( t ) dt
+            1
+            3
+                        k
+                                          1
+                                          3
+                                                   k
+                                                                1
+                                                                3
+                                                                             k
+                                                                                                    A1
+
+
+     Note: Condone missing dt .
+
+                                                                                               [3 marks]
+                                                                                         Total [17 marks]
+

@@ -1,0 +1,1235 @@
+M23/5/MATHX/HP2/ENG/TZ2/XX/M
+
+
+
+
+                       Markscheme
+
+
+                               May 2023
+
+
+   Mathematics: analysis and approaches
+
+
+                           Higher level
+
+
+                               Paper 2
+
+
+
+
+29 pages
+                                            –2–                 M23/5/MATHX/HP2/ENG/TZ2/XX/M
+
+
+
+
+© International Baccalaureate Organization 2023
+
+All rights reserved. No part of this product may be reproduced in any form or by any
+electronic or mechanical means, including information storage and retrieval systems,
+without the prior written permission from the IB. Additionally, the license tied with this
+product prohibits use of any selected files or extracts from this product. Use by third
+parties, including but not limited to publishers, private teachers, tutoring or study services,
+preparatory schools, vendors operating curriculum mapping services or teacher resource
+digital platforms and app developers, whether fee-covered or not, is prohibited and is a
+criminal offense.
+
+More information on how to request written permission in the form of a license can be
+obtained from https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-
+license/.
+
+© Organisation du Baccalauréat International 2023
+
+Tous droits réservés. Aucune partie de ce produit ne peut être reproduite sous quelque
+forme ni par quelque moyen que ce soit, électronique ou mécanique, y compris des
+systèmes de stockage et de récupération d’informations, sans l’autorisation écrite
+préalable de l’IB. De plus, la licence associée à ce produit interdit toute utilisation de tout
+fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris, sans
+toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de tutorat ou
+d’aide aux études, des établissements de préparation à l’enseignement supérieur, des
+fournisseurs de services de planification des programmes d’études, des gestionnaires de
+plateformes pédagogiques en ligne, et des développeurs d’applications, moyennant
+paiement ou non, est interdite et constitue une infraction pénale.
+
+Pour plus d’informations sur la procédure à suivre pour obtenir une autorisation écrite
+sous la forme d’une licence, rendez-vous à l’adresse https://ibo.org/become-an-ib-school/
+ib-publishing/licensing/applying-for-a-license/.
+
+© Organización del Bachillerato Internacional, 2023
+
+Todos los derechos reservados. No se podrá reproducir ninguna parte de este producto
+de ninguna forma ni por ningún medio electrónico o mecánico, incluidos los sistemas de
+almacenamiento y recuperación de información, sin la previa autorización por escrito del
+IB. Además, la licencia vinculada a este producto prohíbe el uso de todo archivo o
+fragmento seleccionado de este producto. El uso por parte de terceros —lo que incluye,
+a título enunciativo, editoriales, profesores particulares, servicios de apoyo académico o
+ayuda para el estudio, colegios preparatorios, desarrolladores de aplicaciones y
+entidades que presten servicios de planificación curricular u ofrezcan recursos para
+docentes mediante plataformas digitales—, ya sea incluido en tasas o no, está prohibido
+y constituye un delito.
+
+En este enlace encontrará más información sobre cómo solicitar una autorización por
+escrito en forma de licencia: https://ibo.org/become-an-ib-school/ib-publishing/licensing/
+applying-for-a-license/.
+                                                    –3–                 M23/5/MATHX/HP2/ENG/TZ2/XX/M
+
+
+                                        Instructions to Examiners
+
+Abbreviations
+
+M    Marks awarded for attempting to use a correct Method.
+
+A    Marks awarded for an Answer or for Accuracy; often dependent on preceding M marks.
+
+R    Marks awarded for clear Reasoning.
+
+AG   Answer given in the question and so no marks are awarded.
+
+FT   Follow through. The practice of awarding marks, despite candidate errors in previous parts, for
+     their correct methods/answers using incorrect results.
+
+
+Using the markscheme
+
+1    General
+
+     Award marks using the annotations as noted in the markscheme eg M1, A2.
+
+
+2    Method and Answer/Accuracy marks
+
+     • Do not automatically award full marks for a correct answer; all working must be checked, and
+       marks awarded according to the markscheme.
+     • It is generally not possible to award M0 followed by A1, as A mark(s) depend on the preceding M
+       mark(s), if any.
+     • Where M and A marks are noted on the same line, e.g. M1A1, this usually means M1 for an
+       attempt to use an appropriate method (e.g. substitution into a formula) and A1 for using the
+       correct values.
+     • Where there are two or more A marks on the same line, they may be awarded independently; so
+       if the first value is incorrect, but the next two are correct, award A0A1A1.
+     • Where the markscheme specifies A3, M2 etc., do not split the marks, unless there is a note.
+     • The response to a “show that” question does not need to restate the AG line, unless a Note
+       makes this explicit in the markscheme.
+     • Once a correct answer to a question or part question is seen, ignore further working even if this
+       working is incorrect and/or suggests a misunderstanding of the question. This will encourage a
+       uniform approach to marking, with less examiner discretion. Although some candidates may be
+       advantaged for that specific question item, it is likely that these candidates will lose marks elsewhere
+       too.
+     • An exception to the previous rule is when an incorrect answer from further working is used in a
+       subsequent part. For example, when a correct exact value is followed by an incorrect decimal
+       approximation in the first part and this approximation is then used in the second part. In this
+       situation, award FT marks as appropriate but do not award the final A1 in the first part.
+                                                    –4–                 M23/5/MATHX/HP2/ENG/TZ2/XX/M
+
+
+Examples:
+
+     Correct         Further            Any FT issues?
+                                                                   Action
+     answer seen     working seen
+1.                      5.65685...        No.                       Award A1 for the final mark
+       8 2            (incorrect          Last part in question.    (condone the incorrect further
+                     decimal value)                                 working)
+2.      35            0.468111…           Yes.                      Award A0 for the final mark
+                      (incorrect          Value is used in          (and full FT is available in
+        72           decimal value)       subsequent parts.         subsequent parts)
+
+
+3    Implied marks
+
+     Implied marks appear in brackets e.g. (M1),and can only be awarded if correct work is seen or
+     implied by subsequent working/answer.
+
+
+4    Follow through marks (only applied after an error is made)
+
+     Follow through (FT) marks are awarded where an incorrect answer from one part of a question is
+     used correctly in subsequent part(s) (e.g. incorrect value from part (a) used in part (d) or incorrect
+     value from part (c)(i) used in part (c)(ii)). Usually, to award FT marks, there must be working
+     present and not just a final answer based on an incorrect answer to a previous part. However, if all
+     the marks awarded in a subsequent part are for the answer or are implied, then FT marks should
+     be awarded for their correct answer, even when working is not present.
+
+     For example: following an incorrect answer to part (a) that is used in subsequent parts, where the
+     markscheme for the subsequent part is (M1)A1, it is possible to award full marks for their correct
+     answer, without working being seen. For longer questions where all but the answer marks are
+     implied this rule applies but may be overwritten by a Note in the Markscheme.
+
+     • Within a question part, once an error is made, no further A marks can be awarded for work which
+       uses the error, but M marks may be awarded if appropriate.
+
+     • If the question becomes much simpler because of an error then use discretion to award fewer
+       FT marks, by reflecting on what each mark is for and how that maps to the simplified version.
+
+     • If the error leads to an inappropriate value (e.g. probability greater than 1, sin θ = 1.5 , non-integer
+       value where integer required), do not award the mark(s) for the final answer(s).
+
+     • The markscheme may use the word “their” in a description, to indicate that candidates may be
+       using an incorrect value.
+
+     • If the candidate’s answer to the initial question clearly contradicts information given in the
+       question, it is not appropriate to award any FT marks in the subsequent parts. This includes when
+       candidates fail to complete a “show that” question correctly, and then in subsequent parts use
+       their incorrect answer rather than the given value.
+
+     • Exceptions to these FT rules will be explicitly noted on the markscheme.
+
+     • If a candidate makes an error in one part but gets the correct answer(s) to subsequent part(s),
+       award marks as appropriate, unless the command term was “Hence”.
+                                                 –5–                 M23/5/MATHX/HP2/ENG/TZ2/XX/M
+
+
+
+5   Mis-read
+
+    If a candidate incorrectly copies values or information from the question, this is a mis-read (MR). A
+    candidate should be penalized only once for a particular misread. Use the MR stamp to indicate
+    that this has been a misread and do not award the first mark, even if this is an M mark, but award
+    all others as appropriate.
+    • If the question becomes much simpler because of the MR, then use discretion to award
+      fewer marks.
+
+    • If the MR leads to an inappropriate value (e.g. probability greater than 1, sin θ = 1.5 , non-integer
+      value where integer required), do not award the mark(s) for the final answer(s).
+
+    • Miscopying of candidates’ own work does not constitute a misread, it is an error.
+
+    • If a candidate uses a correct answer, to a “show that” question, to a higher degree of accuracy
+      than given in the question, this is NOT a misread and full marks may be scored in the subsequent
+      part.
+
+    • MR can only be applied when work is seen. For calculator questions with no working and incorrect
+      answers, examiners should not infer that values were read incorrectly.
+
+
+6   Alternative methods
+
+    Candidates will sometimes use methods other than those in the markscheme. Unless the question
+    specifies a method, other correct methods should be marked in line with the markscheme. If the
+    command term is ‘Hence’ and not ‘Hence or otherwise’ then alternative methods are not permitted
+    unless covered by a note in the mark scheme.
+
+    • Alternative methods for complete questions are indicated by                          METHOD        1,
+      METHOD 2, etc.
+    • Alternative solutions for parts of questions are indicated by EITHER . . . OR.
+
+
+7   Alternative forms
+    Unless the question specifies otherwise, accept equivalent forms.
+
+    • As this is an international examination, accept all alternative forms of notation for example 1.9
+      and 1,9 or 1000 and 1,000 and 1.000 .
+
+    • Do not accept final answers written using calculator notation. However, M marks and intermediate
+      A marks can be scored, when presented using calculator notation, provided the evidence clearly
+      reflects the demand of the mark.
+
+    • In the markscheme, equivalent numerical and algebraic forms will generally be written in
+      brackets immediately following the answer.
+
+    • In the markscheme, some equivalent answers will generally appear in brackets. Not all
+      equivalent notations/answers/methods will be presented in the markscheme and examiners are
+      asked to apply appropriate discretion to judge if the candidate work is equivalent.
+                                                      –6–                  M23/5/MATHX/HP2/ENG/TZ2/XX/M
+
+
+8     Format and accuracy of answers
+
+      If the level of accuracy is specified in the question, a mark will be linked to giving the answer to the
+      required accuracy. If the level of accuracy is not stated in the question, the general rule applies to
+      final answers: unless otherwise stated in the question all numerical answers must be given exactly
+      or correct to three significant figures.
+
+      Where values are used in subsequent parts, the markscheme will generally use the exact value,
+      however candidates may also use the correct answer to 3 sf in subsequent parts. The
+      markscheme will often explicitly include the subsequent values that come “from the use of 3 sf
+      values”.
+
+      Simplification of final answers: Candidates are advised to give final answers using good
+      mathematical form. In general, for an A mark to be awarded, arithmetic should be completed, and
+                                                                                 25                     5
+      any values that lead to integers should be simplified; for example,           should be written as .
+                                                                                 4                      2
+      An exception to this is simplifying fractions, where lowest form is not required (although the
+                                                                             10
+      numerator and the denominator must be integers); for example,             may be left in this form or
+                                                                              4
+                   5            10
+      written as     . However,    should be written as 2, as it simplifies to an integer.
+                   2             5
+
+      Algebraic expressions should be simplified by completing any operations such as addition and
+      multiplication, e.g. 4e 2 x × e3 x should be simplified to 4e5 x , and 4e 2 x × e3 x − e 4 x × e x should be
+      simplified to 3e5 x . Unless specified in the question, expressions do not need to be factorized, nor
+      do factorized expressions need to be expanded, so x ( x + 1) and x 2 + x are both acceptable.
+
+      Please note: intermediate A marks do NOT need to be simplified.
+
+9     Calculators
+
+      A GDC is required for this paper, but if you see work that suggests a candidate has used any
+      calculator not approved for IB DP examinations (eg CAS enabled devices), please follow the
+      procedures for malpractice.
+
+
+10.   Presentation of candidate work
+
+      Crossed out work: If a candidate has drawn a line through work on their examination script, or in
+      some other way crossed out their work, do not award any marks for that work unless an explicit
+      note from the candidate indicates that they would like the work to be marked.
+
+      More than one solution: Where a candidate offers two or more different answers to the same
+      question, an examiner should only mark the first response unless the candidate indicates
+      otherwise. If the layout of the responses makes it difficult to judge, examiners should apply
+      appropriate discretion to judge which is “first”.
+                                                  –7–         M23/5/MATHX/HP2/ENG/TZ2/XX/M
+
+
+                                              Section A
+
+1.   (a)   a = 1.93258... , b = 7.21662...
+           a = 1.93 , b = 7.22                                                      A1A1
+
+
+                                                                                [2 marks]
+
+
+     (b)   attempt to substitute d = 20 into their equation                          (M1)
+           height = 45.8683...
+           height = 45.9 (cm)                                                          A1
+                                                                                [2 marks]
+                                                                           Total [4 marks]
+                                                       –8–                 M23/5/MATHX/HP2/ENG/TZ2/XX/M
+
+
+    2.     METHOD 1
+           attempt to substitute into cosine rule                                                       (M1)
+
+                                                   ˆ OR cos APB
+                                                             ˆ =     1502 + 902 − 1542
+           1542 = 1502 + 902 − 2 (150 )( 90 ) cos APB                                                    (A1)
+                                                                       2 (150 )( 90 )
+          ˆ
+         APB
+         =   75.2286...° OR 1.31298... radians
+             ˆ
+            APB
+             =  75.2° OR 1.31radians                                                                     (A1)
+
+           valid approach to find θ                                                                     (M1)
+            ˆ
+   180° − APB          180° − 75.2286...°
+           θ=   OR θ =                    ( = 52.3856...) OR
+         2                     2
+   π − 1.31298...
+=θ =( 0.914302...)
+          2
+           valid approach to express h in terms of θ                                                    (M1)
+                   h
+           sin θ=
+                =     OR h 150sin 52.3856...°
+                  150
+            h = 118.820...
+            h = 119 (m)                                                                                   A1
+                                                                                                    [6 marks]
+
+
+
+
+           METHOD 2
+           attempts to find either the distance between the buildings or the difference in height
+           between the buildings in terms of θ                                                          (M1)
+           distance between the buildings is (150 + 90 ) cosθ and the difference in height between
+           the buildings is (150 − 90 ) sin θ                                                            (A1)
+
+           uses Pythagoras and attempts to solve for θ                                                  (M1)
+
+           ( 60sin θ ) + ( 240cosθ ) =
+                     2                2
+                                     1542
+
+                   =( 52.3856...° )
+           θ = 0.914302...                                                                               (A1)
+
+            h
+               = sin ( 0.914302...)                                                                     (M1)
+           150
+            h = 118.820...
+            h = 119 (m)                                                                                   A1
+                                                                                                    [6 marks]
+                                                  –9–               M23/5/MATHX/HP2/ENG/TZ2/XX/M
+
+
+3.   (a)   evidence of attempting to find correct area under normal curve                  (M1)
+           P (W > 210 ) OR sketch
+
+           P (W > 210 ) =
+                        0.115069...
+
+           P (W > 210 ) =
+                        0.115                                                                A1
+
+                                                                                      [2 marks]
+
+
+
+
+     (b)   recognizing P (W < w ) =−
+                                   1 P ( w < W < 210 ) − P (W > 210 )                      (M1)
+
+           P (W < w ) =−
+                       1 0.8 − 0.115069...
+
+           P (W < w ) =
+                      0.084930...
+
+           P (W < w ) =
+                      0.0849                                                                 A1
+
+                                                                                      [2 marks]
+
+
+
+
+     (c)   evidence of attempting to use inverse normal function                           (M1)
+           w = 197.136...
+           w = 197 (grams)                                                                   A1
+                                                                                      [2 marks]
+
+
+
+
+     (d)   recognition of binomial distribution                                            (M1)
+           X  B (10,0.0849302...)
+
+           P( X= 1)= 0.382076...
+           P( X= 1)= 0.382                                                                   A1
+                                                                                      [2 marks]
+                                                                                 Total [8 marks]
+                                                  – 10 –       M23/5/MATHX/HP2/ENG/TZ2/XX/M
+
+
+
+
+     attempt to use the binomial expansion of ( x + h )
+                                                           8
+4.                                                                                   (M1)
+     8
+      C0 x8h 0 + 8C1 x 7 h1 + 8C2 x 6 h 2 + ...
+
+     a = 8h (accept 8C1 h )                                                           A1
+
+     b = 28h 2 (accept 8C2 h 2 )                                                      A1
+
+     d = 70h 4 (accept 8C4 h 4 )                                                      A1
+
+
+     recognition that there is a common ratio between their terms                    (M1)
+     8h × r =28h 2 OR 28h 2 × r =70h 4 OR 8h × r 2 =
+                                                   70h 4
+     correct equation in terms of h                                                  (A1)
+
+     28h 2 70h 4
+          =       (or equivalent)
+      8h    28h 2
+     h = 1.4                                                                          A1
+
+
+                                                                                [7 marks]
+                                                                       – 11 –                       M23/5/MATHX/HP2/ENG/TZ2/XX/M
+
+
+5.   (a)     recognize that acceleration is zero when v′ ( t ) = 0 OR at a local maximum on the
+     graph of v                                                                                                                    (M1)
+
+
+             t1 = 0.394791...
+
+                          5 
+       =t1 0.395
+            =     arctan  12   (seconds)                                                                                         A1
+                          
+                                                                                                                               [2 marks]
+
+
+
+
+     (b)     recognition that v = 0                                                                                                (M1)
+             sketch OR t = 4.71238... OR t = 10.9955...
+
+             t2 = 10.9955...
+
+                     7π 
+           =t2 11.0
+                =                                                                                                                  A1
+                     2 
+                                                                                                                               [2 marks]
+
+
+
+             t2                 10.9955...              4.71238...             10.9955...
+     (c)     ∫ v dt OR ∫                      v dt OR       ∫         v dt +       ∫        v dt ( =6.53806... + 1.29313...)
+             t1                 0.394791...             0.394791...            4.71238...
+                  4.71238...              10.9955...
+             OR       ∫         v dt −         v dt ( 6.53806... − ( −1.29313...) )
+                                              ∫=                                                                                    (A1)
+                  0.394791...             4.71238...
+
+             distance = 7.83118…
+             = 7.83 (m)                                                                                                              A1
+
+
+                                                                                                                               [2 marks]
+                                                                                                                       Total [6 marks]
+                                                     – 12 –             M23/5/MATHX/HP2/ENG/TZ2/XX/M
+
+
+6.   (a)   METHOD 1
+           the general point on L has coordinates ( λ , 2 − 2λ , 4 − 2λ )
+
+           substitutes this general point into both Π1 and Π 2                                (M1)
+
+           2λ − ( 2 − 2λ ) + 2 ( 4 − 2λ )(= 2λ − 2 + 2λ + 8 − 4λ )                             A1
+
+           =6                                                                                  AG
+
+           4λ + 3 ( 2 − 2λ ) − ( 4 − 2λ )(= 4λ + 6 − 6λ − 4 + 2λ )                             A1
+
+           =2                                                                                  AG
+
+                                                             0       1
+                                                                      
+           so the vector equation of L can be written as r =  2  + λ  −2                   AG
+                                                              4       −2 
+                                                                      
+     Note: Award (M1)A0A0 for correct verification using a specific value of λ .
+                                                                                          continued…
+                                                   – 13 –             M23/5/MATHX/HP2/ENG/TZ2/XX/M
+
+
+Question 6 continued
+
+
+          METHOD 2
+          substitutes ( 0, 2, 4 ) into both Π1 and Π 2 and shows that
+
+           0−2+8 =6 and 0 + 6 − 4 =2                                                         A1
+          hence ( 0, 2, 4 ) lies in both Π1 and Π 2                                          AG
+
+
+          EITHER
+
+                           2 4
+                              
+          attempts to find  −1 ×  3                                                      M1
+                            2   −1
+                              
+              −5 
+              
+           =  10                                                                           A1
+              10 
+              
+
+
+          OR
+
+                            12           14
+                                          
+          attempts to find  −2  −1 and  −2  3                                      M1
+                            −2   2       −2   −1
+                                          
+           ( 2 + 2 − 4 ) =0 and ( 4 − 6 + 2 ) =0                                             A1
+
+
+          THEN
+
+              1
+               
+          (so  −2  is perpendicular to both normal vectors)
+               −2 
+               
+                                                            0       1
+                                                                     
+          so the vector equation of L can be written as r =  2  + λ  −2                  AG
+                                                             4       −2 
+                                                                     
+     Note: Award M1 for substituting x = 0 (or y = 2 or z = 4 ) into Π1 and Π 2 and
+          solving simultaneously, for example, solving − y + 2 z =6 and 3 y − z =2.
+          Award A1 for y = 2 and z = 4 , for example.
+
+
+                                                                                        continued…
+                                                 – 14 –               M23/5/MATHX/HP2/ENG/TZ2/XX/M
+
+
+Question 6 continued
+
+
+          METHOD 3
+          attempts row reduction to obtain eg,
+                z
+           x+     2 and y − z =−2
+                  =                                                                         (M1)
+                2
+                                       z
+          substitutes x = λ into x +     2 , solves for z and obtains z= 4 − 2λ
+                                         =                                                   A1
+                                       2
+          substitutes z= 4 − 2λ into y − z =−2 , solves for y and obtains y= 2 − 2λ          A1
+
+                                                            0       1
+                                                                     
+          so the vector equation of L can be written as r =  2  + λ  −2                  AG
+                                                             4       −2 
+                                                                     
+
+
+          METHOD 4
+          attempts to solve 2 x − y + 2 z =6 and 4 x + 3 y − z =2                           (M1)
+                         λ, y =
+          for example, x =    2 − 2λ , z =
+                                         4 − 2λ                                              A2
+
+                                                            0       1
+                                                                     
+          so the vector equation of L can be written as r =  2  + λ  −2                  AG
+                                                             4       −2 
+                                                                     
+     Note: Only award marks for convincing use of a GDC.
+                                                                                       [3 marks]
+
+
+                                                                                        continued…
+                                                             – 15 –               M23/5/MATHX/HP2/ENG/TZ2/XX/M
+
+
+Question 6 continued
+
+
+     (b)   EITHER
+           the position vector for point P nearest to the origin is perpendicular to the
+           direction of L
+
+            λ  1
+                     
+            2 − 2λ  ⋅  −2  =0                                                                        (M1)
+            4 − 2λ   −2 
+                     
+           λ − 2 ( 2 − 2λ ) − 2 ( 4 − 2 λ ) =
+                                            0                                                            (A1)
+
+           9λ − 12 =
+                   0                                                                                     (A1)
+
+
+           OR
+           let s be the distance from the origin to a point P on L , then
+
+           s 2 = λ 2 + ( 2 − 2λ ) + ( 4 − 2λ )
+                                   2             2
+                                                                                                         (A1)
+
+                                                 d ( s2 )
+           attempts to find λ such that                     =0                                           (M1)
+                                                     dλ
+                    d ( s2 )
+           either              = 18λ − 24 ( = 0 ) or a graph of s 2 versus λ                             (A1)
+                     dλ
+
+                                                      λ 2 + ( 2 − 2λ ) + ( 4 − 2λ ) .
+                                                                      2           2
+     Note: Award as above for use of s=
+
+
+
+           THEN
+                4
+           λ=                                                                                              A1
+                3
+             4 2 4
+           P  , − ,  ( P(1.33, −0.667,1.33)                                                              A1
+             3 3 3
+                                                                                                    [5 marks]
+                                                                                               Total [8 marks]
+                                                       – 16 –   M23/5/MATHX/HP2/ENG/TZ2/XX/M
+
+
+7.    attempts to express x in terms of tan y                                         (M1)
+     =x tan y + 2                                                                     (A1)
+
+      let V be the volume of the solid
+                            b
+
+                            ∫
+      correctly uses V = π x 2dy
+                            a
+                                                                                      (M1)
+
+                                   b
+                           π ( arctan( x − 2) ) dy
+                                                   2
+      Note: Award M0 for V =       ∫
+                                   a
+
+            π
+            3
+                                1.0472...             
+      V = π ∫ ( tan y + 2 ) dy = π ∫ ( tan y + 2 ) dy 
+                           2                       2
+                                                                                      (A1)
+            0                       0                 
+       = 24.0213...
+
+                ( (
+          = π 4ln 2 + π + 3
+       = 24.0                      ))                                                  A1
+
+      Note: GDC in degrees gives13.3
+                                                                                 [5 marks]
+                                                            – 17 –            M23/5/MATHX/HP2/ENG/TZ2/XX/M
+
+
+8.   (a)   EITHER
+           attempts to find the y - coordinate of either the local minimum point or the local
+           maximum point                                                                                     (M1)
+
+
+           OR
+
+                                                     5 y x2 − 3
+           attempts to find the discriminant of 2 x −=               (   ) ( yx − 2 x + (5 − 3 y=) 0 )
+                                                                               2
+                                                                                                             (M1)
+
+           ∆ = 4 − 4 y ( 5 − 3 y ) (= 4 − 20 y + 12 y 2 )
+
+
+           THEN
+           y = 1.43425... (local min.) and y = 0.232408... (local max.)                                   (A1)(A1)
+
+                                                             − 13 + 5              13 + 5
+           g ( x ) ≤ 0.232 OR g ( x ) ≥ 1.43 ( g ( x ) ≤              OR g ( x ) ≥        )                    A1
+                                                                6                   6
+     Note: Accept other valid notations such as interval notation.
+                                                                                                         [4 marks]
+
+
+
+
+           2 x −5                         π
+     (b)     2
+                  ≥ 0 (since cos t < 0 for < t ≤ π )                                                          (R1)
+            x −3                          2
+           attempts to solve graphically or algebraically                                                    (M1)
+                 5                                           5
+           x≤−     OR − 3 < x < 3 ( −1.73 < x < 1.73) OR x ≥                                                   A1
+                 2                                           2
+                                                                                                         [3 marks]
+                                                                                                  Total [7 marks]
+                                                    – 18 –               M23/5/MATHX/HP2/ENG/TZ2/XX/M
+
+
+9.   METHOD 1
+     10 numbers of the form 3n , 10 numbers of the form ( 3n − 1) and 10 numbers of the
+     form ( 3n − 2 ) ( may be seen anywhere)                                                         (M1)
+
+     considers one of the following two cases of forming a sum divisible by 3                        (M1)
+     case 1:
+     chooses 3 numbers of the form 3n or chooses 3 numbers of the form ( 3n − 1) or
+     chooses 3 numbers of the form ( 3n − 2 )
+
+      C3 + 10C3 + 10C3 ( =
+     10
+                         3 × 10C3 =      360 ) ways
+                                  3 ×120 =                                                             A1
+
+     case 2:
+     chooses 1 number of the form 3n and chooses 1 number of the form ( 3n − 1) and
+     chooses 1 number of the form ( 3n − 2 )
+
+
+                       (                       )
+                                                             30
+                                                              C1 × 20C1 × 10C1
+      C1 × C1 × C1 = ( C1 )
+                                3
+     10    10    10        10          3
+                                    = 10 = 1000 ways OR                        ( = 1000 ) ways         A1
+                                                                    3!
+     total number of ways is 3 × 10C3 + 10C1 × 10C1 × 10C1 ( = 360 + 1000 )
+
+     = 1360                                                                                            A1
+
+
+     METHOD 2
+     total number of ways of choosing 3 numbers (without restriction) is 30C3 = 4060                   A1
+
+     attempts to find the total number of ways of choosing 3 numbers whose sum is not
+     divisible by 3                                                                                  (M1)
+     chooses 2 numbers from one group and chooses 1 number from another group
+     eg chooses 2 numbers of the form 3n and chooses 1 number of the form 3n − 1
+     3!× 10C2 × 10C1 =
+                     2700                                                                          (M1)A1
+
+     Note: Award (M1) for any integer multiple of 10C2 × 10C1 .
+
+     total number of ways is 4060 − 2700
+     = 1360                                                                                            A1
+                                                                                                 [5 marks]
+                                                   – 19 –           M23/5/MATHX/HP2/ENG/TZ2/XX/M
+
+
+                                                Section B
+                      2π
+10.   (a)   7.8 =                                                                         (M1)
+                    period
+            2π
+                = 0.805536...
+            7.8
+                      20π 
+            period
+             = 0.806
+                   =                                                                     A1
+                      78 
+                                                                                     [2 marks]
+
+
+
+
+      (b)   METHOD 1
+                                  max − min
+            (i)     amplitude =                                                           (M1)
+                                      2
+                    1.8 − 1
+                       2
+                    a = −0.4                                                               A1
+
+
+            (ii)    b = 1.4                                                                A1
+
+
+            METHOD 2
+            attempt to form two simultaneous equations in a and b                         (M1)
+                                     π 
+            H (0) =1 ⇒ a + b =1 , H  =    1.8 ⇒ − a + =
+                                                        b 1.8
+                                     7.8 
+             −0.4, b =
+            a=       1.4                                                                 A1A1
+                                                                                     [3 marks]
+                                                                                      continued…
+                                                – 20 –              M23/5/MATHX/HP2/ENG/TZ2/XX/M
+
+
+Question 10 continued
+
+
+
+
+(c)         EITHER
+               5
+             = 6.207... < 6 12                                                            (A1)
+             period
+
+
+            OR
+            consideration of number of maximums on graph in first 5 seconds               (A1)
+
+
+            OR
+            maximums when t = 0.403, 1.21, 2.01, 2.82, 3.62, 4.43                         (A1)
+
+
+            THEN
+            6 times                                                                          A1
+                                                                                     [2 marks]
+
+
+
+
+(d)   recognizing that H ( t ) = 1.5                                                  (M1)
+
+            −0.4cos ( 7.8t ) + 1.4 =
+                                   1.5
+            0.233779...
+            t = 0.234 (seconds)                                                              A1
+                                                                                     [2 marks]
+                                                                                      continued…
+                                                 – 21 –           M23/5/MATHX/HP2/ENG/TZ2/XX/M
+
+
+Question 10 continued
+
+
+     (e)   finding second time height is 1.5 metres                                             (M1)
+           t = 0.571757...
+           in each period, height is greater than 1.5 metres for 0.337978… seconds              (A1)
+     Note: Award (M1)(A1) for total time 2.02787... seen.
+           multiplying their value by 6 and divide by 5                                         (M1)
+           0.337978... × 6    2.02787...
+                           OR
+                 5                5
+           = 0.405574...
+           P(height is greater than 1.5 m) = 0.406                                                A1
+                                                                                           [4 marks]
+                                                                                     Total [13 marks]
+                                                           – 22 –          M23/5/MATHX/HP2/ENG/TZ2/XX/M
+
+
+11.   (a)   attempts to form a numerator involving a product of two terms involving y
+            and a denominator involving a product of two terms involving r + y                   (M1)
+
+                  y ( y − 1)       1
+                                 =                                                                A1
+            ( r + y )( r + y − 1) 3
+            attempts to remove the fractions and expand the brackets                             (M1)
+            3 y 2 − 3 y = y 2 + 2ry − y + r 2 − r                                                 A1
+
+            2 y 2 − 2ry − 2 y + r − r 2 =0
+
+            2 y 2 − 2 ( r + 1) y + r − r 2 =0                                                     AG
+
+                                                                                            [4 marks]
+
+
+      (b)   attempts to solve for y                                                              (M1)
+
+                 2 ( r + 1) ± 4 ( r + 1) − 8 ( r − r 2 )
+                                         2
+
+            y=                                                                                    A1
+                                   4
+
+                 2 ( r + 1) ± 12r 2 + 4
+            y=                                                                                    A1
+                             4
+
+            y=
+                 ( r + 1) ± 3r 2 + 1
+                          2
+
+            (since r , y ∈  + ) and
+                                       ( r + 1) − 3r 2 + 1 < 0 for r > 1                          R1
+                                                 2
+      Note: Award the R1 for stating that number of balls cannot be negative, or
+           similar.
+      Note: Accept y > 0
+
+
+            so y =
+                     ( r + 1) + 3r 2 + 1                                                          AG
+                              2
+                                                                                            [4 marks]
+
+
+                                                                                             continued…
+                                                            – 23 –                    M23/5/MATHX/HP2/ENG/TZ2/XX/M
+
+
+
+
+   Question 11 continued
+
+
+        (c)   attempts to find a pair of positive integer values eg by using a table                                    (M1)
+        Note: Award M0 if numbers are not positive integers.
+              1 red ball and 2 yellow balls ( r = 1 and y = 2 )                                                           A1
+              4 red balls and 6 yellow balls ( r = 4 and y = 6 )                                                          A2
+
+        Note: Award A1 for one solution and A2 for another.
+             15 red balls and 21 yellow balls ( r = 15 and y = 21 ) is the next solution.
+
+                                                                                                                   [4 marks]
+
+
+        (d)   attempts to form a numerator involving a product of three terms involving y
+
+              and a denominator involving a product of three terms that includes a ( y + 10 )
+              term                                                                                                      (M1)
+
+                                    y ( y − 1)( y − 2 )                   y ( y − 1)( y − 2 )     
+              P (YYY )     =                                                                                         A1A1
+                          ( y + 10 )( y − 1 + 10 )( y − 2 + 10 )    ( y + 10 )( y + 9 )( y + 8) 
+        Note: Award A1 for a correct numerator and A1 for a correct denominator.
+                                                                                                                   [3 marks]
+
+
+
+
+=
+(e) P ( new YYY )               =
+                                        ( y + 1)( y )( y − 1)                 ( y + 1)( y )( y − 1)                   (A1)
+                                                                                                        
+                               ( y + 1 + 10 )( y + 10 )( y − 1 + 10 )    ( y + 11)( y + 10 )( y + 9 ) 
+              equates their answer for P ( newYYY ) to 2× their answer for part (d)                                       M1
+
+                  2 y ( y − 1)( y − 2 )       ( y + 1)( y )( y − 1)
+                                         =
+              ( y + 10 )( y + 9 )( y + 8) ( y + 11)( y + 10 )( y + 9 )
+              attempts to solve for y                                                                                   (M1)
+
+        Note: Award (M1) for attempting to write the above expression as
+              2 ( y − 2) y + 1
+                        =        .
+                 y +8     y + 11
+              y=4                                                                                                         A2
+                                                                                                                   [5 marks]
+                                                                                                             Total [20 marks]
+                                                      – 24 –   M23/5/MATHX/HP2/ENG/TZ2/XX/M
+
+
+12.   (a)   attempts to use y1 = y0 + h × f ( x0 , y0 )                              (M1)
+
+                         12 + 3 ( 2 )
+                                          2
+
+            y1 =2 + 0.1×
+                              2
+            = 2.65                                                                    A1
+      Note: Award (M1)A0 for 2.35.
+
+
+                                                                                [2 marks]
+
+
+
+
+      (b)   let y = vx                                                                M1
+
+            dy       dv
+               = v+x                                                                 (A1)
+            dx       dx
+                      dv x 2 + 3v 2 x 2
+            v+x          = 2                                                         (M1)
+                      dx     vx
+                dv 1 + 2v 2
+            x      =                                                                  A1
+                dx    v
+            attempt to separate variables x and v                                     M1
+                  v              1
+            ∫ 2v + 1 dv = ∫ x dx
+                  2
+
+
+            1
+              ln ( 2v 2 + 1) = ln x + C                                               A1
+            4
+      Note: Condone the absence of C to this stage.
+
+
+                                                                                 continued…
+                                                 – 25 –         M23/5/MATHX/HP2/ENG/TZ2/XX/M
+
+
+Question 12 continued
+
+
+          EITHER
+
+           1  2 y2 
+            ln    + 1 = ln x + C
+           4  x2     
+                                            1
+          when x = 1 , y =2 ⇒ C = ln 9                                                 M1
+                                            4
+     Note: Award M1 for attempting to find their value of C .
+
+           1  2 y2            1
+            ln  2 + 1 = ln x + ln 9
+           4  x               4
+                      1
+            2 y2 4
+            2 + 1 =3x
+            x    
+
+
+          OR
+
+               2 y2 
+                         ln ( x ) + ln C
+                                4
+           ln  = 2
+               x   + 1 
+           2 y2
+                +1 =C x4
+            x2
+          when x = 1 , y =2 ⇒ C =9                                                     M1
+
+
+          THEN
+           2 y2
+              2
+                +1 =9x4                                                                A1
+            x
+
+               9x4 −1
+           y=x                                                                         AG
+                 2
+                                                                                 [8 marks]
+                                                                                  continued…
+                                                 – 26 –              M23/5/MATHX/HP2/ENG/TZ2/XX/M
+
+
+Question 12 continued
+
+
+     (c)   y = 2.71422...
+           y = 2.71                                                                               A1
+                                                                                             [1 mark]
+
+
+
+
+     (d)   EITHER
+
+                              9x4 −1
+           the graph of y = x        is concave up (for 1 ≤ x ≤ 1.1 )                             A1
+                                2
+           OR
+           d2 y
+                > 0 (for 1 ≤ x ≤ 1.1 )                                                            A1
+           dx 2
+     Note: Allow positive curvature, opening upwards, increasing first derivative.
+
+
+           THEN
+           hence the tangent drawn using Euler’s method gives an underestimate of the true
+           value, so the value of y when x = 1.1 is greater than the approximate value
+           found in part (a)                                                                      R1
+     Note: Only award R1 if there is reference to tangent (in words or in a diagram).
+                                                                                        [2 marks]
+                                                                                         continued…
+                                                 – 27 –              M23/5/MATHX/HP2/ENG/TZ2/XX/M
+
+
+Question 12 continued
+
+
+     (e)   EITHER
+     Note: Award the first A mark for a correct graph seen in part (d).
+                              dy
+           correct graph of                                                                 A1
+                              dx
+
+
+
+
+           OR
+                              d2 y
+           correct graph of                                                                 A1
+                              dx 2
+
+
+
+
+           THEN
+           x = 0.655996...
+           x = 0.656                                                                        A1
+                                                                                      [2 marks]
+                                                                                       continued…
+                                                        – 28 –        M23/5/MATHX/HP2/ENG/TZ2/XX/M
+
+
+Question 12 continued
+
+
+           d2 y
+     (f)        = 0 (seen anywhere)                                                         (A1)
+           dx 2
+     Note: Award (A1) for equivalent answers (seen anywhere) such as
+           − x4 + x2 y 2 + 6 y 4
+                   2 3
+                                 = 0 or − x 4 + x 2 y 2 + 6 y 4 =
+                                                                0.
+                  x y
+
+
+           EITHER
+           divides − x 4 + x 2 y 2 + 6 y 4 ( =
+                                             0 ) through by y 4                             (M1)
+
+               x4 x2
+           −     + + 6(=
+                       0)
+               y4 y2
+                  y     1   1
+           m=       ⇒ − 4 + 2 + 6 (= 0 )                                                    (M1)
+                  x    m m
+           6m 4 + m 2 − 1( =
+                           0)
+
+           ( 3m − 1)( 2m + 1) =
+                 2         2
+                              0                                                              A1
+
+              1  2  1
+           m=
+            ±    m =
+                    − 
+               3    2
+
+
+           OR
+           divides − x 4 + x 2 y 2 + 6 y 4 ( =
+                                             0 ) through by x 2 y 2                         (M1)
+
+               x2         y2
+           −      + 1 + 6    ( =0 )
+               y2         x2
+                  y     1
+           m=       ⇒ − 2 + 1 + 6m 2 (= 0 )                                                 (M1)
+                  x    m
+           6m 4 + m 2 − 1( =
+                           0)
+
+           ( 3m − 1)( 2m + 1) =
+                 2         2
+                              0                                                              A1
+
+              1  2  1
+           m=
+            ±    m =
+                    − 
+               3    2
+
+
+                                                                                        continued…
+                                                     – 29 –           M23/5/MATHX/HP2/ENG/TZ2/XX/M
+
+
+Question 12 continued
+
+
+          OR
+          attempts to factorize − x 4 + x 2 y 2 + 6 y 4 ( =
+                                                          0)                                    (M1)
+
+           − ( x 2 − 3 y 2 )( x 2 + 2 y 2 ) ( =
+                                              0)                                                  A1
+
+          attempts to solve their factorized equation                                           (M1)
+                       1  2    1 
+           ⇒y=±          x y =− x2 
+                        3      2 
+
+
+          THEN
+                 1                1
+           y=       x (and so m =    )                                                            A1
+                  3                3
+           as x > 0, y > 0 (or equivalent reasoning/justification)                                R1
+
+                                    1                1             1
+     Note: Award R1 for y =            x (and so m =    ) as y ≠ −    x and x 2 + 2 y 2 =
+                                                                                        0
+                                     3                3             3
+          for x = 0 and y = 0 only.
+
+
+                                                                                            [6 marks]
+                                                                                     Total [21 marks]
+

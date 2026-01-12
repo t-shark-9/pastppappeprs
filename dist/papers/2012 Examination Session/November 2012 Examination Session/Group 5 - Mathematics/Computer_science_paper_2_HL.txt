@@ -1,0 +1,271 @@
+N12/5/COMSC/HP2/ENG/TZ0/XX
+
+
+
+
+     88127012
+
+COMPUTER SCIENCE
+HIGHER LEVEL
+PAPER 2
+
+Friday 9 November 2012 (morning)
+
+2 hours 15 minutes
+
+
+INSTRUCTIONS TO CANDIDATES
+
+•   Do not open this examination paper until instructed to do so.
+•   Answer all the questions.
+•   A clean copy of the Computer Science case study is required for this paper.
+•   The maximum mark for this examination paper is [100 marks].
+
+
+
+
+8812-7012                                                                                             7 pages
+                                                              © International Baccalaureate Organization 2012
+                                                     –2–                N12/5/COMSC/HP2/ENG/TZ0/XX
+
+Answer all the questions.
+
+1.    A geologist uses a computer program to keep track of the various rock samples that she
+      has collected.  The program has a  Sample  class and creates a new  Sample  object for
+      each rock sample.
+
+      public class Sample
+      {
+        int sampleNumber;
+        String rockType;
+        String placeCollected;
+        double sampleWeight;//Weight of sample in kilograms
+
+            Sample nextSample;
+            ...
+      }
+
+      To allow the geologist to rapidly identify a sample of a particular rock type,
+      the program uses a simple hash table to store all the sample objects.  The hash function
+      is a method named  rockHash() that produces a key value in the range 0 to 127 based
+      on the sample’s  rockType.
+
+      public int rockHash(String rockType)
+      {
+        ...
+      }
+
+      The key value can then be used as an index to retrieve a  Sample object from
+      allSamples, an array of 128  Sample objects.
+
+      (a)     Define the term collision.                                                          [1 mark]
+
+      (b)     Explain why  sampleWeight has type  double.                                         [2 marks]
+
+      To deal with collisions, objects in the  Sample class have been designed to allow them
+      to be arranged into linked lists.
+
+      (c)     Identify the element of the  Sample class that allows  Sample objects to be made
+              into a linked list.                                                                 [1 mark]
+
+
+
+
+                                                             (This question continues on the following page)
+
+
+
+
+8812-7012
+                                                  –3–                 N12/5/COMSC/HP2/ENG/TZ0/XX
+
+(Question 1 continued)
+
+      Each element of the  allSamples array can be treated as the head of a linked list of
+      Sample objects having the same key value.  The elements of the array are initialized
+      to  null.
+
+      (d)   Construct the method,  insertSample(Sample rockSample) that uses the
+            rockHash() method and then adds the sample at the beginning of the appropriate
+            linked list in  allSamples.                                                      [6 marks]
+
+      (e)   Construct the method,  findBigSample(String rockType) that returns the
+            sample number of the heaviest sample having the specified rock type.             [7 marks]
+
+      (f)   Outline how all the samples collected from a particular place could be output.   [3 marks]
+
+
+
+
+8812-7012                                                                                    Turn over
+                                                     –4–                    N12/5/COMSC/HP2/ENG/TZ0/XX
+
+2.    Within a tree, a leaf node is one that has no child nodes.
+
+
+                                   ferocious
+
+
+                          agile                honourable
+
+
+                                                               polite
+
+
+                                                        more            rodent
+
+
+      (a)   State the number of leaf nodes in the tree shown above.                                 [1 mark]
+
+      (b)   State the word contained in the right child of the node containing the word
+            “honourable”.                                                                           [1 mark]
+
+      (c)   Identify the left subtree and the right subtree of the node “honourable”.               [3 marks]
+
+      (d)   State the words in the order that they would be retrieved using pre-order traversal.    [1 mark]
+
+      (e)   State the type of tree traversal that would retrieve the words in alphabetical order.   [1 mark]
+
+
+
+
+                                                               (This question continues on the following page)
+
+
+
+
+8812-7012
+                                                      –5–                  N12/5/COMSC/HP2/ENG/TZ0/XX
+
+(Question 2 continued)
+
+      All of the words from a large dictionary are stored in a binary tree.   The tree is
+      constructed from objects of the  WordNode class.
+
+      public class WordNode
+      {
+        String word;
+        WordNode leftChild;
+        WordNode rightChild;
+
+            WordNode(String theWord)
+            {
+              word = theWord;
+              leftChild = null;
+              rightChild = null;
+            }
+
+            int countLeaves()
+            {
+              // lines of code missing
+            }
+      }
+
+      The method  countLeaves(WordNode w) returns the number of leaf nodes in
+      the subtree, for example, in the diagram above, if node  w has no child nodes
+      countLeaves(w) will return  1.
+
+      (f)     State the condition to test if  WordNode w is a leaf node.                            [1 mark]
+
+      (g)     Construct the method  countLeaves() using recursion.                                 [6 marks]
+
+      (h)     Identify two disadvantages of using recursion to implement  countLeaves().           [2 marks]
+
+      (i)     Outline two ways that the tree could be modified to allow access to the definition
+              of the word.                                                                         [4 marks]
+
+
+
+
+8812-7012                                                                                          Turn over
+                                                     –6–                    N12/5/COMSC/HP2/ENG/TZ0/XX
+
+3.    The inventory of spare parts on a large ship is stored on the ship’s computer as a single
+      sequential master file.  Each type of part has a unique ID number.
+
+            Type of Part            Quantity          Re-order Level        Maximum Quantity
+               322                    23                    10                    30
+               411                     4                     8                    20
+
+
+      (a)    Identify the key field in the record.                                                [1 mark]
+
+      Each record contains the quantity of spares onboard the ship for that type of part.
+      Inventory changes are recorded by different members of the ships personnel,
+      each of whom has a small, handheld device.  Once a day the changes, which are stored
+      in transaction files, are downloaded to the ship’s computer and used to update the
+      master file.
+
+      (b)    State the type of processing used to update the master file.                         [1 mark]
+
+      (c)    State how the records in the master file should be ordered.                          [1 mark]
+
+      (d)    Describe the process by which the master file can be updated when the changes
+             recorded in the handheld devices are downloaded.                                     [4 marks]
+
+      A wireless network is installed so that the handheld devices can communicate
+      continuously with the ship’s computer.
+
+      (e)    Explain how handshaking is involved in this process.                                 [3 marks]
+
+      (f)    Identify two data items that need to be sent each time parts are taken from
+             the inventory.                                                                       [2 marks]
+
+      (g)    Explain how the introduction of the wireless network, together with a
+             reorganization of the master file, can keep the inventory current rather than only
+             being updated once per day.                                                          [4 marks]
+
+      When the ship reaches port a list of all the parts that need restocking is generated.  
+      Parts need to be restocked if the Quantity is less than the Re-order Level.  A sufficient
+      number of parts should be purchased to bring the Quantity up to the Maximum Quantity.
+
+      (h)    Outline the processing that would take place to produce the list of parts to
+             be purchased, including the quantities to purchase.                                  [4 marks]
+
+
+
+
+8812-7012
+                                                    –7–            N12/5/COMSC/HP2/ENG/TZ0/XX
+
+4.    This question requires the use of the case study.
+
+      (a)   State two differences between Wi-Fi and WiMAX.                                [2 marks]
+
+      (b)   State two differences between Wi-Fi and Bluetooth.                            [2 marks]
+
+      (c)   Explain two reasons why a mobile phone designer might choose to provide a
+            keyboard instead of a touch screen.                                           [4 marks]
+
+      (d)   Explain two ways in which using a mobile phone to link an ambulance to a
+            hospital could compromise the privacy of a patient.                           [4 marks]
+
+      (e)   Outline two ways in which data interception can occur when using a
+            mobile device.                                                                [4 marks]
+
+      (f)   Outline two advantages of not restricting the development of apps to the
+            manufacturers of mobile devices.                                              [3 marks]
+
+      (g)   Describe how social engineering is used to persuade mobile device users to
+            reveal personal information.                                                  [4 marks]
+
+      Many employers are providing their employees with mobile devices so that they can
+      be connected to their work 24/7.
+
+      (h)   Discuss the effects of this on the employee.                                  [6 marks]
+
+      All 4G networks use IP packet-switching for all services.
+
+      (i)   Describe the purpose and structure of a data packet.                          [3 marks]
+
+      (j)   Compare the transfer of data in a 4G cellular network to that of a wired
+            Internet connection.                                                          [4 marks]
+
+      (k)   Explain how the demands of the mobile phone user create challenges that the
+            designers of smartphone operating systems must resolve.                       [4 marks]
+
+
+
+
+8812-7012
+

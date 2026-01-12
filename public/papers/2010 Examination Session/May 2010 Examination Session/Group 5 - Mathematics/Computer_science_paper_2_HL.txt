@@ -1,0 +1,294 @@
+M10/5/COMSC/HP2/ENG/TZ0/XX
+
+
+
+
+       22107012
+
+
+Computer science
+HIGHER level
+Paper 2
+
+Friday 7 May 2010 (morning)
+
+2 hours 15 minutes
+
+
+INSTRUCTIONS TO CANDIDATES
+
+• Do not open this examination paper until instructed to do so.
+• Answer all the questions.
+
+
+
+
+2210-7012                                                                                          8 pages
+                                                           © International Baccalaureate Organization 2010
+                                                   –2–                  M10/5/COMSC/HP2/ENG/TZ0/XX
+
+Answer all the questions.
+
+1.    An array of  Player objects called  topTen[], contains the names and scores of the
+      10 highest scoring players in a computer game.  These are stored in descending order
+      of score.  A  Player object is defined by the class  Player shown below.
+
+      public class Player
+      {
+        String name;    // name of player
+        int score;		    // player’s score
+
+            public Player(String name, int score)
+            {
+              this.name = name;
+              this.score = score;
+            }
+      }
+
+      (a)     State the purpose of the constructor  public Player().                              [2 marks]
+
+      The first three members of the array  topTen[] are shown below.
+
+      topTen[]                  [0]                    [1]                      [2]
+                           Jo         964       Pete         900        Fernanda      840
+
+      (b)     State the value of
+
+              (i)    topTen[1].name ;                                                             [1 mark]
+
+              (ii)   topTen[2].score .                                                            [1 mark]
+
+      At the end of each game a new  Player object is created.  The method  compare()
+      receives this  Player object with the details of the game and compares the new score
+      with those in the array  topTen[].  It then returns the position in which the new score
+      should be in this array, or the value –1 if the score is not high enough.
+
+      (c)     Construct the method  compare(), which has been started below.
+
+              // the array topTen[] is declared globally.
+              public int compare(Player latest)
+              {
+                // lines of code missing
+              }                                                                                   [5 marks]
+
+
+
+
+                                                             (This question continues on the following page)
+
+
+
+2210-7012
+                                                   –3–                 M10/5/COMSC/HP2/ENG/TZ0/XX
+
+(Question 1 continued)
+
+      If the value returned by the method  compare() is not –1, the method  updateList()
+      is called, which inserts the new  Player object into its correct position in the array.
+
+      (d)   The method  updateList() works as follows:
+            • a temporary array of  Player objects is created
+            • the new best 10 results are placed in this temporary array
+            • the array  topTen[] is made equal to this temporary array.
+
+            Construct the method  updateList(), which has been started below.
+
+            public static void updateList(Player latest, int position)
+            {
+              // lines of code missing
+            }                                                                                   [8 marks]
+
+      (e)   Without writing any code, suggest an alternative way of writing  updateList()
+            which does not create a temporary array.                                            [3 marks]
+
+
+
+
+2210-7012                                                                                       Turn over
+                                                    –4–                  M10/5/COMSC/HP2/ENG/TZ0/XX
+
+2.    A program controlling the arrival of flights at an airport contains two linked lists.
+
+      The first list (List A), is continually updated so that it contains data for each flight
+      that will arrive during that day.   The list is maintained in order of the expected
+      landing times.  These expected landing times often change.  
+
+      Part of the linked list, showing the flight numbers and expected landing times,
+      is given below.
+
+      headA      MX2460 10:15          KL4231 10:20         DU21 10:44          …   …         null
+
+
+      (a)   Explain why a linked list would be a good choice of data structure for this
+            application.                                                                             [3 marks]
+
+      (b)   Flight number BA3644 has expected landing time 10:40.  Explain, with the help
+            of a diagram, how a node containing this data would be added to the list.                [5 marks]
+
+      Part of the class  Node that defines a linked list node is shown below.
+
+      public class Node
+      {
+        public String flightNumber;
+        public Node next;
+        // other data members not shown
+      }
+
+      (c)   Construct the method  displayListA(), which displays the flight numbers
+            in List A.                                                                               [4 marks]
+
+
+
+
+                                                             (This question continues on the following page)
+
+
+
+
+2210-7012
+                                                     –5–                 M10/5/COMSC/HP2/ENG/TZ0/XX
+
+(Question 2 continued)
+
+      The second linked list (List B) contains a list of flights that have landed.
+
+      The class that manages the two linked lists is called  Arrivals .  The class is shown
+      below with one of its methods.
+
+      public class Arrivals
+      {
+        static Node headA;             // points to the 1st node in List A
+        static Node headB;             // points to the 1st node in List B
+
+            public static void landed(String flightLanded)
+            {
+              // lines of code missing
+            }
+      }
+
+      Part of the method  landed() is shown above.  It receives, as a parameter, the flight
+      number of the flight that has just landed.  It then deletes the node representing this
+      flight from List A and adds it to the end of List B.
+
+      (d)     Construct the method  landed().
+
+              You can assume that neither of the two lists is empty and that the flight number
+              exists in List A.                                                                  [8 marks]
+
+
+
+
+2210-7012                                                                                        Turn over
+                                                     –6–                 M10/5/COMSC/HP2/ENG/TZ0/XX
+
+3.    An Employee file contains several employee records stored on disk.   Access to a
+      particular record is provided by a partial index which is also stored on disk.
+
+      (a)   Describe the steps needed to create the partial index for this file.                  [4 marks]
+
+      Each day an application is run which updates the Employee file.  To make the process
+      more efficient, the partial index is first read into a suitable dynamic data structure in
+      the memory.
+
+      (b)   Suggest, with reasons, one suitable data structure.                                   [3 marks]
+
+      (c)   For the data structure suggested in part (b), explain how the partial index is used
+            to access a particular record.                                                        [6 marks]
+
+      (d)   (i)    State two disadvantages of replacing the partial index with a full index.      [2 marks]
+
+            (ii)   Explain one advantage of replacing the partial index with a full index.        [2 marks]
+
+      (e)   Describe a method of providing fast access to an individual record that does not
+            involve the use of an index.                                                          [3 marks]
+
+
+
+
+2210-7012
+                                                     –7–                  M10/5/COMSC/HP2/ENG/TZ0/XX
+
+4.    This question involves the use of the case study.
+
+      (a)   The construction of Heathrow’s Terminal 5 included a new control tower for the
+            whole airport.  The changeover was carried out by running the new system in
+            parallel with the old system.
+
+            Outline one reason for choosing a parallel form of changeover, as opposed to
+            any other.                                                                              [2 marks]
+
+      (b)   Suggest why the airport authorities chose the particular testing strategy outlined
+            on page 4 of the case study.                                                            [2 marks]
+
+      (c)   (i)    Identify an airport system that would use real-time processing.                   [1 mark]
+
+            (ii)   Explain, for the system identified in part (i), why it would require real-time
+                   processing.                                                                      [3 marks]
+
+      (d)   A computerized system is being designed to replace the paper flight strips used
+            in Air Traffic Control.  A concern of the controllers is that interacting with a
+            computer system might distract them from their tasks.
+
+            (i)    Explain why voice recognition would not be suitable as a user interface.         [3 marks]
+
+            (ii)   Describe a user interface that would be suitable.                                [3 marks]
+
+            (iii) Describe one useful feature that could be incorporated into the new
+                  user interface, that was not present in the original one.                         [2 marks]
+
+            (iv) Suggest one possible back-up strategy in case of a system failure in
+                 Air Traffic Control.                                                               [2 marks]
+
+      (e)   By considering both sides of the argument, discuss whether or not governments
+            should have access to the “passenger name records (PNR)” files (see page 10 of
+            the case study).                                                                        [6 marks]
+
+      (f)   Explain why more than one firewall might be included in the airport
+            computer network.                                                                       [2 marks]
+
+
+
+
+                                                              (This question continues on the following page)
+
+
+
+
+2210-7012                                                                                           Turn over
+                                                     –8–                 M10/5/COMSC/HP2/ENG/TZ0/XX
+
+(Question 4 continued)
+
+      (g)   The movement of aircraft on the ground around the airport is captured by sensors,
+            which are activated when an aircraft breaks a beam of infra-red light.
+
+            (i)    Explain why an analog-digital converter would not be needed for this
+                   sensor data.                                                                 [2 marks]
+
+            The sensor data is used by the Air Traffic Control system to update the display
+            in the control centre.
+
+            (ii)   Discuss whether the Air Traffic Control operating system should use
+                   polling or interrupts for collecting data from the various sensors.          [4 marks]
+
+      (h)   The Flight Information Display System holds flight information for arrivals for
+            the next 24 hours.  Each flight is stored as an  Arrival object.
+
+            Similarly a  Departures object holds data for each flight that will leave
+            the airport.
+
+            Discuss how both the  Arrival object and the  Departures object could  inherit
+            characteristics from a common  Flight object.                                       [3 marks]
+
+      (i)   An airline uses several self-service kiosks and check-in desks for passenger
+            check-in.
+
+            (i)    Identify the clients and server within this system.                          [2 marks]
+
+            (ii)   Describe the roles of the clients and server within the check-in system.     [3 marks]
+
+
+
+
+2210-7012
+

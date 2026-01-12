@@ -1,0 +1,237 @@
+© International Baccalaureate Organization 2022
+
+All rights reserved. No part of this product may be reproduced in any form or by any
+electronic or mechanical means, including information storage and retrieval systems,
+without the prior written permission from the IB. Additionally, the license tied with this
+product prohibits use of any selected files or extracts from this product. Use by third
+parties, including but not limited to publishers, private teachers, tutoring or study services,
+preparatory schools, vendors operating curriculum mapping services or teacher resource
+digital platforms and app developers, whether fee-covered or not, is prohibited and is a
+criminal offense.
+
+More information on how to request written permission in the form of a license can be
+obtained from https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-
+license/.
+
+© Organisation du Baccalauréat International 2022
+
+Tous droits réservés. Aucune partie de ce produit ne peut être reproduite sous quelque
+forme ni par quelque moyen que ce soit, électronique ou mécanique, y compris des
+systèmes de stockage et de récupération d’informations, sans l’autorisation écrite
+préalable de l’IB. De plus, la licence associée à ce produit interdit toute utilisation de tout
+fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris, sans
+toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de tutorat ou
+d’aide aux études, des établissements de préparation à l’enseignement supérieur, des
+fournisseurs de services de planification des programmes d’études, des gestionnaires de
+plateformes pédagogiques en ligne, et des développeurs d’applications, moyennant
+paiement ou non, est interdite et constitue une infraction pénale.
+
+Pour plus d’informations sur la procédure à suivre pour obtenir une autorisation écrite
+sous la forme d’une licence, rendez-vous à l’adresse https://ibo.org/become-an-ib-school/
+ib-publishing/licensing/applying-for-a-license/.
+
+© Organización del Bachillerato Internacional, 2022
+
+Todos los derechos reservados. No se podrá reproducir ninguna parte de este producto
+de ninguna forma ni por ningún medio electrónico o mecánico, incluidos los sistemas de
+almacenamiento y recuperación de información, sin la previa autorización por escrito del
+IB. Además, la licencia vinculada a este producto prohíbe el uso de todo archivo o
+fragmento seleccionado de este producto. El uso por parte de terceros —lo que incluye,
+a título enunciativo, editoriales, profesores particulares, servicios de apoyo académico o
+ayuda para el estudio, colegios preparatorios, desarrolladores de aplicaciones y
+entidades que presten servicios de planificación curricular u ofrezcan recursos para
+docentes mediante plataformas digitales—, ya sea incluido en tasas o no, está prohibido
+y constituye un delito.
+
+En este enlace encontrará más información sobre cómo solicitar una autorización por
+escrito en forma de licencia: https://ibo.org/become-an-ib-school/ib-publishing/licensing/
+applying-for-a-license/.
+Computer science
+Standard level
+Paper 1
+
+Friday 28 October 2022 (afternoon)
+
+
+1 hour 30 minutes
+
+
+Instructions to candidates
+y   Do not open this examination paper until instructed to do so.
+y   Section A: answer all questions.
+y   Section B: answer all questions.
+y   The maximum mark for this examination paper is [70 marks].
+
+
+
+
+                                                                                               8822 – 7014
+      5 pages                                              © International Baccalaureate Organization 2022
+                                                   –2–                                        8822 – 7014
+
+
+                                               Section A
+
+Answer all questions.
+
+1.   State two features of a web browser.                                                            [2]
+
+
+2.   Construct a truth table for the following expression:                                           [3]
+
+                                             (A xor B) and B
+
+
+3.   A company is using a prototyping approach as part of their software development process.
+
+     (a)   Outline one advantage of prototyping.                                                     [2]
+
+     (b)   Outline one situation in which the use of a prototype is not the best approach.           [2]
+
+
+4.   (a)	Identify two fundamental operations of a computer.                                         [2]
+
+     (b)   Explain the need for higher level languages.                                              [3]
+
+
+5.   A student posts images and videos on a public website of her friends at a party.
+
+     (a)   Outline one ethical issue with the student posting these images and videos.               [2]
+
+     (b)   Outline one technical issue that may prevent the images and videos from being viewed.     [2]
+
+
+6.   Define the term variable.[1]
+
+
+7.   Each pixel on a computer screen has three colour values associated with it: red, green and
+     blue. The range for each of the three colour values is from 0(10) to 255(10).
+
+     Colour values can also be represented in hexadecimal. For example, the colour blue can be
+     represented in hexadecimal as 0000FF.
+
+     (a)   State the binary representation of the colour blue.                                       [1]
+
+     (b)   State the number of colours that can be represented in each pixel on the
+           computer screen.                                                                          [1]
+                                                     –3–      8822 – 7014
+
+
+8.   Given the one-dimensional array NAMES:
+
+                                               [0]   Zixan
+
+                                               [1]   Murali
+
+                                               [2]   Eli
+
+                                               [3]   Kim
+
+     construct a trace table for the following algorithm:
+
+     K=3
+     loop while K>=0
+         A=K mod 3
+         output (NAMES[A])
+         K=K-1
+     end while                                                       [4]
+
+
+
+
+                                                              Turn over
+                                                     –4–                                                8822 – 7014
+
+
+                                                 Section B
+
+Answer all questions.
+
+9.    A company has a local area network (LAN). Ethernet (a wired network) and WiFi
+      (a wireless network) are the two ways to enable LAN connections.
+
+      The LAN is accessible to all employees through their personal accounts. At the office,
+      employees can use either desktop computers for wired access to the LAN or personal
+      laptops to connect wirelessly.
+
+      (a)   Identify one additional hardware component in a wireless LAN.                                      [1]
+
+      (b)   Distinguish between a wired network and a wireless network in terms of reliability
+            of transmission.                                                                                   [4]
+
+      (c)   Outline why a wireless network may be less secure than a wired network.                            [2]
+
+      Employees who are not in the office can access the company’s resources over the internet
+      using a virtual private network (VPN).
+
+      (d)   Outline two features of a VPN that make it secure.                                                 [4]
+
+      Packet switching is used for transmitting data.
+
+      (e)   Explain how data is transmitted by packet switching.                                               [4]
+
+
+10.   An international organization is moving its offices from Africa to Europe. All of its data will
+      need to be moved to a new system.
+
+      (a)   (i)	Define the term data migration.[1]
+
+            (ii)   Outline two issues that could arise concerning data migration.                              [4]
+
+      (b)   Outline two aspects of change management that need to be considered, other than
+            data migration.                                                                                    [4]
+
+      The organization will continue to maintain the legacy system.
+
+      (c)   Explain one problem of maintaining legacy systems.                                                 [3]
+
+      (d)   Explain why parallel running is an expensive changeover method.                                    [3]
+                                                     –5–                                          8822 – 7014
+
+
+11.   An integer divisor of an integer, N(N>0), is an integer greater than zero that divides N without
+      leaving a remainder. The proper divisors of N are divisors of N other than N itself.
+
+      For example:
+      y The divisors of 10 are 1, 2, 5 and 10.
+      y The proper divisors of 10 are 1, 2 and 5.
+
+      (a)   (i)	State the number of proper divisors of 2.                                               [1]
+
+            (ii)   State why 4 is not a proper divisor of 10.                                            [1]
+
+      Every number can be classified as abundant, deficient, or perfect according to the
+      following definitions:
+
+      A number is an abundant number if it is less than the sum of its proper divisors.
+      For example, 12 is an abundant number because 1 + 2 + 3 + 4 + 6 = 16, and 16 > 12.
+
+      A number is a deficient number if it is greater than the sum of its proper divisors.
+      For example, 9 is a deficient number because 1 + 3 = 4, and 4 < 9.
+
+      A number is a perfect number if it is equal to the sum of its proper divisors. For example,
+      28 is a perfect number because 1 + 2 + 4 + 7 + 14 = 28, and 28 = 28.
+
+      (b)   Construct an algorithm in pseudocode that will accept an integer, K(K>0), and output
+            whether K is an abundant number, a deficient number, or a perfect number.                    [6]
+
+      The one-dimensional array DATA holds X(X>0) elements. Each element in the array is an
+      integer greater than zero.
+
+      The subprogram isAbundant() is available. It accepts an integer, N, and returns True if
+      N is an abundant number, otherwise it returns False. For example, isAbundant(17)
+      returns False.
+
+      (c)   Construct an algorithm in pseudocode to:
+            y determine the number of abundant integers in the array DATA that are odd
+            y determine the number of abundant integers in the array DATA that are even
+            y output these two numbers.
+
+            You should call the isAbundant() subprogram.
+
+            You can assume that the value of X and the array DATA have already been inputted.            [7]
+
+
+
+
+

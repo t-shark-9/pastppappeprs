@@ -1,0 +1,221 @@
+N17/4/COMSC/HP3/ENG/TZ0/XX/M
+
+
+
+
+                       Markscheme
+
+
+                        November 2017
+
+
+                     Computer science
+
+
+                           Higher level
+
+
+                               Paper 3
+
+
+
+
+6 pages
+                          –2–            N17/4/COMSC/HP3/ENG/TZ0/XX/M
+
+
+
+
+This markscheme is the property of the International
+Baccalaureate and must not be reproduced or distributed
+to any other person without the authorization of the IB
+Global Centre, Cardiff.
+                                                   –3–                N17/4/COMSC/HP3/ENG/TZ0/XX/M
+
+
+1.   (a)   Bioinformatics is the analysis of biological data by computers;
+           For example: DNA / patient statistics / results from blood samples etc.                 [2]
+
+           Note: Accept any example related to medical research.
+
+     (b)   Award [1] for a feature of fuzzy logic and [1] for outlining its relevance to medical
+           diagnosis, up to [2 max].
+           Fuzzy logic can put a measure on uncertainty (give an approximate/probabilistic
+           value);
+           Can express relationships in a probabilistic manner;
+           Patterns can be found which are not easy to classify with traditional logic;
+           Work with multi-variable connections;
+           Can help to give probability of certain diagnoses;                                      [2]
+
+           Note: One symptom may be important only if there are some related ones;
+           vagueness and uncertainty of measurements eg borderline blood results etc;
+
+
+2.   (a)   Award [1] for each comparison up to [4 max]. Note that the italicised
+           descriptions below are from then case study and will not gain credit unless they
+           are expanded on.
+
+              Characteristic                Ultrasound                        CT Scan
+           Waves                  Sound                            X-ray
+           Scope                  Nearest organs                   Whole body
+           D?                     Normally 2-D                     3-D
+           Mode of operation      Unidirectional                   Taken from all angles
+                                                                   (360 degrees)
+           Hardware               Mobile scanner                   Large static machines
+           Safety                 Safe non-invasive                X-rays can be dangerous
+                                                                   (pregnancies)
+           Processing             More simpler processing /        Complex processing to make
+                                  transducer produces a single     3-D /
+                                  image                            several images combined into
+                                                                   3-D image
+                                                                   Computationally expensive
+           Cost / availability    Relatively cheap therefore       Relatively expensive so not
+                                  readily available                readily available
+           Detail                 Less detail than a CT scan       Can spot fine differences
+           Operation              Easy to use / portable           Needs more training than for
+                                                                   ultrasound / static
+           Speed                  Real-time results                Needs time to construct
+                                                                   images
+
+                                                                                                   [4]
+                                                  –4–                N17/4/COMSC/HP3/ENG/TZ0/XX/M
+
+
+     (b)   Award [1] for each issue and [1] for each associated outline, for two issues up to
+           [4 max].
+
+           Hardware incompatibility;
+           Different machines making measurements with dedicated processors;
+
+           Software incompatibility;
+           eg different OS where not all function with the electronic records software;
+
+           Different format of records;
+           Not all centres taking the same measurements;
+
+           Different format of results;
+           For example temperature “> 40” or temperature “= 40.5”;
+           Analogue values may be rounded differently;
+
+           Note: Accept other reasonable issues which could occur.                              [4]
+
+
+3.   Award [2] for a clear description of augmented reality, [2] for a clear explanation of
+     how an image could be sent to the expert surgeon, and [2] for the role in the operation
+     (up to [6 max]).
+
+     AR:
+     Augmented reality projects digital/additional information;
+     onto a real-time situation/onto the real world;
+
+     Augmented reality allows an actual situation to be complemented in such a way;
+     that essential information is added to a video image;
+
+     An expert surgeon in another place sees the operation as if they were there/as a video
+     being filmed;
+
+     Tags attached to the affected area to be operated can be overlaid on the image;
+     Can overlay information on the view they have;
+
+     Transmission;
+     Annotated video data is continually streamed between the two;
+     Using a camera at the operation end;
+     In real-time over a (very) secure and fast network;
+     Viewed by expert surgeon on a screen;
+
+     Example of use;
+     The expert can show on the image what actions should be made (and where);
+     Allow example;
+     Using the information being sent back on a headset tablet/smart phone/transparent
+     screen;                                                                                    [6]
+                                                  –5–               N17/4/COMSC/HP3/ENG/TZ0/XX/M
+
+
+4.   Discussion should focus on:
+
+     “health carers at the health centre for visits made by appointment”
+     People will need a physical presence at the centre for reassurance which means carers
+     need to be employed and in place – enough to cope with the estimated need
+     especially as visits to the hospital are difficult.
+
+     “expert doctors from other locations, who are available 24 hours a day via a VPN
+     connection”
+     Essential for crises which occur outside of the hours the centre is open.
+     Will need a secure and reliable connection with access from mobile device, and access
+     to any data and phone calls coming into the centre.
+
+     “a comprehensive care system for chronically sick patients at home”
+     Continual measurements can be sent to the health centre; this could be done with
+     wearables. Someone with a heart problem could have the heart rate continually
+     measured on a bracelet with an imbedded RFID to communicate wirelessly via NFC to
+     a receiving device which sends the data automatically to the health centre.
+     The centre would need to have software to interpret the data (or this could be done at
+     the patient side – therefore less to send) and any fluctuations identified.
+     Danger signals would mean the doctor needs to know. Health carer would check on
+     minor changes as well as regular check-ups – need for health carers depends on
+     proportion of chronically sick and elderly.
+     Effect on population – good system to stay at home may be met with some aversion to
+     remote monitoring.
+
+     “some provision for emergency operations in the health centre”
+     Could be dealt with by telesurgery when essential but will need appropriate
+     cameras/connections and software, as well as a doctor who is confident to be involved.
+
+     “diagnostic equipment to identify cases where a person needs to be treated at the large
+     hospital”
+     An ultrasound scanner should probably be purchased. For example, regular scans are
+     needed for pregnant women. However, these need expert technical operators and
+     interpreters. One suggestion would be for the scans to take place via telemedicine and
+     the results sent electronically to be analysed at the hospital.
+
+     An internet site for communication and advice would have the advantages of
+     knowledge so that a decision whether or not to make an appointment can be made.
+     Accounts would need to be set up and security ensured via firewalls, encryption etc as
+     personal medical information is sensitive. It would be helpful to give information as to
+     when an appointment should be made and simple remedies for simple problems.
+     Some people may be suspicious of using this medium for medical uses and be
+     concerned about privacy.
+                                                –6–                N17/4/COMSC/HP3/ENG/TZ0/XX/M
+
+
+
+   Marks      Level descriptor
+
+               No knowledge or understanding of the relevant issues.
+ No marks
+               No use of appropriate terminology.
+
+                 Minimal knowledge and understanding of the relevant issues.
+   Basic         Minimal use of appropriate terminology.
+ 1–3 marks       No reference is made to the information in the case study or independent research.
+                 The answer may be little more than a list.
+
+               A descriptive response with limited knowledge and/or understanding of the relevant
+                issues.
+ Adequate      A limited use of appropriate terminology.
+ 4–6 marks     There is limited evidence of analysis.
+               There is evidence that limited research has been undertaken.
+               The answer shows some understanding but is lacking in one or more of the issues.
+
+                 A response with knowledge and understanding of the related issues.
+                 A response that uses terminology appropriately in places.
+ Competent
+                 There is some evidence of analysis.
+ 7–9 marks
+                 There is evidence that research has been undertaken.
+                 The answer shows a reasonable level of understanding of all related issues.
+
+              A response with a detailed knowledge and clear understanding of the relevant
+               issues and/or concepts, including:
+                the issues and technology involved
+  Proficient    the consequences in planning for the clinic
+10–12 marks     the effect and reaction of the community.
+              A response that uses terminology appropriately throughout.
+              There is competent and balanced analysis.
+              There is clear evidence that extensive research has been undertaken.
+
+                                                                                                   [12]
+
+
+                                                                                            Total: [30]
+

@@ -1,0 +1,1388 @@
+N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+
+
+                       Markscheme
+
+
+                        November 2019
+
+
+                     Computer science
+
+
+                           Higher level
+
+
+                               Paper 2
+
+
+
+
+39 pages
+                                           –2–                N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+
+
+No part of this product may be reproduced in any form or by any electronic or
+mechanical means, including information storage and retrieval systems, without written
+permission from the IB.
+
+Additionally, the license tied with this product prohibits commercial use of any selected
+files or extracts from this product. Use by third parties, including but not limited to
+publishers, private teachers, tutoring or study services, preparatory schools, vendors
+operating curriculum mapping services or teacher resource digital platforms and app
+developers, is not permitted and is subject to the IB’s prior written consent via a license.
+More information on how to request a license can be obtained from
+http://www.ibo.org/contact-the-ib/media-inquiries/for-publishers/guidance-for-third-party-
+publishers-and-providers/how-to-apply-for-a-license.
+
+Aucune partie de ce produit ne peut être reproduite sous quelque forme ni par quelque
+moyen que ce soit, électronique ou mécanique, y compris des systèmes de stockage et
+de récupération d’informations, sans l’autorisation écrite de l’IB.
+
+De plus, la licence associée à ce produit interdit toute utilisation commerciale de tout
+fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris, sans
+toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de tutorat
+ou d’aide aux études, des établissements de préparation à l’enseignement supérieur,
+des fournisseurs de services de planification des programmes d’études, des
+gestionnaires de plateformes pédagogiques en ligne, et des développeurs
+d’applications, n’est pas autorisée et est soumise au consentement écrit préalable de
+l’IB par l’intermédiaire d’une licence. Pour plus d’informations sur la procédure à suivre
+pour demander une licence, rendez-vous à l’adresse http://www.ibo.org/fr/contact-the-
+ib/media-inquiries/for-publishers/guidance-for-third-party-publishers-and-providers/how-
+to-apply-for-a-license.
+
+No se podrá reproducir ninguna parte de este producto de ninguna forma ni por ningún
+medio electrónico o mecánico, incluidos los sistemas de almacenamiento y
+recuperación de información, sin que medie la autorización escrita del IB.
+
+Además, la licencia vinculada a este producto prohíbe el uso con fines comerciales de
+todo archivo o fragmento seleccionado de este producto. El uso por parte de terceros
+—lo que incluye, a título enunciativo, editoriales, profesores particulares, servicios de
+apoyo académico o ayuda para el estudio, colegios preparatorios, desarrolladores de
+aplicaciones y entidades que presten servicios de planificación curricular u ofrezcan
+recursos para docentes mediante plataformas digitales— no está permitido y estará
+sujeto al otorgamiento previo de una licencia escrita por parte del IB. En este enlace
+encontrará más información sobre cómo solicitar una licencia: http://www.ibo.org/es/
+contact-the-ib/media-inquiries/for-publishers/guidance-for-third-party-publishers-and-
+providers/how-to-apply-for-a-license.
+                                                    –3–                N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+Subject details:         Computer science HL paper 2 markscheme
+
+Mark allocation
+
+Candidates are required to answer all questions in one Option. Total 65 marks.
+
+General
+
+A markscheme often has more specific points worthy of a mark than the total allows. This is intentional.
+Do not award more than the maximum marks allowed for that part of a question.
+
+When deciding upon alternative answers by candidates to those given in the markscheme, consider the
+following points:
+
+• Each statement worth one point has a separate line and the end is signified by means of
+  a semi-colon (;).
+
+• An alternative answer or wording is indicated in the markscheme by a “/”; either wording can be
+  accepted.
+
+• Words in ( … ) in the markscheme are not necessary to gain the mark.
+
+• If the candidate’s answer has the same meaning or can be clearly interpreted as being the same as
+  that in the markscheme then award the mark.
+
+• Mark positively. Give candidates credit for what they have achieved and for what they have got
+  correct, rather than penalizing them for what they have not achieved or what they have got wrong.
+
+• Remember that many candidates are writing in a second language; be forgiving of minor linguistic
+  slips. In this subject effective communication is more important than grammatical accuracy.
+
+• Occasionally, a part of a question may require a calculation whose answer is required for subsequent
+  parts. If an error is made in the first part then it should be penalized. However, if the incorrect answer
+  is used correctly in subsequent parts then follow through marks should be awarded. Indicate this
+  with “FT”.
+
+
+General guidance
+
+  Issue            Guidance
+  Answering        • In the case of an “identify” question, read all answers and mark positively up to the
+  more than          maximum marks. Disregard incorrect answers.
+  the quantity     • In the case of a “describe” question, which asks for a certain number of facts
+  of                 eg “describe two kinds”, mark the first two correct answers. This could include two
+  responses          descriptions, one description and one identification, or two identifications.
+  prescribed       • In the case of an “explain” question, which asks for a specified number of
+  in the             explanations eg “explain two reasons …”, mark the first two correct answers.
+  questions          This could include two full explanations, one explanation, one partial explanation etc.
+                                                  –4–                N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+Option A — Databases
+
+
+1.   (a)   Award [1 max].
+           atomicity;
+           sorting;                                                                                    [1]
+
+     (b)   Award [2 max].
+           Not all of this information may be necessary for the purposes it is being collected
+           for / asks for too much information;
+           Teachers may be concerned about issues of privacy;
+           If the information is shared with third parties it could be used / aggregated to
+           identify the teacher / identity theft;
+           Teachers may be put off either by the excessive time required to complete the
+           form;
+           This may lead to some teachers refusing to complete the application form / not as
+           many teachers will sign up;                                                                 [2]
+
+     (c)   Award [2 max].
+           Atomicity in transactions ensure that the indivisible series of database operations
+           either all occur, or nothing occurs;
+           This prevents updates to the database occurring only partially / this maintains
+           data integrity / consistency;
+                                                                                                 [2]
+
+     (d)   Award [3 max].
+           Isolation specifies the sequence that changes is processed / specifies that any
+           parallel processing must produce the same result as if the processes were
+           carried out sequentially;
+           Each post to the thread takes place independently of others;
+           One post will be completed before another starts / a post will not become visible
+           until completed;
+           Data and the transaction (row for the thread) is locked for that moment when the
+           transaction is carried out;
+           The addition of one post to the thread must not displace another’s, regardless of
+           the order in which they finally appear;
+           A transaction log is created prior to the transaction to allow rollback;
+           This means that should an error occur part of the way through the transaction it
+           will be rolled back and the database will return to its original state;                     [3]
+                                            –5–                N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+
+(e)   Award [2 max].
+      Data configuring / applying patches or upgrades;
+      Setting permissions / passwords / access rights / ensuring security;
+      Back up / recovery / archiving;
+      Data cleansing / consistency checks on data / remove data errors;                   [2]
+
+(f)   Award [4 max].
+      The large number of educators is critical to the number of fields included in any
+      composite key;
+      The composite key must be unique;
+      Composite key could be made up of several fields;
+      Allow suitable example (eg combinations of first name, last name, email, phone
+      number etc.);
+      Allow example that would not be suitable;
+      Part of the primary key could include a random element in case of duplicated
+      name and dates of birth;
+      This would require an understanding of the nature of the educators, for example,
+      are they of a particular age which would reduce the possible number of dates of
+      birth, are they from one particular country so certain names would be more likely
+      to occur;
+      This would influence the number of fields that would be required to reduce the
+      possibility of a duplicate entry occurring;                                         [4]
+                                                    –6–                N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+2.   (a)   Award [2 max].
+           Award [1] for each correct relationship with labels.
+           Award [1] for a top-down diagram showing the relationships.
+
+           One CLASS contains many ORDER;
+           One ORDER contains many FAMILY;
+
+
+
+
+                                                                                                      [2]
+
+     (b)   (i)    Award [2 max].
+                  Length check;
+                  Could ensure only a value within an acceptable range is entered (allow
+                  example);
+                  Type/format check on bill;
+                  Only numerical (int/float etc);                                                     [2]
+
+           (ii)   Award [2 max].
+                  Double entry;
+                  Will only allow data entry if both match;
+                  Proof reading;
+                  Will give a visual check that the data is correct;
+                                                                                                      [2]
+
+     (c)   Award [2 max].
+           When the length of the bill / beak of the spoonbill is measured it is simply a
+           decontextualized figure such as 10 cm;
+           When it is included in the database and interrogated it will have a meaning, so it
+           then becomes information;
+
+           The database will contain only the figure “10”;
+           the “cm” will not be included and is part of the meaning of the attribute/field.
+
+           Note: the “information” mark must reference the database in some way                 [2]
+
+     (d)   Award [2 max].
+           A high-level / overall / general view of the database;
+           Shows the main concepts;
+           Shows the main relationships,
+           Can be described by a Data Structure Diagram;
+                                                                                                [2]
+                                              –7–                N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+(e)   Award [3 max].
+      Data modelling gives a visual representation of the proposed system;
+      So that all stakeholders have the same understanding of the system;
+      Shows basic relationships / establishes naming conventions etc;
+      Some that developers are able to develop the actual database;
+      Avoiding issues such as redundancy/lack of integrity/lack of consistency;
+
+      The data model will take the information from the conceptual schema and logical
+      schema to informs the physical model for the development of the database;
+      A lack of modelling may result in a structurally deficient implementation with poor
+      data integrity / redundant data;
+      This may mean developing prototypes of the database to test whether the
+      proposed structure of the database will function as intended;
+                                                                                            [3]
+
+(f)   Award [3 max].
+      Note: only award full marks if there is a valid reference to the scenario.
+
+      Referential integrity requires that a value used as a foreign key corresponds to a
+      value of a primary key / validates the database through relationships;
+      Therefore if the Ciconiiformes/order of the Spoonbill is not in the database, you
+      will not be able to add it because of referential integrity;
+      Referential integrity constraints;
+      Ensure that if a record is updated or deleted, these changes will made in related
+      cells and the possibility of update anomalies is reduced / eliminated;                      [3]
+                                                    –8–               N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+3.   (a)   Award [2 max].
+           Note: Allow answers that refer to any stage of normalisation.
+           Each data item hasn’t be broken down any further / contains repeating data;
+           Each row is not unique / does not contain a primary key;
+           Each field/column does not have a unique name / does not have atomic values;        [2]
+
+     (b)   Award [2 max].
+           This would mean that data is duplicated within a table / allow an example of
+           duplicated data in this table;
+           However, when it is updated, it may not be updated in all cases;
+           Which could lead to anomalies within the data and the incorrect information
+           being used;                                                                         [2]
+
+     (c)   Award [4 max].
+           Award [1] for all relevant tables selected (Lorry and Trailer);
+           Award [1] for all relevant fields selected (Driver and Tel);
+           Award [1] for correct condition;
+           Award [1] for correct link between tables;
+
+           SELECT Driver, Tel
+           FROM Lorry INNER JOIN Trailer
+           ON Trailer.TrailerID = Lorry.TrailerID
+           WHERE TRAILERSPACE > 60;
+
+           Accept logically equivalent answers written in English or a Data Manipulation
+           Language.                                                                           [4]
+                                         –9–              N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+(d)   Award [7 max].
+      Award marks as follows:
+      Separate, correct DRIVER table;
+      FK links Driver to TRUCK table (driver always drives same truck);
+      New “journey” table created – called JOURNEY in examples below;
+      JOURNEY PK either a new JourneyID field, or a composite key as shown below;
+      Correct FK links to TRUCK and TRAILER tables in JOURNEY table;
+      Coupled.to and Coupled_from in correct table;
+      TRAILER table + PK correct;
+
+      DRIVER (Driver, Tel)
+      TRUCK (TruckID, Truckmake, Energysource, Driver)
+      JOURNEY (TruckID, TrailerID, Coupled_from, Coupled_to)
+      TRAILER (TrailerID, Trailerspace)
+
+      DRIVER (Driver, Tel)
+      TRUCK (TruckID, Truckmake, Energysource, Driver)
+      JOURNEY Journey ID, TruckID, TrailerID, Coupled_from, Coupled_to)
+      TRAILER (TrailerID, Trailerspace)                                             [7]
+                                                  – 10 –              N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+4.   (a)   Award [4 max].
+           Standards and support are available for RDB…
+           …make it more stable / easier to resolve issues / easier to recruit staff;
+
+           More user tools exist for RDBs…
+           …such as report generators / mail merge / security level permissions / concurrent
+           access.
+
+           Easier to visualise data and relationships…
+           …so more likely to have a correctly modelled database i.e. has no redundancy /
+           improved integrity
+
+           RDB tables and relationships are simple to implement…
+           …an OODB requires an understanding of concepts of OOP;
+
+           Mark as [2] and [2].                                                                [4]
+
+     (b)   Award [2 max].
+           Repository data stored are historical/time variant;
+           Data is collected from different sources;
+           OLAP systems for reporting and data analysis (eg data mining) / provides
+           businesses with information for informed decisions;
+           Provides tools so that data can be validated, reformatted, reorganized,
+           summarized, and restructured;
+           Optimised for data retrieval;                                                       [2]
+
+     (c)   Award [2 max].
+           Data is from my different external sources and (therefore) in many different
+           formats;
+           For example, dates may be dd/mm/yy or mm/dd/yy or yy/mm/dd (allow any valid
+           example);
+           To allow meaningful analysis, it must be in the same format/standardised;           [2]
+
+     (d)   Award [2 max].
+           Notes: maximum marks only if reference is made to the scenario
+                  Do not award marks just for a description of time-stamping
+
+           The usefulness of information is often time dependent;
+           Example relating to the US presidential election, such as
+           Electoral opinions before a public debate may have less value than those after
+           the debate;                                                                         [2]
+                                             – 11 –             N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+(e)   Award [2 max].
+      Notes: don’t accept the word “link” on its own as a descriptor.
+            maximum marks only if reference is made to the scenario.
+
+
+      They use link analysis in order to establish relationships / associations between
+      different data sets / different entities in the same data set;
+
+      Examples relating to the US presidential election, such as:
+      How people voted in relation to some other factor, e.g. the level of use of social
+      media / where they took their vacations / size of family …;                          [2]
+
+(f)   Award [2 max].
+      Note: maximum marks only if reference is made to the scenario
+
+      They look for any unusual activity (anomaly pattern) in transactions;
+
+      Examples relating to the US presidential election, such as
+      Unusual switch in pre-electoral voting opinions;
+      Sudden pro-candidate or anti-candidate sentiment in a particular state;              [2]
+                                            – 12 –              N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+
+(g)   Award [6 max].
+
+      Mark as follows:
+      Award [1] for a generic advantage of data mining;
+      Award [1] for expanding on this advantage;
+      Award [1] for linking this to the scenario;
+      Similarly for a disadvantage;
+      Award [1] for a valid conclusion;
+
+      Advantages of data mining [3 max].
+      Clustering / cluster analysis allows objects to be treated as one group enabling
+      the uncovering of previously hidden patterns;
+      For example, cluster analysis may search groups by race or gender to discover if
+      a candidate is unpopular with a demographic;
+      Classification methods (e.g. genetic, rough set, fuzzy set) can be used to
+      recognize patterns that describe the groups to which an item belongs;
+      For example, classifying voters by income may provide useful information that
+      can affect future publicity strategies;
+      Association analysis allows a series of statistical relationships to be further
+      explored or tested;
+      Associations look for If-then rules that predict a particular stance on a
+      controversial topic (eg abortion) may influence the religious voters;
+
+      Disadvantages of data mining [3 max].
+      Data mining is based on the data collected from individuals;
+      This data may be sensitive personal information that the individual concerned
+      may not want to be shared;
+      This personal data may be reaggregated to compromise the privacy and/or
+      anonymity of the data subjects;
+
+      Conclusions [1 max].
+      The development of more sophisticated processing algorithms is inevitable, so
+      although there are potential concerns about the invasive nature of data mining,
+      providing sufficient safeguards are put in place, there is nothing inherently wrong
+      with this;
+      Data mining is the start of the slippery slope of the state or multinational
+      companies holding inappropriate quantities of personal data about citizens that is
+      of limited value. Therefore, unless the privacy and/or anonymity of the data
+      subjects can be guaranteed, this is an unethical practice;                            [6]
+                                                  – 13 –           N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+Option B – Modelling and simulation
+
+5.   (a)   Award [2 max].
+           36300;
+           if interest only award [1 mark max], $6300;                                      [2]
+
+     (b)   Award [5 max].
+           Award [1] Initial investment 30000 for month 0;
+           Award [1] Investment 1000 each month;
+           Award [1] Interest rate of 0.005 * Principal
+           Award [1] Calculate compound interest for 12 months;
+           Award [1] Add interest to the investment;                                        [5]
+
+                  A        B                C              D             E
+            1     Month    Total at start   Interest for   Addition to   Total at end of
+                           of month         month          principal     month
+            2     1        30000            =B2*0.005      1000          =B2+C2+D2
+            3     2        =E2              =B3*0.005      1000          =B3+C3+D3
+            4     3        =E3              =B4*0.005      1000          =B4+C4+D4
+            5     4        =E4              =B5*0.005      1000          =B5+C5+D5
+            6     5        =E5              =B6*0.005      1000          =B6+C6+D6
+            7     6        =E6              =B7*0.005      1000          =B7+C7+D7
+            8     7        =E7              =B8*0.005      1000          =B8+C8+D8
+            9     8        =E8              =B9*0.005      1000          =B9+C9+D9
+            10    9        =E9              =B10*0.005     1000          =B10+C10+D10
+            11    10       =E10             =B11*0.005     1000          =B11+C11+D11
+            12    11       =E11             =B12*0.005     1000          =B12+C12+D12
+            13    12       =E12             =B13*0.005     1000          =B13+C13+D13
+                                              – 14 –              N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+(c)   Award [6 max].
+      An array does not need to be used to obtain full marks.
+
+      Award [1] Create array or variables / initialise array or variables / P[0] = 30 000;
+      Award [1] Create interest rate and assign it to 1.005;
+      Award [1] Calculate interest;
+      Award [1] Add interest and 1000 to each month;
+      Award [1] If statement to determine the correct tax rate;
+      Award [1] Output investment - tax;
+
+      P[0:12] = 0
+      P[0] = 30000
+      RATE = 1 + 0.005
+      TAX = 0
+      Loop X from 0 to 11
+        INVESTMENT = P[X] * RATE
+          P[X+1] = 1000 + INVESTMENT
+          PROFIT = INVESTMENT – P[X]
+          If P[X+1] < 40000 then
+             TAX = TAX + (PROFIT * 0.25)
+          Else
+             TAX = TAX + (PROFIT * 0.40)
+          End if
+      End Loop
+      Output (“Investment Value: “, P[12] – TAX)
+
+      Alternative solution without an array
+
+      PRINCIPAL = 30000
+      RATE = 1 + 0.005
+      TAX = 0
+      Loop X from 0 to 11
+        OLD_ PRINCIPAL = PRINCIPAL
+        INVESTMENT = OLD_ PRINCIPAL * RATE
+        PRINCIPAL = 1000 + INVESTMENT
+        PROFIT = INVESTMENT – OLD_PRINCIPAL
+        if PRINCIPAL <= 40000:
+           TAX = TAX + (PROFIT * 0.25)
+        else:
+           TAX = TAX + (PROFIT * 0.40)
+        end if
+      End Loop
+      Output (“Investment Value: “, PRINCIPAL – TAX)                                         [6]
+                                           – 15 –             N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+(d)   Award [4 max].
+      A what if scenario can be employed;
+      A mathematical model will allow you to adjust variables to see what impact that
+      will have on the investment;
+      You can see exactly what is happening to the money each month;
+      If the client decides to pay in less or more money for a given month you can see
+      what affect this will have on the profits;
+      If the interest rate changes, you will be able to see what changes this has on
+      profit;
+      If the tax rate changes you can see how this affects the investment profits.       [4]
+                                                   – 16 –              N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+
+6.   (a)   Award [1 mark] for reason and [1 mark] for expansion [4 marks max].
+           Cost;
+           Building a distribution centre is expensive so it is impractical to build four centres
+           to see which one is the best location / build the centre in a poor site location;
+
+           Time;
+           The time to build and run the simulation is much less than building a distribution
+           centre;
+
+           Amendments to input data / extra variables added;
+           The simulation could be adjusted to factor in unforeseen variables / run worst
+           case scenario eg roadworks, changes in traffic congestion, new housing being
+           built in the area;
+
+           Mark as [2] and [2].                                                                     [4]
+
+     (b)   (i)    Award [2 max].
+                  Road networks to and from the distribution sites;
+                  Location of the supermarkets / distance to the supermarkets;
+                  Location of the port / airport / station that delivers the products to the
+                  distribution centre;
+                  Cost of the land for each of the sites;
+                  Average labour costs in the area;
+                  Time taken to drive from the site to each supermarket at different times of
+                  the day;                                                                          [2]
+
+           (ii)   Award [2 max].
+                  Overall costs to build the distribution centre for each site;
+                  Running costs to receive shipments / distribute goods;
+                  Time taken to build the distribution centre at each of the sites;
+                  Time taken to distribute goods / shipments to arrive;                             [2]
+                                              – 17 –              N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+      (iii)   Award [6 max].
+
+              Overall costs to build the distribution centre for each site;
+              Inputs of labour rate, time taken to build, cost of land are inputted;
+              Simulation is run with a variety of scenarios (eg number of workers, rate of
+              pay for labour; cost of materials);
+
+              Running costs to receive shipments / distribute goods;
+              Inputs of fuel cost, distance to each supermarket / sites, fuel economy,
+              number of trips, etc
+              Simulation is run with a variety of scenarios (eg fuel price increases,
+              congestion reduces fuel economy, more trips needed to ship goods)
+
+              Time taken to build the distribution centre at each of the sites;
+              Inputs for number of diggers, number of workers, building materials delivery
+              schedule;
+              Simulation is run with scenarios (delay in window deliveries, change in the
+              number of builders, etc)
+
+              Time taken to distribute goods / shipments to arrive;
+              Inputs for time taken to travel to destination, number of vehicles; length of
+              time to load / unload goods, etc;
+              Simulation is run with scenarios (eg Increased traffic congestion, number of
+              vehicles shipping goods, etc)                                                   [6]
+
+(c)   Award [2 max].
+      The cost outweighs the benefit;
+      It may be impossible to simulate a simulation / too many variables / too many
+      confounding factors;
+      No positive reasons such as time/danger/modification;                                   [2]
+                                                  – 18 –                  N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+7.   (a)   Award [4 max].
+           Continuously collected data (from satellite, electronic trackers, observation);
+           Data on current speed of antelopes / length of time for the entire herd to pass a
+           certain point;
+           Previous migration paths stored and used to provide additional data;
+           Predicted path calculated to determine when the antelopes will hit the railway line
+           / highway;
+           Model may show the expected time of highway / railway inception updated in
+           real time;                                                                              [4]
+
+     (b)   Award [4 max].
+           2D visualization gives a rapid way of seeing what is happening relative to
+           positions on the map and updates quickly;
+           A 3D model may have delays updating providing information too late;
+
+           The antelope is always on the ground / in a 2D space
+           So there is no need to map in 3D space
+
+           2D visualization will update rapidly because it is less complex;
+           A 3D model that requires more powerful graphics cards (GPU);                            [4]
+
+     (c)   Award [4 max].
+           Award [2 max] for technical difficulties of collecting data;
+           Award [2 max] for a reasonable solution to the problem
+
+           Difficult to put people on the ground to keep pace with the antelope;
+           Because the area is inhospitable / mountainous;
+           The antelope may cross the road at any point over a vast distance so the number
+           of people required is prohibitive;
+           Poor visibility may affect visuals of antelopes / too dark for cameras;
+           Transmission may get disrupted in a remote place like Tibet;
+           So satellite transmissions as a back up system;                                         [4]
+                                                  – 19 –             N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+8.   (a)   Award [2 max].
+           Printed text quality may be poor or faint/may use an unusual typeface eg
+           BrushScript/In certain typefaces some characters can look similar eg sans serif;
+           For example, 5 and S may be confused/Numbers may be confused with letters
+           1 or I;                                                                              [2]
+
+     (b)   Award [2 max].
+           ANN can be trained to recognise handwriting styles / supervised learning;
+           ANN can learn to apply existing knowledge to new handwriting styles /
+           unsupervised learning;
+           ANN can recognize parts of the image to determine if it is a match / doesn’t
+           require the entire image to be a match;                                              [2]
+
+     (c)   Award [4 max].
+           The ANN accesses a database of correctly stored characters;
+           ANN breaks the image into smaller parts / applies a filter (2 or 3 pixels) to a
+           section of the image;
+           Calculate whether the pixels match / multiple each image pixel to the feature
+           pixel, add them up, divide by number of pixels / perfect match will be 1;
+           Apply convolution / repeat the application of the filter over and over;
+           Apply a ReLU (Rectified Linear Units) layer (remove negative values) to reduce
+           the mathematical calculations;
+           Apply pooling to shrink the image stack;
+           Use the stack of filter images / convolution layer to see if the image is a match;   [4]
+
+     (d)   Award [2 max].
+           Dictionary of words;
+           Predictive text algorithms;
+           The ability to recall the previous words in the sentence / memory;
+           An understanding of language structure eg nouns, verbs, adverbs, etc;
+           Previous words must be added back into the neural network;                           [2]
+                                           – 20 –             N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+(e)   Award [6 max].
+      If they have used a diagram should include:
+      Award [1] Input for previous words;
+      Award [1] Input for new characters the user enters;
+      Award [1] Hidden layers;
+      Award [1] Weights inputted into the network;
+      Award [1] Combining the two inputs;
+      Award [1] Non-linear regression / sigmoid function;
+      Award [1] Merge layers to produce output;
+      Award [1] Back propagation / Output that re-enters the ANN;                       [6]
+
+
+
+
+(f)   Award [4 max].
+      Unsupervised learning may have a poor set of words / text-speak is used;
+      So the ANN database doesn’t contain text-speak words so doesn’t learn;
+
+      Vanishing gradient problem / Exploding gradient problem;
+      Gradient signal is multiplied many times by weight matrix / The gradient signal
+      can become smaller at every training step (vanishing) / can become excessively
+      large at every training step (exploding) / This can make learning very slow or
+      stops it completely;                                                              [4]
+                                                      – 21 –               N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+Option C – Web science
+
+9.   (a)   (i)     Award [1 max].
+                   Hypertext transfer protocol secure/https;
+                   Do not accept http.                                                              [1]
+
+           (ii)    Award [4 max].
+                   To allow successful communication to take place;
+                   Ensure data integrity such as error checking;
+                   Regulate flow control such as prevent a fast sender from overwhelming a
+                   slow receiver;
+                   Managing deadlock when two processes are each waiting for the other to
+                   complete before proceeding;
+                   Manage congestion;
+                   Manage error correction such as enabling reliable delivery of digital data
+                   over unreliable communication channels;
+                   Manage packet switching;
+                   Manage security / encryption / authentication ……;                                [4]
+
+     (b)   (i)     Award [1 max].
+                   Server-side scripting;                                                           [1]
+
+           (ii)    Award [1 max].
+                   filter_var($_POST['email'], FILTER_VALIDATE_EMAIL);
+                   mail($to, $subject, $body, $headers, "-f " . $from);                             [1]
+
+           (iii)   Award [3 max].
+                   The script reads the email id;
+                   Checks if the email address entered is valid/executes the filter( ) function;
+                   If correct, then the mail( ) function of PHP adds the email address and
+                   displays that your email address has been added to our mailing list;
+                   Else, the error message will be displayed;
+                   There is no error message if the email address is invalid.
+                   OR
+                   • The script gets an e-mail address via POST
+                   • It checks whether it is valid via a filter function; if not, it does nothing
+                   • If it is valid, it checks with the mail function, and displays either a
+                     success or an error message                                                    [3]
+
+     (c)   Award [1 max].
+           Social Networking/Facebook/Social Media/Twitter;
+           Forums;
+           Online chat;                                                                             [1]
+                                            – 22 –              N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+(d)   Award [5 max].
+      Advantages [2 max]
+      The use of black hat SEO techniques may increase the visibility of the
+      OrderYourFoods website;
+      Which will bring a short term gain;
+
+      Disadvantages [2 max]
+      Black hat techniques are unethical;
+      Use of these techniques may lead to blacklisting;
+
+      Evaluative comment [1 max]
+      OrderYourFoods may decide that the need to increase their visibility, and
+      increase their sales potential, so this may be a pragmatic (if unethical)
+      compromise;
+      OrderYourFoods may decide that the potential long term risks that may arise
+      from the use of an unethical technique may not be a risk that is worth taking /
+      may affect the company’s reputation;                                               [5]
+                                                    – 23 –              N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+10.   (a)   Award [1 max].
+            Software that interrogates a database of web pages;                                      [1]
+
+      (b)   Award [4 max].
+            PageRank algorithm [2 max]
+            PageRank works by counting the number and quality of inlinks of a page to
+            determine a rough estimate of how important the website is;
+            The assumption is that more important websites are likely to receive more links
+            from other websites;
+            Pages are given a score (rank) / counts links per pages;
+
+            HITS algorithm [2 max]
+            Based on authorities and hubs;
+            Authorities: A page is called an authority, if it contains valuable information and if
+            it is truly relevant for the search query. It is assumed that such a page has a high
+            number of in-links;
+            Hubs: These are pages that are relevant for finding authorities. They contain
+            useful links towards them. It is therefore assumed that these pages have a high
+            number of out-links;                                                                     [4]
+
+      (c)   Award [3 max].
+            Local client-server architecture [1 max]
+            The server is the central communicator between clients (eg email/chat
+            server)/allows different clients to access and manipulate data;
+
+            Cloud computing [1 max]
+            Cloud computing puts the focus on sharing computing resources over
+            the internet;
+
+            Differences between the two [1 max]
+            Cloud computing is often offered as a service to individuals and companies
+            whereas local client server architecture is based at an organizational level;
+            Cloud computing can scale up or down depending on current demands more
+            easily than local client server networks;
+            Client / server networks are more secure than the cloud as the data transmission
+            is carried out locally;
+            Client / server networks have lower levels of latency than the cloud as the data
+            transmission is carried out locally;                                                     [3]
+                                             – 24 –             N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+(d)   (i)    Award [1 max].
+             Lossless (Compression);                                                        [1]
+
+      (ii)   Award [4 max].
+             Advantages of using compression [2 max]
+             Allows for more rapid upload/download as the compressed file is smaller
+             than the original;
+             Scrolling through the coursework may be quicker;
+
+             Disadvantages of using compression [2 max]
+             This may mean that the overall quality of the work is reduced;
+             This may be an issue when printing the work / or the quality of the image is
+             a key contributor to the overall quality of the work;
+
+             Overall comment [1 max]
+             The impact of using compression may be dependant on the context in
+             which the work is compressed;                                                  [4]
+
+(e)   Award [2 max].
+      Interoperability means a computer program can communicate and exchange
+      information across a range of platforms;
+      Open standards are publically and free standards that enable interoperability;        [2]
+                                                     – 25 –               N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+11.   (a)   Award [3 max].
+            The Internet is growing exponentially meaning that more and more nodes (in this
+            case IB World Schools) can be added;
+            This has led to greater connectivity between the different nodes;
+            However, the number of hops required to transmit information from one node to
+            another is growing linearly;
+            Therefore, each node can access the increased number of nodes with no
+            discernible latency which makes increased levels of collaboration between these
+            nodes possible and desirable;                                                              [3]
+
+      (b)   Award [3 max].
+            Browser Retrieves a Web Page;
+            The web browser retrieves (or fetches) code, usually written in HTML (HyperText
+            Markup Language) and other computer languages, from a web server;
+            Then, it interprets this code and displays it as a web page for you to view;
+
+            Browser acts as a bridge between URL and DNS;
+            The user inputs the URL / website domain name on web browser’s address bar;
+            The web browser passes this website domain name to a domain name server;                   [3]
+
+      (c)   Award [3 max].
+            User type the domain name into the URL search area on the web browser and
+            press “Enter” on the keyboard.
+
+            The domain name is intercepted by a “Domain Name Server” or DNS.
+
+            The main function of the DNS is to look up in its database the domain name you
+            have typed and find the matching IP address.
+
+            It then forwards the request onwards, using this address.
+
+            If it cannot find the IP address in its own database, it then contacts other Domain
+            Name Servers until it finds it, or if it can't find it anywhere, it displays a “web site
+            not found” message to you.
+
+            When the request reaches the destination, the pages are sent back.                         [3]
+                                           – 26 –             N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+(d)   Award [5 max].
+      Copyright issues [3 max]
+      Copyright issues may occur because of the ease of access to materials on the
+      World Wide Web;
+      When material is accessed on the World Wide Web it may breach copyright rules
+      in a number of ways (such as copying / publishing/ public display), often without
+      the user realizing they have done so;
+      It may also be a potential issue of the user is not aware of the complicated and
+      extensive copyright laws;
+      The continuing technical evolution of the web may mean that new practices
+      emerge that may inadvertently breach existing copyright laws;
+
+      IP [3 max]
+      Potential IP issues may occur with web sites for a number of reasons such as
+      being linked to copyright, trademarks, patents;
+      When material is downloaded it may breach IP rights;
+      When material is modified without author’s permission;
+      These IP rights may vary between countries which leads to some acts being an
+      IP issue on one country, but not in another;                                        [5]
+                                                   – 27 –             N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+12.   (a)   Award [2 max].
+            Award [1] for bi-directional arrow between A & B.
+            Award [1] for uni-directional arrow between A & C as well as B & C.
+
+
+
+
+                                                                                                [2]
+
+      (b)   Award [3 max].
+            Connectivity is a basic concept in Graph Theory. Graph theory can be used to
+            model or analyse the nature of the connectivity on a selected area, the web;
+            In World Wide Web, each web page is represented by vertex/node;
+            The hyper links between web pages are represented by edges/lines in the graph;
+            Arrows would indicate the direction of the hyperlinks (1-way / 2-way);
+            In Graph Theory, a graph is said to be connected if there is a path between every
+            pair of vertex. From every vertex to any other vertex, there should be some path
+            to traverse. That is called the connectivity of a graph;
+            Similar concept is used in connectivity of World Wide Web, where each vertex
+            representing a type of web page is connected to any other vertex representing
+            other kind of web pages;                                                            [3]
+
+      (c)   Award [4 max].
+            Multimedia are assigned meta-tags;
+            If the appropriate tag is not assigned, the media will not appear in the search;
+
+            Searched by image similarity;
+            Google search the web using the image inputted by the user;
+
+            Non-text based searches are more difficult;
+            Because there a no specific content to search for;
+
+            Fewer search engines support multimedia searches;
+            Therefore the search engine may not be as efficient;
+
+            Mark as [2] and [2].                                                                [4]
+                                             – 28 –               N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+(d)   Award [5 max].
+      Advantages of using collective intelligence [2 max]
+      Collective intelligence costs significantly less per unit / pro rata than hiring a
+      professional;
+      A single task is being worked on simultaneously by numerous individuals so it
+      can be completed much more rapidly than using a single person;
+      It allows access (maybe part time or at very short notice) to a large number of
+      contributors for specific events or tasks;
+
+      Disadvantages of using collective intelligence [2 max]
+      It may be hard to ensure sufficient quality control occurs as collective intelligence
+      is a very deregulated environment;
+      It may be hard to verify the originality of the work, or which work was originally
+      completed by who;
+      There may be many ideas, but it may be difficult evaluate each idea thoroughly
+      as there may be a lack of centralised planning and/or a lack of a clearly defined
+      hierarchy;
+
+      Conclusions [1 max]
+      Collective intelligence can help organizations in solving a problem in certain
+      contexts;
+      These may include where there is a need to provide information quickly such as a
+      health related requirement, or where the final information is not critical to the
+      wellbeing of others, for example a site such as Wikipedia;                              [5]
+                                                – 29 –             N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+13.   Award [6 max].
+      The journey from the care home to the local shops may lead to Pepper encountering a
+      large range of environments that may go beyond the ambient intelligence that Pepper
+      posseses;
+      Which may mean that the information that Pepper can obtain from the environment by
+      using ambient intelligence may be limited and lead to sub-optimal decisions being
+      taken, some of which could have serious consequences;
+      Some of the residents may have trust issues associated with relying on Pepper, or they
+      have be too trusting and delegate all decision making to Pepper when it is not
+      appropriate;
+      Families and carers for these residents may have concerns about what information is
+      being collected and shared by Pepper;
+      There may be issues of accountability that have not been resolved should an accident
+      occur when Pepper is acting as a decision maker;
+      There may be technical issues such as black spots where Pepper is unable to
+      communicate with the IoT that need to be addressed;
+      The trialing of Pepper may not have been sufficiently rigorous to train Pepper to act
+      “correctly” in any given situation;                                                      [6]
+                                                    – 30 –                 N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+Option D – Object-oriented programming
+
+14.   (a)    Award [1 max].
+             Aggregation;
+             POSsystem has a (many) POSline(s);
+             Allow 1 to many;                                                                         [1]
+
+      (b)    Award [2 max].
+             Award [1] for one POSsystem connecting to multiple POSlines;
+             Award [1] for one POSline connecting to multiple Carts;
+
+             Example answer:
+
+                                             POSsystem
+
+
+                POSline                                                       POSline
+
+
+      Cart                   Cart                                   Cart                   Cart
+                  Cart                             POSline                      Cart
+
+
+                                     Cart                    Cart
+                                                 Cart
+
+             Alternative answer:
+
+
+
+
+      Allow diagram showing aggregation for both (diamond at POSsystem end or 1 to many)
+                                                                                                      [2]
+
+      (c)    Award [1 max].
+             The (unique) name of a program element (variable / method / class);
+             Must have “name” or equivalent.                                                          [1]
+
+      (d)     Award [3 max], [1 mark each] for definitions of a class and an object and [1 mark]
+             for an example relating to the UML diagram that involves both class and object for
+             either the POSline or the Cart classes.
+
+             The class is the blueprint / template of an object / defines the actions and
+             properties of an object / an abstract representation of an object;
+             An instantiation is the (creation of an) actual object / example of an object / object
+             filled with data / assigned space in memory;
+
+             The class POSline stores instantiated objects of the
+             Cart class;
+             The class POSline uses the constructor to set the (object’s) variables;
+             An instance of POSline has values for id, active and line;
+             Allow similar example for the Cart object;                                               [3]
+                                              – 31 –              N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+  (e) Award [2 max].
+      Award [1] for using new;
+      Award [1] for Cart[20];
+      Allow with or without private.
+
+      private Cart[] line = new Cart[20];
+
+
+(f)   Award [3 max].
+
+      Award [1] for correct loop construction (for a while loop this includes initialization
+      and incrementation);
+      Award [1] for correct condition (can be within the loop construct);
+      Award [1] for correct assignment;
+
+      public void joinLine(Cart newCart){
+         int i=0;
+         while (this.line[i] != null) {i++;}
+         this.line[i] = newCart;
+      }                                                                                        [3]
+
+      Notes: Do not penalize the absence of the keyword “this” in any question.
+             With for loops, allow variations of line.length() – mark the logic
+
+      Further examples:
+      Note: if the answer takes size of array into account then the given condition must
+      be correct.
+
+      public void joinLine(Cart newCart)
+      {
+         int i=0;
+         boolean placed = false;
+         while (i<20 && placed = false)
+         {
+            if this.line[i]= null;
+            {
+                this.line[i] = newCart;
+                placed = true;
+            }
+            i = i+1;
+          {
+      }
+
+      public void joinLine(Cart newCart)
+      {
+         for (int i; i<20; i++)
+         {
+           if (this.line[i] == null)
+            {
+                    this.line[i] = newCart;
+                    break;
+                }
+           {
+      }
+                                                     – 32 –                  N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+(g)    Award [4 max].
+            Award [1] for declaring, initialising and returning a Cart variable;
+            Award [1] for correct loop (including initialisation and incrementation);
+            Award [1] for assigning / shifting;
+            Award [1] for assigning line[19] to null;
+
+            public Cart leaveLine(int n){        // given in the stem
+               Cart result = this.line[n];
+               for (int i=n; i<19; i++){
+                  this.line[i] = this.line[i+1];
+               }
+               this.line[19] = null;
+               return result;
+            }                                                                                         [4]
+
+
+15.   (a)   Award [2 max].
+            A new class is derived from an existing class;
+            The new class inherits all variables/data/properties and methods/behaviours of
+            the other class;
+            The derived class is called a subclass/child, and the original is called a
+            superclass/parent;                                                                        [2]
+
+      (b)   Award [3 max].
+            Award [1] for an advantage;
+            Award [1] for some elaboration;
+            Award [1] for a reference to the context;
+
+            Note: to a certain extent mixing and matching can take place
+
+            It promotes code reuse;
+            because the superclass POSline;
+            holds common data and actions that are shared by all newly developed classes;
+
+            It reduces maintenance overhead;
+            because you only have to update the superclass;
+            in this case POSline;
+
+            allows extensibility / ability to create other classes easily;
+            specific types of check-out can be created;
+            reducing development time / costs / testing;                                              [3]
+
+      (c)   Award [4 max].
+            Saves development time;
+            Since classes and their methods do not need to be rewritten;
+
+            Promotes abstraction;
+            Because reusable code exists that functions without knowledge of internal
+            working;
+
+            Libraries contain error-free / robust code;
+            because it has been used and tested many times;
+
+            Promotes efficiency / organization;
+            As code will be shorter / easier to read / develop;
+                                              – 33 –              N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+      Familiarity with libraries;
+      Allow for easier maintenance / modification;
+
+      Mark as [2] and [2].                                                                    [4]
+
+(d)   Award [2 max].
+      POSline, which consists of the check-out and the line, needs to be changed;
+      so that the check-out and the line of carts are now separated / could be two
+      different classes;
+      new line class could contain an array of check-out objects;
+      or, if only 1 line, the main class could assign indvidual carts to one of an array of
+      check-outs;
+                                                                                              [2]
+
+
+(e)   Award [4 max]. Mark as 4 separate points.
+      Teams may be located in different countries;
+      therefore have communication issues;
+      due to different languages;
+      or different time zones;
+      inability to discuss face-to-face;
+      Problems with different conventions (e.g. date format);
+      Managing the teams in different locations may be problematic (allow example);
+      Teams may not collaborate well due to personality issues;
+      Development time might increase;
+      Due to time lags between communications;                                                [4]
+                                                   – 34 –              N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+
+16.   (a)   Award [2 max].
+            active indicates that a POS counter is either open (true) or closed (false);
+            boolean uses the least memory space / one bit to represent this data;                  [2]
+
+      (b)   Award [8 max].
+            Award [1] for a correct method header;
+            Award [1] for correctly declaring and returning a new POSline variable;
+            Award [1] for attempting to use modulo division / declaring and initialising a flag;
+            Award [1] for a loop with one correct terminal condition, including increment of i;
+            Award [1] for the second correct loop condition;
+            Award [1] for correctly checking that i is odd / checking and setting the flag;
+            Award [1] for copying a cart from the original line;
+            Award [1] for correctly adding every second cart to the new line;
+            Award [1] for a reasonable attempt at removing every second cart;
+            Award [1] for correctly removing every second cart from the original line;
+
+            public POSline split(POSline oldLine){
+               POSline newLine = new POSline();
+               Cart temp;                            // optional, see below
+               int i=0;
+               boolean remove=false;
+               while((i<20)&&(oldLine.getLine(i)!=null)){
+                  if (remove) {
+                     temp = oldLine.getLine(i);      // can be combined
+                     newLine.joinLine(temp);
+                  }
+                  remove = !remove;
+                  i++;
+               }
+               remove=false;
+               while((i<20)&&(oldLine.getLine(i)!=null)){
+                  if (remove) {
+                     temp = oldLine.leaveLine(i));    // shifts carts
+                     remove = !remove;
+                  }
+                  else{
+                    i++;
+                  }
+               }
+               return newLine;
+            }
+                                   – 35 –            N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+
+Example answer using modulo division (MOD):
+public POSline split(POSline oldLine){
+   POSline newLine = new POSline();
+   int i=0;
+   while((i<20)&&(oldLine.getLine(i)!=null)){
+      if (i%2==1) {
+         newLine.joinLine(oldLine.getLine(i));//combined
+      }
+      i++;
+   }
+   while(i>0){                  // must be reverse order
+      if (i%2==1) {
+         temp = oldLine.leaveLine(i);
+      }
+      i--;
+   }
+   return newLine;
+}
+
+Example answer using a flag that combines both copy and remove actions
+(not anticipated):
+public POSline split(POSline oldLine){
+    POSline newLine = new POSline();
+    int i=0;
+    boolean flag=false;
+    while((i<20)&&(oldLine.getLine(i)!=null)){
+        if (flag) {
+            newLine.joinLine(oldLine.leaveLine(i));
+        }
+        else i++;
+        flag = !flag;
+    }
+    return newLine;
+}                                                                             [8]
+                                            – 36 –              N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+
+(c)   Award [4 max].
+      (Any) software can be considered as a form of Intellectual property;
+      Company should consider whether there is a need to acknowledge the work of
+      other programmers (don’t accept answers talking about plagiarism);
+
+      Open source software may have undergone many changes from the original;
+      So adequate testing of the final product must take place;
+      to prevent any malfunction that will affect their customers;
+
+      The company will be promoting the spread of open source software;
+      Helping to break the monopolies of the major IT companies;
+      To the benefit of people / countries with reduced financial resources;
+
+      The use of open-source software means that the code can (more easily) be
+      read/understood/ hacked by others;
+      Leading to possible data breaches for their customers;
+
+      Code may contain malware;
+      Leading to possible data breaches for their customers;
+
+      Using open-source software results in less work for programmers;
+      This affecting their livelihood;
+
+      Mark as [2] and [2].
+      Notes:
+      - Award 2 marks for a valid issue if a detailed discussion has been provided
+      - Only give credit for issues that have some ethical connection                [4]
+                                                    – 37 –               N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+17.   (a)   Award [2 max].
+            A pointer to a memory location;
+            where the object is stored;                                                           [2]
+
+      (b)   Award [4 max].
+            Award [1] for declaring a result variable (or similar)
+            Award [1] for correct use of .getCart()
+            Award [1] for reassigning the head of the list
+            Award [1] for returning the correct result (either the Cart or null)
+
+            public Cart removeFirst()
+            {
+                Cart result = null;
+
+                 if (head != null)
+                 {
+                    result = head.getCart();
+                    head = head.getNext();
+
+                 }
+                 return result;
+            }                                                                                     [4]
+
+      (c)   Award [2 max].
+            Award [1] for a three nodes in order.
+            Award [1] root pointer (with or without identifier) and null pointer.
+
+
+
+
+                                                                                                  [2]
+
+      (d)   Award [2 max].
+            The abstract data structure queue is a FIFO structure / only allows addition at the
+            end and removal from the front;
+            this is not sufficient because customers can change lines at any time;
+
+            Has no fixed length;
+            Which could lead to unmanageable/very long queues;
+
+            Note: do not award marks for responses that focus on dynamic vs static, since
+            queues can be implemented either way.                                                 [2]
+                                             – 38 –              N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+(e)   Award [6 max].
+      Award [1] for declaring all variables used (including loop variable i);
+      Award [1] for initialising variable(s) for list traversal;
+      Award [1] for dealing separately with the case where n equals 1;
+      Award [1] for attempted looping through the linked list until the correct position;
+      Award [1] for correct loop using curr = curr.getNext(); (or similar)
+      Award [1] for correctly rearranging references to unhook the nth node;
+      Award [1] for returning the correct result;
+
+      Example answer using two CartNode variables:
+      public Cart leaveList(int n){
+         Cart result = null;            // explicit default result
+         CartNode prev = null;
+         CartNode curr = head;
+
+          if (n==1){
+             result = removeFirst();
+          }
+          else{
+             int i=1;
+             while (i<n){            // no need to check for null
+                prev = curr;
+                curr = curr.getNext();
+                i++;
+             }
+             result = curr.getCart();
+             prev.setNext(curr.getNext());
+          }
+          return result;
+      }
+
+      Example answer using one CartNode variable:
+      public Cart leaveList(int n){
+         Cart result = null;
+         CartNode curr = head;
+
+          if (n==1){
+             result = removeFirst();
+          }
+          else{
+             int i=1;
+             while (i<n-1){            // no need to check for null
+                curr = curr.getNext();
+                i++;
+             }                        // curr points to node (n-1)
+             result = curr.getNext.getCart();
+             curr.setNext(curr.getNext().getNext());
+          }
+          return result;
+      }                                                                                     [6]
+                                           – 39 –              N19/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+(f)   Award [2 max] for including any of the following elements on the discussion
+
+      Indentation / Use of white space
+      Annotations
+      Meaningful identifiers
+      Capitalization conventions
+
+      Award [2 max] for including any of the following reasons in the discussion
+
+      Helps understanding / reading;
+      For easer maintenance / extension;
+      For better team-work / collaboration / development;
+      To help with de-bugging;
+
+      Mark as [2] and [2].                                                              [4]
+

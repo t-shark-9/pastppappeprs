@@ -1,0 +1,296 @@
+M12/5/COMSC/HP2/ENG/TZ0/XX
+
+
+
+
+     22127012
+
+COMPUTER SCIENCE
+HIGHER LEVEL
+PAPER 2
+
+Monday 21 May 2012 (morning)
+
+2 hours 15 minutes
+
+
+INSTRUCTIONS TO CANDIDATES
+
+•   Do not open this examination paper until instructed to do so.
+•   Answer all the questions.
+•   A clean copy of the Computer Science case study is required for this paper.
+•   The maximum mark for this examination paper is [100 marks].
+
+
+
+
+2212-7012                                                                                             7 pages
+                                                              © International Baccalaureate Organization 2012
+                                                    –2–                  M12/5/COMSC/HP2/ENG/TZ0/XX
+
+Answer all the questions.
+
+1.    A tourist board has provided an interactive website that describes the 30 most popular
+      towns in the country.  The website also allows the user to plan journeys from any of
+      these towns.
+
+      To calculate distances between towns, the website uses data that is stored in a
+      two-dimensional integer array called  distances, which is declared as a global
+      variable.  Part of the array is shown below.
+
+                                 distances
+                                       0     1     2      3
+
+                                 0     0    18    25    30
+
+                                 1    18     0    54    32
+
+                                 2    25    54     0    34
+
+                                 3    30    32    34      0
+
+
+
+
+      For example: the distance between town 2 and town 3 (distances[2][3]) is 34 km.
+
+      The website also makes use of the method  getTownName(int j), which returns the
+      name of the town with index  j.
+
+      (a)   State the value of  distances[0][2].                                                   [1 mark]
+
+      The website includes a method called  circle(), which displays the names of all of the
+      towns that are closer than a specified distance from the town where the user is staying.
+
+      (b)   Construct the method  circle(int i, int d), where  i  is the index of the
+            town where the user is staying and  d  is the distance from the town.                  [4 marks]
+
+
+
+
+                                                              (This question continues on the following page)
+
+
+
+
+2212-7012
+                                                   –3–                 M12/5/COMSC/HP2/ENG/TZ0/XX
+
+(Question 1 continued)
+
+      The website uses a second method called  threeTowns(), that allows the user
+      to plan a day’s journey in which they will visit two other towns before finally
+      returning to the town in which they are staying (the journey can be represented by
+      Town A  Town B  Town C  Town A, where A is the town in which the user
+      is staying).
+
+      This method will search the  distances  array to find and display the two towns that
+      will provide the shortest total distance.
+
+      (c)   (i)    Use the array to calculate the total distance for a journey starting at
+                   town 2, and then visiting town 0 and town 3, before finally returning to
+                   town 2 (Town 2  Town 0  Town 3  Town 2).                                   [1 mark]
+
+            (ii)   Construct the method  threeTowns(int s), where  s  is the index of the
+                   town in which the user is staying.                                           [8 marks]
+
+      (d)   Suggest how the method  getTownName() functions.                                    [2 marks]
+
+      (e)   Explain the modifications to  circle(), that would have to be made if the results
+            had to be returned to the calling method.                                           [4 marks]
+
+
+
+
+2212-7012                                                                                       Turn over
+                                                    –4–                 M12/5/COMSC/HP2/ENG/TZ0/XX
+
+2.    A hash table is used to return the Spanish translation of an English word.  The table
+      uses a simple hash function in which the alphabetical position of the first letter of the
+      English word (where a = position 0, b = position 1, etc.) becomes the hash value.
+
+      For example: the initial letter of the word antelope is “a”, therefore the hash value
+      will be 0.
+
+      This value will then point to the object in the hash table that contains the original
+      English word with its Spanish equivalent.
+
+      (a)   (i)    Using this function, copy and complete the following hash table (the first
+                   three entries have been completed for you).                                    [1 mark]
+
+                        English Word          Array Index           Hash Table
+                          antelope                 0             antelope, antilope
+                            brain                  1               brain, cerebro
+                          elephant                 4             elephant, elefante
+                             fox                                     fox, zorro
+                            door                                    door, puerta
+
+            (ii)   Explain why collisions will be inevitable if this hash table is used for a
+                   large number of words.                                                         [2 marks]
+
+      To deal with the possibility of collisions, the hash table is changed so that each hash
+      value points to a linked list of objects.  As a pair of words (English, Spanish) is added
+      to the table, they are placed at the head of the appropriate list, as shown below.
+
+        English Word     Array Index             Hash Table (array of linked lists)
+          antelope            0          antelope, antilope  null
+           camel              2          camel, camelo  null
+             car              2          car, coche  camel, camelo  null
+             ant              0          ant, hormiga  antelope, antilope  null
+
+
+
+
+      (b)   Copy the above hash table and complete the two missing entries using the
+            following data (English, Spanish): cat, gato; arm, brazo.                             [1 mark]
+
+
+
+
+                                                            (This question continues on the following page)
+
+
+
+
+2212-7012
+                                                         –5–                 M12/5/COMSC/HP2/ENG/TZ0/XX
+
+(Question 2 continued)
+
+      A program has been written to simulate this hash table using the hash function
+      described at the start of this question.  The hash value can be found using the following
+      method call:
+
+                                int hashValue = hash(englishWord);
+
+      The class that maintains the hash table with its array of linked lists is called  HashTable.  
+      Each object in the linked lists is a member of the  Node   class.   Both classes are
+      defined below.
+
+      public class HashTable
+      {
+        private Node[] listHeads = new Node[26];                       // array of head pointers
+
+            private int hash(String englishWord)
+            {
+              // returns the hash position (array index)
+              // for the English word that is input
+            }
+
+            class Node // inner class for the hash table objects
+            {
+              String englishWord;
+              String spanishWord;
+              Node next;
+
+                public Node(String e, String s)               // constructor
+                {
+                  englishWord = e;
+                  spanishWord = s;
+                  next = null;
+                }
+            }
+
+            public void add()
+            {
+              // lines of code missing
+            }
+
+            public void search()
+            {
+              // lines of code missing
+            }
+      }
+
+      (c)       Construct the code for the method  add(), that adds a new English word and its
+                Spanish equivalent to the hash table.                                                  [6 marks]
+
+      (d)       Construct the method  search(), that outputs the Spanish equivalent of a given
+                English word.  You can assume that the word is in the table.                           [5 marks]
+
+      (e)       (i)    Discuss the suitablity of using this hash function for this application.        [3 marks]
+
+                (ii)   Explain one improvement that could be made to this hashing process.             [2 marks]
+
+2212-7012                                                                                              Turn over
+                                                     –6–                  M12/5/COMSC/HP2/ENG/TZ0/XX
+
+3.    A large supermarket holds in secondary memory all the records relating to the items
+      it sells.  At the beginning of each working day, a small part of each record of this file
+      is read into a dynamic data structure in the primary memory (RAM).  This dynamic
+      data structure is accessed by the supermarket checkout terminals whenever a customer
+      purchases goods.
+
+      (a)   Suggest two reasons why part of this file might be read into a dynamic
+            data structure.                                                                         [4 marks]
+
+      (b)   Explain why a binary tree might be preferred to a linked list as the dynamic data
+            structure to be used.                                                                   [2 marks]
+
+      (c)   The dynamic data structure is used to update stock levels in the main file.
+
+            (i)    Identify two fields that would definitely be held in each node in the
+                   dynamic data structure.                                                          [2 marks]
+
+            (ii)   Outline the steps taken to update the stock file after one particular item has
+                   been sold at the supermarket checkout.                                           [6 marks]
+
+      (d)   Outline one way in which stock items can be identified as needing to be reordered.      [3 marks]
+
+      A separate program prints out a list of all the items on sale in the supermarket in
+      alphabetical order.
+
+      (e)   Explain how a dynamic data structure can be used to produce this list even
+            though the items are not stored in alphabetical order in the secondary memory.          [3 marks]
+
+
+
+
+2212-7012
+                                                    –7–                 M12/5/COMSC/HP2/ENG/TZ0/XX
+
+4.    This question requires the use of the case study.
+
+      (a)   Suggest two principal reasons that have led to the convergence of technologies
+            as shown on page 3 of the case study.                                                 [2 marks]
+
+      (b)   Explain two reasons why flash memory is used extensively by mobile devices.           [4 marks]
+
+      (c)   Explain why Wi-Fi has been chosen as the communication technology for
+            Internet hotspots as opposed to other technologies.                                   [4 marks]
+
+      (d)   Discuss whether the lack of dominance of one operating system for mobile
+            devices might improve the security of data in smartphones in comparison with
+            personal computers.                                                                   [4 marks]
+
+      (e)   Two students are sitting in a café.  They both have smartphones which have their
+            Bluetooth facility enabled.
+
+            (i)    Describe the precautions they should take while sending files to each other.   [4 marks]
+
+            (ii)   State two different examples of a piconet that might be operating within
+                   this café.                                                                     [2 marks]
+
+            (iii) Outline how  frequency-hopping prevents the piconets from interfering
+                  with each other.                                                                [4 marks]
+
+      (f)   With reference to one specific example, discuss whether the possible
+            disadvantages of the use of smartphones by doctors for their work outweigh
+            the advantages.                                                                       [6 marks]
+
+      Police forces in several countries are being equipped with smartphones.
+
+      (g)   (i)    Describe two ways in which smartphones could aid police who have just
+                   stopped a motorist suspected of a crime.                                       [4 marks]
+
+            (ii)   Suggest one way in which the use of Bluetooth could provide additional
+                   assistance.                                                                    [2 marks]
+
+      (h)   With reference to mobile phone networks, explain how two different mobile
+            phones are able to use the same frequency within the same city at the same time.      [4 marks]
+
+
+
+
+2212-7012
+

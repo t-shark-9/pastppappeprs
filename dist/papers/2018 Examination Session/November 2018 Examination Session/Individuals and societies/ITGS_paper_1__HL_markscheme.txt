@@ -1,0 +1,945 @@
+N18/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+
+
+                        Markscheme
+
+
+                         November 2018
+
+
+                 Information technology
+                    in a global society
+
+
+                               Higher level
+
+
+                                 Paper 1
+
+
+
+
+25 pages
+                          –2–             N18/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+
+
+This markscheme is the property of the International
+Baccalaureate and must not be reproduced or distributed
+to any other person without the authorization of the
+IB Global Centre, Cardiff.
+                                                   –3–                  N18/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+Examiners should be aware that in some cases, candidates may take a different approach, which if
+appropriate should be rewarded. If in doubt, check with your team leader.
+
+In the case of an “identify” question read all answers and mark positively up to the maximum marks.
+Disregard incorrect answers. In all other cases where a question asks for a certain number of facts
+eg “describe two kinds”, mark the first two correct answers. This could include two descriptions,
+one description and one identification, or two identifications.
+
+It should be recognized that, given time constraints, answers for part (c) questions are likely to include a
+much narrower range of issues and concepts than identified in the markband. There is no “correct”
+answer. Examiners must be prepared to award full marks to answers which synthesize and evaluate
+even if they do not examine all the stimulus material.
+                                                   –4–                 N18/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+                                               Section A
+1.   Google healthcare data
+
+     Note to examiners.
+      All part a questions are marked using ticks and annotations where appropriate
+      Part b and part c are marked using markbands. Use annotations and text
+       comments to provide a rationale behind the marks you awarded. Do not use ticks.
+
+     (a)   (i)    Identify two items of health-related data that could be used to improve the
+                  treatment of patients.                                                          [2]
+
+                  Answers may include:
+                   age
+                   weight
+                   heart beat pattern
+                   blood pressure
+                   blood type
+                   breathing rate
+                   blood oxygen concentration
+                   body temperature
+                   allergies
+                   pre-existing medical conditions
+                   gender.
+
+                  Award [1] for identifying each item of health-related data that could be used
+                  to improve the treatment of patients up to a maximum of [2].
+
+           (ii)   Identify two characteristics of data mining.                                    [2]
+
+                  Answers may include:
+                   large data sets are interrogated
+                   automated techniques are used to interrogate data
+                   this interrogation searches for previously unknown patterns
+                    or associations
+                   the results can be used for marketing
+                   measures probabilities of patterns being significant
+                   requires intense processing power.
+
+                  Award [1] for identifying each characteristic of data mining up to maximum
+                  of [2].
+                                       –5–                 N18/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(iii)   Identify two reasons why NHS records are stored in a database rather than a
+        spreadsheet.                                                                  [2]
+
+        Answers may include:
+
+        Reasons to not use spreadsheets
+         spreadsheets cannot accommodate very large data sets /
+          only have 105 000 rows
+         spreadsheets are designed to perform calculations
+         spreadsheets do everything in memory so any unsaved data can be lost
+          if the system crashes.
+
+        Reasons to use a database
+         databases generally have more intuitive user interfaces
+         complex queries can be set up and applied to the data set
+         reports can be generated
+         a DBMS (database management system) usually has security features
+          to keep the data safe.
+         data is written to disc immediately
+         related data tables can be linked
+         reduces data redundancy.
+
+        Award [1] for identifying each reason why NHS records are stored in a
+        database rather than a spreadsheet up to maximum of [2].
+                                               –6–                   N18/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(b)   The agreement between Google and the NHS includes policies for the collection,
+      storage and sharing of patient data.
+
+      Explain why it is important that the agreement between Google and the NHS
+      includes policies for the collection, storage and sharing of patient data.                [6]
+
+      Answers may include:
+
+      A policy is required for the Collection:
+       so that only the relevant information is collected (with such a large data set,
+        large amounts of data could be collected, much of which are not relevant)
+       so that it is made clear to the data subjects/patients the purpose of collecting
+        the data is / what data will be collected.
+       so that it is clear who is responsible for collecting the data.
+       so that it is clear how the data will be collected.
+       to ensure that only the information of patients who have consented to the use
+        of their data is collected or that they have a way to 'opt-out' of their data being
+        used
+       so that the accuracy of the data collection can be ensured.
+       to ensure that the data is collected consistently
+
+      A policy is required for Storage as:
+       ensure that data is stored securely
+       make it clear who is responsible for the security of data storage
+       make it clear who should be accountable for the security of the data.
+       make it clear where the data is stored (it is likely that most of it is confidential)
+       make it clear who has access to the data
+       ensure that data is stored in an accessible manner for authorized users
+       make it clear that data storage will comply with the law
+       make it clear how the data will be stored
+       make it clear how long the data can be stored.
+
+      A policy is required for the Sharing:
+       so that it is clearly identify with whom the data will be shared,
+       to make it clear how the data will be shared (will they be safe during the
+        transmission?)
+       to make it clear what happens to the data once it is shared.
+       to make it clear for what purpose the data will be shared (it is likely that a large
+        part of the data linked to patients is confidential)
+
+      N.B.: the response requires an explanation of why a policy is required rather than
+      discussion of what is included in the policy. There must be an explanation for
+      why each policy is required.
+
+      Award [1] for identifying why a policy for the collection, storage and sharing of
+      patient data is required and [1] for a development of the explanation up to a
+      maximum of [2].
+
+      Mark as [2] + [2] + [2].
+                                            –7–                  N18/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(c)   Evaluate the decision by the NHS to share patient data with Google.                 [8]
+
+      Answers may include:
+
+      Reasons for sharing the patient data with Google
+       Google may have access to data analytics tools that can interrogate the data
+        far more effectively than the NHS data analytics systems
+       Google may provide additional IT expertise that the NHS can use
+       Google may be able to provide additional health related information
+       Google may be able to integrate this NHS data with existing applications such
+        as Google Maps to provide meaningful visual data / Google may provide
+        additional resources such as data visualization tools
+       data can be analysed against other data sets.
+
+      Reasons for not sharing the patient data with Google
+       there may be no way of knowing which other third parties Google is sharing
+        the NHS information with
+       the NHS may find that the patient data becomes integrated onto Google’s
+        tools so that they cannot extricate themselves from the contract
+       the NHS may find as part of the agreement Google imposes conditions that
+        may mean the data is not used in an optimal manner, or not used for the
+        purposes it was intended
+       once the data is shared it is hard to guarantee that is deleted when it is no
+        longer needed
+       patient privacy is a concern. Is data anonymized and does Google have
+        sufficient security measures in place?
+       rejection of patients' consent to share their data with Google.
+
+      Please see generic markband information sheet on page 27.
+                                                    –8–                   N18/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+2.   Cell phone farmers
+
+     Note to examiners.
+      All part a questions are marked using ticks and annotations where appropriate
+      Part b and part c are marked using markbands. Use annotations and text
+       comments to provide a rationale behind the marks you awarded. Do not use ticks.
+
+     (a)   (i)     Identify two advantages of using text messaging to communicate.                 [2]
+
+                   Answers may include:
+                    easy to use
+                    not dependent on internet access
+                    cheap
+                    can be done from very old hardware
+                    messages get sent when there is reception even if they are written when
+                     there is no reception
+                    quick communication
+                    messages get stored in the device
+                    allows the communication with people that are a long distance away.
+
+                   Award [1] for identifying each advantage of using text messaging up to a
+                   maximum of [2].
+
+           (ii)    Identify two items that contribute to the cost of accessing the internet.       [2]
+
+                   Answers may include:
+                    subscription to ISP / cost of data bundles
+                    cost of hardware
+                    line rental
+                    cost of electricity
+                    the cost of education to learn how to use equipment.
+
+                   Do not accept costs related to the limited infrastructure.
+
+                   Award [1] for identifying each item that contributes to the cost of
+                   Internet access up to maximum of [2].
+
+           (iii)   Outline the difference between the internet and the World Wide Web.             [2]
+
+                   Answers may include:
+                    the internet is a global network of interconnected computers / a network
+                     of networks
+                    the World Wide Web is software / a service that runs on the hardware of
+                     the internet and provides access to content / a collection of pages that
+                     can be accessed through hyperlinks / a way of accessing and sharing
+                     the information that is held on the internet in webpages
+                    the World Wide Web uses the http protocol. This is only one of the
+                     many protocols used by the internet.
+
+                   The response must make reference to both the internet and the
+                   World Wide Web. Do not award marks if only one is mentioned.
+
+                   Award [1] for identifying each difference up to maximum of [2].
+                                            –9–                   N18/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(b)   Analyse the effectiveness of using face-to-face (F2F) training compared to
+      distance learning to train farmers to use Agritexte.                                   [6]
+
+      Answers may include:
+
+      Advantages of F2F training
+       the workshop leader/teacher can adapt their teaching to the needs of
+        the students
+       specific questions can be addressed in the moment
+       the teacher can observe participants using the technology first-hand to assess
+        their progress
+       easier for farmers to concentrate if they have a block of time away from
+        farm duties
+       access to Internet is not required.
+
+      Disadvantages of F2F training
+       it is costly to send a person to run the training or to send farmers to
+         a workshop
+       classes might be large and so students will not get much personal tutoring by
+         the teacher
+       if a student misses something the teacher says they might get lost and have
+         misunderstandings
+       if a student is unable to attend a session they will miss out on that information
+         and training
+       there could be personality clashes between the teacher and their students
+       could be difficult to fit training around farmers’ work schedules.
+
+      Advantages of distance learning
+       can be accessed 24/7 – farmers can still run their farms
+       learning can be self-paced
+       teaching material can be viewed as many times as students need in order to
+        be able to understand it
+       it is easier to spread the training over several weeks allowing farmers to try the
+        technology in between classes
+       it would be cheaper than running workshops.
+
+      Disadvantages of distance learning
+       some technology would be required by farmers to access the training
+         materials
+       farmers will need to be trained to use the training technology
+       if students don’t understand something in the training materials it is harder for
+         them to ask for further explanation
+       there would be significant set-up costs
+       access to Internet is necessary. An unstable connection to Internet may affect
+         the quality of the learning as it may caused frustration amongst the farmers.
+                                      – 10 –               N18/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+Marks                                  Level descriptor
+
+  0     No knowledge or understanding of ITGS issues and concepts. No use of
+        appropriate ITGS terminology.
+        A limited response that indicates very little understanding of the topic or the
+ 1–2
+        reason is not clear. Uses little or no appropriate ITGS terminology.
+        No reference is made to the scenario in the stimulus material. The response is
+        theoretical.
+        A description, unbalanced or partial analysis of the relative advantages and
+ 3–4
+        disadvantages of face-to-face learning and distance learning. There is some use
+        of appropriate ITGS terminology in the response.
+
+        A balanced and detailed analysis of the relative advantages and disadvantages
+ 5–6
+        of face-to-face learning and distance learning. Explicit and relevant references
+        are made to the scenario in the stimulus material. There is appropriate ITGS
+        terminology throughout the response.
+                                             – 11 –                N18/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(c)   The government of Cameroon is watching the results of the Agritexte initiative. It is
+      considering two options:
+      • Extend the functionality of Agritexte into a web-based information system.
+      • Invest in education and training on the use of the existing Agritexte SMS system.
+
+      Evaluate these two options.                                                             [8]
+
+      Answers may include:
+
+      Extend the functionality of Agritexte
+       many more services can be offered
+       this would be an investment in the future giving farmers the potential to access
+        developing/new technologies
+       the current system can still continue to operate as it has been doing and the
+        new functionality will only add to the system
+       the extension into a web based information system could inspire citizens to
+        educate themselves
+       the extension into a web based information system could inspire citizens to
+        explore other things that they can do on the web
+       farmers’ lack of IT knowledge is already a problem so they may have difficulty
+        using the web based system so training will be required.
+
+      Invest in education and training
+       training would allow more people to access the information that
+         currently exists
+       training would extend people’s skill sets and they could use those skills to
+         improve their lives
+       it would be a very visible investment from the government
+       other beneficial things could be included in the education program
+       education would improve the community connections
+       the money would be spent training farmers to use a technology with
+         limited functionality
+       lack of internet availability might limit farmers’ ability to access the system
+       development and maintainence of the system woud incur costs.
+
+      Please see generic markband information sheet on page 27.
+                                                   – 12 –                N18/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+3.   Sports photographs
+
+     Note to examiners.
+      All part a and part b questions are marked using ticks and annotations where
+       appropriate
+      Part c is marked using markbands. Use annotations and text comments to provide
+       a rationale behind the marks you awarded. Do not use ticks.
+
+     (a)   (i)     Identify two image file formats that ALC could use for its photographs.        [2]
+
+                   Answers may include:
+                    Jpg/jpeg
+                    Bmp
+                    Tiff
+                    PNG
+                    Raw
+                    gif.
+
+                   Award [1] for identifying each appropriate file format up to maximum of [2].
+
+           (ii)    Define the term resolution.                                                    [2]
+
+                   Answers may include:
+                    the detail of an image, such as number of pixels per inch
+                    the ability to determine individual elements (pixels) within the
+                     digital image
+                    how densely packed the pixels are in the photo
+                    determines the visual quality of an image.
+
+                   Award [1] for each appropriate comment about resolution up to maximum
+                   of [2].
+
+           (iii)   Outline the differences between lossless and lossy compression.                [2]
+
+                   Answers may include:
+                    lossy compression results in the loss of detail and lower
+                     resolution/quality in the image in the image when it
+                     is decompressed
+                    lossless compression means that the file size is compressed but the
+                     picture quality remains the same
+                    with lossless compression the original file can be recovered, with lossy
+                     compression this is not the case
+                    lossy compression - discards similar data that does not affect the view
+                     how the image looks
+                    lossy compression - convert to the same color pixels with similar colors
+                     to reduce size
+                    lossless compression - stores the color and the times it repeats.
+
+                   Award [1] for each difference identified up to a maximum of [2].
+                                               – 13 –               N18/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(b)       Explain why each image has its resolution reduced and is watermarked before it is
+          uploaded to the ALC’s website.                                                           [6]
+
+          Answers may include:
+           reducing the resolution of an image reduces its size so that it can be uploaded more
+            quickly. This ensures that the maximum amount of data may be transferred in the
+            shortest possible time, which in the case of a cycle event means the competitors
+            can see images immediately after a race
+           reducing the resolution reduces file size so more photos can be included on the
+            website (viewers can see more images)
+           reducing the resolution of an image reduces its size so web pages load more
+            quickly when competitors are trying to view them
+           using low resolution images means people are less likely to download them without
+            paying, because the image quality makes it not suitable to be printed
+           watermarking ensures that the image available on screen is not suitable for use
+            beyond being seen as a preview – prevents people downloading a printable copy
+            without paying the company
+           watermarking means that the identity of the photographer is easily visible to the
+            prospective purchaser of the image so the participant can easily select between
+            different photographers
+           watermarking creates an identity of the company that owns the photograph.
+
+Marks                                           Level descriptor
+
+      0          No knowledge or understanding of ITGS issues and concepts. No use of
+                 appropriate ITGS terminology.
+                 A limited response that indicates very little understanding of the topic or the
+ 1–2
+                 reason is not clear. Uses little or no appropriate ITGS terminology.
+                 No reference is made to the scenario in the stimulus material. The response is
+                 theoretical.
+                 A partial explanation of why an image may have its resolution reduced and a
+ 3–4
+                 watermark added when posted on a website. There is some use of appropriate
+                 ITGS terminology in the response.
+
+                 A thorough explanation of why an image may have its resolution reduced and a
+ 5–6
+                 watermark added when posted on a website. Explicit and relevant references
+                 are made to the scenario in the stimulus material. There is appropriate ITGS
+                 terminology throughout the response.
+                                           – 14 –               N18/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(c)   Some people feel uncomfortable about having their photographs taken and posted on
+      a public website.
+
+      To what extent is it acceptable for ALC Photography to take photographs of
+      participants, post them online and sell them?                                       [8]
+
+      Answers may include:
+
+      Arguments for it being acceptable
+       it is acceptable if participants (or their parents) signed an agreement for the
+        photo to be taken when they entered the race
+       it is acceptable if the images are not offensive or infringe the privacy of the
+        riders (ie it is not possible to aggregate information from a number of sources
+        to determine the identity of the rider)
+       ALC provides the riders with a number of professional photographs of them
+        that they may want to use on their own websites, or for social networking sites
+       as the photographers are reputable and have been sanctioned by the race
+        organizers, there is no problem
+       the photos may be circulated by riders anyway so the issues related to privacy
+        may be unfounded.
+
+      Arguments for it not being acceptable
+       if ALC has not sought the agreement of the riders there could be issues linked
+        to the privacy of the riders being compromised. Parental permission would be
+        needed if minors (under 18 years) are involved
+       some riders may not want their photos published on public websites –
+        there may be reasons they do not wish to publicise that they were in the race
+        (eg off work due to supposed illness)
+       riders may feel that publicly shared photos don’t show them in their
+        best moments
+       riders don’t get to choose which photos are available publicly
+       some riders may have sponsorship deals that include clauses about how
+        images of them are used
+       some photos may be inappropriate – photographers need to abide by a code
+        of ethics to ensure photos are appropriate.
+
+      Please see generic markband information sheet on page 27.
+                                                    – 15 –                N18/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+                                                Section B
+4.   Route finding in Paris
+
+     Note to examiners.
+      All part a and part b questions are marked using ticks and annotations where
+       appropriate
+      Part c is marked using markbands. Use annotations and text comments to provide
+       a rationale behind the marks you awarded. Do not use ticks.
+
+     (a)   (i)    In addition to travel time, identify four other factors that could be used in the
+                  development of the SVP.                                                             [4]
+
+                  Answers may include:
+                   personal preference – eg scenic route/preferred route
+                   traffic conditions eg roadwork/road conditions
+                   environmental effects – less pollution riding a bike than driving a car
+                   risk of delay eg due to roadwork, special events taking place
+                   weather conditions – some routes may involve slippery roads in winter
+                   previous experience – familiar routes may be preferable
+                   nature of journey – for business or pleasure
+                   number of connections if using public transport
+                   accessibility for handicapped travelers
+                   distance
+                   internal tolls
+                   type of transportation.
+
+                  Award [1] for identifying each factor that would be used in the development
+                  of the SVP up to a maximum of [4]. Do not award marks for travel time.
+
+           (ii)   Identify two development personnel that would be included in Joelle de
+                  Stark’s team.                                                                       [2]
+
+                  Answers may include:
+                   Programmer
+                   Analyst
+                   Software designer
+                   Logistics/navigation experts.
+
+                  Award [1] for identifying each role that would be included in Joelle de Stark’s
+                  development team up to a maximum of [2].
+                                                   – 16 –                N18/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(b)       (i)    Distinguish between alpha testing and beta testing.                                    [2]
+
+                 Answers may include:
+                  alpha testing is the testing of a new system by developers and is a stage of
+                   testing prior to beta testing
+                  beta testing is the testing of the system by external users and aims to ensure
+                   the product is ready for release.
+
+                 Award [1] for a partial distinction, or a correct definition of one term or the
+                 other. Award [2] for a clear understanding of the differences between
+                 alpha testing and beta testing. A correct definition of each will suffice for
+                 both marks to be awarded.
+
+          (ii)   Explain why the project manager decided to use an agile development
+                 methodology for the SVP.                                                               [4]
+
+                 Answers may include:
+                  the nature of Parisian traffic is a highly volatile / subject to change
+                  it is likely that there will be changes to roads, priorities, routes etc that will
+                   occur during the development of the SVP
+                  AI is a rapidly evolving technology and it is likely that changes in technology
+                   may require a partial redesign of aspects of the SVP
+                  as the evolution of the SVP may appear in an apparently haphazard manner,
+                   the ability of the development team to revisit early stages of the project
+                   development will be essential for the satisfactory implementation of the SVP
+                  encourages active user involvement which will minimize changes later on.
+
+Marks                                               Level descriptor
+
+      0           No knowledge or understanding of ITGS issues and concepts. No use of
+                  appropriate ITGS terminology.
+                  A descriptive response that indicates very little understanding of why the Project
+ 1–2
+                  Manager decided to use an agile development methodology for the SVP. Uses
+                  little or no appropriate ITGS terminology. No reference is made to the scenario
+                  in the stimulus material. The response is theoretical.
+                  An explanation of why the Project Manager decided to use an agile development
+ 3–4
+                  methodology for the SVP. Explicit and relevant references are made to the
+                  scenario in the stimulus material. There is appropriate ITGS terminology
+                  throughout the response.
+                                             – 17 –               N18/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(c)   Discuss the project manager’s decision to use fuzzy logic in the development of
+      the SVP.                                                                                  [8]
+
+      Answers may include:
+
+      Advantages of using fuzzy logic
+       fuzzy logic is more flexible than binary logic as it uses values between 0 and 1.
+       fuzzy logic is ideal for scenarios where there are no obvious yes or no answers
+       fuzzy logic is suitable for use with an agile project management methodology as part
+        of the user feedback loop as it allows a system to evolve
+       fuzzy logic may lead to a better user experience / personalized routes based on their
+        preferences.
+
+      Disadvantages of using fuzzy logic
+       fuzzy logic may be more expensive than binary systems because it may require
+         more development time and/or expertize
+       fuzzy logic may be more sophisticated and require greater programming skills
+       Fuzzy logic may require more processing speed/capability.
+       Might provide too many features for people who just want a simple app
+       Might increase the time taken to find a route due to processing more information
+       The fuzzy logic system is only as good as the data the team has curated and
+         provided for it.
+
+      Note to examiners - some candidates may mention increased file size, please
+      accept this response.
+
+      Conclusions
+       any additional costs in development may be offset by increased volumes of people
+        using the SVP
+       Provides special considerations for individuals so it can cater to different client
+        bases, and, therefore, expand the number of clients.
+
+      In part (c) of this question it is expected there will be a balance in the ITGS
+      terminology between IT technical terminology and the terminology related to
+      social and ethical impacts.
+
+      Please see generic markband information sheet on page 27.
+                                                   – 18 –               N18/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+5.   Meet Dennis, the restaurant robot
+
+     Note to examiners.
+      All part a questions are marked using ticks and annotations where appropriate
+      Part b and part c are marked using markbands. Use annotations and text
+       comments to provide a rationale behind the marks you awarded. Do not use ticks.
+
+     (a)   (i)     Identify two characteristics of a humanoid robot.                                [2]
+
+                   Answers may include:
+                    has human characteristics which may include head, torso, face
+                    has sensors (sound, touch…) which give it human-like characteristics
+                    has mobility
+                    has its own source of power
+                    ability to process data or respond to stimuli
+                    programmed to do a specific job/activity
+
+                   Award [1] for identifying each characteristics of a humanoid robot up to a
+                   maximum of [2].
+
+           (ii)    Identify two methods that the marketing manager at Gustavo’s could use to
+                   collect feedback from customers about Dennis.                                    [2]
+
+                   Answers may include:
+                    questionnaire/survey
+                    interview
+                    observe Dennis interacting with customers
+                    provide a space on the website for comments about the customer’s
+                     experience
+                    place a suggestions/opinions journal at the exit of the restaurant
+                    use the robot to as if they enjoyed the experience or not.
+
+                   Award [1] for identifying each method that the marketing manager at
+                   Gustavo’s could use to collect feedback from customers about Dennis robots
+                   up to a maximum of [2].
+
+           (iii)   Identify two sensors that Dennis needs in order to operate successfully in the
+                   restaurant.                                                                      [2]
+
+                   Answers may include:
+                    proximity
+                    sound/audio
+                    touch
+                    movement
+                    HDR sensor
+                    Infrared sensor
+                    optical.
+
+                   Award [1] for identifying each sensor that Dennis needs in order to operate
+                   successfully in the restaurant up to a maximum of [2].
+                                             – 19 –                N18/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(b)   (i)    Customers speak to Dennis to give him their orders. Dennis uses pattern
+             recognition to understand what has been said to him.
+
+             Explain why Dennis uses pattern recognition rather than pattern matching to
+             understand what customers are saying to him.                                        [3]
+
+             Answers may include:
+              pattern recognition does not look for exact matches whereas pattern
+               matching does
+              pattern recognition can be adjusted to the tolerance / accuracy of the
+               match, so the tolerance can be increased or decreased
+              pattern recognition takes into account that human voices are not uniform
+               and there may be different dialects etc.
+              pattern recognition uses machine learning
+
+             Award [1] for each reason why Dennis uses pattern recognition rather than
+             pattern matching and [1] for each subsequent development of that reason up
+             to a maximum of [3].
+
+      (ii)   Explain why the managers at Gustavo’s would choose a Gantt chart as a
+             project management tool for the introduction of Dennis robot waiters in all their
+             restaurants.                                                                        [3]
+
+             Answers may include:
+              Gantt charts are graphical representations of project timelines
+              Gantt charts are suitable for small scale projects such as Dennis
+              they are straightforward to read
+              simple scheduling visualization for each phase/task of the project
+              they can be easily integrated with other software such as Excel
+              show which tasks must be completed before the next one can begin.
+
+             Award [1] for each reason why the managers at Gustavo’s would choose a
+             Gantt chart and [1] for each subsequent development of that reason up to a
+             maximum of [3].
+                                             – 20 –               N18/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(c)   Discuss whether the managers at Gustavo’s should introduce Dennis robot waiters
+      in all their restaurants.                                                            [8]
+
+      Answers may include:
+
+      Advantages
+       the use of robots means that less staff will be needed
+       robots are more efficient – will not get order wrong
+       faster service – robots will maximize use of time
+       robots do not need breaks
+       robots don’t get sick – will always show up for work
+       customers enjoy the experience and return to/recommend the restaurant
+       customers may still want human interaction
+       could create more high paying IT jobs
+       the robot’s system could record what customers ordered thus the restaurant could
+        better serve customers.
+
+      Disadvantages
+       initial cost to purchase robots
+       the use of robots may create IT related jobs which may be an additional expense
+         to restaurant
+       robots will need to be charged – can be time consuming
+       robots could malfunction
+       robots will need repairs – could be costly
+       robots will need to be programmed when changes arise
+       mangers may need training to operate robots
+       the use of robots may lead to jobs being lost.
+
+      In part (c) of this question it is expected there will be a balance in the ITGS
+      terminology between IT technical terminology and the terminology related to
+      social and ethical impacts.
+
+      Please see generic markband information sheet on page 27.
+                                                    – 21 –                N18/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+6.   Use of expert systems in university admissions departments
+
+     Note to examiners.
+      All part a questions are marked using ticks and annotations where appropriate
+      Part b and part c are marked using markbands. Use annotations and text
+       comments to provide a rationale behind the marks you awarded. Do not use ticks.
+
+     (a)   (i)     Identify two reasons why a prototype of the expert system was developed prior
+                   to its release.                                                                      [2]
+
+                   Answers may include:
+                    allows the developers to see potential strengths and weaknesses
+                    allows the developers to make changes based on real user interactions
+                    often scaled down version which can be cheaper
+                    allows the developers to determine whether it has achieved the required
+                     goals.
+
+                   Award [1] for identifying each reason why a prototype of the expert system
+                   was developed prior to its release up to a maximum of [2].
+
+           (ii)    Identify two constraints that the developers of the expert system might
+                   face.                                                                                [2]
+
+                   Answers may include:
+                    time
+                    expertise
+                    resources
+                    acquiring the expert knowledge.
+
+                   Award [1] for identifying each constraint that the developers of the
+                   expert system may face up to a maximum of [2].
+
+           (iii)   Outline the difference between forward chaining and backward
+                   chaining.                                                                            [2]
+
+                   Answers may include:
+                    backward chaining works backwards from the goal to determine the data that
+                     would need to be collected to meet the goal
+                    forward chaining starts with data and uses inference rules to arrive at a goal
+                    backward chaining works best if the conclusion is already known, whereas
+                     forward chaining works best if conclusion is not known in advance.
+
+                   Award [1] for a partial outline, or a correct definition of one term or the other.
+                   Award [2] for a clear understanding of the differences between backward
+                   and forward chaining. A correct definition of each will suffice for both marks to
+                   be awarded.
+                                           – 22 –               N18/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(b)   (i)   Explain why Curitiba University would use a phased changeover method for
+            the introduction of the expert system.                                              [3]
+
+            Answers may include:
+             this allows the university to evaluate the success of the expert system in
+              stages
+             this would ensure that the expert system can be implemented with the least
+              disruption to the existing ways of working, limits risk of errors
+             any potential roll back of the new system can be done with less disruption than
+              completely reverting back to the original system
+             small incremental changes allow staff to learn as they go to ensure greater
+              success.
+
+            Award [1] for each reason why Curitiba University would use a phased
+            changeover method for the introduction of the expert system and [1] for each
+            subsequent development of that reason up to a maximum of [3].
+                                        – 23 –               N18/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(ii)   The diagram below shows the beginning of a decision tree that is part of an
+       expert system to advise prospective students on their suitability for studying
+       engineering at Curitiba University.
+
+       Read the rules below, then copy and complete the decision tree.                   [3]
+
+       Answers may include:
+
+
+
+
+       Award [1] for the correct structure of the decision tree. Award [1] for the
+       correct text within the text boxes. Award [1] for the correct Y/N labels of the
+       decision tree. Maximum mark awarded [3].
+
+       Do not penalize if the first “no” box is empty.
+                                             – 24 –               N18/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(c)   As part of the admission process, some universities are considering the introduction
+      of an online questionnaire and video submission, where the prospective student
+      explains why they are applying for the program. It is hoped that the online
+      questionnaire and video in combination with the face-to-face interview will give the
+      admissions department the information required to decide whether or not to accept a
+      student.
+
+      To what extent will the introduction of an online questionnaire and video submission
+      assist the admissions department when deciding whether to accept a
+      student?                                                                                      [8]
+
+      Answers may include:
+      Advantages:
+       this variety of selection tools may lead to better informed decisions as the
+        admissions team will get a better feel for the prospective candidates
+       if staff members have adequate bandwidth, staff can take them home to view’
+       The questionnaire may provide insight into the candidate that would prompt a f2f
+        interview where there wouldn’t have been one otherwise.
+       the video and/or questionnaire will provide material for questions in the interview
+        thus personalizing it to a greater extent.
+       fewer candidates will need to be interviewed because the questionnaire will help to
+        determine if they are suited to Curitiba University.
+       the inclusion of a video could decrease the time taken for admissions as the student
+        is not initially required to travel into the school for an interview.
+
+      Disadvantages:
+
+       reliability – students could get differing levels of help with the video, it may become a
+        test of the student’s IT skills rather than giving a true reflection of them. This may be
+        highlighted when the video and F2F interview are considered as a whole.
+       students may not have technical knowledge to create videos which may negatively
+        influence their chances of admission
+       students may not have sufficient bandwidth to upload and submit videos
+       staff may not be able to assess videos at home if they do not have enough
+        bandwidth to download videos which may mean that the usefulness of the videos
+        may be questioned
+       videos would need to be stored securely on the university server
+       may take more time for university staff to view videos which may reduce the number
+        of possible applicants they could view
+       bias – students may be judged based on their appearance in the video
+       the videos may not have a common format making comparisons between students
+        difficult
+       students may try to “game the system” in developing answers for the online
+        questionnaire.
+
+      In part (c) of this question it is expected there will be a balance in the ITGS
+      terminology between IT technical terminology and the terminology related to
+      social and ethical impacts.
+
+      Please see generic markband information sheet on page 27.
+                                             – 25 –               N18/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+SL and HL paper 1 part (c) and HL paper 3 question 3 markband
+             Marks                                    Level descriptor
+                                 A response with no knowledge or understanding of the
+            No marks              relevant ITGS issues and concepts.
+                                 A response that includes no appropriate ITGS terminology.
+                                 A response with minimal knowledge and understanding of
+                                  the relevant ITGS issues and concepts.
+                                 A response that includes minimal use of appropriate
+                                  ITGS terminology.
+              Basic
+                                 A response that has no evidence of judgments and/or
+           1–2 marks              conclusions.
+                                 No reference is made to the scenario in the stimulus
+                                  material in the response.
+                                 The response may be no more than a list.
+                                 A descriptive response with limited knowledge and/or
+                                  understanding of the relevant ITGS issues and/or concepts.
+                                 A response that includes limited use of appropriate
+                                  ITGS terminology.
+            Adequate
+                                 A response that has evidence of conclusions and/or
+           3–4 marks              judgments that are no more than unsubstantiated
+                                  statements. The analysis underpinning them may also be
+                                  partial or unbalanced.
+                                 Implicit references are made to the scenario in the stimulus
+                                  material in the response.
+                                 A response with knowledge and understanding of the
+                                  relevant ITGS issues and/or concepts.
+                                 A response that uses ITGS terminology appropriately
+                                  in places.
+           Competent
+                                 A response that includes conclusions and/or judgments that
+           5–6 marks
+                                  have limited support and are underpinned by a balanced
+                                  analysis.
+                                 Explicit references to the scenario in the stimulus material
+                                  are made at places in the response.
+                                 A response with a detailed knowledge and understanding of
+                                  the relevant ITGS issues and/or concepts.
+                                 A response that uses ITGS terminology appropriately
+            Proficient            throughout.
+           7–8 marks             A response that includes conclusions and/or judgments that
+                                  are well supported and underpinned by a balanced analysis.
+                                 Explicit references are made appropriately to the scenario in
+                                  the stimulus material throughout the response.
+

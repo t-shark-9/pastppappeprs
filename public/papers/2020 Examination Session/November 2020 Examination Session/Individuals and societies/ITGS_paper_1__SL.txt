@@ -1,0 +1,319 @@
+No part of this product may be reproduced in any form or by any electronic or
+mechanical means, including information storage and retrieval systems, without written
+permission from the IB.
+
+Additionally, the license tied with this product prohibits commercial use of any selected
+files or extracts from this product. Use by third parties, including but not limited to
+publishers, private teachers, tutoring or study services, preparatory schools, vendors
+operating curriculum mapping services or teacher resource digital platforms and app
+developers, is not permitted and is subject to the IB’s prior written consent via a license.
+More information on how to request a license can be obtained from
+https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-license/.
+
+Aucune partie de ce produit ne peut être reproduite sous quelque forme ni par quelque
+moyen que ce soit, électronique ou mécanique, y compris des systèmes de stockage et
+de récupération d’informations, sans l’autorisation écrite de l’IB.
+
+De plus, la licence associée à ce produit interdit toute utilisation commerciale de
+tout fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris,
+sans toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de
+tutorat ou d’aide aux études, des établissements de préparation à l’enseignement
+supérieur, des fournisseurs de services de planification des programmes
+d’études, des gestionnaires de plateformes pédagogiques en ligne, et des
+développeurs d’applications, n’est pas autorisée et est soumise au consentement écrit
+préalable de l’IB par l’intermédiaire d’une licence. Pour plus d’informations sur la
+procédure à suivre pour demander une licence, rendez-vous à l’adresse suivante :
+https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-license/.
+
+No se podrá reproducir ninguna parte de este producto de ninguna forma ni por ningún
+medio electrónico o mecánico, incluidos los sistemas de almacenamiento y
+recuperación de información, sin que medie la autorización escrita del IB.
+
+Además, la licencia vinculada a este producto prohíbe el uso con fines comerciales de
+todo archivo o fragmento seleccionado de este producto. El uso por parte de terceros
+—lo que incluye, a título enunciativo, editoriales, profesores particulares, servicios
+de apoyo académico o ayuda para el estudio, colegios preparatorios, desarrolladores
+de aplicaciones y entidades que presten servicios de planificación curricular u
+ofrezcan recursos para docentes mediante plataformas digitales— no está permitido
+y estará sujeto al otorgamiento previo de una licencia escrita por parte del IB. En este
+enlace encontrará más información sobre cómo solicitar una licencia:
+https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-license/.
+Information technology in a global society
+Standard level
+Paper 1
+
+Friday 6 November 2020 (afternoon)
+
+
+1 hour 30 minutes
+
+
+Instructions to candidates
+y Do not open this examination paper until instructed to do so.
+y Answer two questions. Each question is worth [20 marks].
+y The maximum mark for this examination paper is [40 marks].
+
+
+
+
+                                                                                             8820 – 5512
+     9 pages                                             © International Baccalaureate Organization 2020
+                                                  –2–                                           8820 – 5512
+
+
+Answer two questions. Each question is worth [20 marks].
+
+1.   E-voting
+
+     A number of countries, such as India, have introduced e-voting systems. Citizens can vote by
+     going to a specified location, such as a school, or they can vote from home using a computer.
+     Each voter is provided with a unique identifier, such as IND55454, that they must enter into
+     the system when they vote.
+
+     These e-voting systems usually consist of a user interface, such as the one in Figure 1,
+     linked to a relational database (see Figure 2).
+
+                                   Figure 1: An e-voting interface
+
+
+                                     State of Dhruva
+                                     Electronic voting machine
+                                        State elections, April 2015
+                                          
+                                              Candidate name              Button
+
+                            1      Sandeep Pandey
+
+                            2      Prat��sh Sinha
+
+                            3      Anshul Bhatt
+
+                            4      Sarat Matt�ri
+
+                            5      Srinivas Bong�
+
+                            6      Lohit Kapoor
+                              
+                                        
+                               
+
+
+
+
+(This question continues on the following page)
+                                                     –3–                                        8820 – 5512
+
+
+(Question 1 continued)
+
+                           Figure 2: Some of the tables in the voting database
+
+                   Voter                          Votes                          Candidate
+
+           VoterID                            VoteID                          CandidateID
+
+           First_name                         CandidateID                     Party
+
+           Surname                            VoterID                         First_name
+
+           Date_of_birth                      Date                            Surname
+
+           Gender                             Time                            More fields
+
+           More fields                        More fields
+
+     (a)   (i)     State the primary key in the Voter table in Figure 2.[1]
+
+           (ii)    Identify one foreign key in the Votes table in Figure 2.[1]
+
+           (iii)   Identify the data type that would be used in the Gender field in Figure 2.[1]
+
+           (iv)    State the relationship between the Candidate table and the Votes table.             [1]
+
+           (v)     Outline why a drop-down list would be used for the Party field in the
+                   Candidate table.                                                                    [2]
+
+     (b)   A number of individuals and groups were consulted during the design of the e-voting
+           system to enable designers to create an intuitive interface for it.
+
+           Analyse questionnaires and interviews as methods of data collection to gather this
+           information from these individuals and groups.                                              [6]
+
+     (c)   Some states are planning to return to a paper-based voting system, where voters put
+           a cross (X) in the column next to the party of their choice.
+
+           Discuss whether these states should retain e-voting or return to a paper-based voting
+           system.[8]
+
+
+
+
+                                                                                                Turn over
+  –4–        8820 – 5512
+
+
+
+
+Blank page
+                                                   –5–                                         8820 – 5512
+
+
+2.   BYOD at Xingu Academy
+
+     Some students at Xingu Academy have been allowed to “bring your own device (BYOD)”
+     into school so they can use assistive technologies, such as speech-to-text, to support
+     their learning (see Figure 3). Mayu Jimenez, the Head of Learning and Teaching, has
+     seen the benefits for these students. A number of other teachers believe there will be
+     benefits if the school becomes a BYOD school. However, before a decision can be made,
+     Alejandro Glandolla, the Head of IT, has been asked to investigate whether the school would
+     be able to cope with the demands of the increased number of devices.
+
+                                   Figure 3: Assistive technologies
+
+
+
+
+     (a)   (i)	Identify two pieces of information that would be used to identify a device on the
+                IT network.                                                                           [2]
+
+           (ii)   Identify the steps used by speech-to-text software.                                 [4]
+
+     (b)   Digital citizenship is included in Xingu Academy’s IT acceptable-use policy.
+
+           Explain why it is important that students at Xingu Academy are both competent users of
+           digital technologies and good digital citizens.                                            [6]
+
+     (c)   Discuss whether Xingu Academy should become a bring-your-own-device (BYOD)
+           school.[8]
+
+
+
+
+                                                                                              Turn over
+                                                      –6–                                        8820 – 5512
+
+
+3.   Clouds under the sea
+
+     Microsoft has located one of its data centres on the seabed. Project Natick is now operating
+     100 feet below the surface of the North Sea (see Figure 4).
+
+                   Figure 4: An artist’s representation of a data centre on the sea bed
+
+
+
+
+     Microsoft has chosen to develop data centres on the seabed because concerns have been
+     raised about the impact of data centres built on land. These seabed data centres can be
+     constructed and placed on the sea bed in 90 days. This is compared to the two years that are
+     required for land-based data centres.
+
+     The demand for data storage is doubling every two years, so it is likely that an increasing
+     number of data centres will need to be constructed under the sea as cloud computing
+     continues to grow. Google patented their design for an underwater data centre in 2009 but,
+     although functioning prototypes have been trialled, none have been used commercially.
+
+     (a)   (i)     Identify two characteristics of cloud computing.                                     [2]
+
+           (ii)    Servers used in cloud computing hold considerable amounts of data.
+
+                   Identify two forms of backup that could be used for the data on these servers.       [2]
+
+           (iii)   A user is downloading a ZIP (zipped file) from cloud storage.
+
+                   The ZIP file is 0.6 GB in size and the download rate is 8 mb/s.
+
+                   Calculate the total time it will take to download the ZIP file.
+
+                   Note: 1 GB = 1000 MB.                                                                [2]
+
+
+
+(This question continues on the following page)
+                                                   –7–                                          8820 – 5512
+
+
+(Question 3 continued)
+
+     (b)   (i)     Compression software can be used to speed up the upload and download of files.
+
+                   The ZIP file recently downloaded from the cloud-based server contained a
+                   number of images and videos.
+
+                   Explain why lossy compression techniques would be used for the images that
+                   have been downloaded from cloud storage.                                            [2]
+
+           (ii)    Explain why lossless compression techniques would be used for the videos that
+                   have been downloaded from cloud storage.                                            [2]
+
+           (iii)   Cloud storage providers are responsible for protecting the privacy and anonymity
+                   of the individuals whose data is held on their servers.
+
+                   Distinguish between privacy and anonymity.                                          [2]
+
+     (c)   Evaluate Microsoft’s decision to build data centres on the seabed.                          [8]
+
+
+
+
+                                                                                               Turn over
+                                                    –8–                                          8820 – 5512
+
+
+4.   The role of portable digital devices in health
+
+     Jaime is an athlete and uses his sports watch to monitor his training sessions. He also
+     uses it to keep a record of his health and well-being. The sports watch can monitor Jaime’s
+     vital signs. It is also global positioning systems (GPS) enabled, so it can track his location
+     (see Figure 5).
+
+                              Figure 5: Data collected by a sports watch
+
+
+
+                                                2789
+
+
+                                      12am      12pm       Now
+                                         Exercise         START       Morning Run
+                                             Record your                Distance            Avg Pace
+                                               workout                   1.8 km             5:09 /km
+                                         How long did you sleep?       Moving time        Elevation Gain
+                                                                          9:01                147 m
+                                           7 hours 30 mins
+                                                                         Calories         Max Elevation
+                                       ♥
+                                                                         207 cal             248 m
+                                     Home     Together    Discover             View Analysis
+
+
+
+     The information that is recorded by Jaime’s sports watch is synchronized with a mobile
+     application (app) installed on his cell/mobile phone.
+
+     (a)   (i)    Identify two vital signs that can be recorded by Jaime’s sport watch.                  [2]
+
+           (ii)   Describe the steps that the GPS receiver in Jaime’s sport watch uses to show the
+                  routes of his training runs.                                                           [4]
+
+     (b)   Jaime has decided to share his personal health information with researchers at the
+           University of Sierra Nevada (USN).
+
+           Analyse Jaime’s decision to share his personal health information with the University of
+           Sierra Nevada (USN).                                                                          [6]
+
+     (c)   The development of mobile health apps has changed the way citizens manage their
+           own health and wellbeing.
+
+           Discuss whether citizens such as Jaime should rely only on the advice of a health app
+           to manage their own health and wellbeing.                                                     [8]
+References:
+
+Figure 1. © International Baccalaureate Organization 2020.
+
+Figure 3. © International Baccalaureate Organization 2020.
+
+Figure 4. Adapted under sea photo by NOAA on Unsplash.
+
+Figure 5. © International Baccalaureate Organization 2020.
+

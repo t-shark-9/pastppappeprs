@@ -1,0 +1,145 @@
+M18/5/MATHL/HP3/ENG/TZ0/SP
+
+
+
+
+Mathematics
+Higher level
+Paper 3 – statistics and probability
+
+
+Wednesday 9 May 2018 (afternoon)
+
+
+1 hour
+
+
+Instructions to candidates
+yy Do not open this examination paper until instructed to do so.
+yy Answer all the questions.
+yy Unless otherwise stated in the question, all numerical answers should be given exactly or
+   correct to three significant figures.
+yy A graphic display calculator is required for this paper.
+yy A clean copy of the mathematics HL and further mathematics HL formula booklet is
+   required for this paper.
+yy The maximum mark for this examination paper is [50 marks].
+
+
+
+
+                                                                                               2218 – 7210
+     4 pages                                               © International Baccalaureate Organization 2018
+                                                   –2–                   M18/5/MATHL/HP3/ENG/TZ0/SP
+
+Please start each question on a new page. Full marks are not necessarily awarded for a correct answer
+with no working. Answers must be supported by working and/or explanations. In particular, solutions
+found from a graphic display calculator should be supported by suitable working. For example, if
+graphs are used to find a solution, you should sketch these as part of your answer. Where an answer
+is incorrect, some marks may be given for a correct method, provided this is shown by written working.
+You are therefore advised to show all working.
+
+1.   [Maximum mark: 11]
+
+     The weights, X kg, of the males of a species of bird may be assumed to be normally
+     distributed with mean 4.8 kg and standard deviation 0.2 kg.
+
+     (a)   Find the probability that a randomly chosen male bird weighs between 4.75 kg and
+           4.85 kg.                                                                                      [1]
+
+     The weights, Y kg, of female birds of the same species may be assumed to be normally
+     distributed with mean 2.7 kg and standard deviation 0.15 kg.
+
+     (b)   Find the probability that the weight of a randomly chosen male bird is more than twice
+           the weight of a randomly chosen female bird.                                                  [6]
+
+     (c)   Two randomly chosen male birds and three randomly chosen female birds are placed
+           on a weighing machine that has a weight limit of 18 kg. Find the probability that the
+           total weight of these five birds is greater than the weight limit.                            [4]
+
+
+2.   [Maximum mark: 8]
+
+     Consider an unbiased tetrahedral (four-sided) die with faces labelled 1, 2, 3 and 4
+     respectively.
+     The random variable X represents the number of throws required to obtain a 1.
+
+     (a)   State the distribution of X .                                                                 [1]
+
+
+                                                                                                t
+     (b)   Show that the probability generating function, G(t) , for X is given by G (t ) =          .   [4]
+                                                                                              4 − 3t
+
+     (c)   Find G'(t) .                                                                                  [2]
+
+     (d)   Determine the mean number of throws required to obtain a 1.                                   [1]
+                                                    –3–                   M18/5/MATHL/HP3/ENG/TZ0/SP
+
+3.   [Maximum mark: 12]
+
+     A smartphone’s battery life is defined as the number of hours a fully charged battery can be
+     used before the smartphone stops working. A company claims that the battery life of a model
+     of smartphone is, on average, 9.5 hours. To test this claim, an experiment is conducted on a
+     random sample of 20 smartphones of this model. For each smartphone, the battery life,
+     b hours, is measured and the sample mean, b , calculated. It can be assumed the battery
+     lives are normally distributed with standard deviation 0.4 hours.
+
+     (a)   State suitable hypotheses for a two-tailed test.                                           [1]
+
+
+     (b)   Find the critical region for testing b at the 5 % significance level.                      [4]
+
+     It is then found that this model of smartphone has an average battery life of 9.8 hours.
+
+     (c)   Find the probability of making a Type II error.                                            [3]
+
+     Another model of smartphone whose battery life may be assumed to be normally distributed
+     with mean µ hours and standard deviation 1.2 hours is tested. A researcher measures the
+     battery life of six of these smartphones and calculates a confidence interval of [10.2 , 11.4]
+     for µ .
+
+     (d)   Calculate the confidence level of this interval.                                           [4]
+
+
+4.   [Maximum mark: 11]
+
+     The random variables X , Y follow a bivariate normal distribution with product moment
+     correlation coefficient ρ .
+
+     (a)   State suitable hypotheses to investigate whether or not a negative linear association
+           exists between X and Y .                                                                   [1]
+
+     A random sample of 11 observations on X , Y was obtained and the value of the sample
+     product moment correlation coefficient, r , was calculated to be -0.708 .
+
+     (b)   (i)    Determine the p-value.
+
+		         (ii)   State your conclusion at the 1 % significance level.                                [4]
+
+     The covariance of the random variables U , V is defined by
+                                 Cov(U , V) = E((U - E(U ))(V - E(V ))) .
+
+     (c)   (i)    Show that Cov(U , V) = E(UV ) - E(U )E(V ) .
+
+		         (ii)   Hence show that if U , V are independent random variables then the population
+                  product moment correlation coefficient, ρ , is zero.                                [6]
+
+
+                                                                                                Turn over
+                                                   –4–                  M18/5/MATHL/HP3/ENG/TZ0/SP
+
+5.   [Maximum mark: 8]
+
+     The random variable X has a binomial distribution with parameters n and p .
+
+
+                            X
+     (a)   Show that P =      is an unbiased estimator of p .                                   [2]
+                            n
+
+     Let U = nP(1 - P) .
+
+     (b)   (i)    Show that E(U ) = (n - 1)p(1 - p) .
+
+		         (ii)   Hence write down an unbiased estimator of Var(X ) .                           [6]
+

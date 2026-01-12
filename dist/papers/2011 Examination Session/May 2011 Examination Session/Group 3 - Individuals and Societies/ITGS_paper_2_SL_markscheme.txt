@@ -1,0 +1,751 @@
+M11/3/ITGSX/SP2/ENG/TZ0/XX/M
+
+
+
+
+                   MARKSCHEME
+
+
+                               May 2011
+
+
+
+      INFORMATION TECHNOLOGY IN A
+            GLOBAL SOCIETY
+
+
+
+                       Standard Level
+
+
+
+                               Paper 2
+
+
+
+
+21 pages
+                              –2–             M11/3/ITGSX/SP2/ENG/TZ0/XX/M
+
+
+
+
+This markscheme is confidential and for the exclusive use of
+examiners in this examination session.
+
+It is the property of the International Baccalaureate and must not
+be reproduced or distributed to any other person without the
+authorization of IB Cardiff.
+                                                    –3–            M11/3/ITGSX/SP2/ENG/TZ0/XX/M
+
+
+Examiners should be aware that in some cases, candidates may take a different approach, which if
+appropriate should be rewarded. If in doubt, check with your Team Leader.
+
+In the case of an “identify” question read all answers and mark positively up to the maximum marks.
+Disregard incorrect answers. In the case of a “describe” question, which asks for a certain number of
+facts e.g. “describe two kinds”, mark the first two correct answers. This could include two descriptions,
+one description and one identification, or two identifications. In the case of an “explain” question,
+which asks for a specified number of explanations e.g. “explain two reasons”, mark the first two
+correct answers. This could include two full explanations, one explanation, one partial explanation, etc.
+
+“ITGS terminology refers to both the IT technical terminology and to the terminology related to social
+and ethical impacts.”
+
+                                               SECTION A
+
+                                Area of impact: Business and employment
+
+1.   (a)   (i)     Identify the key field in the RECEIVER_OF_LOAN table.                        [1 mark]
+
+                   Business_ID.
+
+                   Award [1 mark] for the correct answer.
+
+           (ii)    Identify the data type for the field Phone_Number in the
+                   RECEIVER_OF_LOAN table.                                                      [1 mark]
+
+                   text/alphanumeric/string
+
+                   Award [1 mark] for the correct answer.
+
+                   N.B. “Number” is not appropriate as this data type would not
+                   accommodate numbers beginning with “0”.
+
+                   Do not accept: letters or word
+
+     (b)   The database administrator wishes to produce an alphabetical list of lenders
+           from France who have contributed at least US$50 after 01/01/2001.
+
+           Describe the query that produces the list specified above.                          [4 marks]
+
+           •     Amount_Loaned>=50
+           •     Date_Loaned>01/01/2001
+           •     Country=France
+           •     Sort/display alphabetically by Family_Name.
+
+           Award [1 mark] for each of the above statements up to a maximum of [4 marks].
+                                              –4–                M11/3/ITGSX/SP2/ENG/TZ0/XX/M
+
+
+(c)   The field Business_Description should not be included in the LOANS table
+      because this would lead to data redundancy.
+
+      Explain why this could lead to inaccuracies in the database.                          [4 marks]
+
+      Answers may include:
+      • at data entry, if Business_Description is included in both the
+        RECEIVER_OF_LOAN and the LOANS table, then a typing error will result
+        in two different versions of the same data
+      • during editing (i.e. Business_Description is updated) a failure to update entries
+        in both tables will result in two different versions of the same data
+      • different versions of data will lead to different output depending on
+        whether a query includes the Business_Description field from the
+        RECEIVER_OF_LOAN or the LOANS table.
+
+      [1 mark]
+      A limited response that indicates very little understanding of the topic.
+
+      [2–3 marks]
+      A reasonable description of reasons for not including the field in the LOANS table
+      although the answer may lack appropriate reasoning at the lower end of the band.
+
+      [4 marks]
+      A clear, detailed and balanced explanation of the reasons for not including the
+      field in the LOANS table.
+                                                –5–                    M11/3/ITGSX/SP2/ENG/TZ0/XX/M
+
+
+(d)   “Kiva provides a data-rich, transparent lending platform. We are constantly
+      working to make the system more transparent to show how money flows
+      throughout the entire cycle, and what effect it has on the people and
+      institutions that lend, manage and borrow it along the way.”
+
+                           [Source: http://kiva.org/about, 25 September 2009]
+
+      Discuss what online services the Kiva web site could provide for effective
+      online reporting back to the lenders about the status of the recipient’s
+      business and the loan repayments.                                          [10 marks]
+
+      Answers may include:
+      • e-mail alerts – send e-mail alerts to lenders each time a loan repayment is made
+        informing them of the repayment amount/amount still owing
+      • cell (mobile) phone alerts
+      • web site with a secure web page for each lender – e.g. the web page may
+        include descriptions of outstanding loans and the status of the repayment
+      • web site with a secure page for each business – this could include details of all
+        loans, lenders and payments and videos/images of the business
+      • web site with graphic information – maps, interactive charts, graphs showing
+        information about lenders and statistics of loans embedded Google map
+        locating the business, track bar showing loan status
+      • widget to add to a web page/wiki – providing feedback on a lender’s
+        businesses/as a language translator
+      • blog – providing regular updates on status of loans
+      • forums – questions and answers about loans may be posted
+      • chat – lenders could chat with a Kiva representative about loans
+      • RSS feeds – lenders could subscribe to RSS feeds e.g. to hear podcast updates
+        on a business
+      • the site could enable subscription to newsletters which are sent automatically to
+        lenders
+      • searchable database – Kiva posts updates to the database which can be viewed
+        from a web page.
+      • online rating system on the KIVA website to show status of the recipient’s
+        business.
+
+      Concerns for discussion
+      • download speed may be a limiting factor when accessing some of these
+        services
+      • security is important to protect lenders’ privacy regarding their loans
+      • some services require the user to download additional software which may
+        have implications for security, disk space.
+
+      In part (d) of this question it is expected there will be a balance in the ITGS
+      terminology between IT technical terminology and the terminology related to
+      social and ethical impacts.
+
+      Please see generic markband information sheet on page 21.
+                                                 –6–              M11/3/ITGSX/SP2/ENG/TZ0/XX/M
+
+
+                                           SECTION B
+
+                                    Area of impact: Education
+
+2.   (a)   Identify two file formats that can be used for podcasts or vidcasts
+           on PDAs.                                                            [2 marks]
+
+           Answers may include:
+           • MP3
+           • ACC
+           • AIFF
+           • WAV
+           • M4A
+           • M4P
+           • H.264
+           • MP4
+           • AVI
+           • WMA
+           • MOV
+           • FLA/FLAC
+           • QTFF/Quicktime file format.
+           • WMV
+           • MPEG
+
+           Award [1 mark] for identifying each file format up to a maximum of [2 marks].
+
+     (b)   Describe the steps for producing a podcast file.                                    [4 marks]
+
+           Answers may include:
+           • set up the recording device (i.e. internal or external microphone)
+           • open the software to create a new podcast
+           • click on the record button and make a voice track
+           • edit the voice track
+           • add music and other effects as required (e.g. photos, sound effects)
+           • render the podcast
+           • save the voice track as a podcast file (e.g. M4A file format) / save as a
+             compressed audio file.
+
+           Award [1 mark] for describing each step up to a maximum of [4 marks].
+
+     (c)   Explain two possible educational uses for podcasts or vidcasts other than
+           providing access to lecture material.                                     [4 marks]
+
+           Answers may include:
+           • language teachers can create learning tutorials using podcasts so that the
+             students can practice their lessons outside of class
+           • science teachers can create a vidcast to demonstrate a process (e.g. how to use
+             a microscope) so that students can view the process whenever they
+             have difficulties
+                                      –7–                 M11/3/ITGSX/SP2/ENG/TZ0/XX/M
+
+
+• English students can record podcasts reading poems that they have written so
+  that they can share both the poems and the audio versions on a web page for
+  worldwide access
+• a school director can make a podcast for a school web site to explain the new
+  financial policy because a podcast adds a more personal touch to the
+  accompanying statement
+• book publishers can create podcasts so that blind students can listen
+  to books.
+
+Do not accept the university advertising their program.
+
+Award [1 mark] for reasonable description of two possible educational uses for
+podcasts or vidcasts other than providing access to lecture material up to a
+maximum of [2 marks]. Award an additional [1 mark] for the explanation of each
+reasonable description of two possible educational uses for podcasts or vidcasts
+other than providing access to lecture material up to a maximum of [2 marks].
+Mark the first two possible causes identified.
+                                            –8–                M11/3/ITGSX/SP2/ENG/TZ0/XX/M
+
+
+(d)   Many universities around the world are also making their lectures publicly
+      available through online podcast and vidcast hosting services. The lectures
+      cover a wide range of topics, opening up new opportunities for lecturing
+      and learning.
+
+      To what extent could stakeholders, other than students enrolled in the
+      university courses, be affected by the public availability of university lectures
+      as podcasts and vidcasts?                                                         [10 marks]
+
+      Answers may include:
+      Benefits
+      • lecturers in other universities can view the online material and determine the
+        nature of the teaching in other institutions
+      • students in other locations can view material in courses similar to ones that
+        they are taking and get a broader perspective
+      • students who cannot afford to attend university can still access university
+        lecture material
+      • lecturers can include more varied kinds of material in podcasts and vidcasts
+        and this can be edited and updated
+      • persons can follow courses in subjects that they may normally not have
+        access to
+      • the university may receive recognition for its outstanding lectures
+      • governments that financially support universities may see the improved
+        education of citizens as a benefit.
+
+      Concerns
+      • lecturers at the university may be concerned that their lecture material is being
+        used in other institutions and that they are not receiving recognition
+      • students in some parts of the world may experience difficulties in downloading
+        podcasts and vidcasts due to technical problems
+      • publishers may be concerned that not as many of their published materials will
+        be sold
+      • universities may lose fees, particularly for part-time or non-qualification
+        courses, because potential students can access course material for free and do
+        not enrol in the courses
+      • university professors may be disappointed/less motivated due to a reduced
+        number of students attending their lectures since the podcast/vidcasts are
+        publically available
+      • universities may have to upgrade their infrastructure due to the popularity of
+        their podcasts and the increased number of persons accessing their servers.
+
+      Potential students are not students enrolled in the university courses and can be
+      considered stakeholders.
+
+      In part (d) of this question it is acceptable if there is more emphasis on
+      the terminology related to social and ethical impacts and less on IT
+      technical terminology.
+
+      Please see generic markband information sheet on page 21.
+                                                 –9–               M11/3/ITGSX/SP2/ENG/TZ0/XX/M
+
+
+                         Area of impact: Arts, entertainment and leisure
+
+3.   (a)   Identify two reasons why a social networking web site such as Facebook
+           would provide access to free online social games through its web site. [2 marks]
+
+           Answers may include:
+           • increase popularity over competitive web sites
+           • get a large number of users to join Facebook in order to play the game
+           • get members to stay on/return to the Facebook website
+           • increase number of advertisers due to high volume of traffic on the web site
+           • increase the chances of selling Facebook to another company
+           • expand membership so that personal data has value to third parties
+           • to make money from playing the game
+           • targeting online advertisements to the player's interests.
+
+           Award [1 mark] for each reason identified up to a maximum of [2 marks].
+
+     (b)   Pet Society downloads cookies on to your computer. Describe two possible
+           ways that games companies could use cookies.                             [4 marks]
+
+           Answers may include:
+           • for authenticating (i.e. remembers user names, for quicker login)
+           • collect and store IP addresses to identify location
+           • session tracking (i.e. track use of certain features to help improve them)
+           • remembering specific information about users, such as web site preferences/
+              play patterns to determine popularity of features length of play and anti-
+              tampering checks
+           • store “save game” and “game settings” information to provide a better games
+              service in which activities and achievements are remembered in the game.
+            • target ads to individual users who play their games
+
+           Do not award marks for collecting data from users accessing websites other than
+           Facebook.
+
+           Award [1 mark] for identifying each way the social games company can use
+           cookies up to a maximum of [2 marks]. Award an additional [1 mark] for the
+           relevant description of each way the social games company can use cookies up to
+           a maximum of [2 marks].
+                                             – 10 –              M11/3/ITGSX/SP2/ENG/TZ0/XX/M
+
+
+(c)   Online social games sometimes run slowly                   on   home        computers.
+      Explain the factors that can cause this problem.                                         [4 marks]
+
+      Answers may include:
+      • computer may be performing other operations (running/loading)
+      • clock speed of processor
+      • amount of RAM
+      • speed of the graphics card
+      • low bandwidth
+      • number of persons across the world playing the game simultaneously
+      • number of persons in the home sharing the Internet connection.
+
+      [1 mark]
+      A limited response that indicates very little understanding of the topic.
+
+      [2–3 marks]
+      A reasonable description of the factors that can cause online social games to
+      sometimes run slowly on home computers, although the answer may lack
+      appropriate reasoning at the lower end of the band.
+
+      [4 marks]
+      A clear, detailed explanation of the factors that can cause social games to
+      sometimes run slowly on home computers with reasoning. For this band, there
+      must be two reasons (minimum) mentioned.
+                                           – 11 –             M11/3/ITGSX/SP2/ENG/TZ0/XX/M
+
+
+(d)   To what extent could the intensive playing of online games have long-lasting
+      effects on the user?                                                         [10 marks]
+
+      Answers may include:
+      Positive effects
+      • development of thinking skills (e.g. problem-solving skills, analytical and
+        estimation skills and quick decision-making)
+      • use as therapy for some psychological problems (e.g. child develops a sense of
+        participation, a sense of achievement, builds self-confidence)
+      • improvement in hand-eye coordination
+      • some online games foster teamwork and cooperation.
+
+      Negative effects
+      • excessive playing having health effects (e.g. carpal tunnel syndrome, fatigue,
+        eye-sight problems, back pain)
+      • decreasing contact with real persons (e.g. family and friends) and increased
+        interaction with virtual acquaintances
+      • most communication is through digital input; reduction in social skills
+      • Internet addiction
+      • psychological problems (e.g. loss of contact with the real world; the virtual
+        world seems real)
+      • desire to replicate events from games in the real world (e.g. examples of online
+        criminal events being replicated in real life).
+
+      Do not accept “obesity”.
+
+      In part (d) of this question it is acceptable if there is more emphasis on
+      the terminology related to social and ethical impacts and less on IT
+      technical terminology.
+
+      Please see generic markband information sheet on page 21.
+                                                 – 12 –            M11/3/ITGSX/SP2/ENG/TZ0/XX/M
+
+
+                                      Area of impact: Health
+
+4.   (a)   Define the term pixel.                                                               [2 marks]
+
+           Answers may include:
+           • picture element
+           • smallest component of a digital image
+           • arranged in a 2-dimensional grid
+           • a unit of measurement (e.g. 2400 pixels per inch)
+           • number of pixels per inch determines the resolution of a digital image.
+           • a dot with color
+
+           Award [1 mark] for any point up to a maximum of [2 marks].
+
+     (b)   Describe two steps that would need to be taken for a patient’s 2020 Vision
+           images to be made available in MedSystems’s medical records.               [4 marks]
+
+           Answers may include:
+           • link between the two systems to allow the transfer of the images
+           • images need to be exported from the 2020 Vision system in a format
+             compatible with MedSystems’s medical records, or alternatively the images in
+             the 2020 Vision system need to be exported and then converted to a file format
+             (e.g. JPG, TIFF) compatible with the MedSystems’s medical records
+           • patients must agree that their images can be transferred (i.e. signed agreement)
+           • images need to be imported into the MedSystems’s medical records (i.e. FTP
+             server, hard drive)
+           • the import of the images needs to be compared between the two systems to
+             ensure that the import-export of the images worked correctly (i.e. resolution,
+             colour, size and other important features have been maintained)
+           • accounts must be created in MedSystem’s medical records to receive images
+           • images on FTP server /hard drive are transferred to the MedSystem’s medical
+             records.
+
+           Award [1 mark] for identifying each step up to a maximum of [2 marks].
+           Award an additional [1 mark] for the relevant description of each step up to a
+           maximum of [2 marks].
+                                             – 13 –              M11/3/ITGSX/SP2/ENG/TZ0/XX/M
+
+
+(c)   Explain why images of the retina need to be converted to JPG format before
+      being displayed on the 2020 Vision web site.                               [4 marks]
+
+      Answers may include:
+      • JPG “Joint Photographic Expert Group” (JPEG) format was specifically
+        designed for the storing of photographic images; other formats may not be as
+        well suited to photographic images
+      • JPG files achieve a smaller file size by compressing the image that retains
+        detail (which matters most in the case of the retina)
+      • JPG files are smaller and requires less space on the server
+      • Images displayed in JPG format are visible through all internet browsers
+      • JPG is a compressed file format allowing for faster transmission speed.
+
+      [1 mark]
+      A limited response that indicates very little understanding of the topic.
+
+      [2–3 marks]
+      A reasonable description of why images of the retina need to be converted to JPG
+      format before being displayed on the 2020 Vision website, although the answer
+      may lack appropriate reasoning at the lower end of the band.
+
+      [4 marks]
+      A clear, detailed explanation of why images of the retina need to be converted to a
+      format such as JPG.
+                                            – 14 –              M11/3/ITGSX/SP2/ENG/TZ0/XX/M
+
+
+(d)   The UK government has to decide whether to:
+      • continue to fund the current IT medical records system in an attempt to
+        get it working
+      • abandon this development and outsource a similar records system to a
+        third party such as MedSystems.
+
+      Evaluate both of these strategies.                                                [10 marks]
+
+      Answers may include:
+      • privacy of the medical records (i.e. access by third parties, data mining)
+      • security (i.e. unauthorized access to medical records)
+      • reliability of medical information
+      • control of the medical records
+      • cost considerations for development
+      • expertise in developing medical records system
+      • ease of maintaining / upgrading the medical system
+      • political impacts (i.e. views of taxpayers)
+      • links to/consistency with other government databases.
+
+      Responses that address only one strategy can receive a maximum of 5 marks.
+
+      In part (d) of this question it is expected there will be a balance in the ITGS
+      terminology between IT technical terminology and the terminology related to
+      social and ethical impacts.
+
+      Please see generic markband information sheet on page 21.
+                                                – 15 –            M11/3/ITGSX/SP2/ENG/TZ0/XX/M
+
+
+                           Area of impact: Science and the environment
+
+5.   (a)   Identify two methods of updating a database with data from a spreadsheet.           [2 marks]
+
+           • import wizard
+           • link the database and spreadsheet – updates are automatic / use a macro to automatically
+             update
+           • copy and paste.
+
+           Award [1 mark] for each method up to a maximum of [2 marks].
+
+     (b)   A spreadsheet will be unreliable if data has been entered incorrectly.
+
+           Describe two ways to prevent the input of invalid data.                             [4 marks]
+
+           Answers may include:
+           • set validation checks on cells – this can restrict the type of data that can be
+             entered / prevent data being entered if it is outside a certain range
+           • cells can be locked – this prevents users changing cells that must not be
+             changed / passwords only allow privileged users to make changes
+           • data entry can be limited to predefined values using a drop-down list of
+             valid entries.
+
+           Award [1 mark] for identifying each way up to a maximum of [2 marks].
+           Award an additional [1 mark] for the description of each way up to a maximum of
+           an additional [2 marks].
+                                            – 16 –             M11/3/ITGSX/SP2/ENG/TZ0/XX/M
+
+
+(c)   The output from the spreadsheet (Diagram 2) contains valuable data for
+      users of the web site. Compare two different ways a user may choose to save
+      copies of this data to a personal computer (PC).                            [4 marks]
+
+      Answers may include:
+      • the data can be downloaded as an XLS file – this allows the user to perform
+        calculations in a spreadsheet
+      • the data can be downloaded as a data file/CSV file/comma-delimited format/
+        comma-separated values – this allows data to easily be shared between
+        applications (columns are separated by a comma and rows begin on a new line)
+      • the data can be saved as a PDF – this allows the user to read/store/print the data
+        but the user cannot operate on the numbers
+      • a screen shot could be taken and saved to disk – this allows the user to
+        read/store/print the data but the user cannot operate on the numbers, it may be
+        difficult to read
+      • the data can be copied and pasted into a spreadsheet – this gives the user access
+        to the numerical data and the ability to perform calculations.
+      • the data can be saved in HTML format (File => save as) – this does not allow
+        manipulation of the data
+
+      [1–2 marks]
+      A limited description that shows some understanding of the two ways a user may
+      choose to save copies of this data to a personal computer. The two ways are
+      described in isolation.
+
+      [3–4 marks]
+      An explicit and direct comparison of the two ways a user may choose to save
+      copies of this data to a personal computer.
+                                           – 17 –            M11/3/ITGSX/SP2/ENG/TZ0/XX/M
+
+
+(d)   Many companies create their own spreadsheets so they can use the data
+      from the government bureau of meteorology web site in order to assist in
+      their decision-making. Results are often limited due to poor design,
+      maintenance or control of these spreadsheets.
+
+      Discuss the policies that a company can implement to overcome such
+      problems.                                                          [10 marks]
+
+      Answers may include:
+      • testing – all formulae should be tested – values can be set to zero and all
+        formulae should output zero / the trace function in Excel shows relationships
+        between cells and formulae / manual checking of output with varying
+        input values
+      • design should take into account ease of use – minimum inputs, clear, consistent
+        and attractive layout
+      • documentation must be provided – e.g. original design/modifications
+      • if a spreadsheet is shared a single copy should be located centrally and all
+        updates made to this file – otherwise multiple versions of the same spreadsheet
+        will result
+      • data should be protected from accidental deletion or alteration – individual
+        cells can be locked to prevent data being deleted or changed
+      • data should only be available to authorized users – the spreadsheet can be
+        password protected / files can be stored on secure servers
+      • the spreadsheet should be protected from viruses/malware – this can be
+        achieved with regular virus scans/regular Windows updates to MS Office
+      • a backup routine must be implemented – daily, weekly, monthly backups /
+        backup media stored off site
+      • consideration should be given to new software updates which may provide
+        enhanced decision making features
+      • data from the government web site should be downloaded on a regular basis to
+        ensure currency of information
+      • training needs to be provided for staff who are involved in designing,
+        maintaining or controlling the spreadsheets.
+      • spreadsheet software must be robust/offer online help/include templates
+
+      In part (d) of this question it is expected there will be a balance in the ITGS
+      terminology between IT technical terminology and the terminology related to
+      social and ethical impacts.
+
+      Please see generic markband information sheet on page 21.
+                                               – 18 –            M11/3/ITGSX/SP2/ENG/TZ0/XX/M
+
+
+                             Area of impact: Politics and government
+
+6.   (a)   Identify two reasons why the UK government is encouraging people to pay
+           their vehicle tax online.                                               [2 marks]
+
+           Answers may include:
+           • fast – make a tax payment in minutes
+           • convenient – available 24 hours a day, 7 days a week
+           • accurate – verification steps along the way (i.e. to check and review
+             information before it is sent)
+           • easy to use – a step-by-step process to successfully complete the payment
+           • secure – the government should offer the highest levels of security
+           • government tax revenue collection costs are reduced
+           • saves time waiting in lines
+           • can be paid from anywhere in the world.
+
+           Award [1 mark] for any reason up to a maximum of [2 marks].
+
+     (b)   When paying the vehicle tax online, the URL of the vehicle tax web site uses
+           the protocol HTTPS. Describe the difference between HTTP and HTTPS.          [4 marks]
+
+           Answers may include:
+           • different default ports: 80 for HTTP and 443 for HTTPS
+           • HTTPS works by transmitting normal HTTP interactions through an encrypted
+             system; HTTP does not use an encrypted system
+           • HTTPS – the information cannot be accessed by any party other than the client
+             and end server; HTTP – can be transmitted over other servers
+           • HTTPS uses two common types of encryption layers: Transport Layer Security
+             (TLS) and Secure Sockets Layer (SSL), both of which encode the data records
+             being exchanged; HTTP does not encode.
+
+           Award [1 mark] for identifying each difference between HTTP and HTTPS up to a
+           maximum of [2 marks]. Award an additional [1 mark] for a relevant description
+           of the difference between HTTP and HTTPS up to a maximum of [2 marks].
+                                             – 19 –              M11/3/ITGSX/SP2/ENG/TZ0/XX/M
+
+
+(c)   Explain how the UK vehicle tax database system could make use of
+      private key/public key encryption in order to safeguard an owner’s data. [4 marks]
+
+      Answers may include:
+      • encryption is the transformation of data so that it cannot be read by anyone
+        except the intended recipient
+      • a key is an item of data that determines the form of the encryption
+      • when data is being transmitted, it is encrypted using a public key that is known
+        to anyone
+      • it cannot be decrypted with the public key, but only with a private key that only
+        the recipient has so anyone else who intercepts the data will not be able to
+        decrypt it.
+
+      [1 mark]
+      A limited response that indicates very little understanding of the topic.
+
+      [2–3 marks]
+      A reasonable description of how a database system could make use of private key/
+      public key encryption in order to safeguard an owner’s data, although the answer
+      may lack appropriate reasoning at the lower end of the band.
+
+      [4 marks]
+      A clear, detailed explanation of how a database system could make use of
+      private key/public key encryption in order to safeguard an owner’s data with
+      reasons.
+                                            – 20 –             M11/3/ITGSX/SP2/ENG/TZ0/XX/M
+
+
+(d)   The UK government has access to a range of other databases such as:
+      • vehicle registration database
+      • income tax database
+      • police records
+      • cell (mobile) phone records
+      • credit card records
+      • Internet service provider (ISP) records of web sites visited.
+
+      Data matching techniques allow the government to collate information from
+      numerous sources and build up a comprehensive picture of an individual.
+      Civil liberty groups are concerned about the amount of information that
+      governments hold, the amount of access they have to other databases and
+      how they use it.
+
+      With reference to specific examples, to what extent are the concerns of the
+      civil liberty groups justified?                                             [10 marks]
+
+      Answers may include:
+      Concerns are justified
+      • using information for a purpose other than for what it was collected
+      • removing human judgment by automating decisions affecting individuals
+      • assuming that people found through data matching are guilty; requires people
+        to prove their innocence
+      • falsely identifying individuals due to errors in some government databases
+      • sharing the results from data matching between government agencies and
+        others (e.g. police, future employers, insurance claim agencies).
+
+      Concerns are not justified
+      • identifying someone who has not claimed an entitlement
+      • correcting errors and inconsistencies in the databases (e.g. personal information,
+        instances of under-paying or over-paying)
+      • preventing/detecting instances of fraud (e.g. conflicting claims)
+      • tracing people wanted by the government.
+
+      In part (d) of this question it is acceptable if there is more emphasis on
+      the terminology related to social and ethical impacts and less on IT
+      technical terminology.
+
+      Please see generic markband information sheet on page 21.
+                                                 – 21 –          M11/3/ITGSX/SP2/ENG/TZ0/XX/M
+
+
+ Markband for all extended response questions.
+
+                          No knowledge or understanding of IT issues and concepts or use of
+                    0
+                          ITGS terminology.
+                          A brief and generalized response with very little knowledge and
+                1–2 marks understanding of IT issues and concepts with very little use of
+                          ITGS terminology.
+                          A response that may include opinions, conclusions and/or judgments
+                          that are no more than unsubstantiated statements.
+                          The response will largely take the form of a description with a limited
+                          use of ITGS terminology and some knowledge and/or understanding of
+                          IT issues and/or concepts.
+                3–5 marks
+                          If no reference is made to the information in the stimulus material,
+                          award up to [3 marks].
+                                At the top end of this band the description is sustained.
+                                At the lower end of the band a tendency towards fragmentary,
+                                common sense points with very little use of ITGS terminology.
+                          A response that demonstrates opinions, conclusions and/or judgments
+                          that have limited support.
+                          The response is a competent analysis that uses ITGS terminology
+   Opinion                appropriately. If there is no reference to ITGS terminology the
+   discuss,               candidate cannot access this markband.
+  evaluate,               There is evidence that the response is linked to the information in the
+   justify,               stimulus material.
+ recommend      6–8 marks       At the top end of the band the response is balanced,
+ and to what                    the response is explicitly linked to the information in the stimulus
+    extent                      material and there may be an attempt to evaluate it in the form of
+                                largely unsubstantiated comments. There is also evidence of
+                                clear and coherent connections between the IT issues.
+                                At the lower end of the band the response may lack depth,
+                                be unbalanced or tend to be descriptive. There may be also
+                                implicit links to the information in the stimulus.
+                          A detailed and balanced (at least one argument in favour and one
+                          against) response that demonstrates opinions, conclusions and/or
+                          judgments that are well supported and a clear understanding of the
+                          way IT facts and ideas are related.
+                          Thorough knowledge and understanding of IT issues and concepts.
+                          Appropriate use of ITGS terminology and application to specific
+               9–10 marks
+                          situations throughout the response. If there is no reference to ITGS
+                          terminology candidates cannot access this markband.
+                          The response is explicitly linked to the information in the stimulus
+                          material.
+                                At the lower end of the band opinions, conclusions and/or
+                                judgment may be tentative.
+
+“ITGS terminology refers to both the IT technical terminology and to the terminology related to
+social and ethical impacts.”
+

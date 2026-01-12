@@ -1,0 +1,277 @@
+N13/5/COMSC/HP1/ENG/TZ0/XX
+
+
+
+
+     88137011
+
+Computer science
+HIGHER level
+Paper 1
+
+Thursday 14 November 2013 (afternoon)
+
+2 hours 15 minutes
+
+
+INSTRUCTIONS TO CANDIDATES
+
+   Do not open this examination paper until instructed to do so.
+   Section A: answer all the questions.
+   Section B: answer all the questions.
+   The maximum mark for this examination paper is [100 marks].
+
+
+
+
+8813-7011                                                                                            7 pages
+                                                             © International Baccalaureate Organization 2013
+                                                     –2–                N13/5/COMSC/HP1/ENG/TZ0/XX
+
+                                                Section a
+
+Answer all the questions.
+
+1.    State two items of documentation that are usually included for the user in a
+      software package.                                                                           [2 marks]
+
+
+2.    Outline the need for an operating system to perform defragmentation.                        [2 marks]
+
+
+3.    Assume that, when written, the first bit is an even parity bit.
+
+      (a)   Identify with reasons whether the following data stream was transmitted correctly.
+
+                                                10110100                                          [2 marks]
+
+      (b)   Compare parity bit checks and check sums in ensuring data integrity.                  [3 marks]
+
+
+4.    State two features of HTML that make it a good choice for creating and updating
+      a website.                                                                                  [2 marks]
+
+
+5.    A school network is connected to the Internet.
+
+      (a)   Outline one threat to the security of the school’s data that may arise from the use
+            of the Internet.                                                                      [2 marks]
+
+      (b)   Outline two implications of a school administrator being able to monitor students’
+            use of the Internet.                                                                  [4 marks]
+
+
+6.    State two functions of operating systems.                                                   [2 marks]
+
+
+7.    (a)   Define stack.                                                                         [1 mark]
+
+      (b)   State two applications of stacks in computing.                                        [2 marks]
+
+
+
+
+8813-7011
+                                                      –3–               N13/5/COMSC/HP1/ENG/TZ0/XX
+
+8.    Consider the following Boolean expression.
+
+
+                                            A+ B·C
+
+      (a)   Construct a truth table for the expression.                                           [3 marks]
+
+      (b)   Draw the logic circuit for the expression.                                            [2 marks]
+
+
+9.    (a)   State the role of the following CPU components.
+
+		          (i)    accumulator                                                                     [1 mark]
+
+		          (ii)   RAM                                                                             [1 mark]
+
+      (b)   (i)    Explain why interrupts are used in communication between the CPU and
+                   peripheral devices.                                                            [2 marks]
+
+		          (ii)   Identify one method of communication between the CPU and peripheral
+                   devices other than interrupts.                                                  [1 mark]
+
+
+10.   Determine the value of X(2) in the following expression, where the 2, in brackets, is the
+      base in which X is expressed. Show all your working.
+
+                                        X (2) = A5(16) + 5E (16)
+                                                                                                  [3 marks]
+
+
+11.   Construct a systems flowchart for the process described below.
+      • A transaction file held on disk is validated.
+      • An error report which gives details of invalid transactions is printed out.
+      • All valid transactions are stored on a disk file, which is then sorted.                   [5 marks]
+
+
+
+
+8813-7011                                                                                         Turn over
+                                                   –4–                 N13/5/COMSC/HP1/ENG/TZ0/XX
+
+                                              Section b
+
+Answer all the questions.
+
+12.   A fashion designer works from home to create a new clothing range for a company.
+
+      (a)   Outline two advantages of using a graphic tablet to create a design.               [4 marks]
+
+      (b)   Describe a communication system that would allow a fast transmission of data
+            files from the designer to the company.                                            [2 marks]
+
+      (c)   Outline the benefits of data compression in storing and sending the designer’s
+            work to the company.                                                               [2 marks]
+
+      (d)   Explain the need for encryption when sending the designer’s work to the company.   [2 marks]
+
+
+13.   A company plans to build an off-site “Data Centre” to house its servers and
+      associated devices.   A system analyst is employed by the company to design and
+      implement a computer system for the new Data Centre.
+
+      (a)   State two methods of data collection which could be used in the analysis stage.    [2 marks]
+
+      (b)   Explain why it may be useful to produce more than one prototype of the
+            new computer system.                                                               [2 marks]
+
+      There are two possible locations for the Data Centre:
+      • A central location in a major city
+      • A town in an area where previously the main industry had been coal mining.
+
+      (c)   Discuss the social implications of the company’s choice of location for the
+            Data Centre.                                                                       [6 marks]
+
+
+
+
+8813-7011
+                                                    –5–                  N13/5/COMSC/HP1/ENG/TZ0/XX
+
+14.   Weather data at 20 different locations in the mountains are measured by sensors and
+      sent to a weather station’s computer where they are stored.
+
+      Twice a day the data files holding the weather data are transferred from the weather
+      station to the central server in a nearby city for processing.
+
+      (a)   State the type of processing.                                                         [1 mark]
+
+      (b)   Outline how the weather data could be transferred
+
+		          (i)    from the sensors to the weather station’s computer.                            [1 mark]
+
+		          (ii)   from the weather station’s computer to the central server.                     [1 mark]
+
+      (c)   Explain the need for analog-to-digital conversion in this system.                    [3 marks]
+
+      (d)   Explain two backup strategies that could be used in the event of a failure of the
+            weather station’s computer or the central server.                                    [4 marks]
+
+
+15.   A list of names is input and inserted in a binary tree in such a way that an in-order
+      traversal of the binary tree visits the nodes in alphabetical order of the names.
+
+      (a)   Outline the steps required to insert a given name at the correct position in the
+            binary tree.                                                                         [5 marks]
+
+      (b)   Draw a sketch of the resulting binary tree for the list of names inserted in the
+            following order.
+
+		                                     Chris, Colin, Lise, Richard                               [2 marks]
+
+      (c)   Explain the efficiency of access to a binary tree with particular reference to the
+            binary tree created in part (b).                                                     [3 marks]
+
+
+
+
+8813-7011                                                                                        Turn over
+                                                         –6–               N13/5/COMSC/HP1/ENG/TZ0/XX
+
+16.   An 8-bit register is used to hold fixed point real numbers in two’s complement
+      representation as follows.
+
+             Sign bit
+
+                         point position
+
+      The binary representation of the most positive number is
+
+                   0           1          1         1              1   1        1       1
+
+      and its value in decimal is 1 − 2−7 .
+
+      The binary representation of the least negative number is
+
+                   1           1          1         1              1   1        1       1
+
+      and its value in decimal is −2−7 .
+
+      Note: The most negative number < the least negative number.
+
+      (a)   State the binary representation of the least positive number and determine its
+            value in decimal.                                                                [2 marks]
+
+      (b)   State the binary representation of the most negative number and determine its
+            value in decimal.                                                                [2 marks]
+
+      (c)   Copy the real number line below
+
+
+                                                        Zero (0)
+
+            and label
+
+		          (i)        the range of positive and negative numbers;                           [2 marks]
+
+		          (ii)       underflow;                                                             [1 mark]
+
+		          (iii) overflow.                                                                   [1 mark]
+
+      (d)   Compare fixed point and floating point representation.                           [2 marks]
+
+
+
+
+8813-7011
+                                                         –7–                N13/5/COMSC/HP1/ENG/TZ0/XX
+
+17.   Consider the following recursive method.
+
+      int func (int k, int[] X)
+        { if (k<0)
+                 { return 1;}
+          else
+                 {return X[k] * func(k-1, X);}
+        }
+
+      (a)   (i)       Identify the terminating case in this method.                              [1 mark]
+
+		          (ii)      Identify the recursive case in this method.                                [1 mark]
+
+      (b)   The integer array Data is given as follows
+
+            Data
+
+                  3       10       4        2        1         1      0       0     0        0
+             [0]         [1]      [2]      [3]      [4]     [5]       [6]    [7]   [8]     [9]
+
+            Determine the value of variable z after the following call. Show all your working.
+
+                                           z=func(5, Data)                                       [4 marks]
+
+      (c)   State the purpose of the method func().                                              [2 marks]
+
+      (d)   Suggest one other way of solving the same problem.                                   [2 marks]
+
+
+
+
+8813-7011
+

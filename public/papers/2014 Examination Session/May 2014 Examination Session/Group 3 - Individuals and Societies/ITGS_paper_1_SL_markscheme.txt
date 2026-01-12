@@ -1,0 +1,875 @@
+M14/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+
+
+                   MARKSCHEME
+
+
+                               May 2014
+
+
+
+      INFORMATION TECHNOLOGY IN A
+            GLOBAL SOCIETY
+
+
+                       Standard Level
+
+
+
+                               Paper 1
+
+
+
+
+23 pages
+                                –2–            M14/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+
+
+This markscheme is confidential and for the exclusive use of
+examiners in this examination session.
+
+It is the property of the International Baccalaureate and must not be
+reproduced or distributed to any other person without the
+authorization of the IB Assessment Centre.
+                                                   –3–               M14/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+Examiners should be aware that in some cases, candidates may take a different approach, which if
+appropriate should be rewarded. If in doubt, check with your Team Leader.
+
+In the case of an “identify” question read all answers and mark positively up to the maximum marks.
+Disregard incorrect answers. In all other cases where a question asks for a certain number of facts
+eg “describe two kinds”, mark the first two correct answers. This could include two descriptions,
+one description and one identification, or two identifications.
+
+It should be recognized that, given time constraints, answers for part (c) questions are likely to include a
+much narrower range of issues and concepts than identified in the markband. There is no “correct”
+answer. Examiners must be prepared to award full marks to answers which synthesize and evaluate even
+if they do not examine all the stimulus material.
+                                                   –4–               M14/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+1.   Analysis of external examination grades by an international school
+
+     (a)   (i)    Identify two characteristics of a CSV file.                                      [2 marks]
+
+                  Answers may include:
+                  • comma separated values
+                  • a text file
+                  • a file without formatting where data in a record is separated by commas
+                  • a file that represents data in tabular form. Rows are represented by new
+                    lines and cells are separated by commas.
+
+                  Note: do not accept firewall or anti-virus software.
+                  Award [1 mark] for each of the above up to a maximum of [2 marks].
+
+           (ii)   Identify two reasons why the Oneto7 examination board would provide
+                  files in CSV format.                                                [2 marks]
+
+                  Answers may include:
+                  • a file format that is compatible with different spreadsheets and database
+                    formats
+                  • a CSV file carries no formatting, only text, therefore the file size depends
+                    only on the quantity of data it contains, ie the CSV file will be smaller
+                    than a formatted file from any application
+                  • CSV files are text files and can be opened with many applications,
+                    therefore can even transfer manually if needed.
+
+                  Award [1 mark] for each of the above up to a maximum of [2 marks].
+
+           (iii) Identify two characteristics of a “secure site”.                                  [2 marks]
+
+                  Answers may include:
+                  • accessed using HTTPS – Hypertext Transfer Protocol Secure
+                  • information sent to and from those sites cannot be accessed by anyone
+                    else (i.e. user needs to enter authentication information such as username
+                    and password in order to access the site)
+                  • Secure Sockets Layer (SSL) provides encryption – preventing
+                    information from being read in transit
+                  • Secure Sockets Layer (SSL) provides authentication (verifying that the
+                    site is who they claim to be).
+                  • Secure sites display a padlock/lock symbol
+                  • Secure sites use trusted certificates to check for authencity
+
+
+                  Award [1 mark] for each of the above up to a maximum of [2 marks].
+                                           –5–                M14/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+(b)   Schools can use either spreadsheets or database software to analyse these
+      exam results.
+
+      Analyse the use of these two software types for this purpose.                        [6 marks]
+
+        Advantages of a database application         Advantages of a spreadsheet in this
+                      in this scenario                                scenario
+       • queries can be made and saved for         • data in the form of tables can be
+         future use                                   clearly seen by all users
+       • reports can use queries and produce       • a user-friendly spreadsheet may allow
+         nicely formatted printed reports to be       the headmaster to produce his own
+         used repeatedly                              analysis
+       • menu’s with buttons for the different     • spreadsheets may show data in graphs
+         needs may be prepared for the                – a great variety of different types of
+         headmaster to use                            graphs
+       • database applications may share one       • some data may be extracted into a
+         database       among      many    users      smaller set to be shared with others.
+         simultaneously
+       • a relational database allows several
+         tables of data to be linked together in
+         a way that may be transparent to the
+         final user (the headmaster)
+       • a database application may give the
+         user (headmaster) access to results
+         without giving access to make
+         accidental changes.
+
+            Disadvantages of a database             Disadvantages of a spreadsheet in this
+             application in this scenario                           scenario
+       • its use may be complicated for the        • headmaster would need to know how
+         headmaster (outside the prepared             to use the spreadsheet
+         menu)                                     • unless macros are used, each type of
+       • may need preparation by an IT person         result needs to be obtained when
+         before the headmaster can use it             needed.
+       • cannot produce graphs.                    • where large amount of information is
+                                                      stored in a spreadsheet, it is difficult
+                                                      to analyze and display the results.
+                                     –6–              M14/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+
+[1–2 marks]
+A limited response that demonstrates minimal knowledge and understanding of the topic
+through simple statements and uses little or no appropriate ITGS terminology.
+
+[3–4 marks]
+A response that demonstrates some knowledge and understanding of the topic and
+describes features of spreadsheets or databases in this scenario that would make them
+appropriate. Some relevant examples relating to the scenario are used within the
+response. There is some use of appropriate ITGS terminology in the response.
+
+[5–6 marks]
+A thorough response that demonstrates knowledge and understanding of the topic and
+makes comparisons between spreadsheets and databases in this scenario and why they
+are, or not, appropriate. The response demonstrates thorough knowledge and
+understanding of the topic. Relevant examples relating to the scenario are used
+throughout the response. There is appropriate ITGS terminology throughout the
+response.
+                                            –7–               M14/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+(c)   Oneto7, an examination board that serves 5000 schools, has been
+      contacted by a new company, schoolscompare.com.            This company,
+      schoolscompare.com, wishes to buy the data about students’ results from the
+      Oneto7 examination board.
+
+      Schools, parents and others can pay schoolscompare.com for a more detailed
+      analysis of the examination results. This analysis will be provided using data
+      bought from Oneto7, as well as other data they have acquired.
+
+      Discuss the implications of the Oneto7 examination board selling the data it
+      holds about the schools to schoolscompare.com.                               [8 marks]
+
+      Answers may include:
+      • Oneto7 examination board would have to ask schools to authorize the sharing
+        of their data
+      • Oneto7 examination board would have to wait for parents in the schools to
+        authorize the sharing of their son’s/daughter’s data
+      • Oneto7 would have the possibility of comparing its results with those of other
+        boards
+      • other boards would have access to Oneto7’s results
+      • a more in-depth analysis may be provided to the schools and parents
+      • parents would be able to compare their children’s results with others from the
+        same and other schools / boards
+      • schools may be assessed by prospective parents from these results
+      • universities and other institutions may use this information to evaluate their
+        prospective candidates
+      • policies of privacy and correct use of information would have to be put in place
+      • security issues to guarantee the reliability and integrity of the data must be
+        evaluated
+      • Oneto7 must investigate that schoolscompare.com has adequate security
+        measures
+      • agreement needed that Oneto7will not use the data for any purposes other than
+        analysis (eg distributing tutoring information to schools that did not perform
+        well).
+
+      Note: do not accept generic references to hacking or unauthorized access.
+      References must be explicitly related to the scenario.
+
+      In part (c) of this question it is expected there will be a balance in the ITGS
+      terminology between IT technical terminology and the terminology related to
+      social and ethical impacts.
+
+      Please see generic markband information sheet on page 23.
+                                                  –8–              M14/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+2.   Hospital Network
+
+     (a)   (i)    Identify two characteristics of a WAN.                                        [2 marks]
+
+                  • a computer network that covers a relatively large geographical area (i.e.
+                    wide area network)
+                  • a WAN may join two or more LANs
+                  • a network of computers that use the telecommunications network to
+                    connect between them.
+
+                  Award [1 mark] for each of the above up to a maximum of [2 marks].
+
+           (ii)   Identify two ways data about a patient could be entered into the
+                  wireless tablets.                                                [2 marks]
+
+                  Answers may include:
+                  • sensor directly connected to the tablet
+                  • voice input – nurse reads out the data
+                  • nurse/user types data
+                  • nurse/user selects from options on a touch screen
+                  • handwritten input using a stylus and converted to text with handwriting
+                    recognition software.
+
+                  Award [1 mark] for each of the above up to a maximum of [2 marks].
+
+           (iii) Describe the purpose of switches in the network.                               [2 marks]
+
+                  Answers may include:
+                  • switches allow the joining of multiple computers together in a network
+                  • a network component that filters and forwards packets between LAN
+                    segments
+                  • network can grow as switches can be connected to each other to add a
+                    progressively larger number of devices to a LAN
+                  • allow network services to be provided to devices that are otherwise not
+                    on the network
+                  • manage data flow on a network by only sending a received message to
+                    the device for which the message was intended
+                  • increase network security.
+
+                  Award [1 mark] for each of the above up to a maximum of [2 marks].
+                                             –9–               M14/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+(b)   Explain three problems that could result from linking 25 hospitals in the city
+      through a WAN.                                                                 [6 marks]
+
+      Answers may include:
+      • compatibility between the systems in the different hospitals / hospitals may run
+        different platforms of hardware and software, and databases may need to be
+        configured for all or may not run at all
+      • privacy issues of information being available across hospitals / patients may
+        not trust how some of these hospitals deal with their private information about
+        certain illnesses or conditions
+      • data collection of information to be shared should be standardized between
+        hospitals / if each hospital enters data in its own way then it will be very
+        difficult for others to understand it and use it – similar codes for different
+        procedures, illnesses and patients must be agreed
+      • sharing of costs to implement the connectivity between the hospitals / the
+        implementing of a WAN to connect all hospitals may need a greater
+        infrastructure, equipment, IT team, training and this will involve costs
+      • appropriate bandwidth to effectively share important information / x-rays and
+        images or voice consultations may require large bandwidth for doctors in
+        different hospitals to have access to all information needed about a patient.
+        One of the hospitals may not have this and patients may be at a disadvantage
+      • ensuring that the data is kept secure from accidental tampering / how will they
+        prevent the accidental change of data by people in different hospitals who may
+        now have access to the data
+      • providing different levels of access consistently across the different hospitals /
+        agreeing on who will have access to what and who will be allowed to add
+        information to patients’ data to update records
+      • security of data. During transmission, data may pass through servers that are
+        outside of the control of the hospital. There is the potential for interception of
+        data, packet sniffing or other means of unauthorized access. The network could
+        be infected by viruses or other malware.
+      • in the case of problems in using the WAN (i.e. WAN failure / server failure,
+        too much traffic on the network causing slowness), the hospitals who
+        previously had their own database/LAN are now impacted.
+
+      Award [1 mark] for each problem identified up to a maximum of [3 marks].
+      Award an additional [1 mark] for each problem explained up to an additional
+      maximum of [3 marks].
+                                              – 10 –             M14/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+(c)   Discuss the implications for the staff of the introduction of the RFID-based
+      tracking system in the hospital.                                             [8 marks]
+
+      Marking note: Candidates do not need to explicitly refer to the implications for
+      equipment and patients; however, they may do this implicitly when they discuss
+      the implications for staff.
+
+      Answers may include:
+      • staff will need to to retrieve the information collected from the RFID tags/ use
+        of RFID tag readers – this may involve training.
+      • staff will need alternative methods for tracking if the RFID tracking system
+        goes down.
+
+      RFID to tag equipment
+      • staff may use it to track equipment that they need / equipment that is shared by
+        several doctors / nurses may be tracked if needed for another patient
+      • staff in charge of a set of equipment may be able to know where it is for their
+        use and storage
+      • will prevent theft of equipment.
+
+      RFID to tag staff
+      • staff may be found if needed in an emergency
+      • staff’s whereabouts may be monitored during working hours (e.g. privacy
+        issued related to tracking, analysis of how much time staff spend in various
+        areas while working, taking breaks or other activities). This may have
+        implications for work contracts to maximize time efficiency.
+      • staff access to restricted areas may be identified
+      • analysis could be carried out on the data collected from the movement of staff
+        in the hospital to optimize the location of areas that are used most frequently
+        (e.g. if staff are walking frequently to a particular storage area, that storage area
+        can be re-located in convenient more accessible location to reduce staff time
+        and fatigue).
+      • measures will have to be put in place so that the RFID tag for staff cannot be
+        used by another staff member. .
+
+      RFID to tag patients
+      • staff will be able to know the whereabouts of patients who are able to leave
+        their room without having to notify staff in advance
+      • staff may not need to stay with patients who have to undergo procedures in
+        other areas of the hospital – this may allow nurses to return to the wards until
+        patient needs to return to their room
+      • warn staff of dangerous or risky situations – some patients may have
+        permission to move around certain areas and staff will be warned if they leave
+        permitted areas
+      • provide staff with correct patient identification – patients in coma or asleep can
+        be identified with the appropriate reader and the correct actions / medications
+        can be provided – will allow for faster treatment and fewer errors
+      • provide staff with patient information – the RFID chip may contain medical
+        data such as allergies for surgical patients – will allow fast access to data
+        without having to read files or access database.
+                                     – 11 –            M14/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+
+Note: Do not accept implications related to emission of radiation from RFID tags,
+training of staff in using the actual RFID tags or missing RFID tags.
+
+In part (c) of this question it is expected there will be a balance in the ITGS
+terminology between IT technical terminology and the terminology related to
+social and ethical impacts.
+
+Please see generic markband information sheet on page 23.
+                                                  – 12 –             M14/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+3.   Online training
+
+     (a)   (i)    Calculate the length of time it took to download the 720 MB video.            [2 marks]
+
+                  • using 1024 KB per MB:
+                    - 720 MB is 720 x 1024KB = 737 280 KB
+                    - bandwidth of 800 Kb/sec = 100KB/sec (KB is kilobyte, Kb is kilobit)
+                    - 737280 ÷ 100 = 7372.8 seconds = 123 minutes = 2 hours 3 minutes
+
+                  • accept the approximate of 1000 kb per mb:
+                    - 720 x 1000 = 720 000KB (KB is kilobyte, Kb is kilobit)
+                    - bandwidth of 800 Kb/sec = 100KB/sec
+                    - 720 000 ÷ 100 = 7200 seconds or 120 minutes or 2 hours.
+
+                  Note: Accept 123 minutes = 2.048 hours = 2 hours and 3 minutes or
+                  approximately 2 hours.
+
+                  Award [1 mark] for the correct calculation of file size into KB ( 720 MB is
+                  720 x 1024 = 737 280 KB or 720 x 1000 = 720 000 KB. Accept if some
+                  indication of units in the calculation. Award one mark for 737280 or 720
+                  000.)
+
+                  Award [1 mark] for the correct calculation into time.
+
+           (ii)   Outline the difference between lossless and lossy compression.                [2 marks]
+
+                  Difference in the reconstruction of original data
+                  • lossless data compression uses algorithms that allow the exact original
+                     data to be reconstructed from the compressed data
+                  • lossy data compression does not allow the exact original data to be
+                     reconstructed from the compressed data as some data is removed during
+                     the compression
+
+             Difference in the loss of data
+                 • in lossless data compression no information is lost, it is only changed so
+                    that the file size is reduced.
+                 • in lossy data compression some information is taken from the file that
+                    will change the final image or sound and will make the file smaller.
+
+             Difference in loss in quality
+                 • in lossless data compression no information is lost and therefore no loss
+                    in quality.
+                 • in lossy data compression some information is taken from the file that
+                    will result in some loss in quality which normally goes unnoticed.
+
+             Difference in the types of file that are compressed
+                 • in lossless data compression is used to compress text and data files.
+                 • in lossy data compression is used to compress audio, video and image
+                    files.
+                                      – 13 –             M14/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+Note: each bullet point refers to a difference between lossy compression and lossless
+compression.
+
+Award [1 mark] if there is a difference for either lossy or lossless compression with an implied
+reference to the other.
+
+Award up to a maximum of [2 marks] for an outline of a difference between lossy and lossless
+compression that explicitly refers to both methods of compression.
+
+
+(iii) Outline the difference between downloading and streaming videos.               [2 marks]
+
+     Answers may include:
+     • streaming is when video content is sent in compressed form over the
+       internet and displayed on the receiving device in real time . A
+       downloaded video is played from a local storage device.
+     • when streaming a video the user does not have to wait to download the
+       video to play it / watch it A downloaded video must be stored in order to
+       view it.
+     • streaming a video involves playing the video on one device while the
+       media is displayed on another. The video is not moved or copied to the
+       device that is playing it Downloaded video is played directly from local
+       media or storage device where it is stored.
+     • a fast internet connection is needed to stream high definition videos from
+       the internet without interruption. When downloading videos, a fast
+       internet connection is not required.
+     • when streaming video the user needs a player, which is a special program
+       that uncompresses and sends video data to the display and audio data to
+       the speakers Downloaded videos are played with a media player that is
+       installed as a part of most operating systems.
+     • a streaming video is not saved on your device. Once you stop playing,
+       the media is no longer available A downloaded video is stored on local
+       media or storage device (i.e. downloaded videos can be moved to
+       different devices (by copying them, video is available whenever you
+       want to play it, must wait until the download is complete before you can
+       watch the media)
+
+
+Note: each bullet point refers to a difference between streaming videos and
+downloading videos.
+
+Award [1 mark] if there is only reference to streaming video or downloading
+video with an implied difference to the other.
+Award up to a maximum of [2 marks] for an outline of the difference between
+downloading and streaming videos.
+                                            – 14 –             M14/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+
+(b)   Compare the use of online evaluation tasks versus face-to-face evaluation
+      tasks to assess the skills the trainees may have learned with the training
+      videos.                                                                    [6 marks]
+
+      Answers may include:
+          Face-to-face evaluation tasks            Online evaluation tasks specific to
+             specific to the scenario                          the scenario
+       • examiner may ask the participant to      • will have a limited set of questions
+         repeat the particular procedure            which may not be customized in
+         related to mining or to do                 case the participant needs more
+         something different that was not in        emphasis on certain aspects
+         the initial evaluation task              • can be done by the participant at
+       • trainees can ask for a clarification       any time, from any place as long as
+         of the tasks that is being evaluated       the internet access available (i.e.
+       • practical aspects are easier to            poor access at times in the Andes)
+         assess face-to-face by seeing how        • evaluation module will need to be
+         the participants react and use the         created and tested thoroughly,
+         system (e.g. mining equipment)             considering several options and
+       • participants need to fix a time for        assigning value to the actions of
+         the evaluation to be held with the         the participants
+         examiner                                 • no hands-on tasks can be included
+       • examiner can use judgment to               in the evaluation
+         assess participant and ask to repeat     • unbiased evaluation performed by
+         if he/she is nervous or if there was       the training system
+         an equipment failure                     • online systems can give immediate
+       • evaluation may be subjective or            feedback to some types of
+         biased                                     evaluation tasks (e.g. multiple-
+       • the evaluation can be closely              choice)
+         monitored to ensure that no              • it may be possible to get
+         unacceptable         assistance     is     unacceptable assistance during the
+         provided..                                 evaluation (such as friends, books).
+                                      – 15 –             M14/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+
+[1–2 marks]
+A limited response that demonstrates minimal knowledge and understanding of
+the topic and identifies features of either online or face-to-face evaluation tasks.
+No examples from the scenario have been provided. The response uses little or no
+appropriate ITGS terminology.
+
+[3–4 marks]
+A response that demonstrates some knowledge and understanding of the topic and
+describes how specific online or face-to-face evaluation tasks would be
+appropriate. Some relevant examples from the scenario are used within the
+response. There is some use of appropriate ITGS terminology in the response.
+
+[5–6 marks]
+A thorough response that demonstrates knowledge and understanding of the topic
+and makes comparisons between specific online and face-to-face evaluation tasks
+and why they are appropriate. The response demonstrates thorough knowledge
+and understanding of the topic. Relevant examples from the scenario are used
+throughout the response. There is appropriate ITGS terminology throughout the
+response.
+                                           – 16 –             M14/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+(c)   Evaluate Fernando’s decision to download the videos and use them to train
+      his staff in the Andes.                                                   [8 marks]
+
+      Answers may include:
+      Mining personnel
+      • can use the videos several times and go through the steps of the training that
+        may have not been clear
+      • no need to travel to La Paz to watch the videos means that time will be saved
+        because the videos can be watched at the mining site
+      • staff will not be able to receive recognition after having done the training
+      • will not be able to interact with the interactive parts of the video
+      • may not be using the most up-to-date version of the videos.
+
+      Fernando
+      • will have to take a manual record of those who completed the training and of
+        their performance
+      • may lose credibility as he cannot guarantee that the training company will issue
+        certificates for those who do the training
+      • may make several copies of the videos and share them with many employees
+        who might need to go over the training
+      • needs to check if the training company allows the videos to be downloaded and
+        used offline
+      • if training videos were not available onsite, the employees would need to be
+        sent to La Paz from the mining site to be trained.
+      • by downloading the videos, Fernando’s company may avoid additional costs
+        from the local ISP when trying to access the videos from the mining site in the
+        Andes.
+      • the downloaded videos offer the miners more training opportunities (such as
+        view the videos as a group and group discussion of the various aspects of the
+        video).
+      • due to poor internet access in the Andes, downloading the videos will ensure
+        that the trainees will have uninterrupted access to the videos.
+
+      Training company
+      • may lose track of its videos if several copies are made and given out to many
+        people
+      • downloading the videos may violate copyright policy(such as download policy
+        may only allow the use of one copy of the training videos, employees may
+        share the videos with other miners who are not in the company).
+      • will not be able to keep an updated record of the personnel who have received
+        the training.
+      Note: do not acceptreferences to video quality due to compression.
+
+      In part (c) of this question it is expected there will be a balance in the ITGS
+      terminology between IT technical terminology and the terminology related to
+      social and ethical impacts.
+
+      Please see generic markband information sheet on page 23.
+                                                 – 17 –             M14/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+4.   Indonesia makes progress on its ambitious biometrics national ID card project
+
+     (a)   (i)    Describe how the person’s record in the database can be found from the
+                  information on the electronic identity card.                           [2 marks]
+
+                  Answers may include either ID number, fingerprint recognition or facial recognition:
+                  • the card contains an ID number that is unique for each card owner
+                  • the database database contains records of the citizens with a key field
+                    with the citizen’s ID number
+                  • the database can be searched to find the record that contains the ID
+                    number input/read from the card.
+
+                  Fingerprint recogition
+                  • the card contains a fingerprint of the card owner
+                  • the database contains records of the citizens with a key field with the
+                   citizen’s fingerprint ( or fingerprint identification descriptors)
+                  • an algorithm is used to determine which record contains the fingerprint
+                      (fingerprint identification defintion) in the database that matches the
+                      fingerprint on the identity card.
+
+                  Facial recognition from photograph
+                  • the card contains a photograph of the card holder
+                  • the database with the records of the citizens has a key field with the
+                      citizen’s photograph
+                  • an algorithm is used to determine which record contains the photograph
+                  in the database that matches the photograph on the identity card.
+
+                  Award [1 mark] for each each bullet point under ID number, fingerprint
+                  recognition, or facial recognition of the above up to a maximum of [2
+                  marks].
+
+           (ii)   Identify the steps that are used by biometric software to identify a
+                  person from a photograph of the face.                                [4 marks]
+
+                  Answers may include:
+                  • at enrolment a photograph was taken, facial features were identified by
+                    software and stored in the database
+                  • photograph is read/scanned / read from the card of the person to be
+                    identified
+                  • facial features are identified by software from the photograph
+                  • biometric software compares facial features on the photograph with the
+                    facial features (“faceprint”) stored in a database
+                  • if there is a match, then the record of the person is found/displayed
+                  • if the biometric system determines no match, then person needs to use a
+                    second method for identification.
+
+           Note: do not accept as a step that “the person is identified”. This is stated in the
+           question.
+
+           Award [1 mark] for each of the above up to a maximum of [4 marks].
+                                                 – 18 –             M14/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+(b) In the future, financial, health, and other government departments and private
+institutions will be able to use the information gathered as part of the national identity
+card system.
+
+           Many citizens are concerned about the privacy, anonymity and security of
+           their data.
+
+           For each of the concerns above, explain a policy that could be used to ensure
+           that the concerns of the citizens are addressed.                              [6 marks]
+
+           Answers may include the following stated policies with reason(s)::
+           Privacy
+           • citizens are informed to specify how the data may be used. For example,
+             whether it may be shared with third parties
+           • only authorized personnel will have access to the national identity card
+             database.
+
+           Anonymity
+           • enabling the data associated with the citizen to be detached from their personal
+             details such as using only the citizen’s ID instead of the citizen’s personal
+             details when sharing or querying data
+           • reports made by the government will not allow individuals to be identified.
+
+           Security
+           • ensuring the data provided by the citizen is secure (for example, firewall,
+             password access, secure servers)
+           • measures may be taken to restrict access to the data (such as levels of password
+             access)
+           • data is encrypted during its transmission.
+
+           Note: the response requires an explanation of a policy and not a discussion of the
+           problems themselves. There must be a policy for each kind of concern: privacy,
+           anonymity and security and reason(s).
+
+
+           Award [1 mark] for each policy identified up to a maximum of [3 marks]..
+           Award [1 mark] for an explanation of the policy or how the policy will ensure that
+           the concerns of the citizens are addressed up to a maximum of [2 marks].
+
+           Award up to a maximum of [2 marks] for each concern with reason.
+                                            – 19 –             M14/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+(c)   The implementation of this system has been delayed and the government is
+      now reconsidering whether to implement the system.
+
+      Discuss whether the Indonesian government should continue with the
+      implementation of the national identity card scheme.               [8 marks]
+
+      Answers may include:
+      • sheer size of the national ID card system may be prohibitive
+      • will the infrastructure be able to cope with the gathering, storage and security
+        of the data?
+      • government needs to evaluate how important it is for them to have updated
+        information on their citizens, by looking at the quality of the information they
+        now have available on all citizens, including criminals, terrorists, immigrants
+      • government needs to see if they will be able to retrieve the information
+        required in a sensible period of time – for this they would need to implement
+        offices all over the country, in the different islands, for people to be able to
+        provide the data
+      • cost and possible training of people for the data collection need to be
+        considered
+      • costs and use of hardware – networks may need to be installed in order to allow
+        for the data collected to be kept in a centralized database; systems must be kept
+        running constantly.
+      • campaigns to inform citizens to avoid the feeling of invasion of privacy
+      • policies will need to be discussed to clarify the use of the data being collected
+      • appropriate storage devices capable of handling the large amount of data that
+        will be collected will be needed
+      • cost and availability of equipment – cameras, scanners, computers
+      • make a plan for implementation (for example, implement area-by-area,
+        implement pilot areas before going nationwide
+      • government needs to consider how the security of the national identity card
+        database can be maintained..
+
+      In part (c) of this question it is expected there will be a balance in the ITGS
+      terminology between IT technical terminology and the terminology related to
+      social and ethical impacts.
+
+      Please see generic markband information sheet on page 23.
+                                                 – 20 –             M14/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+5.   Energy efficient data centres
+
+     (a)   (i)   Define the term terabyte.                                                        [1 mark]
+
+                 Answers may include:
+                 • 240 bytes
+                 • 1 099 511 627 776 bytes
+                 • 1024 gigabytes
+                 • 1 trillion bytes
+                 • 1012 bytes
+                 • 1000GB.
+
+                 Note: units must be included in the response.
+                 Award [1 mark] for any of the above.
+
+           (ii) Identify three features/characteristics of data centres that make them
+                consume large amounts of energy.                                       [3 marks]
+
+                 Answers may include:
+                 • large amount of hardware (computers/servers/routers/switches) need
+                   energy to function
+                 • processing requiring large amounts of energy (such as large volume of
+                   CPU activity, inefficient processors)
+                 • redundant or backup power supplies
+                 • air conditioning is needed to cool equipment
+                 • need for the data center to work 24/7 (i.e. run all of the equipment)
+                 • fire control systems
+                 • cabling with high energy consumption (i.e. some types of cabling require
+                   more energy than optic fiber cable, energy consumption can vary
+                   between types of optic fiber cable).
+
+                 Award [1 mark] for each of the above up to a maximum of [3 marks].
+
+           (iii) Identify two ways that data redundancy may occur in data centres.                [2 marks]
+
+                 Answers may include:
+                 • local backups (kept for security in case of device failure)
+                 • data centres are backed up in different locations (to allow a different data
+                   centre to pick up in case the previous one fails)
+                 • data centres (that store information from social networks) may have files
+                   saved by several users repeatedly.
+
+                 Award [1 mark] for each of the above up to a maximum of [2 marks].
+                                           – 21 –             M14/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+(b)   Some governments have decided that data centres will be charged for their
+      environmental impact. This may be done by monitoring the volume of data
+      stored and the energy consumed to maintain the data centre.
+
+      Analyse this decision.                                                               [6 marks]
+
+      Answers may include:
+      • monitoring by government may be an invasion of privacy and may cause
+        clients to find a data centre in a country where these regulations do not exist
+      • some data centres will put more emphasis on the purchase of energy efficient
+        equipment even if these are more expensive
+      • some data centres will opt to downsize their facilities causing slower access or
+        lack of backup services causing discontent among clients
+      • data centers may investigate ways to reduce redundant data stored on their
+        servers
+      • data centers may increase the amount that they charge their clients for data
+        storage.
+      • large data centres with high incomes may support economically projects for
+        more efficient energy generators (eg Facebook funding the changes from coal
+        to solar panels of the energy-producing companies)
+      • in order to implement this decision the government will have to monitor the
+        data centers. This has implications for cost, personnel and infrastructure.
+
+      Note: accept responses that address the impacts of the decision as well as those
+      that relate to the decision itself.
+
+      [1–2 marks]
+      A limited response that demonstrates minimal knowledge and understanding of
+      the topic and uses little or no appropriate ITGS terminology.
+
+      [3–4 marks]
+      A partial analysis, either lacking detail or balance, that demonstrates some
+      knowledge and understanding of the topic. Some relevant examples related to the
+      scenario are used within the response. There is some use of appropriate ITGS
+      terminology in the response.
+
+      [5–6 marks]
+      A balanced and detailed analysis of the issue which demonstrates thorough
+      knowledge and understanding of the topic. Relevant examples related to the
+      scenario are used throughout the response. There is appropriate ITGS
+      terminology throughout the response.
+                                            – 22 –             M14/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+(c)   ORM, a large company, is expanding and the managers are concerned that
+      their IT systems will need an expensive upgrade to be able to manage the
+      increasing amount of data held by the company. The company is considering
+      moving all of its data to an external data centre and relying on their services
+      to store and provide access to this data.
+
+      Discuss whether ORM should move all of its data to a data centre.                      [8 marks]
+
+      Answers may include:
+      • costs – they will have to compare the cost of upgrading their local servers and
+        IT facilities with the cost of paying for the services of the external data centre
+        provider
+      • complexity of the change – they will have to take into account the complexity
+        of the change from their local in-house providers of IT services to the move of
+        data to the external data centre (time required, changeover period, reliability of
+        the files when moved to a different location – may be too large and time to
+        upload will make them unavailable)
+      • personnel – many of the ORM IT personnel may not be needed and will be
+        made redundant – social implications
+      • policies – they will have to carefully review the policies at the external data
+        centre to understand their responsibilities in the keeping of backups, privacy of
+        the information and availability of the services
+      • confidential information - ORM will need to determine whether data that
+        involves confidential company information should be stored on data centre
+        servers. Data can be accessed by personnel at the data center.
+
+      Note: the external data center does not belong to ORM.
+      Note: do not consider any references to hacking into the data center servers
+
+      In part (c) of this question it is expected there will be a balance in the ITGS
+      terminology between IT technical terminology and the terminology related to
+      social and ethical impacts.
+
+      Please see generic markband information sheet on page 23.
+                                          – 23 –            M14/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+SL and HL paper 1 part (c) and HL paper 3 question 3 markband
+         Marks                                   Level descriptor
+                             • A response with no knowledge or understanding of the
+        No marks               relevant ITGS issues and concepts.
+                             • A response that includes no appropriate ITGS terminology.
+                             • A response with minimal knowledge and understanding of
+                               the relevant ITGS issues and concepts.
+                             • A response that includes minimal use of appropriate
+                               ITGS terminology.
+          Basic
+                             • A response that has no evidence of judgments and/or
+        1–2 marks              conclusions.
+                             • No reference is made to the scenario in the stimulus material
+                               in the response.
+                             • The response may be no more than a list.
+                             • A descriptive response with limited knowledge and/or
+                               understanding of the relevant ITGS issues and/or concepts.
+                             • A response that includes limited use of appropriate
+                               ITGS terminology.
+        Adequate
+                             • A response that has evidence of conclusions and/or
+        3–4 marks              judgments that are no more than unsubstantiated statements.
+                               The analysis underpinning them may also be partial
+                               or unbalanced.
+                             • Implicit references are made to the scenario in the stimulus
+                               material in the response.
+                             • A response with knowledge and understanding of the
+                               relevant ITGS issues and/or concepts.
+                             • A response that uses ITGS terminology appropriately
+        Competent              in places.
+
+        5–6 marks            • A response that includes conclusions and/or judgments that
+                               have limited support and are underpinned by a balanced
+                               analysis.
+                             • Explicit references to the scenario in the stimulus material
+                               are made at places in the response.
+                             • A response with a detailed knowledge and understanding of
+                               the relevant ITGS issues and/or concepts.
+                             • A response that uses ITGS terminology appropriately
+        Proficient             throughout.
+        7–8 marks            • A response that includes conclusions and/or judgments that
+                               are well supported and underpinned by a balanced analysis.
+                             • Explicit references are made appropriately to the scenario in
+                               the stimulus material throughout the response.
+

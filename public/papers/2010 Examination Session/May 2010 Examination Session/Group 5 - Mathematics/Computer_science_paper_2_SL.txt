@@ -1,0 +1,208 @@
+M10/5/COMSC/SP2/ENG/TZ0/XX
+
+
+
+
+       22107014
+
+
+Computer science
+Standard level
+Paper 2
+
+Friday 7 May 2010 (morning)
+
+1 hour 30 minutes
+
+
+INSTRUCTIONS TO CANDIDATES
+
+• Do not open this examination paper until instructed to do so.
+• Answer all the questions.
+
+
+
+
+2210-7014                                                                                          5 pages
+                                                           © International Baccalaureate Organization 2010
+                                                    –2–               M10/5/COMSC/SP2/ENG/TZ0/XX
+
+Answer all the questions.
+
+1.    (a)   Suggest a suitable data structure that can hold the responses to a set of
+            100 questions, where each response is either “yes” or “no”.  Include reasons for
+            your suggestion.                                                                   [4 marks]
+
+      (b)   Using the data structure suggested in part (a), construct the method yesTotals()
+            that will return the total number of “yes” responses.   The method has been
+            started below.
+
+            public int yesTotals()
+            {
+              // lines of code missing
+            }                                                                                  [4 marks]
+
+      The method numberSorter() receives an  int array of unknown length (but with
+      a maximum of 100 items), and places the integers into three different arrays a, b
+      and c, where
+
+            a = negative integers
+            b = non-negative even integers
+            c = integers neither in  a nor in  b.
+
+      The method then returns the number of items in array b.
+
+      (c)   Construct the method numberSorter(), which has been started below.  You can
+            assume that the arrays are initially empty.
+
+            public int numberSorter(int[] original)
+            {
+              // lines of code missing
+              if (...
+                 // lines of code missing
+              else
+                 // lines of code missing
+            }                                                                                  [8 marks]
+
+      (d)   Without writing any code, suggest how the method numberSorter() could
+            be modified so that it not only returns the total number of elements in array b,
+            but also returns the total number of elements in array a.  No additional methods
+            should be considered.                                                              [4 marks]
+
+
+
+
+2210-7014
+                                                      –3–                 M10/5/COMSC/SP2/ENG/TZ0/XX
+
+2.    A master file has been created that contains details of the players in a soccer
+      (football) league.  Each record in the file contains the name of the player and the total
+      number of goals that they have scored.  The records are stored in alphabetical order of
+      the players’ names.
+
+      The first three records are shown below:
+
+               Record 0                     Record 1                        Record 2
+            name     goals                name    goals                  name     goals
+          Adams P.     5                Alvez J.    1                   Aziz M.      3
+
+      The master file is updated each week by a transaction file.
+
+      (a)     Outline the differences between a master file and a transaction file.                 [2 marks]
+
+      Each week the following processing then takes place:
+
+      •     a user inputs data into a new transaction file which has the same record structure as
+            the master file and which contains details of the goal scorers for that week
+      •     the transaction file is sorted into the same order as the master file
+      •     the master file is updated by the transaction file
+      •     the total number of goals scored that week is printed out.
+
+      (b)     Draw a systems flowchart for the above processing.                                    [6 marks]
+
+      For the update process to take place, the records in the master file are read into the
+      array master[], which is an array of Player objects.  A Player object is defined by
+      the class Player, shown below.
+
+      class Player
+      {
+        public String name;             // name of player
+        public int goals;               // number of goals scored by that player
+      }
+
+      The records in the transaction file are read into the array transaction[] which is
+      also an array of Player objects.
+
+      (c)     Explain why it is important to have both the master file and the transaction file
+              in the same order.                                                                    [2 marks]
+
+
+
+
+                                                              (This question continues on the following page)
+
+
+
+
+2210-7014                                                                                           Turn over
+                                                    –4–                  M10/5/COMSC/SP2/ENG/TZ0/XX
+
+(Question 2 continued)
+
+      (d)   With reference to the data given in the original master file, state the value of
+
+            (i)    master[0].name ;                                                               [1 mark]
+
+            (ii)   master[2].goals .                                                              [1 mark]
+
+      The update process is as follows:
+
+      repeat for each player in the array  transaction[]
+      • search sequentially in the array  master[], until the same player is found
+      • update the number of goals scored for that player.
+
+      The method update() performs this process and also returns the total number of
+      goals scored for that week.
+
+      (e)   Construct the method update(), which has been started below.
+
+            // both arrays are declared as class (global) variables
+            public int update()
+            {
+              // lines of code missing
+            }
+
+            You can assume that all the players that appear in the transaction file are already
+            in the master file.                                                                   [8 marks]
+
+
+
+
+2210-7014
+                                                     –5–                  M10/5/COMSC/SP2/ENG/TZ0/XX
+
+3.    This question requires the use of the case study.
+
+      (a)   The construction of Heathrow’s Terminal 5 included a new control tower for the
+            whole airport.  The changeover was carried out by running the new system in
+            parallel with the old system.
+
+            (i)    Outline what is meant by running systems in parallel.                            [2 marks]
+
+            (ii)   Outline one reason for choosing a parallel form of changeover, as opposed
+                   to any other.                                                                    [2 marks]
+
+      (b)   Suggest why the airport authorities chose the particular testing strategy outlined
+            on page 4 of the case study.                                                            [2 marks]
+
+      (c)   Describe two different security procedures that would help prevent physical
+            access by unauthorised people into restricted sections of the airport.                  [4 marks]
+
+      (d)   (i)    Identify an airport system that would use real-time processing.                  [1 mark]
+
+            (ii)   Explain, for the system identified in part (i), why it would require real-time
+                   processing.                                                                      [3 marks]
+
+      (e)   A computerized system is being designed to replace the paper flight strips used
+            in Air Traffic Control.  A concern of the controllers is that interacting with a
+            computer system might distract them from their tasks.
+
+            (i)    Explain why voice recognition would not be suitable as a user-interface.         [3 marks]
+
+            (ii)   Describe a user-interface that would be suitable.                                [3 marks]
+
+            (iii) Describe one useful feature that could be incorporated into the new
+                  user interface, that was not present in the original one.                         [2 marks]
+
+            (iv) Suggest one possible back-up strategy in case of a system failure in
+                 Air Traffic Control.                                                               [2 marks]
+
+      (f)   By considering both sides of the argument, discuss whether or not governments
+            should have access to the “passenger name records (PNR)” files (see page 10 of
+            the case study).                                                                        [6 marks]
+
+
+
+
+2210-7014
+

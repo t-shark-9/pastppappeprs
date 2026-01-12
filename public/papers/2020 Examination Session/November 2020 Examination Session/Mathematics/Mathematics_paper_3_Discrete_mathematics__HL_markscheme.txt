@@ -1,0 +1,605 @@
+N20/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+
+
+                       Markscheme
+
+
+                        November 2020
+
+
+                  Discrete mathematics
+
+
+                           Higher level
+
+
+                               Paper 3
+
+
+
+
+17 pages
+                                           –2–               N20/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+
+
+No part of this product may be reproduced in any form or by any electronic or
+mechanical means, including information storage and retrieval systems, without written
+permission from the IB.
+
+Additionally, the license tied with this product prohibits commercial use of any selected
+files or extracts from this product. Use by third parties, including but not limited to
+publishers, private teachers, tutoring or study services, preparatory schools, vendors
+operating curriculum mapping services or teacher resource digital platforms and app
+developers, is not permitted and is subject to the IB’s prior written consent via a license.
+More information on how to request a license can be obtained from
+https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-license/.
+
+Aucune partie de ce produit ne peut être reproduite sous quelque forme ni par quelque
+moyen que ce soit, électronique ou mécanique, y compris des systèmes de stockage et
+de récupération d’informations, sans l’autorisation écrite de l’IB.
+
+De plus, la licence associée à ce produit interdit toute utilisation commerciale de
+tout fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris,
+sans toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de
+tutorat ou d’aide aux études, des établissements de préparation à l’enseignement
+supérieur, des fournisseurs de services de planification des programmes
+d’études, des gestionnaires de plateformes pédagogiques en ligne, et des
+développeurs d’applications, n’est pas autorisée et est soumise au consentement écrit
+préalable de l’IB par l’intermédiaire d’une licence. Pour plus d’informations sur la
+procédure à suivre pour demander une licence, rendez-vous à l’adresse suivante :
+https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-license/.
+
+No se podrá reproducir ninguna parte de este producto de ninguna forma ni por ningún
+medio electrónico o mecánico, incluidos los sistemas de almacenamiento y
+recuperación de información, sin que medie la autorización escrita del IB.
+
+Además, la licencia vinculada a este producto prohíbe el uso con fines comerciales de
+todo archivo o fragmento seleccionado de este producto. El uso por parte de terceros
+—lo que incluye, a título enunciativo, editoriales, profesores particulares, servicios
+de apoyo académico o ayuda para el estudio, colegios preparatorios, desarrolladores
+de aplicaciones y entidades que presten servicios de planificación curricular u
+ofrezcan recursos para docentes mediante plataformas digitales— no está permitido
+y estará sujeto al otorgamiento previo de una licencia escrita por parte del IB. En este
+enlace encontrará más información sobre cómo solicitar una licencia:
+https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-license/.
+                                                   –3–               N20/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+                                        Instructions to Examiners
+
+Abbreviations
+
+M      Marks awarded for attempting to use a valid Method; working must be seen.
+
+(M)    Marks awarded for Method; may be implied by correct subsequent working.
+
+A     Marks awarded for an Answer or for Accuracy; often dependent on preceding M marks.
+
+(A)    Marks awarded for an Answer or for Accuracy; may be implied by correct subsequent working.
+
+R      Marks awarded for clear Reasoning.
+
+N      Marks awarded for correct answers if no working shown.
+
+AG     Answer given in the question and so no marks are awarded.
+
+
+Using the markscheme
+
+1      General
+
+       Mark according to RM™ Assessor instructions. In particular, please note the following:
+
+       • Marks must be recorded using the annotation stamps. Please check that you are entering
+         marks for the right question.
+       • If a part is completely correct, (and gains all the “must be seen” marks), use the ticks with
+         numbers to stamp full marks.
+       • If a part is completely wrong, stamp A0 by the final answer.
+       • If a part gains anything else, it must be recorded using all the annotations.
+       • All the marks will be added and recorded by RM™ Assessor.
+
+
+2      Method and Answer/Accuracy marks
+
+       • Do not automatically award full marks for a correct answer; all working must be checked,
+         and marks awarded according to the markscheme.
+       • It is not possible to award M0 followed by A1, as A mark(s) depend on the preceding M mark(s),
+         if any.
+       • Where M and A marks are noted on the same line, eg M1A1, this usually means M1 for an
+         attempt to use an appropriate method (eg substitution into a formula) and A1 for using the
+         correct values.
+       • Where the markscheme specifies (M2), N3, etc., do not split the marks.
+                                                  –4–            N20/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+    • Once a correct answer to a question or part-question is seen, ignore further correct working.
+      However, if further working indicates a lack of mathematical understanding do not award the final
+      A1. An exception to this may be in numerical answers, where a correct exact value is followed by
+      an incorrect decimal. However, if the incorrect decimal is carried through to a subsequent part,
+      and correct FT working shown, award FT marks as appropriate but do not award the final A1 in
+      that part.
+
+      Examples
+
+              Correct answer seen       Further working seen          Action
+        1.                                5.65685...                   Award the final A1
+                 8 2                     (incorrect decimal value)     (ignore the further working)
+        2.       1
+                   sin 4 x                sin x                         Do not award the final A1
+                 4
+        3.       log a − log b            log (a − b)                   Do not award the final A1
+
+
+3   N marks
+
+    Award N marks for correct answers where there is no working.
+
+    • Do not award a mixture of N and other marks.
+    • There may be fewer N marks available than the total of M, A and R marks; this is deliberate as it
+      penalizes candidates for not following the instruction to show their working.
+
+
+4   Implied marks
+
+    Implied marks appear in brackets eg (M1), and can only be awarded if correct work is seen or if
+    implied in subsequent working.
+
+    • Normally the correct work is seen or implied in the next line.
+    • Marks without brackets can only be awarded for work that is seen.
+
+
+5   Follow through marks
+
+    Follow through (FT) marks are awarded where an incorrect answer from one part of a question is
+    used correctly in subsequent part(s). To award FT marks, there must be working present and
+    not just a final answer based on an incorrect answer to a previous part.
+
+    • If the question becomes much simpler because of an error then use discretion to award fewer
+      FT marks.
+    • If the error leads to an inappropriate value (eg sin  = 1.5 ), do not award the mark(s) for the
+      final answer(s).
+    • Within a question part, once an error is made, no further dependent A marks can be awarded,
+      but M marks may be awarded if appropriate.
+    • Exceptions to this rule will be explicitly noted on the markscheme.
+                                                         –5–                N20/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+6   Misread
+
+    If a candidate incorrectly copies information from the question, this is a misread (MR).
+    A candidate should be penalized only once for a particular misread. Use the MR stamp to indicate
+    that this has been a misread. Then deduct the first of the marks to be awarded, even if this is an
+    M mark, but award all others so that the candidate only loses [1 mark].
+
+    • If the question becomes much simpler because of the MR, then use discretion to award
+      fewer marks.
+    • If the MR leads to an inappropriate value (eg sin  = 1.5 ), do not award the mark(s) for the
+      final answer(s).
+
+
+7   Discretionary marks (d)
+
+    An examiner uses discretion to award a mark on the rare occasions when the markscheme does
+    not cover the work seen. In such cases the annotation DM should be used and a brief note written
+    next to the mark explaining this decision.
+
+
+8   Alternative methods
+
+    Candidates will sometimes use methods other than those in the markscheme. Unless the
+    question specifies a method, other correct methods should be marked in line with the markscheme.
+    If in doubt, contact your team leader for advice.
+
+    • Alternative methods for complete questions are indicated by METHOD 1, METHOD 2, etc.
+    • Alternative solutions for part-questions are indicated by EITHER . . . OR.
+    • Where possible, alignment will also be used to assist examiners in identifying where these
+      alternatives start and finish.
+
+
+9   Alternative forms
+
+    Unless the question specifies otherwise, accept equivalent forms.
+
+    • As this is an international examination, accept all alternative forms of notation.
+    • In the markscheme, equivalent numerical and algebraic forms will generally be written in
+      brackets immediately following the answer.
+    • In the markscheme, simplified answers, (which candidates often do not write in examinations),
+      will generally appear in brackets. Marks should be awarded for either the form preceding the
+      bracket or the form in brackets (if it is seen).
+
+      Example: for differentiating f ( x) = 2sin (5 x − 3) , the markscheme gives
+
+                        f  ( x) = ( 2cos(5x − 3) ) 5 ( = 10cos(5x − 3) )                    A1
+
+              Award A1 for ( 2cos(5x − 3) ) 5 , even if 10cos(5 x − 3) is not seen.
+                                                    –6–               N20/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+10     Accuracy of Answers
+
+      Candidates should NO LONGER be penalized for an accuracy error (AP).
+
+      If the level of accuracy is specified in the question, a mark will be allocated for giving the answer to
+      the required accuracy. When this is not specified in the question, all numerical answers should be
+      given exactly or correct to three significant figures. Please check work carefully for FT.
+
+
+11    Crossed out work
+
+      If a candidate has drawn a line through work on their examination script, or in some other way
+      crossed out their work, do not award any marks for that work.
+
+
+12    Calculators
+
+      A GDC is required for paper 2, but calculators with symbolic manipulation features (for example,
+      TI-89) are not allowed.
+
+      Calculator notation
+      The Mathematics HL guide says:
+
+      Students must always use correct mathematical notation, not calculator notation.
+
+      Do not accept final answers written using calculator notation. However, do not penalize the use of
+      calculator notation in the working.
+
+
+13    More than one solution
+
+      Where a candidate offers two or more different answers to the same question, an examiner
+      should only mark the first response unless the candidate indicates otherwise.
+
+
+14.   Candidate work
+
+      Candidates are meant to write their answers to Section A on the question paper (QP), and
+      Section B on answer booklets. Sometimes, they need more room for Section A, and use the
+      booklet (and often comment to this effect on the QP), or write outside the box. This work should
+      be marked.
+
+      The instructions tell candidates not to write on Section B of the QP. Thus they may well have done
+      some rough work here which they assume will be ignored. If they have solutions on the answer
+      booklets, there is no need to look at the QP. However, if there are whole questions or whole part
+      solutions missing on answer booklets, please check to make sure that they are not on the QP,
+      and if they are, mark those whole questions or whole part solutions that have not been written on
+      answer booklets.
+                                                     –7–                N20/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+
+1.   the auxiliary equation is  2 − 8 + 16 = 0 (or equivalent)                            A1
+
+     attempts to solve their quadratic equation                                           (M1)
+
+     =4                                                                                    A1
+
+     the general solution is of the form un = ( A + Bn ) 4n (or equivalent)                 M1
+
+
+     Note: Only award M1 for general solutions of the form un = ( A + Bn )  n (or equivalent).
+            Award M1 for un = ( A + Bn )  n .
+
+
+     applies two (initial) conditions, eg substitutes n = 1, 2 , into their un to form
+     two equations                                                                          M1
+
+     A + B = 1 and A + 2B = 3 (or equivalent eg 4 A + 4B = 4 and 16 A + 32B = 48 )          A1
+
+     attempts to solve their two simultaneous equations                                   (M1)
+
+     A = −1, B = 2
+
+     un = ( 2n − 1) 4n (or equivalent)                                                      A1
+
+                                                                                                  [8 marks]
+                                                   –8–                 N20/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+2.    (a)   (i)    attempts to construct a graph or table to represent Dijkstra’s algorithm   M1
+
+            EITHER
+
+
+
+
+            OR
+
+     Step          A          B           C           D           E           F           G          H
+      1                      25          0           17                                          12
+      2            44         25          -           17                               33           -
+      3            44         25          -            -          41                    33           -
+      4            36          -          -            -          41                    33           -
+      5            36          -          -            -          40          58          -           -
+      6             -          -          -            -          40          57          -           -
+      7             -          -          -            -           -          55          -           -
+
+                   a clear attempt at Step 1 ( C,D,H and B considered)                        M1
+
+                   Steps 2 and 3 correctly completed                                          A1
+
+                   Step 4 ( A : 44 → 36 ) correctly completed                                 A1
+
+                   Steps 5 and 6 ( E : 41 → 40 and F : 58 → 57 or 57 → 55 or 58 → 55 )
+                   correctly completed                                                        A1
+
+                   shortest time = 55 (mins)                                                  A1
+
+            (ii)   CHGEF                                                                      A1
+
+      Note: Award A1 only if it is clear that Dijkstra’s algorithm has been attempted in part
+            (a) (i). This A1 can be awarded if the candidate attempts to use Dijkstra’s
+            algorithm but neglects to state 55 (mins).
+
+
+
+                                                                                                   [7 marks]
+                                           –9–              N20/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+
+(b)   minimum travel time from C to A is reduced
+
+      CHA is now 12 + t (mins)                                              (M1)
+
+      CBA is still 25 + 11 (mins)
+
+      so 12 + t  36 ( t  24 )                                             (A1)
+
+
+Note: Condone t  24 .
+
+      travel time from C to F remains the same ( 55 mins)
+
+      CHAF is now 12 + t + 21 (mins)                                        (M1)
+
+      12 + t + 21  55 ( t  22 )                                           (A1)
+
+      so 22  t  24                                                         A1
+
+Note: Accept t = 22, 23.
+
+                                                                                  [5 marks]
+                                                                           Total [12 marks]
+                                                         – 10 –                N20/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+3.   (a)   (i)    the remainder is 0                                                                     A1
+
+           (ii)   1416  1( mod17 ) (from Fermat’s little theorem)                                     (A1)
+
+                  142022 = 1416126+6                                                                  (M1)
+
+     Note: Award M1 for a RHS exponent consistent with the correct use of Fermat’s little
+           theorem.
+
+                  142022  146 ( mod17 ) (  15 ( mod17 ) )                                              A1
+
+                  the remainder is 15                                                                    A1
+
+                                                                                                               [5 marks]
+
+
+
+     (b)   (i)    METHOD 1
+
+                  let N = an13n + an−113n−1 + ... + a113 + a0                                            M1
+
+     Note: The above M1 is independent of the A marks below.
+
+                  13  1( mod 6 )                                                                        A1
+
+                  EITHER
+
+                  13x  1( mod 6 ) (for all x  )                                                        A1
+
+                  OR
+
+                  N  an1n + an−11n−1 + ... + a11 + a0 ( mod 6 ) ( N  an + an−1 + ... + a1 + a0 ( mod 6 ) )
+                                                                                                         A1
+
+                  THEN
+
+                  so N  0 ( mod 6 ) if and only if an + an −1 + ... + a1 + a0  0 ( mod 6 )             R1
+                  so 6 | N if and only if 6 | ( an + an −1 + ... + a1 + a0 )                             AG
+                                                  – 11 –                 N20/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+           METHOD 2
+
+           let N = an13n + an−113n−1 + ... + a113 + a0                                        (M1)
+
+           N = ( an + an−1 + ... + a1 + a0 )
+
+                      (                                                                   )
+                                                                                              M1A1
+           + (13 − 1) an (13n−1 + ... + 130 ) + an−1 (13n−2 + ... + 130 ) + ... + a1130
+
+
+Note: Award M1 for attempting to express N in the form
+      N = ( an + an−1 + ... + a1 + a0 ) + (13 − 1) M .
+
+           as 6 | (13 − 1) M                                                                    R1
+           so 6 | N if and only if 6 | ( an + an−1 + ... + a1 + a0 )                           AG
+
+(ii)       METHOD 1
+
+           the sum of the digits is 2 y + 20                                                   (A1)
+
+           uses 2 y + 20 = 6k (or equivalent) to attempt to find a valid value of y (M1)
+
+            y = 2,5,8,11( B )                                                                 A1A1
+
+
+Note: Award A1 for y = 2,5,8 and A1 for y = 11( B ) .
+                                              – 12 –           N20/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+           METHOD 2
+
+           (1y93 y 25)13 = 1136 + y 135 + 9 134 + 3 133 + y 132 + 2 131 + 5 130 (A1)
+            = 371462 y + 5090480
+
+           attempts to find a valid value of y such that
+           371462 y + 5090480  0 ( mod 6 )                                           (M1)
+
+            y = 2,5,8,11( B )                                                       A1A1
+
+
+Note: Award A1 for y = 2,5,8 and A1 for y = 11( B ) .
+
+
+                                                                                            [8 marks]
+                                                                                     Total [13 marks]
+                                                  – 13 –            N20/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+4.   METHOD 1
+
+     3x  1( mod 31)  x  21( mod 31)                                              (A1)
+
+     x = 29a + 7 and x = 31b + 21                                                   (M1)
+
+     uses a table of values for their two equations in an attempt to find x         (M1)
+
+     x = 703                                                                        (A2)
+
+     x  703 ( mod899 ) ( x = 703 + 899k )                                           A1
+
+
+     METHOD 2
+
+     x = 29a + 7                                                                    (A1)
+
+     substitutes their equation into the other congruence                           (M1)
+
+     3 ( 29a + 7 )  1( mod 31)
+
+     a valid attempt to solve their form of the above congruence                    (M1)
+
+     a  24 ( mod 31)                                                               (A1)
+
+     correctly substitutes a = 31b + 24 into x = 29a + 7                            (A1)
+
+     x = 29 ( 31b + 24 ) + 7
+
+     x  703 ( mod899 ) ( x = 703 + 899b )                                           A1
+                                                    – 14 –        N20/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+METHOD 3
+
+3x  1( mod 31)  x  21( mod 31)                                                 (A1)
+
+M1 = 31 and M 2 = 29                                                              (A1)
+
+attempts to use M i xi  1( mod mi ) ( i = 1, 2 )                                 (M1)
+31x1  1( mod 29 ) and 29 x2  1( mod 31)
+
+x1  15 ( mod 29 ) and x2  15 ( mod 31)                                          (A1)
+
+attempts to use x = a1x1M1 + a2 x2 M 2 ( mod M )                                  (M1)
+
+
+x  7 15  31 + 21 29 15 ( mod899 )
+
+x  703 ( mod899 ) ( x  12390 ( mod899 ) ) ( x = 703 + 899k )                     A1
+
+
+METHOD 4
+
+x = 29k + 7 and 3x = 31t + 1                                                      (M1)
+
+p is a multiple of 31 and p = 29k + 7 (1) and
+
+q is a multiple of 29 and 3q = 31t + 1 (2)                                        (M1)
+
+from (1): p = 31x1 and 31x1  7 ( mod 29 )  x1  18 ( mod 29 )                   (A1)
+
+from (2): q = 29 x2 and 3 ( 29 x2 )  1( mod31)  x2  5 ( mod31)                 (A1)
+
+p = 558 and q = 145
+
+uses x = p + q to obtain x = 703                                                  (A1)
+
+x  703 ( mod899 ) ( x = 703 + 899b )                                              A1
+                                             – 15 –               N20/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+METHOD 5
+
+3x  1( mod31)  x  21( mod31)                                                   (A1)
+
+x = 29a + 7 and x = 31b + 21                                                      (M1)
+
+29a + 7 = 31b + 21  29a − 31b = 14
+
+gcd ( 29,31) = 1 and so 29a − 31b = 1
+
+a valid attempt to solve either 29a − 31b = 14 or 29a − 31b = 1
+(eg uses the Euclidean algorithm and reverses the process)                        (M1)
+
+29  210 − 31196 = 14                                                            (A1)
+
+a = 210 (and b = 196 )                                                            (A1)
+
+x  703 ( mod899 ) ( x  6097 ( mod899 ) ) ( x = 703 + 899k )                      A1
+
+                                                                                         [6 marks]
+                                                   – 16 –           N20/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+5.   (a)   substitutes v = 9 into either e = 3v − 6 or e  3v − 6                   (M1)
+           the maximum number of edges is 21 ( e  21)                                A1
+
+                                                                                           [2 marks]
+
+
+                    9 
+     (b)    9 has    =  36 edges                                               (A1)
+                     2 
+
+                           9      
+           so e = 36 − e  =   − e                                               A1
+                            2     
+
+                                                                                           [2 marks]
+
+
+
+     (c)   e  21  36 − e  21                                                    (M1)
+
+           15  e  21 (the possible values are 15, 16, 17, 18, 19, 20 and 21)       A1
+
+                                                                                           [2 marks]
+                                                     – 17 –     N20/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+                                   v ( v − 1)
+(d)   recognises that e + e =                (or equivalent)                   (A1)
+                                        2
+
+      uses e  3v − 6 and e  3v − 6                                            M1
+
+                v ( v − 1)
+      to form              − ( 3v − 6 )  3v − 6                                 A1
+                     2
+
+                        v ( v − 1)
+Note: Award A1 for                 − ( 3v − 6 ) = 3v − 6 .
+                             2
+
+
+      attempts to solve their quadratic inequality (equality)                   (M1)
+
+      v 2 − 13v + 24  0  2.228...  v  10.77...
+
+      the maximum possible value of v is 10 ( v  10 )                           A1
+
+
+                                                                                      [5 marks]
+                                                                               Total [11 marks]
+

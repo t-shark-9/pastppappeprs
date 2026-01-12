@@ -1,0 +1,168 @@
+M17/4/COMSC/SP1/ENG/TZ0/XX
+
+
+
+
+Computer science
+Standard level
+Paper 1
+
+
+Friday 5 May 2017 (afternoon)
+
+
+1 hour 30 minutes
+
+
+Instructions to candidates
+yyDo not open this examination paper until instructed to do so.
+yySection A: answer all questions.
+yySection B: answer all questions.
+yyThe maximum mark for this examination paper is [70 marks].
+
+
+
+
+                                                                                             2217 – 7014
+     5 pages                                             © International Baccalaureate Organization 2017
+                                                   –2–                 M17/4/COMSC/SP1/ENG/TZ0/XX
+
+                                               Section A
+
+Answer all questions.
+
+1.    Describe the use of beta testing.                                                            [2]
+
+
+2.    Identify two causes of data loss.                                                            [2]
+
+
+3.    Identify two reasons for releasing a software update.                                        [2]
+
+
+4.    Explain why cache memory can speed up the processing within a computer.                      [2]
+
+
+5.    One of the functions of an operating system is memory management.
+
+      Describe how this function prevents the system from crashing when more than one program is
+      run at the same time.                                                                        [2]
+
+
+6.    Identify any two of the layers of the OSI model.                                             [2]
+
+
+7.    Explain how compression of data may lead to negative consequences.                           [3]
+
+
+8.    Explain how the use of media access control (MAC) addresses can improve security.            [3]
+
+
+9.    Outline the main steps involved in a selection sort.                                         [3]
+
+
+10.   Other than the use of different keywords, outline two ways in which two higher level
+      languages might differ from one another.                                                     [4]
+                                                    –3–                    M17/4/COMSC/SP1/ENG/TZ0/XX
+
+                                                Section B
+
+Answer all questions.
+
+11.   A large company has taken over another business. This takeover has required various
+      changes to be made. One of the changes requires data migration.
+
+      (a)   (i)   Define the term data migration.                                                          [1]
+
+		(ii)            Describe two problems, concerning data migration, which the company may
+                  have to overcome.                                                                        [4]
+
+      (b)   Other than data migration, describe two aspects of change management that may
+            arise from this takeover.                                                                      [4]
+
+      The company produces industrial chemicals. One of the chemical processes is represented
+      by the following logic diagram.
+
+
+      A
+                                                    OR
+                                                                          X
+
+                      B                                                                AND             C
+
+                                                                          Y
+                                                  NAND
+
+
+      (c)   (i)   Construct the truth table corresponding to this diagram.                                 [3]
+
+		(ii)            Identify the single logic gate that is equivalent to this diagram.                       [1]
+
+      (d)   Outline how truth tables can be used to test that any two logic diagrams are equivalent.       [2]
+
+
+
+
+                                                                                               Turn over
+                                                      –4–                     M17/4/COMSC/SP1/ENG/TZ0/XX
+
+12.   (a)   By copying the table below, trace the following algorithm using the data in the
+            collection DATA. Note: B and C are also collections and are initially empty.
+
+		 DATA = {2,4,-1,3}
+		 loop while DATA.hasNext()
+			 A = DATA.getNext()
+			 if A >= 0 then
+				 if A mod 2 = 0 then
+					B.addItem(A)
+				else
+					C.addItem(A)
+				end if
+			  end if
+		end loop
+
+                                                                              Contents      Contents
+            DATA.hasNext() ?          A    A >= 0?       A mod 2 = 0?
+                                                                                of B          of C
+
+
+
+
+                                                                                                                [3]
+
+      (b)   Outline the steps involved in performing a binary search on an array of ascending
+            numbers. Note: you can assume that the search value is present in the array and that
+            initially LOW is the index of the first value in the array and HI is the index of the last value.   [4]
+
+      (c)   A collection called NUMBERS is to be searched to see if it contains a specified value.  
+            Construct an algorithm in pseudocode to perform the following:
+            yyinput the number, S, to be searched for
+            yyread in the values from the NUMBERS collection into the array D. Note: you can
+               assume that the array is large enough and that the collection is not empty
+            yyperform a linear search for S on the array D
+            yyoutput the message “found ” or “not found ” as appropriate.                                       [5]
+
+      A binary search can be performed on the array D, if the values in D are in ascending order.
+      As the values are being read from NUMBERS into D they are checked to see if they are in order.
+
+      (d)   Without writing pseudocode, suggest how this check could be performed.                              [3]
+                                                    –5–                   M17/4/COMSC/SP1/ENG/TZ0/XX
+
+13.   A multinational business requires secure communication between its offices in different
+      countries. The business’s salesforce also needs secure remote access, as they travel the
+      world.
+
+      (a)   (i)   Identify two different types of network that can be combined to use the internet
+                  to address the above requirements.                                                 [2]
+
+		(ii)            For one of the networks identified in part (a)(i), describe the security
+                  characteristics that are particular to this network.                               [3]
+
+      Packet switching is used for sending data over the internet.
+
+      (b)   Discuss the importance of protocols in ensuring the successful preparation,
+            transmission and delivery of data using packet switching.                                [6]
+
+      (c)   Describe two advantages to society of the increased availability of WiFi outside the
+            home.                                                                                    [4]
+

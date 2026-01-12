@@ -1,0 +1,292 @@
+N14/4/COMSC/HP1/ENG/TZ0/XX
+
+
+
+
+       88147011
+
+Computer science
+HIGHER level
+Paper 1
+
+Monday 17 November 2014 (afternoon)
+
+2 hours 10 minutes
+
+
+INSTRUCTIONS TO CANDIDATES
+
+   Do not open this examination paper until instructed to do so.
+   Section A: answer all questions.
+   Section B: answer all questions.
+   The maximum mark for this examination paper is [100 marks].
+
+
+
+
+8814-7011                                                                                            8 pages
+                                                             © International Baccalaureate Organization 2014
+                                                       –2–              N14/4/COMSC/HP1/ENG/TZ0/XX
+
+                                                SECTION A
+
+Answer all questions.
+
+1.    (a)   Outline two characteristics of spreadsheets.                                       [2]
+
+      (b)   Define the term operating system.                                                  [1]
+
+
+2.    Outline the function of the ALU.                                                         [1]
+
+
+3.    Outline the relationship between binary and hexadecimal.                                 [2]
+
+
+4.    (a)   Describe the characteristics of a stack.                                           [2]
+
+      (b)   Identify two applications of a stack in computing.                                 [2]
+
+
+5.    Construct the truth table for the following Boolean expression.
+
+                                     X = not A and B or A and not B                            [4]
+
+
+6.    State three advantages of using sub-programs in solving programming problems.            [3]
+
+
+
+
+8814-7011
+                                                   –3–                  N14/4/COMSC/HP1/ENG/TZ0/XX
+
+7.    Consider the following algorithm.
+
+
+                                              begin
+
+
+
+                                              K=3
+                                              P=1
+
+
+
+
+                             No                             Yes
+                                              K>1
+
+
+
+                  output P                                     output K
+
+
+
+                                                                  K = K −1
+                                                                  P = P×K
+                    end
+
+
+
+
+      Trace the algorithm and show the outputs that will be produced.                           [3]
+
+
+8.    Define polling.                                                                           [2]
+
+
+9.    (a)   Define the term protocol.                                                           [1]
+
+      (b)   Outline why protocols are necessary.                                                [2]
+
+
+
+
+8814-7011                                                                                 Turn over
+                                                    –4–                 N14/4/COMSC/HP1/ENG/TZ0/XX
+
+                                                  SECTION B
+
+Answer all questions.
+
+10.   A customer buys an item in a small local shop and pays with a credit card.  The sales transaction
+      data is input to a computer at the point of sale.  Prices are downloaded every morning from
+      a central computer at the company headquarters.   The credit card is verified with the card
+      authorization centre and then the receipt is printed.
+
+      (a)   Draw and label a system flow chart to represent this process in the shop.                     [5]
+
+      At the end of the day the sales transaction data is sent to the central computer at the
+      company headquarters.
+
+      (b)   Describe the processing that should be carried out at the company headquarters.               [2]
+
+      All programs and data should be protected from theft, destruction, manipulation and alteration
+      in this process.
+
+      (c)   Identify three causes of data loss.                                                           [3]
+
+      (d)   Describe why data loss is a more serious problem than the loss of software or hardware
+            for a sales company.                                                                          [3]
+
+      (e)   Identify two methods of preventing data loss.                                                 [2]
+
+
+
+
+8814-7011
+                                                  –5–                N14/4/COMSC/HP1/ENG/TZ0/XX
+
+11.   A magic square is a two-dimensional array with n rows and n columns in which each of the
+      integers 1, 2, 3, …, n2 appears exactly once and all column sums, row sums and diagonal sums
+      are equal.
+
+      The array A is a 7 × 7 magic square in which all rows, columns and the two main diagonals add
+      up to 175.
+
+                                  A
+                                      [0] [1] [2] [3] [4] [5] [6]
+                               [0]    30    39   48      1   10    19    28
+                               [1]    38    47    7      9   18    27    29
+                               [2]    46     6    8     17   26    35    37
+                               [3]     5    14   16     25   34    36    45
+                               [4]    13    15   24     33   42    44     4
+                               [5]    21    23   32     41   43     3    12
+                               [6]    22    31   40     49    2    11    20
+
+      (a)   Construct an algorithm to calculate the sum of all elements on the main diagonal,
+            from A[0, 0] to A[6, 6].                                                                  [2]
+
+      (b)   An array with n rows and n columns holds every number from 1 to n2. Construct an
+            algorithm that checks whether the n × n array is a magic square.                          [8]
+
+      The following is the algorithm for constructing a magic square with n rows and n columns for
+      any odd integer n.
+
+      • Z=1
+      • Place Z in the middle of top row
+      • Loop until all integers 1, 2, 3, …, n2 are placed in the array
+           • Z=Z+1
+           • Move one row up and one column to the right to place the integer Z, unless one of the
+              following occurs
+                 • If a move takes you above the top row in the jth column, move to the bottom of
+                    the jth column and place the integer Z there
+                 • If a move takes you outside to the right of the square in the ith row, place the
+                    integer Z in the ith row at the left side
+                 • If a move takes you to an already filled square or if you move out of the square
+                    at the upper-right corner, place Z immediately below Z – 1.
+
+      (c)   By applying this algorithm, copy and complete the 5 × 5 magic square, which has been
+            started below. Do not write solutions on this page.                                       [5]
+
+                                                   1
+
+
+
+
+8814-7011                                                                                     Turn over
+                                                      –6–                 N14/4/COMSC/HP1/ENG/TZ0/XX
+
+12.   Three IB students are working on a programming project.  They have 10 days to complete
+      the work.  To plan the project activities and timeline they produce the following Gantt chart.
+
+      Project activity                                     Timeline in days
+                                   1      2       3      4    5       6     7       8      9       10
+      Define the problem
+      Design algorithms
+      Code the program
+      Design test data
+      Test and correct modules
+      Overall program test
+      Produce documentation
+
+      (a)   State two tasks students should perform to define a problem.                                [2]
+
+      (b)   Identify two tools or techniques that students could use to represent algorithms.           [1]
+
+      (c)   Discuss whether beta testing would be appropriate in this scenario.                         [3]
+
+      (d)   Outline three criteria that could be used when deciding which programming language is
+            to be used for coding.                                                                      [3]
+
+      (e)   From the Gantt chart above
+
+            (i)    identify two tasks that could be done concurrently;                                  [1]
+
+            (ii)   identify two tasks that should be done sequentially.                                 [1]
+
+      (f)   Explain why a Gantt chart may not be suitable for planning a large business project.        [4]
+
+
+
+
+8814-7011
+                                                   –7–                 N14/4/COMSC/HP1/ENG/TZ0/XX
+
+13.   An automated security system monitors a prison.
+
+      (a)   Suggest the sensors that could be used to detect any person crossing the perimeter.          [2]
+
+      A team of security guards patrols the perimeter of the prison at night.  The guards each carry a
+      device incorporating a GPS that links to the prison’s security system.
+
+      (b)   Outline a suitable output that would notify a guard that a prisoner has escaped.             [2]
+
+      The guards’ GPS devices transmit information to the security system.
+
+      (c)   Suggest the most suitable method for the transmission
+
+            (i)    between the perimeter’s sensors and the security system;                              [1]
+
+            (ii)   between the security system and the guards’ devices.                                  [1]
+
+      (d)   State one method of network security that could be used when transmitting the
+            GPS information.                                                                             [1]
+
+      (e)   Outline how this GPS information may be used once transmitted to the security system.        [2]
+
+      There are other situations where people may be required to carry GPS devices.
+
+      (f)   Discuss the ethical implications of insisting people carry GPS devices.                      [6]
+
+
+
+
+8814-7011                                                                                         Turn over
+                                                     –8–                  N14/4/COMSC/HP1/ENG/TZ0/XX
+
+14.   (a)   (i)    Describe, with the aid of a suitable diagram, a dynamic singly linked list.              [3]
+
+            (ii)   Explain how an item could be found in this list.                                         [3]
+
+      (b)   Consider the following binary tree.
+
+
+                                                   MARK
+
+
+                            ANNIE                                         ROBERT
+
+
+                                                     IVY
+
+
+                                   BORIS                              JANE
+
+
+            (i)    State the order in which data will be listed using postorder tree traversal.             [1]
+
+            (ii)   Identify the traversal which will return a list of names sorted in alphabetical order.   [1]
+
+      (c)   Describe how a name which is stored in a node with two children could be deleted from
+            the binary tree without changing the order of the remaining names.                              [4]
+
+      (d)   Compare the efficiency of finding a name in the binary tree with finding the same name
+            in a linked list.                                                                               [3]
+
+
+
+
+8814-7011
+

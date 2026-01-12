@@ -1,0 +1,548 @@
+N10/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+
+
+                   MARKSCHEME
+
+
+                      November 2010
+
+
+
+                COMPUTER SCIENCE
+
+
+                        Higher Level
+
+
+
+                               Paper 1
+
+
+
+
+14 pages
+                              –2–            N10/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+
+
+This markscheme is confidential and for the exclusive use of
+examiners in this examination session.
+
+It is the property of the International Baccalaureate and must not
+be reproduced or distributed to any other person without the
+authorization of IB Cardiff.
+                                                 –3–             N10/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+General Marking Instructions
+
+After marking a sufficient number of scripts to become familiar with the markscheme and
+candidates’ responses to all or the majority of questions, Assistant Examiners (AEs) will be
+contacted by their Team Leader (TL). The purpose of this contact is to discuss the standard
+of marking, the interpretation of the markscheme and any difficulties with particular questions.
+It may be necessary to review your initial marking after contacting your TL. DO NOT BEGIN
+THE FINAL MARKING OF YOUR SCRIPTS IN RED INK UNTIL YOU RECEIVE
+NOTIFICATION THAT THE MARKSCHEME IS FINALIZED. You will be informed by
+e-mail, fax or post of modifications to the markscheme and should receive these about one week
+after the date of the examination. If you have not received them within 10 days you should
+contact your TL and IB Cardiff. Make an allowance for any difference in time zone
+before calling. AEs WHO DO NOT COMPLY WITH THESE INSTRUCTIONS MAY
+NOT BE INVITED TO MARK IN FUTURE SESSIONS.
+
+
+You should contact the TL whose name appears on your “Allocation of Schools listing” sheet.
+
+
+Note:
+Please use a personal courier service when sending sample materials to TLs unless postal services can be
+guaranteed. Record the costs on your examiner claim form.
+                                                    –4–              N10/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+General Marking Instructions
+1.    Once markscheme is received mark in pencil until final markscheme is received.
+
+2.    Follow the markscheme provided, do not use decimals or fractions and mark only in RED.
+
+3.    Where a mark is awarded, a tick () should be placed in the text at the precise point where it
+      becomes clear that the candidate deserves the mark.
+
+4.    Sometimes, careful consideration is required to decide whether or not to award a mark. Indeed,
+      another examiner may have arrived at the opposite decision. In these cases write a brief annotation
+      in the left hand margin to explain your decision. You are encouraged to write comments where it
+      helps clarity, especially for moderation and re-marking.
+
+5.    Unexplained symbols or personal codes/notations on their own are unacceptable.
+
+6.    Record subtotals (where applicable) in the right-hand margin against the part of the answer to which
+      they refer. Show a mark for each part question (a), (b), etc. Do not circle sub-totals. Circle the total
+      mark for the question in the right-hand margin opposite the last line of the answer.
+
+7.    Where an answer to a part question is worth no marks, put a zero in the right-hand margin.
+
+8.    Section A: Add together the total for the section and write it in the Examiner Column on the cover
+                 sheet.
+      Section B: Record the mark awarded for each of the six questions answered in the Examiner
+                 Column on the cover sheet.
+      Total:     Add up the marks awarded and enter this in the box marked TOTAL in the Examiner
+                 Column on the cover sheet.
+
+9.    After entering the marks on the cover sheet check your addition of all marks to ensure that you have
+      not made an arithmetical error. Check also that you have transferred the marks correctly to the
+      cover sheet. We have script checking and a note of all clerical errors may be given in feedback
+      to all examiners.
+
+10.   Every page and every question must have an indication that you have marked it. Do this by writing
+      your initials on each page where you have made no other mark.
+
+11.   A candidate can be penalized if he/she clearly contradicts him/herself within an answer. Once again
+      make a comment to this effect in the left hand margin.
+                                                 –5–             N10/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+Subject Details:             Computer Science HL Paper 1 Markscheme
+Mark Allocation
+
+Section A:    Candidates are required to answer all questions. Total 40 marks.
+Section B:    Candidates are required to answer all questions. Total 60 marks.
+              Maximum total = 100 marks.
+
+General
+
+A markscheme often has more specific points worthy of a mark than the total allows. This is intentional.
+Do not award more than the maximum marks allowed for that part of a question.
+
+When deciding upon alternative answers by candidates to those given in the markscheme, consider the
+following points:
+
+      Each statement worth one point has a separate line and the end is signified by means of a
+        semi-colon (;).
+
+      An alternative answer or wording is indicated in the markscheme by a “/”; either wording can
+        be accepted.
+
+      Words in ( … ) in the markscheme are not necessary to gain the mark.
+
+      If the candidate’s answer has the same meaning or can be clearly interpreted as being the
+        same as that in the markscheme then award the mark.
+
+      Mark positively. Give candidates credit for what they have achieved and for what they have
+        got correct, rather than penalising them for what they have not achieved or what they have got
+        wrong.
+
+      Remember that many candidates are writing in a second language; be forgiving of minor
+        linguistic slips. In this subject effective communication is more important than grammatical
+        accuracy.
+
+     Occasionally, a part of a question may require a calculation whose answer is required for
+        subsequent parts. If an error is made in the first part then it should be penalized. However, if
+        the incorrect answer is used correctly in subsequent parts then follow through marks should
+        be awarded. Indicate this with “FT”.
+                                                   –6–               N10/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+                                               SECTION A                                   Total: [40 marks]
+
+1.   (a)   The process of replacing the old computer system by the new one / creating the
+           new computer system;
+           In the series of stages: analysis, design, development, implementation, maintenance;   [2 marks]
+
+     (b)   Analysis;                                                                               [1 mark]
+
+2.   Award [1 mark] for each of the following items in a labelled diagram, up to
+     [4 marks max].
+     Control unit (CU);
+     Arithmetic and Logic Unit (ALU);
+     Buses;
+     Primary memory;                                                                              [4 marks]
+
+3.   Award [1 mark] for each labelled symbol, up to [5 marks max].
+
+                        customer
+                        orders
+
+
+                       keyboard
+                       input
+
+                        file of
+                        customer
+                        orders
+
+
+
+                                    check/                 stock master file
+                                    search
+
+
+
+                           report
+                                                                                                  [5 marks]
+
+
+4.   Any example of using a device/computer for accessing information;
+     From some other computer to which it is connected;                                           [2 marks]
+
+
+5.   Award up to [2 marks max].
+     Word length;
+     Bus size;
+     Frequency;
+     Number of cores;
+     Cache size.
+                                                                                                  [2 marks]
+                                                  –7–             N10/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+6.    (a)   Award [1 mark] for whole part, [1 mark] for fraction part.
+            10100.1(2)                                                                   [2 marks]
+
+      (b)   A9(16) ;                                                                     [1 mark]
+
+
+7.    (a)   Award up to [1 mark max].
+            Greater range of numbers;
+            Better accuracy;
+            Accept answers for whole and fractional numbers.                             [1 mark]
+
+      (b)   Award up to [1 mark max].
+            No rounding/truncation errors;
+            Faster processing;
+            Accept answers for whole and fractional numbers.                             [1 mark]
+
+
+8.    (a)   Accumulator / special purpose register;                                      [1 mark]
+
+      (b)   The result of the operation;
+            The value to be stored in the memory location is too large/larger than the
+            largest value that can be stored in this memory location;                    [2 marks]
+
+
+9.    Award up to [2 marks max].
+      File manager;
+      Data compressor;
+      (Anti)virus software;
+      Defragmentation software;
+      Credit any acceptable alternatives.                                                [2 marks]
+
+
+10.   (a)   O(log2 n) / O(log n) / O(ln n) ;                                             [1 mark]
+
+      (b)   O(n2) ;                                                                      [1 mark]
+                                                   –8–                N10/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+11.   (a)   Award up to [1 mark max].
+            Source documents, data in a form of prepared source documents;
+            Data capture, data at source produced in machine sensible form (e.g. digital
+            photos, or temperature/humidity readings);                                          [1 mark]
+
+      (b)   Data can be transferred from the field to the central computer by using
+            telecommunication facilities;
+            Accept any appropriate example.                                                     [1 mark]
+
+      (c)   Example answer:
+            Data verification is a method of checking/ensuring that data at the source is the
+            same as inputted data;
+            Usually the user is involved, for example asked to retype data;
+            Data validation is performed by the software;
+            Checking the range, whether the type of data is correct etc.;                       [4 marks]
+
+
+12.   Example answers:
+      Encapsulation is the process of describing a class or object;
+      By hiding all details of how it was written/constructed;
+
+      Combination of private data and public methods;
+      That form an object/a single program unit;                                                [2 marks]
+
+
+13.   (a)   Award up to [1 mark max].
+            I/O interrupts;
+            Program checks interrupts (caused by run-time errors);
+            External interrupts (expiring of time, signal received from another process);
+            Malfunctioning hardware interrupts;
+            etc.                                                                                [1 mark]
+
+      (b)   Award [1 mark] for each step in correct order, up to [3 marks max].
+            Fetch;
+            Decode;
+            Execute;
+            Store;                                                                              [3 marks]
+                                                  –9–              N10/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+                                              SECTION B                                 Total: [60 marks]
+
+14.   (a)   Award [1 mark] for the name, [1 mark] for the example, up to [4 marks max].
+            Syntax errors;
+            Any example such as mistyping, omitting symbols;
+            Run-time errors;
+            Any example such as division by 0, out of bounds error, attempting to read
+            from a closed/missing file;
+            Logic errors;
+            Examples like using incorrect formula to calculate the area of a circle;              [4 marks]
+
+      (b)   Award [1 mark] for the name, [1 mark] for the description, up to [6 marks max].
+            Editor;
+            The software that enables programmers to enter/modify source code;
+            Translators (compiler/interpreter);
+            The software that translates source code into machine/object code;
+            Linker/linkage editor;
+            Software that puts appropriate machine addresses in all external calls, links all
+            modules;
+            Loader;
+            Software that takes appropriate machine code and loads instructions into their
+            specified storage locations;
+            Debugger;
+            Software that helps programmers to find logic errors;
+            etc.
+            Note: If only an IDE that includes many (if not all) of the software programs
+                  listed above without stating them, award also [1 mark] for the name and
+                  [1 mark] for a description.                                                     [6 marks]
+                                                                                        Total: [10 marks]
+
+
+15.   (a)   Award marks as follows up to [3 marks max].
+            Award [1 mark] for root.
+            Award [1 mark] for left subtree.
+            Award [1 mark] for right subtree.
+
+                                              6
+
+
+
+                              4                               8
+
+
+
+                    3                   5           7                   9
+
+            (Award [2 marks] for the correct mirror image, and follow through marks in
+            part (b).)                                                                            [3 marks]
+                                                                                                continued …
+                                                 – 10 –              N10/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+Question 15 continued
+
+     (b)   Award [2 marks] for correct sequence, [1 mark] for minor error.
+           6435879                                                                                [2 marks]
+
+     (c)   In-order traversal;                                                                    [1 mark]
+
+     (d)   Award up to [4 marks max].
+           For the list of n items;
+           The optimum efficiency of searching the BST is O(log2 n);
+           When input is ordered then the BST will have n levels;
+           And searching efficiency is O(n);
+           Same as efficiency of searching a linked list;
+
+           Example answer: (Please note that candidates may use any input list)
+
+           When n  4 and input items are: 3, 4, 5, 6;
+           Then the resulting BST will have 4 (n  4) levels / will not have the left subtree /
+           will look as follows:
+
+                          3
+
+
+                                       4
+
+
+                                                     5
+
+
+                                                                     6
+
+                                                                                                  [1 mark]
+           And searching has same efficiency as searching a linked list;                          [1 mark]
+
+           The efficiency is O(n);                                                                [1 mark]
+
+           If the items were not inputted in order, for example the input list is 5, 4, 6, 3
+           then the resulting BST would look as follows:
+
+                                                    5
+
+
+                                       4                         6
+
+
+
+                              3
+
+           And efficiency will be O(log2 n);                                                      [1 mark]
+                                                                                        Total: [10 marks]
+                                                 – 11 –            N10/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+16.   (a)   Award up to [2 marks max].
+            Each user should have a personal password;
+            Passwords should be regularly changed;
+            Each computer should have access rights depending on its location;
+            Computers should not be unattended;                                               [2 marks]
+
+      (b)   All data files should be backed up;
+            Backing up need to be performed daily/weekly;
+            In a case of corruption the most recent back up of the master file is loaded;
+            And updated using a file of all updates/changes/transactions that have occurred
+            from the last back-up;                                                            [4 marks]
+
+      (c)   Award up to [4 marks max].
+            Each user should have appropriate access rights;
+            Passwords should be encrypted;
+            File systems should be encrypted;
+            Administrator should record who has logged on from which computer and for
+            how long;
+            Administrator should record how many times a wrong password was typed in;         [4 marks]
+
+                                                                                       Total: [10 marks]
+                                                    – 12 –           N10/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+17.   (a)   (i)    A process that calls itself;                                                [1 mark]
+
+            (ii)   Advantages
+                   Award [1 mark] for advantage, [1 mark] for description.
+
+                   Example answers:
+                   Some problems have natural recursive solution;
+                   For example tree traversals, tower of Hanoi;
+
+                   Shorter for programmers to write;
+                   For example short recursive tree traversal compared to long, complicated
+                   iterative traversal;
+
+                   Disadvantages
+                   Award [1 mark] for disadvantage, [1 mark] for description.
+
+                   Example answers:
+                   Non-recursive solution could be more efficient;
+                   In terms of time and space;
+
+                   If recursion repeats too long, stack overflow can crash the program;
+                   Too many parameters and return addresses to be pushed onto the stack;      [4 marks]
+
+      (b)   (i)    w = mystery(2, 3) = 0                                                       [1 mark]
+
+            (ii)   w = mystery(2, 2) = 1 + mystery(0, 2) = 1 + 0 = 1                           [1 mark]
+
+            (iii) w = mystery(7, 3) = 1 + mystery(4, 3)
+                     = 1 + 1 + mystery(1, 3) = 1 + 1 + 0 = 2                                   [1 mark]
+
+      (c)   Award up to [2 marks max].
+            Accepts two integers (n and m);
+            Calculates;
+            And returns;
+            The result in integer division n / m;                                             [2 marks]
+
+                                                                                       Total: [10 marks]
+                                                     – 13 –          N10/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+18.   (a)   Award [3 marks] for the correct table.
+            Award [2 marks] for 6 or 7 correct rows.
+            Award [1 mark] for 4 or 5 correct rows.
+
+                   X         Y         Z       OUT
+                   0         0         0        0
+                   0         0         1        0
+                   0         1         0        0
+                   0         1         1        1
+                   1         0         0        1
+                   1         0         1        0
+                   1         1         0        1
+                   1         1         1        1
+
+            Note: When awarding marks be aware of the alternative solution. Given the
+                  nature of the question, it is quicker to complete the table in two parts – Z=0
+                  and Z=1 – which is unconventional but a possible correct solution.             [3 marks]
+
+      (b)   (i)    Award up to [2 marks max], [1 mark] for minor error.
+                   OUT  XYZ  XYZ  XYZ  XYZ                                                  [2 marks]
+
+            (ii)       XYZ  XYZ  XYZ  XYZ  (X  X) YZ  XZ (Y  Y)
+                        YZ  XZ
+
+                   OR
+                             X     X       X     X
+
+                       Z    1      1
+                                                          YZ  XZ
+                       Z    1                   1
+
+                             Y     Y       Y     Y
+
+                                                                                                [2 marks]
+
+      (c)   Award [1 mark] for each correct gate, up to [3 marks max].
+
+            X
+
+            Y
+
+
+
+            Z
+                                                                                                [3 marks]
+
+                                                                                        Total: [10 marks]
+                                                    – 14 –          N10/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+19.   (a)   Award [1 mark] for each correct column, up to [3 marks max].
+            N 8
+               c   c % 2 == 0      c < 8        p        s    output
+               1         F            T       1          0
+               2         T            T       1          2
+               3         F            T       3          2
+               4         T            T       3          6
+               5         F            T      15         6
+               6         T            T       15        12
+               7         F            T      105        12
+               8                      F                        s = 12
+                                                              p = 105
+                                                                                         [3 marks]
+
+      (b)   Calculates and outputs the sum of all even numbers;
+            The product of all odd numbers in the range 1 to (n – 1);                    [2 marks]
+
+      (c)   Award [2 marks] for three correct bold lines.
+            Award [1 mark] for two correct bold lines.
+            int n = 8;
+            int p = 1;
+            int s = 0;
+            int c = 1;
+            while (c < n)
+            {
+              if (c % 2 == 0)
+              { s = s + c; }
+              else
+              { p = p * c; }
+              c = c + 1;
+            }
+            output("s = " + s);
+            output("p = " + p);
+
+            Note: Be aware the alternative of
+                  c = 0; before the loop
+                   while (c < n – 1)
+                   c = c + 1; before if.                                                 [2 marks]
+
+      (d)   Award up to [2 marks max] for calculation of number of times operation is
+            executed, award [1 mark] for BigO notation.
+            Loop executes n  1 times;
+            There are (n  1)  (n  1) additions;
+            n  1 multiplications;
+            n  1 division by 2;
+            (n  1)  (n  1) comparison;
+            (n  1)  (n  1)  3 assignments
+
+            In BigO notation the efficiency is O(n)                                      [3 marks]
+
+                                                                                  Total: [10 marks]
+

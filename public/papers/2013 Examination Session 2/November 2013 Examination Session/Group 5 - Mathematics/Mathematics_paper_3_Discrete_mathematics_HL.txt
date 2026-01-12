@@ -1,0 +1,205 @@
+N13/5/MATHL/HP3/ENG/TZ0/DM
+
+
+
+
+     88137207
+
+mathematics
+Higher level
+Paper 3 – DISCRETE MATHEMATICS
+
+Tuesday 19 November 2013 (afternoon)
+
+1 hour
+
+
+instructions to candidates
+
+ Do not open this examination paper until instructed to do so.
+ Answer all the questions.
+ Unless otherwise stated in the question, all numerical answers should be given exactly or
+  correct to three significant figures.
+ A graphic display calculator is required for this paper.
+ A clean copy of the Mathematics HL and Further Mathematics SL information booklet is
+  required for this paper.
+ The maximum mark for this examination paper is [60 marks].
+
+
+
+
+8813-7207                                                                                       5 pages
+                                                        © International Baccalaureate Organization 2013
+                                                   –2–                 N13/5/MATHL/HP3/ENG/TZ0/DM
+
+Please start each question on a new page. Full marks are not necessarily awarded for a correct answer
+with no working. Answers must be supported by working and/or explanations. In particular, solutions
+found from a graphic display calculator should be supported by suitable working. For example, if graphs
+are used to find a solution, you should sketch these as part of your answer. Where an answer is incorrect,
+some marks may be given for a correct method, provided this is shown by written working. You are therefore
+advised to show all working.
+
+1.    [Maximum mark: 7]
+
+      The following diagram shows a weighted graph.
+
+                                                     4         C
+                                          B
+
+                              5                                             10
+                                               1
+                A                  2                                                   D
+                                                    G                       12
+
+                                                                   7                   5
+                       6
+                                                    3                              E
+
+
+                              H                                         9
+                                          11
+                                                         F
+
+      (a)   Use Kruskal’s algorithm to find a minimum spanning tree, clearly showing the order in
+            which the edges are added.                                                                [5]
+
+      (b)   Sketch the minimum spanning tree found, and write down its weight.                        [2]
+
+
+
+
+8813-7207
+                                                     –3–                  N13/5/MATHL/HP3/ENG/TZ0/DM
+
+2.    [Maximum mark: 11]
+
+      The following figure shows the floor plan of a museum.
+
+
+
+
+            11            10          9          1               8                  7               6
+
+
+
+
+            12                 13                                2            3         4           5
+
+                                              entrance
+                                               foyer
+
+
+
+      (a)   (i)    Draw a graph G   that represents the plan of the museum where each exhibition
+                   room is represented by a vertex labelled with the exhibition room number and each
+                   door between exhibition rooms is represented by an edge.   Do not consider the
+                   entrance foyer as a museum exhibition room.
+
+            (ii)   Write down the degrees of the vertices that represent each exhibition room.
+
+            (iii) Virginia enters the museum through the entrance foyer.   Use your answers to
+                  (i) and (ii) to justify why it is possible for her to visit the thirteen exhibition rooms
+                  going through each internal doorway exactly once.                                           [4]
+
+
+
+
+                                                              (This question continues on the following page)
+
+
+
+
+8813-7207                                                                                               Turn over
+                                                       –4–                N13/5/MATHL/HP3/ENG/TZ0/DM
+
+(Question 2 continued)
+
+      (b)   Let G and H be two graphs whose adjacency matrices are represented below.
+
+                                       G                                        H
+
+                         A    B    C       D   E   F              P   Q     R       S   T   U
+                    A    0    2    0       2   0   0         P    0   1     3       0   1   2
+                    B    2    0    1       1   0   1         Q    1   0     1       3   2   0
+                    C    0    1    0       1   2   1         R    3   1     0       2   1   3
+                    D    2    1    1       0   2   0         S    0   3     2       0   2   0
+                    E    0    0    2       2   0   2         T    1   2     1       2   0   1
+                    F    0    1    1       0   2   0         U    2   0     3       0   1   0
+
+            Using the adjacency matrices,
+
+            (i)    find the number of edges of each graph;
+
+            (ii)   show that exactly one of the graphs has a Eulerian trail;
+
+            (iii) show that neither of the graphs has a Eulerian circuit.                                     [7]
+
+
+3.    [Maximum mark: 15]
+
+      Consider an integer a with (n + 1) digits written as a = 10n an + 10n −1 an −1 +…+ 10 a1 + a0 , where
+      0 ≤ ai ≤ 9 for 0 ≤ i ≤ n , and an ≠ 0 .
+
+      (a)   Show that a ≡ (an + an−1 +…+ a0 ) (mod9) .                                                        [3]
+
+      (b)   Hence find all pairs of values of the single digits  x and y such that the number
+            a = 476 x 212 y is a multiple of 45.                                                              [6]
+
+      (c)   (i)    If b = 34390 in base 10, show that  b is 52151 written in base 9.
+
+            (ii)   Hence find b 2 in base 9, by performing all the calculations without changing base.        [6]
+
+
+
+
+8813-7207
+                                                         –5–                     N13/5/MATHL/HP3/ENG/TZ0/DM
+
+4.    [Maximum mark: 14]
+
+      The following diagram shows a weighted graph G with vertices A, B, C, D and E.
+
+                                                         A
+
+
+                                                9                    5
+                                                    4        6
+
+                                                         5
+                                    E                                            B
+
+                                        8           10           8           6
+
+
+                                            D            7               C
+
+
+      (a)   Show that graph G is Hamiltonian.  Find the total number of Hamiltonian cycles in  G ,
+            giving reasons for your answer.                                                               [3]
+
+      (b)   State an upper bound for the travelling salesman problem for graph G .                        [1]
+
+      (c)   Use Prim’s algorithm to draw a minimum spanning tree for the subgraph obtained by
+            deleting C from G .                                                                           [5]
+
+      (d)   Hence find a lower bound for the travelling salesman problem for G .                          [2]
+
+      (e)   Show that the lower bound found in (d) cannot be the length of an optimal solution for the
+            travelling salesman problem for the graph G .                                                 [3]
+
+
+5.    [Maximum mark: 13]
+
+      (a)   Show that 30 is a factor of n5 − n for all n ∈  .                                            [5]
+
+                                m
+      (b)   (i)    Show that 33 ≡ 3(mod 4) for all m ∈  .
+
+            (ii)   Hence showm thatn there is exactly one pair (m , n) where m , n ∈  , satisfying the
+                   equation 33 = 22 + 52 .                                                                [8]
+
+
+
+
+8813-7207
+

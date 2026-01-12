@@ -1,0 +1,215 @@
+N14/4/COMSC/SP1/ENG/TZ0/XX
+
+
+
+
+       88147014
+
+Computer science
+Standard level
+Paper 1
+
+Monday 17 November 2014 (afternoon)
+
+1 hour 30 minutes
+
+
+INSTRUCTIONS TO CANDIDATES
+
+   Do not open this examination paper until instructed to do so.
+   Section A: answer all questions.
+   Section B: answer all questions.
+   The maximum mark for this examination paper is [70 marks].
+
+
+
+
+8814-7014                                                                                            6 pages
+                                                             © International Baccalaureate Organization 2014
+                                                     –2–                N14/4/COMSC/SP1/ENG/TZ0/XX
+
+                                              SECTION A
+
+Answer all questions.
+
+1.    Outline two characteristics of spreadsheets.                                                 [2]
+
+
+2.    Outline the function of the
+
+      (a)   ALU;                                                                                   [1]
+
+      (b)   CU.                                                                                    [1]
+
+
+3.    Outline the relationship between binary and hexadecimal.                                     [2]
+
+
+4.    (a)   Define the term computer network.                                                      [1]
+
+      (b)   Identify a type of network that would allow secure access from an employee’s home to
+            their company’s LAN.                                                                   [1]
+
+      (c)   Outline two benefits and two problems of employees working from home.                  [4]
+
+
+5.    Construct the truth table for the following Boolean expression.
+
+                                    X = not A and B or A and not B                                 [4]
+
+
+6.    State three advantages of using sub-programs in solving programming problems.                [3]
+
+
+
+
+8814-7014
+                                                   –3–                  N14/4/COMSC/SP1/ENG/TZ0/XX
+
+7.    Consider the following algorithm.
+
+
+                                              begin
+
+
+
+                                              K=3
+                                              P=1
+
+
+
+
+                             No                             Yes
+                                              K>1
+
+
+
+                  output P                                     output K
+
+
+
+                                                                  K = K −1
+                                                                  P = P×K
+                    end
+
+
+
+
+      Trace the algorithm and show the outputs that will be produced.                           [3]
+
+
+8.    (a)   Define the term protocol.                                                           [1]
+
+      (b)   Outline why protocols are necessary.                                                [2]
+
+
+
+
+8814-7014                                                                                 Turn over
+                                                    –4–                N14/4/COMSC/SP1/ENG/TZ0/XX
+
+                                                  SECTION B
+
+Answer all questions.
+
+9.    A customer buys an item in a small local shop and pays with a credit card. The sales transaction
+      data is input to a computer at the point of sale. Prices are downloaded every morning from
+      a central computer at the company headquarters.   The credit card is verified with the card
+      authorization centre and then the receipt is printed.
+
+      (a)   Draw and label a system flow chart to represent this process in the shop.                    [5]
+
+      At the end of the day the sales transaction data is sent to the central computer at the
+      company headquarters.
+
+      (b)   Describe the processing that should be carried out at the company headquarters.              [2]
+
+      All programs and data should be protected from theft, destruction, manipulation and alteration
+      in this process.
+
+      (c)   Identify three causes of data loss.                                                          [3]
+
+      (d)   Describe why data loss is a more serious problem than the loss of software or hardware
+            for a sales company.                                                                         [3]
+
+      (e)   Identify two methods of preventing data loss.                                                [2]
+
+
+
+
+8814-7014
+                                                      –5–                 N14/4/COMSC/SP1/ENG/TZ0/XX
+
+10.   Three IB students are working on a programming project. They have 10 days to complete
+      the work. To plan the project activities and timeline they produce the following Gantt chart.
+
+      Project activity                                     Timeline in days
+                                   1      2       3      4    5       6     7       8      9       10
+      Define the problem
+      Design algorithms
+      Code the program
+      Design test data
+      Test and correct modules
+      Overall program test
+      Produce documentation
+
+      (a)   State two tasks students should perform to define a problem.                                [2]
+
+      (b)   Identify two tools or techniques that students could use to represent algorithms.           [1]
+
+      (c)   Discuss whether beta testing would be appropriate in this scenario.                         [3]
+
+      (d)   Outline three criteria that could be used when deciding which programming language is
+            to be used for coding.                                                                      [3]
+
+      (e)   From the Gantt chart above
+
+            (i)    identify two tasks that could be done concurrently;                                  [1]
+
+            (ii)   identify two tasks that should be done sequentially.                                 [1]
+
+      (f)   Explain why a Gantt chart may not be suitable for planning a large business project.        [4]
+
+
+
+
+8814-7014                                                                                       Turn over
+                                                    –6–                 N14/4/COMSC/SP1/ENG/TZ0/XX
+
+11.   Consider the array NUMBERS.
+
+                       NUMBERS
+                                   [0]      [1]      [2]      [3]      [4]       [5]
+
+                                  3.12    43.20    12.45    78.43    13.50       43.67
+
+
+      (a)   (i)    Identify the consequence of attempting to output NUMBERS[6].                        [1]
+
+            (ii)   Describe a method of preventing the problem in part (a)(i).                         [2]
+
+      (b)   Construct the algorithm that will output the average of all values in the array NUMBERS.   [4]
+
+      The method minPos() determines the index of the smallest value in an array.
+      The method maxPos()determines the index of the largest value in an array. For example,
+      NUMBERS.maxPos() is 3.
+
+      Consider the following algorithm fragment.
+
+      S=NUMBERS.minPos()
+      L=NUMBERS.maxPos()
+      T=NUMBERS[S]
+      NUMBERS[S]=NUMBERS[L]
+      NUMBERS[L]=T
+
+      (c)   (i)    Show the contents of the array NUMBERS after the algorithm is applied.              [2]
+
+            (ii)   Deduce the purpose of the algorithm.                                                [2]
+
+      (d)   Construct the algorithm for the method maxPos().                                           [4]
+
+
+
+
+8814-7014
+

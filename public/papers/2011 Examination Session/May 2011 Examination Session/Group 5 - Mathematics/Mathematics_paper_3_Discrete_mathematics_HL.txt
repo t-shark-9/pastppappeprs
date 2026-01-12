@@ -1,0 +1,148 @@
+M11/5/MATHL/HP3/ENG/TZ0/DM
+
+
+
+
+     22117207
+
+mathematics
+Higher level
+Paper 3 – DISCRETE MATHEMATICS
+
+Monday 9 May 2011 (morning)
+
+1 hour
+
+
+instructions to candidates
+
+ Do not open this examination paper until instructed to do so.
+ Answer all the questions.
+ Unless otherwise stated in the question, all numerical answers must be given exactly or correct
+  to three significant figures.
+
+
+
+
+2211-7207                                                                                           4 pages
+                                                            © International Baccalaureate Organization 2011
+                                                    –2–                 M11/5/MATHL/HP3/ENG/TZ0/DM
+
+Please start each question on a new page. Full marks are not necessarily awarded for a correct answer with
+no working. Answers must be supported by working and/or explanations. In particular, solutions found
+from a graphic display calculator should be supported by suitable working, e.g. if graphs are used to find
+a solution, you should sketch these as part of your answer. Where an answer is incorrect, some marks may
+be given for a correct method, provided this is shown by written working. You are therefore advised to show
+all working.
+
+1.    [Maximum mark: 13]
+
+      (a)   Use the Euclidean algorithm to find the greatest common divisor of the numbers
+            56 and 315.                                                                           [4 marks]
+
+      (b)   (i)    Find the general solution to the diophantine equation 56x + 315y = 21 .
+
+            (ii)   Hence or otherwise find the smallest positive solution to the congruence
+                   315x ≡ 21 (modulo 56) .                                                        [9 marks]
+
+
+
+2.    [Maximum mark: 7]
+
+      The complete graph  H has the following cost adjacency matrix.
+
+                                       A     B      C      D      E
+                                A       –    19     17     10     15
+                                B      19     –     11     16     13
+                                C      17    11      –     14     13
+                                D      10    16     14      –     18
+                                E      15    13     13     18     –
+
+      Consider the travelling salesman problem for  H .
+
+      (a)   By first finding a minimum spanning tree on the subgraph of  H formed
+            by deleting vertex A and all edges connected to A, find a lower bound for
+            this problem.                                                                         [5 marks]
+
+      (b)   Find the total weight of the cycle ADCBEA.                                             [1 mark]
+
+      (c)   What do you conclude from your results?                                                [1 mark]
+
+
+3.    [Maximum mark: 12]
+
+      (a)   Given that a , b ∈  and c ∈  +, show that if a ≡ 1(mod c) , then ab ≡ b (mod c) .   [2 marks]
+
+      (b)   Using mathematical induction, show that 9n ≡ 1 (mod 4) , for n ∈  .                  [6 marks]
+
+      (c)   The positive integer  M is expressed in base 9.  Show that  M  is divisible by 4 if
+            the sum of its digits is divisible by 4.                                              [4 marks]
+
+
+2211-7207
+                                                     –3–                  M11/5/MATHL/HP3/ENG/TZ0/DM
+
+4.    [Maximum mark: 18]
+
+      The diagram below shows the graph  G  with vertices A, B, C, D, E and F.
+
+
+                             A                                        B
+
+
+
+
+                                                 C
+
+
+
+
+                             D                                        E
+
+
+
+                                                                      F
+
+      (a)   (i)    Determine if any Hamiltonian cycles exist in  G .  If so, write one down.  
+                   Otherwise, explain what feature of  G  makes it impossible for a Hamiltonian
+                   cycle to exist.
+
+            (ii)   Determine if any Eulerian circuits exist in  G .   If so, write one down.  
+                   Otherwise, explain what feature of  G  makes it impossible for an Eulerian
+                   circuit to exist.                                                              [4 marks]
+
+      (b)   (i)    Write down the adjacency matrix for  G .
+
+            (ii)   Find the pair of distinct vertices that are linked by the smallest number of
+                   walks of length 5.
+
+            (iii) Write down four of these walks.
+
+            (iv) Identify the vertex that is linked to itself by the largest number of walks of
+                 length 5.                                                                        [7 marks]
+
+      (c)   Prove that no more than 3 edges can be added to  G while keeping it planar
+            and simple.                                                                           [4 marks]
+
+      (d)   Given that G′ (the complement of  G ) is planar, find the number of faces in G′.      [3 marks]
+
+
+
+
+2211-7207                                                                                         Turn over
+                                                   –4–                M11/5/MATHL/HP3/ENG/TZ0/DM
+
+5.    [Maximum mark: 10]
+
+      (a)   Explaining your method fully, determine whether or not 1189 is a prime number.     [4 marks]
+
+      (b)   (i)    State the fundamental theorem of arithmetic.
+
+            (ii)   The positive integers  M and N  have greatest common divisor  G and least
+                   common multiple  L .  Show that GL = MN .                                   [6 marks]
+
+
+
+
+2211-7207
+

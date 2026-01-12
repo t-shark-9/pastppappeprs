@@ -1,0 +1,175 @@
+M13/5/MATHL/HP3/ENG/TZ0/SE
+
+
+
+
+     22137208
+
+mathematics
+Higher level
+Paper 3 – SERIES AND DIFFERENTIAL EQUATIONS
+
+Tuesday 21 May 2013 (afternoon)
+
+1 hour
+
+
+instructions to candidates
+
+ Do not open this examination paper until instructed to do so.
+ Answer all the questions.
+ Unless otherwise stated in the question, all numerical answers should be given exactly or
+  correct to three significant figures.
+ A graphic display calculator is required for this paper.
+ A clean copy of the Mathematics HL and Further Mathematics SL information booklet is
+  required for this paper.
+ The maximum mark for this examination paper is [60 marks].
+
+
+
+
+2213-7208                                                                                       4 pages
+                                                        © International Baccalaureate Organization 2013
+                                                         –2–                       M13/5/MATHL/HP3/ENG/TZ0/SE
+
+Please start each question on a new page. Full marks are not necessarily awarded for a correct answer
+with no working. Answers must be supported by working and/or explanations. In particular, solutions
+found from a graphic display calculator should be supported by suitable working. For example, if graphs
+are used to find a solution, you should sketch these as part of your answer. Where an answer is incorrect,
+some marks may be given for a correct method, provided this is shown by written working. You are therefore
+advised to show all working.
+
+1.    [Maximum mark: 9]
+
+      The Taylor series of    x about x = 1 is given by
+
+                              a0 + a1 ( x − 1) + a2 ( x − 1) 2 + a3 ( x − 1)3 +…
+
+      (a)   Find the values of a0 , a1 , a2 and a3 .                                                  [6 marks]
+
+
+                                                                x −1
+      (b)   Hence, or otherwise, find the value of lim               .                                [3 marks]
+                                                         x→1   x −1
+
+
+
+2.    [Maximum mark: 15]
+
+                                            dy
+      Consider the differential equation       + y tan x = cos 2 x , given that y = 2 when x = 0 .
+                                            dx
+
+      (a)   Use Euler’s method with a step length of 0.1 to find an approximation to the
+            value of y when x = 0.3 .                                                                 [5 marks]
+
+      (b)   (i)    Show that the integrating factor for solving the differential equation is
+                   sec x.
+
+            (ii)   Hence solve the differential equation, giving your answer in the form
+                   y = f ( x).                                                                       [10 marks]
+
+
+
+
+3.    [Maximum mark: 11]
+
+                                    ∞
+                                         n2 n
+      Consider the infinite series ∑       n
+                                             x.
+                                    n =1 2
+
+
+      (a)   Find the radius of convergence.                                                           [4 marks]
+
+      (b)   Find the interval of convergence.                                                         [3 marks]
+
+      (c)   Given that x = − 0.1, find the sum of the series correct to three significant figures.    [4 marks]
+
+
+2213-7208
+                                                          –3–                     M13/5/MATHL/HP3/ENG/TZ0/SE
+
+4.    [Maximum mark: 11]
+
+                          1                                                                           [3 marks]
+      (a)   Express             in partial fractions.
+                      r (r + 2)
+
+                       n
+                                1
+      (b)   Let S n = ∑               .
+                      r =1 r ( r + 2)
+
+
+
+                                     an 2 + bn
+            (i)    Show that S n =                 , where a and b are positive integers whose
+                                  4(n + 1) (n + 2)
+                   values should be determined.
+
+            (ii)   Write down the value of lim S n .                                                  [8 marks]
+                                                n→∞
+
+
+
+
+5.    [Maximum mark: 14]
+
+      (a)
+                              y
+
+
+
+
+                              0           a–1         a    a+1                       x
+                                                      Figure 1
+
+                                                          1
+            Figure 1 shows part of the graph of y =         together with line segments parallel
+                                                          x
+            to the coordinate axes.
+
+            (i)    By considering the areas of appropriate rectangles, show that
+
+                                            2a + 1         a + 1  2a − 1
+                                                     < ln        <          .
+                                           a (a + 1)       a − 1  a (a − 1)
+
+            (ii)   Hence find lower and upper bounds for ln (1.2) .                                   [9 marks]
+
+                                                                 (This question continues on the following page)
+
+2213-7208                                                                                            Turn over
+                                                    –4–                  M13/5/MATHL/HP3/ENG/TZ0/SE
+
+(Question 5 continued)
+
+      (b)
+                            y
+
+
+
+
+                            0         a–1                a                  x
+                                                 Figure 2
+
+            An improved upper bound can be found by considering Figure 2 which again
+                                          1
+            shows part of the graph of y = .
+                                          x
+
+            (i)    By considering the areas of appropriate regions, show that
+
+                                                 a       2a − 1
+                                             ln        <           .
+                                                 a − 1  2a (a − 1)
+
+            (ii)   Hence find an upper bound for ln (1.2) .                                [5 marks]
+
+
+
+
+2213-7208
+

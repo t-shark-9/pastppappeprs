@@ -1,0 +1,423 @@
+M13/3/ITGSX/HP1/ENG/TZ0/XX
+
+
+
+
+     22135511
+
+Information technology in a global society
+HIGHER LEVEL
+PAPER 1
+
+Tuesday 14 May 2013 (afternoon)
+
+2 hours 15 minutes
+
+
+INSTRUCTIONS to candidates
+
+   Do not open this examination paper until instructed to do so.
+   Section A: answer two questions.
+   Section B: answer one question.
+   Section C: answer one question.
+   Each question is worth [20 marks].
+   The maximum mark for this examination paper is [80 marks].
+
+
+
+
+2213-5511                                                                                           13 pages
+                                                             © International Baccalaureate Organization 2013
+                                                               –2–                       M13/3/ITGSX/HP1/ENG/TZ0/XX
+
+                                                          SECTION A
+
+Answer two questions. Each question is worth [20 marks].
+
+1.      Libraries and e-book loans
+
+        Many libraries around the world are offering electronic books for loan. In some cases you need to
+        check via the e-book reader web page and in others you will need to be a registered member at the
+        library and sign in with a current account into the library website.
+
+
+
+
+     [Source: http://cdn1.sbnation.com/entry_photo_images/2117175/prs-t1_large_verge_medium_landscape.jpg. Used with permission.]
+
+
+
+        The loan systems are able to set the length of the loan period depending on the type of book and
+        how popular it is. The e-book is downloaded to the borrower’s e-book reader. At the end of the loan
+        period some libraries will allow users to check out the books again just like a regular book. When the
+        loan period has expired the book will no longer be available on the user’s reading device.
+
+        Libraries may have a limited number of licences for some e-books. Users can make a reservation for
+        an e-book that is not currently available and when it is “returned” they will receive a notification and
+        will be able to borrow it for the assigned period of time.
+
+        The library lending system is based on a relational database.
+
+
+        (a)    (i)    Identify the steps a new library user must follow to log in to the library and “borrow”
+                      an e-book.                                                                                                    [4]
+
+               (ii)   When e-books are purchased by the library it needs to record information about
+                      them in the relational database. All books require ISBN, publisher information,
+                      author and title. State two pieces of additional information that a library would
+                      need to record about an e-book.                                                                               [2]
+
+                                                                         (This question continues on the following page)
+
+2213-5511
+                                                   –3–                 M13/3/ITGSX/HP1/ENG/TZ0/XX
+
+(Question 1 continued)
+
+      (b)   (i)   Some e-book readers use a proprietary file format, others use generic file formats.
+                  Explain one advantage for the company who produces and sells the e-books of
+                  using a proprietary format.                                                           [2]
+
+		(ii)            Explain why a relational database has been chosen as the basis of the
+                  lending system.                                                                       [4]
+
+      (c)   A school library has introduced the loan of e-books. Discuss the impact on the students.    [8]
+
+
+
+
+2213-5511                                                                                       Turn over
+                                                       –4–                 M13/3/ITGSX/HP1/ENG/TZ0/XX
+
+2.    E-waste – recycling and carbon footprint
+
+      Abaco Publishing & Design wants to reduce its carbon footprint in two ways:
+       by replacing its existing electronic equipment with more energy efficient devices
+       by recycling its e-waste.
+
+      The environmental manager at the company has requested information on the equipment they have
+      at the office and is using information that Apple Inc. has published on its website.
+
+      The following table and graph were created using spreadsheet software.
+      The table lists the equipment found in the office area being evaluated (human resources).
+       Cell A3 has the name of the equipment (“60 watt light bulb”).
+       Cell B3 has the CO2 emission for each light bulb (“48.4”).
+       Cell C3 shows the number of light bulbs in the area (“8”).
+       Cell D3 calculates the total CO2 emission of the 8 light bulbs.
+
+                            A                 B                           C                      D
+            1    Area: human resources (HR)
+            2     Type of equipment     CO2 emissions          Number available in Total CO2 emissions
+                                       (grams per unit)              area                (grams)
+            3    60 watt light bulb         48.4                       8                         387.2
+            4    13 watt light bulb         10.5                       4                          42.0
+            5    2010 MacBook                9.0                       4                          36.0
+            6    2010 Mac Mini               7.6                       2                          15.2
+            7    2010 Apple TV               1.3                       3                            3.9
+            8                                                 TOTAL CO2 emissions                484.3
+
+
+      (a)       (i)   State the formula needed to calculate the value in D3.                              [1]
+
+		(ii)                State the formula needed to calculate the value in D8.                              [1]
+
+
+
+
+                                                               (This question continues on the following page)
+
+
+
+
+2213-5511
+                                                     –5–                 M13/3/ITGSX/HP1/ENG/TZ0/XX
+
+(Question 2 continued)
+
+             (iii) Identify the steps required by the user to produce the chart below.                  [4]
+
+                                                  Total CO2 emissions
+            450.0
+                        387.2
+            400.0
+
+            350.0
+
+            300.0
+
+            250.0
+
+            200.0
+
+            150.0
+
+            100.0
+                                        42.0            36.0
+             50.0
+                                                                        15.2             3.9
+              0.0
+                       60 watt        13 watt          2010           2010             2010
+                     light bulb      light bulb       MacBook        Mac Mini        Apple TV
+
+
+      (b)    It is generally desirable to recycle e-waste. Explain three effects of the irresponsible
+             disposal of e-waste.                                                                       [6]
+
+      (c)    To what extent can a government encourage the responsible disposal and recycling of
+             IT equipment?                                                                              [8]
+
+
+
+
+2213-5511                                                                                       Turn over
+                                                         –6–                       M13/3/ITGSX/HP1/ENG/TZ0/XX
+
+3.    Patient monitoring
+
+      A hospital is implementing a medical IT system to monitor the vital signs of patients. Monitoring of
+      vital signs, such as body temperature, can provide health care professionals with up to date information
+      about a patient’s medical condition, inform of unusual situations and possibly help avoid serious
+      health consequences.
+
+
+
+
+                        [Source: http://sreemonitoring.com/IntellivueMP40andMP50.html, 12 September 2011]
+
+
+      (a)   (i)    State two vital signs, other than body temperature, that can be monitored using
+                   IT systems to inform doctors of the condition of a patient undergoing surgery.           [2]
+
+            (ii)   Identify the steps taken by an IT monitoring system to detect when a sign or
+                   condition is abnormal and the patient requires special attention.                        [4]
+
+      (b)   Analyse the implications for doctors when the hospital implements new patient
+            monitoring equipment for health care.                                                           [6]
+
+      (c)   Training will be provided by the hospital for staff to use the new IT patient
+            monitoring system. It was decided to use a combination of online training and practical
+            hands-on training. Justify this decision.                                                       [8]
+
+
+
+
+2213-5511
+              –7–        M13/3/ITGSX/HP1/ENG/TZ0/XX
+
+
+
+
+            Blank page
+
+
+
+
+2213-5511                                  Turn over
+                                                             –8–                      M13/3/ITGSX/HP1/ENG/TZ0/XX
+
+                                                        SECTION B
+
+Answer one question. Each question is worth [20 marks].
+
+4.     Information systems management
+
+       Queen Bee Global Enterprises Inc. has grown rapidly over the last 5 years.
+
+       Currently each department has complete independence in the way that they manage their respective
+       IT requirements. Some departments have bought commercial packages and adapted them to suit their
+       needs, while others developed applications using widely available office software. This has led to a
+       range of problems.
+
+       The information systems manager has recently recommended that new centralized IT systems should
+       be implemented in order to reduce costs, improve efficiency and facilitate maintenance.
+
+       At the moment, the information systems manager is not part of the senior management team that
+       makes the decisions about implementing IT systems. His department is expected to grow significantly
+       over the next two years.
+
+       The senior management team is considering the possibility of making the information systems
+       manager a member of the team.
+
+
+
+
+                                                                         Chairman
+
+       Senior
+     management
+        team
+                                                              Human
+                                     Finance                 resources              Marketing          Manufacturing
+                                     director                 director               director            director
+
+
+
+
+     Department        Information                                                              Consumer               Industrial
+                                                  Chief
+      managers           systems                                                                products                products
+                                                accountant
+                         manager                                                                 manager               manager
+
+
+
+
+                                                                         (This question continues on the following page)
+
+
+
+
+2213-5511
+                                                   –9–                  M13/3/ITGSX/HP1/ENG/TZ0/XX
+
+(Question 4 continued)
+
+      (a)   (i)   Identify three responsibilities of a typical information systems manager.           [3]
+
+		(ii)            State the job titles of three of the specialist staff who typically report to an
+                  information systems manager.                                                        [3]
+
+      (b)   In the past, Queen Bee Enterprises Inc. valued staff who showed initiative.
+            However, this led to the development of independent IT systems by different departments
+            in the company.
+
+            Explain the problems that may arise when departments are given freedom to develop
+            independent IT systems.                                                                   [6]
+
+      (c)   The senior management team of Queen Bee Enterprises Inc. has decided to include the
+            information systems manager in the team.
+
+            To what extent is it an advantage to have an information systems manager as part of the
+            senior management team?                                                                   [8]
+
+
+
+
+2213-5511                                                                                     Turn over
+                                                               – 10 –                    M13/3/ITGSX/HP1/ENG/TZ0/XX
+
+5.    IT system development
+
+      A company has ordered a new IT system from a software development company. During the initial
+      investigations and consultations, the developers produce prototypes of the proposed system which
+      demonstrate the user interfaces that will be produced for the system.
+
+      Once agreement has been reached, a project plan is developed.
+
+
+      (a)   (i)       With reference to systems development, define the term prototype.                               [2]
+
+            (ii)      Describe two essential components of any project plan.                                          [4]
+
+      (b)   The design of user-friendly interfaces is a major part of any new system development
+            project. Below are examples of two different types of interface.
+
+            Contrast the usability of the two interfaces shown here.                                                  [6]
+
+            Interface A
+
+
+
+
+                   [Source: http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterInterfaces.aspx, 20 August 2011]
+
+
+
+
+                                                                         (This question continues on the following page)
+
+
+
+
+2213-5511
+                                                         – 11 –                   M13/3/ITGSX/HP1/ENG/TZ0/XX
+
+(Question 5 continued)
+
+            Interface B
+
+
+
+
+            [Source: http://upload.wikimedia.org/wikipedia/commons/1/1c/Iphone42_Nokia_Lumia920_samsungs3.jpg]
+
+
+      (c)   With reference to examples you have studied, to what extent does the successful
+            implementation of a new IT system depend on regular consultation between
+            the developers, clients and end-users?                                                                     [8]
+
+
+
+
+2213-5511                                                                                                        Turn over
+                                                             – 12 –                    M13/3/ITGSX/HP1/ENG/TZ0/XX
+
+                                                        SECTION C
+
+Answer one question. Each question is worth [20 marks].
+
+6.    Speech to text software
+
+      Many television programmes are supplied with subtitles to help viewers who have hearing problems.
+      If the programme is being broadcast live, such as in a news interview, speech recognition software
+      is often used to produce the subtitles as quickly as possible. This usually involves a process called
+      re-speaking, in which an operator repeats the words said by those being interviewed and speech to
+      text software generates the subtitles.
+
+      The software and the speaker both have to be trained in order to get the most accurate results.
+      Even so, mistakes often occur. “Recognize speech” can easily be represented as “wreck a nice peach”.
+
+
+
+
+            [Source: http://www.thehumorblog.com/funny-subtitles-wrong-words/474/, 20 August 2011 Gwydion M. Williams]
+
+
+      (a)     Identify six steps that speech recognition systems must go through in converting speech
+              into text.                                                                                                 [6]
+
+      (b)     Explain why subtitling software works better when re-speaking is used rather than using
+              the original voices of the people being interviewed.                                                       [6]
+
+      (c)     To what extent will the use of speech to text software be a feature of future
+              IT systems?                                                                                                [8]
+
+
+
+
+2213-5511
+                                                      – 13 –                     M13/3/ITGSX/HP1/ENG/TZ0/XX
+
+7.    Robotic vacuum cleaners
+
+      A robotic vacuum cleaner is advertised as having:
+       Visionary Mapping technology
+       38 intelligent sensors
+       auto recharge and resume cleaning
+       6 cleaning modes – auto, max, manual, spot, edge, delay, daily schedule
+       90 minutes running time, 120 minutes charging time.
+
+
+
+
+                          [Source: http://commons.wikimedia.org/wiki/File:Robot_vacuum_cleaner.jpg]
+
+
+      (a)   (i)   Identify three sensors that would be useful on a robotic vacuum cleaner.              [3]
+
+		(ii)            Identify three output devices that would be useful on a robotic vacuum cleaner.       [3]
+
+      (b)   Explain how expert systems can be used to help the manufacturer develop the next
+            generation of robotic vacuum cleaners.                                                      [6]
+
+      (c)   Considerable research is taking place into the development of humanoid/android robots
+            to carry out a range of tasks that are currently carried out by humans.
+
+            To what extent is the future of robotics likely to be more about single purpose devices
+            such as a vacuum cleaner rather than humanoid/android robots?                               [8]
+
+
+
+
+2213-5511
+

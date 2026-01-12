@@ -1,0 +1,321 @@
+N11/5/COMSC/HP1/ENG/TZ0/XX
+
+
+
+
+     88117011
+
+Computer science
+HIGHER level
+Paper 1
+
+Thursday 17 November 2011 (afternoon)
+
+2 hours 15 minutes
+
+
+INSTRUCTIONS TO CANDIDATES
+
+ Do not open this examination paper until instructed to do so.
+ Section A: answer all the questions.
+ Section B: answer all the questions.
+
+
+
+
+8811-7011                                                                                          7 pages
+                                                           © International Baccalaureate Organization 2011
+                                                      –2–                 N11/5/COMSC/HP1/ENG/TZ0/XX
+
+                                                SECTION A
+
+Answer all the questions.
+
+1.    (a)   State one advantage and one disadvantage of communication by electronic mail
+            rather than by telephone.                                                           [2 marks]
+
+      (b)   Outline two possible measures that prevent computers from being affected
+            by viruses, when using electronic mail.                                             [2 marks]
+
+
+2.    (a)   State one application that uses robots.                                             [1 mark]
+
+      (b)   Outline two advantages of using robots rather than manual-based systems.            [2 marks]
+
+
+3.    A code for representing colours is used, where each colour is stored using 8 bits.
+
+      (a)   State the number of different colours that can be represented.                      [1 mark]
+
+      (b)   The binary representation of a particular colour is shown below.
+
+                            0     0      0       1      1      1          0    0
+
+		          (i)    State the decimal representation of this colour. Show all of your working.   [2 marks]
+
+		          (ii)   State the hexadecimal representation of this colour.                         [1 mark]
+
+
+4.    (a)   Define the term syntax.                                                             [1 mark]
+
+      (b)   Define the term semantics.                                                          [1 mark]
+
+      (c)   Describe, using examples from the code below, how each of the following types
+            of error could occur: syntax error, logical error and run-time error.
+
+                                             a = b / c + d                                      [3 marks]
+
+
+5.    Systems analysis, software design and program construction are all stages of the
+      software life cycle.
+
+      Outline two other stages in the software life cycle.                                      [4 marks]
+
+
+
+
+8811-7011
+                                                     –3–               N11/5/COMSC/HP1/ENG/TZ0/XX
+
+6.    (a)   Using computer memory as an example, outline the meaning of the term volatile.   [2 marks]
+
+      (b)   Outline the reasons for having both primary memory and secondary memory.         [2 marks]
+
+      (c)   Explain why a hard disk might need to be defragmented.                           [3 marks]
+
+
+7.    (a)   Define the term operand.                                                          [1 mark]
+
+      (b)   Define the term operator.                                                         [1 mark]
+
+      (c)   Convert the following infix expression into a prefix expression.
+
+                                            a * (b + c * d)                                   [1 mark]
+
+      (d)   Calculate the value of the following postfix expression.
+
+                                                5 3 7 + * 4 –                                 [1 mark]
+
+
+8.    Define direct memory access (DMA).                                                      [1 mark]
+
+
+9.    Describe the function of the following processor components.
+
+      (a)   accumulator                                                                      [2 marks]
+
+      (b)   program counter                                                                  [2 marks]
+
+
+10.   Consider the following binary search tree.
+
+                                                E
+
+
+                               A                           G
+
+                                        C                        H
+
+                                    B
+
+      Draw the resulting binary search tree after
+
+      (a)   deleting H from the initial tree;                                                 [1 mark]
+
+      (b)   deleting C from the initial tree;                                                 [1 mark]
+
+      (c)   deleting E from the initial tree.                                                [2 marks]
+
+8811-7011                                                                                    Turn over
+                                                    –4–                 N11/5/COMSC/HP1/ENG/TZ0/XX
+
+                                                SECTION B
+
+Answer all the questions.
+
+11.   Consider the array and algorithm shown below.
+
+                                 [0]      [1]      [2]      [3]        [4]
+                            A    1.5      7.2      3.6      5.3        0.1
+
+      for (int index = 4; index > 0; index = index – 1)
+      {
+        int j = index;
+        for (int i = index – 1; i >= 0; i = i – 1)
+        {
+           if (A[i] < A[j])
+           { j = i; }
+        }
+        if (j != index)
+        {
+           double w = A[j];
+           A[j] = A[index];
+           A[index] = w;
+        }
+      }
+
+      (a)   Outline the operation of the outer for loop.                                         [2 marks]
+
+      (b)   Analyse the efficiency of the algorithm in terms of BigO notation.                   [3 marks]
+
+      (c)   Identify, by tracing the algorithm or otherwise, the contents of the array A after
+            each execution of the outer loop.                                                    [4 marks]
+
+      (d)   State the purpose of the algorithm.                                                  [1 mark]
+
+
+12.   A program accesses a text file on disk. To edit the text the user of the program enters
+      data using a keyboard. The program then amends the text which was read from the file,
+      writes the updated file back to disk and produces a printed report of all amendments
+      made to the text file.
+
+      (a)   Construct a systems flowchart representing this process.                             [4 marks]
+
+      The data on disk can be lost due to various errors.
+
+      (b)   (i)    State two examples of how data can be lost due to human error.                [2 marks]
+
+		          (ii)   State two examples of how data can be lost other than by human error.         [2 marks]
+
+		          (iii) Describe how data lost from disk could be recovered.                           [2 marks]
+
+
+8811-7011
+                                                   –5–                 N11/5/COMSC/HP1/ENG/TZ0/XX
+
+13.   (a)   State two problems associated with the use of images, that have large file sizes,
+            in computer systems.                                                                [2 marks]
+
+      (b)   One photograph is estimated to occupy 2000 KB. Outline the steps needed to
+            calculate the number of gigabytes (GB) required for 50  000 photographs.            [2 marks]
+
+      (c)   Outline one advantage of using data compression software on stored images.          [2 marks]
+
+      (d)   Discuss the ethical considerations linked to the misuse of image processing
+            software.                                                                           [4 marks]
+
+
+14.   A garage uses a computer system to test whether the amount of exhaust fumes emitted
+      by a car is at an acceptable level.
+
+      A sensor, used to measure exhaust fumes, is placed in the exhaust pipe.
+
+      (a)   Outline the processing taking place in this computer system.                        [4 marks]
+
+      (b)   Explain why the sensor data needs to be converted before being processed.           [2 marks]
+
+      (c)   Outline three errors that can occur in this system.                                 [3 marks]
+
+      (d)   Identify one appropriate output device for this system.                              [1 mark]
+
+
+
+
+8811-7011                                                                                       Turn over
+                                                       –6–              N11/5/COMSC/HP1/ENG/TZ0/XX
+
+15.   (a)   Determine the value of the following expression, where A = true and B = false .
+            Show each step of your working.
+
+                                              A + B + B A                                    [2 marks]
+
+      (b)   Consider the following logic circuit.
+
+                        A                                       Y
+                                                      and
+
+                        B     not                                       or    X
+                                          W
+                                                      and
+                        C                                       Z
+
+
+		          State the Boolean expression in terms of inputs A, B and C for output
+
+		          (i)    W;                                                                         [1 mark]
+
+		          (ii)   Y;                                                                         [1 mark]
+
+		          (iii) Z;                                                                          [1 mark]
+
+		          (iv) X.                                                                           [1 mark]
+
+      (c)   Consider the following truth table.
+
+                                      A           B         C       E
+                                      0           0         0       0
+                                      0           0         1       0
+                                      0           1         0       0
+                                      0           1         1       0
+                                      1           0         0       0
+                                      1           0         1       1
+                                      1           1         0       1
+                                      1           1         1       1
+
+		          (i)    Express the Boolean expression for output E from the above truth table.    [2 marks]
+
+		          (ii)   Simplify the expression.                                                   [2 marks]
+
+
+
+
+8811-7011
+                                                    –7–                 N11/5/COMSC/HP1/ENG/TZ0/XX
+
+16.   Consider the following Java class.
+
+      public class Point
+      {
+        // point in the Cartesian plane
+        private double x, y;
+
+            public Point(double x, double y)
+            {
+              this.x = x;
+              this.y = y;
+            }
+
+            public double getX() { return this.x; }
+            public double getY() { return this.y; }
+
+            public boolean isEqualTo(Point P)
+            {
+              return (this.x == P.getX() && this.y == P.getY());
+            }
+
+            public void showPoint()
+            {
+              output ("(" + this.x + ", " + this.y + ")");
+            }
+      }
+
+      (a)     Outline two features of classes.                                            [2 marks]
+
+      (b)     Outline the relationship between a class and an object.                     [2 marks]
+
+      (c)     Consider the following code.
+
+              Point A = new Point(5, 7);
+              Point B = new Point(3, 0);
+
+              A.showPoint();
+              B.showPoint();
+
+              if (A.isEqualTo(B))
+              {
+                output("are the same points");
+              }
+              else
+              {
+                output("are different points");
+              }
+
+		            Explain line by line, how the output below is produced.
+
+                                        (5, 7)
+                                        (3, 0)
+                                        are different points                              [6 marks]
+
+
+8811-7011
+

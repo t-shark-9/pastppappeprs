@@ -1,0 +1,445 @@
+M18/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+
+
+                       Markscheme
+
+
+                               May 2018
+
+
+                  Discrete mathematics
+
+
+                           Higher level
+
+
+                               Paper 3
+
+
+
+
+11 pages
+                          –2–            M18/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+
+
+This markscheme is the property of the International
+Baccalaureate and must not be reproduced or distributed
+to any other person without the authorization of the IB
+Global Centre, Cardiff.
+                                                  –3–                M18/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+                                       Instructions to Examiners
+
+Abbreviations
+
+M     Marks awarded for attempting to use a valid Method; working must be seen.
+
+(M)   Marks awarded for Method; may be implied by correct subsequent working.
+
+A     Marks awarded for an Answer or for Accuracy; often dependent on preceding M marks.
+
+(A)   Marks awarded for an Answer or for Accuracy; may be implied by correct subsequent working.
+
+R     Marks awarded for clear Reasoning.
+
+N     Marks awarded for correct answers if no working shown.
+
+AG    Answer given in the question and so no marks are awarded.
+
+
+Using the markscheme
+
+1     General
+
+      Mark according to RM™ Assessor instructions. In particular, please note the following:
+
+       Marks must be recorded using the annotation stamps. Please check that you are entering
+        marks for the right question.
+       If a part is completely correct, (and gains all the “must be seen” marks), use the ticks with
+        numbers to stamp full marks.
+       If a part is completely wrong, stamp A0 by the final answer.
+       If a part gains anything else, it must be recorded using all the annotations.
+       All the marks will be added and recorded by RM™ Assessor.
+
+
+2     Method and Answer/Accuracy marks
+
+       Do not automatically award full marks for a correct answer; all working must be checked,
+        and marks awarded according to the markscheme.
+       It is not possible to award M0 followed by A1, as A mark(s) depend on the preceding M mark(s),
+        if any.
+       Where M and A marks are noted on the same line, eg M1A1, this usually means M1 for an
+        attempt to use an appropriate method (eg substitution into a formula) and A1 for using the
+        correct values.
+       Where the markscheme specifies (M2), N3, etc., do not split the marks.
+                                                     –4–              M18/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+     Once a correct answer to a question or part-question is seen, ignore further correct working.
+      However, if further working indicates a lack of mathematical understanding do not award the final
+      A1. An exception to this may be in numerical answers, where a correct exact value is followed by
+      an incorrect decimal. However, if the incorrect decimal is carried through to a subsequent part,
+      and correct FT working shown, award FT marks as appropriate but do not award the final A1 in
+      that part.
+
+       Examples
+
+               Correct answer seen         Further working seen            Action
+         1.                                  5.65685                       Award the final A1
+                   8 2                       (incorrect decimal value)      (ignore the further working)
+         2.        1
+                     sin 4 x                 sin x                           Do not award the final A1
+                   4
+         3.        log a  log b             log (a  b )                    Do not award the final A1
+
+
+3   N marks
+
+    Award N marks for correct answers where there is no working.
+
+     Do not award a mixture of N and other marks.
+     There may be fewer N marks available than the total of M, A and R marks; this is deliberate as it
+      penalizes candidates for not following the instruction to show their working.
+
+
+4   Implied marks
+
+    Implied marks appear in brackets eg (M1), and can only be awarded if correct work is seen or if
+    implied in subsequent working.
+
+     Normally the correct work is seen or implied in the next line.
+     Marks without brackets can only be awarded for work that is seen.
+
+
+5   Follow through marks
+
+    Follow through (FT) marks are awarded where an incorrect answer from one part of a question is
+    used correctly in subsequent part(s). To award FT marks, there must be working present and
+    not just a final answer based on an incorrect answer to a previous part.
+
+     If the question becomes much simpler because of an error then use discretion to award fewer
+      FT marks.
+     If the error leads to an inappropriate value (eg sin   1.5 ), do not award the mark(s) for the final
+      answer(s).
+     Within a question part, once an error is made, no further dependent A marks can be awarded,
+      but M marks may be awarded if appropriate.
+     Exceptions to this rule will be explicitly noted on the markscheme.
+                                                         –5–                   M18/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+6   Misread
+
+    If a candidate incorrectly copies information from the question, this is a misread (MR). A candidate
+    should be penalized only once for a particular misread. Use the MR stamp to indicate that this has
+    been a misread. Then deduct the first of the marks to be awarded, even if this is an M mark, but
+    award all others so that the candidate only loses [1 mark].
+
+     If the question becomes much simpler because of the MR, then use discretion to award
+      fewer marks.
+     If the MR leads to an inappropriate value (eg sin   1.5 ), do not award the mark(s) for the
+      final answer(s).
+
+
+7   Discretionary marks (d)
+
+    An examiner uses discretion to award a mark on the rare occasions when the markscheme does
+    not cover the work seen. In such cases the annotation DM should be used and a brief note written
+    next to the mark explaining this decision.
+
+
+8   Alternative methods
+
+    Candidates will sometimes use methods other than those in the markscheme. Unless the
+    question specifies a method, other correct methods should be marked in line with the markscheme.
+    If in doubt, contact your team leader for advice.
+
+     Alternative methods for complete questions are indicated by METHOD 1, METHOD 2, etc.
+     Alternative solutions for part-questions are indicated by EITHER . . . OR.
+     Where possible, alignment will also be used to assist examiners in identifying where these
+      alternatives start and finish.
+
+
+9   Alternative forms
+
+    Unless the question specifies otherwise, accept equivalent forms.
+
+     As this is an international examination, accept all alternative forms of notation.
+     In the markscheme, equivalent numerical and algebraic forms will generally be written in
+      brackets immediately following the answer.
+     In the markscheme, simplified answers, (which candidates often do not write in examinations),
+      will generally appear in brackets. Marks should be awarded for either the form preceding the
+      bracket or the form in brackets (if it is seen).
+
+      Example: for differentiating f ( x )  2sin (5 x  3) , the markscheme gives:
+
+                        f  ( x)   2cos(5 x  3)  5     10cos(5x  3)                A1
+
+              Award A1 for  2cos(5 x  3)  5 , even if 10cos(5 x  3) is not seen.
+                                                   –6–                 M18/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+10   Accuracy of Answers
+
+     Candidates should NO LONGER be penalized for an accuracy error (AP).
+
+     If the level of accuracy is specified in the question, a mark will be allocated for giving the answer to
+     the required accuracy. When this is not specified in the question, all numerical answers should be
+     given exactly or correct to three significant figures. Please check work carefully for FT.
+
+
+11   Crossed out work
+
+     If a candidate has drawn a line through work on their examination script, or in some other way
+     crossed out their work, do not award any marks for that work.
+
+
+12   Calculators
+
+     A GDC is required for paper 3, but calculators with symbolic manipulation features (eg TI-89) are
+     not allowed.
+
+     Calculator notation The mathematics HL guide says:
+     Students must always use correct mathematical notation, not calculator notation.
+     Do not accept final answers written using calculator notation. However, do not penalize the use of
+     calculator notation in the working.
+
+
+13   More than one solution
+
+     Where a candidate offers two or more different answers to the same question, an examiner
+     should only mark the first response unless the candidate indicates otherwise.
+                                                         –7–                  M18/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+1.   (a)   (i)     G has an Eulerian trail because it has (exactly) two vertices (B and F)
+                   of odd degree                                                                   R1
+
+           (ii)    G does not have an Eulerian circuit because not all vertices are of
+                   even degree                                                                     R1
+                                                                                                          [2 marks]
+
+     (b)   for example BAEBCEFCDF                                                              A1A1
+       Note: Award A1 for start/finish at B/F, A1 for the middle vertices.
+                                                                                                          [2 marks]
+
+     (c)   (i)     to determine the shortest route (walk) around a weighted graph                  A1
+                   using each edge (at least once, returning to the starting vertex)               A1
+            Note: Correct terminology must be seen. Do not accept trail, path, cycle or circuit.
+
+           (ii)    we require the Eulerian trail in (b), (weight  65 )                           (M1)
+                   and the minimum walk FEB (15)                                                    A1
+                   for example BAEBCEFCDFEB                                                         A1
+      Note: Accept EB added to the end or FE added to the start of their answer in (b) in particular
+            for follow through.
+
+           (iii)   total weight is (65+15=)80                                                      A1
+                                                                                                          [6 marks]
+
+                                                                                               Total [10 marks]
+
+
+2.   (a)   EITHER
+                                                             p
+           if p is prime (and a is any integer) then a  a(mod p)                              A1A1
+                                                                                           p
+      Note: Award A1 for p prime and A1 for the congruence or for stating that p | a  a .
+
+           OR
+                                                          p 1
+           if p is prime (and a  0(mod p ) ) then a              1(mod p)                    A1A1
+                                                                                           p 1
+      Note: Award A1 for p prime and A1 for the congruence or for stating that p | a              1 .
+      Note: Condone use of equals sign provided (mod p) is seen.
+                                                                                                          [2 marks]
+
+                                                                              p2
+     (b)   (i)     multiplying both sides of the linear congruence by a                           (M1)
+                       p 1            p 2
+                   a          xa             b(mod p)                                             A1
+                              p 1
+                   as a               1(mod p)                                                    R1
+                               p 2
+                   xa                b(mod p)                                                     AG
+
+
+                                                                                                         continued…
+                                                  –8–                 M18/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+Question 2 continued
+
+                        11
+           (ii)    x  5  7(mod13)                                                         M1
+                    341796875(mod13)                                                      (A1)
+
+            Note: Accept equivalent calculation eg, using 52  1mod13 .
+                    4(mod13)                                                                A1
+                                                                                                  [6 marks]
+
+                                                                                           Total [8 marks]
+
+
+3.   (a)   (i)
+
+
+
+
+                                                                                             A1
+
+           (ii)    for example ADBECFA                                                       A1
+            Note: Accept drawing the cycle on their diagram.
+            Note: Accept Dirac’s theorem (although it is not on the syllabus for (a)(ii). There is no
+                 converse that could be applied for (a)(iii).
+
+           (iii)
+
+
+
+
+                                                                                             A1
+                   a Hamiltonian cycle would have to alternate between the two vertex
+                   subsets which is impossible as 2  3                                      R1
+           Note: Award R1 for an attempt to construct a Hamiltonian cycle and an explanation
+                 of why it fails, eg, ADBEC but there is no route from C to A without re-using D
+                 or E so no cycle. There are other proofs eg, have to go in and out of A,
+                 similarly B and C giving all edges leading to a contradiction.
+                                                                                               [4 marks]
+
+     (b)   (i)     the sum of the vertex degrees is twice the number of edges                A1
+
+
+                                                                                               continued…
+                                                     –9–          M18/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+Question 3 continued
+
+           (ii)   assume G exists
+                  the sum 2  3  3  4  4  5  21                                   A1
+                  this is odd (not even)                                               R1
+                  this contradicts the handshaking lemma
+                  so G does not exist                                                  AG
+                                                                                            [3 marks]
+
+     (c)   T has v  1 edges                                                           A1
+           EITHER
+           if k vertices have degree 1 then v  k vertices have degree  2             R1
+           by the handshaking lemma
+            2v  2  1  k  2(v  k )(  2v  k )                                     M1
+           this gives k  2                                                            A1
+
+           OR
+           let S be the sum of vertex degrees
+           consider T having either no or one vertex of degree 1                        R1
+           case 1 suppose T has no vertices of degree 1 (eg, all vertices have degrees  2 )
+           by the handshaking lemma
+            S  2v  2(v  1) (not possible)                                            A1
+           case 2 suppose T has one vertex of degree 1 (eg, v  1 vertices have degrees  2 )
+           by the handshaking lemma
+            S  2(v  1)  1  2(v  1) (not possible)                                  A1
+
+           THEN
+           so T has at least two vertices of degree 1                                  AG
+                                                                                            [4 marks]
+
+                                                                                    Total [11 marks]
+
+
+
+4.   (a)   METHOD 1
+           attempting to use the Euclidean algorithm                                   M1
+           4 k  2  1  3k  1   k  1                                            A1
+           3k  1  2  k  1   k  1                                              A1
+           k  1   k  1  2                                                        A1
+            gcd( k  1, 2)                                                            AG
+
+
+                                                                                          continued…
+                                                         – 10 –            M18/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+Question 4 continued
+
+           METHOD 2
+           gcd(4k  2 , 3k  1)
+            gcd(4k  2  (3k  1) , 3k  1)                                               M1
+            gcd(3k  1, k  1)   gcd(k  1, 3k  1)                                    A1
+            gcd(3k  1  2( k  1) , k  1)   gcd(k  1, k  1)                        A1
+            gcd( k  1  ( k  1) , k  1)   gcd(2 , k  1)                            A1
+            gcd( k  1, 2)                                                                AG
+                                                                                                 [4 marks]
+
+     (b)   (i)    (for k odd), gcd(4k  2 , 3k  1)  2                                    A1
+
+           (ii)   (for k even), gcd(4 k  2 , 3k  1)  1                                  A1
+                                                                                                 [2 marks]
+
+                                                                                          Total [6 marks]
+
+
+                                                           2
+5.   (a)   attempt to find the auxiliary equation (     1  0 )                        M1
+                  1 5
+                                                                                        (A1)
+                    2
+                                                           n           n
+                                           1  5         1  5 
+           the general solution is f n  A            B                            (M1)
+                                            2 
+                                                           2 
+           imposing initial conditions (substituting n  0,1 )                             M1
+                           1  5       1  5 
+           A  B  0 and A        B        1                                     A1
+                              2           2   
+                1         1
+           A      , B                                                                   A1
+                 5          5
+                                n                  n
+                 1  1 5     1  1 5 
+            fn                                                                     A1
+                  5 2         5  2 
+                                                                                                 [7 marks]
+ Note: Condone use of decimal numbers rather than exact answers.
+
+
+                                                                                             continued…
+                                                                           – 11 –           M18/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+Question 5 continued
+
+                                           n2
+     (b)   let P( n ) be f n                   for integers n  3
+           consideration of two consecutive values of f                                                     R1
+                            1 53 2
+           f3  2 and                 
+                                 (1.618)  P(3) is true                                                    A1
+                              2
+                        42 3 5
+           f 4  3 and          (2.618)  P(4) is true                                                   A1
+                              2
+      Note: Do not award A marks for values of n other than n  3 and n  4 .
+          (for k  4 ), assume that P( k ) and P( k  1) are true                                           M1
+          required to prove that P(k  1) is true
+
+      Note: Accept equivalent notation. Needs to start with 2 general consecutive integers
+           and then prove for the next integer. This will affect the powers of the alphas.
+                                                           k 2                  k 3
+           f k 1  f k  f k 1 (and f k                       , f k 1            )                   M1
+                        k 2        k 3         k 3
+           f k 1                                 (  1)                                             A1
+               k 3     2       k 1        ( k 1)  2
+                                                                                                     A1
+           as P(3) and P(4) are true, and P( k ) , P( k  1) true  P(k  1) true
+           then P( k ) is true for k  3 by strong induction                                                R1
+
+      Note: To obtain the final R1, at least five of the previous marks must have been awarded.
+                                                                                             [8 marks]
+
+                                                                                                          Total [15 marks]
+

@@ -1,0 +1,1410 @@
+M17/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+
+
+                       Markscheme
+
+
+                               May 2017
+
+
+                     Computer science
+
+
+                         Standard level
+
+
+                               Paper 2
+
+
+
+
+36 pages
+                           –2–             M17/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+
+
+This markscheme is confidential and for the exclusive use
+of examiners in this examination session.
+
+It is the property of the International Baccalaureate and
+must not be reproduced or distributed to any other person
+without the authorization of the IB Global Centre, Cardiff.
+                                                –3–                  M17/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+The following are the annotations available to use when marking responses.
+
+    Annotation                           Explanation                         Associated shortcut
+
+                  Good Response/Good Point                                         (Alt+) 0
+
+
+                  Incorrect Point                                                  (Alt+) 1
+
+
+                  Unclear
+
+        BOD       Benefit of the doubt
+        NBOD      No benefit of doubt
+        SEEN      Seen
+         TV       Too vague
+
+        REP       Repetition
+
+         FT       Follow through                                                   (Alt+) 2
+
+          L       (Comp Sci) Language                                              (Alt+) 3
+
+          D       Description                                                      (Alt+) 4
+
+         A+       Analysis                                                         (Alt+) 5
+
+        REF       Reference                                                        (Alt+) 6
+
+        DEV       Development                                                      (Alt+) 7
+         B+       Balanced argument
+         OC       Off course                                                       (Alt+) 8
+        EVAL      Evaluation
+
+          O       Opinion
+                  Dynamic, horizontal line that can be expanded                    (Alt+) 9
+                  Dynamic, horizontal wavy line that can be expanded
+                  Dynamic, vertical wavy line that can be expanded
+                  Text box
+
+You must make sure you have looked at all pages. Please put the         annotation on any blank page,
+to indicate that you have seen it.
+                                                   –4–               M17/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+General marking instructions
+
+1.    Follow the markscheme provided, award only whole marks and mark only in RED.
+
+2.    Make sure that the question you are about to mark is highlighted in the mark panel on the right-
+      hand side of the screen.
+
+3.    Where a mark is awarded, a tick/check () must be placed in the text at the precise point where it
+      becomes clear that the candidate deserves the mark. One tick to be shown for each mark
+      awarded.
+
+4.    Sometimes, careful consideration is required to decide whether or not to award a mark. In these
+      cases use RM™ Assessor annotations to support your decision. You are encouraged to write
+      comments where it helps clarity, especially for re-marking purposes. Use a text box for these
+      additional comments. It should be remembered that the script may be returned to the candidate.
+
+5.    Personal codes/notations are unacceptable.
+
+6.    Where an answer to a part question is worth no marks but the candidate has attempted the part
+      question, enter a zero in the mark panel on the right-hand side of the screen. Where an answer to
+      a part question is worth no marks because the candidate has not attempted the part question,
+      enter an “NR” in the mark panel on the right-hand side of the screen.
+
+7.    Please ensure you check all scanned pages. The candidate may have answered more than one
+      option.
+
+8.    If a candidate has attempted more than one Option within a paper, mark all the candidate’s
+      work. RM™ Assessor will only award the marks for the higher scoring Option. Once all the work
+      the candidate has attempted has been marked, please click “COMPLETE”; all the other questions
+      from the other Options will auto complete to “NR” for “no response”.
+
+9.    Ensure that you have viewed every page including any additional sheets. Please ensure that you
+      stamp “SEEN” on any page that contains no other annotation.
+
+10.   A mark should not be awarded where there is contradiction within an answer. Make a comment to
+      this effect using a text box or the “CON” stamp.
+                                                    –5–                M17/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+Subject details:         Computer science SL paper 2 markscheme
+
+Mark allocation
+
+Candidates are required to answer all questions in one Option. Total 45 marks.
+
+General
+
+A markscheme often has more specific points worthy of a mark than the total allows. This is intentional.
+Do not award more than the maximum marks allowed for that part of a question.
+
+When deciding upon alternative answers by candidates to those given in the markscheme, consider the
+following points:
+
+ Each statement worth one point has a separate line and the end is signified by means of
+  a semi-colon (;).
+
+ An alternative answer or wording is indicated in the markscheme by a “/”; either wording can be
+  accepted.
+
+ Words in ( … ) in the markscheme are not necessary to gain the mark.
+
+ If the candidate’s answer has the same meaning or can be clearly interpreted as being the same as
+  that in the markscheme then award the mark.
+
+ Mark positively. Give candidates credit for what they have achieved and for what they have got
+  correct, rather than penalizing them for what they have not achieved or what they have got wrong.
+
+ Remember that many candidates are writing in a second language; be forgiving of minor linguistic
+  slips. In this subject effective communication is more important than grammatical accuracy.
+
+ Occasionally, a part of a question may require a calculation whose answer is required for subsequent
+  parts. If an error is made in the first part then it should be penalized. However, if the incorrect answer
+  is used correctly in subsequent parts then follow through marks should be awarded. Indicate this
+  with “FT”.
+
+
+General guidance
+
+  Issue            Guidance
+  Answering         In the case of an “identify” question, read all answers and mark positively up to the
+  more than          maximum marks. Disregard incorrect answers.
+  the quantity      In the case of a “describe” question, which asks for a certain number of facts
+  of                 eg “describe two kinds”, mark the first two correct answers. This could include two
+  responses          descriptions, one description and one identification, or two identifications.
+  prescribed        In the case of an “explain” question, which asks for a specified number of
+  in the             explanations eg “explain two reasons …”, mark the first two correct answers.
+  questions          This could include two full explanations, one explanation, one partial explanation etc.
+                                                  –6–                M17/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+Option A — Databases
+
+1.   (a)   Award up to [2 max].
+           Note: Reasons must be primarily focused on data, on processing (querying), on
+           communications or system design, not on storage.
+
+           DBMS allows organisation of data / parents’ details in a way that supports
+           efficient and secure access (to parents) / (hence) chances of data loss are
+           relatively low;
+           Enables specific operations/processing/querying of data (search/sort/analyse);
+           Permits the production/printing of reports on searched information in specific
+           formats;
+           Supports the modular extension of system by adding new fields without need of
+           redesigning the system;
+           Supports the possibility of re-using the resources/tools/scheme for comparable
+           activities (e.g. when the school open a secondary campus);
+           Relies on widespread use of standards that ensures a smooth integration of
+           systems / so that the school does not struggle with the upgrades of technology;
+           Automatically supports the data validation/data verification when filling the
+           database;
+
+
+           Award [1 max] if the response only makes a direct comparison with a
+           spreadsheet.
+           Provides the ability to store a greater number of records than a spreadsheet;
+           Provides more ability to customise the nature of the information output in records
+           compared to a spreadsheet;
+           Provides the ability to manipulate the data better than in a spreadsheet,
+           especially on screen;
+           It supports the operation of data mining, something that would not be possible in
+           a spreadsheet;                                                                       [2]
+
+
+     (b)   Award up to [1 max].
+           Name (eg Chris Smith) / Address / Phone number;
+           Note: Any item of data that can plausibly be stored in a school database
+           and referring to the parents is acceptable.                                          [1]
+
+     (c)   Award up to [2 max].
+           Award [1] for identifying the technique to reduce data input errors and [1] for a
+           development/elaboration.
+
+           Data validation;
+           Checks that the input is well-formed/appropriately composed/suitable so to be
+           valid for the program specification;
+           For example, checking that a phone number that is input contains only numbers
+           and asking to re-input it, should it contain other (non-valid) characters / type
+           check (num or char) / range check (months with 30 or 31 days) / length check
+           (prefixed length of some values);
+
+           Data verification;
+           Is the process that checks the accuracy of the data in the database/ checks that
+           the software is correct given the specification / checks the integrity of the
+           database in comparison to the data provided in input / checks in the database the
+           presence of the record associated to the input;
+                                                                                                [2]
+                                            –7–                M17/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+(d)   Award up to [5 max].
+      Note: The question asks for interactions between parent and DBMS while
+      processing a payment: this should remain the focus during marking.
+
+      Example 1:
+      Award [3 max] if non-specific language is used
+      Award [1] for each description
+
+      Notification sent to parent:
+      DBMS used to retrieve parent’s detail to enable mailing system to send out invoice;
+
+      Authentication / Validation:
+      Parents log in to DBMS with their credentials for authentication / validation of
+      credentials by DBMS (the DBMS checks that data input are well-formed /
+      appropriate);
+
+      Verification:
+      Data verification /The DBMS verifies that the parent’s details are stored, as this
+      could be a new parent who was provided details to log in, but the DBMS has not
+      been updated. NOTE accept any message on screen of the kind “contact the
+      school manager”, if verification fails);
+
+      Restricted Access granted:
+      (Upon success of data verification) the DBMS provides access to reserved portion
+      of data in database where parent can perform the operations (e.g. search the
+      activity/period of time) / DBMS ensures access to the part of the Database storing
+      child’s activities for payment;
+
+      Preparation of payment:
+      Parent provides detail that enable submitting a payment / system requires data
+      from parent (new and from DB) to proceed with payment / system triggers the
+      processing of payment using different part of the system, the DBMS, and data
+      provided by parents about bank account;
+
+      System update:
+      DBMS is used to update accounting record system AND to produce the receipt
+      to parents. Note: the second part of the sentence is needed to address the
+      interaction) / DBMS is used to update accounting record system IF/WHEN the
+      parent performs a top-up of their balance;
+
+      Confirmation by email:
+      (Credentials of) open session on DBMS are passed to mailing system to send out
+      email to parents with notification of payment/receipt;
+
+      Log-out /Close session/Time-out closure:
+      Parent closes session on DBMS with the effect of closing access to dedicated
+      portion of database (in search and/or reading) / if parent does not log out, DBMS
+      automatically closes access after time-out;
+                                            –8–                M17/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+      Example 2:
+
+      Note: Example of answer worth [1] mark.
+      It identifies the working of the payment system and it allows to detect some form
+      of interaction.
+
+      ●    Parent authenticated by the DBMS
+      ●    Transaction is initiated
+      ●    Payment details added / entered
+      ●    If payment details and payment can be processed by DBMS then
+            ○    transaction is completed by DBMS
+            ○    Account is credited
+            ○    Automatic e-mail notification of payment sent to parent
+            Else
+            ○    Transaction is rolled back
+            ○    Notification of the failed transaction sent to the parent                 [5]
+
+(e)   Award up to [3 max].
+      Note: One of the marks should address the fact that the workspace is partitioned,
+      so if this is not addressed, [2 max].
+
+      Multiuser/concurrent access in reading/searching/querying of database;
+      But records in database are partitioned, to ensure privacy in access / each parent
+      can access only the part of the database relative to his family data / Database
+      has a row-locking mechanism, so that access is restricted to individuals only in
+      permitted areas / there is no conflict/competition in accessing the same area of
+      database;
+      (This/The partition/the row locking/the partial access) ensures isolation /
+      separation of data (to present to transaction processing);
+      Therefore, multiple transactions (from different parents) may safely occur
+      simultaneously on non-overlapping portions of the database during payment;
+      And this simplifies the management of system updates/recovery of (separated)
+      transactions;
+                                                                                           [3]
+                                                  –9–                M17/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+2.   (a)   Award up to [1 max].
+           Collections of database tables that are linked via the fields / attributes / keys;
+           A database structured in a way so that the data can be recognised / accessed /
+           retrieved by using relations;                                                         [1]
+
+     (b)   Award up to [4 max].
+           Do not credit a description of what can be seen in an ERD, the command term is
+           “explain”.
+
+           The role of an ERD is to provide a compact view/graphical representation of
+           entities/sets/actions/attributes/cardinality of entities/relations among entities;
+           (So) it facilitates the planning/extension of a database because it provides a
+           unique (and common) abstract representation of features independently from the
+           actual implementation/nature of the database;
+           (So) it informs the construction of the system at the logical level/represents the
+           logical structure of the information system/DB;
+           Enabling a structured and systematic development that can be better undertaken
+           either by individuals or by teams of developers;
+           And it informs over time how to model the data (in terms of its logical
+           organisation) such as effect of system upgrades/ new formats needed to extend
+           the old one);                                                                         [4]
+
+     (c)   Award up to [2 max].
+           Award [1 max] for identifying an issue (I) and [1 max] for an expansion/example
+           (consequence – C).
+
+           NOTE: There must be reference to the given scenario. The wording also
+           suggests also the “use” of the tables as they are (i.e. with no
+           deletions/additions/updates).
+
+           Award [1 max] for correct descriptions that lack reference to the given scenario,
+           but still remain within the scope of “use”.
+
+           Answers may include:
+
+           I: Referential integrity is violated in TABLE_2 by the lowermost record, because
+              there is no entry in TABLE_1 referring to Student_ID= 21;
+           C: Therefore, any query built on a JOIN of the two tables, and referring to this
+               value of Student_ID, cannot be answered;
+
+           I: We want to use both tables to retrieve the email address in of the student
+              whose ID is 21 in TABLE_2;
+           C: But we cannot possibly do this, and the query cannot be answered, because
+              the table will not be complete/will not be inhabited by the needed values,
+              because referential integrity is broken on the value 12 of Student_ID in TABLE_2
+
+           I: We want to use both tables to retrieve the email addresses of whomever is
+              involved with the chess club;
+           C: But we cannot possibly do this, and the query cannot be answered, because
+              the table will not be complete/will not be inhabited by the needed values,
+              because referential integrity is broken on the value 12 of Student_ID in
+              TABLE_2
+                                                                                                 [2]
+                                            – 10 –              M17/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+(d)   (i)   Award up to [2 max].
+            Award [1 max] for identifying an issue that could occur after the deletion
+            and [1 max] for an expansion,
+            Note: Do not credit generic or non-specific responses or the use of
+            referential integrity with no development (i.e. just being mentioned).
+
+            Example 1:
+            We may not be able to find the email address of the Captain of the chess
+            club;
+            Because the deletion of the whole record in TABLE_1 does not allow us to
+            search in TABLE_2 with the value Student_ID=12;
+
+            Example 2:
+            We lose the value 12 of the primary key in TABLE_1 (losing entity integrity);
+            Therefore, a later successive insertion of a new record with primary key 12
+            in TABLE_1 may link with that value for the foreign key in TABLE_2, yet the
+            meaning of the relation might be compromised;
+
+            Example 3:
+            We lose the value 12 of the primary key in TABLE_1 (losing entity integrity);
+            Therefore, the DBMS needs to have a method to decide what to do with the
+            value 12 that appears in the foreign-key in TABLE_2;
+                                                                                            [2]
+                                                   – 11 –              M17/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+
+           (ii)   Award up to [3 max].
+
+                  Award [2 max] for evidence of understanding referential integrity.
+                  Award [1] for an example, clearly referring to the primary and foreign keys
+                  OR an expansion on how to limit the unwanted effects;
+                  Do not credit the term referential integrity being used with no development
+                  (i.e. just being mentioned).
+                  NOTE: Be aware of possible repetitions with marks awarded in 2c(i).
+
+                  Understanding:
+                  Data (in the relational database) should satisfy the property of referential
+                  integrity;
+
+                  Which requires that each value of any field in some relation/table exists
+                  also as value in some field of another relation/table
+                  OR
+                  That requires that the values of the foreign key in one table, completely
+                  relates to all values of the primary key of another table;
+
+                  Examples:
+                  Student_ID is a primary key in TABLE_1 and foreign key in TABLE_2 and
+                  deleting a value in the primary key will have an effect on the foreign key;
+
+                  The system must have procedure to restrict the effects of the violation, e.g.
+                  by setting the affected values in the foreign key to a default value “null” (so
+                  Student_ID in TABLE_2 will get value “null”);
+                  OR
+                  by cascading (deleting) in all referencing foreign keys;
+                  OR
+                  by checking in advance whether a violation of referential integrity may
+                  happen and not allow the deletion at the start;
+                  OR
+                  by recommending completion with null values and do normalisation, to reduce
+                  incurring into violation of the property;                                         [3]
+
+
+3.   (a)   (i)    Award up to [2 max]
+                  Note: The question explicitly asks to focus on the data structure as
+                  displayed
+
+                  Example 1:
+                  The proposed data structure/sequence/list used to store SMS messages
+                  has no determinate length/has unbounded length;
+                  Therefore, we would have a table with an undefined number of columns
+                  (and only the first two values are fixed in size for all subscribers);
+
+                  Example 2:
+                  The values in the two data structures show some repetitions /
+                  redundancy (Note: do not accept duplication of data);
+                  Not addressing this in an implementation of a sequence/list may eventually
+                  generate tables that are bigger than necessary;
+                                                                                                    [2]
+                                             – 12 –             M17/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+
+      (ii)   Award up to [4 max].
+             The table must store each SMS separately as a row.
+             Do not award any marks if more than one table is constructed.
+
+             [1] for Primary key or Primary Composite key, fully correct
+             [1] presence of fields to store Sender’s details (2 columns SenderPhNr and
+             SenderName)
+             [1] presence of fields to store Receiver’s details and text messages (3
+             columns)
+             [1] the table has three rows of records (in addition to the headers of the
+             fields)
+
+             Example 1:
+
+             SenderPhone      Sender     ReceiverPhone     Receiver
+                                                                          TextMessage
+               Number         Name          Number          Name
+                  1111            fred        1234           Smith           Hi there
+                  1111            fred        1234           Smith           Call me
+                  1234           smith        1111            Fred            Later
+             Award [3 max] if contents of table are correct but the composite key is
+             incorrect or not identified.
+
+
+             Example 2:
+             Table with extra unique identifier for messages, as primary key.
+
+             MsgCode        SenderPhone      Sender    ReceiverPhone      Receiver
+                                                                                           TextMessage
+                              Number         Name         Number           Name
+               A0001           1111            fred        1234            Smith             Hi there
+               A0002           1111            fred        1234            Smith             Call me
+               A0003           1234           smith        1111            Fred               Later
+
+
+             Example 3:
+             Award [2 max] for an un-normalized representation of a table
+
+             SenderPhone      Sender     ReceiverPhone     Receiver
+                                                                          TextMessage
+               Number         Name          Number          Name
+                                             1234           Smith               Hi there
+                 1111           fred
+                                             1234           Smith               Call me
+                 1234          smith         1111           Fred                 Later
+
+                                                                                                        [4]
+
+(b)   Award up to [2 max].
+      Data redundancy is the repetition of the same data field/attribute (or just data
+      values that may populate two attributes with different names) within the database;
+      This may happen either across a number of tables in the database or within the
+      same table (if there is just one);
+                                                                                                        [2]
+                                             – 13 –             M17/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+(c)   Award up to [4 max].
+      The tables must relate to the table created in 3a(ii) so follow through errors must
+      not be penalized.
+
+      [1] for a table SUBSCRIBERS, correct, with two fields only;
+      [1] for indicating the primary key in SUBSCRIBERS;
+
+      [1] for a table SMS that contains exactly three fields, AND only one element for
+      the receiver (ether name or phone) and only one element for the sender (either
+      name or phone) are indicated;
+
+      OR
+      [1] for a table SMS that contains exactly four fields, AND only one element for
+      the receiver (ether name or phone) and only one element for the sender (either
+      name or phone) is indicated;
+
+      [1] to correctly indicate the primary key in the SMS table;
+
+
+      Example 1:
+      Note: Accept all those variants that indicate in Subscribers the key as Name, and
+      use it in the SMS, or that use in this latter table the name of the receiver. A
+      variant is using TextMsg as primary key.)
+
+      Possible answer deriving from Example 1 and Example 3 in 3a(ii)
+
+      SMS
+
+        SenderPhoneNumber           ReceiverPhoneNumber             TextMessage
+
+      SUBSCRIBERS
+       (Sender)PhoneNumber           Name
+
+
+      Example 2:
+      Note: Accept all those variants that indicate in Subscribers the key as Name, and
+      use it in the SMS, or that use in this latter table the name of the receiver. A
+      variant is using TextMsg as primary key.
+
+      Possible answer deriving From Example 2 in 3a(ii)
+
+      SMS
+
+      MsgCode SenderPhoneNumber ReceiverPhoneNumber TextMessage
+
+      SUBSCRIBERS
+       (Sender)PhoneNumber           Name
+                                        – 14 –                M17/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+Example 3:
+Award [2 max] If three tables are constructed.
+Award [1] if the three tables are correctly constructed.
+Award [1] if the key is correctly identified in each table.
+
+The SMS table may or may not include the MessageID field depending whether it
+was derived from Example 1 or Example 2 in 3a(ii).
+
+SMS
+
+  SenderPhoneNumber            ReceiverPhoneNumber            TextMessage
+
+SUBSCRIBERS
+ (Sender)PhoneNumber            Name
+
+RECEIVERS
+ (Receiver)PhoneNumber            Name
+
+                                                                                       [4]
+                                             – 15 –              M17/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+
+(d)   Award up to [3 max].
+      Award [1] for evidence of using TWO/BOTH tables (with a JOIN).
+      Award [1] for evidence that the filtering is triggered by the TextMessage.
+      Award [1] for evidence of correct referencing through receiver and phone number
+      across the two chosen tables.
+
+      Note: SQL is not required, it is used here for shorthand notation to illustrate the
+      structure of the types of response expected.
+      Note: The question asks for the “steps” – evidence of computational
+      thinking/procedural thinking is required.
+
+
+      NOTE: There can be variations in style of providing the answer, yet the guidance
+      for the Markscheme is general enough to observe the steps to retrieve the Name
+      of the Receiver given the message.
+
+      Example 1:
+      If two tables are used in 3(c):
+
+      SELECT ReceiverName
+      FROM RECEIVER JOIN SMS
+      WHERE
+      SMS.textMessage=”thismessage”
+      AND
+      SMS.ReceiverPhoneNr=RECEIVER.PhoneNr
+
+      Example 2:
+      If three tables are used in 3(c):
+
+      SELECT Name
+      FROM RECEIVER JOIN SMS
+      WHERE
+      SMS.textMessage=”thismessage”
+      AND
+      SMS.RecPhoneNr=SUBSCRIBERS.PhoneNr                                                    [3]
+                                            – 16 –              M17/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+
+(e)   Award up to [2 max].
+      Award [1] for identifying the function (underlined) and
+      Award [1] for an appropriate development / elaboration.
+
+      Ensure backups are run regularly / maintaining archived data in backups /
+      backing up and restoring databases;
+      To reduce the risk of losing data;
+
+      Ensure consistency checks are run on the database, (e.g. such as maintaining
+      indexes / managing and controlling data replication);
+      To ensure no data is inconsistent (across the related tables);
+
+      Ensure access rights are set correctly / setting appropriate access rights at
+      various levels administrator, user, etc;
+      To limit the risk of misuse across different users;
+
+      Check the need to install and upgrade database software / ensure database is
+      up-to-date to handle hardware/software changes / monitoring the database
+      performance;
+      To be sure that the data do not become vulnerable to external attacks because of
+      obsolescence;
+                                                                                         [2]
+                                             – 17 –              M17/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+(f)   Award up to [3 max]:
+      Award [1] for the identification an ethical issue, and up to [2 max] for
+      discussion/elaboration.
+
+      NOTE: The focus (conclusion) is usually on the trade-off between the rights of
+      the individual to privacy/anonymity vs the needs for society to security / the
+      greater good).
+
+      Example:
+      Personal information may be used by third party without the person knowing,
+      therefore violating their privacy / anonymity;
+      However, this violation may be justified by security reasons, for example national
+      security / personal safety / monitoring of threats or hate speech;
+      For example, from SMS one may extract information about locations/habits
+      (gambling)/sensitive information (banks communications);
+
+      This enables third parties to:
+          build up a profile of the individual through data aggregation (e.g
+             the individual is a game-addict, but they didn’t want to make this public);
+
+            use for fraudulent actions over time (monitoring how often the bank
+             transactions happen through a credit card, and generate
+             hoax/impersonations/ further sell these data);
+
+            use this data for marketing purposes (e.g. spamming messages);
+
+            identify the location where an individual is, at particular times /
+             surveillance / identify where and when an individual is not at home;
+                                                                                           [3]
+                                                 – 18 –              M17/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+Option B — Modelling and simulation
+
+4.   (a)   0.1                                                                                 [1]
+
+     (b)   Award [1] for using the two given probabilities and [1] for a correct expression.
+           1  (PROB[i, j]  PROB[j, I]) or 1 - PROB[ i, j ] - PROB[ j, i ]                    [2]
+
+     (c)   30                                                                                  [1]
+
+     (d)                   A          B     C     D
+
+                 1   30  (14 + 10)   5     0     5
+
+                 2         2
+
+                 3         9
+
+                 4         3
+
+           Add a team’s wins and losses;
+           Subtract from 30 and insert in correct diagonal;
+             ( eg A1 = 30 - (sum(A2;A3;A4) + sum(B1;C1;D1)))
+              or even A1= 30 - A2 - A3 - A4 - B1 - C1 - D1
+             … both examples cover the first two marking points)
+           Repeat for other teams;
+
+           Example 1 (based on candidates work):
+
+
+
+
+           M1 = 30-(2+5)-(9+0)-(3+5) = 6
+           M2 = 30-(2+5)-(1+8)-(5+5) = 4
+           M3 = 30-(9+0)-(1+8)-(4+4) = 4
+           M4 = 30-(3+5)-(5+5)-(4+4) = 4
+
+           Example 2 (based on candidates work):
+
+
+
+
+                                                                                               [3]
+                                            – 19 –              M17/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+(e)   Award [1] for each condition which increments the correct cell
+      (accept the use of the macro in part (d)).
+
+      For example:
+      if m>n then
+        PLAYED[i, j] = PLAYED[i, j] + 1
+      else if n>m
+        PLAYED[j, i] = PLAYED[j, i] + 1
+      else {
+             PLAYED [i, i] = PLAYED [i, i]+1
+             PLAYED [j, j] = PLAYED [j, j]+1
+           }
+      end if
+
+      Accept if … if … if.
+
+      If the student has used the wrong parameters in a consistent manner, award [2]
+      max on FT.
+      If the student has not used the correct increment, award [1] max for a correct
+      nested if...else structure or if … if … if.                                           [4]
+
+(f)   A mathematical model reduces a situation to mathematical expressions and
+      rules;
+      In the example, the results of matches and points gained is expressed
+      mathematically / table PROB;
+      A simulation applies the model in order to investigate or measure the result;
+      In this case the probabilities were applied to give expected season results / table
+      PROB10;                                                                               [4]
+
+(g)   If the results are very different;
+      Something has changed from last year;
+      Can investigate any change in players/trainer;
+      Can check the calculations are correct;
+      Can be used to identify improvements and unexpected failures from specific
+      teams;
+      Implies changing the probabilities for the following year;
+      That takes this year’s results;
+      And ignores the previous year;
+      Or give up using past form as it is no indication for the following year;             [4]
+                                                  – 20 –              M17/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+5.   (a)   V  D or V D or V - D < 0                                                          [1]
+
+     (b)   Award [1] for each appropriate factor identified and [1] for a description up to
+           [2 max] for each of the three variables.
+
+           Mark as 2 and 2 and 2
+
+           For Input (R)
+           Measure river / rain fluctuation;
+           Over a period of time to establish average values / the maximum and minimum
+           expected values / outliers;
+
+           For Output (T)
+           Measure the amount used by the town;
+           at different times (day/night, weekday/weekend, workday/holiday, summer/winter,
+           etc);
+           to establish average values / the maximum and minimum expected values /
+           outliers;
+           (Do not award this marking point if already awarded for R.)
+
+           For overflows/outflows (E)
+           Use the data gathered from the analysis of Input (R), Output (O);
+           To plan for sufficient overflow capacity;
+
+           NOTE: for T and E do not accept the size of the pipes or the outlets since the
+           purpose of the simulation is to establish those. Also, the stem indicates that the
+           pipe will be large enough to fulfil the water needs of the town.
+           For R do not accept size of ‘inlets’ - there are no inlets.
+
+           NOTE: establishing average values was originally not intended, but most
+           students provide this and it is a reasonable factor to consider … however, do not
+           award this marking point for both R and T. The average does not apply to E at all
+           - since outlets are man-made and
+           controlled.
+                                                                                                [6]
+                                            – 21 –                M17/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+(c)   Award marks as follows, up to [6 max].
+      Award [3] for statements concerning the creation of the graphs;
+      Award [3] for statements concerning the interpretation of the graphs;
+
+      For example:
+      Setting up a suitable relationship (like V = V + R -T -E);
+                                              current   initial
+
+
+      Graphing the values of V for fixed values of T and E, as R goes from minimum to
+      maximum levels;
+      Including a horizontal line for danger level (D);
+
+      This should identify combinations of R, T and E that are problematic;
+      By showing situations where the level of V exceeds D;
+      Indicating the maximum required value of E;
+
+      Note: Many alternative systems are possible, for example more complex ones
+      that graph V over time for fixed / changing values of R and T, leading to required
+      values of overflow (E). These should be credited if described / discussed well.
+      A much simpler (alternative) system which checks that R = T + E and works on
+      minimum and maximum values of R should be credited in the same way for SL.
+                                                                                             [6]
+
+(d)   Award marks that clearly indicate that the physical model will be designed to
+      meet the needs identified in the previous simulation of water flow.
+
+      For example:
+      Knowing the maximum volumes of E that are needed;
+      Will help with the planning of the overflow outlets;
+      Overflow outlets can be placed at the appropriate water level to function in time;
+      The simulation could include future developments (like growth of the town);
+      In order to ensure that the reservoir design will not be outdated in the foreseeable
+      future;
+
+
+                                                                                             [4]
+                                                  – 22 –             M17/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+6.   (a)   Award [1] for a suitable application and [1] for an expansion, up to [2 max].
+
+           For example, a map showing the journey from one point to another;
+           When only the route needs to be shown on a phone or otherwise;
+           As 3D version could take up too much space;
+           If no internet connection would be too slow;
+
+           Note: Accept situations that are 2D in nature, like graphing a v-t diagram.        [2]
+
+     (b)   A series of sketches could show the design from a limited number of angles;
+           Whereas the CAD system would allow an initial wire frame to be constructed
+           which
+           could be rotated;
+           Changes could be (easily) made and the effect of the 3D shape from other angles
+           seen immediately;
+           Easy to undo a change to the model, rather than erase part of the sketch;
+           Easy to scale the design;
+           CAD files are less likely to get damaged than physical drawings;
+
+           Note: Do not accept vague statements like “CAD is more precise”.                   [3]
+
+     (c)   Rendering would take place;
+           To apply light and texture to the model;
+           Using such techniques as ray tracing;
+           To the (wireframe) 2D representation;
+           To produce a realistic view of the final product in the chosen material;           [4]
+                                                    – 23 –               M17/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+Option C — Web science
+
+7.   (a)   Award up to [4 max].
+           For each of the two reasons:
+           award [1 max] for identifying a reason (R) and [1 max] for an explanation (E).
+
+           R: The banner will be the same in all pages of the site / on top of all pages;
+           E: Making the site easily recognizable among many other merchants / easily
+              identifiable / making the logo of the merchant visible;
+
+           R: The banner usually contains a hotspot button to go back to the homepage /
+              (Note: accept the logo itself as hotspot button);
+           E: So that navigation becomes easy;
+              This is the place where the hotspot button is expected to be found /
+              This is consistent use (normal practice) with other sites /
+              This is the place which can be viewed first on all digital devices (Laptop,
+              Mobile, Tablet etc.) therefore useful for scrolling;                                    [4]
+
+     (b)   Award up to [1 max].
+           Copyright notice/privacy statement/link to terms & conditions/link to commercial
+           laws;                                                                                      [1]
+
+     (c)   (i)    Award up to [1 max].
+                  HTML / XHTML / XMTML;                                                               [1]
+
+           (ii)   Award up to [3 max].
+                  Award [3] if the three actions are correct and their order is correct.
+                  Award [2] if three actions are correctly identified but their order is incorrect.
+                  Award [1] if two actions are correctly identified, no matter the order.
+                  Award [0] in all other cases
+
+                  User selects one among Spikes/Trail/Endurance (accept: “one of the
+                  three/available options” or words to that effect);
+                  Then inputs the size;
+                  Then clicks on a Submit button (accepts submits) to send out the form;
+                                                                                                      [3]
+                                             – 24 –              M17/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+(d)   (i)   Award up to [5 max].
+            Award [1] for each of the processing steps indicated below.
+            Required elements are underlined.
+
+             Server uses process.php to process information input via the form;
+
+             Server uses process.php to process item and size input via the
+                submitted form;
+
+             Size is checked for being a numeric value AND in the range [34,46]
+                included;
+                OR
+                Size is tested for type-checking (well-formedness) AND range-check
+                (legitimate values), i.e. number between 34 and 46, extremes included;
+
+               Check fails: (appropriate) error messages are output / echoed /
+                displayed back to user;
+
+             Check ok: server performs a protected access to the internal database
+              CatalogDB in localhost;
+              OR
+             Check ok: server performs an access, protected by username and pwd,
+              to the internal database CatalogDB in localhost;
+
+               Server performs a query on CatalogDB with the two parameters
+                instantiated from the input form;
+                OR
+                Server performs a query on CatalogDB with the (actual) values of the
+                parameters item and size from the input form;
+
+             Nothing is found on CatalogDB matching the query: return/output/echo
+                appropriate error message
+                (Note: do not accept ‘the query fails’; the point is that the query
+                succeeds but the selection is empty, accept words to that effect).
+
+               Result of query is non-empty (Note: accept words to that
+                effect): return/echo/display ALSO image and price from CatalogDB (in
+                addition to item and size)
+
+             Server closes connection to database;                                       [5]
+                                       – 25 –             M17/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+(ii)   Award up to [2 max].
+       Award [1] for an example and [1] for an explanation (to address clients’
+       side scripting)
+
+       Example:
+       add a script/Javascript (using <script> .. </script>) to the form to
+       magnify text / to change background colour / to use specific fonts/
+       to provide animation;
+
+       Explanation:
+       Features depending on user’s taste/needs are processed faster on clients’
+       side and would heavily clog transmission/generate bottleneck if they were
+       depending on the server;
+
+       Note: Accept alternative examples.
+       Note: Candidates are not expected to write JavaScript code.                 [2]
+                                                   – 26 –               M17/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+8.   (a)   Award up to [4 max].
+           Award up to [2] in relation to posting in blogs and forums
+           Award up to [2] in relation to commenting in blogs and forum.
+
+           Note: award max 2 marks for responses that lists evidence of
+           understanding generic posting / commenting but with no explicit connection
+           between the blog and the forum.
+
+           Posting:
+           In a blog only the owner can post an article / open a thread of discussion / start a
+           theme;
+           Whereas in a forum all registered participants can post an article / open a thread;
+
+           Commenting:
+           In a blog registered visitors may be allowed to comment but the blog owner may
+           moderate
+           Whereas in a forum all registered users are allowed to comment (without
+           moderation);
+
+           Example 1:
+           A blog is associated to / led by one person (the blog owner/the journalist)
+           who drives / leads / coordinates the discussion;
+
+           Only the owner can post a new thread and the registered users may comment
+           just to animate the debate, even they have different views/opinions;
+
+           However, registered users may be subject to moderation by the blog owner,
+           especially if this is the journalist publishing in a major newspaper, to the purpose
+           of filtering out comments that are inappropriate / offensive / out of scope / non-
+           suitable for the newspaper policies / ensuring quality of content / relevance of
+           posting / quality of discussions;
+
+           This is quite different from what happens in a discussion forum, where registered
+           users are not subject to moderations and therefore can both open/post threads
+           and comments in all threads;
+
+           With the effect of delivering a sense of participation / enforce a spirit of
+           community / aggregate people on general ideas;
+                                                                                                  [4]
+
+     (b)   Award up to [5 max].
+
+           Tags are primarily important to help users navigate the blog site;
+           By relating posts within the same category/tag/theme in the blog;
+           Hence tags / they contribute links from web pages inside the blog;
+           Tags are visible, so they can be easily accessed by web crawlers;
+           That will be guided to discover the site content following the links;
+           To avoid the risk of isolated pages in the blog that would not be indexed.             [5]
+                                                 – 27 –             M17/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+     (c)   Award up to [2 max].
+
+           It has not been accessed enough, yet (possibly because there aren’t many
+           registered users, yet);
+
+           It contains keywords that are out-of-fashion/in disuse that nobody
+           currently uses for their searches;
+
+           The whole site might be hosted by a company without a good
+           reputation (and this penalizes ranking);
+
+           The site can only be accessed by browsing and does not have a feeder for
+           mobile devices / automatic updates (eg RSS, Twitter, etc);                        [2]
+
+
+9.   (a)   (i)   Award up to [1 max].
+
+                 It is the idea of performing computing anytime and anywhere (pervasive)
+                 using any device / (using in everyday objects);
+
+                 Note: Accept “Computing embedded into everyday objects for healthcare
+                 purposes”
+                                                                                             [1]
+                                        – 28 –              M17/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+(ii)   Award up to [4 max].
+       For each of the two examples:
+       Award [1] for identifying an object in which the technology is embedded.
+       Award [1] for the use to which this is put.
+
+       Answers may include:
+
+       Obj - (Digital) control/transmitters that are embedded in domestic
+             appliances such as fridges / cookers / microwave or doors etc /smart
+             appliances;
+       Use - So that the different objects can communicate among them to avoid a
+             surcharge in power demand/avoid a power blackout;
+
+       Obj - (semiautonomous) wheelchair with sensors/camera;
+       Use - so to avoid specific obstacles when used in a closed environment /
+             ‘knows’ the path to traverse a certain area of the flat/hall/living
+             environment
+
+       Obj - smart white stick (for sight-impaired people);
+       Use - the tip of the stick has awareness of the environment and sends
+             back, to the handle, impulses that code information to the user, for
+             example it may signal a wet floor
+
+       Obj - A (smart) biometric watch;
+       Use - That routinely reports the vital parameters / elaborates statistics /
+             checks the pulse;
+
+       Obj - voice recognition systems integrated on appliances/doors;
+       Use - for example a user with limited mobility may just say ‘open the door’
+             to the main door, but the recognition must be calibrated so to
+             recognise only the owner
+
+       Obj - An app on a smartphone/computer/interactive screen;
+       Use - that prompts the user to regularly make some movements for
+             rehabilitative physiotherapy, at home, on their own (soft
+             gym/physiotherapy)
+
+       Obj - sensors in the floor/bathroom;
+       Use - detect whether the person has fallen and this can be integrated with
+             other services to alert the nurse;
+
+       Obj - infrared camera
+       Use - to detect movements/presence/whether the person is sleeping or
+              not/ body temperature therefore signalling parameters for possible
+              illnesses;
+
+       Obj - weight sensor embedded in the bed
+       Use - to determine changes in weight that can be transmitted to other
+             services;
+                                                                                     [4]
+                                             – 29 –             M17/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+(b)   Award up to [5 max].
+      Award up to [2 max] in relation to the public cloud.
+      Award up to [2 max] in relation to the private cloud.
+      Award [1 max] for a conclusion.
+
+      Note: Do not accept “Access for doctors/nurses...” as it is included in the stem of
+      the question.
+
+      Example one:
+      Public cloud could be accessed by many people;
+      Although access is restricted to their authorized area;
+      Private cloud provides dedicated infrastructure for one client;
+      Which makes it more secure;
+      Because resources are not shared;
+      (A breach of security in a private cloud means less data loss than if it happened
+      in a public cloud);
+      (Conclusion) As this data is sensitive, it should therefore be stored in a private
+      cloud (and encrypted);
+
+      Example two:
+      Public clouds are usually maintained by expert people;
+      SW updates to prevent security risks are very sophisticated;
+      Private clouds are usually maintained by people with less expertise;
+      When updates are needed in a private cloud it is harder to ensure the
+      same level of security (as in a public cloud) across the private clouds, making it
+      more vulnerable;
+      (Conclusion) This makes the private cloud not necessarily more secure,
+      Therefore, encryption is needed to prevent eavesdropping;                             [5]
+                                            – 30 –              M17/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+(c)   Award up to [2 max].
+      Award [1] for identifying a risk and [1 max] for an expansion/description.
+
+      Note: Do not accept “(Quality of) security of data storage”
+
+      Risk: Malfunctioning / reliability of the device (reliability of Hardware);
+            The device fails to communicate (to send the signal) and the supervisor
+            might not intervene on time / user might be induced to think the situation is
+            OK;
+
+      Risk: Wearables could be lost / misplaced;
+            Consequently, there is an interruption in monitoring some vital parameters;
+
+      Risk: Compatibility among devices;
+            The user might be provided cheaper equipment that is not conform to
+            standards, raising problems of interoperability with existing equipment;
+
+      Risk: Network may be down / stuttering / low bandwidth;
+            The user might become isolated and unable to set it back up on their own
+            (don’t know how to make a WiFi work);
+
+      Risk: Privacy / protection and personal safety;
+            The user’s habits at home could be determined by monitoring the vital
+            parameters (sleep/awake or pulse) and this information may be used for
+            unlawful / unethical
+            purposes;                                                                        [2]
+
+(d)   CDMA / 3G / 4G / UMTS / GAN / GSM / iDEN / WiMAX / Wi-Fi.                              [1]
+
+(e)   Award up to [5 max].
+      Award up to [2 max] for describing the role of protocol and standards and
+      up to [3 max] for an explanation (examples may be included).
+
+      Protocols and standards provide tested and verified techniques and technologies;
+      To support data protection/security/privacy;
+      Protocols and standards are essential in a complex system that includes different
+      subsystems/components that interact;
+
+      Possible lines to develop an explanation:
+
+         For example, in transmission (SSL/TLS):
+          So that all information is encrypted/is protected for eavesdropping or
+          man-in-the-middle attack/has Integrity and authenticity protection;
+          For example, for the transmission of data/signals from wearables to the cloud;
+
+         For example, in storage and access:
+          In relation to Availability/Integrity/authenticity/Access control/logging;
+          For example, to prevent risks for patients due to inappropriate data monitoring;
+
+         For example, in relation to evolution of the system:
+          In relation to the expansion of the system or changed architecture of
+          the system;
+          Which might include further/future devices/services involving the cloud /
+          so that new devices are (backward) compatible with the existing ones;              [5]
+                                                  – 31 –              M17/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+Option D — Object-oriented programming
+
+10.   (a)   Award up to [3] marks.
+            Note: An example is required with detailed explanation (up to [2 max];
+            Award [1 max] if there is lack of detail).
+
+            A class describes/provides the template for a particular object;
+            Whereas an instantiation of a class actually creates an object for that class;
+            For example:
+            An employee class would contain characteristics/actions that describe
+            an employee, and an instantiation would represent a particular employee;                [3]
+
+      (b)   Award marks as follows up to [4 max]:
+            Award up to [2 max] for each of the two required examples (award [1] mark for correct
+            example but lack of terminology/detail/competence)
+            Note: Examples should show competent use of terminology in describing the use of
+            inheritance, to get full marks.
+
+            The responses should focus on these aspects, with keywords underlined:
+                   Several sub-classes can inherit characteristics from a superclass;
+                   Whilst adding specific characteristics particular to themselves;
+
+            Examples can then expand or be described to include the features above.
+
+            For example:
+            There could be a “GUI” superclass that contains the main elements for the UIs
+            with the GUI for each screen inheriting from its parent;
+
+            For example:
+            An “Employee” superclass that allows the different types of employees to inherit
+            standard characteristics;                                                               [4]
+
+      (c)   Award up to [3 max]:
+
+            Library programs are programs that have already been written;
+            They are standard/frequently used programs;
+            Development time will be saved if they can be incorporated into the design;
+            They have been tested / Will be free of bugs;
+
+            Note: Allow [1 mark] for responses that include examples that expand on any of the aspects
+            listed above.                                                                          [3]
+
+11.   (a)   Award [max 2 marks]:
+            [1 mark] for each of the two correct assignments.
+
+            public SalesPerson (String id)
+            {
+              this.id = id;
+              salesHistory = new Sales [100];
+            }
+
+            Note: Allow any reasonable value for the number of Sales objects.                       [2]
+                                             – 32 –             M17/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+ (b)   Award up to [3 max].
+       Note: Use of competent/detailed terminology (underlined) is required.
+
+       As the variables are declared as private;
+       They/their values cannot be accessed directly from outside this class;
+       Therefore, public accessor methods are needed to permit access;                   [3]
+
+       Note: Either accessor or access required.
+
+ (c)   (i)    Award up to [4 max] as follows (there are 5 marking points):
+              [1] for two classes BOTH with basic three-tier structure layout;
+              [1] for correct dependency shown (eg diamond arrow) /
+              “has a” from SalesPerson to Sales/
+              1:N relation.
+              [1] in SalesPerson, for all vars and methods (contentwise) with type
+              (allow if constructor/ accessor/mutator methods are present);
+              [1] in Sales, for all vars and methods (contentwise) with type
+              (allow if constructor/ accessor/mutator methods are present);
+              [1] for correct use of +/- for public/private;
+
+
+
+         SalesPerson                                                   Sales
+
+- id: String                                               - itemId: String
+- salesHistory: Sales[]                                    - value: double
+- count: int                                               - quantity: int
+
++ double calcTotalSales()
++ Sales largestSale()
+                                                                                         [4]
+
+
+
+       (ii)   Award up to [2 marks].
+
+              Any change in the Sales class might require a rewriting of some
+              SalesPerson methods/might not work;
+              For example, the calcTotalSales() is dependent upon/uses data from
+              the Sales
+              class;                                                                     [2]
+
+              Note: Accept any reasonable example.
+
+ (d)   Award up to [4 marks].
+
+       102;
+       2;
+       2550.40;
+       5000.00; (Note: Accept, only in this case, 5000)                                  [4]
+                                              – 33 –              M17/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+(e)   Award marks up to [5 max] as follows:
+      [1] for assigning an appropriate value to total;
+      [1] for correct loop;
+      [2] for correctly updating total OR [1] for a reasonable effort;
+      [1] for returning the total;
+
+         public double calcTotalSales() // returns total value of all
+                                       // of the sales
+         {
+           double total = 0;
+           for (int x = 0; x<count; x++)
+           {
+             total = total + salesHistory[x].getValue()
+                                     *salesHistory[x].getQuantity();
+           }
+         return total;
+         }                                                                                 [5]
+                                            – 34 –             M17/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+(f)   Award marks as follows up to [5 max]:
+      [1] for correct initialization;
+      [1] for correct loop;
+      [1] for correct comparison AND [1] for correct reassignment of total;
+      Note: Award [1 max] for these two parts if dot notation is not used.
+      Award [1] for correct re-assignment of index;
+
+      public String highest()
+      {
+        double total = 0;
+        int index = -1;
+        for (int x=0; x<100; x++)
+        {
+           if (SalesPeople[x].calcTotalSales() > total)
+           {
+             total = SalesPeople[x].calcTotalSales();
+             index = x;
+           }
+        }
+        return SalesPeople[index].getId();
+      }
+                                                                                      [5]
+
+      Note: There will be other correct versions, but the markscheme shown above
+      should still apply.
+                                              – 35 –              M17/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+(g)   Award marks up to [4 max] as follows:
+      [1] for correct loop;
+      [1] for correct comparison (either as part of the loop condition, or within a for -
+      loop);
+      [1] for assignment (with or without use of set);
+      [1] for correct use of get / set methods.
+      Note: Allow for a “follow through” (FT) if the loop is incorrect
+
+      Example of solution with while-loop
+
+      public void addSales(Sales s, String id)
+      {
+        int x = 0;
+        while (salesPeople[x].getId() != id)
+        {
+           x++;
+        }
+        salesPeople[x].setSalesHistory(s);
+      }
+
+
+      Example of solution with for-loop
+
+      public void addSales(Sales s, String id)
+      {
+        for(int i=0;i<salesPeople.length; i++)
+        {
+           if(salesPeople[i].getId().equals(id))
+           {
+             salesPeople[i].setSalesHistory(s);
+             break;
+           }
+        }
+      }                                                                                          [4]
+
+(h)   Award up to [3 max]:
+
+      A date variable must be added to the Sales class;
+      And included in its constructor;
+      Get/set methods added for the date;
+      The calcTotalSales() would have to be rewritten;                                           [3]
+
+      Note: The spirit of the question is to address the question from a programmer/developer
+      point of view. We are looking for elements of programming/functionality of the programs.
+      Please take this perspective when marking vague responses.
+                                         – 36 –             M17/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+
+(i)   Award up to [3 max]:
+
+      This is shown by the two constructors in the SalesPerson class;
+      Which is an example of overloading;
+      The constructor that is executed (by the compiler);
+      Is the one in which the parameters match up with the arguments in the calling
+      statement;                                                                      [3]
+

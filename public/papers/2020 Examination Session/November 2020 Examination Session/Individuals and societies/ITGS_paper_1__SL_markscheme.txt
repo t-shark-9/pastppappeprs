@@ -1,0 +1,781 @@
+N20/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+
+
+                        Markscheme
+
+
+                         November 2020
+
+
+                 Information technology
+                    in a global society
+
+
+                          Standard level
+
+
+                               Paper 1
+
+
+
+
+19 pages
+                                           –2–                  N20/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+
+
+No part of this product may be reproduced in any form or by any electronic or
+mechanical means, including information storage and retrieval systems, without written
+permission from the IB.
+
+Additionally, the license tied with this product prohibits commercial use of any selected
+files or extracts from this product. Use by third parties, including but not limited to
+publishers, private teachers, tutoring or study services, preparatory schools, vendors
+operating curriculum mapping services or teacher resource digital platforms and app
+developers, is not permitted and is subject to the IB’s prior written consent via a license.
+More information on how to request a license can be obtained from
+https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-license/.
+
+Aucune partie de ce produit ne peut être reproduite sous quelque forme ni par quelque
+moyen que ce soit, électronique ou mécanique, y compris des systèmes de stockage et
+de récupération d’informations, sans l’autorisation écrite de l’IB.
+
+De plus, la licence associée à ce produit interdit toute utilisation commerciale de
+tout fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris,
+sans toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de
+tutorat ou d’aide aux études, des établissements de préparation à l’enseignement
+supérieur, des fournisseurs de services de planification des programmes
+d’études, des gestionnaires de plateformes pédagogiques en ligne, et des
+développeurs d’applications, n’est pas autorisée et est soumise au consentement écrit
+préalable de l’IB par l’intermédiaire d’une licence. Pour plus d’informations sur la
+procédure à suivre pour demander une licence, rendez-vous à l’adresse suivante :
+https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-license/.
+
+No se podrá reproducir ninguna parte de este producto de ninguna forma ni por ningún
+medio electrónico o mecánico, incluidos los sistemas de almacenamiento y
+recuperación de información, sin que medie la autorización escrita del IB.
+
+Además, la licencia vinculada a este producto prohíbe el uso con fines comerciales de
+todo archivo o fragmento seleccionado de este producto. El uso por parte de terceros
+—lo que incluye, a título enunciativo, editoriales, profesores particulares, servicios
+de apoyo académico o ayuda para el estudio, colegios preparatorios, desarrolladores
+de aplicaciones y entidades que presten servicios de planificación curricular u
+ofrezcan recursos para docentes mediante plataformas digitales— no está permitido
+y estará sujeto al otorgamiento previo de una licencia escrita por parte del IB. En este
+enlace encontrará más información sobre cómo solicitar una licencia:
+https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-license/.
+                                                    –3–                  N20/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+
+
+Critical Thinking – explanation, analysis and evaluation
+
+These trigger words often signal critical thinking. The bold words are the key terms in the various
+criteria.
+Explanation – Because, as a result of, due to, therefore, consequently, for example
+Analysis – Furthermore, additionally, however, but, conversely, likewise, in addition, on the other hand,
+whereas
+Evaluation ‫ –ؘ‬My opinion, overall, although, despite, on balance, weighing up
+
+Examiners should be aware that in some cases, candidates may take a different approach, which if
+appropriate should be rewarded. If in doubt, check with your team leader.
+
+In the case of an “identify” question read all answers and mark positively up to the maximum marks.
+Disregard incorrect answers. In all other cases where a question asks for a certain number of facts
+eg “describe two kinds”, mark the first two correct answers. This could include two descriptions,
+one description and one identification, or two identifications.
+
+It should be recognized that, given time constraints, answers for part (c) questions are likely to include a
+much narrower range of issues and concepts than identified in the markband. There is no “correct”
+answer. Examiners must be prepared to award full marks to answers which synthesize and evaluate
+even if they do not examine all the stimulus material.
+                                                    –4–                    N20/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+1.   E-voting
+
+     Note to examiners:
+     •     All part (a) questions are marked using ticks and annotations where appropriate.
+     •     Part (b) and part (c) are marked using markbands. Use annotations and text
+     comments to provide a rationale behind the marks you awarded. Do not use ticks.
+
+     (a)   (i)     State the primary key in the Voter table in Figure 2.                            [1]
+
+                   VoterID
+
+                   Award [1] for stating VoterID.
+
+           (ii)    Identify one foreign key in the Votes table in Figure 2.                         [1]
+
+                   Answers may include:
+                   • VoterID
+                   • CandidateID
+
+                   Award [1] for identifying the foreign key up to a maximum of [1].
+
+           (iii)   Identify the data type that would be used in the Gender field in Figure 2.       [1]
+
+                   Answers may include:
+                   • Text
+                   • String
+
+           (iv)    State the relationship between the Candidate table and the Votes table.          [1]
+
+                   One – Many
+
+           (v)     Outline why a drop-down list would be used for the Party field in the
+                   Candidate table.                                                                 [2]
+
+                   Answers may include:
+                   • Provides a set number of possible options.
+                   • To remove the likelihood of data input errors.
+                   • They conserve screen space, other alternatives such as radio button or
+                      checkbox may require all possible options to be displayed taking more
+                      screen space.
+                   • Faster data entry.
+
+                   Award [1] for identifying why a drop-down list would be used for the Party
+                   field and [1] for a development of that point up to a maximum of [2].
+                                                  –5–                  N20/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+       (b)   A number of individuals and groups were consulted during the design of the e-
+             voting system to enable designers to create an intuitive interface for it.
+
+             Analyse questionnaires and interviews as methods of data collection to gather
+             this information from these individuals and groups.                                         [6]
+
+             Answers may include:
+
+             Questionnaires:
+                • Provide a mechanism to get responses from a large number of people.
+                • Provide a mechanism to obtain quantitative answers. These answers
+                    are relatively easy/quick to analyse.
+                • Less labour intensive than using interviews.
+                • Poorly designed questions, for example the overuse or lack of closed
+                    questions, can yield almost meaningless information.
+                • Respondents may sometimes misunderstand or misinterpret
+                    questions; it will be very hard to correct these mistakes and collect
+                    missing data in a second round.
+                • Questionnaires do not have time constraints; respondents can take
+                    their time to complete the questionnaire in their own time.
+                • Questionnaires safeguard respondents’ anonymity, which allows for
+                    complete invisibility, maximizing comfort for those answering.
+
+             Interviews:
+                 • Provide information that may be more detailed than that obtained from
+                     a questionnaire.
+                 • Require skillful interviewers to be able to take advantage of the face-to-
+                     face interactions.
+                 • If the skillset of the interviewees is appropriate, the qualitative data
+                     may be used to provide more substantial conclusions than relying
+                     solely, or largely, on quantitative data.
+                 • Can be very time consuming: setting up, interviewing, transcribing,
+                     analysing, feedback, reporting.
+                 • Not all respondents may be comfortable taking part in interviews and
+                     may feel nervous, especially when it is being recorded.
+
+Marks                                             Level descriptor
+
+             No knowledge or understanding of ITGS issues and concepts. No use of appropriate
+  0
+             ITGS terminology.
+
+             A limited response that indicates very little understanding of the topic or the reason is not
+ 1–2         clear. Uses little or no appropriate ITGS terminology. No reference is made to the
+             scenario in the stimulus material. The response is theoretical.
+
+             A description, unbalanced or partial analysis of the appropriateness of the use of
+             questionnaires and interviews. References, implicit and/or explicit, are made to the
+ 3–4
+             scenario in the stimulus material There is some use of appropriate ITGS terminology in
+             the response.
+
+             A balanced and detailed analysis of the appropriateness of the use of questionnaires and
+ 5–6         interviews. Explicit and relevant references are made to the scenario in the stimulus
+             material. There is appropriate ITGS terminology throughout the response.
+                                          –6–                  N20/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+(c)   Some states are planning to return to a paper-based voting system, where
+      voters put a cross (X) in the column next to the party of their choice.
+
+      Discuss whether these states should retain e-voting or return to a paper-based
+      voting system.                                                                      [8]
+
+      Answers may include:
+
+      Advantages of retaining e-voting:
+         • The collection of the votes is more straightforward if the voting form is
+            online.
+         • Voters will have the flexibility to cast their votes from any location using
+            online voting.
+         • The results of the election can be reported more quickly.
+         • More in-depth analysis of the voting patterns may occur, which may
+            help political parties target voters during subsequent elections.
+         • Electronic voting machines with touch screens are proven to be
+            advantageous for physically challenged people.
+         • Electronic voting machines can also come with audio support to assist
+            visually impaired voters. In such cases, the visually challenged person
+            can cast their vote without any problem.
+         • Electronic voting machines allow people with disabilities to cast truly
+            anonymous ballots and ensure them equitable rights.
+         • A long-term decrease in expenses. Conducting a large-scale election
+            can be a costly prospect, primarily because of labour costs.
+         • More convenient to transport e-voting machines than ballot papers and
+            boxes.
+
+      Disadvantages of retaining e-voting:
+         • The biggest concern about electronic voting is hacking: there is always
+            the risk that someone without authorization would be able to access
+            and alter the results of an election. This could be done either in-
+            person, by physically tampering with the voting machines, or remotely,
+            if the system transmits any kind of data over the internet.
+         • A hurdle for implementing widespread e-voting is the high upfront cost
+            of installation. While electronic voting can be a cost-saving measure in
+            the long term, the cost of setting it up may be a prohibitive factor.
+            Costs include the servers, voting machines, maintenance and
+            installation, testing the infrastructure, and securing the premises.
+         • E-voting machines may require power backup, which may be a
+            challenge, especially in remote locations.
+         • Technical supervisors/staff may be required at the site of e-voting to
+            deal with technical glitches.
+
+      Advantages of reverting to paper voting:
+         • The cost of implementing the technology may not be cost effective.
+         • There are concerns about the e-voting system being hacked or
+            fraudulent activities linked to the voting.
+         • Some people prefer the human element of paper voting.
+         • No technical training required for voters: they can mark their
+            preference on a paper ballot and drop it into the ballot box.
+         • Even people with low literacy levels can easily use a paper ballot.
+         • No technical training is required for election officers deployed at the
+            polling booths: no electronic capturing devices are in use.
+                                   –7–                  N20/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+   •   Paper ballots are more secure – tampering is not possible due to a
+       physical record of votes.
+   •   The paper ballot is effective in reducing fake and bogus votes, as the
+       software of electronic voting machines can be manipulated with
+       malware, which can be used to tamper with the election results.
+   •   Statistically relevant auditing can serve as a tool to detect or deter
+       malfunction or fraud.
+   •   In the instance where a candidate is entitled to a recount, a full hand
+       recount of paper ballots can determine the accurate or final results.
+
+Disadvantages of reverting to paper voting:
+   • Printing of ballots ahead of time and setting them in order is a difficult
+      task. Printing of ballots is done district-wise, making the task even
+      more complex.
+   • The voter may accidentally mark two boxes on the same ballot or may
+      not mark the choice correctly. The computer software can prevent this
+      happening.
+   • With traditional paper methods, ballots must be collected from various
+      polling locations and consolidated at a central location before a team of
+      individuals sifts through them manually. This process is very time
+      consuming, leading to a significant delay in the announcement of
+      election results.
+   • In a paper ballot, physically challenged people may have difficulty
+      casting their votes in private.
+   • The requirement to go to a polling location continues to drive down
+      voter turnout. Some people don’t have time to take off work, don’t live
+      close to a polling location, or just can’t be bothered.
+
+Please see generic markbands on page 19.
+                                                  –8–                   N20/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+2.   BYOD at Xingu Academy
+
+     (a)   (i)    Identify two pieces of information that would be used to identify a device on
+                  the IT network.                                                                 [2]
+
+                  Answers may include:
+                  • MAC address
+                  • IP address
+                  • User’s credentials, such as username
+                  • Computer name
+
+                  Award [1] for identifying each piece of information the IT department would
+                  use to identify the device on the IT network, up to a maximum of [2].
+
+           (ii)   Identify the steps used by speech-to-text software.                             [4]
+
+                  Answers may include:
+                   • A student speaks a word / microphone used to capture voice.
+                   • The software converts the analog word to digital sound.
+                   • The software converts sound to text based on a database of sounds.
+                   • The word is matched (against the words in a database) to see if it is a
+                     valid word.
+                   • If the word is found in the database.
+                   • A word is presented on screen.
+                   • If the word is not found in the database.
+                   • A wrong word / the closest match / software makes a suggestion / an
+                     error message appears.
+
+                  Award [1] for identifying each step that the text-to-speech software uses up
+                  to a maximum of [4].
+                                         –9–                   N20/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+(b)   Digital citizenship is included in Xingu Academy’s IT acceptable-use policy.
+
+      Explain why it is important that students at Xingu Academy are both
+      competent users of digital technologies and good digital citizens.                  [6]
+
+      Reasons for being competent users of digital technologies:
+         • To be able to use digital technologies to support their learning.
+         • To be able to use software tools appropriately to maximize their
+            efficiency.
+         • To develop a set of transferable skills they can take beyond school.
+         • To be able to access a wide range of online resources.
+         • In order to take responsibility for their personal devices – ensure they
+            are in working order and keep hardware and data secure. In a BYOD
+            school, technicians may not be able to support all these diverse
+            devices
+
+
+      Reasons for being good digital citizens:
+         • Understand that being able to use the digital technologies is not
+            sufficient to ensure the opportunities they bring are harnessed.
+         • Appreciates that a number of ethical decisions occur when interactions
+            with the digital technologies occur.
+         • Accept that they should be responsible for their actions when
+            interacting with digital technologies and that some actions could have
+            potentially negative consequences, such as employers judging
+            prospective students by their social media profiles. So, it is important to
+            teach students how to create online personas that project a positive
+            and constructive image.
+         • See the need for good digital citizenship as no more than an extension
+            of their own physical citizenship.
+         • Accept that the boundary between digital and physical citizenship can
+            be blurred and ensure that these dual roles can be reconciled.
+         • Students must respect other users and be aware of the impacts of
+            irresponsible online behavior, eg cyber-bullying.
+         • Students need to be aware of legal issues – illegally downloading
+            games/music, crimes such as hacking/identity theft. Illegal
+            games/hacking tools could be brought to school on their own devices.
+         • Students require digital literacy to wisely use the vast amount of
+            information on the internet.
+         • Students need to understand that there is a digital divide – within the
+            school/community/world – that may be accentuated at a BYOD school
+            where some students own the latest technology. Children could put
+            pressure on parents to buy newer devices.
+         • Students need to be aware of digital health issues – good ergonomics,
+            risks of internet/game addiction.
+         • Students need to be aware of the need to protect their data using
+            passwords/backup.
+                                   – 10 –                N20/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+
+Marks                                      Level descriptor
+  0     No knowledge or understanding of ITGS issues and concepts. No use of
+        appropriate ITGS terminology.
+ 1–2    A limited response that indicates very little understanding of the topic or the
+        reason is not clear. Uses little or no appropriate ITGS terminology. No reference is
+        made to the scenario in the stimulus material. The response is theoretical.
+ 3–4    A description or partial explanation of why it is important that students at Xingu
+        Academy are both competent users of digital technologies and good digital
+        citizens. References, implicit and/or explicit, are made to the scenario in the
+        stimulus material There is some use of appropriate ITGS terminology in the
+        respo44nse.
+ 5–6    An explanation of why it is important that students at Xingu Academy are both
+        competent users of digital technologies and good digital citizens. Explicit and
+        relevant references are made to the scenario in the stimulus material. There is
+        appropriate ITGS terminology throughout the response.
+                                        – 11 –               N20/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+
+(c)   Discuss whether Xingu Academy should become a bring-your-own-device
+      (BYOD) school.                                                                   [8]
+
+      Answers may include:
+
+      Reasons why Xingu Academy should become a bring-your-own-device
+      (BYOD) school:
+         • There will be a significant reduction in the cost of IT hardware that can
+            be passed on to other teachers and learning needs (such as more
+            staff).
+         • The IT support team may not need to be so large, but will need to
+            support a wide range of devices, including the latest technology as well
+            as old technology.
+         • Students may find that they do not have to learn the software used by
+            the school as they have similar (or better) software installed on their
+            device.
+         • Students are already familiar and comfortable using their own
+            technology so they can focus on the lesson.
+         • Students can choose their own device type, more comfortable learning
+            on certain devices.
+         • Students’ personal mobile devices tend to be more cutting-edge, so
+            schools can more easily stay up to date with technology – but this
+            could present problems (digital divide/technical support).
+         • With BYOD, students are more likely to continue learning outside of
+            school hours.
+         • Students will be more organized with all their notes and assignments
+            all in one place (as opposed to having them on different computers and
+            devices in different places at school and home).
+         • Students can store their data on their own personal devices, so Xingu
+            Academy is not responsible for data storage.
+         • BYOD allows opportunities for more personalized learning where
+            students can excel at their own pace.
+                                  – 12 –              N20/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+Reasons why Xingu Academy should not become a bring-your-own-device
+(BYOD) school:
+   • Some teachers may not be comfortable with the new BYOD approach
+      and may see it as technology for technology’s sake.
+   • Some teachers may not be familiar with the software on a student’s
+      device.
+   • The school network may not have the capacity to deal with the
+      increased number of devices on the network.
+   • Some students will be advantaged, as they can afford much better
+      devices than others, some may not be able to bring in a device –
+      children may put pressure on their parents to upgrade their devices to
+      keep up with their friends. Digital divide issues.
+   • Teachers may find it harder to monitor a student’s digital behaviour.
+   • Some schools monitor students’ screens – this will raise issues if
+      monitoring software must be installed on students’ personal devices.
+   • The IT support team may have to install network peripherals, such as
+      printers, onto to the students’ devices.
+   • The increased levels of access may lead to security concerns.
+   • Students bringing in their own devices to school may increase the
+      possibility of theft.
+   • Applications may not be universal across all platforms, making it
+      difficult for teachers to assist.
+   • There may be more work for the IT department if they must support
+      students’ personal devices.
+   • Students sometimes may forget to bring their device or charge it.
+
+Please see generic markbands on page 19.
+                                                     – 13 –                N20/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+3.   Clouds under the sea
+
+     (a)   (i)     Identify two characteristics of cloud computing.                                 [2]
+
+                   Answers may include:
+                   • On-demand / measured service.
+                   • Based on a network of linked servers.
+                   • Multi-tenancy and resource pooling.
+                   • Rapid elasticity and scalability.
+                   • Broad network access.
+                   • Pay-as-you-go.
+                   • Easy maintenance.
+                   • Low down time.
+                   • Higher level of security, hard to breach.
+                   • Accessible from multiple devices.
+                   • Accessed via the internet.
+
+                   Award [1] for identifying characteristics of cloud computing, up to a
+                   maximum of [2].
+
+           (ii)    Servers used in cloud computing hold considerable amounts of data.
+
+                   Identify two forms of backup that could be used for the data on these
+                   servers.                                                                         [2]
+
+                   Answers may include:
+                   • Duplicate/alternative versions
+                   • Disk-to-cloud backup / Multi-location backup
+                   • Disk-to-disk backup
+
+                   Award [1] for identifying each form of back-up that could be used for the
+                   data on these servers, up to a maximum of [2].
+
+           (iii)   A user is downloading a ZIP (zipped file) from cloud storage.
+
+                   The ZIP file is 0.6 GB in size and the bandwidth speed is 8 mbps.
+
+                   Calculate the total time it will take to download the ZIP file.
+
+                   Note: 1 GB=1000 MB.                                                              [2]
+
+                   Bandwidth = 8 (mbps) / 8 = 1 (MB)
+
+                   Download time = 600 / 1 seconds or 10 minutes.
+
+                   Award [1] for correct conversion of mbps to MB (ie, divide by 8)
+                   Award [1] for correct answer.
+                                               – 14 –                N20/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+(b)   (i)     Compression software can be used to speed up the upload and download
+              of files.
+
+              The ZIP file recently downloaded from the cloud-based server contained a
+              number of images and videos.
+
+              Explain why lossy compression techniques would be used for the images
+              that have been downloaded from cloud storage.                                   [2]
+
+              Answers may include:
+               • The image may not be used for printing.
+               • Therefore, the quality/resolution of the image does not need to be as
+                 high if it is only to be viewed on screen.
+               • Due to significantly reduced file size, downloading images from cloud
+                 storage will be fast and will consume less internet bandwidth.
+
+              Award [1] for identifying why lossy compression techniques would be used
+              for the images and [1] for a development of that point, up to a maximum of
+              [2].
+
+      (ii)    Explain why lossless compression techniques would be used for the videos
+              that have been downloaded from cloud storage.                                   [2]
+
+              Answers may include:
+               • The quality of the decompressed video would need to be exactly the
+                 same as the pre-compressed version.
+               • Because the use of lossy compression techniques could lead to critical
+                 parts of the video being lost.
+               • Reduced file size without losing the quality of the video.
+
+              Award [1] for identifying why lossless compression techniques would be
+              used for the videos and [1] for a development of that point, up to a
+              maximum of [2].
+
+      (iii)   Cloud storage providers are responsible for protecting the privacy and
+              anonymity of the individuals whose data is held on their servers.
+
+              Distinguish between privacy and anonymity.                                      [2]
+
+              Answers may include:
+               • Privacy is knowing who the person is, but not knowing what they are
+                 doing / privacy is a concept describing activities that one keeps entirely
+                 to themselves, or to a limited group of people.
+               • Anonymity is knowing what a person may be doing, but not being able
+                 to identify the person.
+
+              Award [1] for identifying each difference between privacy and anonymity,
+              up to a maximum of [2].
+
+              Note: It is acceptable to correctly define each term for [2].
+                                        – 15 –               N20/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+(c)   Evaluate Microsoft’s decision to build data centres on the seabed.              [8]
+
+      Answers may include:
+
+      Reasons why Microsoft should build data centres on the seabed:
+         • The water surrounding the data centre can be used to cool it.
+         • The percentage of the world’s water used for this purpose is almost
+            infinitesimally small, so there is going to be almost no environmental
+            effect.
+         • They can be hidden and will not be unsightly.
+         • They may not take up valuable sites on land that could be used for
+            housing.
+         • They are likely to need less maintenance.
+         • The underwater data centers will take relatively less time compared to
+            land constructions.
+
+      Reasons why Microsoft should not build data centres on the seabed:
+         • The technology has existed for 10 years, but there has been no
+            commercial development of these data centres – why is this the case?
+         • The data centres may need to be backed up terrestrially, so it may not
+            be as environmentally friendly as suggested.
+         • Maintenance will be more difficult.
+         • The data centres may have an impact on local ecosystems e.g. heat
+            from the plants / chemicals leaching from the equipment.
+         • The cables to the data centres may be damaged by ships.
+         • Seabed data centres may be significantly more expensive than land-
+            based ones.
+         • Finding efficient ways of delivering backup power suppliers to an
+            underwater site may be problematic.
+
+      Please see generic markbands on page 19.
+                                                   – 16 –                N20/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+4.   The role of portable digital devices in health
+
+     (a)   (i)    Identify two vital signs that can be recorded by Jaime’s sport watch.             [2]
+
+                  Answers may include:
+                  • Heart rate / pulse.
+                  • Blood pressure.
+                  • Blood oxygen level / oxygen saturation.
+                  • Respiration rate.
+                  • Body temperature.
+
+                  Award [1] for identifying each vital sign, up to a maximum of [2].
+
+           (ii)   Describe the steps that the GPS receiver in Jaime’s sport watch uses to
+                  show the routes of his training runs.                                             [4]
+
+                  Answers may include:
+                   • The GPS receiver receives data from satellites that circle the earth,
+                     tracking the location of the runner as he moves.
+                   • The GPS receiver receives information about the orbits of each
+                     satellite (so it knows where each satellite will be at any given moment).
+                   • The GPS receiver calculates how far away from each satellite it is and
+                     therefore where it is on the surface of the earth.
+                   • It measures the distance to each satellite by calculating the amount of
+                     time it takes to receive its signal.
+                   • Once the GPS receiver has a minimum of three satellites in its fix, it
+                     can calculate its position on earth.
+                   • It uses a process of trilateration.
+                   • With two satellites in its fix, a GPS receiver can calculate its latitude
+                     and longitude (2D fix).
+                   • With three satellites in its fix, a GPS receiver can calculate its latitude,
+                     longitude and altitude (3D fix).
+                   • With four or more satellites in range, the GPS receiver can
+                     compensate for time differences between the receiver’s clock and the
+                     satellites’ clocks.
+                   • Using the location data, the route can be displayed on a map (GIS
+                     software).
+
+                  Award [1] for identifying each step that global positioning systems (GPS)
+                  follow to give an accurate location, up to maximum of [4].
+                                                 – 17 –                N20/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+       (b)   Jaime has decided to share his personal health information with researchers
+             at the University of Sierra Nevada (USN).
+
+             Analyse Jaime’s decision to share his personal health information with the
+             University of Sierra Nevada (USN).                                                          [6]
+
+             Reasons for sharing his personal health information:
+                • The university may have access to data analytics tools that can
+                   interrogate his personal health information and give him feedback on
+                   his health/fitness.
+                • The university may be able to provide additional health-related
+                   information.
+                • The university may be able to analyse Jaime’s data against other
+                   and/or larger data sets.
+                • Jaime may accept that his data is “out there” already so there is no
+                   harm in re-sharing it.
+                • Jaime may wish to contribute towards research at USN.
+
+             Reasons for not sharing his personal health information:
+                • There may be no way of knowing which other third parties the
+                   university is sharing Jaime’s data with.
+                • The university may impose conditions that may mean the data is not
+                   used for the purposes it was intended.
+                • Once the data is shared, it is hard to guarantee that is deleted when it
+                   is no longer needed.
+                • Patient privacy is a concern. Is data anonymized and does the
+                   university have sufficient security measures in place?
+
+Marks                                             Level descriptor
+
+             No knowledge or understanding of ITGS issues and concepts. No use of appropriate
+  0
+             ITGS terminology.
+
+             A limited response that indicates very little understanding of the topic or the reason is not
+ 1–2         clear. Uses little or no appropriate ITGS terminology. No reference is made to the
+             scenario in the stimulus material. The response is theoretical.
+
+             A description, unbalanced or partial analysis of whether it is appropriate for Jaime to
+             share his personal health information. References, implicit and/or explicit, are made to
+ 3–4
+             the scenario in the stimulus material There is some use of appropriate ITGS terminology
+             in the response.
+
+             A balanced and detailed analysis of whether it is appropriate for Jaime to share his
+ 5–6         personal health information. Explicit and relevant references are made to the scenario in
+             the stimulus material. There is appropriate ITGS terminology throughout the response.
+                                        – 18 –               N20/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+(c)   The development of mobile health apps has changed the way citizens manage
+      their own health and wellbeing.
+
+      Discuss whether citizens such as Jaime should rely only on the advice of a
+      health app to manage their own health and wellbeing.                            [8]
+
+      Answers may include:
+
+      Reasons why citizens such as Jaime should only rely on the
+      recommendations of the health app:
+         • The health app may be more consistent in its advice than a human
+            doctor.
+         • The health app will not be influenced by the patient during the
+            consultation / will be completely objective.
+         • The health app may lead to savings (for the user of the app) so that
+            other treatments that are currently not available may become possible
+            as money is freed up / health app may be more cost effective for the
+            user than visiting a specialist.
+         • The health app is available 24/7.
+         • It is convenient, the app is available immediately and Jaime would not
+            have to visit a doctor or sports scientist to get advice.
+         • The information from the app is available immediately without any
+            delays.
+         • The health app can be updated almost instantaneously, whereas
+            doctors would have to attend courses to ensure new procedures, etc,
+            are explained.
+         • App is available in any location so could, for example, be used on
+            holiday and the information and advice would still be available.
+
+      Reasons why citizens such as Jaime should not rely only on the
+      recommendations of the health app:
+         • The health app may be based on a generic profile and not have
+            sufficient background data to make a more meaningful diagnosis than
+            a human.
+         • The users may not trust the health app due to reliability and integrity
+            issues.
+         • The quality of the data being collected may be poor and the advice
+            might not be appropriate.
+         • Negative results could result in anxiety or cause Jaime to overexert
+            himself in order to follow the advice of the app.
+
+      Please see generic markbands on page 19.
+                                         – 19 –                N20/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+SL and HL paper 1 part (c) and HL paper 3 question 3 markband
+
+
+         Marks                                    Level descriptor
+                          ● A response with no knowledge or understanding of the
+        No marks            relevant ITGS issues and concepts.
+                          ● A response that includes no appropriate ITGS terminology.
+                          ● A response with minimal knowledge and understanding of the
+                            relevant ITGS issues and concepts.
+                          ● A response that includes minimal use of appropriate ITGS
+                            terminology.
+         Basic            ● A response that has no evidence of judgments and/or
+       1–2 marks
+                            conclusions.
+                          ● No reference is made to the scenario in the stimulus material
+                            in the response.
+                          ● The response may be no more than a list.
+                          ● A descriptive response with limited knowledge and/or
+                            understanding of the relevant ITGS issues and/or concepts.
+                          ● A response that includes limited use of appropriate ITGS
+                            terminology.
+       Adequate           ● A response that has evidence of conclusions and/or
+       3–4 marks            judgments that are no more than unsubstantiated statements.
+                            The analysis underpinning them may also be partial or
+                            unbalanced.
+                          ● Implicit references are made to the scenario in the stimulus
+                            material in the response.
+                          ● A response with knowledge and understanding of the relevant
+                            ITGS issues and/or concepts.
+                          ● A response that uses ITGS terminology appropriately
+                            in places.
+       Competent          ● A response that includes conclusions and/or judgments that
+       5–6 marks
+                            have limited support and are underpinned by a balanced
+                            analysis.
+                          ● Explicit references to the scenario in the stimulus material are
+                            made at places in the response.
+                          ● A response with a detailed knowledge and understanding of
+                            the relevant ITGS issues and/or concepts.
+                          ● A response that uses ITGS terminology appropriately
+       Proficient           throughout.
+       7–8 marks          ● A response that includes conclusions and/or judgments that
+                            are well supported and underpinned by a balanced analysis.
+                          ● Explicit references are made appropriately to the scenario in
+                            the stimulus material throughout the response.
+

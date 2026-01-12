@@ -1,0 +1,397 @@
+N10/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+
+
+                   MARKSCHEME
+
+
+                      November 2010
+
+
+
+                MATHEMATICS
+            DISCRETE MATHEMATICS
+
+
+
+                        Higher Level
+
+
+
+                               Paper 3
+
+
+
+
+10 pages
+                           –2–         N10/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+
+
+This markscheme is confidential and for the exclusive use of
+examiners in this examination session.
+
+It is the property of the International Baccalaureate and
+must not be reproduced or distributed to any other person
+without the authorization of IB Cardiff.
+                                                   –3–            N10/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+                                       Instructions to Examiners
+
+Abbreviations
+
+M     Marks awarded for attempting to use a correct Method; working must be seen.
+
+(M)   Marks awarded for Method; may be implied by correct subsequent working.
+
+A     Marks awarded for an Answer or for Accuracy; often dependent on preceding M marks.
+
+(A)   Marks awarded for an Answer or for Accuracy; may be implied by correct subsequent working.
+
+R     Marks awarded for clear Reasoning.
+
+N     Marks awarded for correct answers if no working shown.
+
+AG    Answer given in the question and so no marks are awarded.
+
+
+Using the markscheme
+
+1     General
+
+      Write the marks in red on candidates’ scripts, in the right hand margin.
+
+       Show the breakdown of individual marks awarded using the abbreviations M1, A1, etc.
+       Write down the total for each question (at the end of the question) and circle it.
+
+
+2     Method and Answer/Accuracy marks
+
+       Do not automatically award full marks for a correct answer; all working must be checked, and
+        marks awarded according to the markscheme.
+       It is not possible to award M0 followed by A1, as A mark(s) depend on the preceding M mark(s), if
+        any.
+       Where M and A marks are noted on the same line, e.g. M1A1, this usually means M1 for an
+        attempt to use an appropriate method (e.g. substitution into a formula) and A1 for using the
+        correct values.
+       Where the markscheme specifies (M2), N3, etc., do not split the marks.
+       Once a correct answer to a question or part-question is seen, ignore further working.
+
+3     N marks
+
+      Award N marks for correct answers where there is no working.
+
+         Do not award a mixture of N and other marks.
+         There may be fewer N marks available than the total of M, A and R marks; this is deliberate as it
+          penalizes candidates for not following the instruction to show their working.
+                                                  –4–            N10/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+4   Implied marks
+
+    Implied marks appear in brackets e.g. (M1), and can only be awarded if correct work is seen or if
+    implied in subsequent working.
+
+     Normally the correct work is seen or implied in the next line.
+     Marks without brackets can only be awarded for work that is seen.
+
+5   Follow through marks
+
+    Follow through (FT) marks are awarded where an incorrect answer from one part of a question is
+    used correctly in subsequent part(s) or subpart(s). Usually, to award FT marks, there must be
+    working present and not just a final answer based on an incorrect answer to a previous part.
+    However, if the only marks awarded in a subpart are for the answer (i.e. there is no working
+    expected), then FT marks should be awarded if appropriate.
+
+     If the question becomes much simpler because of an error then use discretion to award fewer FT
+      marks.
+     If the error leads to an inappropriate value (e.g. sin   1.5 ), do not award the mark(s) for the final
+      answer(s).
+     Within a question part, once an error is made, no further dependent A marks can be awarded, but
+      M marks may be awarded if appropriate.
+     Exceptions to this rule will be explicitly noted on the markscheme.
+
+6   Mis-read
+
+    If a candidate incorrectly copies information from the question, this is a mis-read (MR). Apply a MR
+    penalty of 1 mark to that question. Award the marks as usual and then write –1(MR) next to the total.
+    Subtract 1 mark from the total for the question. A candidate should be penalized only once for a
+    particular mis-read.
+
+     If the question becomes much simpler because of the MR, then use discretion to award fewer
+      marks.
+     If the MR leads to an inappropriate value (e.g. sin   1.5 ), do not award the mark(s) for the final
+      answer(s).
+
+7   Discretionary marks (d)
+
+    An examiner uses discretion to award a mark on the rare occasions when the markscheme does not
+    cover the work seen. The mark should be labelled (d) and a brief note written next to the mark
+    explaining this decision.
+
+8   Alternative methods
+
+    Candidates will sometimes use methods other than those in the markscheme. Unless the question
+    specifies a method, other correct methods should be marked in line with the markscheme. If in doubt,
+    contact your team leader for advice.
+
+     Alternative methods for complete questions are indicated by METHOD 1, METHOD 2, etc.
+     Alternative solutions for part-questions are indicated by EITHER . . . OR.
+     Where possible, alignment will also be used to assist examiners in identifying where these
+      alternatives start and finish.
+                                                           –5–           N10/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+9    Alternative forms
+
+     Unless the question specifies otherwise, accept equivalent forms.
+
+      As this is an international examination, accept all alternative forms of notation.
+      In the markscheme, equivalent numerical and algebraic forms will generally be written in
+       brackets immediately following the answer.
+      In the markscheme, simplified answers, (which candidates often do not write in examinations), will
+       generally appear in brackets. Marks should be awarded for either the form preceding the bracket or
+       the form in brackets (if it is seen).
+        Example: for differentiating f ( x)  2sin (5 x  3) , the markscheme gives:
+
+               f  ( x)   2cos (5 x  3)  5     10cos (5 x  3)                        A1
+
+        Award A1 for  2cos (5 x  3)  5 , even if 10cos (5 x  3) is not seen.
+
+
+10   Accuracy of Answers
+
+     If the level of accuracy is specified in the question, a mark will be allocated for giving the answer to
+     the required accuracy.
+
+      Rounding errors: only applies to final answers not to intermediate steps.
+      Level of accuracy: when this is not specified in the question the general rule applies: unless
+       otherwise stated in the question all numerical answers must be given exactly or correct to three
+       significant figures.
+
+     Candidates should be penalized once only IN THE PAPER for an accuracy error (AP). Award the
+     marks as usual then write (AP) against the answer. On the front cover write –1(AP). Deduct 1 mark
+     from the total for the paper, not the question.
+
+      If a final correct answer is incorrectly rounded, apply the AP.
+      If the level of accuracy is not specified in the question, apply the AP for correct answers not given
+       to three significant figures.
+
+     If there is no working shown, and answers are given to the correct two significant figures, apply the
+     AP. However, do not accept answers to one significant figure without working.
+
+11   Crossed out work
+
+     If a candidate has drawn a line through work on their examination script, or in some other way
+     crossed out their work, do not award any marks for that work.
+
+12   Calculators
+
+     A GDC is required for paper 2, but calculators with symbolic manipulation features (e.g. TI-89) are
+     not allowed.
+
+     Calculator notation
+     The Mathematics HL guide says:
+         Students must always use correct mathematical notation, not calculator notation.
+     Do not accept final answers written using calculator notation. However, do not penalize the use of
+     calculator notation in the working.
+                                                        –6–      N10/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+1.   (a)   (i)     Graph G
+                   vertex  A        B       C   D   E
+                                                                                            A1
+                   degree  2        2       3   2   1
+
+                   Graph H
+                   vertex  A        B       C   D   E
+                                                                                            A1
+                   degree  2        2       2   3   1
+
+
+           (ii)    not isomorphic                                                           A1
+                   Graph G has K 3 as a subgraph but Graph H does not.                      R1
+                   (or an equally valid reason)
+            Note:     Award A1R0 FT if degrees are wrong in part (i) as this makes it simpler.
+                                                                                                 [4 marks]
+
+     (b)   (i)     e  3v  6 , for v  3                                                A1A1
+
+           (ii)                                                                             A1
+
+           (iii)                                                                            A1
+
+           (iv)    from Euler’s relation v  e  f  2
+                   v  v2  8  2                                                          M1
+                   v2  v  6  0                                                          A1
+                   (v  2)(v  3)  0
+                   v3                                                                      A1
+                   for example
+
+
+
+
+                                                                                            A1
+
+
+            Note:     There are many possible graphs.
+                                                                                                 [8 marks]
+
+                                                                                          Total [12 marks]
+                                                 –7–           N10/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+2.   (a)   N  3  11t                                                          M1
+           3  11t  4(mod 9)
+           2t  1(mod 9)                                                        (A1)
+           multiplying by 5, 10t  5(mod 9)                                    (M1)
+           t  5(mod 9)                                                          A1
+           t  5  9s                                                            M1
+           N  3  11(5  9s )
+           N  58  99 s                                                         A1
+           58  99s  0(mod 7)
+           2  s  0(mod 7)
+           s  5(mod 7)                                                         A1
+           s  5  7u                                                           M1
+           N  58  99(5  7u )
+           N  553  693u                                                        A1
+      Note:   Allow solutions that are done by formula or an exhaustive,
+              systematic listing of possibilities.
+                                                                                       [9 marks]
+
+     (b)   u  3 or 4
+           hence N  553  2079  2632 or N  553  2772  3325               A1A1
+                                                                                       [2 marks]
+
+                                                                               Total [11 marks]
+                                                     –8–         N10/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+3.   (a)   (i)    (Kruskal’s: successively take an edge of smallest weight without forming a cycle)
+                  1st edge DC (weight 1)                                                    A1
+                   nd
+                  2 edge EG (weight 2)                                                      A1
+                  3rd edge DE (weight 3)                                                    A1
+                  4th edge EF (weight 6)                                                    A1
+                  5th edge AD (weight 7)                                                    A1
+                  6th edge AB (weight 8)                                                    A1
+
+
+
+
+                                                                                            A1
+
+
+
+            Notes: Weights are not required on the diagram.
+                     Allow A2(d) if the (correct) edges are in the wrong order e.g. they have
+                     used Prim’s rather than Kruskal’s algorithm.
+
+           (ii)   total weight is 1  2  3  6  7  8  27                                A1
+                                                                                                 [8 marks]
+
+     (b)          EITHER
+
+
+
+
+                                                                                            A3
+
+
+
+                  OR
+
+
+
+
+                                                                                            A3
+
+
+
+            Notes: Award A2 for five or four correct edges,
+                         A1 for three or two correct edges
+                         A0 otherwise.
+
+                     Weights are not required on the diagram.
+
+           THEN
+           total weight is 6  7  7  8  9  10  47                                      A1
+                                                                                                 [4 marks]
+
+                                                                                           Total [12 marks]
+                                                    –9–            N10/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+4.   (a)   EITHER
+           if p is a prime a p  a (mod p )                                       A1A1
+
+           OR
+           if p is a prime and a  0(mod p) then a p 1  1(mod p )              A1A1
+      Note:   Award A1 for p being prime and A1 for the congruence.
+                                                                                          [2 marks]
+
+     (b)   a0  X (mod 7)                                                           M1
+           X  k  5  25  15  5  k
+                     6
+
+
+           by Fermat 56  1(mod 7)                                                   R1
+           X  k  45  k (mod7)                                                   (M1)
+           X  3(mod 7)                                                              A1
+           a0  3                                                                    A1
+                                                                                          [5 marks]
+
+     (c)   X  2  56  25  15  3  31 293                                        A1
+
+           EITHER
+           X  75  14486                                                          (M1)
+           X  75  6  7 4  80
+           X  75  6  7 4  7 2  31
+           X  75  6  7 4  7 2  4  7  3
+           X  75  6  7 4  7 2  4  7  3                                      (A1)
+           X  (160143)7                                                            A1
+
+           OR
+           31293  7  4470  3                                                    (M1)
+           4470  7  638  4
+           638  7  91  1
+           91  7  13  0
+           13  7  1  6                                                          (A1)
+           X  (160143)7                                                            A1
+                                                                                          [4 marks]
+
+                                                                                   Total [11 marks]
+                                                   – 10 –          N10/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+5.   (a)   as each edge contributes 1 to each of the vertices that it is incident with,
+           each edge will contribute 2 to the sum of the degrees of all the vertices           (R1)
+           so 2e   degrees                                                                   (A1)
+                n (n  1)
+           2e                                                                                  A1
+                    2
+           4 n (n  1)                                                                          A1
+           n and n  1 are coprime                                                              R1
+      Note:   Accept equivalent reasoning e.g. only one of n and n  1 can be even.
+
+           4 n or 4 n  1                                                                       A1
+           n  0(mod 4) or n  3(mod 4)                                                         AG
+                                                                                                       [6 marks]
+
+     (b)   since G is simple, the highest degree that a vertex can have is n  1                  R1
+           the degrees of the vertices must belong to the set S  {0, 1, 2, ..., n  1}           A1
+           proof by contradiction
+           if no two vertices have the same degree, all n vertices must have different degrees R1
+           as there are only n different degrees in set S, the degrees must be precisely
+           the n numbers 0, 1, 2, ..., n  1                                                      R1
+           let the vertex with degree 0 be A, then A is not adjacent to any of the other vertices R1
+           let the vertex with degree n  1 be B, then B is adjacent to all of the other
+           vertices including A                                                                 R1R1
+           this is our desired contradiction, so there must be two vertices of the same degree R1
+                                                                                                       [8 marks]
+
+                                                                                               Total [14 marks]
+

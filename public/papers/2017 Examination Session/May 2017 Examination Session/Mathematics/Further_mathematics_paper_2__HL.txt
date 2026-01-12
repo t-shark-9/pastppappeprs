@@ -1,0 +1,340 @@
+M17/5/FURMA/HP2/ENG/TZ0/XX
+
+
+
+
+Further mathematics
+Higher level
+Paper 2
+
+
+Thursday 11 May 2017 (morning)
+
+
+2 hours 30 minutes
+
+
+Instructions to candidates
+yy Do not open this examination paper until instructed to do so.
+yy Answer all questions.
+yy Unless otherwise stated in the question, all numerical answers should be given exactly or
+   correct to three significant figures.
+yy A graphic display calculator is required for this paper.
+yy A clean copy of the mathematics HL and further mathematics HL formula booklet is
+   required for this paper.
+yy The maximum mark for this examination paper is [150 marks].
+
+
+
+
+                                                                                               2217 – 7102
+     9 pages                                               © International Baccalaureate Organization 2017
+                                                   –2–                     M17/5/FURMA/HP2/ENG/TZ0/XX
+
+Please start each question on a new page. Full marks are not necessarily awarded for a correct answer
+with no working. Answers must be supported by working and/or explanations. In particular,
+solutions found from a graphic display calculator should be supported by suitable working. For example,
+if graphs are used to find a solution, you should sketch these as part of your answer. Where an answer
+is incorrect, some marks may be given for a correct method, provided this is shown by written working.
+You are therefore advised to show all working.
+
+1.   [Maximum mark: 11]
+
+
+                                 B                  3                  C
+
+                          4                                                    7
+
+
+                   A                 8                   7            3               D
+
+                          3                                                    2
+
+                                 F                  12                 E
+     The diagram shows the graph G with the weights of the edges marked.
+
+     (a)   (i)    State what features of the graph enable you to state that G contains an Eulerian
+                  trail but no Eulerian circuit.
+
+		         (ii)   Write down an Eulerian trail.                                                         [4]
+
+     (b)   Use Dijkstra’s algorithm to find the path of minimum total weight joining A to D , stating
+           this total weight. Your solution should show clearly that this algorithm has been used.      [7]
+
+
+2.   [Maximum mark: 15]
+
+     (a)   The group {G , ∗} has a subgroup {H , ∗} . The relation R is defined such that for
+           x , y ∈ G , xRy if and only if x-1∗y ∈ H . Show that R is an equivalence relation.           [8]
+
+     (b)   Consider the special case in which G = {1 , 3 , 4 , 9 , 10 , 12} , H = {1 , 12} and
+           * denotes multiplication modulo 13.
+
+		         (i)    Show that 3R10 .
+
+		         (ii)   Determine the three equivalence classes.                                              [7]
+                                                        –3–               M17/5/FURMA/HP2/ENG/TZ0/XX
+
+3.   [Maximum mark: 15]
+
+     (a)   The sequence {un} satisfies the second-degree recurrence relation
+
+                                        un + 2 = un + 1 + 6un , n ∈ +.
+
+		(i)              Write down the auxiliary equation.
+
+		         (ii)    Given that u1 = 12 , u2 = 6 , show that
+
+                                         un = 2 × 3n - 3 × (-2)n .
+
+                                                   un + un −1
+		         (iii)   Determine the value of lim                 .                                  [11]
+                                            n →∞   un − un −1
+
+     (b)   Another sequence {vn} is such that
+
+                                             vn = u2n , n ∈ +.
+
+           Determine the second-degree recurrence relation satisfied by {vn} .                    [4]
+
+
+
+
+                                                                                            Turn over
+                                                     –4–                   M17/5/FURMA/HP2/ENG/TZ0/XX
+
+4.   [Maximum mark: 19]
+
+     (a)   Consider the matrix
+                                                 λ 3 2 
+                                            A =  2 4 λ  .
+                                                  3 7 3 
+
+		         (i)     Find an expression for det(A) in terms of λ , simplifying your answer.
+
+		         (ii)    Hence show that A is singular when λ = 1 and find the other value of λ for
+                   which A is singular.                                                                [5]
+
+     Suppose now that λ = 1 so consider the matrix
+                                                 1 3 2 
+                                            B =  2 4 1  .
+                                                  3 7 3 
+
+     (b)   (i)     Explain how it can be seen immediately that B is singular without calculating its
+                   determinant.
+
+		         (ii)    Determine the null space of B .
+
+		         (iii)   Explain briefly how your results verify the rank-nullity theorem.                   [7]
+
+     (c)   Prove, using mathematical induction, that
+
+                                     Bn = 8n-2B2 for n ∈ + , n ≥ 3 .                                  [7]
+                                                      –5–                     M17/5/FURMA/HP2/ENG/TZ0/XX
+
+5.   [Maximum mark: 24]
+
+     (a)   (i)    By considering integration as the reverse of differentiation, show that for
+                          À
+                          π
+                  0≤x<
+                          2
+                                   ∫ sec xdx = ln(sec x + tan x) + C .
+		         (ii)   Hence, using integration by parts, show that
+
+                                       1
+                          ∫ sec xdx = 2 ( sec x tan x + ln(sec x + tan x) ) + C .
+                               3
+                                                                                                       [8]
+
+
+     (b)   Consider the differential equation
+
+                        dy                                π
+                           + y tan x = 2 sec 2 x , 0 ≤ x < , given that y = 1 when x = 0 .
+                        dx                                2
+
+		         (i)    Find an integrating factor and hence solve the differential equation, giving your
+                  answer in the form y = f (x) .
+
+		         (ii)   Starting with the differential equation, show that
+
+                                        d2 y
+                                             + y = 2 sec 2 x tan x .
+                                        dx 2
+
+		(iii)           Hence, by using your calculator to draw two appropriate graphs or otherwise,
+                  find the x-coordinate of the point of inflection on the graph of y = f (x) .        [16]
+
+
+
+
+                                                                                                 Turn over
+                                                    –6–                  M17/5/FURMA/HP2/ENG/TZ0/XX
+
+6.   [Maximum mark: 14]
+
+     (a)                                       Figure 1
+
+                                                        Q
+
+
+
+
+                         P                      R            O           S
+
+
+
+
+           Figure 1 shows a tangent [PQ] at the point Q of a circle and a line [PS] meeting the
+           circle at the points R , S and passing through the centre O of the circle.
+
+		         (i)    Show that PQ2 = PR × PS .
+
+		         (ii)   State briefly how this result can be generalized to give the tangent-secant
+                  theorem.                                                                        [4]
+
+     (b)                                       Figure 2
+
+                                         E
+
+
+
+                                                    A
+
+
+
+                                     D
+                                              B
+
+
+                                                                 C
+
+
+
+
+                                 F
+
+           Figure 2 shows a triangle ABC inscribed in a circle. The tangents at the points
+           A , B , C meet the opposite sides of the triangle externally at the points D , E , F
+           respectively.
+
+(This question continues on the following page)
+                                                              –7–            M17/5/FURMA/HP2/ENG/TZ0/XX
+
+(Question 6 continued)
+
+                               AD 2 CD
+		(i)              Show that       =   .
+                               BD 2 BD
+
+		         (ii)    By considering a pair of similar triangles, show that
+                                 AD AC                CD AC2
+                                   =   and hence that   =    .
+                                 BD AB                BD AB2
+
+		         (iii)   By writing down and using two further similar expressions, show that the points
+                   D , E , F are collinear.                                                                   [10]
+
+
+7.   [Maximum mark: 18]
+
+     The discrete random variable X has the following probability distribution.
+
+                                            kx
+                               P(X = x) =     x
+                                                where x ∈  + and k is a constant.
+                                            3
+
+     (a)   (i)     Write down the first three terms of the infinite series for G(t ) , the probability
+                   generating function for X .
+
+		         (ii)    Determine the radius of convergence of this infinite series.
+
+
+                                         t
+		(iii)            By considering  1 −     G (t ) , show that
+                                         3
+                                                               3kt
+                                                  G (t ) =              .
+                                                             (3 − t ) 2
+
+                                            4
+		         (iv)    Hence show that k =        .                                                               [10]
+                                            3
+
+     (b)   (i)     Show that ln G(t ) = ln 4 + ln t - 2 ln(3 - t) .
+
+		(ii)             By differentiating both sides of this equation, determine the values of G'(1)
+                   and G"(1) .
+
+		(iii)            Hence find Var(X ) .                                                                        [8]
+
+
+
+
+                                                                                                         Turn over
+                                                     –8–                      M17/5/FURMA/HP2/ENG/TZ0/XX
+
+8.   [Maximum mark: 17]
+
+     The set Sn = {1 , 2 , 3 , … , n - 2 , n - 1} , where n is a prime number greater than 2, and ×n
+     denotes multiplication modulo n .
+
+     (a)   (i)   Show that there are no elements a , b ∈ Sn such that a ×n b = 0.
+
+		(ii)           Show that, for a , b , c ∈ Sn , a ×n b = a ×n c ⇒ b = c .                              [4]
+
+     (b)   Show that Gn = {Sn , ×n} is a group. You may assume that ×n is associative.                  [4]
+
+     (c)   (i)   Show that the order of the element (n – 1) is 2.
+
+
+                                                                1
+		(ii)           Show that the inverse of the element 2 is        (n + 1) .
+                                                                2
+
+                                                                   1
+		(iii)          Explain why the inverse of the element 3 is         (n + 1) for some values of n but
+                                                                   3
+                 not for other values of n .
+
+		(iv)           Determine the inverse of the element 3 in G11 .
+
+		(v)            Determine the inverse of the element 3 in G31 .                                        [9]
+                                                   –9–                         M17/5/FURMA/HP2/ENG/TZ0/XX
+
+9.   [Maximum mark: 17]
+
+     (a)   The point (x , y) is rotated through an anticlockwise angle α about the origin to
+           become the point (X , Y ) . Assume that the rotation can be represented by
+
+                                          X  a b   x 
+                                          Y  = c d   y .
+                                                    
+
+           Show, by considering the images of the points (1 , 0) and (0 , 1) under this rotation that
+
+                                           a b  cos α         − sin α 
+                                           c d  =  sin α      cos α 
+                                                                           .                             [3]
+                                                
+
+     (b)   The hyperbola with equation x2 - 4 xy - 2y2 = 3 is rotated through an acute
+           anticlockwise angle α about the origin.
+
+		(i)            By expressing (x , y) in terms of (X , Y ) , determine the equation of the rotated
+                 hyperbola in terms of X and Y .
+
+
+                                                                                          1
+		(ii)           Verify that the coefficient of XY in the equation is zero when tan α =     .
+                                                                                          2
+
+		(iii)          Determine the equation of the rotated hyperbola in this case, giving your answer
+                               X2 Y2
+                 in the form     −    = 1.
+                               A2 B 2
+
+		(iv)           Hence find the coordinates of the foci of the hyperbola prior to rotation.             [14]
+

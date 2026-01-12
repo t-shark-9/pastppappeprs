@@ -1,0 +1,330 @@
+N10/5/COMSC/HP2/ENG/TZ0/XX
+
+
+
+
+       88107012
+
+
+Computer science
+HIGHER level
+Paper 2
+
+Wednesday 17 November 2010 (morning)
+
+2 hours 15 minutes
+
+
+INSTRUCTIONS TO CANDIDATES
+
+• Do not open this examination paper until instructed to do so.
+• Answer all the questions.
+
+
+
+
+8810-7012                                                                                          8 pages
+                                                           © International Baccalaureate Organization 2010
+                                                      –2–                 N10/5/COMSC/HP2/ENG/TZ0/XX
+
+Answer all the questions.
+
+1.    (a)     In the context of  data structures, explain what is meant by a
+
+              (i)    queue ;                                                                       [2 marks]
+
+              (ii)   stack.                                                                        [2 marks]
+
+      (b)     State one computer application for which a queue is a suitable data structure.       [1 mark]
+
+      Consider the following class.
+
+      class Node
+      {
+        public int item;
+        public Node next;
+
+            public Node(int d)
+            {
+              item = d;
+              next = null;
+            }
+
+            public void displayNode()
+            {
+              output(item + " ");
+            }
+      }
+
+      (c)     Statement  Node x = new Node(5); creates an object of class type  Node.  
+              State the output produced by the call  x.displayNode(); .                            [1 mark]
+
+
+
+
+                                                              (This question continues on the following page)
+
+
+
+
+8810-7012
+                                                       –3–                  N10/5/COMSC/HP2/ENG/TZ0/XX
+
+(Question 1 continued)
+
+      Examine the following linked list implementation of a queue.
+      class MyQueue
+      { private Node first;
+        private Node last;
+        public MyQueue() { first = null; last = null; }
+        public boolean isEmpty() { return first == null; }
+            public void enqueue(int x)
+            { Node newNode = new Node(x);
+              if (isEmpty())
+              { first = newNode; }
+              else
+              { last.next = newNode; }
+              last = newNode;
+            }
+            public int dequeue()
+            {
+              // Code missing that will remove a node from the queue
+            }
+            public void displayQueue()
+            { if (first == null)
+              { output("The queue is empty!"); }
+              else
+              { Node temp = first;
+                 while (temp != null)
+                 { temp.displayNode();
+                   temp = temp.next;
+                 }
+              }
+            }
+      }
+
+      (d)     The statement  MyQueue x = new MyQueue(); creates an empty queue.
+
+              (i)    State the output that will be produced after execution of the following statement.
+                                                  x.displayQueue();                                        [1 mark]
+
+              (ii)   Construct the code for the method  dequeue().  The method should remove
+                     one item from  x and return the value of the removed item.              [4 marks]
+
+              (iii) State the output that will be produced after execution of the following statements.
+                                       x.enqueue(2);
+                                       x.enqueue(4);
+                                       int y = x.dequeue();
+                                       output("Deleted item: " + y);
+                                       x.enqueue(1);
+                                       x.enqueue(7);
+                                       output("Items in the queue: ");
+                                       x.displayQueue();                                                  [3 marks]
+
+      (e)     Explain how the elements in a non-empty queue could be reversed using a stack.              [6 marks]
+
+8810-7012                                                                                                 Turn over
+                                                    –4–                   N10/5/COMSC/HP2/ENG/TZ0/XX
+
+2.    A car company sells five different models of cars and employs four salesmen.  
+      A record of sales for each month can be represented by a table.  The first row of the
+      table contains the number of sales of each model by Salesman 1; the second row
+      contains the number of sales of each model by Salesman 2, and so on.
+
+                           Model 1      Model 2      Model 3          Model 4    Model 5
+            Salesman 1       12           0            0                5          6
+            Salesman 2       11           1            3                1          3
+            Salesman 3       10           11           5                3          0
+            Salesman 4        9            8           5                4          5
+
+      (a)    (i)    Calculate the total number of sales for Salesman 2.                              [1 mark]
+
+             (ii)   Calculate the total number of sales of Model 3.                                  [1 mark]
+
+      The sales data as given above is input into a two-dimensional array named Sales,
+      declared as  int[][] Sales = new int[4][5]; that can be logically represented
+      as follows.
+
+                         Sales          [0] [1] [2] [3] [4]
+                                  [0]   12    0      0     5      6
+                                  [1]   11     1     3     1      3
+                                  [2]   10    11     5     3      0
+                                  [3]    9    8      5     4      5
+
+      Examine the following code.
+
+      public void mystery(int[][] Sales)
+      {
+        for (int n = 0; n < 4; n = n + 1)
+        {
+           int total = 0;
+           for (int m = 0; m < 5; m = m + 1)
+           {
+             total = total + Sales[n][m];
+           }
+           output("Total number of sales for Salesman " + (n + 1) + " is " + total);
+        }
+      }
+
+      (b)    State the output of the method call  mystery(Sales).                                   [4 marks]
+
+
+
+
+                                                               (This question continues on the following page)
+
+
+
+
+8810-7012
+                                                  –5–                 N10/5/COMSC/HP2/ENG/TZ0/XX
+
+(Question 2 continued)
+
+      (c)   Construct the method that will output the total number of sales for each of the
+            five car models.                                                                  [6 marks]
+
+      Assume that the prices of cars are given in the following one-dimensional array.
+
+      double[] ModelPrice = {10288.00, 12999.99, 18456.00, 20345.00, 45799.00}
+
+      For example:
+      ModelPrice[1] holds value  12999.99.
+      This means that the price of Model 2 is 12999.99.
+
+      (d)   Construct a method that will accept a one-dimensional array  ModelPrice and
+            a two-dimensional array  Sales.  The method should determine the best salesman
+            (the one with the highest total number of sales); and it should output the best
+            salesman and the highest total number of sales.  Assume there will not be a tie
+            for best salesman.                                                                [8 marks]
+
+
+
+
+8810-7012                                                                                     Turn over
+                                                     –6–                 N10/5/COMSC/HP2/ENG/TZ0/XX
+
+3.    (a)   (i)    Define the term  file.                                                          [2 marks]
+
+            (ii)   Identify two reasons why it is convenient to use files in applications which
+                   involve large data sets.                                                        [2 marks]
+
+      (b)   A file usually consists of a number of  records.  Each record is made up of  fields.
+
+            (i)    Define the term  key field.                                                     [2 marks]
+
+            (ii)   With reference to a  fully-indexed file, explain the difference between
+                   logical file organization and  physical file organization.                      [4 marks]
+
+      (c)   A small shop uses a computer to keep a daily check on its stock levels.  
+            Information regarding the sale of goods is recorded in a  sequential transaction
+            file named  UpdateFile.
+
+            At the end of the day the master file,  StockFile, is updated with
+            information from the transaction file,  UpdateFile, and stored in a new
+            master file,  NewStockFile.  Each file is sorted so the item number field is in
+            ascending order.
+
+            For example, if the contents of  StockFile and  UpdateFile before an
+            update are:
+
+            StockFile                                                    UpdateFile
+             item no. description quantity …other fields…                 item no. quantity
+               1100 Choc/white      52                                      1100     14
+               1200 Herb tea        35                                      1206      4
+               1206 Green tea       23
+
+
+            Then, after updating, the contents of the new master file named  NewStockFile
+            will be:
+
+                          NewStockFile
+                           item no. description quantity …other fields…
+                             1100 Choc/white       38
+                             1200 Herb tea         35
+                             1206 Green tea        19
+
+
+            (i)    Outline why the files,  StockFile and  UpdateFile, should be sorted in
+                   the same order.                                                                 [2 marks]
+
+            (ii)   Outline the algorithm to update records in  StockFile with information
+                   from  UpdateFile to create  NewStockFile.                                       [8 marks]
+
+8810-7012
+                                                    –7–                   N10/5/COMSC/HP2/ENG/TZ0/XX
+
+4.    This question requires the use of the case study.
+
+      (a)   Terminal 5 has a number of areas that require access to be authorized.  
+            The management of the airport is considering introducing different methods of
+            security across the airport.
+
+            Smart cards,  magnetic strip cards and  bar codes can be used by airport staff as
+            a means of gaining access to any secure area within the airport.  The smart cards
+            do not contain biometric information.
+
+            (i)    Outline why the use of smart cards is an effective security measure.          [2 marks]
+
+            To enhance security the smart cards could be linked to biometric identification
+            systems.
+
+            (ii)   State two types of biometric identification systems.                          [2 marks]
+
+            (iii) Describe how biometric identification systems work.                            [4 marks]
+
+            (iv) Compare the different levels of security that could be applied to staff
+                 and passengers.                                                                 [4 marks]
+
+      (b)   Operation of each of the airport computer systems is controlled by the
+            operating system.  Operating systems can be either single or multi-user and
+            are capable of allowing multi-tasking.
+
+            (i)    Define the term  operating system.                                            [1 mark]
+
+            (ii)   Define the term  multi-user.                                                  [1 mark]
+
+            (iii) Define the term  multi-tasking.                                                [1 mark]
+
+            (iv) Identify three reasons for multi-tasking in Air Traffic Control.                [3 marks]
+
+            (v)    Explain how a multi-user system is used in the check-in system.               [2 marks]
+
+      (c)   Outline the principal characteristics of the following modes of operation.
+
+            (i)    batch processing                                                              [2 marks]
+
+            (ii)   real-time processing                                                          [2 marks]
+
+            (iii) online processing                                                              [2 marks]
+
+                                                            (This question continues on the following page)
+
+8810-7012                                                                                       Turn over
+                                                    –8–                N10/5/COMSC/HP2/ENG/TZ0/XX
+
+(Question 4 continued)
+
+      (d)   Identify an appropriate method of data processing for
+
+            (i)    Air Traffic Control;                                                         [1 mark]
+
+            (ii)   the Billing system.                                                          [1 mark]
+
+      (e)   Computer systems at a modern airport are linked via a  network.
+
+            (i)    With reference to the airport systems, outline the meaning of the terms
+                   client and  server.                                                          [4 marks]
+
+            (ii)   State one hardware device required in networking and outline its function.   [2 marks]
+
+            (iii) Explain the importance of  network protocols within airport systems.          [2 marks]
+
+      (f)   Explain how a linked list could be an appropriate data structure for use in the
+            Air Traffic Control system.                                                         [4 marks]
+
+
+
+
+8810-7012
+

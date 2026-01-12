@@ -1,0 +1,490 @@
+N20/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+
+
+                       Markscheme
+
+
+                        November 2020
+
+
+                     Computer science
+
+
+                         Standard level
+
+
+                               Paper 1
+
+
+
+
+11 pages
+                                           –2–                N20/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+
+
+No part of this product may be reproduced in any form or by any electronic or
+mechanical means, including information storage and retrieval systems, without written
+permission from the IB.
+
+Additionally, the license tied with this product prohibits commercial use of any selected
+files or extracts from this product. Use by third parties, including but not limited to
+publishers, private teachers, tutoring or study services, preparatory schools, vendors
+operating curriculum mapping services or teacher resource digital platforms and app
+developers, is not permitted and is subject to the IB’s prior written consent via a license.
+More information on how to request a license can be obtained from
+https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-license/.
+
+Aucune partie de ce produit ne peut être reproduite sous quelque forme ni par quelque
+moyen que ce soit, électronique ou mécanique, y compris des systèmes de stockage et
+de récupération d’informations, sans l’autorisation écrite de l’IB.
+
+De plus, la licence associée à ce produit interdit toute utilisation commerciale de
+tout fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris,
+sans toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de
+tutorat ou d’aide aux études, des établissements de préparation à l’enseignement
+supérieur, des fournisseurs de services de planification des programmes
+d’études, des gestionnaires de plateformes pédagogiques en ligne, et des
+développeurs d’applications, n’est pas autorisée et est soumise au consentement écrit
+préalable de l’IB par l’intermédiaire d’une licence. Pour plus d’informations sur la
+procédure à suivre pour demander une licence, rendez-vous à l’adresse suivante :
+https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-license/.
+
+No se podrá reproducir ninguna parte de este producto de ninguna forma ni por ningún
+medio electrónico o mecánico, incluidos los sistemas de almacenamiento y
+recuperación de información, sin que medie la autorización escrita del IB.
+
+Además, la licencia vinculada a este producto prohíbe el uso con fines comerciales de
+todo archivo o fragmento seleccionado de este producto. El uso por parte de terceros
+—lo que incluye, a título enunciativo, editoriales, profesores particulares, servicios
+de apoyo académico o ayuda para el estudio, colegios preparatorios, desarrolladores
+de aplicaciones y entidades que presten servicios de planificación curricular u
+ofrezcan recursos para docentes mediante plataformas digitales— no está permitido
+y estará sujeto al otorgamiento previo de una licencia escrita por parte del IB. En este
+enlace encontrará más información sobre cómo solicitar una licencia:
+https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-license/.
+                                                    –3–                N20/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+Subject details:        Computer science SL paper 1 markscheme
+
+Mark allocation
+
+Section A: Candidates are required to answer all questions. Total 25 marks.
+Section B: Candidates are required to answer all questions. Total 45 marks.
+           Maximum total = 70 marks.
+
+General
+
+A markscheme often has more specific points worthy of a mark than the total allows. This is intentional.
+Do not award more than the maximum marks allowed for that part of a question.
+
+When deciding upon alternative answers by candidates to those given in the markscheme, consider the
+following points:
+
+• Each statement worth one point has a separate line and the end is signified by means of a
+   semi-colon (;).
+
+• An alternative answer or wording is indicated in the markscheme by a “/”; either wording can be
+   accepted.
+
+• Words in ( … ) in the markscheme are not necessary to gain the mark.
+
+• If the candidate’s answer has the same meaning or can be clearly interpreted as being the same as
+   that in the markscheme then award the mark.
+
+• Mark positively. Give candidates credit for what they have achieved and for what they have got
+   correct, rather than penalizing them for what they have not achieved or what they have got wrong.
+
+• Remember that many candidates are writing in a second language; be forgiving of minor linguistic
+   slips. In this subject effective communication is more important than grammatical accuracy.
+
+• Occasionally, a part of a question may require a calculation whose answer is required for subsequent
+   parts. If an error is made in the first part then it should be penalized. However, if the incorrect answer
+   is used correctly in subsequent parts then follow through marks should be awarded. Indicate this
+   with “FT”.
+
+
+General guidance
+
+ Issue            Guidance
+ Answering        • In the case of an “identify” question, read all answers and mark positively up to the
+ more than           maximum marks. Disregard incorrect answers.
+ the quantity     • In the case of a “describe” question, which asks for a certain number of facts
+ of                 eg “describe two kinds”, mark the first two correct answers. This could include two
+ responses          descriptions, one description and one identification, or two identifications.
+ prescribed       • In the case of an “explain” question, which asks for a specified number of
+ in the             explanations eg “explain two reasons …”, mark the first two correct answers.
+ questions          This could include two full explanations, one explanation, one partial
+                    explanation etc.
+                                                  –4–                N20/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+                                              Section A
+
+1.   (a)   Award [2 max].
+           Auto-correct/short sequences/codes;
+           can be used to represent longer phrases;
+
+           Mail merge;
+           allows production of many letters by only typing the (body of a) letter once;
+
+           Voice recognition;
+           allows easy entry of text;
+
+     (b)   Award [1 max].
+           Technical documentation explains how to install software;
+           Technical documentation describes the hardware configuration/operating system needed
+           (to install this software);
+
+
+2.   (a)   (i)    Award [1 max].
+                  A client is a simple application or a whole system that accesses services being
+                  provided by a (remote) computer/server;
+
+           (ii)   Award [1 max].
+
+                  A server is a computer / software which manages access to a centralized resource or
+                  service in a network.
+                  A server is a computer/software that provides data to other computers/
+                  clients in a network;
+
+     (b)   Award [4 max].
+
+           the central computer receives requests from the kiosks/terminals at the check-in desks/
+           mobile phones;
+           can manage several clients simultaneously (in order, each providing a different set of
+           services);
+           makes sure that the request is valid by accessing its database;
+           processes the request;
+           sends information to the kiosk;
+           all requests/information are sent over the network connection;
+                                                   –5–                 N20/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+3.   Award [4 max].
+     there is no extra cost;
+     for running two systems/for extra salaries (no need to increase the number of employees);
+
+     benefits can be gained immediately;
+     because new system is better than the old;
+
+     if there is a bug in the new system;
+     there is not a second system to fall back on/could be disastrous for the company;
+
+     employees will need to be capable of using the new system immediately;
+     without training/with training in advance but not on the system;
+
+     Mark as 2 and 2
+
+4.   (a)   [1 mark]
+           RAM;
+
+     (b)   Award [1 max].
+           CU/Control Unit;
+
+     (c)   Award [1 max].
+           MAR (is a register in the CPU that) stores the address of the (next) instruction/data;
+           to be read from/written to RAM;
+
+
+5.   Award [4 max].
+     Award [1] for looping through array;
+     Award [1] for comparing each pair of adjacent items (in the array);
+     Award [1] for swapping them if they are in the wrong order;
+     Award [1] for repeating this until no swaps is required (which indicates that the array is sorted);
+
+
+6.   Award [4 max].
+     Award [1] for a truth table with all 8 inputs and up to 3 correct outputs.
+     Award [2] for 4 or 5 correct rows in the truth table.
+     Award [3] for 6 or 7 correct rows in the truth table.
+     Award [4] for all 8 correct rows in the truth table.
+
+                               A      B      C      (A XOR B) AND NOT C
+                               0      0      0               0
+                               0      0      1               0
+                               0      1      0               1
+                               0      1      1               0
+                               1      0      0               1
+                               1      0      1               0
+                               1      1      0               0
+                               1      1      1               0
+                                                  –6–                N20/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+                                              Section B
+7.   (a)   Award [3 max].
+           controls the flow of data in the network;
+           inspects address of data packets;
+           directs to the appropriate network path/ selects a path between networks (by inspecting
+           address of data packets);
+           securely transmits data packets (across that path toward the intended destination);
+
+     (b)   Award [4 max].
+           malicious software/spyware/malware / viruses;
+           attacking the system;
+
+           the type of connection;
+           valid outline for the slow down (depending on the type of connection);
+
+           Note: There are many types of internet connection: wireless connections, wireless hotspots,
+           mobile internet, broadband connections, fixed wireless and satellite connection, cable, DSL;
+
+           hardware malfunction;
+           internet speed can considerably slow down if modem-router configuration is not correct /
+           updated;
+
+           external factors;
+           during the peak hours of daytime the most visited websites encounter more network traffic
+           than what has been anticipated;
+
+           NOTE: Accept examples. For example, too many students try to connect to an e-learning site
+           at the same time.
+
+           Mark as 2 and 2
+
+     (c)   Award [4 max].
+           Preventing unauthorized access/No access without user names/passwords;
+           which should be regularly changed/made difficult to guess;
+
+           Data should be encrypted;
+           Allowing only those with decrypting code access;
+
+           Teachers/students should be trained for safe practices;
+           to create a risk-conscious /security-aware culture within the school;
+
+           Installation of virus checkers/spyware software;
+           to prevent damage to data files or the system / to prevent data being extracted from the
+           files/system;
+
+           Mark as 2 and 2
+
+           Note: Accept appropriate measures such as physical security measures / access control /
+           data security / network and communication security / user awareness and education, etc.
+                                          –7–              N20/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+(d)   Award [4 max].
+      Award [1] for looping through the inventory file;
+      Award [1] for reading the supply data record (ID number, name, maximum quantity, minimum
+      quantity and remaining quantity);
+      Award [1] for checking if the quantity remaining is less than minimum quantity;
+      Award [1] If so, calculate the quantity to be ordered (number to buy) / as the maximum
+      quantity minus the quantity remaining;
+      Award [1] for outputting the name/ID number of the office supply and the number to buy;
+
+      Example 1:
+
+      while not end of inventory file
+          read supply data record from file
+          if remaining quantity < minimum quantity
+            then
+               numbertobuy = maximum quantity – remaining quantity
+               output ("Reorder ", ID, name, numbertobuy)
+          end if
+      end loop
+
+      Example 2:
+      for each item in the inventory loop
+        with item do
+          if remaining quantity < minimum quantity then
+            output "Reorder ", ID, name, (maximum quantity – remaining quantity)
+          end if
+        end do
+      end loop
+                                                   –8–                 N20/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+8.   (a)   Award [2 max].
+           complexity / simplicity / amount of effort to get a result / number of errors with the time taken
+           to move past them;
+           readability / comprehensibility / reading or writing speed;
+           learnability / time to accomplish tasks on the first use;
+           effectiveness ( user performance);
+           efficiency (time needed to complete a task);
+
+     (b)   Award [2 max].
+           Award marks for the reason/accessibility issue arising from visual / hearing impairments /
+           cognitive disabilities, and not only for users with disabilities but also for those using mobile
+           devices (alternative browsing devices such as TVs, watches, etc), or those with slow
+           network connections.
+           Visual display design is not logical;
+           workflows are not simple, and do not require as few interactions as possible to complete;
+
+           Visual display design is not consistent;
+           navigation, header, footer, and main content are not always in the same places;
+
+           Visual display design is not usable as possible;
+           tools are not easy to use, processes are not broken down into logical steps;
+
+           People with poor eye-sight/color blind can have difficulties to distinguish;
+           because of the way graphics, words and directions are used / combinations of some colours
+           (eg, red and green);
+
+     (c)   (i)    Award [1 max].
+                  RAM/primary memory;
+                  It's held by the process/thread handling the customer access, which may be in RAM or
+                  in other storage if the process is swapped out while handling the access;
+
+           (ii)   Award [4 max].
+                  OS (memory management function) allocates / deallocates memory to each
+                  process/customer task, and guarantee each customer task the resources it needs to
+                  run correctly;
+                  moves processes back and forth between main memory and secondary memory during
+                  execution to prevent overwriting / accidental interchange;
+                  OS (hardware memory protection- part of an OS) isolates/protects customer’s
+                  data/applications;
+                  and control access rights to the specified memory area (for example, prevents write
+                  access to the memory which is not allocated to the process/ customer task);
+                  and protects data / applications when in memory / RAM from malicious code (prevents
+                  attempts to execute the contents of the partition/ allocated memory);
+
+     (d)   Award [6 max].
+           privacy of customer/ person data;
+           company needs to gain permission from customer;
+           customer would need to be able to view all data details;
+           customer must be informed about all uses that will be made of data;
+           customer must be informed to whom data will be disclosed.
+           legal issues to do with unauthorized disclosure of customer data;
+                                                 –9–                N20/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+9.   (a)   Award [1 max].
+
+           Because the array SNAMES is not sorted/ordered;
+
+
+     (b)   Award [4 max].
+
+           Award [1] for initializing and returning/outputting flag;
+           Award [1] for a while loop;
+           Award [1] for correct comparison and updating flag;
+           Award [1] for the correct use of collection methods (resetNext(), hasNext() and getNext());
+
+
+           Example 1:
+
+           isIn(X,COL)
+              PRESENT=False
+              COL.resetNext()
+              loop while COL.hasNext()and not PRESENT
+                Y= COL.getNext()
+                 if X== Y
+                    then PRESENT=True
+                end if
+               end loop
+               return PRESENT
+           end isIn
+
+
+           Example 2:
+
+           isIn(X,COL)
+              P=0
+              COL.resetNext()
+              loop while COL.hasNext()
+                  if X== COL.getNext()
+                     then P=1
+                end if
+               end loop
+               if P==1                           // NOTE: instead of if statement only
+                then return True                // the statement : return P==1
+                  else return False              // may be written
+               end if
+           end isIn
+                                         – 10 –          N20/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+(c)   Award [3 max].
+
+      Award [1] for initializing, updating and returning/outputting COUNT;
+      Award [1] for a while loop;
+      Award [1] for calling method isIn();
+      Award [1] for correct use of collection methods (resetNext(), hasNext() and
+      getNext();
+
+
+      Example 1 (loop through collection FOOTBALL):
+
+         COUNT=0
+         FOOTBALL.resetNext()
+         loop while FOOTBALL.hasNext()
+            X== FOOTBALL.getNext()
+            if isIn(X,TENNIS)
+               then COUNT=COUNT+1
+           end if
+         end loop
+         output COUNT
+
+      Example 2 (loop through collection TENNIS):
+
+         COUNT=0
+         TENNIS.resetNext()
+         loop while TENNIS.hasNext()
+            if isIn(TENNIS.getNext(),FOOTBALL)
+               then COUNT=COUNT+1
+           end if
+         end loop
+         output COUNT
+                                               – 11 –           N20/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+(d)   Award [7 max].
+
+
+      Award [1] for the use of flag;
+      Award [1] for looping through the array SID;
+      Award [2] for correct use of logical operators not/and/or in if statement, 1 mark for
+      minor error;
+      Award [1] for the correct call of method isIn();
+      Award [1] for outputting the name from the array SNAMES within the loop;
+      Award [1] for outputting message(if needed) after the loop;
+
+      Example 1:
+
+      FLAG=True
+      loop for K=0 to 99
+        if not( isIn(SID[K],FOOTBALL)or isIn(SID[K],BASKETBALL) or isIn(SID[K],TENNIS))
+           then
+             output SNAME[K]
+             FLAG=False
+         end if
+      end loop
+      if FLAG
+         output 'Each of the students is on at least one of the three teams'
+      end if
+
+      Note: the condition in if statement could be written as
+      not(isIn(SID[K],FOOTBALL))and not(isIn(SID[K],BASKETBALL))and not(isIn(SID[K],TENNIS))
+
+
+      Example 2:
+
+      Award [1] for the use of flag
+      Award [1] for looping through the array SID
+      Award [1] for nested if statements
+      Award [1] for correct logical expressions in each of these ifs
+      Award [1] for the correct call of method isIn()
+      Award [1] for outputting the name from the array SNAMES within the loop
+      Award [1] for outputting message(if needed) after the loop
+
+      X=1
+      loop for K=0 to 99
+          if not(isIn(SID[K],FOOTBALL))
+            then if not (isIn(SID[K],BASKETBALL))
+                  then if not(isIn(SID[K],TENNIS))
+                        then
+                         output SNAME[K]
+                         X=0
+                        end if
+                   end if
+           end if
+      end loop
+      if X==1
+          output 'Every student has chosen a sport'
+      end if
+

@@ -1,0 +1,396 @@
+M12/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+
+
+                   MARKSCHEME
+
+
+                           May 2012
+
+
+
+                MATHEMATICS
+            DISCRETE MATHEMATICS
+
+
+
+                        Higher Level
+
+
+
+                               Paper 3
+
+
+
+
+11 pages
+                           –2–        M12/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+
+
+This markscheme is confidential and for the exclusive use of
+examiners in this examination session.
+
+It is the property of the International Baccalaureate and
+must not be reproduced or distributed to any other person
+without the authorization of IB Cardiff.
+                                                    –3–           M12/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+                                         Instructions to Examiners
+
+Abbreviations
+
+M     Marks awarded for attempting to use a correct Method; working must be seen.
+
+(M)   Marks awarded for Method; may be implied by correct subsequent working.
+
+A     Marks awarded for an Answer or for Accuracy; often dependent on preceding M marks.
+
+(A)   Marks awarded for an Answer or for Accuracy; may be implied by correct subsequent working.
+
+R     Marks awarded for clear Reasoning.
+
+N     Marks awarded for correct answers if no working shown.
+
+AG    Answer given in the question and so no marks are awarded.
+
+
+Using the markscheme
+
+1     General
+
+      Mark according to scoris instructions and the document “Mathematics HL: Guidance for e-marking
+      May 2012”. It is essential that you read this document before you start marking. In particular, please
+      note the following.
+
+      Marks must be recorded using the annotation stamps. Please check that you are entering marks for the
+      right question.
+
+       If a part is completely correct, (and gains all the ‘must be seen’ marks), use the ticks with
+        numbers to stamp full marks.
+
+       If a part is completely wrong, stamp A0 by the final answer.
+
+       If a part gains anything else, it must be recorded using all the annotations.
+
+      All the marks will be added and recorded by scoris.
+
+
+2     Method and Answer/Accuracy marks
+
+       Do not automatically award full marks for a correct answer; all working must be checked, and
+        marks awarded according to the markscheme.
+       It is not possible to award M0 followed by A1, as A mark(s) depend on the preceding M mark(s), if
+        any.
+       Where M and A marks are noted on the same line, e.g. M1A1, this usually means M1 for an
+        attempt to use an appropriate method (e.g. substitution into a formula) and A1 for using the
+        correct values.
+       Where the markscheme specifies (M2), N3, etc., do not split the marks.
+       Once a correct answer to a question or part-question is seen, ignore further working.
+                                                  –4–            M12/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+3   N marks
+
+    Award N marks for correct answers where there is no working.
+
+       Do not award a mixture of N and other marks.
+       There may be fewer N marks available than the total of M, A and R marks; this is deliberate as it
+        penalizes candidates for not following the instruction to show their working.
+
+
+4   Implied marks
+
+    Implied marks appear in brackets e.g. (M1), and can only be awarded if correct work is seen or if
+    implied in subsequent working.
+
+     Normally the correct work is seen or implied in the next line.
+     Marks without brackets can only be awarded for work that is seen.
+
+
+5   Follow through marks
+
+    Follow through (FT) marks are awarded where an incorrect answer from one part of a question is
+    used correctly in subsequent part(s). To award FT marks, there must be working present and not
+    just a final answer based on an incorrect answer to a previous part.
+
+     If the question becomes much simpler because of an error then use discretion to award fewer FT
+      marks.
+     If the error leads to an inappropriate value (e.g. sin   1.5 ), do not award the mark(s) for the final
+      answer(s).
+     Within a question part, once an error is made, no further dependent A marks can be awarded, but
+      M marks may be awarded if appropriate.
+     Exceptions to this rule will be explicitly noted on the markscheme.
+
+
+6   Mis-read
+
+    If a candidate incorrectly copies information from the question, this is a mis-read (MR). A candidate
+    should be penalized only once for a particular mis-read. Use the MR stamp to indicate that this has
+    been a misread. Then deduct the first of the marks to be awarded, even if this is an M mark,
+    but award all others so that the candidate only loses one mark.
+
+     If the question becomes much simpler because of the MR, then use discretion to award fewer
+      marks.
+     If the MR leads to an inappropriate value (e.g. sin   1.5 ), do not award the mark(s) for the final
+      answer(s).
+
+
+7   Discretionary marks (d)
+
+    An examiner uses discretion to award a mark on the rare occasions when the markscheme does not
+    cover the work seen. In such cases the annotation DM should be used and a brief note written next to
+    the mark explaining this decision.
+                                                        –5–          M12/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+8    Alternative methods
+
+     Candidates will sometimes use methods other than those in the markscheme. Unless the question
+     specifies a method, other correct methods should be marked in line with the markscheme. If in doubt,
+     contact your team leader for advice.
+
+      Alternative methods for complete questions are indicated by METHOD 1, METHOD 2, etc.
+      Alternative solutions for part-questions are indicated by EITHER . . . OR.
+      Where possible, alignment will also be used to assist examiners in identifying where these
+       alternatives start and finish.
+
+
+9    Alternative forms
+
+     Unless the question specifies otherwise, accept equivalent forms.
+
+      As this is an international examination, accept all alternative forms of notation.
+      In the markscheme, equivalent numerical and algebraic forms will generally be written in
+       brackets immediately following the answer.
+      In the markscheme, simplified answers, (which candidates often do not write in examinations), will
+       generally appear in brackets. Marks should be awarded for either the form preceding the bracket or
+       the form in brackets (if it is seen).
+        Example: for differentiating f ( x)  2sin (5x  3) , the markscheme gives:
+
+               f  ( x)   2cos(5x  3)  5     10cos(5x  3)                            A1
+
+        Award A1 for  2cos(5x  3)  5 , even if 10cos(5x  3) is not seen.
+
+
+10   Accuracy of Answers
+
+     Candidates should NO LONGER be penalized for an accuracy error (AP).
+
+     If the level of accuracy is specified in the question, a mark will be allocated for giving the answer to
+     the required accuracy. When this is not specified in the question, all numerical answers should be
+     given exactly or correct to three significant figures. Please check work carefully for FT.
+
+
+11   Crossed out work
+
+     If a candidate has drawn a line through work on their examination script, or in some other way
+     crossed out their work, do not award any marks for that work.
+                                                 –6–          M12/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+12   Calculators
+
+     A GDC is required for paper 3, but calculators with symbolic manipulation features (e.g. TI-89) are
+     not allowed.
+
+     Calculator notation
+     The Mathematics HL guide says:
+         Students must always use correct mathematical notation, not calculator notation.
+     Do not accept final answers written using calculator notation. However, do not penalize the use of
+     calculator notation in the working.
+
+
+13   More than one solution
+
+     Where a candidate offers two or more different answers to the same question, an examiner should only
+     mark the first response unless the candidate indicates otherwise.
+                                                  –7–            M12/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+1.   (a)   2347  19 123  10                                                       M1A1
+           (123  12 10  3)
+           10  3  3  1                                                              A1
+           1(gcd)  10  3  3  10  3  (123  12 10)                             M1A1
+            37 10  3 123                                                           A1
+            37  (2347  19 123)  3 123 (for continuation)                         M1
+            37  2347  706 123                                                      A1
+                                                                                            [8 marks]
+
+     (b)   EITHER
+           1(mod 2347)  (706 123)(mod 2347)                                       M1A1
+           OR
+            x  706  2347n                                                         M1A1
+           solution: 1641                                                              A1
+                                                                                            [3 marks]
+
+     (c)   5(mod 2347)  (3530 123)(mod 2347)                                      (M1)
+           GS : z  3530  k 2347                                                   A1A1
+      Note:   Other common possibilities include 1164  k 2347 and 8205  k 2347 .
+                                                                                            [3 marks]
+
+     (d)   empty set (123 and 2346 both divisible by 3)                                A1
+
+
+                                                                                             [1 mark]
+
+                                                                                      Total [15 marks]
+                                                   –8–             M12/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+2.   setting out the algorithm in a clear form, which could mean just giving the 3rd column. M1
+
+         vertex set          adjacent        edge chosen    length         total length
+                             vertices
+         G                   D, E, F         GF             1              1
+         G, F                E, D            GE             3              4
+         G, F, E             C, B, D         ED             2              6
+         G, F, E, D          C, B            EC             4              10
+         G, F, E, D, C       A, B            CA             2              12
+         G, F, E, D, C, A    B               AB             5              17               A4
+
+ Note:     Award A1 for each of the edges added in the first, second, fourth and sixth
+           rows of the calculation. These marks are independent of one another.
+           Alternatively, DC could be chosen in row four instead of EC. Columns 4 and
+           5 are included for the benefit of examiners.
+     the two trees drawn                                                                  A1A1            N2
+
+
+
+
+                                                                                           Total [7 marks]
+
+
+3.   (a)
+
+
+
+
+                                                                                            A2
+         Note:   Award A1 if only one error, A0 for two or more.
+                                                                                                    [2 marks]
+
+
+                                                                                                  continued …
+                                                    –9–           M12/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+Question 3 continued
+
+      (b)   the (k , k ) element of M 2 is the number of vertices directly connected to
+            vertex k                                                                           A1
+       Note:   Accept comment about the number of walks of length 2, in which the
+               initial and final vertices coincide.
+                                                                                                        [1 mark]
+
+      (c)   attempt to calculate the (1, 3) element of M 4                                   (M1)
+                                        4
+            obtain 8 (for the record M is given below)                                         A1
+
+             9 0 8 0 12 0 
+             0 17 0 12 0 12 
+                            
+             8 0 9 0 12 0 
+                            
+             0 12 0 9 0 8 
+            12 0 12 0 17 0 
+                            
+             0 12 0 8 0 9 
+                                                                                                       [2 marks]
+
+      (d)   the trails of length 4 are ABEDC, AFEDC, AFEBC                                A1A1A1
+       Note:      A1A1A1 for three correct with no additions; A1A1A0 for all correct,
+                  but with additions; A1A0A0 for two correct with or without additions.
+                                                                                                       [3 marks]
+
+                                                                                               Total [8 marks]
+
+
+4.    (a)   as a first step, form the following graph
+
+
+
+
+                                                                                          (M1)(A1)
+
+            make it planar
+
+
+
+
+                                                                                               A1
+                                                                                                       [3 marks]
+
+                                                                                                     continued …
+                                                     – 10 –         M12/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+Question 4 continued
+
+      (b)   (i)     an edge joins a pair of vertices                                    R1
+                                                1
+                    there is a maximum of     (  1) possible unordered pairs of
+                                               2 2
+                    vertices, hence displayed result                                  A1AG
+
+            (ii)    an edge joins two vertices in G  if it does not join them in G and
+                    vice versa; all possible edges are accounted for by the union of the
+                    two graphs                                                                R1
+                             1
+                     e  e   (  1)                                                       A1
+                             2
+
+            (iii)   the two graphs have the same number of edges                               R1
+                           1
+                     e   (  1)                                                            A1
+                           4
+                    v and v  1 are consecutive integers, so only one can be divisible by 4,
+                    hence displayed result                                                   A1AG
+
+            (iv)    the required graphs have four vertices and three edges                    A1
+                    if one vertex is adjacent to the other three, that uses up the edges;
+                    the resulting graph, necessarily connected, has a disconnected
+                    complement, and vice versa                                                R1
+                    if one vertex is adjacent to two others, that uses up two edges; the
+                    final vertex cannot be adjacent to the first; the result is the linear
+                    connected graph                                                           A1
+                    state it is isomorphic to its complement                                  A1           N2
+             Note:     Alternative proofs are possible, but should include the final
+                       statement for full marks.
+
+            (v)     using e  3  6 for planar graphs                                       M1
+                    1
+                       (  1)  e  e  6  12                                            A1
+                    2
+                     2  13  24  0 is not possible for v  11                             R1
+                                                                                                    [14 marks]
+
+                                                                                             Total [17 marks]
+                                                    – 11 –       M12/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+5.   (a)   22003  25  (26 )333                                                M1A1
+            32 1(mod7) by Fermat’s little theorem                               A1
+            4(mod7)                                                              AG
+                                                                                        [3 marks]
+
+     (b)   2003  3  10  200                                                   (M1)
+           22003  23  (210 )200   8 1(mod11)   8(mod11)                     A1
+           22003  211  (212 )166  7(mod13)                                     A1
+                                                                                        [3 marks]
+
+                       1001                 1001              1001
+     (c)   form M1            143; M 2          91; M 3        77           M1
+                         7                    11               13
+           solve 143x1  1 (mod 7)  x1  5                                     M1A1
+            x2  4; x3  12                                                     A1A1
+            x  4 143  5  8  91 4  7  77 12  12240  228(mod1001)      M1A1
+
+
+                                                                                        [7 marks]
+
+                                                                                 Total [13 marks]
+

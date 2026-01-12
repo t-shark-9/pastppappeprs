@@ -1,0 +1,321 @@
+M11/3/ITGSX/BP1/ENG/TZ0/XX/M
+
+
+
+
+                   MARKSCHEME
+
+
+                               May 2011
+
+
+
+      INFORMATION TECHNOLOGY IN A
+            GLOBAL SOCIETY
+
+
+
+             Higher and Standard Level
+
+
+
+                               Paper 1
+
+
+
+
+10 pages
+                              –2–             M11/3/ITGSX/BP1/ENG/TZ0/XX/M
+
+
+
+
+This markscheme is confidential and for the exclusive use of
+examiners in this examination session.
+
+It is the property of the International Baccalaureate and must not
+be reproduced or distributed to any other person without the
+authorization of IB Cardiff.
+                                                  –3–               M11/3/ITGSX/BP1/ENG/TZ0/XX/M
+
+
+Examiners should be aware that in some cases, candidates may take a different approach, which if
+appropriate should be rewarded. If in doubt check with your Team Leader.
+
+In the case of an “identify” question read all answers and mark positively up to the maximum marks.
+Disregard incorrect answers. In the case of a “describe” question, which asks for a certain number of
+facts e.g. “describe two kinds”, mark the first two correct answers. This could include two descriptions,
+one description and one identification, or two identifications. In the case of an “explain” question,
+which asks for a specified number of explanations e.g. “explain two reasons”, mark the first two
+correct answers. This could include two full explanations, one explanation, one partial explanation, etc.
+
+
+1.   (a)   (i)    The percentage marks in column C are calculated by the spreadsheet
+                  using a formula. Identify the formula used in cell C4.                        [1 mark]
+
+                  Answers may include:
+                  • =B4/40
+                  • =(B4/40).
+
+                  N.B. Must include a cell reference. Equals sign is optional.
+
+                  Award [1 mark] for any of the above points up to a maximum of [1 mark].
+
+           (ii)   Identify the type of formatting that has been applied to the formulae in
+                  the range (C4:C9).                                                            [1 mark]
+
+                  Answers may include:
+                  • right-aligned
+                  • percentage
+                  • number of decimal places is zero.
+
+                  Award [1 mark] for any of the above points up to a maximum of [1 mark].
+
+     (b)   The grades in cells D4 to D9 are produced automatically by the spreadsheet.
+           Describe how the spreadsheet has been set up in order to generate
+           these grades.                                                               [4 marks]
+
+           Answers may include:
+            get the mark
+            look it up somewhere or ref to lookup (vlookup) or as part of an if function
+            location of lookup values (reference to (A12:B19) or (A13:B19) or clear
+             reference to the correct values in an if function)
+             N.B. The marks can be part of the if function or alternatively referenced to the
+             appropriate cells in the lookup table.
+            compare (mark with lookup values) (this can be expressed using an operator
+             such as ≤)
+            get/insert grade.
+
+           Award [1 mark] for any of the above points up to a maximum of [4 marks].
+                                              –4–               M11/3/ITGSX/BP1/ENG/TZ0/XX/M
+
+
+(c)   The teacher uses a macro to plot a chart showing these results. Explain why
+      macros are a useful way to generate output such as charts from
+      a spreadsheet.                                                              [4 marks]
+
+      Answers may include:
+       output is standardized
+       chart or other output is produced automatically
+       no need to remember commands
+       no need to remember formats/chart types used
+       can incorporate annotations automatically
+       can edit macros to publish the chart in a word processed document
+       the job can be given to someone else
+       fewer mouse clicks/key strokes/idea of saving time or effort/improved efficiency/
+        useful for repetitive tasks
+       macros can be edited/fine tuned.
+
+      There is no need to explicitly mention charts in the response.
+
+      [1 mark]
+      A limited response that indicates very little understanding of the topic.
+
+      [2–3 marks]
+      A reasonable description, although the answer may lack appropriate reasoning at
+      the lower end of the band. The candidate shows awareness of macros as a means
+      of automation.
+
+      [4 marks]
+      A clear, detailed explanation of the issue with reasons. The candidate shows
+      understanding of why a macro can save effort or lead to better quality output.
+      The answer is logically and coherently argued.
+                                                  –5–            M11/3/ITGSX/BP1/ENG/TZ0/XX/M
+
+
+2.   (a)   Drop-down boxes have been used to capture two of the data items on
+           the form. Identify two reasons why drop-down boxes are often used to
+           capture data from on-screen forms.                                   [2 marks]
+
+           Answers may include:
+           • quicker / easier / more efficient input
+           • prevents entry of unacceptable values
+           • consistent data entry.
+
+           Award [1 mark] for any of the above points up to a maximum of [2 marks].
+
+     (b)   The error message at the base of the screen highlighted two errors when the
+           user inputted data to this form. Describe the steps taken by the system to
+           identify these two particular errors.                                       [4 marks]
+
+           Answers may include:
+            today’s date is generated by (operating) system/look up today’s date in system
+             clock/calendar
+            allowable date in the future is stored
+            checks date entered against allowable date / today’s date
+            date must not be beyond a specific date / in the future.
+
+           Award [1 mark] for any of the above points up to a maximum of [2 marks].
+
+           Answers may include:
+            checks currency entered/selected
+            looks up exchange rate in its database
+            if system does not have relevant rate, looks for exchange rate entered by
+             the user
+            check if exchange rate field is blank.
+
+           Award [1 mark] for any of the above points up to a maximum of [2 marks].
+                                              –6–               M11/3/ITGSX/BP1/ENG/TZ0/XX/M
+
+
+
+(c)   The organization has stopped using its old paper-based system and its staff
+      must now use the new online system. Explain what the organization should
+      do to make sure that all the users are ready to make full use of the
+      new system.                                                                 [4 marks]
+
+      Answers may include:
+      technical
+       check that users’ systems are compatible (i.e. software to perform a
+         compatibility check)
+       reference to any software tool to do this
+       reference to system requirements
+       software thoroughly tested by organization/developers
+       beta testing with some users.
+
+      training and support
+       provide training for staff
+       method(s) to do this, e.g. online training, instruction provided by an on-site
+         trainer
+       easy to follow instructions on web site or sent out to users
+       easy to follow error messages
+       prompts for each stage on web site.
+
+      [1 mark]
+      A limited response that indicates very little understanding of the topic.
+
+      [2–3 marks]
+      A reasonable description, although the answer may lack appropriate reasoning at
+      the lower end of the band. The candidate shows awareness of testing or training.
+
+      [4 marks]
+      A clear, detailed explanation of the issue with reasons. The candidate
+      shows understanding of testing and training. The answer is logically and
+      coherently argued.
+                                                 –7–               M11/3/ITGSX/BP1/ENG/TZ0/XX/M
+
+
+3.   (a)   Define the term resolution when referring to an image.                              [2 marks]
+
+           Answers may include:
+            a measure of the quality/clarity
+            number of pixels per unit area or distance/pixel density
+            reference to amount of data in the image file.
+
+           Award [1 mark] for any of the above points up to a maximum of [2 marks].
+
+     (b)   (i)    Identify two disadvantages of converting the file pigeon1.PNG into the
+                  file pigeon2.JPG.                                                      [2 marks]
+
+                  Answers may include:
+                   lose print quality/clarity/resolution/any statement that shows awareness
+                    of data loss
+                   cannot go back to the original image with the same quality
+                   scaling image produces unacceptable results
+                   time delay when decoding and displaying JPG
+                   repeated compression and decompression loses more data each time.
+
+                  Award [1 mark] for any of the above points up to a maximum of [2 marks].
+
+           (ii)   Describe one technique used in image conversion software that would
+                  enable the conversion of the file pigeon1.PNG into the file pigeon2.JPG. [2 marks]
+
+                  Answers may include:
+                   correct reference to compression
+                   parts of image that are least likely to affect perception are removed /
+                     data removed
+                   colour analysed
+                   degree of data loss can be chosen.
+
+                  Award [1 mark] for any of the above points up to a maximum of [2 marks].
+                                              –8–               M11/3/ITGSX/BP1/ENG/TZ0/XX/M
+
+
+(c)   Explain why photo sharing web sites will not allow users to upload large
+      image files to them.                                                     [4 marks]
+
+      Answers may include:
+       users often upload huge numbers of files
+       large files take up more bandwidth
+       may slow web site down/slow downloads
+       may crash the web site
+       large files take up more storage space
+       less space available for other users
+       cost issues.
+
+      N.B. That answers must relate to the web server/site provider and not the user’s
+      computer.
+
+      [1 mark]
+      A limited response that indicates very little understanding of the topic.
+
+      [2–3 marks]
+      A reasonable description, although the answer may lack appropriate reasoning at
+      the lower end of the band. The candidate shows awareness of storage
+      or bandwidth.
+
+      [4 marks]
+      A clear, detailed explanation of the issue with reasons. The candidate
+      shows understanding of storage and bandwidth. The answer is logically and
+      coherently argued.
+                                                    –9–             M11/3/ITGSX/BP1/ENG/TZ0/XX/M
+
+
+4.   (a)   Identify two features of a “strong” password.                                   [2 marks]
+
+           Answers may include:
+            both letters and numbers used
+            mixture of upper and lower case letters
+            non-alphanumeric characters used
+            personal information not used
+            not easy to guess/real words
+            sufficient length.
+
+           Award [1 mark] for any of the above points up to a maximum of [2 marks].
+
+     (b)   Identify the steps that a “brute force” attack could use to try out all the
+           possible passwords to a computer system.                                    [4 marks]
+
+           Basic marking plan – look for the following ideas about a brute force attack:
+            start point identified
+            a systematic approach/repetition/try alternatives
+            end point (repeat until found or locked out).
+
+           Additional mark points for more detail:
+            check that a password is present
+            start with a first letter / lower case / upper case
+            match against all possible first letters
+            add in a second letter
+            match against all possible combinations.
+
+           N.B. Reward other possible step by step approaches, if they are systematic.
+           Reject random approaches. Reject manual approaches.
+
+           Award [1 mark] for any of the above points up to a maximum of [4 marks].
+                                            – 10 –            M11/3/ITGSX/BP1/ENG/TZ0/XX/M
+
+
+(c)   Trojan horses and keystroke loggers (often called keyloggers) can be used
+      by hackers to intercept passwords when bank customers access their
+      accounts online. Explain two methods a bank can use to prevent customers’
+      passwords from being intercepted in these ways.                           [4 marks]
+
+      Answers may include:
+       never require a complete password (i.e. only require random parts of a password)
+       use drop-down boxes to capture parts of passwords
+       do not require passwords to be typed in (e.g. select with a mouse from a
+        screen-based keyboard) – this avoids their capture by keystroke loggers
+       one time passwords
+       guidance from bank (however supplied)
+       biometric authentication
+       encryption – only if it is clear that it is between the keyboard and the computer
+       reject https encryption
+       reject second level authentication.
+
+      N.B. Answers must relate to prevention of keylogging, not general security
+      measures.
+
+      Award [1 mark] for identifying each method up to a maximum of [2 marks].
+      Award an additional [1 mark] for the description of each method up to a
+      maximum of an additional [2 marks].
+

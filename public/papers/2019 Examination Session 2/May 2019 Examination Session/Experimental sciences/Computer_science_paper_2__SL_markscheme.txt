@@ -1,0 +1,837 @@
+M19/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+
+
+                       Markscheme
+
+
+                               May 2019
+
+
+                     Computer science
+
+
+                         Standard level
+
+
+                               Paper 2
+
+
+
+
+21 pages
+                                      –2–                 M19/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+
+No part of this product may be reproduced in any form or by any electronic
+or mechanical means, including information storage and retrieval systems,
+without written permission from the IB.
+
+Additionally, the license tied with this product prohibits commercial use of
+any selected files or extracts from this product. Use by third parties,
+including but not limited to publishers, private teachers, tutoring or study
+services, preparatory schools, vendors operating curriculum mapping
+services or teacher resource digital platforms and app developers, is not
+permitted and is subject to the IB’s prior written consent via a license. More
+information on how to request a license can be obtained from http://
+www.ibo.org/contact-the-ib/media-inquiries/for-publishers/guidance-for-
+third-party-publishers-and-providers/how-to-apply-for-a-license.
+
+Aucune partie de ce produit ne peut être reproduite sous quelque forme ni
+par quelque moyen que ce soit, électronique ou mécanique, y compris des
+systèmes de stockage et de récupération d’informations, sans l’autorisation
+écrite de l’IB.
+
+De plus, la licence associée à ce produit interdit toute utilisation
+commerciale de tout fichier ou extrait sélectionné dans ce produit.
+L’utilisation par des tiers, y compris, sans toutefois s’y limiter, des éditeurs,
+des professeurs particuliers, des services de tutorat ou d’aide aux études,
+des établissements de préparation à l’enseignement supérieur, des
+fournisseurs de services de planification des programmes d’études, des
+gestionnaires de plateformes pédagogiques en ligne, et des développeurs
+d’applications, n’est pas autorisée et est soumise au consentement écrit
+préalable de l’IB par l’intermédiaire d’une licence. Pour plus d’informations
+sur la procédure à suivre pour demander une licence, rendez-vous à
+l’adresse http://www.ibo.org/fr/contact-the-ib/media-inquiries/for-publishers/
+guidance-for-third-party-publishers-and-providers/how-to-apply-for-a-
+license.
+
+No se podrá reproducir ninguna parte de este producto de ninguna forma ni
+por ningún medio electrónico o mecánico, incluidos los sistemas de
+almacenamiento y recuperación de información, sin que medie la
+autorización escrita del IB.
+
+Además, la licencia vinculada a este producto prohíbe el uso con fines
+comerciales de todo archivo o fragmento seleccionado de este producto. El
+uso por parte de terceros —lo que incluye, a título enunciativo, editoriales,
+profesores particulares, servicios de apoyo académico o ayuda para el
+estudio, colegios preparatorios, desarrolladores de aplicaciones y
+entidades que presten servicios de planificación curricular u ofrezcan
+recursos para docentes mediante plataformas digitales— no está permitido
+y estará sujeto al otorgamiento previo de una licencia escrita por parte del
+IB. En este enlace encontrará más información sobre cómo solicitar una
+licencia: http://www.ibo.org/es/contact-the-ib/media-inquiries/for-publishers/
+guidance-for-third-party-publishers-and-providers/how-to-apply-for-a-
+license.
+                                                   –3–                 M19/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+Subject details:        Computer science SL paper 2 markscheme
+
+Mark allocation
+
+Candidates are required to answer all questions in one Option. Total 45 marks.
+
+General
+
+A markscheme often has more specific points worthy of a mark than the total allows. This is intentional.
+Do not award more than the maximum marks allowed for that part of a question.
+
+When deciding upon alternative answers by candidates to those given in the markscheme, consider the
+following points:
+
+• Each statement worth one point has a separate line and the end is signified by means of
+  a semi-colon (;).
+
+• An alternative answer or wording is indicated in the markscheme by a “/”; either wording can be
+  accepted.
+
+• Words in ( … ) in the markscheme are not necessary to gain the mark.
+
+• If the candidate’s answer has the same meaning or can be clearly interpreted as being the same as
+  that in the markscheme then award the mark.
+
+• Mark positively. Give candidates credit for what they have achieved and for what they have got
+  correct, rather than penalizing them for what they have not achieved or what they have got wrong.
+
+• Remember that many candidates are writing in a second language; be forgiving of minor linguistic
+  slips. In this subject effective communication is more important than grammatical accuracy.
+
+• Occasionally, a part of a question may require a calculation whose answer is required for subsequent
+  parts. If an error is made in the first part then it should be penalized. However, if the incorrect answer
+  is used correctly in subsequent parts then follow through marks should be awarded. Indicate this
+  with “FT”.
+
+
+General guidance
+
+ Issue          Guidance
+ Answering      • In the case of an “identify” question, read all answers and mark positively up to the
+ more than        maximum marks. Disregard incorrect answers.
+ the quantity   • In the case of a “describe” question, which asks for a certain number of facts
+ of               eg “describe two kinds”, mark the first two correct answers. This could include two
+ responses        descriptions, one description and one identification, or two identifications.
+ prescribed     • In the case of an “explain” question, which asks for a specified number of
+ in the           explanations eg “explain two reasons …”, mark the first two correct answers.
+ questions        This could include two full explanations, one explanation, one partial explanation etc.
+                                                  –4–               M19/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+Option A — Databases
+
+1.   (a)
+
+
+
+
+           Award [2 max].
+           Award [1] for correct relationship “publishes books from”.
+           Award [1] for correct relationship “writes”.                                      [2]
+
+     (b)   Award [2 max].
+           As Book_Title attribute is String/Varchar;
+           It does not allow many validation checks (like range check etc);                  [2]
+
+     (c)   Award [1 max].
+           Seeking the truth;                                                                [1]
+
+     (d)   Award [4 max].
+           Award [1] for selection of both Publisher_Name and Book_Title from the two
+           respective tables.
+           Award [1] for making INNER JOIN of the Publisher_Name from both tables-
+           Publisher and Author.
+           Award [1] for the correct test ON Author_Num from both tables-Author and Book.
+           Award [1] for the correct test of equity of Publisher_Name.
+
+           SELECT Publisher.Publisher_Name, Book.Book_Title FROM Author
+           INNER JOIN Book ON PUBLISHER. Publisher_Name =
+           Author.Publisher_Name, ON Author.Author_Num = Book.Author_Num
+           WHERE Publisher.Publisher_Name = "Orlando Crux";                                  [4]
+
+     (e)   Award [2 max].
+           Helps the searching of a family name for example rather than a “like” name
+           search;
+           So, making data into the smallest possible unit helps quicker searches;           [2]
+
+     (f)   Award [2 max].
+           Each user sees a fixed view of the data;
+           This may include visible changes made by the user / the user's own transactions
+           and transactions of other users;                                                  [2]
+
+     (g)   Award [2 max].
+           When a field value changes multiple occurrences must be updated;
+           For example, if a publisher moves, we’ll need to change the values for City and
+           Country in multiple records;
+           Problem occurs if we forget to change the values in any of the records;
+           The database would then have data inconsistency;                                  [2]
+                                                    –5–                M19/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+2.   (a)   Award [3 max].
+           The ability of a database to allow multiple teachers to affect multiple transactions;
+           Allowing concurrent processing while ensuring transaction isolation;
+           Thus, ensuring the update of one teacher does not affect the update of another
+           teacher;
+           While one transaction (by a teacher) is accessing a resource from a shared
+           folder, it places a lock, an access restriction, on the resource, controlling the level
+           of access allowed by another transaction by another teacher;                              [3]
+
+     (b)   Award [4 max].
+           Award [1] for identifying a way of maintaining data security and [1] for a
+           development up to [2 max]
+           Mark as [2] and [2]
+
+           Minimizing permissions;
+           Restrict users to have permission only to the means to do their job. Some can
+           view, modify and insert some only view etc;
+
+           Auditing changes;
+           Log changes made to teachers and permissions through auditing. This gives a
+           trail to follow should you have problems. Without authorization no one gets grant
+           of permissions;
+
+           Minimizing table access;
+           Isolate the teachers from the data tables they do not need / Create views and
+           user defined functions to support user access requirements and not give access
+           to the tables;                                                                            [4]
+
+     (c)   (i)   Award [2 max].
+                 Award [1] for identifying a way of maintaining data security and [1] for a
+                 development up to [2 max].
+
+                 Deferred update;
+                 does not physically update the database on disk until a transaction has
+                 reached its commit point/if a transaction fails before reaching its commit
+                 point, it will not have changed the database in any way so UNDO is not
+                 required;
+
+                 Shadow paging;
+                 When a page is to be modified, a shadow page is allocated in which
+                 changes are made;
+                 When it is ready to become durable, all pages that refer to original are
+                 updated to refer new replacement page;
+
+                 Back-up;
+                 Back-up copies of the entire database is done to ensure the database is at
+                 the most updated version of the original;                                           [2]
+                                       –6–                M19/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+(ii)   Award [3 max].
+       Award [1] for the method, award [1] for the explanation and [1] for the
+       example up to [3 max].
+
+       Data masking or data obfuscation;
+       is the process of hiding original data with random characters;
+       eg: suppressing certain characters in the student address, student id etc;
+
+       Data encryption;
+       Conversion of data into non-readable gibberish creates highly secure
+       results such as scrambling the student_ID;
+       The only way to gain access to the data is to unlock it with a key or
+       password which only those authorized can access;                             [3]
+                                                   –7–                 M19/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+3.   (a)   Award [4 max].
+           Applications interacting with the database are minimally affected;
+           When a fully normalized database structure is extended, to accommodate new
+           types of data, database structure can remain largely or entirely unchanged;
+           So, the applications interacting with the database are minimally affected;
+
+           Key dependent;
+           Every non-key column in every table is directly dependent on the key, the whole
+           key and nothing but the key;
+           Thus making reduced redundancies, lesser anomalies and better efficiencies;
+           Mark as [2] and [2].                                                                 [4]
+
+     (b)   Award [2 max].
+           For First Normal Form, each attribute value should be atomic;
+           In the given example product_Num, Pro_Name, Unit_Price and Qty is
+           multivalued / All 4 tuples shown have multiple values in their first 4 attributes;   [2]
+
+     (c)   Award [8 max].
+           Award [1] for each correct table up to [4 max].
+           Award [1] for each correct primary key up to [4 max].
+
+           3NF
+
+           Product_Number
+           Product_Number, Unit_Price, Product_Name
+
+           Sales_Person
+           Sales_Person_Number, Sales_Person_Name, Manager_Number
+
+           Manager
+           Manager_Number, Manager_Name
+
+           Purchases
+           Purchase_ID, Date_And_Time, Product_Number, Sales_Person_Number                      [8]
+
+     (d)   Award [2 max].
+           You can enter foreign keys that do not match the corresponding primary key in
+           the related table;
+           This could cause a lot of problems such as mismatched customer data and
+           mismatched transaction records;
+
+           Cascading update;
+           If the primary key for a record in the Managers table changes, all corresponding
+           records in the Employees table are modified;
+
+           Cascading delete;
+           If a record in the Managers table is deleted, all corresponding records in the
+           Employees table are deleted;                                                         [2]
+
+     (e)   Award [2 max].
+           The combination of the two provides unique identifiers for the records of the
+           table;
+           And that there is no single attribute that is able to uniquely identify a record;
+           In a manner that will not lead to potential duplication of records;
+           It identifies exactly one record of the table, then that record shows the single
+           value of each of the non-key attributes;
+           That is associated with the unique combination of the key attributes;                [2]
+                                                   –8–         M19/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+Option B – Modelling and simulation
+
+4.   (a)   Award [3 max].
+
+
+             Variable                  Data type          Range of values
+
+             Ocean surface
+                                       Number, real       Between –5 and +30
+             temperature
+
+                                                          0–100 or 0–1
+             Albedo                    Number, integer
+
+
+             Sea ice area              number             0                              [3]
+
+     (b)   Award [4 max].
+           Initialization – Original area of sea ice;
+           Initialization – Surface temperature change;
+           New sea ice area calculation;
+           Sea level change calculation;
+
+           Example algorithm:
+           OriginalSeaIceArea = 1000000
+           SurfaceTempChange = 0.04
+           NewSeaIceArea = OriginalSeaIceArea * (1 – SurfaceTempChange)
+           SeaLevelChange = -(NewSeaIceArea - OriginalSeaIceArea) /
+           OriginalSeaIceArea * 100 * 20                                                [4]
+
+     (c)   (i)    Award [1 max].
+                  960 000 (km2);                                                        [1]
+
+           (ii)   Award [1 max].
+                  80 (mm);                                                              [1]
+                                               –9–                M19/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+
+(d)   Award [7 max].
+      Initialization – Initial areas of Ice and water, and starting year;
+      Use of loop;
+      Loop parameters (limits, condition, increment, end statement correct);
+      Average albedo;
+      Rate of decrease calculation;
+      Area of ice update calculation;
+      Area of open water update calculation;
+      Output;
+
+      Example algorithm:
+      IceArea = 1000000
+      OpenArea = 1000000
+      Year = 2019
+      Loop While IceArea > 10000
+        TotalArea = IceArea + OpenArea
+        AveAlbedo = ((IceArea * 0.6) + (OpenArea * 0.1)) / (IceArea + OpenArea)
+        Decrease = 0.3 / (AveAlbedo * AveAlbedo)
+        // allow Decrease = 0.3 / AveAlbedo ^ 2
+        IceArea = IceArea * (1 – (0.01 * Decrease))
+        OpenArea = TotalArea - IceArea
+        Year = Year + 2
+      End loop
+      Output "Date when there less than 10 000km2 of ice in the ocean
+      is " Year                                                               [7]
+
+(e)   Award [2 max].
+      Spreadsheets;
+      IDEs using code;                                                                     [2]
+
+(f)   Award [3 max].
+      If the calculation of the rate of reduction of the sea ice is inaccurate the
+      calculation of the amount of sea ice remaining;
+      At a given time will turn out to be wrong;
+      So, work to correct the problems may be too little/too great;
+
+      The year in which the sea ice is predicted to be 10 000 km2;
+      Will be wrong;
+      So, ice coverage may be more/less than expected in the calculated year;              [3]
+                                                   – 10 –            M19/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+5.   (a)   Award [4 max].
+           Data is entered into a rule-based environment;
+           The rules may be kept the same and the nature of the data input may be varied;
+           Or the data that is input may remain the same and the rules may be varied;
+           Which allows for a range of possible scenarios to be investigated;                  [4]
+
+     (b)   Award [3 max].
+           Life expectancy;
+           Gender;
+           Availability of life-extending treatments;
+           Genetic information;
+
+           Allow other appropriate answers.                                                    [3]
+
+     (c)   Award [5 max].
+
+           Example answer:
+           One ethical issue is invasion of privacy;
+           to get the best quality model;
+           sensitive personal data will need to be collected;
+           trade-off between the benefits of this model and level of intrusion into people's
+           lives;
+           especially if the data is being shared with third parties;                          [5]
+
+     (d)   Award [3 max].
+           Simulation may be used to handle uncertainty and provide ranges of expected
+           outputs; eg repeatedly inputting data drawn from random samples of plausible
+           input values;
+           To look at the predicted spread of outcomes over time (consider the use of
+           simulation in the analysis of queues);
+
+           A simulation is considered to be a representation of a model over time;
+           This means that the simulation can be used over a longer period of the
+           development life cycle;
+           It can be used to assist with stages such as the implementation stage;              [3]
+                                                – 11 –              M19/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+6.   (a)   The creation of a human interpretable image from data;                            [1]
+
+     (b)   Award [2 max].
+           The characters are defined as mathematical models;
+           They will need rendering to give a 3D effect;
+           Each movement will need to be fluid;
+           The animation is less interesting with flat figures;
+
+           Allow mark for explanation of rendering.                                          [2]
+
+     (c)   Award [6 max].
+           Rendering for non-interactive media such as animations is a much slower
+           process than for interactive media/games;
+           Rendering times for individual frames may vary from a few seconds to days
+           depending on the complexity of the scene;
+           Rendered frames are stored to a hard disk and then transferred to other media
+           for playback;
+           3D rendering is computationally resource hungry;
+           Computer processing power has increased rapidly and greatly over the years;
+           Allowing a much higher degree of photorealism / realistic rendering;              [6]
+                                                   – 12 –              M19/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+Option C – Web science
+
+7.   (a)   Award [2 max].
+           Change/re-flow the layout of the page to suit different screen sizes/formats;
+           adjust font sizes;
+           adjust image sizes;
+           provide alternative menus / link options;
+
+     (b)   Award [3 max].
+           The code:
+           • uses SQL to query the CATEGORY table in a database, selecting all pairs of
+             <category_id, category_name> ordered by category_name;
+           • stores the results of the query in a variable / array $categoryqueryresult;
+           • prepares HTML for a drop-down menu which consists of a list of option tags
+             derived from iterating through each pair in $categoryqueryresult;
+           • sets the “value” attribute of each menu item to category_id;
+           • sets the “text” attribute of each menu item to category_name.
+
+     (c)   Award [4 max].
+           Mark as [2] and [2].
+
+           Include authoritative / high quality website content;
+           To attract other reputable sites to link to it / promote it in the search engine
+           ranking;
+
+           Use appropriate use meta tags (eg keywords/descriptions);
+           To provide clear data for web-crawlers/robots to use when categorising the page;
+
+           Separate content from formatting (e.g. use of CSS etc.);
+           To allow search engines to index the content of the site more effectively;
+
+           Use site maps / site diagrams;
+           To aid indexing by web-crawlers/robots;
+
+           Include a robots.txt file in the page header;
+           To give instructions to web-crawlers/robots as to how to index and describe the
+           various pages on the site;
+
+     (d)   Award [2 max].
+           Lossy compression
+           Reduces the file-size by removing some of the data in the file;
+           Once removed, the data cannot be recovered;
+           This generally results in a loss of quality (eg picture resolution, audio frequency
+           range);
+           Files compressed using lossy compression are used in their compressed form
+           (eg images, video, audio);
+
+           Lossless compression
+           Reduces file size by looking for repeated patterns of data / redundant data and
+           replacing those with a single shorter "token";
+           The tokens are associated with the data they represent by using a dictionary
+           added to the file;
+           Flies must be decompressed before they can be used;
+           Decompression software reads the dictionary and replaces all the tokens with the
+           original data They represent;
+           Files do not lose any of the data they contain when compressed / decompressed;
+                                          – 13 –             M19/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+(e)   Award [3 max].
+      Lossless compression reduces file size while preserving all the data;
+      Once decompressed, the pdf document will contain all the data in the original
+      document;
+      Some pdf software allows for the automatic lossless compression of the
+      document / the developers would not have to apply compression retrospectively;
+      It would be hard for a lossy compression algorithm to distinguish between data
+      that can be removed (eg reducing the resolution of the images) and data that is
+      necessary for the pdf documents to make sense (eg parts of the text);
+      Using lossy compression may result in an unusable/unreadable document;
+      Accept answers that focus on why lossy compression would be unsuitable for the
+      pdf files.
+                                                   – 14 –               M19/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+8.   (a)   (i)    Award [1 max].
+                  HTTPS / hypertext transport protocol secure;
+
+           (ii)   Award [3 max].
+                  The DNS looks up the domain name “home.cern” in its database;
+                  If it doesn’t have this string, it passes the query to another DNS according
+                  to defined rules;
+                  This process continues until either an IP address is passed back to the
+                  starting DNS or an error message is returned;
+                  The IP address (or error message) is sent back to the client that initiated
+                  the call to the DNS;
+
+     (b)   Award [6 max].
+           Mark as [3] and [3].
+
+           Multiple copies of all or part of the data can be kept at different sites;
+           This ensures that there is no single point of failure;
+           and the redundant data helps to ensure against data loss;
+
+           Different computers on the grid can use different analysis and data visualization
+           tools;
+           This allows scientists to run whatever analysis tools best suit their own
+           specialism/area of interest;
+           Rather than being limited to the tools provided by CERN;
+
+           Analysis can be performed using distributed processing time/capacity;
+           This reduces load and/or reliance on a centralized system;
+           Allowing a greater number of processes to be run concurrently;
+
+           Computers on the grid can be in multiple time zones;
+           This gives scientists more equitable access to data;
+           And facilitates round-the-clock monitoring and the availability of expert support;
+
+           Resources can be distributed across the world rather than being held in one
+           country;
+           This may attract funding from governments for their own locally-based research;
+           As they may see the benefits of international cooperation;
+                                            – 15 –             M19/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+(c)   Award [6 max].
+      Benefits of CC licensing:
+      CERN want their experimental results to be freely accessible (within specified
+      limits);
+      Allows for the more rapid dissemination of data/information while preventing
+      people from repackaging them and selling them as a commercial product;
+      May further the advance of scientific knowledge / be seen as an altruistic gesture;
+      No need to contact CERN about using the work / allows CERN to focus on their
+      primary function, ie scientific research;
+
+      Limitations of copyright:
+      May be impossible to enforce;
+      Enforcement would require significant costs associated with hiring of lawyers etc;
+      It may not be possible to find all cases where work has been used without
+      copyright permissions;
+      Plagiarism may occur outside of Switzerland where different copyright laws may
+      exist;
+
+      Candidates are not required to make comparisons with copyright, however credit
+      should be given where valid limitations of copyright are explained.
+      Mark as [3] and [3].
+                                                  – 16 –              M19/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+9.   (a)   Award [1 max].
+           The ability of something to be extended or expanded from its initial state, eg
+           software / file Formats / programming languages;
+           The ability to add custom / user-defined elements (eg XML tags, plug-ins,
+           add-ons);
+
+     (b)   Award [2 max].
+           In the real world, computer systems and databases contain data in incompatible
+           formats;
+           XML data is stored in plain text format. This provides a software- and hardware-
+           independent way of storing data / makes it much easier to create data that can be
+           shared by different applications;
+           XML makes it easier to expand or upgrade to new operating systems /
+           applications / browsers;
+
+     (c)   Award [2 max].
+           Interoperability is the ability of different computer systems (including operating
+           systems and applications) to work cooperatively / share data;
+           Open standards are standards that are publicly available and (normally) free to
+           use;
+           Open standards are one factor aiding interoperability;
+
+     (d)   Award [2 max].
+           The Common Gateway Interface (GGI) is part of the Web's Hypertext Transfer
+           Protocol (HTTP);
+           CGI is a method or convention for passing data back and forth between the
+           server and the application;
+           A programmer can write a CGI application in a number of different languages.
+           CGI provides a more efficient mechanism for data to be passed from the user's
+           request to the application program (and back to the user);
+           CGI is not dependent on the operating system used by the server. The methods /
+           conventions remain the same;
+
+     (e)   Award [2 max].
+           In a blog, only the owner can post an article / open a thread of discussion / start a
+           theme;
+           In a forum all registered participants can post an article / open a thread;
+
+           In a blog, registered visitors may be allowed to comment but the blog owner may
+           moderate the comments before displaying them;
+           in a forum all registered users are allowed to comment (without moderation);
+
+           In a blog users cannot edit or delete posts;
+           in a forum there may be moderators who can edit or delete posts after they have
+           been made;
+                                             – 17 –             M19/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+(f)   Award [6 max].
+      Note: do not award a tick for each idea, use the markband and use best-fit to
+      determine the level of the response.
+
+      Blog
+      • allows the head librarian to post articles/entries that give readers a better idea
+        of the issues/decisions affecting the library/the background context that affect
+        decisions / may result in better informed and focused comments from readers;
+      • may foster a greater sense of participation / spirit of community / allow the
+        head librarian to aggregate majority views;
+      • the ability of the head librarian to moderate posts may allow off-topic/
+        unhelpful/offensive comments to be filtered-out / however this might also allow
+        the head librarian to censor/modify comments that are legitimate but critical of
+        library services/contrary to decisions that the library want to push-forward;
+
+      Forum
+      • allow library users to raise issues that they find important rather than only
+        commenting on issues raised by the head librarian / may allow greater head
+        librarian to develop a greater awareness of issues affecting/affected by
+        decisions;
+      • lack of moderation may allow users to raise controversial issues / however
+        may also reduce ability of head librarian to filter-out off-topic/unhelpful/
+        offensive posts;
+      • may oblige head librarian to engage in greater discussion / justification of
+        actions / however excessive time might be spent clarifying issues / dispelling
+        myths;
+
+      Both blog and forum
+      • the comments/posts may not be reflective of the general/majority view / may
+        be restricted to a biased/self-selecting sub-set of library users. This may
+        influence the head librarian to make decisions that cater for the "vocal"
+        minority;
+
+      [1–2 marks]
+      A limited response that indicates very little understanding of the topic or the
+      reason is not clear. Uses little or no appropriate subject specific terminology. No
+      reference is made to the scenario in the stimulus material. The response is
+      theoretical and descriptive.
+
+      [3–4 marks]
+      A superficial analysis of why the increased engagement with library users through
+      the blog and forum will assist the head librarian with decision making. There is
+      some use of appropriate subject specific terminology in the response.
+
+      [5–6 marks]
+      A discussion of why the increased engagement with library users through the
+      blog and forum will assist the head librarian with decision making. Explicit and
+      relevant references are made to the scenario in the stimulus material. There is
+      appropriate use of subject specific terminology throughout the response.
+                                                   – 18 –              M19/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+Option D – Object-oriented programming
+
+10.   (a)   Award [1 max].
+            A method that allows/controls changes to a private (hidden) variable;                [1]
+
+      (b)   Award [1 max].
+            boolean isFinals;                                                                    [1]
+
+      (c)   Award [3 max].
+            The class Swimmer is the blueprint of a Swimmer object;
+            An instantiation is the actual object filled with data;
+            The class Race stores up to 8 different instantiated objects of the Swimmer class;   [3]
+
+      (d)   (i)    Award [2 max].
+                   Award [1] for identifying an advantage and [1] for an elaboration of the
+                   advantage up to [2 max].
+
+                   Aggregation reduces dependencies;
+                   and therefore reduces maintenance overhead;                                   [2]
+
+            (ii)   Award [2 max].
+                   Award [1] for identifying a disadvantage and [1] for an elaboration of the
+                   disadvantage up to [2 max].
+
+                   Aggregation of swimmers in a Race object can cause issues with
+                   processing;
+                   eg when searching for all heats that a particular swimmer participates in;    [2]
+
+      (e)   Award [4 max].
+            Award [1] for correct signature including parameters.
+            Award [1] for assigning name and school.
+            Award [1] for a (any) loop.
+            Award [1] for assigning empty to eventID[i].
+            Award [1] for assigning 0 (or 0.0) to time[i].                                       [4]
+
+            Example answer:
+            public Swimmer(String name, String school)
+            {
+              this.name = name;
+              this.school = school;
+              for(int i = 0, i < 5; i++)
+              {
+                 eventID[i] = "empty";
+                 time[i] = 0;
+              }
+            }
+
+      (f)   Award [3 max].
+            Modern programming languages use Unicode to encode characters.
+            Which uses 16 bits / has about 64 000 characters.
+            As opposed to ASCII which uses 8 bits / has 256 characters.                          [3]
+                                                   – 19 –             M19/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+11.   (a)   Award [3 max].
+            Each method is defined within its own class.
+            Each method is called within an object of that class.
+            Therefore the compiler knows which method to use.                                     [3]
+
+      (b)   Award [4 max].
+            Award [1] for an advantage and [1] for an elaboration up to [2 max].
+            Mark as [2] and [2].
+
+            It promotes code reuse;
+            Because the parent object holds common data and action;
+
+            It reduces maintenance overhead;
+            Because you only have to update the parent;                                           [4]
+
+      (c)   Award [2 max].
+            Award [1] for a clear understanding of method overriding and [1] for relating it to
+            this situation up to [2 max].
+
+            Method overriding redefines/replaces a method from the inherited class;
+            The constructor could only instantiate the finals object;
+            The method addSwimmers() could fill finals directly;
+            The method fillFinals() could do nothing;                                             [2]
+                                                    – 20 –             M19/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+12.   (a)   Award [3 max].
+            Award [1] for array of 8 slots with array name.
+            Award [1] for correct entries (in any order).
+            Award [1] for correct order.
+
+            swimmer       Bella    Andy      Eric       Idan    Duc     George     Karl     Hetty
+
+                           [0]      [1]       [2]        [3]     [4]      [5]       [6]      [7]
+
+            Do not penalize the lack of subscripts.                                                 [3]
+
+      (b)   Award [6 max].
+            Award [1] for correctly declaring 2 arrays of size 16.
+            Award [1] for correct outer loop.
+            Award [1] for correct inner loop.
+            Award [1] for copying swimmer object.
+            Award [1] for copying time.
+            Award [1] for incrementing the index of the new arrays.
+
+            Example answers:
+            Swimmer[] tempSwim = new Swimmer[16];
+            double[] tempTime = new double[16];
+            int newIndex = 0;
+            for(int i = 0; i < 2; i++){
+              for(int j = 0; j < 8; j++){
+                 tempSwim.swimmer[newIndex] = races[i].swimmer[j];
+                 tempTime.time[newIndex] = races[i].time[j];
+                 newIndex++;
+              }
+            }                                                                                       [6]
+
+            Note: that the question asks for all entries to be copied. However, do not penalize
+            "efficient" solutions that avoid copying the null and 0 entries.
+                                             – 21 –              M19/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+(c)   (i)    Bubblesort;                                                                   [1]
+
+      (ii)   Award [4 max].
+             Award [1] for stating an improvement and [1] for an elaboration up to
+             [2 max].
+             Mark as [2] and [2].
+
+             Include a flag “swapped”;
+             That can help stop the outer loop if there is a pass through the inner loop
+             with no swap;
+             Limit the inner loop by deducting the outer loop counter;
+             So that the sorted elements are no longer compared;                           [4]
+
+(d)   Award [6 max].
+      Award [1] for correctly instantiating variables.
+      Award [1] for correct loop condition (count < 8).
+      Award [1] for checking for a 0 time (or null entry).
+      Award [1] for correctly copying.
+      Award [1] for incrementing count in the right place.
+      Award [1] for incrementing k in the right place.
+
+      Example answers:
+      int k = 0;
+      int count = 0;
+      while(count < 8) && (k < 16){
+        if(tempSwim[k] != 0){
+           finals.swimmer[count] = tempSwim[k];
+           count++;
+        }
+        k++;
+      }
+
+      Note: Do not penalize for not including loop condition (k < 16)                      [6]
+

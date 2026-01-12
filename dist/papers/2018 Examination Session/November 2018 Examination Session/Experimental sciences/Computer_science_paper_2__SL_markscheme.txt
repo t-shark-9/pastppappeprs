@@ -1,0 +1,903 @@
+N18/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+
+
+                       Markscheme
+
+
+                        November 2018
+
+
+                     Computer science
+
+
+                         Standard level
+
+
+                               Paper 2
+
+
+
+
+21 pages
+                          –2–            N18/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+
+
+This markscheme is the property of the International
+Baccalaureate and must not be reproduced or distributed
+to any other person without the authorization of the
+IB Global Centre, Cardiff.
+                                                  –3–                 N18/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+Option A — Databases
+
+1.   (a)   Award up to [3 max].
+           Award [1] for a definition of an information system, [1] for a definition of a
+           database and [1] for the relationship between the two.
+           An information system is the collection of software, hardware, networking
+           infrastructure, human resources and databases that provide the storage,
+           processing and communication/distribution of information;
+           A database is an organized collection of data (organized so that its contents can
+           easily be accessed, processed, and updated);
+           A database is a subset of the information system;                                      [3]
+
+     (b)   Award up to [8 max].
+           Award up to [2 max] for each of the four properties,
+           Award [1] for an explanation of the property and [1] in relation to the money
+           transfer transaction.
+
+           Example answers:
+
+           Atomicity:
+           Ensures that either all changes to data are performed as if they are a single
+           operation or none of them are performed;
+           In moving money from one account to another, it ensures that if a debit is made
+           successfully from one account then the corresponding credit is made to the other
+           account;
+
+           Consistency:
+           Ensures that data is in a consistent state when a transaction begins and when it
+           ends / ensures that only valid data is written in the database;
+           In transferring money from one account to another, it ensures that the total value
+           of money in both the accounts is the same at the beginning and at the end of
+           each transaction;
+
+           Isolation:
+           Ensures that intermediate state of a transaction is invisible to other transactions;
+           In moving money from one account to another the isolation property ensures that
+           another transaction might see one account or the other but cannot see both
+           accounts;
+
+           Durability:
+           Ensures that after a transaction successfully completes, changes to data persist
+           and are not undone even in the event of a system failure;
+           In moving money from one account to another durability property ensures that the
+           changes made to each account are permanent;                                            [8]
+                                            –4–                N18/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+(c)   Award up to [6 max].
+      Award [1] for identifying an advantage of these databases being open to
+      interrogation and an additional [1] for each development of that advantage up to
+      [3 max].
+      Award [1] for identifying a disadvantage of these databases being open to
+      interrogation and an additional [1] for each development of that disadvantage up
+      to [3 max].
+      Award [1] for a valid conclusion.
+      If there is no conclusion, award [5 max].
+
+      Advantages:
+      Sharing the information may enable it to be made accessible to organizations
+      such as the Police or the Government that may not have access to it;
+      This means that it could be used to detect fraudulent financial activities;
+      Leading to reduced insurance or health insurance premiums as monies are not
+      lost from the system that create artificially high premiums;
+
+      Disadvantages:
+      Misuse of information / security issues;
+      Information from this database may enable the account details of the clients to be
+      shared with third parties;
+      Who may use this information to take money from their accounts;
+
+      Conclusion:
+      Although the information may be shared, the overall benefits from a reduction in
+      fraudulent crime or inflated insurance premiums is greater than the potential for
+      this information to get into the wrong hands;                                        [6]
+                                                  –5–                 N18/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+2.   (a)   Award up to [1 max].
+           A database management system (DBMS) is a set of programs that allows to
+           read, store, change /extract data in a database;                                    [1]
+
+     (b)   Award up to [3 max].
+           Award [1] for each characteristic of logical schema identified up to [3 max].
+           All attributes for each entity in database are specified;
+           The primary key for each entity is identified;
+           Includes all entities and relationships among them;
+           Keys identifying the relationship between different entities (foreign keys) are
+           specified;
+           Normalization occurs at logical level;                                              [3]
+
+     (c)   Award up to [2 max].
+           Award [1] for each identifying the role of Data Definition Language (DDL) and [1]
+           for an expansion or explains how it may be used up to [2 max].
+           The Data Definition Language (DDL) are commands which define the different
+           structures/objects in a database;
+           Database administrators use these commands during the setup and/or removal
+           of a database and database objects (such as tables, indexes, and users);            [2]
+
+     (d)   Award up to [2 max].
+           Award [1] for each task that a database administrator carries out to ensure the
+           security of the database up to [2 max].
+           DBA sets access levels and passwords;
+           DBA manages back-up procedures (allow examples of this);
+           DBA establishes a recovery plan for the database in disaster case;                  [2]
+                                                     –6–                 N18/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+3.   (a)   (i)     Award up to [1 max].
+                   Real number/float;
+                   Accept currency.                                                                    [1]
+
+           (ii)    Award up to [3 max].
+                   Award [1] for selecting correct field from the relation.
+                   Award [1] for correct supplier name comparison.
+                   Award [1] for correct checking the price range.
+                   Award [1] for correct logical operations.                                           [3]
+
+                   Example answer 1:
+                   SELECT Prod_Name FROM Greengrocer
+                   WHERE Supp_Name == 'Veggy Co.' AND Prod_Price >= 4.00 AND
+                   Prod_Price <= 10.00
+
+                   Example answer 2:
+                   SELECT Prod_Name FROM Greengrocer
+                   WHERE NOT (Prod_Price <4.00 OR Prod_Price >10) AND
+                   Supp_Name == 'Veggy Co.'
+
+                   Example answer 3:
+                   SELECT Prod_Name FROM Greengrocer
+                   WHERE NOT (Prod_Price <4 OR Prod_Price >10 OR Supp_Name !=
+                   'Veggy Co.' )
+
+                   Accept logically equivalent answers.
+
+     (b)   Award up to [2 max].
+           Redundant data unnecessarily repeats in a relation;
+           Supplier data (name, phone, contact) are repeated;
+           For every item that is supplied by the same supplier;
+
+           For example,
+           Items P118, P122 and P220 have the same supplier (Veggy Co)
+           Items P219, P111, P121 and P211 have the same supplier (Fruit and Veggie)
+
+           Note: Accept any correct example from the table given, such is the following:
+
+            Prod_ID Prod_Name Prod_Price                 Supp_Name            Supp_Contact Supp_Phone
+
+                 P211      Apples          5.00       Fruit and Veggie         Ines Bond    542 9800
+
+                 P121      Onions          3.00       Fruit and Veggie         Ines Bond    542 9800
+
+                                                                                                       [2]
+                                                 –7–                  N18/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+(c)     (i)     Award up to [2 max].
+                Award [1] for explaining a problem that may arise (such as inconsistency,
+                inaccuracy / unnecessary additional/repeated work needed when updating).
+                Award [1] for including example with reference to the relation given.
+
+                Example answer:
+                When inserting a tuple supplied by the existing supplier, for example,
+                inserting:
+
+                   P189        Potatoes        9.90      Veggy Co.      234 7654        Mia Abiss
+
+                All data about supplier should be accurately entered;
+                And consistent with the data about this supplier in all other tuples;                 [2]
+
+        (ii)    Award up to [2 max].
+                Award [1] for explaining a problem that may arise (such as inconsistency,
+                inaccuracy).
+                Award [1] for including example with reference to the relation given.
+
+                Example answer:
+                Deleting a tuple could remove data which is not intended to be lost;
+                For example; deleting the following tuple.
+
+                   P265       Tomatoes         7.45      New Fruits     John Smith        677 7895
+
+                Which is the only tuple in the relation which holds data about New Fruits
+                suppliers (all data about this supplier will be lost);                                [2]
+
+        (iii)   Award up to [2 max].
+                Award [1] for explaining a problem that may arise (such as inconsistency,
+                inaccuracy/unnecessary additional/repeated work needed when updating.
+                Award [1] for including example with reference to the relation given.
+
+                Example answer:
+                Modifying/changing the phone number for Fruit and Veggie. would require
+                that each and every tuple containing item supplied by Fruit and Veggie
+                should be modified (unnecessary work);
+
+ Prod_ID        Prod_Name        Prod_Price       Supp_Name           Supp_Contact       Supp_Phone
+
+      P211         Apples           5.00        Fruit and Veggie       Ines Bond           542 9800
+
+      P121         Onions           3.00        Fruit and Veggie       Ines Bond           542 9800
+                                              –8–                 N18/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+             Otherwise the data in the relation would be inaccurate (for example, would
+             contain different/incorrect phone numbers for the same supplier);
+
+ Prod_ID       Prod_Name       Prod_Price       Supp_Name         Supp_Contact      Supp_Phone
+
+      P211       Apples              5.00     Fruit and Veggie      Ines Bond        542 9800
+
+      P121       Onions              3.00     Fruit and Veggie      Ines Bond        542 1811
+                                                                                                 [2]
+
+(d)    Award up to [8 max].
+       Award [1] for explaining/clearly showing each of the steps.
+       Award [1] for identifying two entities (Product and Supplier) in Greengrocer.
+       Award [1] for choosing/identifying a primary key in relation Supplier.
+       Award [1] for clearly showing that the relation must be in 1NF and then could be
+       put to 2NF.
+       Award [1] for showing that each tuple in 2NF has a primary key.
+       Award [1] for showing that in 2NF all attributes are on the whole dependent of the
+       primary key.
+       Award [1] for introducing new relations or using a foreign key.
+       Award [1] for showing that the relation must be in 2NF and then could be put to
+       3NF.
+       Award [1] stating that there are no transitive dependencies in 3NF.
+
+       Note: Because there is significant inconsistency in textbooks’ accounts of
+       precisely what constitutes 1NF and 2NF, award marks depending on the
+       explanation. Please see the two different example answers.
+
+       Example answer 1:
+       Given relation
+       Greengrocer(Prod_ID, Prod_Name, Prod_Price, Supp_Name, Supp_Phone,
+       Supp_Contact)
+
+       There are two entities in this relation (Product and Supplier).
+
+       Product(Prod_ID, Prod_Name, Prod_Price)
+       Supplier(Supp_ID, Supp_Name, Supp_Phone, Supp_Contact)
+
+       Primary key (Supp_ID) in relation Supplier is added to make sure that it is unique
+       because it might be that two suppliers have the same name.
+
+       Product(Prod_ID, Prod_Name, Prod_Price, Supp_ID)
+       Supplier(Supp_ID, Supp_Name, Supp_Phone, Supp_Contact)
+
+       To construct to 2NF relation must be in 1NF;
+       Each tuple in 2NF must have a primary key;
+       And all attributes in the 2NF must be dependent on the whole of the primary key.
+
+       New relation is introduced.
+
+       Product(Prod_ID, Prod_Name, Prod_Price)
+       Supplier(Supp_ID,Supp_Name,Supp_Phone,Supp_Contact)
+       ProdSupp(Prod_ID, Supp_ID)
+                                     –9–                N18/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+There are two different contacts with the same name (Mia Abiss) at the two
+different companies.
+Assuming that each contact has a unique phone number, a new relation could be
+introduced in which Supp_Phone is a key.
+
+Supplier(Supp_ID, Supp_Name)
+SupplierContact(Supp_Phone, Supp_Contact)
+Product(Prod_ID, Prod_Name, Prod_Price)
+ProdSupp (Prod_ID, Supp_ID)
+
+The relation is in the 2NF and there are no attributes which are not dependent on
+the key.
+There are no transitive dependences so it is in the 3NF.
+
+Example answer 2:
+The table is already in 1NF because all values are atomic. There are no “fake”
+attributes/columns, like Supp_Phone1, Supp_Phone2;
+So there are no repeating groups, either obvious or created by repeating columns
+for what is really the same attribute;
+To be in 2NF, in addition to being in 1NF;
+Every non-prime attribute must be dependent on the whole of every key;
+To be in 3NF, in addition to being in 2NF;
+All the attributes in a relation must be determined only by the key(s);
+And there should not be any transitive dependences;
+
+There are two entities (Supplier and Product);
+Supp_ID should be introduced;
+
+Supplier(Supp_ID, Supp_Name, Supp_Phone, Supp_Contact)
+Product(Prod_ID, Prod_Name, Prod_Price, Supp_ID*)
+
+Where underlining marks primary key(s) and *foreign key(s);
+
+There are two different contacts with the same name(Mia Abiss)at the two
+different companies.
+
+A new relation introduced in which Supp_Phone is a key;
+
+SupplierContact(Supp_Phone, Supp_Contact, Supp_ID*)
+Supplier(Supp_ID, Supp_Name)
+Product(Prod_ID, Prod_Name, Prod_Price, Supp_ID*)                                   [8]
+                                                  – 10 –               N18/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+Option B — Modelling and simulation
+
+4.   (a)   Award up to [3 max].
+           Award [1] for correctly indicating type, and values expected, for each variable up
+           to [3 max];
+
+           “MeterType”, String/char; “old”,”new”;
+           “WaterVol”, Integer; 0–999999;
+           “InfraCharges”, Currency/Float /Double; 184.32–204.80;                               [3]
+
+     (b)   Making use of both the previous and new readings;
+           Calculating the difference between them;                                             [2]
+
+     (c)   Award up to [7 max] as follows:
+           Involving previous readings;
+           Calculation of water supplied [2] – allow [1] if correct apart from the reset;
+           Separate code for use of new meter;
+           Correct reduction of infrastructure charge [2] – allow [1] for an attempt to
+           calculate this;
+           Calculation of final bill;
+
+           Example:
+           householdBill(OLD_WATER_IN, OLD_WATER_OUT)                   // the previous
+                                                                        // meter readings
+           INFRACHARGE = 204.80
+                if WATER_IN > OLD_WATER_IN // allows for possible
+                                           // resetting of meter
+                                           //reading to 0
+                     WATER_SUPPLIED = WATER_IN – OLD_WATER_IN
+                else
+                     WATER_SUPPLIED = 1000000 – OLD_WATER_IN + WATER_IN
+                end if
+
+           if METER_TYPE = "new" // possible reduction in sewage charges
+                                  // if new meter is used
+                if WATER_OUT > OLD_WATER_OUT
+                     WATER_RETURNED = WATER_OUT – OLD_WATER_OUT
+                else
+                     WATER_RETURNED = 1000000 – OLD_WATER_OUT + WATER_OUT
+                end if
+                if WATER_RETURNED > 0.95 * WATER_SUPPLIED
+                     INFRACHARGE = INFRACHARGE * 0.9
+                end if
+           end if
+
+           BILL = WATER_SUPPLIED * 1.9 + INFRACHARGE                                            [7]
+
+     (d)   Changing to a new meter (if they have an old one);
+           Not using the supplied water for watering the garden etc;
+           Diverting rain water into the waste/sewage system;                                   [3]
+                                                 – 11 –              N18/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+5.   (a)   The model is a static description of some rules;
+           In this case a list of appliances and their water consumption (min or max);
+           Whereas the simulation is the use of that model;
+           With input from real parameters (such as those that families may input);           [4]
+
+     (b)   Award up to [4 max].
+           There may be missing data:
+           For example, watering plants (allow any suitable example);
+           The consequences, eg the totals will be underestimated;
+           The data may be inaccurate;
+           For example, the shower times may exceed the stated;
+           The consequence, eg the results of the simulation may not be valid;                [4]
+
+     (c)   The answer shows the use of columns and rows;
+           The data from part (b) is included together with the addition of a TimesPerWeek
+           variable;
+           Weekly total formula for each variable is included;
+           Overall weekly total has correct formula;
+           TimesPerWeek is adjusted until target is met;                                      [5]
+
+     (d)   Award up to [2 max].
+           Individual and individualistic use:
+           They don’t know each other, and they do their laundry separately, not full load;
+           They don’t cook together and consume more water consequently;
+           Somebody washes the car every week without telling the others;
+
+           Special occasions:
+           Some of them may be athletes and need to wash the sport gear separately;
+           Somebody invites friends over night/for dinner and the water consumption
+           increases;
+
+           Technical reasons:
+           There are water leaks in the house and they are not aware about them;
+           The counter was manipulated by the landlord years ago;                             [2]
+                                                  – 12 –              N18/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+6.   (a)   Award up to [4 max] as follows:
+           Award [1 max] for identifying an advantage and [1 max] for an expansion.
+           Award [1 max] for identifying a disadvantage and [1 max] for an expansion.
+
+           Advantages (requires an expansion):
+           They may see a complex situation numerous times / gain confidence in using the
+           surgical tools;
+           Without putting patients at risk / or keep practicing until they feel confident that
+           they will be able to get it right in reality;
+
+           Disadvantages (requires an expansion):
+           They don’t have real-life experience;
+           Therefore, we don’t know whether they will faint at the sight of blood;
+
+           They may be trained just on the software (a unique body shape);
+           But body shapes are different and students might find themselves at odds;
+
+           They do not get an idea of how hectic the theatre can be/space
+           available/interferences among people;
+           And this training alone will be useless;                                               [4]
+
+     (b)   Award up to [3 max].
+           It needs sensors to assess the pressure of the hand on the instrument;
+           Its positioning with respect to the touchscreen needs to be tracked
+           (for example by an external camera);
+           Its inclination with respect to the touchscreen needs to be tracked;
+           The change of tools held should be quickly reflected in the image that is
+           displayed (affects communication);
+           The specific tool needs to be recognized;                                              [3]
+
+     (c)   The representation of (abstract) data;
+           In a way that is understandable by humans;                                             [2]
+
+     (d)   Award up to [6 max].
+           Award [1 max] for identifying an advantage of the use of 3D and [1 max] for an
+           expansion up to [3 max] for discussing the advantages of the use of 3D;
+           Award [1 max] for identifying a disadvantage of the use of 3D and [1 max] for an
+           expansion up to [3 max] for discussing the advantages of the use of 3D;
+           Award [1 max] for a considered conclusion;
+
+           Note to examiners: To achieve [6] a conclusion must be provided.
+           If there is no conclusion the maximum mark is 5.
+
+           A 3D simulation will be more realistic;
+           As depth can be shown;
+           Patient’s body can be rotated; // allow up to [2] for example;
+
+           But, a 3D simulation takes more time to render / more calculations have to be
+           made;
+           So, may not be displayed in real time;
+           It is more demanding on memory / may exceed available memory;
+
+           For an application, as serious as medical training, adequate hardware and
+           software should be made available so that 3D simulations can be carried out;           [6]
+                                                   – 13 –              N18/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+Option C — Web science
+
+7.   (a)   Award up to [2 max].
+           Provide a reference to the source/provider;
+           Obtain permission from the interviewee;                                               [2]
+
+     (b)   Award up to [2 max].
+           To better control access to their servers;
+           Because it could be cause of bottleneck on the server / to reduce/minimize risks
+           of DDoS;
+
+           To better manage the UI;
+           So that the offer of podcasts is well visible also from small devices;
+
+           To have a smaller system that is easier to maintain;
+           That can be maintained more effectively also remotely by one person;                  [2]
+
+     (c)   Award up to [1 max].
+           (accept for general sound format:) MP3, FLAC, WAV, WMA;                               [1]
+
+     (d)   Award up to [5 max]:
+           Award up to [4 max] for comparing lossless and lossy.
+           Award [1] for a conclusion with reference to the scenario.
+
+           In terms of audio quality for spoken language there is not much difference in
+           using lossy or lossless compression/ lossless compression does not really bring
+           benefit to the spoken audio;
+
+           A minor benefit could be in using lossy compression in relation to transmission
+           while downloading (and also in streaming);
+
+           And it is relevant, in general, in a situation with low bandwidth;
+
+           However, these files are small in size anyway, because their duration is limited to
+           10 minutes;
+
+           And this suggests that for the specific nature and size of the files (spoken and 10
+           minutes duration) lossy might be slightly preferable for some users for
+           downloading without compromising on quality of audio.                                 [5]
+                                            – 14 –             N18/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+(e)   Award up to [2 max].
+      Award [1] for identifying a reason why buffering may occur and [1]
+      expansion/example up to [2 max].
+
+      Too many people are using their own Internet access point at home
+      simultaneously;
+      Possibly on different devices, including tablets, smartphones on WiFi;
+
+      There is low bandwidth because it is peak time;
+      Possibly too many people are downloading simultaneously;
+
+      Old router/modem/computer / outdated software may slow performance;
+      Computer that is not protected by antivirus may have performance affected by
+      malware;
+      Performance;
+
+      There are too many applications running simultaneously on the computer;
+      So, memory is insufficient and one should close some applications;                   [2]
+
+(f)   Award up to [4 max].
+      Award up to [2 max] for the use of dynamic scripting.
+      Award up to [2 max] for the means of tracking a person’s preferences.
+
+      Dynamic web pages / scripting
+      Podcasts are associated to XML objects;
+      So, that the list of podcasts can be processed by scripts that can re-arrange the
+      order of the XML objects;
+      To present them in a way that takes into account the previous uses from the user;
+      By monitoring their preferences, over time;
+
+      Tracking a person’s preferences
+      For example, counting the clicks and themes to extract regularities / support data
+      analytics;
+      That can be identified for example by the IP of their device when this is not
+      anonymised;
+      And also stored in the history of the browser/by use of cookies;                     [4]
+                                                  – 15 –               N18/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+8.   (a)   Award up to [2 max].
+           HTTPS authenticates the identity of the website;
+           And encrypts data that are transmitted between web browser and web
+           server/between two parties;                                                              [2]
+
+     (b)   Award up to [4 max].
+           Award [1] for step that the Domain Name System (DNS) server will take in order
+           to locate the correct IP address for this request from the browser up to [4 max].
+
+           The DNS server configured to the browser’s computer / the ISP (Internet Service
+           Provider) checks through its own database to see if the (domain) name is there;
+           If it is, it will return the corresponding IP address to the browser;
+           If it isn’t the request is passed onto the next DNS server (in the hierarchy);
+           This continues until the (domain) name is found;
+           Or the top level / authoritative DNS server if reached;
+           When IP address is found, it is sent back to the original DNS server;                    [4]
+
+     (c)   Award up to [2 max].
+           The required layout style for the footer is saves as a CSS file;
+           Each time the footer section/element appears it calls this CCS file;                     [2]
+
+     (d)   Award up to [4 max].
+           Award [1] for each comment that indicates the function of the code up to
+           [4 max].
+           Award [1] realising the modelling centred on a session (intuition of what
+           $_SESSION[] is)
+           Award [1] realising that session user identifier shall be unique.
+           Award [1] realising the existence of users_db.
+           Award [1] realising that this database is interrogated with this session identifier to
+           retrieve all fields of the record;
+           Award [1] to instantiate a variable $userRecord.
+
+           The shopping basket is modelled centred on the “session”;
+           A global array $_SESSION exists, holding a session identifier associated with any
+           user;
+           And a new sessionUserID is added to the array and instantiated by a unique
+           value for identifier;
+           That is generated by the function new random_number();
+           This element of the array $_SESSION[] is used to retrieve in the user db (users
+           database) the entire record for the user;
+           Relative to the user and specific to that particular session;
+           And used to instantiate the variable $userRecord for further processing;
+           For example the final billing or confirmation of payment/dispatch.                       [4]
+
+     (e)   Award up to [2 max].
+           The identifier “id” that is passed in the variable $_REQUEST['id'];
+           And the specific action that uses the value “removeBasketItem”;                          [2]
+                                                    – 16 –               N18/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+9.   (a)   Award up to [2 max].
+           Award [1] for describing the challenge resulting from some limitation and [1]
+           expansion, possibly with example up to [2 max].
+           Old computers impose memory and processing constraints;
+           It is likely that they cannot make sophisticated web pages;
+           For example, they may need to reduce the number of interactions/transmissions;
+           By deciding not to have dynamic web pages;
+           To the purpose of not generating loss of processing power on their side;
+
+           The software might not be up-to-date/the OS is old;
+           This poses a threat for viruses or deliberate attacks (attack the weakest nodes);
+           To the point that not even the charities will link to their website, rather just listing
+           the name of the association;
+           To limit the risk of propagating malware;                                                  [2]
+
+     (b)   Award up to [4 max].
+           Award [1] for each reason how the use of cloud-based services may help Harvest
+           to overcome the limitations of the available technologies up to
+           [4 max].
+           They can host the website on the cloud;
+           Enabling a sophisticated site to be created / bypassing their own limitations;
+           The cloud could store all of their data;
+           As they will have limited storage on their own equipment;                                  [4]
+
+     (c)   Award up to [4 max].
+           Award [1] for identifying how the use of cloud-based services may cause
+           problems and [1] for an expansion / development up to [2 max].
+           Mark as [2] and [2].
+           The costs are likely to be high;
+           And Harvest is clearly a company with limited funds;
+
+           The cloud company will be bound by rules and regulations in the country in which
+           it is registered;
+           These may cause conflicts with regard to the type of information that Harvest
+           deals with;                                                                                [4]
+
+     (d)   Award up to [5 max].
+           Award [1] for identifying an advantage of using black hat techniques and an
+           additional [1] for each development of that advantage up to [2 max].
+           Award [1] for identifying a disadvantage of using black hat techniques and an
+           additional [1] for each development of that disadvantage up to [2 max].
+
+           Award [1] for a valid conclusion.
+
+           Advantages:
+           The use of black hat techniques + an example (eg hidden links, or reciprocal
+           links, keyword stuffing, hidden content, content theft, etc);
+           May temporarily improve its ranking;
+
+           Disadvantages:
+           However, this is unethical;
+           This may not sit well with its image as a charity;
+
+           Conclusion:
+           Search engines will eventually discover that these techniques are being used;
+           This may lead to the site being banned;                                                    [5]
+                                                     – 17 –              N18/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+Option D — Object-oriented programming
+
+10.   (a)   (i)     Award up to [1] for each part of a suitable definition up to [2 max].
+                    An object is an abstract entity;
+                    and its components are data and/or actions;                                    [2]
+
+            (ii)    Award up to [1] for identifying each disadvantage and [1] for an elaboration
+                    of this disadvantage, up to [2 max].
+                    Mark as [2] and [2].                                                           [4]
+                    Unsuitable for minor projects;
+                    since OOP increases complexity for little gain;
+
+                    OOP programs are larger than other programs;
+                    and therefore slower;
+
+                    OOP programs take more effort to construct;
+                    because of the decomposition needed to achieve abstraction;
+
+            (iii)   Award [1] for identifying an advantage and [1] for an elaboration of this
+                    advantage up to [2 max].                                                       [2]
+
+                    Example answers:
+                    Faster development;
+                    Because different programming teams can work on different modules;
+
+                    Easier to debug;
+                    Because the smaller modules will have fewer mistakes than one big
+                    program;
+
+                    Easier to update (in the future);
+                    Because it is easier to update a module than the full program;
+
+                    Re-usability;
+                    Modules can be stored in libraries and reused for different programs;
+
+      (b)   Award up to [1] for any indication of aggregation.
+
+            Example answer:
+            The Arrival object has/stores a Flight object;                                         [1]
+                                              – 18 –              N18/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+(c)   Award up to [4 max].
+      Award [1] for including 3 distinct sections.
+      Award [1] for including a component with all variables.
+      Award [1] for including a component with all listed methods.
+      Award [1] for indicating private/public using + / –.
+      Don't penalize the absence of accessor and mutator methods.                             [4]
+
+      Example answer:
+
+            class Arrival
+            - Flight: myFlight
+            - String: STA
+            - int: runway
+            - String: gate
+            - int: delay
+            - boolean: landed
+            + void addDelay (int)
+            + String getETA()
+            + int compareWith(String)
+            + int compareWith(Arrival)
+
+(d)   Award up to [4 max].
+      Award [1] for a while loop.
+      Award [1] for correctly testing the flightID using compareWith().
+      Award [1] for incrementing the loop counter.
+      Award [1] for a return statement.                                                       [4]
+
+      Example answer:
+      private int search(String flightID)
+      {    int i = 0;
+           while (inbound[i].compareWith(flightID) != 0)
+           { i++; }
+           return i;
+      }
+
+(e)   (i)     Award up to [2 max].
+              Award [1] for identifying an advantage of using a binary search and [1] for
+              an elaboration of the advantage up to [2 max].
+
+              Binary search is much faster than sequential search;
+              Because it halves the search range for every comparison;                        [2]
+
+      (ii)    Award up to [2 max].
+              Award [1] for identifying a disadvantage of using a binary search and [1] for
+              an elaboration of the disadvantage up to [2 max].
+
+              However, it is not applicable to unsorted data sets;
+              Because the data must be sorted first which adds to computational cost;         [2]
+                                                  – 19 –              N18/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+11.   (a)   Award up to [2 max].
+            Award [1] for stating encapsulation as an OOP property.
+            Award [1] for an elaboration.                                                      [2]
+
+            Example answer:
+            Encapsulation allows to make instance variables (and methods) of a class private
+            to that class;
+            So that the main program / other classes can't accidentally access / change the
+            data in an object;
+
+      (b)   (i)    Award up to [2 max].
+                   The two methods have different parameters;
+                   allowing the compiler to choose the correct one.                            [2]
+
+            (ii)   Polymorphism                                                                [1]
+
+      (c)   Award up to [3 max].
+            Award [1] for correctly using compareTo.
+            Award [1] for correctly using getETA() twice (with or without “this”).
+            Award [1] for returning the correct result.                                        [3]
+
+            Example answers:
+            public int compareWith(Arrival anotherArrival)
+            {    int result;
+                 result = this.getETA().compareTo(anotherArrival.getETA());
+                 return result;
+            }
+
+            public int compareWith(Arrival anotherArrival)
+            {    String currentETA = this.getETA();
+                 String otherETA = anotherArrival.getETA();
+                 return currentETA.compareTo(otherETA);
+            }
+                                                  – 20 –              N18/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+12.   (a)   Award up to [2 max].
+            [1 max] for any two out of three underlined key components.
+            [2 max] for all three key components.
+            Note: the return type is not part of the method signature.
+
+            Example answers:
+            The method name and all of its parameters and the type of these parameters.
+            The method name and the type of all of its parameters.                             [2]
+
+      (b)   Award up to [4 max].
+            Award [1] for a correct loop until last Arrival.
+            Award [1] for including correct test for ETA.
+            Award [1] for including correct test landed.
+            Award [1] for correctly using double dot notation in output statement.
+            Do not penalize incorrect use of accessor methods.                                 [4]
+
+            Example answers:
+            public void showDelayed(String t)
+            {    int i = 0;
+                 while (i <= last)
+                 {   if (inbound[i].getETA().compareTo(t) < 0)
+                     {    if (!inbound[i].getLanded())
+                          {    output(inbound[i].getMyFlight().getID());
+                          }
+                 i = i + 1
+                     }
+                 }
+            }
+
+            public void showDelayed(String t)
+            {    int i = 0;
+                 while ((i <= last) && (inbound[i].getETA().compareTo(t) < 0))
+                 {   if (!inbound[i].landed)
+                     {    output(inbound[i].myFlight.id);
+                     }
+                 i = i + 1
+                 }
+            }
+
+            public void showDelayed(String t)
+            {    for (int i = 0; i <= last; i++)
+                 {   if ((inbound[i].getETA().compareTo(t) < 0) &&
+                          (!inbound[i].landed))
+                     {    output(inbound[i].myFlight.id);
+                     }
+                 }
+            }
+                                          – 21 –             N18/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+(c)   Award up to [6 max].
+      Award [1] for a loop comparing newArrival to entries in inbound.
+      Award [1] for testing for the last entry.
+      Award [1] for good attempt a for loop in reverse order.
+      Award [1] for a fully correct for loop in reverse order.
+      Award [1] for correctly shifting elements in the array.
+      Award [1] for assigning newArrival.
+      Award [1] for incrementing last.                                                [6]
+
+      Example answer:
+      public void add(Arrival newArrival)
+      {    int i = 0;
+           while ((i <= last)&&(inbound[i].compareWith(newArrival) < 0))
+           { i++;
+           }
+           for (int j = last + 1; j>i; j--)
+           {   inbound[j] = inbound[j - 1];
+           }
+           inbound[i] = newArrival;
+           last++;
+      }
+
+      Alternative answer:
+      public void add(Arrival newArrival)
+      {
+           int i = 0;
+           while (i <= last)&&
+                 (inbound[i].getETA().compareTo(newArrival.getETA()) < 0)
+           {     i++;
+           }
+           for (int j = last; j >= i; j--)
+           {     inbound[j + 1] = inbound[j];
+           }
+           inbound[i] = newArrival;
+           last++;
+      }
+
+(d)   Award up to [4 max].
+      Award [1] for declaring a variable of type Arrival.
+      Award [1] for calling remove(flightID).
+      Award [1] for calling addDelay(minutes).
+      Award [1] for adding the updated Arrival object to array inbound.               [4]
+      Award [1] for adding the update to the array inbound by calling add(update).
+
+      public void delay(String flightID, int minutes)
+      {
+           Arrival update = remove(flightID);
+           update.addDelay(minutes);
+           add(update);
+      }
+

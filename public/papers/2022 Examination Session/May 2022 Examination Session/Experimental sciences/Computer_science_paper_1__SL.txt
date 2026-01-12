@@ -1,0 +1,291 @@
+© International Baccalaureate Organization 2022
+
+All rights reserved. No part of this product may be reproduced in any form or by any
+electronic or mechanical means, including information storage and retrieval systems,
+without the prior written permission from the IB. Additionally, the license tied with this
+product prohibits use of any selected files or extracts from this product. Use by third
+parties, including but not limited to publishers, private teachers, tutoring or study services,
+preparatory schools, vendors operating curriculum mapping services or teacher resource
+digital platforms and app developers, whether fee-covered or not, is prohibited and is a
+criminal offense.
+
+More information on how to request written permission in the form of a license can be
+obtained from https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-
+license/.
+
+© Organisation du Baccalauréat International 2022
+
+Tous droits réservés. Aucune partie de ce produit ne peut être reproduite sous quelque
+forme ni par quelque moyen que ce soit, électronique ou mécanique, y compris des
+systèmes de stockage et de récupération d’informations, sans l’autorisation écrite
+préalable de l’IB. De plus, la licence associée à ce produit interdit toute utilisation de tout
+fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris, sans
+toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de tutorat ou
+d’aide aux études, des établissements de préparation à l’enseignement supérieur, des
+fournisseurs de services de planification des programmes d’études, des gestionnaires de
+plateformes pédagogiques en ligne, et des développeurs d’applications, moyennant
+paiement ou non, est interdite et constitue une infraction pénale.
+
+Pour plus d’informations sur la procédure à suivre pour obtenir une autorisation écrite
+sous la forme d’une licence, rendez-vous à l’adresse https://ibo.org/become-an-ib-school/
+ib-publishing/licensing/applying-for-a-license/.
+
+© Organización del Bachillerato Internacional, 2022
+
+Todos los derechos reservados. No se podrá reproducir ninguna parte de este producto
+de ninguna forma ni por ningún medio electrónico o mecánico, incluidos los sistemas de
+almacenamiento y recuperación de información, sin la previa autorización por escrito del
+IB. Además, la licencia vinculada a este producto prohíbe el uso de todo archivo o
+fragmento seleccionado de este producto. El uso por parte de terceros —lo que incluye,
+a título enunciativo, editoriales, profesores particulares, servicios de apoyo académico o
+ayuda para el estudio, colegios preparatorios, desarrolladores de aplicaciones y
+entidades que presten servicios de planificación curricular u ofrezcan recursos para
+docentes mediante plataformas digitales—, ya sea incluido en tasas o no, está prohibido
+y constituye un delito.
+
+En este enlace encontrará más información sobre cómo solicitar una autorización por
+escrito en forma de licencia: https://ibo.org/become-an-ib-school/ib-publishing/licensing/
+applying-for-a-license/.
+Computer science
+Standard level
+Paper 1
+
+Thursday 5 May 2022 (afternoon)
+
+
+1 hour 30 minutes
+
+
+Instructions to candidates
+y   Do not open this examination paper until instructed to do so.
+y   Section A: a
+                nswer all questions.
+y   Section B: a
+                nswer all questions.
+y   The maximum mark for this examination paper is [70 marks].
+
+
+
+
+                                                                                               2222 – 7014
+      5 pages                                              © International Baccalaureate Organization 2022
+                                                      –2–                                     2222 – 7014
+
+
+                                                 Section A
+
+Answer all questions
+
+1.    State two compatibility issues that may arise when international businesses merge.             [2]
+
+
+2.    Outline one reason why accurate user documentation is necessary for a system.                  [2]
+
+
+3.    Identify two differences between a wide area network (WAN) and a local area network (LAN).     [2]
+
+
+4.    Outline the reason for compression when transmitting data.                                     [2]
+
+
+5.    Outline the need for a translation process from high level language to machine code.           [2]
+
+
+6.    Draw the truth table for the following logic circuit.                                          [4]
+
+                   A
+
+                                                       P
+                                      XOR
+
+
+                   B                                                                  X
+                                                                  NAND
+
+
+                   C                                  Q
+                                      NOT
+
+
+
+7.    Calculate, showing your working in each case:
+
+      (a)   the binary (base 2) value of the denary (base 10) number: 105                            [2]
+
+      (b)   the hexadecimal (base 16) value of the denary (base 10) number: 200                      [2]
+
+
+8.    Identify one function of a single-user operating system.                                       [1]
+
+
+9.    Define the term usability.[1]
+
+
+10.   Outline one reason for the use of standards in the construction of networks.                   [2]
+
+
+11.   Explain how cache memory affects system performance.                                           [3]
+                                                   –3–                                          2222 – 7014
+
+
+                                               Section B
+
+Answer all questions
+
+12.   A business’s computer system needs to be updated.
+
+      (a)   (i)	Identify one stakeholder to be considered when planning the new system.               [1]
+
+            (ii)   Outline one consequence of not including all stakeholders in the design of the
+                   new system.                                                                         [2]
+
+      (b)   Describe two appropriate techniques to gather the information needed to find a suitable
+            solution for the updated system.                                                           [4]
+
+      (c)   Outline one reason testing should take place at every stage of the development process. [2]
+
+      The new system is now ready for implementation.
+
+      (d)   Evaluate two methods the business could use to implement the new system. Include the
+            benefits and drawbacks of each.                                                     [6]
+
+
+13.   A teacher would like a simple program to store the names, marks and grades of students in a
+      set of three parallel one-dimensional arrays called NAME[], MARK[] and GRADE[].
+
+      The grade boundaries for the individual grades are shown below:
+
+                                      Mark                     Grade
+
+                                  80 and above               Distinction
+
+                                  60 and above                  Merit
+
+                                  40 and above                  Pass
+
+                                    Below 40                     Fail
+
+      The class has 30 students.
+
+      (a)   Identify two components in a conditional statement.                                        [2]
+
+      (b)   Construct an algorithm using pseudocode to take the marks that have been stored
+            in MARK[], convert them into the appropriate grade and store the calculated grades
+            in GRADE[].[5]
+
+      (c)   Outline how the name, mark and grade in the three arrays correspond to the
+            same student.                                                                              [2]
+
+      (d)   Construct an algorithm using pseudocode to output the names and grades of all
+            students who achieve a grade of Merit or Distinction.                                      [3]
+
+      (e)   Explain how you would change your algorithm in part (d) to allow a user to choose a
+            grade and output the names and marks of the students who have achieved this grade.         [3]
+
+
+                                                                                                Turn over
+                                                      –4–                                     2222 – 7014
+
+
+14.   The array DATA_ARR[] is a one-dimensional array of 12 integers.
+
+      [0]     [1]     [2]      [3]     [4]      [5]      [6]     [7]    [8]   [9]      [10]   [11]
+
+      27      29       36       39      40       42         45    50    58    60        61     68
+
+      Algorithm 1 represents a method of searching the array DATA_ARR[] to see if it contains a
+      specific value.
+
+      Algorithm 1
+
+      input TO_FIND
+      LIMIT = 11
+      LOC = FALSE
+      ITERATE = 0
+      loop while not LOC and ITERATE <= LIMIT
+           if DATA_ARR[ITERATE] = TO_FIND then
+               LOC = TRUE
+           end if
+           ITERATE = ITERATE + 1
+      end loop
+      if LOC then
+           output TO_FIND, "is in the array"
+      else
+           output TO_FIND, "is NOT in the array"
+      end if
+
+      (a)   Copy and complete the trace table for Algorithm 1 using TO_FIND = 39.
+
+            The first value of the first row has been done for you.                                  [4]
+
+                                                                  DATA_ARR
+                   TO_FIND           LOC          ITERATE                     Output
+                                                                 [ITERATE]
+
+                     39
+
+
+
+      (b)   State the constant used in Algorithm 1.[1]
+
+(This question continues on the following page)
+                                                     –5–                                       2222 – 7014
+
+
+(Question 14 continued)
+
+      Algorithm 2 represents an alternative method of searching the array DATA_ARR[] to see if it
+      contains a specific value.
+
+      Algorithm 2
+
+      input TO_FIND
+      LOC = FALSE
+      LOW_LIM = 0
+      UP_LIM = 11
+      loop while LOW_LIM <= UP_LIM and LOC = FALSE
+           MID_VAL = (LOW_LIM + UP_LIM) div 2
+               if DATA_ARR[MID_VAL] = TO_FIND then
+                    LOC = TRUE
+               else
+                    if TO_FIND < DATA_ARR[MID_VAL] then
+                         UP_LIM = MID_VAL - 1
+                    else
+                         LOW_LIM = MID_VAL + 1
+                   end if
+               end if
+      end loop
+      if LOC = TRUE then
+           output TO_FIND, "is in the array"
+      else
+           output TO_FIND, "is NOT in the array"
+      end if
+
+      (c)     Copy and complete the trace table for Algorithm 2 using TO_FIND = 50.
+
+              The first two values of the first row have been done for you.                           [4]
+
+                                                                               DATA_ARR
+    TO_FIND             LOC         LOW_LIM         UP_LIM        MID_VAL                    Output
+                                                                               [MID_VAL]
+
+        50            FALSE
+
+
+
+      (d)     Outline why MID_VAL could not be a constant.                                            [1]
+
+      (e)     Evaluate the use of a sequential search and a binary search including the advantages
+              and disadvantages of each.                                                              [5]
+
+
+
+
+
+
+
+
+References:
+
+© International Baccalaureate Organization 2022
+

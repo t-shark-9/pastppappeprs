@@ -1,0 +1,174 @@
+M15/4/COMSC/SP1/ENG/TZ0/XX
+
+
+
+
+Computer science
+Standard level
+Paper 1
+
+
+Tuesday 19 May 2015 (afternoon)
+
+
+1 hour 30 minutes
+
+
+Instructions to candidates
+   Do not open this examination paper until instructed to do so.
+   Section A: answer all questions.
+   Section B: answer all questions.
+   The maximum mark for this examination paper is [70 marks].
+
+
+
+
+                                                                                               2215 – 7014
+      4 pages                                              © International Baccalaureate Organization 2015
+                                                    –2–                  M15/4/COMSC/SP1/ENG/TZ0/XX
+
+                                                Section A
+
+Answer all questions.
+
+1.   Construct a truth table for the following Boolean expression.
+
+                                         (A or B) and (not C or B)                                     [4]
+
+
+2.   Outline one example of the use of a virtual private network (VPN).                               [3]
+
+
+3.   Outline how a sub-procedure can be considered an example of abstraction.                         [2]
+
+
+4.   Trace the following algorithmic fragment for N = 6. Show all working in a trace table.
+
+            SUM = 0
+            loop COUNT from 1 to (N div 2)
+           		    if N mod COUNT = 0 then
+           			       SUM = SUM + COUNT
+           		    end if
+            end loop
+            if SUM = N then
+           		    output "perfect"
+            else
+           		    output "not perfect"
+            end if                                                                                    [4]
+
+
+5.   Outline two usability features in relation to the characteristics of a new laptop.               [4]
+
+
+6.   Describe one way that software developers can ensure that the users are aware of any
+     available updates for their products.                                                            [2]
+
+
+7.   Six students are planning their group 4 project, which is due in two days. They have to
+     produce a scientific report and give an animated computer presentation based on their
+     analysis of water samples. These water samples are to be taken from four local lakes.
+
+     (a)     Based on this information, identify four tasks that should be done by the students,
+             listing the tasks in the order that they could be completed.                             [2]
+
+     (b)     Outline how two of the tasks identified in part (a) could be completed concurrently.     [2]
+
+     (c)     Draw a Gantt chart to show the tasks from part (a), indicating the concurrency outlined
+             in part (b). You do not need to include the timings for the tasks.                       [2]
+                                                    –3–               M15/4/COMSC/SP1/ENG/TZ0/XX
+
+                                               Section B
+
+Answer all questions.
+
+8.   An insurance company holds a large database of information about its customers, including
+     the date of their next payment.
+
+     Once a month the database is searched to compile the following lists:
+
+     • list 1: customers whose next payment date will be within the next 30 days
+
+     • list 2: customers whose payment date has passed by more than 14 days but less than,
+       or equal to, 30 days
+
+     • list 3: customers whose payment date has passed by more than 30 days.
+
+     Customers who are in list 3 are flagged for deletion.
+
+     (a)   Construct an algorithm to illustrate the monthly process described above.                [6]
+
+     After the lists have been compiled, the following messages are sent out to customers.
+
+     • A reminder is sent to customers in list 1.
+
+     • A warning that payments are more than 14 days overdue is sent to customers in list 2.
+
+     • A cancellation of contract is sent to customers in list 3.
+
+     (b)   Explain how the lists could be used to merge the data from the database with a
+           word processor to create these messages automatically for sending either by post or
+           by email.                                                                                [4]
+
+     (c)   Outline the consequences of data loss to customers and to the company.                   [2]
+
+     (d)   Describe one method that the company could use to prevent data loss.                     [3]
+
+
+
+
+                                                                                               Turn over
+                                                   –4–                   M15/4/COMSC/SP1/ENG/TZ0/XX
+
+9.    Six lawyers and one secretary work together in the same building and are connected via a
+      LAN to a central server. Each has their own workstation.
+
+      (a)   Outline the concept of the Open Systems Interconnection (OSI) model in
+            communication across a network.                                                            [3]
+
+      (b)   Outline, with an example, the function of protocols.                                       [3]
+
+      The LAN has one server, which is connected to the internet. The workstations are connected
+      to the server by cable. There is also a wireless connection.
+
+      (c)   Outline one advantage and one disadvantage of allowing wireless access to the server.      [4]
+
+      Print jobs are sent to a shared printer from all workstations and added to the print queue
+      in the order in which they are sent. A priority is given to each job based on the number of
+      pages requested.
+
+      • The highest priority (1) is given to jobs with 1–3 pages.
+
+      • The lowest priority (4) is given to jobs with more than 50 pages.
+
+      The jobs sent to the printer are held in a collection of objects. Each object includes the
+      priority that has been given and the time it was sent to be printed.
+
+      If any job has been waiting more than 10 minutes it is moved to the front of the queue and is
+      the next to be printed.
+
+      (d)   Outline the steps needed to search the collection and return the next job to be printed.   [5]
+
+
+10.   (a)   Identify two differences and two similarities between a bubble sort and a selection sort
+            when sorting an array of 10 elements.                                                      [4]
+
+      A cycling tour lasts for 15 days. The total time for each competitor is recorded in a
+      one-dimensional array, TIMES[]. After each day’s race, the array entry for each competitor
+      is increased by their time for that day.
+
+      There are 150 competitors and the 10 fastest times are transferred to the array FASTEST[]
+      and displayed on a screen each day.
+
+      (b)   Explain why a selection sort would be more efficient than a bubble sort in this case.      [2]
+
+      (c)   Construct an algorithm to transfer the 10 fastest times from the array TIMES[] to the
+            array FASTEST[]. Assume that the array TIMES[] is not sorted.                              [6]
+
+      The race organizers need to display the names of the 10 fastest competitors, as well as
+      their times, on the screen. There is another array, NAMES[], which contains the names of
+      all competitors in the same order as their times in TIMES[] (for example, NAMES[5] and
+      TIMES[5] are the name and time of the same competitor).
+
+      (d)   Compare the use of two arrays, to hold the competitor’s times and names, with the use
+            of objects.                                                                                [3]
+

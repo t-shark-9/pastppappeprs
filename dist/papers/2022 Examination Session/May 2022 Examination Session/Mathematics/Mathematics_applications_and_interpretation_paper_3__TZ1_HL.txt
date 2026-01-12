@@ -1,0 +1,286 @@
+© International Baccalaureate Organization 2022
+
+All rights reserved. No part of this product may be reproduced in any form or by any
+electronic or mechanical means, including information storage and retrieval systems,
+without the prior written permission from the IB. Additionally, the license tied with this
+product prohibits use of any selected files or extracts from this product. Use by third
+parties, including but not limited to publishers, private teachers, tutoring or study services,
+preparatory schools, vendors operating curriculum mapping services or teacher resource
+digital platforms and app developers, whether fee-covered or not, is prohibited and is a
+criminal offense.
+
+More information on how to request written permission in the form of a license can be
+obtained from https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-
+license/.
+
+© Organisation du Baccalauréat International 2022
+
+Tous droits réservés. Aucune partie de ce produit ne peut être reproduite sous quelque
+forme ni par quelque moyen que ce soit, électronique ou mécanique, y compris des
+systèmes de stockage et de récupération d’informations, sans l’autorisation écrite
+préalable de l’IB. De plus, la licence associée à ce produit interdit toute utilisation de tout
+fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris, sans
+toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de tutorat ou
+d’aide aux études, des établissements de préparation à l’enseignement supérieur, des
+fournisseurs de services de planification des programmes d’études, des gestionnaires de
+plateformes pédagogiques en ligne, et des développeurs d’applications, moyennant
+paiement ou non, est interdite et constitue une infraction pénale.
+
+Pour plus d’informations sur la procédure à suivre pour obtenir une autorisation écrite
+sous la forme d’une licence, rendez-vous à l’adresse https://ibo.org/become-an-ib-school/
+ib-publishing/licensing/applying-for-a-license/.
+
+© Organización del Bachillerato Internacional, 2022
+
+Todos los derechos reservados. No se podrá reproducir ninguna parte de este producto
+de ninguna forma ni por ningún medio electrónico o mecánico, incluidos los sistemas de
+almacenamiento y recuperación de información, sin la previa autorización por escrito del
+IB. Además, la licencia vinculada a este producto prohíbe el uso de todo archivo o
+fragmento seleccionado de este producto. El uso por parte de terceros —lo que incluye,
+a título enunciativo, editoriales, profesores particulares, servicios de apoyo académico o
+ayuda para el estudio, colegios preparatorios, desarrolladores de aplicaciones y
+entidades que presten servicios de planificación curricular u ofrezcan recursos para
+docentes mediante plataformas digitales—, ya sea incluido en tasas o no, está prohibido
+y constituye un delito.
+
+En este enlace encontrará más información sobre cómo solicitar una autorización por
+escrito en forma de licencia: https://ibo.org/become-an-ib-school/ib-publishing/licensing/
+applying-for-a-license/.
+Mathematics: applications and interpretation
+Higher level
+Paper 3
+
+Thursday 12 May 2022 (morning)
+
+
+1 hour
+
+
+Instructions to candidates
+y Do not open this examination paper until instructed to do so.
+y A graphic display calculator is required for this paper.
+y Answer all the questions in the answer booklet provided.
+y Unless otherwise stated in the question, all numerical answers should be given exactly or
+  correct to three significant figures.
+y A clean copy of the mathematics: applications and interpretation formula booklet is
+  required for this paper.
+y The maximum mark for this examination paper is [55 marks].
+
+
+
+
+                                                                                              2222 – 7208
+     5 pages                                              © International Baccalaureate Organization 2022
+                                                          –2–                                             2222 – 7208
+
+
+Answer both questions in the answer booklet provided. Please start each question on a new page.
+Full marks are not necessarily awarded for a correct answer with no working. Answers must be
+supported by working and/or explanations. Solutions found from a graphic display calculator should be
+supported by suitable working. For example, if graphs are used to find a solution, you should sketch
+these as part of your answer. Where an answer is incorrect, some marks may be given for a correct
+method, provided this is shown by written working. You are therefore advised to show all working.
+
+1.   [Maximum mark: 28]
+
+     This question is about modelling the spread of a computer virus to predict the number
+     of computers in a city which will be infected by the virus.
+
+     A systems analyst defines the following variables in a model:
+
+     y t is the number of days since the first computer was infected by the virus.
+     y ​Q(t ) ​is the total number of computers that have been infected up to and
+        including day t .
+
+     The following data were collected:
+
+             t             10           15           20           25        30        35            40
+           ​Q(t )​         20           90          403         1806      8070     32 667       120 146
+
+     (a)   (i)	Find the equation of the regression line of  ​Q(t )​ on t .                                      [2]
+
+           (ii)      Write down the value of r , Pearson’s product-moment correlation coefficient.               [1]
+
+           (iii)     Explain why it would not be appropriate to conduct a hypothesis test on the
+                     value of r found in (a)(ii).                                                                [1]
+
+     A model for the early stage of the spread of the computer virus suggests that
+
+                                                    ​Q′​(t ) = βNQ(t )​
+
+     where N is the total number of computers in a city and  ​β​ is a measure of how easily the
+     virus is spreading between computers. Both N and  ​β​ are assumed to be constant.
+
+     (b)   (i)	Find the general solution of the differential equation  ​Q′​(t ) = βNQ(t )​.                     [4]
+
+           (ii)      Using the data in the table write down the equation for an appropriate
+                     non-linear regression model.                                                                [2]
+
+           (iii)     Write down the value of  ​R​2​  for this model.                                             [1]
+
+           (iv)      Hence comment on the suitability of the model from (b)(ii) in comparison with the
+                     linear model found in part (a).                                                             [2]
+
+           (v)       By considering large values of t write down one criticism of the model found in
+                     (b)(ii).[1]
+
+(This question continues on the following page)
+                                                            –3–                                                2222 – 7208
+
+
+(Question 1 continued)
+
+     (c)      Use your answer from part (b)(ii) to estimate the time taken for the number of infected
+              computers to double.                                                                                    [2]
+
+     The data above are taken from city X which is estimated to have 2.6 million computers.
+     The analyst looks at data for another city, Y. These data indicate a value of  ​β = 9.64 × ​10​−8​  .
+
+     (d)      Find in which city, X or Y, the computer virus is spreading more easily. Justify your
+              answer using your results from part (b).                                                                [3]
+
+     An estimate for  ​Q′​(t ) , t ≥ 5​, can be found by using the formula:
+                                                       Q(t + 5) − Q(t − 5)
+                                             ​Q′​(t ) ≈ ​ ________________
+                                                                    ​​ .
+                                                               10
+     The following table shows estimates of  ​Q′​(t )​ for city X at different values of t .
+
+              t            10           15           20                25           30      35            40
+           ​Q(t )​         20           90          403              1806          8070   32 667     120 146
+           ​Q′​(t )​                    a          171.6             766.7          b     11 207.6
+
+     (e)      Determine the value of a and of b . Give your answers correct to one decimal place.                     [2]
+
+     An improved model for  ​Q(t )​ , which is valid for large values of t , is the logistic
+     differential equation
+
+                                               ​Q′​(t ) = k Q(t )​(1 − ​  ____
+                                                                           L )
+                                                                          Q(t )
+                                                                              ​​
+                                               ​
+     where k and L are constants.
+                                                                   ​Q′​(t )
+     Based on this differential equation, the graph of  ​​ ____ ​  against  ​Q(t )​  is predicted to be
+                                                           Q(t )
+     a straight line.
+
+     (f)      (i)	Use linear regression to estimate the value of k and of L .                                        [5]
+
+              (ii)     The solution to the differential equation is given by
+                                                                   L
+                                                    ​Q(t ) = ​ ________     ​​
+                                                               1 + C ​e​−kt​
+                       where C is a constant.
+
+                       Using your answer to part (f)(i), estimate the percentage of computers in city X
+                       that are expected to have been infected by the virus over a long period of time.               [2]
+
+
+
+
+                                                                                                               Turn over
+                                                                –4–                                     2222 – 7208
+
+
+2.   [Maximum mark: 27]
+
+     This question is about a metropolitan area council planning a new town and the
+     location of a new toxic waste dump.
+
+     A metropolitan area in a country is modelled as a square. The area has four towns, located
+     at the corners of the square. All units are in kilometres with the x-coordinate representing the
+     distance east and the y-coordinate representing the distance north from the origin at ​(0 ,   0)​.
+
+     y     Edison is modelled as being positioned at ​E(0 ,   40)​.
+     y     Fermitown is modelled as being positioned at ​F(40 ,   40)​.
+     y     Gaussville is modelled as being positioned at ​G(40 ,   0)​.
+     y     Hamilton is modelled as being positioned at ​H(0 ,   0)​.
+
+     (a)      The model assumes that each town is positioned at a single point. Describe possible
+              circumstances in which this modelling assumption is reasonable.                                  [1]
+
+     (b)      Sketch a Voronoi diagram showing the regions within the metropolitan area that are
+              closest to each town.                                                                            [1]
+
+     The metropolitan area council decides to build a new town called Isaacopolis located
+     at I​ (30 , 20)​.
+
+     A new Voronoi diagram is to be created to include Isaacopolis. The equation of the
+                                               3 ​ x + ​ ___
+     perpendicular bisector of [IE] is  ​y = ​ __        15 ​  .
+                                                    2       2
+     (c)      (i)	Find the equation of the perpendicular bisector of [IF].[4]
+
+              (ii)    Given that the coordinates of one vertex of the new Voronoi diagram are ​(20 ,  37.5)​,
+                      find the coordinates of the other two vertices within the metropolitan area.             [4]
+
+              (iii)   Sketch this new Voronoi diagram showing the regions within the metropolitan
+                      area which are closest to each town.                                                     [2]
+
+     The metropolitan area is divided into districts based on the Voronoi regions found
+     in part (c).
+
+     (d)      A car departs from a point due north of Hamilton. It travels due east at constant speed
+              to a destination point due North of Gaussville. It passes through the Edison, Isaacopolis
+              and Fermitown districts. The car spends 30 % of the travel time in the Isaacopolis district.
+
+              Find the distance between Gaussville and the car’s destination point.                            [4]
+
+(This question continues on the following page)
+                                                       –5–                                             2222 – 7208
+
+
+(Question 2 continued)
+
+      A toxic waste dump needs to be located within the metropolitan area. The council wants to
+      locate it as far as possible from the nearest town.
+
+      (e)     (i)	Find the location of the toxic waste dump, given that this location is not on the
+                   edge of the metropolitan area.                                                             [4]
+
+              (ii)    Make one possible criticism of the council’s choice of location.                         [1]
+
+      (f)     The toxic waste dump, T, is connected to the towns via a system of sewers.
+
+              The connections are represented in the following matrix, M , where the order of rows
+
+
+
+
+                                                  ⎜                   ⎟
+              and columns is (E, F, G, H, I, T).
+
+                                                ⎛1 0 1 1 0 0⎞
+                                                    0 1 0 0 0 1
+                                            ​ = ​ 1​  
+                                            M        ​ 0​ 1​ 0​ 1​ 0​
+                                                    1 0 0 1 0 1
+                                                    0 0 1 0 1 0
+                                                ⎝0 1 0 1 0 1⎠
+
+              A leak occurs from the toxic waste dump and travels through the sewers. The pollution
+              takes one day to travel between locations that are directly connected.
+
+              The digit 1 in M represents a direct connection. The values of 1 in the leading diagonal
+              of M mean that once a location is polluted it will stay polluted.
+
+              (i)     Find which town is last to be polluted. Justify your answer.                             [3]
+
+              (ii)    Write down the number of days it takes for the pollution to reach the last town.         [1]
+
+              (iii)   A sewer inspector needs to plan the shortest possible route through each of the
+                      connections between different locations. Determine an appropriate start point and
+                      an appropriate end point of the inspection route.
+
+                      Note that the fact that each location is connected to itself does not correspond to
+                      a sewer that needs to be inspected.                                                      [2]
+
+
+
+
+References:
+
+© International Baccalaureate Organization 2022
+

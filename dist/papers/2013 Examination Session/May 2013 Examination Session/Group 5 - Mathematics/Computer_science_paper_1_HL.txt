@@ -1,0 +1,265 @@
+M13/5/COMSC/HP1/ENG/TZ0/XX
+
+
+
+
+     22137011
+
+Computer science
+HIGHER level
+Paper 1
+
+Tuesday 14 May 2013 (afternoon)
+
+2 hours 15 minutes
+
+
+INSTRUCTIONS TO CANDIDATES
+
+   Do not open this examination paper until instructed to do so.
+   Section A: answer all the questions.
+   Section B: answer all the questions.
+   The maximum mark for this examination paper is [100 marks].
+
+
+
+
+2213-7011                                                                                            7 pages
+                                                             © International Baccalaureate Organization 2013
+                                                        –2–            M13/5/COMSC/HP1/ENG/TZ0/XX
+
+                                                Section a
+
+Answer all the questions.
+
+1.    State two forms of direct data entry.                                                    [2 marks]
+
+
+2.    Outline one advantage and one disadvantage to protest groups of communicating by
+      social networks.                                                                         [4 marks]
+
+
+3.    Identify two uses of CASE development tools in the development of a
+      computer-controlled manufacturing process.                                               [2 marks]
+
+
+4.    With reference to the CPU,
+
+      (a)   outline the function of the control unit.                                          [2 marks]
+
+      (b)   describe how the size of the registers is related to the size of primary memory.   [2 marks]
+
+
+5.    Describe a disadvantage of the use of virtual memory.                                    [2 marks]
+
+
+6.    Outline the function of virus-checker software.                                          [2 marks]
+
+
+7.    Outline one difference between ASCII and UNICODE representation.                         [2 marks]
+
+
+8.    (a)   Express the decimal number 189 as hexadecimal. You must show your working.         [2 marks]
+
+      (b)   Calculate the result of EB(16) + ACF(16) giving your answer in hexadecimal.
+            You must show your working.                                                        [2 marks]
+
+      (c)   Explain how the use of floating-point representation extends the range of
+            numbers that can be used.                                                          [3 marks]
+
+
+
+
+2213-7011
+                                                    –3–                M13/5/COMSC/HP1/ENG/TZ0/XX
+
+9.    Consider the following method.
+
+ public int GCD (int x, int y) // x,y not both 0
+ {
+		 if (y==0) return x;
+		 return GCD(y,x%y);
+ }
+
+
+      Trace the method to compute GCD(15,20), by copying and completing the table below.        [3 marks]
+
+
+                                          x             y    return
+                                         15             20      …
+
+
+
+
+10.   Describe the purpose of the interrupt register.                                           [2 marks]
+
+
+11.   Compare the use of a dynamic data structure with a static data structure in storing and
+      accessing data.                                                                           [4 marks]
+
+
+12.   Outline the importance of key fields.                                                     [2 marks]
+
+
+13.   Describe two different types of errors, in number representation, that could occur
+      when mathematical operations are processed on a computer.                                 [4 marks]
+
+
+
+
+2213-7011                                                                                       Turn over
+                                                    –4–                M13/5/COMSC/HP1/ENG/TZ0/XX
+
+                                                Section b
+
+Answer all the questions.
+
+14.   A LAN in a health centre allows two receptionists and four doctors to share three PCs
+      and a printer which are connected to a server. The LAN has a star topology,
+      and uses cables.
+
+      (a)   (i)   Define the term server.                                                       [1 mark]
+
+		(ii)            Define the term client.                                                       [1 mark]
+
+      (b)   Outline the role of a hub in a star topology.                                       [2 marks]
+
+      The doctors can access only the medical records of the patients; the receptionists
+      cannot access the medical records of the patients and deal only with registering
+      new patients and booking appointments.
+
+      (c)   (i)   Describe how the access of the doctors and the receptionists can be
+                  restricted to the appropriate parts of the file system.                       [2 marks]
+
+		It is proposed to allow patients partial access to the health centre’s system over
+  the Internet.
+
+		(ii)            Explain the type and level of access that should be granted to the patients
+                  and how this would be achieved.                                               [4 marks]
+
+
+15.   A PC is connected to a telephone line with an external modem via a serial port.
+      An application running on the PC allows it to send files by fax.   To transmit the
+      document, the application dials the receiver’s number, in order to establish a
+      communication channel which is regulated by handshaking.
+
+      (a)   Define the term port.                                                               [1 mark]
+
+      (b)   Explain how the process of handshaking leads to successful communication.           [3 marks]
+
+      The application uses a temporary buffer to store the document to be faxed.
+
+      (c)   Describe how the use of a buffer contributes to a better use of the CPU.            [3 marks]
+
+      (d)   Explain how direct memory access allows a peripheral to access data.                [3 marks]
+
+
+
+
+2213-7011
+                                                       –5–             M13/5/COMSC/HP1/ENG/TZ0/XX
+
+16.   A theatre has three stage lights: red (R), green (G) and blue (B). When the beams
+      from each light cross, they produce the colours illustrated below. For example, when
+      red (R) and green (G) are together the colour yellow (Y) is shown. The other colours
+      are cyan (C), magenta (M), white (W).
+
+
+
+                                                   C
+                                       G                     B
+                                                   W
+                                           Y            M
+
+                                                   R
+
+
+      The beams can be switched on (1) or off (0), and a logical circuit is controlling them.
+
+      (a)   Construct the table that represents all the possibilities for colours generated as
+            specified in the model.                                                              [2 marks]
+
+
+                                R              G             B       Output
+                                0              0             0     undefined
+                                0              0             1          B
+                               …             …               …         …
+
+
+
+
+ (b) Simplify the Boolean expression
+		                                                                                               [4 marks]
+
+      (c)   Let E be the expression                .
+
+		(i)             Draw the circuit corresponding to the E.                                       [2 marks]
+
+		(ii)            Explain how to obtain a circuit which is equivalent (i.e. it represents
+                  an expression logically equivalent to E), but that uses less logical gates.    [2 marks]
+
+
+
+
+2213-7011                                                                                        Turn over
+                                                          –6–            M13/5/COMSC/HP1/ENG/TZ0/XX
+
+17.   An IT solutions company will provide a system for a major customer. The system
+      analysis has been carried out and a feasibility report has been presented to the customer.
+
+      (a)   State two pieces of information that the feasibility report may contain.               [2 marks]
+
+      The company is considering using either commercial software or customized software.
+
+      (b)   Discuss the factors that will affect their decision.                                   [4 marks]
+
+      (c)   Explain why more than one cycle of analysis and design might be desirable.             [4 marks]
+
+
+18.   Let E be the arithmetic expression 9 + 2 ∗ 3.
+
+      (a)   State the postfix representation of E.                                                 [1 mark]
+
+      The following tree is a possible representation of E.
+
+                                                  9
+
+                                              +           2
+
+                                                      ∗       3
+
+
+      (b)   Identify the traversal on the tree that would produce the expression E.                [1 mark]
+
+      (c)   State the expression obtained by performing a post-order traversal of the tree.        [1 mark]
+
+      (d)   Suggest an algorithm and a data structure to be used on the tree in order to
+            produce the postfix representation of E.                                               [3 marks]
+
+      (e)   Explain why binary tree traversal fits the requirements of the recursive method.       [4 marks]
+
+
+
+
+2213-7011
+                                                  –7–                 M13/5/COMSC/HP1/ENG/TZ0/XX
+
+19.   A network of analogue gas detectors and digital particle counters has been installed
+      in a town. These detect the presence of different pollutants. The collected data are
+      transmitted to a control centre, where they are processed overnight by a computer.
+
+      (a)   Define the term analogue data.                                                     [1 mark]
+
+      (b)   Explain why it is necessary to convert the data from the gas detector from
+            analogue to digital.                                                               [2 marks]
+
+      (c)   Discuss the appropriateness of using polling for the communication of the data.    [4 marks]
+
+      (d)   Describe how the computer could sort the data without increasing the size of its
+            primary memory.                                                                    [3 marks]
+
+
+
+
+2213-7011
+

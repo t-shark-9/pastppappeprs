@@ -1,0 +1,203 @@
+N13/5/COMSC/SP1/ENG/TZ0/XX
+
+
+
+
+     88137013
+
+Computer science
+Standard level
+Paper 1
+
+Thursday 14 November 2013 (afternoon)
+
+1 hour 30 minutes
+
+
+INSTRUCTIONS TO CANDIDATES
+
+   Do not open this examination paper until instructed to do so.
+   Section A: answer all the questions.
+   Section B: answer all the questions.
+   The maximum mark for this examination paper is [70 marks].
+
+
+
+
+8813-7013                                                                                            6 pages
+                                                             © International Baccalaureate Organization 2013
+                                                    –2–                  N13/5/COMSC/SP1/ENG/TZ0/XX
+
+                                                Section a
+
+Answer all the questions.
+
+1.    State two items of documentation that are usually included for the user in a
+      software package.                                                                           [2 marks]
+
+
+2.    Outline the need for an operating system to perform defragmentation.                        [2 marks]
+
+
+3.    State two functions of operating systems.                                                   [2 marks]
+
+
+4.    State two features of HTML that make it a good choice for creating and updating
+      a website.                                                                                  [2 marks]
+
+
+5.    A school network is connected to the Internet.
+
+      (a)   Outline one threat to the security of the school’s data that may arise from the use
+            of the Internet.                                                                      [2 marks]
+
+      (b)   Outline two implications of a school administrator being able to monitor students’
+            use of the Internet.                                                                  [4 marks]
+
+
+6.    Using 8-bit two’s complement representation of integers,
+
+      (a)   state the binary representation of the decimal numbers 33 and −33 ;                   [2 marks]
+
+      (b)   identify the range of available integers.                                             [2 marks]
+
+
+7.    State the role of the ALU.                                                                  [1 mark]
+
+
+8.    Construct a systems flowchart for the process described below.
+      • A transaction file held on disk is validated.
+      • An error report which gives details of invalid transactions is printed out.
+      • All valid transactions are stored on a disk file, which is then sorted.                   [5 marks]
+
+
+
+
+8813-7013
+                                                  –3–                 N13/5/COMSC/SP1/ENG/TZ0/XX
+
+9.    Consider the following code.
+
+      int n=4;
+      int k=2;
+      int s=-1;
+      for( int j=n; j>=1; j=j-1)
+        { output(s*k);
+           k=k+2;
+           s=-s;
+        }
+
+      Construct a trace table to determine the output produced by the code.             [4 marks]
+
+
+10.   Describe the role of debugging programs.                                          [2 marks]
+
+
+
+
+8813-7013                                                                               Turn over
+                                                   –4–                 N13/5/COMSC/SP1/ENG/TZ0/XX
+
+                                              Section b
+
+Answer all the questions.
+
+11.   A fashion designer works from home to create a new clothing range for a company.
+
+      (a)   Outline two advantages of using a graphic tablet to create a design.               [4 marks]
+
+      (b)   Describe a communication system that would allow a fast transmission of data
+            files from the designer to the company.                                            [2 marks]
+
+      (c)   Outline the benefits of data compression in storing and sending the designer’s
+            work to the company.                                                               [2 marks]
+
+      (d)   Explain the need for encryption when sending the designer’s work to the company.   [2 marks]
+
+
+12.   A company plans to build an off-site “Data Centre” to house its servers and
+      associated devices. A system analyst is employed by the company to design and
+      implement a computer system for the new Data Centre.
+
+      (a)   State two methods of data collection which could be used in the analysis stage.    [2 marks]
+
+      (b)   Explain why it may be useful to produce more than one prototype of the
+            new computer system.                                                               [2 marks]
+
+      There are two possible locations for the Data Centre:
+      • A central location in a major city
+      • A town in an area where previously the main industry had been coal mining.
+
+      (c)   Discuss the social implications of the company’s choice of location for the
+            Data Centre.                                                                       [6 marks]
+
+
+
+
+8813-7013
+                                                    –5–                  N13/5/COMSC/SP1/ENG/TZ0/XX
+
+13.   Weather data at 20 different locations in the mountains are measured by sensors and
+      sent to a weather station’s computer where they are stored.
+
+      Twice a day the data files holding the weather data are transferred from the weather
+      station to the central server in a nearby city for processing.
+
+      (a)   State the type of processing.                                                        [1 mark]
+
+      (b)   Outline how the weather data could be transferred
+
+		          (i)    from the sensors to the weather station’s computer.                           [1 mark]
+
+		          (ii)   from the weather station’s computer to the central server.                    [1 mark]
+
+      (c)   Explain the need for analog-to-digital conversion in this system.                   [3 marks]
+
+      (d)   Explain two backup strategies that could be used in the event of a failure of the
+            weather station’s computer or the central server.                                   [4 marks]
+
+
+
+
+8813-7013                                                                                       Turn over
+                                                     –6–                 N13/5/COMSC/SP1/ENG/TZ0/XX
+
+14.   Consider the following method.
+
+      boolean check(double[] A)
+      {
+           boolean p=true;
+           int k=-1;
+           while( k+1 < A.length-1 )
+           {    k=k+1;
+                if (A[k] < A[k+1])
+                       {p=false;}
+           }
+           return p;
+      }
+
+      (a)   Define the term local variable and identify all the local variables in the
+            method check().                                                                [2 marks]
+
+      (b)   Identify any formal parameters in the method check().                           [1 mark]
+
+      (c)   Given the following array,
+
+            Data             14.3        13.98      11.6        8.123        9.2   4.15
+                             [0]             [1]     [2]         [3]         [4]   [5]
+
+		          consider the following statement.
+
+                                     z = check(Data);
+
+		          (i)    Identify the type of z.                                                  [1 mark]
+
+		          (ii)   Determine, by creating the trace table, the value of z.                 [4 marks]
+
+      (d)   State the purpose of the method check().                                       [2 marks]
+
+
+
+
+8813-7013
+

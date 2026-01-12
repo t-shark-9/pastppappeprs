@@ -1,0 +1,300 @@
+m15/5/furma/HP1/eng/TZ0/XX
+
+
+
+
+Further mathematics
+Higher level
+Paper 1
+
+
+Wednesday 20 May 2015 (afternoon)
+
+
+2 hours 30 minutes
+
+
+Instructions to candidates
+yyDo not open this examination paper until instructed to do so.
+yyAnswer all questions.
+yyUnless otherwise stated in the question, all numerical answers should be given exactly or
+  correct to three significant figures.
+yyA graphic display calculator is required for this paper.
+yyA clean copy of the mathematics HL and further mathematics HL formula booklet is
+  required for this paper.
+yyThe maximum mark for this examination paper is [150 marks].
+
+
+
+
+                                                                                              2215 – 7101
+     8 pages                                              © International Baccalaureate Organization 2015
+                                                      –2–                     m15/5/furma/HP1/eng/TZ0/XX
+
+Full marks are not necessarily awarded for a correct answer with no working. Answers must be
+supported by working and/or explanations. In particular, solutions found from a graphic display
+calculator should be supported by suitable working. For example, if graphs are used to find a solution,
+you should sketch these as part of your answer. Where an answer is incorrect, some marks may be
+given for a correct method, provided this is shown by written working. You are therefore advised to
+show all working.
+
+1.   [Maximum mark: 5]
+
+     Use l’Hôpital’s rule to find lim (csc x − cot x) .
+                                   x →0
+
+
+
+
+2.   [Maximum mark: 7]
+
+     (a)   Find the general solution to the Diophantine equation 3x + 5y = 7 .                            [5]
+
+     (b)   Find the values of x and y satisfying the equation for which x has the smallest positive
+           integer value greater than 50 .                                                                [2]
+
+
+
+3.   [Maximum mark: 11]
+
+     Consider the set S = {0 ,  1 ,  2 ,  3 ,  4 ,  5} under the operation of addition modulo 6 ,
+     denoted by +6 .
+
+     (a)   Construct the Cayley table for {S , + 6 } .                                                    [2]
+
+     (b)   Show that {S , + 6 } forms an Abelian group.                                                   [5]
+
+     (c)   State the order of each element.                                                               [2]
+
+     (d)   Explain whether or not the group is cyclic.                                                    [2]
+                                                  –3–                    m15/5/furma/HP1/eng/TZ0/XX
+
+4.   [Maximum mark: 10]
+
+     A simple graph G is represented by the following adjacency table.
+
+                                       A     B     C     D       E   F
+                                 A     −     1     −     −       1   1
+                                 B     1     −     1     −       1   −
+                                 C     −     1     −     1       −   −
+                                 D     −     −     1     −       1   1
+                                 E     1     1     −     1       −   −
+                                 F     1     −     −     1       −   −
+
+
+     (a)   Draw the simple graph G .                                                                 [1]
+
+     (b)   Explain why G does not contain an Eulerian circuit.                                       [1]
+
+     (c)   Show that G has a Hamiltonian cycle.                                                      [2]
+
+     (d)   State whether or not G is planar, giving a reason for your answer.                        [2]
+
+     (e)   State whether or not the simple graph G is bipartite, giving a reason for your answer.    [2]
+
+     (f)   Draw the complement G' of G .                                                             [2]
+
+
+
+
+                                                                                               Turn over
+                                                   –4–                      m15/5/furma/HP1/eng/TZ0/XX
+
+5.   [Maximum mark: 9]
+
+     Jim is investigating the relationship between height and foot length in teenage boys.
+     A sample of 13 boys is taken and the height and foot length of each boy are measured.
+     The results are shown in the table.
+
+     Height
+                 129    135     156   146   155   152       139     166   148   179   157   152   160
+     x cm
+     Foot
+     length      25.8 25.9 29.7 28.6 29.0 29.1 25.3 29.9 26.1 30.0 27.6 27.2 28.0
+     y cm
+
+     You may assume that this is a random sample from a bivariate normal distribution.
+     Jim wishes to determine whether or not there is a positive association between height and
+     foot length.
+
+     (a)    Calculate the product moment correlation coefficient.                                       [2]
+
+     (b)    Find the p-value.                                                                           [2]
+
+     (c)    Interpret the p-value in the context of the question.                                       [1]
+
+     (d)    Find the equation of the regression line of y on x .                                        [2]
+
+     (e)    Estimate the foot length of a boy of height 170 cm.                                         [2]
+
+
+
+6.   [Maximum mark: 9]
+
+
+                                                        ∞
+                                                           ( x − 3) k
+     Find the interval of convergence of the series   ∑
+                                                      k =1     k2
+                                                                      .
+                                                         –5–                      m15/5/furma/HP1/eng/TZ0/XX
+
+7.   [Maximum mark: 12]
+
+     (a)   Sami is undertaking market research on packets of soap powder. He considers the
+           brand “Gleam”. The weight of the contents of a randomly chosen packet of “Gleam”
+           follows a normal distribution with mean 750 grams and standard deviation 20 grams.
+           The weight of the packaging follows a different normal distribution with mean
+           40 grams and standard deviation 5 grams.
+
+		Find:
+
+           (i)    the probability that a randomly chosen packet of “Gleam” has a total weight
+                  exceeding 780 grams.
+
+           (ii)   the probability that the total weight of the contents of five randomly chosen
+                  packets of “Gleam” exceeds 3800 grams.                                                  [8]
+
+     (b)   Sami now considers the brand “Bright”. The weight of the contents of a randomly
+           chosen packet of “Bright” follow a normal distribution with mean 650 grams and
+           standard deviation 16 grams. Find the probability that the contents of six randomly
+           chosen packets of “Bright” weigh more than the contents of five randomly chosen
+           packets of “Gleam”.                                                                            [4]
+
+
+8.   [Maximum mark: 10]
+
+     (a)   Differentiate the expression x2 tan y with respect to x , where y is a function of x .         [3]
+
+                                                   dy
+     (b)   Hence solve the differential equation x 2  + x sin 2 y = x3 cos 2 y given that y = 0
+                                                   dx
+           when x = 1 . Give your answer in the form y = f (x) .                                          [7]
+
+
+9.   [Maximum mark: 10]
+
+     An integer N given in base r , can be expressed in base s in the form
+     N = a0 + a1s + a2s2 + a3s3 + … where a0 , a1 , a2 , … ∈ {0 ,  1 ,  2 ,  … ,  s − 1} .
+
+     (a)   In base 5 an integer is written 1031 . Express this integer in base 10 .                       [2]
+
+     (b)   Given that N = 365, r = 10 and s = 7 find the values of a0 , a1 , a2 , …                       [2]
+
+     (c)   (i)    Given that N = 899 , r = 10 and s = 12 find the values of a0 , a1 , a2 , …
+
+		         (ii)   Hence write down the integer in base 12 , which is equivalent to 899 in base 10 .       [3]
+
+     (d)   Show that 121 is always a square number in any base greater than 2 .                           [3]
+
+
+
+
+                                                                                                    Turn over
+                                                    –6–                      m15/5/furma/HP1/eng/TZ0/XX
+
+10.   [Maximum mark: 12]
+
+      A wheel of radius r rolls, without slipping, along a straight path with the plane of the wheel
+      remaining vertical. A point A on the circumference of the wheel is initially at O . When the
+      wheel is rolled, the radius rotates through an angle of θ and the point of contact is now at B ,
+      where the length of the arc AB is equal to the distance OB . This is shown in the following
+      diagram.
+
+
+
+
+                                             r
+                                    A
+
+
+
+                               O                    B                         x
+
+
+      (a)   Find the coordinates of A in terms of r and θ .                                               [3]
+
+      (b)   As the wheel rolls, the point A traces out a curve. Show that the gradient of this curve
+                  1 
+            is cot  θ  .                                                                                [6]
+                  2 
+                                                                       π
+      (c)   Find the equation of the tangent to the curve when θ =       .                                [3]
+                                                                       3
+
+11.   [Maximum mark: 7]
+
+      Prove that the function f :  ×  →  ×  defined by f (x , y) = (2x + y , x + y) is a bijection.
+                                                    –7–                   m15/5/furma/HP1/eng/TZ0/XX
+
+12.   [Maximum mark: 12]
+
+      A transformation T is a linear mapping from 3 to 4 , represented by the matrix.
+
+                                                   1 2 1
+                                                          
+                                                    2 7 5
+                                               M =
+                                                   −3 1 4 
+                                                          
+                                                   1 5 4
+
+      (a)   (i)    Find the row rank of M .
+
+		          (ii)   Hence or otherwise find the kernel of T .                                            [8]
+
+      (b)   (i)    State the column rank of M .
+
+		          (ii)   Find the basis for the range of this transformation.                                 [4]
+
+
+13.   [Maximum mark: 9]
+
+      (a)   Two line segments [AB] and [CD] meet internally at the point Y . Given that
+            YA × YB = YC × YD show that A , B , C and D all lie on the circumference of a circle.       [6]
+
+      (b)   Explain why the result also holds if the line segments meet externally at Y .               [3]
+
+
+14.   [Maximum mark: 9]
+
+      Sarah is the quality control manager for the Stronger Steel Corporation which makes steel
+      sheets. The steel sheets should have a mean tensile strength of 430 MegaPascals (MPa) .
+      If the mean tensile strength drops to 400 MPa, then Sarah must recommend a change in
+      composition. The tensile strength of these steel sheets follows a normal distribution with a
+      standard deviation of 35 MPa. Sarah defines the following hypotheses
+
+                                              H0 : μ = 430
+                                              H1 : μ = 400
+
+      where μ denotes the mean tensile strength in MPa. She takes a random sample of n steel
+      sheets and defines the critical region as x ≤ k , where x ≤denotes
+                                                                  k      the mean tensile strength
+      of the sample in MPa and k is a constant.
+
+      Given that the P (Type I Error) = 0.0851 and P (Type II Error) = 0.115 , both correct to three
+      significant figures, find the value of k and the value of n .
+
+
+
+
+                                                                                                  Turn over
+                                                        –8–               m15/5/furma/HP1/eng/TZ0/XX
+
+15.   [Maximum mark: 13]
+
+      The relations ρ1 and ρ2 are defined on the Cartesian plane as follows
+
+      ( x1 , y1 ) ρ1 ( x2 , y2 ) ⇔ x12 − x2 2 = y12 − y2 2
+      ( x1 , y1 ) ρ2 ( x2 , y2 ) ⇔ x12 + x2 2 ≤ y12 + y2 2 .
+      (a)   For ρ1 and ρ2 determine whether or not each is reflexive, symmetric and transitive.            [11]
+
+      (b)   For each of ρ1 and ρ2 which is an equivalence relation, describe the equivalence
+            classes.                                                                                        [2]
+
+
+16.   [Maximum mark: 5]
+
+      A circle x2 + y2 + dx + ey + c = 0 and a straight line lx + my + n = 0 intersect. Find the general
+      equation of a circle which passes through the points of intersection, justifying your answer.
+

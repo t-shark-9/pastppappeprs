@@ -1,0 +1,929 @@
+N19/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+
+
+                        Markscheme
+
+
+                         November 2019
+
+
+                 Information technology
+                    in a global society
+
+
+                               Higher level
+
+
+                                 Paper 1
+
+
+
+
+22 pages
+                                           –2–                  N19/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+
+
+No part of this product may be reproduced in any form or by any electronic or
+mechanical means, including information storage and retrieval systems, without written
+permission from the IB.
+
+Additionally, the license tied with this product prohibits commercial use of any selected
+files or extracts from this product. Use by third parties, including but not limited to
+publishers, private teachers, tutoring or study services, preparatory schools, vendors
+operating curriculum mapping services or teacher resource digital platforms and app
+developers, is not permitted and is subject to the IB’s prior written consent via a license.
+More information on how to request a license can be obtained from
+http://www.ibo.org/contact-the-ib/media-inquiries/for-publishers/guidance-for-third-party-
+publishers-and-providers/how-to-apply-for-a-license.
+
+Aucune partie de ce produit ne peut être reproduite sous quelque forme ni par quelque
+moyen que ce soit, électronique ou mécanique, y compris des systèmes de stockage et
+de récupération d’informations, sans l’autorisation écrite de l’IB.
+
+De plus, la licence associée à ce produit interdit toute utilisation commerciale de tout
+fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris, sans
+toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de tutorat
+ou d’aide aux études, des établissements de préparation à l’enseignement supérieur,
+des fournisseurs de services de planification des programmes d’études, des
+gestionnaires de plateformes pédagogiques en ligne, et des développeurs
+d’applications, n’est pas autorisée et est soumise au consentement écrit préalable de
+l’IB par l’intermédiaire d’une licence. Pour plus d’informations sur la procédure à suivre
+pour demander une licence, rendez-vous à l’adresse http://www.ibo.org/fr/contact-the-
+ib/media-inquiries/for-publishers/guidance-for-third-party-publishers-and-providers/how-
+to-apply-for-a-license.
+
+No se podrá reproducir ninguna parte de este producto de ninguna forma ni por ningún
+medio electrónico o mecánico, incluidos los sistemas de almacenamiento y
+recuperación de información, sin que medie la autorización escrita del IB.
+
+Además, la licencia vinculada a este producto prohíbe el uso con fines comerciales de
+todo archivo o fragmento seleccionado de este producto. El uso por parte de terceros
+—lo que incluye, a título enunciativo, editoriales, profesores particulares, servicios de
+apoyo académico o ayuda para el estudio, colegios preparatorios, desarrolladores de
+aplicaciones y entidades que presten servicios de planificación curricular u ofrezcan
+recursos para docentes mediante plataformas digitales— no está permitido y estará
+sujeto al otorgamiento previo de una licencia escrita por parte del IB. En este enlace
+encontrará más información sobre cómo solicitar una licencia: http://www.ibo.org/es/
+contact-the-ib/media-inquiries/for-publishers/guidance-for-third-party-publishers-and-
+providers/how-to-apply-for-a-license.
+                                                    –3–                 N19/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+
+
+Critical Thinking – explanation, analysis and evaluation
+
+
+These trigger words often signal critical thinking. The bold words are the key terms in the various
+criteria.
+Explanation – Because, as a result of, due to, therefore, consequently, for example
+Analysis – Furthermore, additionally, however, but, conversely, likewise, in addition, on the other hand,
+whereas
+Evaluation ‫ –ؘ‬My opinion, overall, although, despite, on balance, weighing up
+
+Examiners should be aware that in some cases, candidates may take a different approach, which if
+appropriate should be rewarded. If in doubt, check with your team leader.
+
+In the case of an “identify” question read all answers and mark positively up to the maximum marks.
+Disregard incorrect answers. In all other cases where a question asks for a certain number of facts
+eg “describe two kinds”, mark the first two correct answers. This could include two descriptions,
+one description and one identification, or two identifications.
+
+It should be recognized that, given time constraints, answers for part (c) questions are likely to include a
+much narrower range of issues and concepts than identified in the markband. There is no “correct”
+answer. Examiners must be prepared to award full marks to answers which synthesize and evaluate
+even if they do not examine all the stimulus material.
+                                                    –4–                     N19/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+                                                 Section A
+1.   Biometric authorization
+
+     Note to examiners:
+     • All part (a) questions are marked using ticks and annotations where appropriate.
+     • Part (b) and part (c) are marked using markbands. Use annotations and text comments to
+       provide a rationale behind the marks you awarded. Do not use ticks.
+
+     (a)   (i)     Identify two fields that could be in the Employee table of the database.          [2]
+
+                   Answers may include:
+                   • First name
+                   • Surname
+                   • ID number
+                   • Gender / sex
+                   • Phone number
+                   • Date of birth
+                   • Manager’s name
+                   • Position
+                   • Department e-mail.
+
+                   Award [1] for identifying each appropriate field up to maximum of [2].
+
+           (ii)    Identify two characteristics of a relational database.                            [2]
+
+                   Answers may include:
+                   • more than one linked table/entity
+                   • primary key fields linked to foreign key fields
+                   • each record is unique
+                   • eliminates data redundancy
+                   • is a smaller file than a flatfile database.
+
+                   Award [1] for identifying each characteristic of a relational database up to
+                   maximum of [2].
+
+           (iii)   Identify two methods that could be used to ensure that the data input to the
+                   database is accurate.                                                             [2]
+
+                   Answers may include:
+                   • validation
+                   • verification.
+
+                   Award [1] for identifying each method that can be used to ensure the data
+                   added into the database is accurate up to maximum of [2].
+                                             –5–                  N19/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(b)   As part of the implementation of the biometric authorization system,
+      Bright Creativa has written a privacy policy.
+
+      Explain three features that Bright Creativa would need to include in a privacy
+      policy linked to the company’s biometric authorization system.                          [6]
+
+      Answers may include:
+      • The privacy policy will need to be easily understood/transparent.
+      • So employees are able to understand how their data will be collected, stored
+         or who it may be shared with.
+
+      •   The privacy policy must explain what data is being collected about them.
+      •   And this data is intended to be used by the company.
+
+      •   The privacy policy will need to explain that data will only be stored for as long
+          as necessary / for the length of time the employee is with the company.
+      •   And that appropriate measures have been taken to safeguard it from
+          unauthorized access.
+
+      •   If a data breach occurs, i.e. the data is compromised or stolen.
+      •   The company must inform the users immediately.
+
+
+Award [1] for identifying a feature that Bright Creativa would need to include in a privacy
+policy and [1] for explaining why that feature should be included up to a maximum of [2].
+
+Mark as [2] + [2] + [2].
+                                           –6–                 N19/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+
+(c)   To what extent is the employees’ improved access to company resources
+      outweighed by their concerns about the level of surveillance by the company?      [8]
+
+      Answers may include:
+      Advantages to the employee
+      • convenience, such as there is no need to carry ID cards to unlock doors
+      • there is no need to remember passwords to logon to the network, or to
+         continuously change the password
+      • is likely to be more secure than relying on authentication techniques such as
+         a username and password as it is harder to forge a fingerprint than
+         remember a password
+      • may provide quicker access to resources
+      • they don’t need to carry cash to buy items from the café.
+
+      Concerns of the employee may
+      • their performance could be monitored and performance ratings based on
+         potentially information provided by the system
+      • monitoring may become covert surveillance which may be unethical,
+         especially if the employees are not aware of the ways in which the
+         information is used
+      • purchases are tracked and judgements might be made about them, for
+         example, what foods they purchase
+      • the fingerprints may not always be reliable, for example if the employee cuts
+         the finger that is used for biometric authentication, which means that a
+         resource may not be accessible
+      • logging on to each resource using biometric identification may be time
+         consuming and lead to inefficient working practices.
+
+      Please see generic markband information sheet on page 22.
+                                                    –7–                  N19/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+2.   Wildfire modelling
+
+     Note to examiners:
+     • All part (a) questions are marked using ticks and annotations where appropriate.
+     • Part (b) and part (c) are marked using markbands. Use annotations and text comments to
+       provide a rationale behind the marks you awarded. Do not use ticks.
+
+     (a)   (i)     Identify two stages of the product development life cycle (PDLC).                [2]
+
+                   Answers may include:
+                   • investigation of existing system
+                   • feasibility study
+                   • requirement Specification
+                   • project schedule
+                   • product Design
+                   • product development
+                   • prototyping
+                   • technical documentation
+                   • client and end-user evaluation
+                   • testing and debugging.
+
+                   Award [1] for identifying each stage of the product development life cycle
+                   (PDLC) up to maximum of [2].
+
+           (ii)    Identify two methods that could be used to train the staff to use the new
+                   modelling system.                                                                [2]
+
+                   Answers may include:
+                   • video tutorials
+                   • “how to” guides
+                   • face-to-face training
+                   • online training courses.
+
+                   Award [1] for identifying each method that could be used to train the staff to
+                   use the new modelling system up to maximum of [2].
+
+           (iii)   Identify two measurements that could be taken by the weather sensors in
+                   the Kinakora National Park.                                                      [2]
+
+                   Answers may include:
+                   • air temperature
+                   • wind speed
+                   • wind direction
+                   • humidity
+                   • the amount of precipitation
+                   • ground temperature.
+
+                   Award [1] for identifying each measurement that could be taken by the
+                   weather sensors in the Kinakora National Park up to maximum of [2].
+                                             –8–                   N19/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(b)   Two methods for informing tourists about wildfires in Kinakora National Park are:
+      • Short Message Service (SMS) texting/text messaging
+      • Posting information on the Kinakora National Park website.
+
+      Analyse these two methods.                                                            [6]
+
+      Answers may include:
+      Advantages of using SMS texting
+      • easy to use
+      • information is pushed out to the tourists
+      • not dependent on internet access
+      • cheap
+      • low tech / can be done from very old hardware
+      • faster than posting information in a website / synchronous.
+
+      Disadvantages of using SMS texting
+      • tourists need phone reception to get the message
+      • the national park needs all tourists’ phone numbers to ensure all tourists can
+         access this information
+      • data needs to be stored (phone numbers) so an appropriate privacy policy
+         needs to be in place
+      • there is no guarantee the message has got through
+      • some tourist might not have their phone
+      • batteries can run out.
+
+      Advantages of using the Kinakora National Park website
+      • the information can use graphics/maps
+      • it is not necessary to collect/store tourists’ phone numbers.
+
+      Disadvantages of using the Kinakora National Park website
+      • tourists need to visit the website to get information
+      • tourist may not have web access
+      • visually impaired visitors might not get the information.
+
+      Note: Many of the advantages of SMS text are automatically disadvantages of
+      the Kinakora National Park website or vice versa.
+
+[0]
+No knowledge or understanding of ITGS issues and concepts. No use of appropriate
+ITGS terminology.
+
+[1–2]
+A limited response that indicates very little understanding of the topic or the reason is
+not clear. Uses little or no appropriate ITGS terminology. No reference is made to the
+scenario in the stimulus material. The response is theoretical.
+
+[3–4]
+A description, unbalanced or partial analysis of the issues related to using SMS texting
+or the Kinakora National Park website. There is some use of appropriate ITGS
+terminology in the response.
+
+[5–6]
+A balanced and detailed analysis of the relative advantages and disadvantages of
+using SMS texting or the Kinakora National Park website. Explicit and relevant
+references are made to the scenario in the stimulus material. There is appropriate
+ITGS terminology throughout the response.
+                                             –9–                  N19/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(c)   Evaluate Kinakora National Park’s decision to use computer modelling to develop
+      strategies for dealing with wildfires.                                                [8]
+
+      Answers may include:
+      Advantages of using computer models to develop strategies to deal with
+      wildfires
+      • many different scenarios can be tried out before a final strategy is
+          determined
+      • dangerous situations can be tried without the risk to human life
+      • possible fires can be predicted, and strategies can be defined to deal with
+          them
+      • the development of the model may lead to a greater understanding of the
+          factors that influence the start and spread of forest fires; for example, fires
+          starting in similar circumstances may not always follow same pattern
+      • models may be revised as the nature of forest fires evolves, for example, as
+          a result of drier conditions, hotter summer temperatures
+      • models can be used for training.
+
+      Disadvantages of using computer models to develop strategies to deal with
+      wildfires
+      • the data that is being input / data must be reliable / GIGO
+      • the model is a simplification of a real situation and there may be factors that
+          it is not possible to consider
+      • expensive to develop a model/ requires large amount of processing power
+          and this may not be an effective use of resources
+      • the conditions in the national park may evolve more quickly than the model is
+          able to which may lead to predictions not being as accurate as expected.
+
+      Please see generic markband information sheet on page 22.
+                                                       – 10 –              N19/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+3.   Online learning
+
+     Note to examiners:
+     • All part (a) questions are marked using ticks and annotations where appropriate.
+     • Part (b) and part (c) are marked using markbands. Use annotations and text comments to
+       provide a rationale behind the marks you awarded. Do not use ticks.
+
+     (a)   (i)     Identify two ways that the TailorEd system could provide feedback to the
+                   students.                                                                        [2]
+
+                   Answers may include:
+                   • graphics/text on the screen
+                   • sent by email to the student
+                   • haptic feedback on correct answers in a mobile version
+                   • notifications in a mobile app
+                   • by awarding badges
+                   • chat/chatbot.
+
+                   Award [1] for identifying each way the TailorEd system could provide
+                   feedback to the students up to maximum of [2].
+
+           (ii)    Identify two ways that the data collected about students’ academic
+                   progress could be used by TailorEd.                                              [2]
+
+                   Answers may include:
+                   • to send students advertisements of relevant educational material
+                   • to ascertain the effectiveness of the lessons
+                   • to adapt the tasks to the students’ abilities
+                   • to offer tutoring if students fail a particular unit
+                   • to share with universities and aid candidate selection
+                   • to give opportunities to high scoring students
+                   • to keep parents informed.
+
+                   Award [1] for identifying each way the data collected about students’
+                   academic progress could be used by TailorEd up to maximum of [2].
+
+           (iii)   Outline how a firewall functions.                                                [2]
+
+                   Answers may include:
+                   • monitors incoming and outgoing traffic
+                   • acts like a filter between the computer and the Internet
+                   • blocks specific ports / IP addresses / protocols / words or phrases
+                   • either allows traffic to pass through the firewall or not based on a set of
+                     predetermined rules.
+
+                   Award [1] for identifying the basic function of a firewall and [1] for a
+                   development of the initial idea up to maximum of [2].
+                                             – 11 –                N19/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(b)   There are two possible methods for ensuring students use the TailorEd online
+      learning system responsibly. They are:
+      • Restrict access to sites that may be considered inappropriate.
+      • Educate the students about acceptable use.
+
+      Analyse these two options.                                                              [6]
+
+      Answers may include:
+      Reasons for restricting access to sites that may be considered
+      inappropriate
+       • to stop students going to websites they shouldn’t
+       • to ensure the schools bandwidth is used for education rather than for other
+          purposes
+       • to protect students from dangers on the web / some inappropriate sites
+          appear without warning and they are hard to avoid
+       • parents may be happier knowing the filtering technology is in place as it will
+          restrict access for younger students who cannot filter for themselves.
+
+      Reasons for educating students about acceptable use
+      • the students learn to take responsibility for their actions as this will be a skill
+         they will need outside of school
+      • students will always find ways to circumvent the filters applied by the school
+      • who decides what will be blocked? Learning may be constricted by the use of
+         a white list.
+
+[0]
+No knowledge or understanding of ITGS issues and concepts. No use of appropriate
+ITGS terminology.
+
+[1–2]
+A limited response that indicates very little understanding of the topic or the reason is
+not clear. Uses little or no appropriate ITGS terminology. No reference is made to the
+scenario in the stimulus material. The response is theoretical.
+
+[3–4]
+A description, unbalanced or partial analysis of the decision whether to either restrict
+access to certain websites or to educate the students about using the platform in an
+acceptable manner. There is some use of appropriate ITGS terminology in the
+response.
+
+[5–6]
+A balanced and detailed analysis of the decision whether to either restrict access to
+certain websites or to educate the students about using the platform in an acceptable
+manner. Explicit and relevant references are made to the scenario in the stimulus
+material. There is appropriate ITGS terminology throughout the response.
+                                            – 12 –               N19/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(c)   To what extent do the benefits of collecting students’ progress data outweigh the
+      concerns of the students, teachers and parents?                                     [8]
+
+      Answers may include:
+      Benefits of collecting students’ progress data
+      • the data collected can be tailored to provide more individualized learning for
+         the student
+      • the student’s progress can be reported back to the teacher/parent on a more
+         regular basis and in a more standardized format
+      • the school is able to use the data to identify trends and patterns that may not
+         be immediately obvious and use this data driven approach to improve the
+         performance of its teachers and students
+      • this information can be used by students when applying for jobs or even for
+         further education.
+
+      Concerns of the students, teachers and parents
+      • they may not know what data is being collected, stored and/or disseminated
+      • they may not know the degree to which the identity of the student is
+         anonymized
+      • there may be a purely data driven approach to the use of the student data
+         which may lead to a narrowing of the teaching to ensure short term targets
+         are met at the expense of the whole learning experience
+      • large amounts of teachers’ time may be taken up with the collection and
+         entering of this data into the TailorEd database
+      • the cost of purchasing the TailorEd system may not be cost-effective as it
+         may involve staff training costs or the employment of staff to enter the data.
+
+      Please see generic markband information sheet on page 22.
+                                                   – 13 –               N19/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+                                           Section B
+4.   Neural networks are changing surveillance
+
+     Note to examiners:
+     • All part (a) questions are marked using ticks and annotations where appropriate.
+     • Part (b) and part (c) are marked using markbands. Use annotations and text comments to
+       provide a rationale behind the marks you awarded. Do not use ticks.
+
+     (a)   (i)     Identify two characteristics of machine learning.                              [2]
+
+                   Answers may include:
+                   • learns from new data/input
+                   • can improve on its mistakes
+                   • can perform new tasks after processing the data
+                   • can react to new inputs it has not encountered before
+                   • searches through data for patterns and adjusts accordingly
+                   • built on examination of large amounts of data
+                   • builds a general model from the training examples.
+
+                   Award [1] for identifying each characteristic of machine learning up to
+                   maximum of [2].
+
+           (ii)    Outline one reason why neural networks may be used for the processing of
+                   data from devices such as surveillance cameras.                                [2]
+
+                   Answers may include:
+                   • can interpret information that doesnʼt follow expected patterns
+                   • can make generalizations and inferences
+                   • can reveal hidden relationships
+                   • can process large amounts of data at a faster and more reliable rate
+                      than when using humans.
+
+                   Award [1] for identifying a reason why neural networks are beneficial to the
+                   processing of data and [1] for a development of that reason up to maximum
+                   of [2].
+
+           (iii)   Outline how pattern recognition works.                                         [2]
+
+                   Answers may include:
+                   • images are stored in a database
+                   • a new image is input
+                   • defining features of the new image are identified
+                   • the new image is compared to the images in a database
+                   • if the image approximates to one of the images in the database it is
+                     recognized.
+
+                   Award [1] for identifying each aspect of how pattern recognition functions
+                   up to maximum of [2].
+                                             – 14 –                N19/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(b)   Explain why an agile project management methodology would be used in the
+      development of the new AI surveillance camera system.                                 [6]
+
+      Answers may include:
+      Reasons for using an agile project management methodology include
+      • regular testing of the development of the AI system will be able to pinpoint
+         potential issues when they arise rather than waiting for a particular milestone
+         to be reached
+      • the developments in AI may lead to revisions being necessary to the scope
+         and nature of the project throughout its course
+      • changes in legislation linked to data collection may require the nature of the
+         project to change during its course
+      • the client is involved throughout the development of the project, who help
+         with customer satisfaction
+      • there would be less risk as this methodology would eliminate project failure
+      • use of prototypes would help make revisions easier
+      • agile supports teamwork and collaborate
+      • agile prioritizes workflow, creating a more efficient process
+      • lots of opportunity for feedback enabling the system to be revised during
+         development.
+
+[0]
+No knowledge or understanding of ITGS issues and concepts. No use of appropriate
+ITGS terminology.
+
+[1–2]
+A limited response that indicates very little understanding of the topic or the reason is
+not clear. Uses little or no appropriate ITGS terminology. No reference is made to the
+scenario in the stimulus material. The response is theoretical and descriptive.
+
+[3–4]
+A superficial explanation of why the agile method would be used to develop this
+software. There is some use of appropriate ITGS terminology in the response.
+
+[5–6]
+A detailed explanation of why the agile method would be used to develop this software.
+Explicit and relevant references are made to the scenario in the stimulus material.
+There is appropriate ITGS terminology throughout the response.
+                                           – 15 –               N19/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(c)   To what extent should pattern recognition in AI systems be trusted to make
+      decisions about sending real-time alerts to the police?                             [8]
+
+      Answers may include:
+      Reasons why pattern recognition in AI systems should be trusted to make
+      decisions about sending real-time alerts to police
+      • it can analyse large amounts of data so police decisions will be based on
+          greater information
+      • can provide more information to police to assist them in carrying out their job
+      • standard response to dangers can eliminate human error, such as panic
+          responses or ill-judged responses
+      • there is less chance of not noticing a dangerous situation, whereas humans
+          can get distracted
+      • the AI system can react faster than a human to suspicious circumstances.
+
+      Reasons why pattern recognition in AI systems should not be trusted to
+      make decisions about sending real-time alerts to police
+      • unlike humans, the AI system cannot make decisions based on ethical
+         criteria
+      • creating rules that take into account all of the possible ethical dilemmas may
+         not be possible and cannot always determine right from wrong
+      • if an unsupervised learning is used, the AI may self-learn and arrive at
+         decisions that may not be appropriate
+      • the AI could become unreliable due to a glitch in the system
+      • there might be a new situation never anticipated by the AI system
+      • there is the problem of accountability. At what point can the AI system, or the
+         programmers etc be held accountable for an error.
+
+      Please see generic markband information sheet on page 22.
+                                                   – 16 –                N19/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+5.   Automated medical image analysis
+
+     Note to examiners.
+     • All part (a) questions are marked using ticks and annotations where appropriate
+     • Part (b) and part (c) are marked using markbands. Use annotations and text comments to
+       provide a rationale behind the marks you awarded. Do not use ticks.
+
+     (a)   (i)     Identify two features of a legacy system.                                       [2]
+
+                   Answers may include:
+                   • based on “old” technology such as desktop computers
+                   • uses previous versions of software that may not be compatible with
+                     currently used version / are not backwardly compatible
+                   • may include hardware that is no longer supported by manufacturers or
+                     suppliers
+                   • may include hardware that is expensive to maintain due to availability of
+                     parts/expertise.
+
+                   Award [1] for identifying each characteristic of a legacy system up to
+                   maximum of [2].
+
+           (ii)    Identify two reasons why a feasibility study is used during project
+                   development.                                                                    [2]
+
+                   Answers may include:
+                   • look at requirements specification to see if it is achievable
+                   • look at costs to see if it is affordable
+                   • see if benefits outweigh the costs
+                   • decide how soon it is needed
+                   • decide if the users need training
+                   • to take into account the total amount of time it will take to implement and
+                     design the new system
+                   • examine whether it is technically feasible
+                   • look at drawbacks
+                   • look at alternative solutions.
+
+                   Award [1] for identifying each reason why a feasibility study is used up to
+                   maximum of [2].
+
+           (iii)   Identify two stakeholders that the information systems manager should
+                   consult in the initial investigation.                                           [2]
+
+                   Answers may include:
+                   • doctors
+                   • hospital managers
+                   • hospital owners
+                   • project managers
+                   • technicians/computer personnel.
+
+                   Award [1] for identifying each stakeholder the information systems
+                   manager should consult in the initial investigation is used up to maximum
+                   of [2].
+                                            – 17 –                N19/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(b)   Two changeover methods that could be used for the introduction of the new AI
+      system are:
+      • Direct changeover
+      • Phased changeover.
+
+      Analyse these two changeover methods.                                                  [6]
+
+      Answers may include:
+
+      Direct changeover
+      • there is a faster changeover, so new system is up and running immediately
+      • may be less confusing for staff as they have only one system to understand
+      • will remove the issues of compatibility between the two systems that may
+          occur with a phased changeover
+      • training would be needed before the implementation a new AI system
+      • there is a high risk of data loss if something goes wrong, and reverting back
+          to the old system is impossible.
+
+      Phased changeover
+      • may provide time for staff to learn the new system (training) while the original
+         system is used in parallel
+      • may give time to appraise the new system as it is implemented which is not
+         possible with direct changeover as implementation is done in smaller
+         “chunks”
+      • may be possible to revert back to old system as changes may be less
+      • allows closer monitoring of new system as each phase of the implementation
+         can be thoroughly evaluated before the next stage.
+      • lower risk of data loss when introducing a new AI system
+      • it would take longer to implement using a phased changeover method.
+
+ [0]
+ No knowledge or understanding of ITGS issues and concepts. No use of appropriate
+ ITGS terminology.
+
+ [1–2]
+ A limited response that indicates very little understanding of the topic or the reason is
+ not clear. Uses little or no appropriate ITGS terminology. No reference is made to the
+ scenario in the stimulus material. The response is theoretical.
+
+ [3–4]
+ A description, unbalanced or partial analysis of whether a direct changeover or a
+ phased changeover should be used. There is some use of appropriate ITGS
+ terminology in the response.
+
+ [5–6]
+ A balanced and detailed analysis of the relative advantages and disadvantages of
+ whether a whether a direct changeover or a phased changeover should be used.
+ Explicit and relevant references are made to the scenario in the stimulus material.
+ There is appropriate ITGS terminology throughout the response.
+                                            – 18 –                N19/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(c)   Joelstraat Hospital currently bases the diagnoses of patients’ illnesses on:
+      • Information provided by the expert system
+      • Discussions between the doctors and the patients.
+
+      The new AI system will be a significant improvement over the current expert
+      system.
+
+      To what extent should the diagnosis of patients’ illnesses be based on the
+      information provided by the AI system?                                                [8]
+
+      Answers may include:
+      Reasons for basing the diagnosis of the patients on the recommendations
+      of the AI system
+      • may be used to improve the throughflow of patients as the diagnoses could
+           be linked to non-serious cases only
+      • may provide a second opinion that a medical professional can use as the
+           basis for making a decision
+      • may act as a method of allocating less urgent patients to nurses and leaving
+           the more serious conditions to doctors.
+
+      Reasons for not basing the diagnosis of the patients on the
+      recommendations of the AI system
+       • the accuracy of the diagnosis will depend on the quality/volume/range of data
+          available in the AI system
+       • the AI system may contain bugs
+       • the AI system does not take into account the medical history of the patient
+       • cannot make decisions based on ethical criteria
+       • might be a new situation never anticipated, therefore difficult for AI system to
+          properly analyze
+       • raises issues linked to accountability if there are problems that emerge as a
+          result of an incorrect diagnosis.
+
+      Please see generic markband information sheet on page 22.
+                                                   – 19 –               N19/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+6.   Robotic mops
+
+     Note to examiners.
+     • All part (a) questions are marked using ticks and annotations where appropriate
+     • Part (b) and part (c) are marked using markbands. Use annotations and text comments to
+       provide a rationale behind the marks you awarded. Do not use ticks.
+
+     (a)   (i)    Identify two characteristics of a robot.                                        [2]
+
+                  Answers may include:
+                  • a machine that can be programmed
+                  • a machine that can do specific tasks
+                  • a machine or device that operates automatically or by remote control
+                  • a machine that can be programmed
+                  • a machine that can carry out a series of complex tasks
+                  • will always work through the process in the same order
+                  • uses sensors.
+
+                  Award [1] for identifying a characteristic of a robot equal or similar to the
+                  first bullet point
+                  Award an additional mark for identifying any other characteristic of a robot,
+                  provided the first bullet point (or similar idea) has been mentioned in the
+                  answer, up to maximum of [2].
+
+           (ii)   The FluffyMopa is fitted with a proximity sensor that uses ultrasound to
+                  avoid collisions with walls and furniture. Identify the steps that the
+                  FluffyMopa would take to prevent collisions occurring.                          [4]
+
+                  Answers may include:
+                  • sound emitted from the FluffyMopa
+                  • sound hits object and is reflected back to the sensor on the FluffyMopa
+                  • the FluffyMopa calculates the time taken to receive the sound
+                  • the FluffyMopa calculates the distance from the object
+                  • if the distance is less than (or equal to) the value permitted the
+                    FluffyMopa stops
+                  • if the distance is greater than the value permitted the FluffyMopa
+                    continues in the same direction.
+
+                  Award [1] for identifying each step that the FluffyMopa uses to avoid
+                  collisions up to maximum of [4].
+                                              – 20 –               N19/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+
+(b)   (i)    Distinguish between a Gantt chart and a Pert chart.                              [2]
+
+             Answers may include:
+             • a Gantt chart indicates a simple visualization of a project schedule
+             • a Gantt chart looks like a bar chart
+             • a Gantt chart is easier to change
+             • a Pert chart shows the project dependencies and is more complex than
+               a Gantt chart
+             • a Pert chart has nodes representing events
+             • nodes are connected by arrows showing the sequence of tasks
+             • a Pert chart shows the critical path
+             • Pert charts can be difficult to interpret.
+
+             Award [1] for a basic definition of the Gantt chart and the Pert chart and [1]
+             for clearly indicating a difference between the two charts up to maximum
+             of [2].
+
+      (ii)   Explain why alpha and beta testing would be necessary for the
+             development of the FM2.                                                          [4]
+
+             Answers may include:
+             Reasons why Alpha testing is necessary
+             • can debug programming at initial phase, before the new FM2 is released
+             • the FM2 mop would go through step-by-step process to ensure that it
+               works completely
+             • it would identify possible issues with the FM2 mop before releasing the
+               full-working model.
+
+             Reasons why Beta testing is necessary
+             • tests the working FM2 model before full scale manufacturing
+               commences
+             • performed by users of the software application to find errors before final
+               distribution
+             • reduces product FM2 failure risks and provides increased quality of the
+               FM2 mop
+             • the final test before manufacturing the mass product for customers
+             • gives direct feedback from customers about the FM2 mop improvements
+             • helps to tests the FM2 mop product in real time environment.
+
+             Award [1] for identifying a reason why alpha testing is necessary and [1] for
+             explaining why that aspect should be included up to a maximum of [2].
+
+             Award [1] for identifying a reason why beta testing is necessary and [1] for
+             explaining why that aspect should be included up to a maximum of [2].
+
+             Mark as [2] + [2].
+                                           – 21 –               N19/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+
+(c)   During the development of the FM2, an app was created that could enable an
+      owner of a FM2 to carry out the following tasks remotely:
+      • Check the quality of the cleaning using video footage from the FM2.
+      • Check the amount of charge remaining in the battery.
+      • Use natural language processing so that the owner can give instructions such
+         as “OK Fluffy, clean the kitchen floor now”, or “Fluffy, return to the docking
+         station to recharge”.
+
+      Discuss whether the FM2 should be developed to include these additional
+      features.                                                                           [8]
+
+      Advantages of developing the FM2 with the additional features
+      • would allow the FM2 to clean rooms more efficiently as it would not redo
+         previously cleaned areas or may not clean areas that do not need to be
+         cleaned / may allow the cleaning to be fine-tuned by determining high traffic
+         areas
+      • will enable the owners to send the FM2 to a specific area/room in the house
+      • natural language will assist the elderly and the handicapped video footage
+         would provide customers with information about cleaning performance.
+
+      Disadvantages of developing the FM2 with the additional features
+      • natural language processing may not be reliable enough to enable the FM2
+          to carry out these tasks
+      • potential misuse of information collected, who is authorized to access
+          information / database can be hacked, leads to possible loss of personal
+          data about home/floorplans
+      • the company would need to invest in IT resources to create, maintain and
+          share this information
+      • if data is shared with 3rd parties, customers could receive unwanted ads or
+          solicitations based on the data
+      • records customers lifestyle and daily patterns, can be used to predict habits
+      • information could be accessible to police, insurance companies
+      • the development of these additional functions may not be cost effective.
+
+      Please see generic markband information sheet on page 22.
+                                             – 22 –               N19/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+SL and HL paper 1 part (c) and HL paper 3 question 3 markband
+
+             Marks                                    Level descriptor
+                                • A response with no knowledge or understanding of the
+            No marks              relevant ITGS issues and concepts.
+                                • A response that includes no appropriate ITGS terminology.
+                                • A response with minimal knowledge and understanding of
+                                  the relevant ITGS issues and concepts.
+                                • A response that includes minimal use of appropriate
+                                  ITGS terminology.
+              Basic
+                                • A response that has no evidence of judgments and/or
+           1–2 marks              conclusions.
+                                • No reference is made to the scenario in the stimulus
+                                  material in the response.
+                                • The response may be no more than a list.
+                                • A descriptive response with limited knowledge and/or
+                                  understanding of the relevant ITGS issues and/or concepts.
+                                • A response that includes limited use of appropriate
+                                  ITGS terminology.
+            Adequate
+                                • A response that has evidence of conclusions and/or
+           3–4 marks              judgments that are no more than unsubstantiated
+                                  statements. The analysis underpinning them may also be
+                                  partial or unbalanced.
+                                • Implicit references are made to the scenario in the stimulus
+                                  material in the response.
+                                • A response with knowledge and understanding of the
+                                  relevant ITGS issues and/or concepts.
+                                • A response that uses ITGS terminology appropriately
+                                  in places.
+           Competent
+           5–6 marks            • A response that includes conclusions and/or judgments that
+                                  have limited support and are underpinned by a balanced
+                                  analysis.
+                                • Explicit references to the scenario in the stimulus material
+                                  are made at places in the response.
+                                • A response with a detailed knowledge and understanding of
+                                  the relevant ITGS issues and/or concepts.
+                                • A response that uses ITGS terminology appropriately
+            Proficient            throughout.
+           7–8 marks            • A response that includes conclusions and/or judgments that
+                                  are well supported and underpinned by a balanced analysis.
+                                • Explicit references are made appropriately to the scenario in
+                                  the stimulus material throughout the response.
+

@@ -1,0 +1,415 @@
+No part of this product may be reproduced in any form or by any electronic or
+mechanical means, including information storage and retrieval systems, without written
+permission from the IB.
+
+Additionally, the license tied with this product prohibits commercial use of any selected
+files or extracts from this product. Use by third parties, including but not limited to
+publishers, private teachers, tutoring or study services, preparatory schools, vendors
+operating curriculum mapping services or teacher resource digital platforms and app
+developers, is not permitted and is subject to the IB’s prior written consent via a license.
+More information on how to request a license can be obtained from
+https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-license/.
+
+Aucune partie de ce produit ne peut être reproduite sous quelque forme ni par quelque
+moyen que ce soit, électronique ou mécanique, y compris des systèmes de stockage et
+de récupération d’informations, sans l’autorisation écrite de l’IB.
+
+De plus, la licence associée à ce produit interdit toute utilisation commerciale de
+tout fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris,
+sans toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de
+tutorat ou d’aide aux études, des établissements de préparation à l’enseignement
+supérieur, des fournisseurs de services de planification des programmes
+d’études, des gestionnaires de plateformes pédagogiques en ligne, et des
+développeurs d’applications, n’est pas autorisée et est soumise au consentement écrit
+préalable de l’IB par l’intermédiaire d’une licence. Pour plus d’informations sur la
+procédure à suivre pour demander une licence, rendez-vous à l’adresse suivante :
+https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-license/.
+
+No se podrá reproducir ninguna parte de este producto de ninguna forma ni por ningún
+medio electrónico o mecánico, incluidos los sistemas de almacenamiento y
+recuperación de información, sin que medie la autorización escrita del IB.
+
+Además, la licencia vinculada a este producto prohíbe el uso con fines comerciales de
+todo archivo o fragmento seleccionado de este producto. El uso por parte de terceros
+—lo que incluye, a título enunciativo, editoriales, profesores particulares, servicios
+de apoyo académico o ayuda para el estudio, colegios preparatorios, desarrolladores
+de aplicaciones y entidades que presten servicios de planificación curricular u
+ofrezcan recursos para docentes mediante plataformas digitales— no está permitido
+y estará sujeto al otorgamiento previo de una licencia escrita por parte del IB. En este
+enlace encontrará más información sobre cómo solicitar una licencia:
+https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-license/.
+N20/5/FURMA/HP1/ENG/TZ0/XX
+
+
+
+
+Further mathematics
+Higher level
+Paper 1
+
+Friday 23 October 2020 (afternoon)
+
+
+2 hours 30 minutes
+
+
+Instructions to candidates
+y Do not open this examination paper until instructed to do so.
+y Answer all questions.
+y Unless otherwise stated in the question, all numerical answers should be given exactly or
+  correct to three significant figures.
+y A graphic display calculator is required for this paper.
+y A clean copy of the mathematics HL and further mathematics HL formula booklet is
+  required for this paper.
+y The maximum mark for this examination paper is [150 marks].
+
+
+
+
+                                                                                              8820 – 7101
+     8 pages                                              © International Baccalaureate Organization 2020
+                                                  –2–                   N20/5/FURMA/HP1/ENG/TZ0/XX
+
+Full marks are not necessarily awarded for a correct answer with no working. Answers must be
+supported by working and/or explanations. In particular, solutions found from a graphic display
+calculator should be supported by suitable working. For example, if graphs are used to find a solution,
+you should sketch these as part of your answer. Where an answer is incorrect, some marks may be
+given for a correct method, provided this is shown by written working. You are therefore advised to
+show all working.
+
+1.   [Maximum mark: 6]
+
+     Use l’Hôpital’s rule to determine the value of
+
+                                           lim 2 sin x  sin 2 x
+                                                                 .[6]
+                                          x0         x3
+
+
+2.   [Maximum mark: 8]
+
+     The following diagram shows the graph G .
+
+                                                                              diagram not to scale
+                                A                              B
+
+
+
+
+                                C                              D
+
+
+
+
+                        E                                                       F
+
+     (a)   Verify that G satisfies the handshaking lemma.                                                [3]
+
+     (b)   Show that G cannot be redrawn as a planar graph.                                              [3]
+
+     (c)   State, giving a reason, whether G contains an Eulerian circuit.                               [2]
+                                                       –3–                 N20/5/FURMA/HP1/ENG/TZ0/XX
+
+3.   [Maximum mark: 8]
+
+     The binary operation * is defined on the set S = {a , b , c , d , e , f } by the following Cayley table.
+
+                                   *    a        b       c      d     e       f
+                                   a    c        e       a       f    d       b
+                                   b    d        c       b       e    f       a
+                                   c    a        b       c      d     e       f
+                                   d    b         f      d       c    a       e
+                                   e    f        a       e      b     c       d
+                                   f    e        d       f      a     b       c
+
+     (a)   Explain why this table is a Latin square.                                                           [1]
+
+     (b)   State the identity element.                                                                         [1]
+
+     (c)   Determine the inverse of each element of S .[1]
+
+     (d)   Find
+
+           (i)    a * (b * d ) ;
+
+           (ii)   (a * b) * d .[3]
+
+     (e)   State, giving a reason, whether {S , *} is a group.                                                 [2]
+
+
+
+4.   [Maximum mark: 11]
+
+                                       a b 
+     The matrix A is given by A =          .
+                                       c d 
+     (a)   By considering the determinant of a relevant matrix, show that the eigenvalues, λ , of A
+           satisfy the equation
+
+                                                 λ2 - αλ + β = 0 ,
+
+           where α and β are functions of a , b , c , d to be determined.                                      [4]
+
+     (b)   (i)    Verify that
+
+                                                 A2 - αA + βI = 0 .
+
+           (ii)   Assuming that A is non-singular, use the result in part (b)(i) to show that
+
+                                                      1
+                                             A1        I  A  .[7]
+                                                      
+
+                                                                                                    Turn over
+                                                      –4–                    N20/5/FURMA/HP1/ENG/TZ0/XX
+
+5.   [Maximum mark: 8]
+
+     The continuous random variable X has cumulative distribution function F , where F(a) = 0
+     and F(b) = 1 .
+
+                                                                   b
+     (a)                                                           
+           Using integration by parts, show that E ( X )  b  F ( x)dx .[4]
+                                                                   a
+
+
+
+                  
+                       0, x < 0
+                  
+                                  �
+     Let F ( x) =  tan x, 0 ≤ x ≤   .
+                                  4
+                              �
+                      1, x >
+                               4
+
+     (b)   Using the result from part (a), determine E(X ) . Give your answer correct to three
+           significant figures.                                                                        [2]
+
+     (c)   Determine the median of X , giving your answer correct to three significant figures.        [2]
+
+
+6.   [Maximum mark: 6]
+
+     Find the smallest positive value of x satisfying the following two linear congruences
+     simultaneously.
+
+                                                5x ≡ 4 (mod 11)
+                                                11x ≡ 6 (mod 7)[6]
+
+
+7.   [Maximum mark: 12]
+
+     Points in the plane are subjected to a transformation T in which the point (x , y ) is
+     transformed to the point (x' , y' ) where
+
+                                                x   3 0   x 
+                                                y  0 2   y  .
+                                                          
+
+     (a)   Describe, in words, the effect of the transformation T .[1]
+
+     (b)   (i)     Show that the points A(1 , 4) , B(4 , 8) , C(8 , 5) , D(5 , 1) form a square.
+
+           (ii)    Determine the area of this square.
+
+           (iii)   Find the coordinates of A' , B' , C' , D' , the points to which A , B , C , D are
+                   transformed under T .
+
+           (iv)    Show that A' B' C' D' is a parallelogram.
+
+           (v)     Determine the area of this parallelogram.                                          [11]
+                                                       –5–                     N20/5/FURMA/HP1/ENG/TZ0/XX
+
+8.   [Maximum mark: 12]
+
+     Consider the group {S , ×13} , where S = {1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12} and ×13
+     denotes multiplication modulo 13.
+
+     (a)   Find the five pairs of distinct elements of S , such that each element in a pair is the
+           inverse of the other element in the pair.                                                            [4]
+
+     (b)   Determine the subgroup of {S , ×13}
+
+           (i)    of order 2 ;
+
+           (ii)   of order 3 .                                                                                  [3]
+
+     (c)   You are given that {T , ×13} is a subgroup of {S , ×13}, where T = {1 , 5 , 8 , 12} .
+
+           (i)    Determine the cosets of the elements 2 , 3 and 4 with respect to {T , ×13} .
+
+           (ii)   State the general result concerning the elements contained in different cosets
+                  that is verified by your answer to part (c)(i).                                               [5]
+
+
+9.   [Maximum mark: 13]
+
+     The discrete random variable X has probability distribution
+
+                                  P(X = x) = pqx , x ∈  , 0 < p < 1 , q = 1 - p .
+
+     (a)   (i)    Show that the probability generating function of X is given by
+
+                                                                 p
+                                                  Gx (t )           .
+                                                              1  qt
+
+           (ii)   Hence find Var(X ) in terms of p . Express your answer in its simplest form.                  [9]
+
+     (b)   The random variable Y is defined by
+
+                                               Y = X1 + X2 + X3 + X4
+
+           where X1 , X2 , X3 , X4 is a random sample from the distribution of X .
+
+           (i)    Write down the probability generating function of Y .
+
+           (ii)   Hence determine an expression for P(Y = 3) in terms of p .[4]
+
+
+
+
+                                                                                                           Turn over
+                                                      –6–                     N20/5/FURMA/HP1/ENG/TZ0/XX
+
+10.   [Maximum mark: 7]
+
+      The matrix M is given by
+
+                                                2       3 1     4
+                                                5       2 2     3 
+                                             M                      .
+                                                 1     4 0     5
+                                                                   
+                                                1       7 1     9
+
+      (a)   Justifying your answer, determine the rank of M .[3]
+
+                        2   3 1   4 
+                              
+                       5          2 2 3 
+      Let the set S     ,   ,   ,    , that is the four columns of M .
+                        1  4   0   5  
+                        1  7  1  9  
+
+      (b)   Give a reason why S does not span the space of four-dimensional column vectors.          [1]
+
+                                         7
+                                         12 
+      (c)   Determine whether the vector   belongs to the subspace spanned by S .[3]
+                                         2
+                                          
+                                         9
+11.   [Maximum mark: 12]
+
+      (a)   Use the integral test to show that the infinite series
+
+                                                  
+                                                    ln n
+                                            S          is convergent.                              [8]
+                                                 n2 n
+                                                       2
+
+
+
+
+                                              ln x
+      (b)   (i)	Sketch the graph of y =           for x ≥ 2 .
+                                               x2
+            (ii)   Hence by considering appropriate Riemann sums, show that an upper bound
+                              1 3
+                   for S is    + ln 2 .[4]
+                              2 4
+                                                      –7–                    N20/5/FURMA/HP1/ENG/TZ0/XX
+
+12.   [Maximum mark: 6]
+
+      The points D , E , F lie on the sides [BC] , [CA] , [AB] , respectively, of a triangle ABC .
+      The segments [AD] , [BE] , [CF] meet at O . Given that [FE] is parallel to [BC] , show that
+      BD = CD .[6]
+
+
+13.   [Maximum mark: 10]
+
+      Observations on 12 pairs of values of the random variables X , Y yielded the following results.
+
+                         Σx = 76.3 , Σx2 = 563.7 , Σy = 72.2 , Σy2 = 460.1 , Σxy = 495.4
+
+      (a)   (i)     Calculate the value of r , the product moment correlation coefficient of the sample.
+
+            (ii)    Assuming that the distribution of X , Y is bivariate normal with product moment
+                    correlation coefficient ρ , calculate the p-value of your result when testing the
+                    hypotheses H0 : ρ = 0 ; H1 : ρ > 0 .
+
+            (iii)   State whether your p-value suggests that X and Y are independent.                      [7]
+
+      (b)   Given a further value x = 5.2 from the distribution of X , Y , predict the corresponding
+            value of y . Give your answer to one decimal place.                                            [3]
+
+
+14.   [Maximum mark: 11]
+
+      In the triangle ABC , AB = 8 , BC = 12 and AC = 10 . A circle is inscribed in this triangle.
+
+      (a)   Find the lengths of the tangents from A , B and C to this inscribed circle.                    [3]
+
+      (b)   (i)	Show that the area of the triangle ABC is 15r , where r denotes the radius of
+                 the inscribed circle.
+
+                                         3 7
+            (ii)    Show that sin Aˆ =       .
+                                          8
+
+            (iii)   Using parts (b) (i) and (ii), or otherwise, show that r is equal to    N , where N is
+                    a positive integer whose value is to be determined.                                    [8]
+
+
+15.   [Maximum mark: 7]
+
+      Let (1021)n denote a number expressed in number base n .
+
+      Use mathematical induction to prove that (1021)n is not divisible by 3 , for n ≥ 3 .                 [7]
+
+
+
+
+                                                                                                     Turn over
+                                                       –8–                   N20/5/FURMA/HP1/ENG/TZ0/XX
+
+16.   [Maximum mark: 13]
+
+      The following diagram shows part of the curve C with parametric equations
+      x = t3 , y = t2 - 1 , t ∈  .
+
+                                                   y
+
+
+
+
+                                                                                L
+                                                                         P      C
+
+                                                O                               x
+                                               Q
+
+
+
+
+      The line L passes through the origin O and is tangential to C at the point P( p3 , p2 -1) ,
+      where p > 0 . The line L intersects C again at the point Q .
+
+      (a)   Determine
+
+            (i)    the equation of L , giving the gradient in its exact form.
+
+            (ii)   the exact coordinates of P .                                                     [8]
+
+      (b)   Determine the exact coordinates of Q .[5]
+
+
+
+
+

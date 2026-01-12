@@ -1,0 +1,970 @@
+M21/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+
+
+                       Markscheme
+
+
+                               May 2021
+
+
+                    Mathematics:
+               analysis and approaches
+
+
+                           Higher level
+
+
+                               Paper 3
+
+
+
+
+23 pages
+                                            –2–                 M21/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+
+
+© International Baccalaureate Organization 2021
+
+All rights reserved. No part of this product may be reproduced in any form or by any
+electronic or mechanical means, including information storage and retrieval systems,
+without the prior written permission from the IB. Additionally, the license tied with this
+product prohibits use of any selected files or extracts from this product. Use by third
+parties, including but not limited to publishers, private teachers, tutoring or study services,
+preparatory schools, vendors operating curriculum mapping services or teacher resource
+digital platforms and app developers, whether fee-covered or not, is prohibited and is a
+criminal offense.
+
+More information on how to request written permission in the form of a license can be
+obtained from https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-
+license/.
+
+© Organisation du Baccalauréat International 2021
+
+Tous droits réservés. Aucune partie de ce produit ne peut être reproduite sous quelque
+forme ni par quelque moyen que ce soit, électronique ou mécanique, y compris des
+systèmes de stockage et de récupération d’informations, sans l’autorisation écrite
+préalable de l’IB. De plus, la licence associée à ce produit interdit toute utilisation de tout
+fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris, sans
+toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de tutorat ou
+d’aide aux études, des établissements de préparation à l’enseignement supérieur, des
+fournisseurs de services de planification des programmes d’études, des gestionnaires de
+plateformes pédagogiques en ligne, et des développeurs d’applications, moyennant
+paiement ou non, est interdite et constitue une infraction pénale.
+
+Pour plus d’informations sur la procédure à suivre pour obtenir une autorisation écrite
+sous la forme d’une licence, rendez-vous à l’adresse https://ibo.org/become-an-ib-school/
+ib-publishing/licensing/applying-for-a-license/.
+
+© Organización del Bachillerato Internacional, 2021
+
+Todos los derechos reservados. No se podrá reproducir ninguna parte de este producto
+de ninguna forma ni por ningún medio electrónico o mecánico, incluidos los sistemas de
+almacenamiento y recuperación de información, sin la previa autorización por escrito del
+IB. Además, la licencia vinculada a este producto prohíbe el uso de todo archivo o
+fragmento seleccionado de este producto. El uso por parte de terceros —lo que incluye,
+a título enunciativo, editoriales, profesores particulares, servicios de apoyo académico o
+ayuda para el estudio, colegios preparatorios, desarrolladores de aplicaciones y
+entidades que presten servicios de planificación curricular u ofrezcan recursos para
+docentes mediante plataformas digitales—, ya sea incluido en tasas o no, está prohibido
+y constituye un delito.
+
+En este enlace encontrará más información sobre cómo solicitar una autorización por
+escrito en forma de licencia: https://ibo.org/become-an-ib-school/ib-publishing/licensing/
+applying-for-a-license/.
+                                                  –3–                 M21/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+                                      Instructions to Examiners
+
+Abbreviations
+
+M    Marks awarded for attempting to use a correct Method.
+A    Marks awarded for an Answer or for Accuracy; often dependent on preceding M marks.
+R    Marks awarded for clear Reasoning.
+AG   Answer given in the question and so no marks are awarded.
+FT   Follow through. The practice of awarding marks, despite candidate errors in previous parts, for their
+     correct methods/answers using incorrect results.
+
+
+Using the markscheme
+
+1    General
+
+     Award marks using the annotations as noted in the markscheme eg M1, A2.
+
+
+2    Method and Answer/Accuracy marks
+
+     • Do not automatically award full marks for a correct answer; all working must be checked,
+       and marks awarded according to the markscheme.
+     • It is generally not possible to award M0 followed by A1, as A mark(s) depend on
+       the preceding M mark(s), if any.
+     • Where M and A marks are noted on the same line, e.g. M1A1, this usually means M1 for
+       an attempt to use an appropriate method (e.g. substitution into a formula) and A1 for using
+       the correct values.
+     • Where there are two or more A marks on the same line, they may be awarded
+       independently; so if the first value is incorrect, but the next two are correct, award A0A1A1.
+     • Where the markscheme specifies A3, M2 etc., do not split the marks, unless there is a note.
+     • The response to a “show that” question does not need to restate the AG line, unless a Note
+       makes this explicit in the markscheme.
+     • Once a correct answer to a question or part question is seen, ignore further working even if
+       this working is incorrect and/or suggests a misunderstanding of the question. This will
+       encourage a uniform approach to marking, with less examiner discretion. Although some
+       candidates may be advantaged for that specific question item, it is likely that these candidates
+       will lose marks elsewhere too.
+     • An exception to the previous rule is when an incorrect answer from further working is used in
+       a subsequent part. For example, when a correct exact value is followed by an incorrect
+       decimal approximation in the first part and this approximation is then used in the second part.
+       In this situation, award FT marks as appropriate but do not award the final A1 in the first part.
+       Examples:
+
+     Correct        Further            Any FT issues?
+                                                                  Action
+     answer seen    working seen
+1.                     5.65685...        No.                       Award A1 for the final mark
+       8 2           (incorrect          Last part in question.    (condone the incorrect further
+                    decimal value)                                 working)
+2.                    0.468111…          Yes.                      Award A0 for the final mark
+        35
+                     (incorrect          Value is used in          (and full FT is available in
+        72          decimal value)       subsequent parts.         subsequent parts)
+                                                –4–               M21/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+3   Implied marks
+
+    Implied marks appear in brackets e.g. (M1),and can only be awarded if correct work is seen or
+    implied by subsequent working/answer.
+
+
+4   Follow through marks (only applied after an error is made)
+
+    Follow through (FT) marks are awarded where an incorrect answer from one part of a question
+    is used correctly in subsequent part(s) (e.g. incorrect value from part (a) used in part (d) or
+    incorrect value from part (c)(i) used in part (c)(ii)). Usually, to award FT marks, there must be
+    working present and not just a final answer based on an incorrect answer to a previous part.
+    However, if all the marks awarded in a subsequent part are for the answer or are implied, then
+    FT marks should be awarded for their correct answer, even when working is not present.
+
+    For example: following an incorrect answer to part (a) that is used in subsequent parts, where
+    the markscheme for the subsequent part is (M1)A1, it is possible to award full marks for their
+    correct answer, without working being seen. For longer questions where all but the answer
+    marks are implied this rule applies but may be overwritten by a Note in the Markscheme.
+
+    • Within a question part, once an error is made, no further A marks can be awarded for work
+      which uses the error, but M marks may be awarded if appropriate.
+
+    • If the question becomes much simpler because of an error then use discretion to award
+      fewer FT marks, by reflecting on what each mark is for and how that maps to the simplified
+      version.
+
+    • If the error leads to an inappropriate value (e.g. probability greater than 1, sin q = 1.5 , non-
+      integer value where integer required), do not award the mark(s) for the final answer(s).
+
+    • The markscheme may use the word “their” in a description, to indicate that candidates may
+      be using an incorrect value.
+
+    • If the candidate’s answer to the initial question clearly contradicts information given in the
+      question, it is not appropriate to award any FT marks in the subsequent parts. This includes
+      when candidates fail to complete a “show that” question correctly, and then in subsequent parts
+      use their incorrect answer rather than the given value.
+
+    • Exceptions to these FT rules will be explicitly noted on the markscheme.
+
+    • If a candidate makes an error in one part but gets the correct answer(s) to subsequent
+      part(s), award marks as appropriate, unless the command term was “Hence”.
+                                               –5–                M21/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+5   Mis-read
+
+    If a candidate incorrectly copies values or information from the question, this is a mis-read
+    (MR). A candidate should be penalized only once for a particular misread. Use the MR stamp
+    to indicate that this has been a misread and do not award the first mark, even if this is an M
+    mark, but award all others as appropriate.
+
+    • If the question becomes much simpler because of the MR, then use discretion to award
+      fewer marks.
+
+    • If the MR leads to an inappropriate value (e.g. probability greater than 1, sin q = 1.5 , non-
+      integer value where integer required), do not award the mark(s) for the final answer(s).
+
+    • Miscopying of candidates’ own work does not constitute a misread, it is an error.
+
+    • If a candidate uses a correct answer, to a “show that” question, to a higher degree of
+      accuracy than given in the question, this is NOT a misread and full marks may be scored in
+      the subsequent part.
+
+    • MR can only be applied when work is seen. For calculator questions with no working and
+      incorrect answers, examiners should not infer that values were read incorrectly.
+
+
+6   Alternative methods
+
+    Candidates will sometimes use methods other than those in the markscheme. Unless the
+    question specifies a method, other correct methods should be marked in line with the
+    markscheme. If the command term is ‘Hence’ and not ‘Hence or otherwise’ then alternative
+    methods are not permitted unless covered by a note in the mark scheme.
+
+    • Alternative methods for complete questions are indicated by                         METHOD   1,
+      METHOD 2, etc.
+    • Alternative solutions for parts of questions are indicated by EITHER . . . OR.
+                                                      –6–                   M21/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+7   Alternative forms
+
+    Unless the question specifies otherwise, accept equivalent forms.
+
+    • As this is an international examination, accept all alternative forms of notation for example
+      1.9 and 1,9 or 1000 and 1,000 and 1.000 .
+
+    • Do not accept final answers written using calculator notation. However, M marks and
+      intermediate A marks can be scored, when presented using calculator notation, provided
+      the evidence clearly reflects the demand of the mark.
+
+    • In the markscheme, equivalent numerical and algebraic forms will generally be written in
+      brackets immediately following the answer.
+
+    • In the markscheme, some equivalent answers will generally appear in brackets. Not all
+      equivalent notations/answers/methods will be presented in the markscheme and examiners are
+      asked to apply appropriate discretion to judge if the candidate work is equivalent.
+
+8   Format and accuracy of answers
+
+    If the level of accuracy is specified in the question, a mark will be linked to giving the answer
+    to the required accuracy. If the level of accuracy is not stated in the question, the general rule
+    applies to final answers: unless otherwise stated in the question all numerical answers must
+    be given exactly or correct to three significant figures.
+
+    Where values are used in subsequent parts, the markscheme will generally use the exact
+    value, however candidates may also use the correct answer to 3 sf in subsequent parts. The
+    markscheme will often explicitly include the subsequent values that come “from the use of 3 sf
+    values”.
+
+    Simplification of final answers: Candidates are advised to give final answers using good
+    mathematical form. In general, for an A mark to be awarded, arithmetic should be completed,
+                                                                                       25
+    and any values that lead to integers should be simplified; for example,               should be written
+                                                                                       4
+        5
+    as    . An exception to this is simplifying fractions, where lowest form is not required
+        2
+                                                                                         10
+    (although the numerator and the denominator must be integers); for example,             may be left
+                                                                                          4
+                              5               10
+    in this form or written as . However,         should be written as 2, as it simplifies to an
+                              2                5
+    integer.
+
+    Algebraic expressions should be simplified by completing any operations such as addition
+    and multiplication, e.g. 4e 2 x ´ e3 x should be simplified to 4e5 x , and 4e2 x ´ e3 x - e4 x ´ e x should
+    be simplified to 3e 5 x . Unless specified in the question, expressions do not need to be
+    factorized, nor do factorized expressions need to be expanded, so x ( x + 1) and x 2 + x are
+    both acceptable.
+
+    Please note: intermediate A marks do NOT need to be simplified.
+                                                   –7–                M21/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+9     Calculators
+
+      A GDC is required for this paper, but If you see work that suggests a candidate has used any
+      calculator not approved for IB DP examinations (eg CAS enabled devices), please follow the
+      procedures for malpractice.
+
+
+10.   Presentation of candidate work
+
+      Crossed out work: If a candidate has drawn a line through work on their examination script,
+      or in some other way crossed out their work, do not award any marks for that work unless
+      an explicit note from the candidate indicates that they would like the work to be marked.
+
+      More than one solution: Where a candidate offers two or more different answers to the
+      same question, an examiner should only mark the first response unless the candidate
+      indicates otherwise. If the layout of the responses makes it difficult to judge, examiners
+      should apply appropriate discretion to judge which is “first”.
+                                                –8–                 M21/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+1.   (a)
+
+
+
+
+           inverted parabola extended below the x - axis                                   A1
+           x - axis intercept values x = 0, 2                                              A1
+
+
+     Note: Accept a graph passing through the origin as an indication of x = 0 .
+
+
+           local maximum at (1,1)                                                          A1
+
+
+     Note: Coordinates must be stated to gain the final A1.
+            Do not accept decimal approximations.
+
+
+                                                                                     [3 marks]
+                                              –9–                 M21/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+(b)
+
+                        Number of               Number of               Number of
+                        local                   local                   points of
+                        maximum                 minimum                 inflexion
+                        points                  points                  with zero
+                                                                        gradient
+
+      n=3
+      and               1                       0                       2
+      n=5
+
+      n=2
+      and               1                       2                       0
+      n=4
+
+                                                                                   A1A1A1A1A1A1
+
+
+Note: Award A1 for each correct value.
+        For a table not sufficiently or clearly labelled, assume that their values are
+        in the same order as the table in the question paper and award marks
+        accordingly.
+
+
+                                                                                         [6 marks]
+                                                                          – 10 –           M21/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+(c)   METHOD 1
+      attempts to use the product rule                                                                           (M1)
+
+        f n ( x ) = −nx n ( a − x )             + nx n−1 ( a − x )
+                                           n−1                        n
+                                                                                                                A1A1
+
+
+
+                                                        dv                        du
+Note: Award A1 for a correct u                             and A1 for a correct v    .
+                                                        dx                        dx
+
+
+      EITHER
+
+      attempts to factorise f n ( x ) (involving at least one of nx n−1 or ( a − x )
+                                                                                                    n −1
+                                                                                                           )     (M1)
+
+       = nx n −1 ( a − x )
+                             n −1
+                                    (( a − x ) − x )                                                              A1
+
+      OR
+
+      attempts to express f n ( x ) as the difference of two products with each product
+      containing at least one of nx n−1 or ( a − x )
+                                                                              n −1
+                                                                                                                 (M1)
+
+       = ( − x ) ( nx n−1 ) ( a − x )            + ( a − x ) ( nx n−1 ) ( a − x )
+                                           n−1                                       n−1
+                                                                                                                  A1
+
+      THEN
+
+        f n ( x ) = nx n−1 ( a − 2 x )( a − x )
+                                                          n −1
+                                                                                                                  AG
+
+
+Note: Award the final (M1)A1 for obtaining any of the following forms:
+
+                            na−x−x                           nx n ( a − x )
+                                                                                       n
+
+f n ( x ) = nx ( a − x ) 
+                                           ; f n ( x ) =
+                                                                             (a − x − x);
+                 n
+
+                                x (a − x)                     x (a − x)
+
+                               (
+           f n ( x ) = nx n −1 ( a − x ) − x ( a − x ) ;
+                                         n                n −1
+                                                                      )
+          f n ( x ) = ( a − x )
+                                    n −1
+                                           ( nx ( a − x ) − nx )
+                                                 n −1            n        n
+
+
+
+
+      METHOD 2
+
+        fn ( x ) = ( x ( a − x ))
+                                      n
+                                                                                                                 (M1)
+
+       = ( ax − x 2 )
+                        n
+                                                                                                                  A1
+
+      attempts to use the chain rule                                                                             (M1)
+
+        f n ( x ) = n ( a − 2 x ) ( ax − x 2 )
+                                                        n−1
+                                                                                                                A1A1
+                                                             – 11 –                M21/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+
+                                                             (        ) .
+                                                                       n−1
+Note: Award A1 for n ( a − 2 x ) and A1 for ax − x 2
+
+
+
+      f n ( x ) = nx n−1 ( a − 2 x )( a − x )
+                                                 n −1
+                                                                                                          AG
+
+                                                                                                    [5 marks]
+                a
+(d)   x = 0, x = , x = a                                                                                  A2
+                2
+Note: Award A1 for either two correct solutions or for obtaining
+                                        a
+        x = 0, x = −a , x = −             .
+                                        2
+       Award A0 otherwise.
+                                                                                                    [2 marks]
+                                                            a
+(e)   attempts to find an expression for f n                                                           (M1)
+                                                            2
+                          n             n
+         a a       a
+      fn   =    a − 
+         2 2       2
+
+                                a 2n     a n  
+              n       n                                  2
+       a a
+      =                    =    ,  =                                                    A1
+       2 2                   2      2   
+      EITHER
+                                   2n
+                     +      a                         +                      a
+      since a            ,    0 (for n                 , n  1 and so f n    0 )                  R1
+                            2                                                2
+Note: Accept any logically equivalent conditions/statements on a and n .
+       Award R0 if any conditions/statements specified involving a , n or both
+       are incorrect.
+
+
+      OR
+                      a
+                      +
+      (since a           raised to an even power ( 2n ) (or equivalent reasoning) is always
+                          ),
+                      2
+                           a
+      positive (and so f n    0 )                                                                      R1
+                           2
+Note: The condition a  + is given in the question. Hence some candidates
+      will assume a  + and not state it. In these instances, award R1 for a
+      convincing argument.
+       Accept any logically equivalent conditions/statements on a and n .
+       Award R0 if any conditions/statements specified involving a , n or both
+       are incorrect.
+                                                                – 12 –                             M21/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+      THEN
+         a            a 
+      so  , f n           is always above the horizontal axis                                                         AG
+         2            2 
+Note: Do not award (M1)A0R1.
+
+
+                                                                                                                    [3 marks]
+(f)   METHOD 1
+
+           a     a
+                             n−1
+                                       a    a
+                                                         n−1
+                                                                 a  n−1  a  3a  n−1 
+      f n   = n                a −  a −                = n                                             A1
+           4     4                 2    4                 4   2  4  
+      EITHER
+              n −1                 n −1
+       a            a  3a                          +                  +
+      n                              0 as a            and n                                                     R1
+       4            2  4 
+      OR
+              n −1                                n −1
+       a                 a         a
+      n            ,  a −  and  a −                are all  0                                                      R1
+       4                 2         4
+
+
+Note: Do not award A0R1.
+       Accept equivalent reasoning on correct alternative expressions for
+             a
+        f n   and accept any logically equivalent conditions/statements on a
+             4
+       and n .
+       Exceptions to the above are condone n  1 and condone n  0.
+                                                                                      2 n −1
+                                                a                             a
+       An alternative form for f n   is ( 2n )( 3)
+                                                                         n −1
+                                                                                             .
+                                                4                             4
+
+
+
+      THEN
+                      a
+      hence f n       0                                                                                               AG
+                      4
+                                                                                                                    [2 marks]
+
+
+      METHOD 2
+
+      f n (0) = 0 and f n    0
+                            a
+                                                                                                                          A1
+                               2
+                                                           – 13 –                          M21/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+      (since f n is continuous and there are no stationary points between x = 0 and
+            a
+      x=      )
+            2
+                                                                                                         a
+      the gradient (of the curve) must be positive between x = 0 and x =                                                  R1
+                                                                                                         2
+
+
+Note: Do not award A0R1.
+
+
+                  a
+      hence f n   0                                                                                                  AG
+                  4
+                                                                                                                    [2 marks]
+
+(g)   (i)     f n (−1) = n(−1) n −1 (a + 2)(a + 1) n −1
+             for n even:
+
+              n ( −1)          ( = −n )  0 (and ( a + 2 ) , ( a + 1)
+                        n −1                                            n −1
+                                                                               are both  0 )                             R1
+
+              f n ( −1)  0                                                                                              A1
+
+                                      a
+              f n ( 0 ) = 0 and f n    0 (seen anywhere)                                                             A1
+                                      4
+
+
+Note: Candidates can give arguments based on the sign of ( −1)
+                                                                                              n−1
+                                                                                                    to obtain the
+        R mark.
+        For example, award R1 for the following:
+
+        If n is even, then n − 1 is odd and hence ( −1)                               0 ( = −1) .
+                                                                               n−1
+
+
+
+        Do not award R0A1.
+        The second A1 is independent of the other two marks.
+        The A marks can be awarded for correct descriptions expressed in words.
+        Candidates can state ( 0, 0 ) as a point of zero gradient from part (d) or
+
+        show, state or explain (words or diagram) that f n ( 0 ) = 0 . The last A
+        mark can be awarded for a clearly labelled diagram showing changes in
+        the sign of the gradient.
+        The last A1 can be awarded for use of a specific case (e.g. n = 2 ).
+
+
+
+
+             hence ( 0, 0 ) is a local minimum point                                                                     AG
+
+                                                                                                                    [3 marks]
+                                                         – 14 –                       M21/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+     (ii)   for n odd:
+
+            n ( −1)          ( = n )  0 , (and ( a + 2 ) , ( a + 1)          are both  0 ) so f n ( −1)  0
+                      n −1                                             n −1
+                                                                                                                       R1
+
+
+
+Note: Candidates can give arguments based on the sign of ( −1)
+                                                                                         n−1
+                                                                                               to obtain the
+       R mark.
+For example, award R1 for the following:
+
+If n is odd, then n − 1 is even and hence ( −1)                      0 ( = 1) .
+                                                              n−1
+
+
+
+
+                                    a
+            f n ( 0 ) = 0 and f n    0 (seen anywhere)                                                            A1
+                                    4
+
+
+Note: The A1 is independent of the R1.
+       Candidates can state ( 0, 0 ) as a point of zero gradient from part (d) or
+
+       show, state or explain (words or diagram) that f n ( 0 ) = 0 . The last A mark
+       can be awarded for a clearly labelled diagram showing changes in the
+       sign of the gradient.
+       The last A1 can be awarded for use of a specific case (e.g. n = 3 ).
+
+
+
+
+            hence ( 0, 0 ) is a point of inflexion with zero gradient                                                 AG
+
+                                                                                                                 [2 marks]
+                                            – 15 –             M21/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+(h)   considers the parity of n                                                            (M1)
+
+
+Note: Award M1 for stating at least one specific even value of n .
+
+
+      n must be even (for four solutions)                                                    A1
+
+
+Note: The above 2 marks are independent of the 3 marks below.
+
+
+                  2n
+           a
+      0k                                                                           A1A1A1
+           2
+Note: Award A1 for the correct lower endpoint, A1 for the correct upper endpoint
+      and A1 for strict inequality signs.
+       The third A1 (strict inequality signs) can only be awarded if A1A1 has
+       been awarded.
+                                                     2n
+                                                a
+       For example, award A1A1A0 for 0  k       . Award A1A0A0 for k  0 .
+                                                2
+                                      a
+       Award A1A0A0 for 0  k  f n   .
+                                      2
+
+
+
+                                                                                      [5 marks]
+                                                                                Total [31 marks]
+                                                     – 16 –     M21/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+2.   (a)   (i)    METHOD 1
+
+                                                (
+                  attempts to expand ( − 1)  2 +  + 1  )                              (M1)
+
+                  = 3 +  2 +  −  2 −  −1                                              A1
+                  = 3 −1                                                                 AG
+                                                                                     [2 marks]
+
+
+                  METHOD 2
+                                                     3 −1
+                  attempts polynomial division on                                          M1
+                                                      −1
+                  = 2 +  +1                                                              A1
+
+                              (         )
+                  so ( − 1)  2 +  + 1 =  3 − 1                                        AG
+
+                                                                                     [2 marks]
+
+
+                  (since  is a root of z = 1)   − 1 = 0
+                                            3        3
+           (ii)                                                                            R1
+                  and   1                                                                R1
+                   2 +  +1 = 0                                                         AG
+
+
+     Note: In part (a), award marks as appropriate where  has been converted into
+           Cartesian, modulus-argument (polar) or Euler form.
+
+
+                                                                                     [2 marks]
+                                                 – 17 –           M21/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+(b)   METHOD 1
+      attempts to find either P0 P1 or P0 P2                                               (M1)
+
+      accept any valid method
+                      π 2 2            2π   1     PP
+      e.g. 2sin         , 1 + 1 − 2cos    ,     = 0 1 from either OP0P1 or OP0P2
+                      3                 3 sin π sin 2π
+                                              6      3
+      e.g. use of Pythagoras’ theorem
+
+                  i
+                      2π
+                              1   3 
+      e.g. 1 − e 3 , 1 −  −     +  i  by calculating the distance between 2 points
+                              2 2 
+
+      P0 P1 = 3                                                                              A1
+
+      P0 P2 = 3                                                                              A1
+
+
+Note: Award a maximum of M1A1A0 for any decimal approximation seen in the
+      calculation of either P0P1 or P0P2 or both.
+
+
+
+      so P0 P1  P0 P2 = 3                                                                  AG
+
+
+      METHOD 2
+
+      attempts to find P0 P1  P0 P2 = 1 −  1 −  2                                       (M1)
+
+      P0 P1  P0 P2 =  3 −  2 −  + 1                                                      A1
+
+      = 1 − ( 2 +  + 1) + 2 and since  2 +  + 1 = 0                                      R1
+
+      so P0 P1  P0 P2 = 3                                                                  AG
+
+                                                                                       [3 marks]
+                                                – 18 –      M21/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+(c)   METHOD 1
+
+      z 4 − 1 = ( z − 1) ( z 3 + z 2 + z + 1)                                      A1
+
+      (  is a root hence)  4 − 1 = 0 and   1                                   R1
+       3 +  2 +  +1 = 0                                                        AG
+
+
+Note: Condone the use of  throughout.
+
+
+                                                                             [2 marks]
+
+
+      METHOD 2
+      considers the sum of roots of z 4 − 1 = 0                                   (M1)
+
+      the sum of roots is zero (there is no z 3 term)                              A1
+       3 +  2 +  +1 = 0                                                        AG
+                                                                             [2 marks]
+
+
+      METHOD 3
+      substitutes for                                                            (M1)
+                          3π             π
+                      i              i
+      e.g. LHS = e 2 + e πi + e 2 + 1
+      = −i −1 + i + 1                                                              A1
+
+
+Note: This can be demonstrated geometrically or by using vectors.
+       Accept Cartesian or modulus-argument (polar) form.
+
+
+       3 +  2 +  +1 = 0                                                        AG
+                                                                             [2 marks]
+
+
+      METHOD 4
+                      4 −1
+       +  +  +1 =
+          3   2
+                                                                                   A1
+                      −1
+           0
+      =        = 0 as   1                                                        R1
+           −1
+       3 +  2 +  +1 = 0                                                        AG
+                                                                             [2 marks]
+                                                   – 19 –              M21/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+(d)   METHOD 1
+      P0 P2 = 2                                                                               A1
+
+      attempts to find either P0 P1 or P0 P3                                                 (M1)
+
+
+
+Note: For example, P0 P1 = 1 − i and P0 P3 = 1 + i .
+       Various geometric and trigonometric approaches can be used by
+       candidates.
+
+
+      P0 P1 = 2 , P0 P3 = 2                                                                 A1A1
+
+
+Note: Award a maximum of A1M1A1A0 if labels such as P0P1 are not clearly
+      shown.
+      Award full marks if the lengths are shown on a clearly labelled diagram.
+      Award a maximum of A1M1A1A0 for any decimal approximation seen in
+      the calculation of either P0P1 or P0P3 or both.
+
+
+
+      P0 P1  P0 P2  P0 P3 = 4                                                               AG
+
+                                                                                        [4 marks]
+
+
+      METHOD 2
+
+      attempts to find P0 P1  P0 P2  P0 P3 = 1 −  1 −  2 1 −  3                          M1
+
+      P0 P1  P0 P2  P0 P3 = − 6 +  5 +  4 −  2 −  + 1                                  A1
+
+      = − ( −1) +  5 + 1 − ( −1) −  + 1 since  6 =  2 = −1 and  4 = 1                    A1
+
+      =  5 −  + 4 and since  5 =                                                          R1
+
+      so P0 P1  P0 P2  P0 P3 = 4                                                            AG
+
+                                                                                        [4 marks]
+                                           – 20 –   M21/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+METHOD 3
+P0 P2 = 2                                                                  A1
+
+attempts to find P0 P1  P0 P3 = 1 −  1 −  3                             M1
+
+P0 P1  P0 P3 =  4 −  3 −  + 1                                          A1
+
+= 2 − ( − ) −  since  4 = 1 and  3 = −                                R1
+
+so P0 P1  P0 P2  P0 P3 = 4                                               AG
+
+
+                                                                     [4 marks]
+                                                 – 21 –   M21/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+(e)   ( P0P1  P0P2  ...  P0Pn-1 ) = n                                         A1
+
+                                                                            [1 mark]
+
+
+(f)   (i)    P0 P2 = 1 −  2 , P0 P3 = 1 −  3                                 A1A1
+
+                                                                           [2 marks]
+
+
+      (ii)   P0 Pn −1 = 1 −  n −1                                               A1
+
+
+
+Note: Accept 1 −  from symmetry.
+
+
+                                                                            [1 mark]
+                                                           – 22 –             M21/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+(g)   (i)    z n − 1 = ( z − 1) ( z n −1 + z n − 2 + ... + z + 1)
+
+             considers the equation z n −1 + z n −2 + ... + z + 1 = 0                                       (M1)
+
+             the roots are ,  ,..., 
+                                      2        n −1
+                                                                                                             (A1)
+
+                           (          ) (
+             so ( z −  ) z −  2 ... z −  n −1       )                                                      A1
+
+                                                                                                        [3 marks]
+
+
+      (ii)   METHOD 1
+
+                                                      (             ) (   )
+             substitutes z = 1 into ( z −  ) z −  2 ... z −  n −1  z n −1 + z n − 2 + ... + z + 1
+
+                                                                                                              M1
+
+             (1 −  ) (1 −  2 ) ... (1 −  n−1 ) = n                                                        (A1)
+
+             takes modulus of both sides                                                                      M1
+
+              (1 −  ) (1 −  2 ) ... (1 −  n−1 ) = n
+             1 −  1 −  2 ... 1 −  n −1 = n                                                                 A1
+
+             so P0 P1  P0 P2  ...  P0 Pn−1 = n                                                            AG
+
+
+Note: Award a maximum of M1A1FTM1A0 from part (e).
+
+
+                                                                                                        [4 marks]
+                                           – 23 –               M21/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+METHOD 2
+
+(1 −  ) , (1 −  2 ) ,..., (1 −  n−1 ) are the roots of (1 − v )          + (1 − v )         + ... + (1 − v ) + 1 = 0
+                                                                     n −1                n−2
+
+
+                                                                                                                   M1
+
+coefficient of v n −1 is ( −1)
+                                 n −1
+                                        and the coefficient of 1 is n                                              A1
+
+                        ( −1) n = n
+                                    n −1
+
+product of the roots is                                                                                            A1
+                         ( −1)
+                               n −1
+
+
+
+1 −  1 −  2 ... 1 −  n −1 = n                                                                                   A1
+
+so P0 P1  P0 P2  ...  P0 Pn−1 = n                                                                               AG
+
+                                                                                                          [4 marks]
+                                                                                                 Total[24 marks]
+

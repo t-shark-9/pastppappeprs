@@ -1,0 +1,459 @@
+N18/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+
+
+                       Markscheme
+
+
+                        November 2018
+
+
+                     Computer science
+
+
+                         Standard level
+
+
+                               Paper 1
+
+
+
+
+11 pages
+                          –2–            N18/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+
+
+This markscheme is the property of the International
+Baccalaureate and must not be reproduced or distributed
+to any other person without the authorization of the
+IB Global Centre, Cardiff.
+                                                  –3–                 N18/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+                                               Section A
+
+1.   Award [1] for identifying the nature of a network and [1] for a development of the first
+     point up to [2 max].
+
+     A group of computers and other computing hardware devices that are linked together
+     through communication channels/cables/wirelessly;
+     To enable communication (sharing files, sharing information) between systems/among
+     a wide range of users;                                                                     [2]
+
+
+2.   (a)   Award [1] for identifying a feature of a database management system and [1] for
+           an expansion up to [2 max].
+
+           Database management system is an application software;
+           that allows users to define/create/maintain a database / provides (controlled)
+           access to the data;
+           Examples of database applications are computerized library, inventory, flight
+           reservation, etc;                                                                    [2]
+
+     (b)   Award [1] of using beta testing and [1] for an expansion up to [2 max].
+
+           Beta testing is done from the user/client perspective;
+           So, requirement mismatches can be easily identified;
+
+           The real users have an opportunity to test a new product before it is (publicly)
+           released;
+           So, user acceptance is assured;
+           Any bugs identified could be (easily) fixed before the public release of the
+           product;
+           So, quality of the product is enhanced;                                              [2]
+
+
+3.   (a)   Award [1] for an advantage up to [1 max].
+
+           Direct observation is systematic/structured process;
+           Direct observation allows that current computer system can be studied in its
+           natural setting;
+           Direct observation provides a better understanding of the way computer system
+           is used;
+           etc.                                                                                 [1]
+
+     (b)   Award [1] for a disadvantage up to [1 max].
+
+           Direct observation is susceptible to observer bias;
+           Direct observation also can affect the behavior of users/process being observed;
+           Direct observation is time consuming;
+           etc.                                                                                 [1]
+                                                  –4–                N18/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+4.   Award [3 max].
+
+     Award [1] for a logic diagram representing A OR B with 2 inputs, 1 output and 3 logic gates.
+     Award [1] for the OR gate having 2 inputs, one of which is NOT A.
+     Award [1] for another input to the OR gate, which is A AND B.
+
+
+
+
+                                                                                                    [3]
+
+
+5.   (a)   Award [1] for each possible compatibility issue identified up to [2 max].
+
+           Language differences/different character set;
+           Different conventions of representing various data/currencies, dates, etc;
+           Incompatible software/incompatible hardware;                                             [2]
+
+     (b)   Award [1] for identifying how VPN will allow employees to communicate and [1]
+           for a development up to [2 max].
+
+           VPN allows secure communication with the Head Office in Asia;
+           A VPN is the company’s private network that uses a public network (in this
+           situation the Internet) to connect remote sites/employees together;
+           Privacy is protected using VPN tunneling;
+           VPN uses encrypted connections routed through the Internet from the company's
+           private network (Europe)to the remote site in Asia (or employee);
+           Hiding IP addresses to prevent unwanted exposure and data leaks;
+           Data security is ensured by encryption – anyone intercepting the encrypted data
+           cannot read it;                                                                          [2]
+
+     (c)   Award [1] for identifying an issue and [1] for an expansion up to [2 max].
+
+           Employees who will not be willing to move to Asia;
+           Lost jobs / finding new job / income decreased;
+
+           Employees who will move to Asia;
+           Personal or family issues during the period of moving or in a new environment /
+           finances and cost of living / services such as schools, hospitals, transport /
+           language problems;                                                                       [2]
+
+
+6.   Award [4 max].
+
+     Packet switching entails data being separated into specially formatted units (packets);
+     Each packet contains data and information such as packet number, address that
+     identifies the sending computer and intended recipient, etc;
+     Packets are routed from source to destination using (different) network switches and
+     routers;
+     Using these addresses, network switches and routers determine how best to transfer
+     the packet on the path to its destination;
+     Packets are reassembled at the destination (using packet numbers);
+     If any of packets is missing it should be retransmitted;                                       [4]
+                                                  –5–                 N18/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+7.   Award [4 max].
+
+     Award [1] for a trace table with at least three columns.
+     Award [1] for each correct column (out of the four columns – A, B, B >= A, output).
+
+                                    A         B      B >= A output
+
+                                    3         7         true
+
+                                    4         6                   3
+
+                                                        true
+
+                                    5         5                   1
+
+                                                        true
+
+                                    6         4                 –1
+
+                                                      false
+                                                                                               [4]
+                                                   –6–                N18/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+                                               Section B
+
+8.   (a)   (i)    Award [3 max].
+
+                  RAM acts as temporary storage of data, instructions and programs
+                  currently running (for the operating system and for the running applications)
+                  whilst ROM is permanent memory (stores the instructions and data that
+                  won't change/stores the instructions that the computer needs in order to
+                  boot up;
+                  Memory access, both read and write operations are performed on RAM
+                  whilst ROM works with read only operation;
+                  If power failures happened during access to RAM then all data will be
+                  permanently lost/RAM is volatile memory/whilst if power failure happened
+                  during the ROM access no data will be lost/ROM is non-volatile memory;          [3]
+
+           (ii)   Award [1] for the answer saying that the function of OS in primary memory
+                  management is allocation of specific memory blocks to individual programs
+                  and [1] for reallocation up to [2 max].
+
+                  A part of the OS (memory manager) assigns that block of memory to the
+                  program when a running program requests a block of memory;
+                  When the program no longer needs the data in previously allocated
+                  memory blocks, they become available for reassignment;
+
+                  OS ensures the availability of adequate memory for data structures/objects
+                  of each running program at all times;
+                  By allocating the memory portions to programs after freeing the space (of
+                  the computer memory);
+
+                  OS (memory management unit) uses virtual memory which provides
+                  secondary memory (external storage) for program that does not have
+                  enough space in RAM for execution;
+                  After execution of the program this memory is reallocated (used by other
+                  programs)/freed;
+
+                  Note to examiners: Award only [1] an answer such as “OS maintains file
+                  allocation table”.                                                              [2]
+                                              – 7–                N18/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+
+(b)   Award [4 max].
+
+      Bus is defined as a system that transfers data between hardware
+      components/data bus and address bus enable a processor to communicate with
+      the primary memory;
+      When the computer processor needs to fetch an instruction from the memory it
+      uses the address bus to specify the (physical) address (of the memory block it
+      needs to access);
+      It will get the data from (the specific) memory (block) (after checking the address
+      bus to get the read address);
+      And then it will place this data on to the data bus/data bus carries the data;
+      When the processor wants to store results of execution to the memory it will set
+      the write address on the address bus;
+      And put the data/results/to be written to memory on to the data bus (to carry this
+      data);                                                                                [4]
+
+(c)   (i)     Award [1 max].
+              5E;                                                                           [1]
+
+      (ii)    Award [1 max].
+
+              28/256;                                                                       [1]
+
+      (iii)   Award [1] for identifying why this byte could not be used to represent
+              characters such as those in Chinese and [1] for an expansion up to
+              [2 max].
+
+              The characters must be represented as numbers so that computer can deal
+              with them;
+              One byte (gives us the ability to represent only 256 characters) is enough
+              to hold every possible character in a language which uses a limited set of
+              text symbols, punctuation marks and special characters (for example,
+              English, Spanish, etc);
+              Chinese exceeds the 256 character limit and therefore requires more bytes
+              to represent all of the characters in this language;                          [2]
+
+(d)   Award [2 max].
+
+      Award [1] for all four input combinations (A,B).
+      Award [1] for all four correct output values (C).
+      Note: 1 == True, 0 == False.
+
+                                        A       B         C
+
+                                        0       0         1
+
+                                        0       1         0
+
+                                        1       0         0
+
+                                        1       1         1
+                                                                                            [2]
+                                                 – 8–                N18/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+9.   (a)   Award [1] for the answer identifying improved programmer productivity and [1] for
+           making reference to machine independence up to [2 max].
+
+           High-level language(HLL) provides statements (for example, high level if(…),
+           while(…) , etc) which are not dependent on the specific machine / and ability to
+           create various data structures;
+           Which saves the programmer’s time;
+
+           Higher level languages are closer to human language;
+           So programmers find them easier to understand/work with than lower level
+           languages;
+
+           HLL saves programmer from knowing details of computer architecture (and using
+           all the specific (machine) instructions);
+           So giving more time to creating/developing the best way of coding a
+           problem/process of coding is simpler and more understandable;                        [2]
+
+     (b)   Award [4 max].
+           Mark as [2] and [2].
+
+           Award [1] for an answer stressing the usefulness of sub-procedures in any of the
+           following:
+           Program organization;
+           Program coding;
+           Program testing;
+           Maintenance;
+           Etc.
+
+           Award [1] for the expansion up to [2 max].
+
+           Problem could be divided into smaller/easier parts;
+           Which means solving easier/smaller parts of the problem for one programmer;
+           Or for a team of programmers, each programmer could work on different smaller
+           parts;
+
+           Simpler testing;
+           Each part of the program could be separately tested;
+           By the programmer who created the code or someone else in the team of
+           programmers;
+
+           Reusable code;
+           Sub-procedures already written/tested could be used in various programs;
+
+           Simpler maintenance and changes;
+           Could be done only on required sub-programs;                                         [4]
+
+     (c)   Award [3 max].
+
+           Award [1] for data structure implementation/objects/elements of collections.
+           Award [1] for algorithms/methods/callback functions.
+           Award [1] for showing that collection reduces programming effort / increases
+           performance (by providing efficient implementations of data structures and
+           algorithms).
+
+           Award marks for description of a specific example collections (in Java or any
+           other programming language) such as arrays, dictionaries, sets, lists, trees (they
+                                             – 9–                N18/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+      have some characteristics in common, but also each of them has different way of
+      organizing the data elements/objects they contain).
+
+      Collection is a container of discrete values;
+      Usually of the same type (primitive data values and also some other data
+      structures);
+      (But) collection objects can be of different types (pointers afford a flexibility and
+      thus collection objects permit references to any data structure as well as to
+      primitive values);
+      Collections have a set of methods that define operations performed on the
+      elements/objects of that collection;
+      Such as adding/removing elements to/from collection, comparing elements of
+      collection, searching, etc;
+      Which reduces programming effort (because implementations of data structures
+      and algorithms are provided);
+      Which increases performance of the program (because efficient implementations
+      are provided);                                                                          [3]
+
+(d)   Award [6 max].
+
+      Award [1] for initialization and for outputting correct result (COUNTER).
+      Award [1] for using collection methods.
+      Award [1] for correct loop.
+      Award [1] for retrieving a number (ELEMENT) from the collection.
+      Award [1] for if statement within the loop.
+      Award [1] for correct condition in if statement.
+      Award [1] for increasing COUNTER if needed.
+
+      Example answer:
+
+      COUNTER = 0
+      NUMBERS.resetNext()
+      loop while NUMBERS.hasNext()
+        ELEMENT = NUMBERS.getNext()
+        if ELEMENT >= -1 and ELEMENT <= 1 then                 // abs(ELEMENT) <= 1
+          COUNTER = COUNTER + 1
+        end if
+      end loop
+      output COUNTER
+
+      Note: be flexible over the method names. For example, NUMBERS.getData() is
+      acceptable instead of NUMBERS.getNext().                                                [6]
+                                                  – 10 –              N18/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+10.   (a)   Award [1 max].
+
+            26.0;                                                                              [1]
+
+      (b)   Award [4 max].
+
+            Award [1] for outputting 'underweight' and correct condition in if statement.
+            Award [1] for outputting 'normal weight' and correct logical expression
+            (18.5 < B < 25.0).
+            Award [1] for outputting 'overweight ' and correct logical expression
+            (25.0 < B < 30.0).
+            Award [1] for outputting 'obese' (30.0 and greater than 30.0).
+            Award [1] for using if-else.
+
+            Example answer 1:
+
+            category(B)
+              if B < 18.5
+                output('underweight')
+              else if B < 25.0
+                output('normal weight')
+              else if B < 30.0
+                output('overweight')
+              else
+                output('obese')
+              end if
+            end category
+
+            Example answer 2:
+
+            category(B)
+              if B < 18.5
+                output('underweight')
+              end if
+              if B >= 18.5 and B < 25.0
+                output('normal weight')
+              end if
+              if B >= 25.0 and B < 30.0
+                output('overweight')
+              end if
+              if B >= 30.0
+                output('obese')
+              end if
+            end category                                                                       [4]
+
+      (c)   Award [1 max].
+
+            Paul;                                                                              [1]
+                                             – 11 –               N18/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+(d)   (i)    Award [1 max].
+
+             Binary search can be applied only on sorted array / array HEIGHT is not
+             sorted so binary search cannot be used;                                          [1]
+
+      (ii)   Award [1] for identifying each stage in the process of printing out a person’s
+             name up to [2 max].
+
+             Linear (sequential) search could be used to find the position (array index) of
+             a given height measurement in array HEIGHT;
+             And the name in array NAME at found position should be outputted;                [2]
+
+(e)   Award [6 max].
+
+      Award [3 max] marks for calculating average.
+      Award [1] for initialization and changing the sum (of all BMIs) within the loop.
+      Award [1] for a correct loop.
+      Award [1] for correct parameters in the call of method calcBMI().
+      Award [1] for calculating average for the 30 persons (sum of all BMIs over 30).
+
+      Award [3 max] marks for displaying appropriate names after calculating the
+      group’s average BMI.
+      Award [1] for an if statement within the correct loop.
+      Award [1] for condition in if (comparing the BMI of the person with the average
+      BMI).
+      Award [1] for the correct output [1] for correct parameters in the
+      method call ( calcBMI(HEIGHT[K], WEIGHT[K]).
+
+      Example answer:
+
+      sum = 0
+      loop for K from 0 to 29
+        sum = sum + calcBMI(HEIGHT[K], WEIGHT[K])
+      end loop
+      average = sum/30
+
+      loop for K from 0 to 29
+        if calcBMI(HEIGHT[K], WEIGHT[K]) > average then
+          output(NAME[K])
+        end if
+      end loop                                                                                [6]
+

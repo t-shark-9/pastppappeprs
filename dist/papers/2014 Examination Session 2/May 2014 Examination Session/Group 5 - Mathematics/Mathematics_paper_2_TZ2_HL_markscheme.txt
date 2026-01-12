@@ -1,0 +1,985 @@
+M14/5/MATHL/HP2/ENG/TZ2/XX/M
+
+
+
+
+                   MARKSCHEME
+
+
+                           May 2014
+
+
+
+                      MATHEMATICS
+
+
+
+                        Higher Level
+
+
+
+                               Paper 2
+
+
+
+
+22 pages
+                              –2–           M14/5/MATHL/HP2/ENG/TZ2/XX/M
+
+
+
+
+This markscheme is confidential and for the exclusive use of
+examiners in this examination session.
+
+It is the property of the International Baccalaureate and must not
+be reproduced or distributed to any other person without the
+authorization of the IB Assessment Centre.
+                                                     –3–               M14/5/MATHL/HP2/ENG/TZ2/XX/M
+
+
+
+                                           Instructions to Examiners
+
+Abbreviations
+
+M     Marks awarded for attempting to use a correct Method; working must be seen.
+
+(M)   Marks awarded for Method; may be implied by correct subsequent working.
+
+A     Marks awarded for an Answer or for Accuracy; often dependent on preceding M marks.
+
+(A)   Marks awarded for an Answer or for Accuracy; may be implied by correct subsequent working.
+
+R     Marks awarded for clear Reasoning.
+
+N     Marks awarded for correct answers if no working shown.
+
+AG    Answer given in the question and so no marks are awarded.
+
+
+Using the markscheme
+
+1     General
+
+      Mark according to Scoris instructions and the document “Mathematics HL: Guidance for e-marking
+      May 2014”. It is essential that you read this document before you start marking. In particular, please note
+      the following:
+
+      • Marks must be recorded using the annotation stamps. Please check that you are entering marks for the
+        right question.
+      • If a part is completely correct, (and gains all the ‘must be seen’ marks), use the ticks with numbers to
+        stamp full marks
+      • If a part is completely wrong, stamp A0 by the final answer.
+      • If a part gains anything else, it must be recorded using all the annotations.
+      • All the marks will be added and recorded by Scoris.
+
+2     Method and Answer/Accuracy marks
+
+      • Do not automatically award full marks for a correct answer; all working must be checked, and marks
+        awarded according to the markscheme.
+      • It is not possible to award M0 followed by A1, as A mark(s) depend on the preceding M mark(s),
+        if any.
+      • Where M and A marks are noted on the same line, for example, M1A1, this usually means M1 for an
+        attempt to use an appropriate method (for example, substitution into a formula) and A1 for using the
+        correct values.
+      • Where the markscheme specifies (M2), N3, etc, do not split the marks.
+      • Once a correct answer to a question or part-question is seen, ignore further working.
+                                                     –4–               M14/5/MATHL/HP2/ENG/TZ2/XX/M
+
+
+
+3   N marks
+
+    Award N marks for correct answers where there is no working.
+
+    •   Do not award a mixture of N and other marks.
+    •   There may be fewer N marks available than the total of M, A and R marks; this is deliberate as it
+        penalizes candidates for not following the instruction to show their working.
+
+4   Implied marks
+
+    Implied marks appear in brackets, for example, (M1), and can only be awarded if correct work is seen or if
+    implied in subsequent working.
+
+    • Normally the correct work is seen or implied in the next line.
+    • Marks without brackets can only be awarded for work that is seen.
+
+
+5   Follow through marks
+
+    Follow through (FT) marks are awarded where an incorrect answer from one part of a question is used
+    correctly in subsequent part(s). To award FT marks, there must be working present and not just a final
+    answer based on an incorrect answer to a previous part.
+
+    • If the question becomes much simpler because of an error then use discretion to award fewer FT marks.
+    • If the error leads to an inappropriate value (for example, sin θ = 1.5 ), do not award the mark(s) for the
+      final answer(s).
+    • Within a question part, once an error is made, no further dependent A marks can be awarded, but M
+      marks may be awarded if appropriate.
+    • Exceptions to this rule will be explicitly noted on the markscheme.
+
+
+6   Mis-read
+
+    If a candidate incorrectly copies information from the question, this is a mis-read (MR). A candidate should
+    be penalized only once for a particular mis-read. Use the MR stamp to indicate that this has been a
+    misread.     Then deduct the first of the marks to be awarded, even if this is an M mark,
+    but award all others so that the candidate only loses one mark.
+
+    • If the question becomes much simpler because of the MR, then use discretion to award fewer marks.
+    • If the MR leads to an inappropriate value (for example, sin θ = 1.5 ), do not award the mark(s) for the final
+      answer(s).
+
+7   Discretionary marks (d)
+
+    An examiner uses discretion to award a mark on the rare occasions when the markscheme does not cover the
+    work seen. In such cases the annotation DM should be used and a brief note written next to the mark
+    explaining this decision.
+                                                            –5–          M14/5/MATHL/HP2/ENG/TZ2/XX/M
+
+
+
+8    Alternative methods
+
+     Candidates will sometimes use methods other than those in the markscheme. Unless the question specifies a
+     method, other correct methods should be marked in line with the markscheme. If in doubt, contact your team
+     leader for advice.
+
+     • Alternative methods for complete questions are indicated by METHOD 1, METHOD 2, etc.
+     • Alternative solutions for part-questions are indicated by EITHER . . . OR.
+     • Where possible, alignment will also be used to assist examiners in identifying where these alternatives
+       start and finish.
+
+9    Alternative forms
+
+     Unless the question specifies otherwise, accept equivalent forms.
+
+     • As this is an international examination, accept all alternative forms of notation.
+     • In the markscheme, equivalent numerical and algebraic forms will generally be written in brackets
+       immediately following the answer.
+     • In the markscheme, simplified answers, (which candidates often do not write in examinations), will
+       generally appear in brackets. Marks should be awarded for either the form preceding the bracket or the
+       form in brackets (if it is seen).
+
+        Example: for differentiating f ( x) = 2sin(5x − 3) , the markscheme gives:
+
+               f ′ ( x) = ( 2cos(5 x − 3) ) 5 ( = 10cos(5 x − 3) )                         A1
+
+        Award A1 for ( 2cos(5x − 3) ) 5 , even if 10cos(5x − 3) is not seen.
+
+
+10   Accuracy of Answers
+
+     Candidates should NO LONGER be penalized for an accuracy error (AP).
+
+     If the level of accuracy is specified in the question, a mark will be allocated for giving the answer to the
+     required accuracy. When this is not specified in the question, all numerical answers should be given exactly
+     or correct to three significant figures. Please check work carefully for FT.
+
+11   Crossed out work
+
+     If a candidate has drawn a line through work on their examination script, or in some other way crossed out
+     their work, do not award any marks for that work.
+
+12   Calculators
+
+     A GDC is required for paper 2, but calculators with symbolic manipulation features (for example, TI-89) are
+     not allowed.
+
+     Calculator notation
+     The Mathematics HL guide says:
+             Students must always use correct mathematical notation, not calculator notation.
+     Do not accept final answers written using calculator notation. However, do not penalize the use of calculator
+     notation in the working.
+                                                      –6–              M14/5/MATHL/HP2/ENG/TZ2/XX/M
+
+
+
+13    More than one solution
+
+      Where a candidate offers two or more different answers to the same question, an examiner should only mark
+      the first response unless the candidate indicates otherwise.
+
+
+14.   Candidate work
+
+      Candidates are meant to write their answers to Section A on the question paper (QP), and Section B on
+      answer booklets. Sometimes, they need more room for Section A, and use the booklet (and often comment to
+      this effect on the QP), or write outside the box. This work should be marked.
+
+      The instructions tell candidates not to write on Section B of the QP. Thus they may well have done some
+      rough work here which they assume will be ignored. If they have solutions on the answer booklets, there is
+      no need to look at the QP. However, if there are whole questions or whole part solutions missing on answer
+      booklets, please check to make sure that they are not on the QP, and if they are, mark those whole questions
+      or whole part solutions that have not been written on answer booklets.
+                                                   –7–       M14/5/MATHL/HP2/ENG/TZ2/XX/M
+
+
+                                                 SECTION A
+
+1.   (a)   (i)    n = 27                                                   (A1)
+
+                  METHOD 1
+                          14 + 196
+                  S27 =            × 27                                   (M1)
+                             2
+                  = 2835                                                    A1
+
+                  METHOD 2
+                          27
+                  S27 =      (2 × 14 + 26 × 7)                            (M1)
+                          2
+                  = 2835                                                    A1
+
+                  METHOD 3
+                          27
+                  S27 = ∑ 7 + 7n                                          (M1)
+                          n =1
+                  = 2835                                                    A1
+
+                  27
+           (ii)   ∑ (7 + 7n) or equivalent
+                  n =1
+                                                                            A1
+
+                                 28
+            Note: Accept ∑ 7 n
+                                 n=2
+
+
+                                                                                  [4 marks]
+
+           n
+     (b)     ( 2000 − 6(n − 1) ) < 0                                      (M1)
+           2
+           n > 334.333
+           n = 335                                                          A1
+
+      Note: Accept working with equalities.
+                                                                                  [2 marks]
+
+                                                                             Total [6 marks]
+                                                  –8–             M14/5/MATHL/HP2/ENG/TZ2/XX/M
+
+
+2.   (a)   METHOD 1
+               1
+           µ = × (17.1 + 21.3)                                                 (M1)
+               2
+           µ = 19.2 (kg)                                                         A1
+           finding z value for the upper quartile = 0.674489K
+                          21.3 − 19.2                    17.1 − 19.2
+           0.674489K =                or −0.674489K =                            M1
+                              σ                              σ
+           σ = 3.11 (kg)                                                         A1
+
+           METHOD 2
+           finding z value for the upper quartile = 0.674489K
+           from symmetry the z value for a lower quartile is −0.674489K          M1
+           forming two simultaneous equations:
+                            17.1 − µ
+           −0.674489K =
+                           σ
+                       21.3 − µ
+           0.674489K =                                                           M1
+                          σ
+           solving gives:
+           µ = 19.2 (kg)                                                         A1
+           σ = 3.11 (kg)                                                         A1
+                                                                                       [4 marks]
+
+     (b)   using 100 × P( X > 22) = 100 × 0.184241K
+           = 18                                                                  A1
+
+      Note: Accept 18.4
+                                                                                        [1 mark]
+
+                                                                                  Total [5 marks]
+                                                     –9–              M14/5/MATHL/HP2/ENG/TZ2/XX/M
+
+
+3.   (a)   xA = 2.87                                                                           A1
+           xB = 6.78                                                                           A1
+                                                                                                     [2 marks]
+
+               6.77681K
+     (b)   ∫  2.87172K
+                          1 − 2sin x − x 2e− x dx                                    (M1)(A1)
+
+           = 6.76                                                                              A1
+
+      Note:       Award (M1) for definite integral and (A1) for a correct definite integral.
+                                                                                                     [3 marks]
+
+                                                                                                Total [5 marks]
+
+
+4.   (a)   METHOD 1
+                   ⎛ 1.5 ⎞
+           2arcsin ⎜     ⎟                                                                     M1
+                   ⎝ 4 ⎠
+           α = 0.769c (44.0o)                                                                  A1
+
+           METHOD 2
+           using the cosine rule:
+           32 = 42 + 42 − 2(4)(4)cos α                                                         M1
+           α = 0.769c (44.0o)                                                                  A1
+                                                                                                     [2 marks]
+
+     (b)   one segment
+                  1              1
+            A1 = × 42 × 0.76879 − × 42 × sin (0.76879)                                   M1A1
+                  2              2
+                = 0.58819K                                                                 (A1)
+           2A1 = 1.18 (cm2)                                                                 A1
+
+      Note: Award M1 only if both sector and triangle are considered.
+                                                                                                     [4 marks]
+
+                                                                                                Total [6 marks]
+                                                    – 10 –          M14/5/MATHL/HP2/ENG/TZ2/XX/M
+
+
+5.   expanding ( x − 1)3 = x 3 − 3x 2 + 3x − 1                                        A1
+                            6
+                  ⎛1        ⎞
+     expanding ⎜ + 2x ⎟ gives
+                  ⎝x        ⎠
+                                 60 12 1
+     64 x 6 + 192 x 4 + 240 x 2 + 2 + 4 + 6 + 160                              (M1)A1A1
+                                 x   x   x
+ Note:     Award (M1) for an attempt at expanding using binomial.
+                        60
+           Award A1 for 2 .
+                        x
+                        12
+           Award A1 for 4 .
+                        x
+
+     60        12
+       2
+         × −1 + 4 × −3x 2                                                            (M1)
+     x         x
+ Note:     Award (M1) only if both terms are considered.
+
+     therefore coefficient x −2 is − 96                                               A1
+
+ Note:     Accept −96x −2
+
+ Note:     Award full marks if working with the required terms only without giving
+           the entire expansion.
+                                                                                             [6 marks]
+
+
+6.   (a)    (i)    0.63 × 0.43                                                       (M1)
+
+             Note:     Award (M1) for use of the product of probabilities.
+
+                   = 0.0138                                                           A1
+
+
+            (ii)   binomial distribution X : B(6, 0.6)                               (M1)
+
+             Note:     Award (M1) for recognizing the binomial distribution.
+
+                   P ( X = 3) = 6C3 (0.6)3 (0.4)3
+                   = 0.276                                                            A1
+
+             Note:     Award (M1)A1 for 6C3 × 0.0138 = 0.276 .
+                                                                                             [4 marks]
+
+
+                                                                                            continued…
+                                                 – 11 –              M14/5/MATHL/HP2/ENG/TZ2/XX/M
+
+
+Question 6 continued
+
+     (b)   Y : B(n , 0.4)
+           P(Y ≥ 1) > 0.995
+           1 − P(Y = 0) > 0.995
+           P(Y = 0) < 0.005                                                       (M1)
+
+      Note:   Award (M1) for any of the last three lines. Accept equalities.
+
+           0.6n < 0.005                                                           (M1)
+
+      Note:   Award (M1) for attempting to solve 0.6n < 0.005 using any
+              method, eg, logs, graphically, use of solver. Accept an equality.
+
+           n > 10.4
+           ∴ n = 11                                                                 A1
+                                                                                          [3 marks]
+
+                                                                                     Total [7 marks]
+
+
+7.   (a)
+
+                                                   x=2
+
+
+
+
+                                                       x intercept
+                                                       (2.33, 0)
+
+
+
+
+                           y intercept
+                           (0, − 3.5)               y = −3
+
+
+                                                                                A1A1A1
+
+      Note:   Award A1 for correct shape, A1 for x = 2 clearly stated and A1 for y = −3
+              clearly stated.
+
+           x intercept (2.33, 0) and y intercept (0, − 3.5)                         A1
+
+      Note:   Accept –3.5 and 2.33 (7/3) marked on the correct axes.
+                                                                                           [4 marks]
+                                                                                         continued…
+                                                           – 12 –   M14/5/MATHL/HP2/ENG/TZ2/XX/M
+
+
+Question 7 continued
+
+                          1
+     (b)   x = −3 +                                                                   M1
+                         y−2
+
+      Note:     Award M1 for interchanging x and y (can be done at a later stage).
+
+                 1
+           x+3=
+                y−2
+                 1
+           y−2=                                                                       M1
+                x+3
+      Note:     Award M1 for attempting to make y the subject.
+
+                                   1 ⎛ 2x + 7 ⎞
+           f −1 ( x) = 2 +            ⎜=      ⎟ , x ≠ −3                             A1A1
+                                  x+3 ⎝ x+3 ⎠
+
+      Note:     Award A1 only if f −1 ( x ) is seen. Award A1 for the domain.
+                                                                                             [4 marks]
+
+                                                                                        Total [8 marks]
+
+
+           µ 2e− µ       µ 3e− µ        µ 5e − µ
+8.   (a)             +              =                                                (M1)
+              2!             3!           5!
+           µ2       µ3       µ5
+                +        −         =0
+            2    6 120
+           µ = 5.55                                                                   A1
+                                                                                             [2 marks]
+
+     (b)   σ = 5.55... = 2.35598...                                                  (M1)
+           P(3.19 ≤ X ≤ 7.9)
+           P(4 ≤ X ≤ 7)
+           = 0.607                                                                    A1
+                                                                                             [2 marks]
+
+                                                                                        Total [4 marks]
+                                                    – 13 –       M14/5/MATHL/HP2/ENG/TZ2/XX/M
+
+
+9.   METHOD 1
+                               1
+     volume of a cone is V = πr 2h
+                               3
+                       1 3
+     given h = r , V = πh                                                       M1
+                       3
+     dV
+         = πh 2                                                                (A1)
+      dh
+                   dV                        dV dV dh
+     when h = 4 ,      = π × 42 × 0.5 (using   =  × )                        M1A1
+                    dt                       dt dh dt
+     dV
+         = 8π ( = 25.1) (cm3 min −1 )                                           A1
+      dt
+
+     METHOD 2
+                               1
+     volume of a cone is V = πr 2h
+                               3
+                       1 3
+     given h = r , V = πh                                                       M1
+                       3
+     dV 1              dh
+         = π × 3h 2 ×                                                           A1
+      dt 3             dt
+                   dV
+     when h = 4 ,      = π × 42 × 0.5                                        M1A1
+                    dt
+     dV
+         = 8π ( = 25.1) (cm3 min −1 )                                           A1
+      dt
+
+     METHOD 3
+        1
+     V = πr 2 h
+        3
+     dV 1 ⎛       dr    dh ⎞
+        = π ⎜ 2r h + r 2 ⎟                                                   M1A1
+      dt 3 ⎝      dt    dt ⎠
+
+      Note: Award M1 for attempted implicit differentiation and A1 for
+            each correct term on the RHS.
+
+                          dV 1
+     when h = 4, r = 4,     = π ( 2 × 4 × 4 × 0.5 + 42 × 0.5 )               M1A1
+                          dt 3
+     dV
+        = 8π (= 25.1) (cm3 min −1 )                                             A1
+     dt
+                                                                                      [5 marks]
+                                                           – 14 –     M14/5/MATHL/HP2/ENG/TZ2/XX/M
+
+
+10.   (a)   METHOD 1
+            expanding the brackets first:
+            x 4 + 2 x 2 y 2 + y 4 = 4 xy 2                                           M1
+                                    dy      dy              dy
+            4 x 3 + 4 xy 2 + 4 x 2 y + 4 y 3 = 4 y 2 + 8 xy                     M1A1A1
+                                    dx      dx              dx
+       Note:       Award M1 for an attempt at implicit differentiation.
+                   Award A1 for each side correct.
+
+            dy − x 3 − xy 2 + y 2
+              =                   or equivalent                                      A1
+            dx yx 2 − 2 xy + y 3
+
+            METHOD 2
+                            ⎛          dy ⎞              dy
+            2 ( x 2 + y 2 ) ⎜ 2 x + 2 y ⎟ = 4 y 2 + 8 xy                        M1A1A1
+                            ⎝          dx ⎠              dx
+
+       Note:       Award M1 for an attempt at implicit differentiation.
+                   Award A1 for each side correct.
+
+
+            ( x + y ) ⎛⎜⎝ x + y ddyx ⎞⎟⎠ = y + 2 xy ddyx
+               2      2                    2
+
+
+
+                   dy              dy              dy
+            x3 + x 2 y+ y 2 x + y3    = y 2 + 2 xy                                   M1
+                   dx              dx              dx
+            dy − x − xy + y
+                  3      2     2
+              =                  or equivalent                                       A1
+            dx yx 2 − 2 xy + y 3
+                                                                                           [5 marks]
+
+      (b)   METHOD 1
+                          dy
+            at (1, 1) ,      is undefined                                         M1A1
+                          dx
+            y =1                                                                     A1
+
+            METHOD 2
+
+            gradient of normal = −
+                                   1
+                                      =−
+                                         ( yx 2 − 2 xy + y 3 )
+                                                                                     M1
+                                   dy    ( − x 3 − xy 2 + y 2 )
+                                   dx
+            at (1, 1) gradient = 0                                                   A1
+             y =1                                                                    A1
+                                                                                           [3 marks]
+
+                                                                                      Total [8 marks]
+                                                      – 15 –          M14/5/MATHL/HP2/ENG/TZ2/XX/M
+
+
+                                                   SECTION B
+                   π
+11.   (a)   a ∫ x cos x dx = 1
+                   2
+                                                                                       (M1)
+                  0
+
+            integrating by parts:
+
+            u=x          v′ = cos x
+                                                                                        M1
+            u′ = 1       v = sin x
+            ∫ x cos x dx = x sin x + cos x                                              A1
+                                  π
+                                       π
+            [ x sin x + cos x ] 02 =     −1                                             A1
+                                       2
+                       1
+            a=                                                                          A1
+               π
+                 −1
+               2
+               2
+            =                                                                           AG
+              π−2
+                                                                                               [5 marks]
+
+             ⎛    π⎞    2 π4
+                  4 ⎠ π − 2 ∫0
+      (b)   P⎜ X < ⎟ =         x cos x dx = 0.460                                    (M1)A1
+             ⎝
+
+                                2 ⎛ π 2     2 ⎞
+       Note:          Accept      ⎜⎜ =   +   − 1⎟⎟ or equivalent
+                               π−2⎝    8   2     ⎠
+
+                                                                                               [2 marks]
+
+      (c)   (i)        mode = 0.860                                                     A1
+                       ( x -value of a maximum on the graph over the given domain)
+
+                         2 m
+                       π − 2 ∫0
+            (ii)                x cos x dx = 0.5                                       (M1)
+                         m             π−2
+                       ∫0 x cos x dx = 4
+                                             π−2
+                       m sin m + cos m − 1 =                                           (M1)
+                                               4
+                       median = 0.826                                                   A1
+
+               Note: Do not accept answers containing additional solutions.
+
+                                                                                               [4 marks]
+
+
+
+                                                                                              continued…
+                                                 – 16 –          M14/5/MATHL/HP2/ENG/TZ2/XX/M
+
+
+Question 11 continued
+
+                             ⎛    π⎞
+                            P⎜ X < ⎟
+              ⎛    π    π⎞
+            P⎜ X < | X < ⎟ = ⎝
+                                  8⎠
+      (d)                                                                              M1
+              ⎝    8    4⎠   ⎛    π⎞
+                            P⎜ X < ⎟
+                             ⎝    4⎠
+              0.129912
+            =
+              0.459826
+
+            = 0.283                                                                    A1
+                                                                                             [2 marks]
+
+                                                                                       Total [13 marks]
+
+
+12.   (a)   C = AX × 5k + XB × k                                                     (M1)
+
+       Note: Award (M1) for attempting to express the cost in terms of AX, XB and k.
+
+
+            = 5k 4502 + x 2 + (1000 − x) k                                             A1
+            = 5k 202500 + x 2 + (1000 − x) k                                           AG
+                                                                                             [2 marks]
+
+                  dC   ⎡    5 × 2x         ⎤     ⎛    5x           ⎞
+      (b)   (i)      =k⎢                − 1⎥ = k ⎜              − 1⎟                 M1A1
+                  dx   ⎣ 2 202500 + x
+                                      2
+                                           ⎦     ⎝ 202500 + x
+                                                              2
+                                                                   ⎠
+
+             Note: Award M1 for an attempt to differentiate and A1 for the correct
+                   derivative.
+
+
+                                                                                            continued…
+                                                  – 17 –         M14/5/MATHL/HP2/ENG/TZ2/XX/M
+
+
+Question 12 continued
+
+                                          dC
+          (ii)   attempting to solve         =0                                        M1
+                                          dx
+                         5x
+                                 =1                                                    (A1)
+                   202500 + x 2
+                              ⎛ 75 6       ⎞
+                 x = 91.9 (m) ⎜ =     (m) ⎟⎟                                            A1
+                              ⎜     2
+                              ⎝            ⎠
+
+                 METHOD 1
+                 for example,
+                           dC
+                 at x = 91    = −0.00895 k < 0                                         M1
+                           dx
+                           dC
+                 at x = 92    = 0.001506 k > 0                                          A1
+                           dx
+           Note: Award M1 for attempting to find the gradient either side of
+                 x = 91.9 and A1 for two correct values.
+
+                 thus x = 91.9 gives a minimum                                         AG
+
+                 METHOD 2
+                 d 2C         1012500 k
+                      =                    3
+                 dx 2
+                          ( x2 + 202500 ) 2
+                               d 2C
+                 at x = 91.9        = 0.010451k > 0                               (M1)A1
+                               dx 2
+           Note:    Award M1 for attempting to find the second derivative and A1
+                    for the correct value.
+
+                       d 2C
+           Note:    If      is obtained and its value at x = 91.9 is not calculated,
+                       dx 2
+                    award (M1)A1 for correct reasoning eg, both numerator and
+                    denominator are positive at x = 91.9 .
+
+                 thus x = 91.9 gives a minimum                                          AG
+
+                 METHOD 3
+                                                              dC
+                 Sketching the graph of either C versus x or     versus x .            M1
+                                                              dx
+                 Clearly indicating that x = 91.9 gives the minimum on their graph.     A1
+                                                                                               [7 marks]
+
+
+                                                                                              continued…
+                                                  – 18 –     M14/5/MATHL/HP2/ENG/TZ2/XX/M
+
+
+Question 12 continued
+
+     (c)   Cmin = 3205 k                                                    A1
+
+      Note:       Accept 3200k.
+                  Accept 3204 k.
+                                                                                   [1 mark]
+
+                  ⎛     450    ⎞
+                               ⎟ = 78.463K
+                                           o
+     (d)   arctan ⎜                                                         M1
+                  ⎝ 91.855865K ⎠
+           180 − 78.463K = 101.537 K
+           = 102o                                                           A1
+                                                                                  [2 marks]
+
+                                               ⎛ 450     ⎞
+     (e)   (i)     when θ = 120o , x = 260 (m) ⎜     (m) ⎟                  A1
+                                               ⎝ 3       ⎠
+
+                       133.728K
+           (ii)                   × 100 %                                   M1
+                    3204.5407685K
+                    = 4.17 (%)                                              A1
+                                                                                  [3 marks]
+
+                                                                            Total [15 marks]
+                                                                       – 19 –   M14/5/MATHL/HP2/ENG/TZ2/XX/M
+
+
+13.   (a)   let P(n) be the proposition z n = r n (cos n θ + isin n θ ) , n ∈¢ +
+            let n = 1 ⇒
+             LHS = r (cosθ + i sinθ )
+             RHS = r (cosθ + i sinθ ) , ∴ P(1) is true                                         R1
+            assume true for n = k ⇒ r k (cosθ + isinθ )k = r k (cos (kθ ) + isin(kθ ) )        M1
+
+       Note: Only award the M1 if truth is assumed.
+
+
+            now show n = k true implies n = k + 1 also true
+            r k +1 (cos θ + isinθ )k +1 = r k +1 (cos θ + isinθ )k (cos θ + isinθ )            M1
+            = r k +1 ( cos(kθ ) + isin (kθ ) ) (cosθ + isinθ )
+            = r k +1 ( cos(kθ )cosθ − sin (kθ )sin θ + i (sin (kθ )cos θ + cos(kθ )sin θ ))    A1
+            = r k +1 ( cos (kθ + θ ) + isin (kθ + θ ) )                                        A1
+            = r ( cos (k + 1)θ + isin (k + 1) θ ) ⇒ n = k + 1 is true
+                   k +1
+                                                                                           A1
+            P( k ) true implies P(k + 1) true and P (1) is true, therefore by mathematical
+            induction statement is true for n ≥ 1                                              R1
+
+       Note: Only award the final R1 if the first 4 marks have been awarded.
+                                                                                                      [7 marks]
+                                   ⎛π⎞
+      (b)   (i)           u = 2cis ⎜ ⎟                                                         A1
+                                   ⎝3⎠
+                                    ⎛ π⎞
+                          v = 2cis ⎜ − ⎟                                                       A1
+                                    ⎝ 4⎠
+
+             Notes: Accept 3 sf answers only. Accept equivalent forms.
+                                          π                   π
+                                              i              − i
+                              Accept 2e   3       and   2e    4    .
+
+
+            (ii)          u 3 = 23 cis (π) = − 8
+                          v 4 = 4cis (−π) = − 4                                               (M1)
+                          u3v 4 = 32                                                            A1
+
+             Notes: Award (M1) for an attempt to find u 3 and v 4 .
+                    Accept equivalent forms.
+                                                                                                      [4 marks]
+
+
+                                                                                                     continued…
+                                                           – 20 –     M14/5/MATHL/HP2/ENG/TZ2/XX/M
+
+
+Question 13 continued
+
+     (c)
+
+
+
+
+                                                                                            A1
+
+      Note:        Award A1 if A or 1 + 3i and B or 1 − i are in their correct quadrants,
+                   are aligned vertically and it is clear that u > v .
+                                                                                                   [1 mark]
+
+                       1               ⎛ 5π ⎞
+     (d)   Area =        × 2 × 2 × sin ⎜ ⎟                                              M1A1
+                       2               ⎝ 12 ⎠
+                      ⎛                   ⎞
+           = 1.37 ⎜ =
+                      ⎜   4
+                           2
+                               ( 6 + 2 ) ⎟⎟                                                 A1
+                      ⎝                   ⎠
+
+                                                          7π
+      Notes:         Award M1A0A0 for using                  .
+                                                          12
+                                                                                                  [3 marks]
+
+     (e)   ( z − 1 + i)( z − 1 − i) = z 2 − 2 z + 2                                     M1A1
+
+      Note: Award M1 for recognition that a complex conjugate is also a root.
+
+
+           ( z − 1 − 3i )( z − 1 + 3i ) = z − 2 z + 4
+                                              2
+                                                                                            A1
+
+           ( z − 2z + 2)( z − 2z + 4) = z − 4z + 10z − 12z + 8
+               2                2                 4   3          2
+                                                                                        M1A1
+
+      Note: Award M1 for an attempt to expand two quadratics.
+
+                                                                                                  [5 marks]
+
+                                                                                            Total [20 marks]
+                                                 – 21 –   M14/5/MATHL/HP2/ENG/TZ2/XX/M
+
+
+14.   (a)
+
+
+
+
+                                                                         A1
+            A1 for correct shape and correct domain
+                            ⎛     2⎞
+            (1.41, 0.0884) ⎜⎜ 2,     ⎟                                   A1
+                            ⎝    16 ⎟⎠
+                                                                               [2 marks]
+
+      (b)   EITHER
+            u = t2
+            du
+               = 2t                                                      A1
+            dt
+
+            OR
+
+                  1
+            t = u2
+             dt 1 − 12
+                = u                                                      A1
+            du 2
+
+            THEN
+                 t          1     du
+            ∫ 12 + t 4 dt = 2 ∫ 12 + u 2                                 M1
+
+
+                  1         ⎛ u ⎞
+            =        arctan ⎜    ⎟ (+c)                                  M1
+                2 12        ⎝ 12 ⎠
+
+                 1       ⎛ t2 ⎞
+            =     arctan ⎜    ⎟ (+c) or equivalent                       A1
+              4 3        ⎝2 3⎠
+                                                                               [4 marks]
+
+
+                                                                              continued…
+                                                       – 22 –          M14/5/MATHL/HP2/ENG/TZ2/XX/M
+
+
+Question 14 continued
+
+               6     t
+     (c)   ∫ 12 + t dt
+              0           4
+                                                                                    (M1)
+                                               6
+            ⎡ 1         ⎛ t 2 ⎞⎤
+           =⎢    arctan ⎜     ⎟⎥                                                      M1
+            ⎣4 3        ⎝ 2 3 ⎠⎦ 0
+                   1 ⎛        ⎛ 36 ⎞ ⎞ ⎛   1 ⎛        ⎛ 18 ⎞ ⎞ ⎞
+           =         ⎜ arctan ⎜     ⎟⎟ ⎜ =   ⎜ arctan ⎜    ⎟ ⎟ ⎟ (m)                  A1
+                  4 3⎝        ⎝ 2 3 ⎠⎠ ⎝ 4 3 ⎝        ⎝ 3 ⎠⎠⎠
+
+
+      Note:        Accept
+                                 3
+                                12
+                                           (       )
+                                   arctan 6 3 or equivalent.
+
+                                                                                            [3 marks]
+
+           dv     1
+     (d)      =                                                                      (A1)
+           ds 2 s (1 − s)
+
+                     dv
+           a=v
+                     ds
+           a = arcsin         ( s ) × 2 s (11 − s)                                  (M1)
+
+
+
+           a = arcsin         ( 0.1) × 2 0.11× 0.9
+           a = 0.536          ( ms )
+                                   −2
+                                                                                      A1
+                                                                                            [3 marks]
+
+                                                                                      Total [12 marks]
+

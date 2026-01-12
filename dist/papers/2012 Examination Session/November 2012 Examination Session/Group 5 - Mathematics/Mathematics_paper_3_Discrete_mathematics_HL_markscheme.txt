@@ -1,0 +1,396 @@
+N12/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+
+
+                   MARKSCHEME
+
+
+                      November 2012
+
+
+
+                MATHEMATICS
+            DISCRETE MATHEMATICS
+
+
+
+                        Higher Level
+
+
+
+                               Paper 3
+
+
+
+
+11 pages
+                           –2–         N12/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+
+
+This markscheme is confidential and for the exclusive use of
+examiners in this examination session.
+
+It is the property of the International Baccalaureate and
+must not be reproduced or distributed to any other person
+without the authorization of the IB Assessment Centre.
+                                                    –3–            N12/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+                                         Instructions to Examiners
+
+Abbreviations
+
+M     Marks awarded for attempting to use a correct Method; working must be seen.
+
+(M)   Marks awarded for Method; may be implied by correct subsequent working.
+
+A     Marks awarded for an Answer or for Accuracy; often dependent on preceding M marks.
+
+(A)   Marks awarded for an Answer or for Accuracy; may be implied by correct subsequent working.
+
+R     Marks awarded for clear Reasoning.
+
+N     Marks awarded for correct answers if no working shown.
+
+AG    Answer given in the question and so no marks are awarded.
+
+
+Using the markscheme
+
+1     General
+
+      Mark according to scoris instructions and the document “Mathematics HL: Guidance for e-marking
+      November 2012”. It is essential that you read this document before you start marking. In particular,
+      please note the following.
+
+      Marks must be recorded using the annotation stamps. Please check that you are entering marks for
+      the right question.
+
+       If a part is completely correct, (and gains all the “must be seen” marks), use the ticks with
+        numbers to stamp full marks.
+
+       If a part is completely wrong, stamp A0 by the final answer.
+
+       If a part gains anything else, it must be recorded using all the annotations.
+
+      All the marks will be added and recorded by scoris.
+
+
+2     Method and Answer/Accuracy marks
+
+       Do not automatically award full marks for a correct answer; all working must be checked, and
+        marks awarded according to the markscheme.
+       It is not possible to award M0 followed by A1, as A mark(s) depend on the preceding M mark(s), if
+        any.
+       Where M and A marks are noted on the same line, e.g. M1A1, this usually means M1 for an
+        attempt to use an appropriate method (e.g. substitution into a formula) and A1 for using the
+        correct values.
+       Where the markscheme specifies (M2), N3, etc., do not split the marks.
+       Once a correct answer to a question or part-question is seen, ignore further working.
+                                                  –4–            N12/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+3   N marks
+
+    Award N marks for correct answers where there is no working.
+
+       Do not award a mixture of N and other marks.
+       There may be fewer N marks available than the total of M, A and R marks; this is deliberate as it
+        penalizes candidates for not following the instruction to show their working.
+
+
+4   Implied marks
+
+    Implied marks appear in brackets e.g. (M1), and can only be awarded if correct work is seen or if
+    implied in subsequent working.
+
+     Normally the correct work is seen or implied in the next line.
+     Marks without brackets can only be awarded for work that is seen.
+
+
+5   Follow through marks
+
+    Follow through (FT) marks are awarded where an incorrect answer from one part of a question is
+    used correctly in subsequent part(s). To award FT marks, there must be working present and not
+    just a final answer based on an incorrect answer to a previous part.
+
+     If the question becomes much simpler because of an error then use discretion to award fewer FT
+      marks.
+     If the error leads to an inappropriate value (e.g. sin   1.5 ), do not award the mark(s) for the final
+      answer(s).
+     Within a question part, once an error is made, no further dependent A marks can be awarded, but
+      M marks may be awarded if appropriate.
+     Exceptions to this rule will be explicitly noted on the markscheme.
+
+
+6   Mis-read
+
+    If a candidate incorrectly copies information from the question, this is a mis-read (MR). A candidate
+    should be penalized only once for a particular mis-read. Use the MR stamp to indicate that this has
+    been a mis-read. Then deduct the first of the marks to be awarded, even if this is an M mark,
+    but award all others so that the candidate only loses one mark.
+
+     If the question becomes much simpler because of the MR, then use discretion to award fewer
+      marks.
+     If the MR leads to an inappropriate value (e.g. sin   1.5 ), do not award the mark(s) for the final
+      answer(s).
+
+
+7   Discretionary marks (d)
+
+    An examiner uses discretion to award a mark on the rare occasions when the markscheme does not
+    cover the work seen. In such cases the annotation DM should be used and a brief note written next to
+    the mark explaining this decision.
+                                                           –5–           N12/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+8    Alternative methods
+
+     Candidates will sometimes use methods other than those in the markscheme. Unless the question
+     specifies a method, other correct methods should be marked in line with the markscheme. If in doubt,
+     contact your team leader for advice.
+
+      Alternative methods for complete questions are indicated by METHOD 1, METHOD 2, etc.
+      Alternative solutions for part-questions are indicated by EITHER . . . OR.
+      Where possible, alignment will also be used to assist examiners in identifying where these
+       alternatives start and finish.
+
+
+9    Alternative forms
+
+     Unless the question specifies otherwise, accept equivalent forms.
+
+      As this is an international examination, accept all alternative forms of notation.
+      In the markscheme, equivalent numerical and algebraic forms will generally be written in
+       brackets immediately following the answer.
+      In the markscheme, simplified answers, (which candidates often do not write in examinations), will
+       generally appear in brackets. Marks should be awarded for either the form preceding the bracket or
+       the form in brackets (if it is seen).
+        Example: for differentiating f ( x)  2sin (5 x  3) , the markscheme gives:
+
+               f  ( x)   2cos (5 x  3)  5     10cos (5 x  3)                        A1
+
+        Award A1 for  2cos (5 x  3)  5 , even if 10cos (5 x  3) is not seen.
+
+
+10   Accuracy of Answers
+
+     Candidates should NO LONGER be penalized for an accuracy error (AP).
+
+     If the level of accuracy is specified in the question, a mark will be allocated for giving the answer to
+     the required accuracy. When this is not specified in the question, all numerical answers should be
+     given exactly or correct to three significant figures. Please check work carefully for FT.
+
+
+11   Crossed out work
+
+     If a candidate has drawn a line through work on their examination script, or in some other way
+     crossed out their work, do not award any marks for that work.
+                                                 –6–           N12/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+12   Calculators
+
+     A GDC is required for paper 3, but calculators with symbolic manipulation features (e.g. TI-89) are
+     not allowed.
+
+     Calculator notation
+     The Mathematics HL guide says:
+         Students must always use correct mathematical notation, not calculator notation.
+     Do not accept final answers written using calculator notation. However, do not penalize the use of
+     calculator notation in the working.
+
+
+13   More than one solution
+
+     Where a candidate offers two or more different answers to the same question, an examiner should only
+     mark the first response unless the candidate indicates otherwise.
+                                                      –7–              N12/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+1.   (a)
+
+
+
+
+           from tabular method as shown above (or equivalent)                             M1A1A1
+      Note:       Award the first A1 for obtaining 3 as the shortest distance to C.
+                  Award the second A1 for obtaining the rest of the shortest distances.
+           shortest path has length 17                                                        A1
+           backtracking as shown above (or equivalent)                                      (M1)
+           shortest path is SABT                                                              A1
+                                                                                                   [6 marks]
+
+     (b)   (i)       no, as S and T have odd degree                                         A1R1
+      Note:       Mentioning one vertex of odd degree is sufficient.
+
+           (ii)      yes, as only S and T have odd degree                                   A1R1
+      Note:       In each case only award the A1 if the R1 has been given.
+                  Accept an actual trail in (b)(ii).
+                                                                                                   [4 marks]
+
+     (c)   Huan has to travel along all the edges via an open Eulerian trail of length        R1
+           4  3  5  2  1  3  5  4  7  8  5  6  7  6  6  8  9  94             A1
+           and then back to S from T along the shortest path found in (a) of length 17        R1
+           so shortest total distance is 94  17  111                                        A1
+                                                                                                   [4 marks]
+
+                                                                                             Total [14 marks]
+                                                  –8–           N12/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+2.   (a)
+
+
+
+
+                                                                                   A1A1A1A1
+      Note:   Award A1 for 1 correct graph, then A1 for each of the subsequent 3 graphs,
+              provided they are not repeated.
+                                                                                                 [4 marks]
+
+
+     (b)
+
+
+
+
+                                                                             A1A1A1A1A1A1
+      Note:   Award A1 for 1 correct tree, then A1 for each of the subsequent 5 trees,
+              provided they are not repeated.
+                                                                                                 [6 marks]
+
+                                                                                           Total [10 marks]
+                                                      –9–         N12/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+3.   (a)   METHOD 1
+
+                          861                        957            [1, 0]       [0 , 1]
+
+
+                                    −1 × 861        − 861                      − [1, 0]
+                                                       96                       [−1, 1]
+
+           −8 × 96     − 768                                   − 8[−1, 1]
+                          93                                     [9 , − 8]
+
+                                    −1 × 93         − 93                     − [9 , − 8]
+                                                       3                      [−10 , 9]
+
+           by the above working on the left (or similar)                                   M1A1A1
+      Note:   Award A1 for 96 and A1 for 93.
+           h  3 (since 3 divides 93)                                                          A1
+                                                                                                      [4 marks]
+
+           METHOD 2
+           957  861  96                                                                   M1A1
+           861  8  96  93                                                                  A1
+           96  93  3
+           so h  3 (since 3 divides 93)                                                       A1
+                                                                                                      [4 marks]
+
+     (b)   METHOD 1
+           if method 1 was used for part (a)
+           by the above working on the right (or equivalent)                                  M1
+            10  861  9  957  3
+           so A  10 and B  9                                                              A1A1
+                                                                                                      [3 marks]
+
+           METHOD 2
+           3  96  93
+              96  (861  8  96)  9  96  861                                             M1
+              9  (957  861)  861
+              10  861  9  957
+           so A  10 and B  9                                                              A1A1
+                                                                                                      [3 marks]
+
+     (c)   from (b) 10  287  9  319  1 so                                                A1
+           10  287  1(mod 319)                                                             A1
+            287w  2(mod 319)  10  287 w  10  2(mod 319)                                M1
+            w  20(mod 319)                                                                 A1
+           so w  299                                                                         A1
+                                                                                                      [5 marks]
+
+
+                                                                                                    continued …
+                                                     – 10 –         N12/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+Question 3 continued
+
+      (d)   from (b) 10  861  9  957  3  20  861  18  957  6                   M1A1
+            so general solution is x  20  319t                                         A1A1
+                                   y  18  287t (t  )                                  A1A1
+                                                                                                      [6 marks]
+
+                                                                                            Total [18 marks]
+
+
+
+4.    (a)   if p is a prime (and a  0(mod p ) with a   ) then                                A1
+                p 1
+            a           1(mod p)                                                                A1
+                                                                                                      [2 marks]
+       Note:        Accept a p  a (mod p ) .
+
+
+      (b)   by Fermat x 4  1(mod 5)                                                             A1
+            so x  1(mod 5)
+                       12
+                                                                                                 A1
+            by Fermat x  1(mod13)
+                             12
+                                                                                                 A1
+            so x  1(mod 65)
+                       12
+                                                                                                 A1
+            let x  1  65t , then 1  65t  4(mod11)
+                       12
+                                                                                             M1
+            so t  3(mod11)  t  3(mod11)
+             t  8(mod11)                                                                       A1
+             x  1  65(8  11w)  521  715w
+               12
+                                                                                             M1
+            so remainder is 521                                                              A1
+       Note:        For solutions that start by showing that x2 is congruent to 4 mod 11 award
+                    suitable discretion marks being careful that the solutions are logical and
+                    cover all possibilities.
+                                                                                                      [8 marks]
+
+                                                                                            Total [10 marks]
+                                                  – 11 –         N12/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+5.   G must have at least 3 edges                                                             R1
+     since G is connected and so it must have a spanning tree as a subgraph and also V  4
+     similarly G must have at least 3 edges                                                   R1
+     but K 4 has 6 edges so both G and G have exactly 3 edges                                 R1
+     there are two possibilities for G
+     case (i)                                           case (ii)
+
+
+                                                                                             A1A1
+     in case (ii) G is
+
+
+
+
+     this is not connected so case (ii) cannot happen                                         R1
+     in case (i) G is
+
+
+                                                                                              A1
+     this is isomorphic to
+
+
+                                                                                              A1
+     so G and G are isomorphic                                                                AG
+ Note:   There are other equally valid proofs for example considering the possible degrees
+         of the vertices.
+                                                                                              [8 marks]
+

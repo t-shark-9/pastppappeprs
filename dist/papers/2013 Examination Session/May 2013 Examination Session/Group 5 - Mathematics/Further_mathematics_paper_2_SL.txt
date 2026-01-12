@@ -1,0 +1,282 @@
+M13/5/FURMA/SP2/ENG/TZ0/XX
+
+
+
+
+     22137102
+
+Further mathematics
+STANDARD level
+Paper 2
+
+Tuesday 21 May 2013 (morning)
+
+2 hours
+
+
+Instructions to candidates
+
+ Do not open this examination paper until instructed to do so.
+ Answer all questions.
+ Unless otherwise stated in the question, all numerical answers should be given exactly or
+  correct to three significant figures.
+ A graphic display calculator is required for this paper.
+ A clean copy of the Mathematics HL and Further Mathematics SL information booklet is
+  required for this paper.
+ The maximum mark for this examination paper is [120 marks].
+
+
+
+
+2213-7102                                                                                       7 pages
+                                                        © International Baccalaureate Organization 2013
+                                                     –2–                M13/5/FURMA/SP2/ENG/TZ0/XX
+
+Please start each question on a new page. Full marks are not necessarily awarded for a correct answer
+with no working. Answers must be supported by working and/or explanations. In particular, solutions
+found from a graphic display calculator should be supported by suitable working, for example, if graphs
+are used to find a solution, you should sketch these as part of your answer. Where an answer is incorrect,
+some marks may be given for a correct method, provided this is shown by written working. You are therefore
+advised to show all working.
+
+1.    [Maximum mark: 9]
+
+      The discrete random variable X follows the distribution Geo ( p).
+
+      (a)   (i)    Write down the mode of X .
+
+                                                              28
+		          (ii)   Find the exact value of p if Var ( X ) =      .                               [3 marks]
+                                                              9
+
+      Arthur tosses a biased coin each morning to decide whether to walk or cycle to school;
+      he walks if the coin shows a head.
+
+      The probability of obtaining a head is 0.55.
+
+      (b)   (i)    Find the smallest value of n for which the probability of Arthur walking to
+                   school on the next n days is less than 0.01.
+
+		          (ii)   Find the probability that Arthur cycles to school for the third time on the
+                   last of eight successive days.                                                [6 marks]
+
+
+
+
+2213-7102
+                                                     –3–                     M13/5/FURMA/SP2/ENG/TZ0/XX
+
+2.    [Maximum mark: 27]
+
+                                                                     ∞
+                                                                            1
+      (a)   (i)    Use partial fractions to show that the series ∑                is convergent.
+                                                                  n =1 n ( n + 1)
+
+
+		          (ii)   Hence, by using the limit comparison test, determine whether the series
+                    ∞
+                        e− n                                                                         [9 marks]
+                   ∑
+                   n =1 n
+                          2
+                             is convergent or divergent.
+
+                                                       ∞ 1
+      (b)   (i)    Show that the improper integral ∫       2
+                                                            dx is convergent.
+                                                     0 x +1
+
+
+
+                                                                         ∞
+                                                                                1
+		          (ii)   Use the integral test to deduce that the series ∑          2
+                                                                                    is convergent,
+                                                                         n =0 n + 1
+
+                   giving reasons why this test can be applied.                                      [6 marks]
+
+                                         ∞
+                                             (−1) n
+      (c)   (i)    Show that the series ∑     2
+                                                    is convergent.
+                                        n =0 n + 1
+
+
+                                                                     3    2
+		          (ii)   If the sum of the above series is S, show that      <S< .                         [6 marks]
+                                                                     5    3
+
+                            ∞
+                                 xn
+      (d)   For the series ∑     2
+                           n =0 n + 1
+
+
+		          (i)    determine the radius of convergence;
+
+		          (ii)   determine the interval of convergence using your answers to (b) and (c).          [6 marks]
+
+
+
+
+2213-7102                                                                                            Turn over
+                                                        –4–                M13/5/FURMA/SP2/ENG/TZ0/XX
+
+3.    [Maximum mark: 16]
+
+      A random variable X has probability density function f given by:
+
+                                      λ e − λ x , for x ≥ 0 where λ > 0
+                             f ( x) = 
+                                             0, for x < 0.
+
+      (a)   (i)    Find an expression for P ( X > a ) , where a > 0 .
+
+            A chicken crosses a road. It is known that cars pass the chicken’s crossing
+            route, with intervals between cars measured in seconds, according to the random
+            variable X , with λ = 0.03 . The chicken, which takes 10 seconds to cross the
+            road, starts to cross just as one car passes.
+
+		          (ii)   Find the probability that the chicken will reach the other side of the road
+                   before the next car arrives.
+
+		          Later, the chicken crosses the road again just after a car has passed.
+
+		          (iii) Show that the probability that the chicken completes both crossings is
+                  greater than 0.5.                                                               [6 marks]
+
+      (b)   A rifleman shoots at a circular target.   The distance in centimetres from the
+            centre of the target at which the bullet hits, can be modelled by X with λ = 0.4 .
+            The rifleman scores 10 points if X ≤ 1 , 5 points if 1 < X ≤ 5 , 1 point if
+            5 < X ≤ 10 and no points if X > 10 .
+
+            (i)    Find the expected score when one bullet is fired at the target.
+
+            A second rifleman, whose shooting can also be modelled by  X , wishes to find his
+            value of λ .
+
+            (ii)   Given that his expected score is 6.5, find his value of λ .                   [10 marks]
+
+
+
+
+2213-7102
+                                                    –5–               M13/5/FURMA/SP2/ENG/TZ0/XX
+
+4.    [Maximum mark: 24]
+
+      A group of people: Andrew, Betty, Chloe, David, Edward, Frank and Grace, has certain
+      mutual friendships:
+
+      Andrew is friendly with Betty, Chloe, David and Edward;
+
+      Frank is friendly with Betty and Grace;
+
+      David, Chloe and Edward are friendly with one another.
+
+      (a)   (i)    Draw the planar graph H that represents these mutual friendships.
+
+		          (ii)   State how many faces this graph has.                                        [3 marks]
+
+      (b)   Determine, giving reasons, whether H has
+
+		          (i)    a Hamiltonian path;
+
+		          (ii)   a Hamiltonian cycle;
+
+		          (iii) an Eulerian circuit;
+
+		          (iv) an Eulerian trail.                                                            [8 marks]
+
+      (c)   Verify Euler’s formula for H .                                                     [2 marks]
+
+      (d)   State, giving a reason, whether or not H is bipartite.                             [2 marks]
+
+      (e)   Write down the adjacency matrix for H .                                            [2 marks]
+
+      David wishes to send a message to Grace, in a sealed envelope, through mutual friends.
+
+      (f)   In how many different ways can this be achieved if the envelope is passed seven
+            times and Grace only receives it once?                                             [7 marks]
+
+
+
+
+2213-7102                                                                                      Turn over
+                                                      –6–               M13/5/FURMA/SP2/ENG/TZ0/XX
+
+5.    [Maximum mark: 21]
+
+
+      The set S consists of real numbers r of the form r = a + b 2 , where a , b ∈  .
+
+      The relation R is defined on  S by r1Rr2 if and only if a1 ≡ a2 (mod2) and
+      b1 ≡ b2 (mod3), where r1 = a1 + b1 2 and r2 = a2 + b2 2 .
+
+      (a)   Show that R is an equivalence relation.                                            [7 marks]
+
+      (b)   Show, by giving a counter-example, that the statement r1Rr2 ⇒ r12 Rr22 is false.   [3 marks]
+
+      (c)   Determine
+
+		          (i)    the equivalence class E containing 1 + 2 ;
+
+		          (ii)   the equivalence class F containing 1 − 2 .                                  [3 marks]
+
+      (d)   Show that
+
+
+                   (1 + 2 ) ∈ F ;
+                           3
+		          (i)
+
+
+                   (1 + 2 ) ∈ E .
+                           6
+		          (ii)                                                                               [4 marks]
+
+      (e)   Determine whether the set E forms a group under
+
+		          (i)    the operation of addition;
+
+		          (ii)   the operation of multiplication.                                            [4 marks]
+
+
+
+
+2213-7102
+                                                   –7–                  M13/5/FURMA/SP2/ENG/TZ0/XX
+
+6.    [Total mark: 23]
+
+      Part A [Maximum mark: 10]
+
+      (a)   Show that the opposite angles of a cyclic quadrilateral add up to 180 .             [3 marks]
+
+      (b)   A quadrilateral ABCD is inscribed in a circle S . The four tangents to S at the
+            vertices A, B, C and D form the edges of a quadrilateral EFGH. Given that
+            EFGH is cyclic, show that AC and BD intersect at right angles.                       [7 marks]
+
+      Part B [Maximum mark: 13]
+
+      The circle C has centre O.  The point Q is fixed in the plane of the circle and outside
+      the circle. The point P is constrained to move on the circle.
+
+                                                                   →      →
+      (a)   Show that the locus of a point P′ , which satisfies QP′ = k QP , is a circle C ′ ,
+            where k is a constant and 0 < k < 1 .                                                [6 marks]
+
+      (b)   Show that the two tangents to C from Q are also tangents to C ′ .                    [4 marks]
+
+      The circle C ′ cuts the line OQ at the points X and Y.
+
+      (c)   Show that QX × QY = k 2 p , where p is the power of Q with respect to the
+            circle C .                                                                           [3 marks]
+
+
+
+
+2213-7102
+

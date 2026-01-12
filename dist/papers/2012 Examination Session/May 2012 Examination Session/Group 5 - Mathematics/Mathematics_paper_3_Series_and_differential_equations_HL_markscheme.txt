@@ -1,0 +1,404 @@
+M12/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+
+
+                   MARKSCHEME
+
+
+                           May 2012
+
+
+
+          MATHEMATICS
+SERIES AND DIFFERENTIAL EQUATIONS
+
+
+
+                        Higher Level
+
+
+
+                               Paper 3
+
+
+
+
+10 pages
+                           –2–         M12/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+
+
+This markscheme is confidential and for the exclusive use of
+examiners in this examination session.
+
+It is the property of the International Baccalaureate and
+must not be reproduced or distributed to any other person
+without the authorization of IB Cardiff.
+                                                    –3–            M12/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+                                         Instructions to Examiners
+
+Abbreviations
+
+M     Marks awarded for attempting to use a correct Method; working must be seen.
+
+(M)   Marks awarded for Method; may be implied by correct subsequent working.
+
+A     Marks awarded for an Answer or for Accuracy; often dependent on preceding M marks.
+
+(A)   Marks awarded for an Answer or for Accuracy; may be implied by correct subsequent working.
+
+R     Marks awarded for clear Reasoning.
+
+N     Marks awarded for correct answers if no working shown.
+
+AG    Answer given in the question and so no marks are awarded.
+
+
+Using the markscheme
+
+1     General
+
+      Mark according to scoris instructions and the document “Mathematics HL: Guidance for e-marking
+      May 2012”. It is essential that you read this document before you start marking. In particular, please
+      note the following.
+
+      Marks must be recorded using the annotation stamps. Please check that you are entering marks for the
+      right question.
+
+       If a part is completely correct, (and gains all the ‘must be seen’ marks), use the ticks with
+        numbers to stamp full marks.
+
+       If a part is completely wrong, stamp A0 by the final answer.
+
+       If a part gains anything else, it must be recorded using all the annotations.
+
+      All the marks will be added and recorded by scoris.
+
+
+2     Method and Answer/Accuracy marks
+
+       Do not automatically award full marks for a correct answer; all working must be checked, and
+        marks awarded according to the markscheme.
+       It is not possible to award M0 followed by A1, as A mark(s) depend on the preceding M mark(s), if
+        any.
+       Where M and A marks are noted on the same line, e.g. M1A1, this usually means M1 for an
+        attempt to use an appropriate method (e.g. substitution into a formula) and A1 for using the
+        correct values.
+       Where the markscheme specifies (M2), N3, etc., do not split the marks.
+       Once a correct answer to a question or part-question is seen, ignore further working.
+                                                  –4–             M12/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+3   N marks
+
+    Award N marks for correct answers where there is no working.
+
+       Do not award a mixture of N and other marks.
+       There may be fewer N marks available than the total of M, A and R marks; this is deliberate as it
+        penalizes candidates for not following the instruction to show their working.
+
+
+4   Implied marks
+
+    Implied marks appear in brackets e.g. (M1), and can only be awarded if correct work is seen or if
+    implied in subsequent working.
+
+     Normally the correct work is seen or implied in the next line.
+     Marks without brackets can only be awarded for work that is seen.
+
+
+5   Follow through marks
+
+    Follow through (FT) marks are awarded where an incorrect answer from one part of a question is
+    used correctly in subsequent part(s). To award FT marks, there must be working present and not
+    just a final answer based on an incorrect answer to a previous part.
+
+     If the question becomes much simpler because of an error then use discretion to award fewer FT
+      marks.
+     If the error leads to an inappropriate value (e.g. sin   1.5 ), do not award the mark(s) for the final
+      answer(s).
+     Within a question part, once an error is made, no further dependent A marks can be awarded, but
+      M marks may be awarded if appropriate.
+     Exceptions to this rule will be explicitly noted on the markscheme.
+
+
+6   Mis-read
+
+    If a candidate incorrectly copies information from the question, this is a mis-read (MR). A candidate
+    should be penalized only once for a particular mis-read. Use the MR stamp to indicate that this has
+    been a misread. Then deduct the first of the marks to be awarded, even if this is an M mark,
+    but award all others so that the candidate only loses one mark.
+
+     If the question becomes much simpler because of the MR, then use discretion to award fewer
+      marks.
+     If the MR leads to an inappropriate value (e.g. sin   1.5 ), do not award the mark(s) for the final
+      answer(s).
+
+
+7   Discretionary marks (d)
+
+    An examiner uses discretion to award a mark on the rare occasions when the markscheme does not
+    cover the work seen. In such cases the annotation DM should be used and a brief note written next to
+    the mark explaining this decision.
+                                                        –5–          M12/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+8    Alternative methods
+
+     Candidates will sometimes use methods other than those in the markscheme. Unless the question
+     specifies a method, other correct methods should be marked in line with the markscheme. If in doubt,
+     contact your team leader for advice.
+
+      Alternative methods for complete questions are indicated by METHOD 1, METHOD 2, etc.
+      Alternative solutions for part-questions are indicated by EITHER . . . OR.
+      Where possible, alignment will also be used to assist examiners in identifying where these
+       alternatives start and finish.
+
+
+9    Alternative forms
+
+     Unless the question specifies otherwise, accept equivalent forms.
+
+      As this is an international examination, accept all alternative forms of notation.
+      In the markscheme, equivalent numerical and algebraic forms will generally be written in
+       brackets immediately following the answer.
+      In the markscheme, simplified answers, (which candidates often do not write in examinations), will
+       generally appear in brackets. Marks should be awarded for either the form preceding the bracket or
+       the form in brackets (if it is seen).
+        Example: for differentiating f ( x)  2sin (5x  3) , the markscheme gives:
+
+               f  ( x)   2cos(5x  3)  5     10cos(5x  3)                            A1
+
+        Award A1 for  2cos(5x  3)  5 , even if 10cos(5x  3) is not seen.
+
+
+10   Accuracy of Answers
+
+     Candidates should NO LONGER be penalized for an accuracy error (AP).
+
+     If the level of accuracy is specified in the question, a mark will be allocated for giving the answer to
+     the required accuracy. When this is not specified in the question, all numerical answers should be
+     given exactly or correct to three significant figures. Please check work carefully for FT.
+
+
+11   Crossed out work
+
+     If a candidate has drawn a line through work on their examination script, or in some other way
+     crossed out their work, do not award any marks for that work.
+                                                 –6–            M12/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+12   Calculators
+
+     A GDC is required for paper 3, but calculators with symbolic manipulation features (e.g. TI-89) are
+     not allowed.
+
+     Calculator notation
+     The Mathematics HL guide says:
+         Students must always use correct mathematical notation, not calculator notation.
+     Do not accept final answers written using calculator notation. However, do not penalize the use of
+     calculator notation in the working.
+
+
+13   More than one solution
+
+     Where a candidate offers two or more different answers to the same question, an examiner should only
+     mark the first response unless the candidate indicates otherwise.
+                                                          –7–            M12/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+1.   apply l’Hôpital’s Rule to a 0 / 0 type limit
+           e x  1  x cos x         e x  cos x  x sin x
+     lim                       lim                                                             M1A1
+      x 0       sin 2 x        x 0     2sin x cos x
+     noting this is also a 0 / 0 type limit, apply l’Hôpital’s Rule again                        (M1)
+                    e x  sin x  x cos x  sin x
+     obtain lim                                                                                   A1
+               x 0            2cos 2 x
+     substitution of x  0                                                                       (M1)
+      0.5                                                                                         A1
+                                                                                                          [6 marks]
+
+
+2.   (a)   attempt the first step of
+            yn1  yn  (0.1) f ( xn , yn ) with y0  1, x0  0                                  (M1)
+            y1  1.1                                                                               A1
+                               1.12
+            y2  1.1  (0.1)         1.21                                                     (M1)A1
+                               1.1
+            y3  1.332(0)                                                                        (A1)
+            y4  1.4685                                                                          (A1)
+            y 5  1.62                                                                            A1
+
+                                                                                                          [7 marks]
+
+     (b)   (i)    recognition of both quotient rule and implicit differentiation                  M1
+                                      dy
+                          (1  x) 2 y  y 2  1
+                   d2 y               dx
+                                                                                               A1A1
+                   dx 2
+                                  (1  x)2
+             Note:     Award A1 for first term in numerator, A1 for everything else correct.
+                                    y2
+                       (1  x) 2 y         y 2 1
+                                  1 x                                                         M1A1
+                                (1  x) 2
+                       2 y3  y 2
+                                                                                                 AG
+                       (1  x) 2
+
+                                                     dy       x2 d2 y
+           (ii)   attempt to use y  y (0)  x          (0)          (0)                      (M1)
+                                                     dx       2! dx 2
+                               x2
+                   1 x                                                                       A1A1
+                               2
+                                                                      dy     d2y
+             Note:     Award A1 for correct evaluation of y (0),         (0), 2 (0) , A1 for
+                                                                      dx     dx
+                       correct series.
+                                                                                                          [8 marks]
+
+
+
+                                                                                                        continued …
+                                                          –8–            M12/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+
+Question 2 continued
+                                                    1           1
+      (c)    (i)       separating the variables        dy        dx                     M1
+                                                    y 2
+                                                               1 x
+                                1
+                       obtain     ln (1  x)  (c)                                       A1
+                                y
+                       impose initial condition 1  ln1  c                               M1
+                                        1
+                       obtain y                                                           A1
+                                  1  ln (1  x)
+
+
+             (ii)       y   if ln (1  x)  1 , so a  e  1                          (M1)A1
+
+               Note:      To award A1 must see either x  e  1 or a  e  1 . Do not
+                          accept x  e  1 .
+                                                                                                 [6 marks]
+
+                                                                                          Total [21 marks]
+
+
+3.    recognise equation as first order linear and attempt to find the IF                  M1
+               2
+                dt
+      IF  e   t
+                  t2                                                                      A1
+      solution yt 2   t cos t dt                                                       M1A1
+      using integration by parts with the correct choice of u and v                       (M1)
+       t cos t dt  t sin t  cos t ( C )                                                 A1
+                      sin t cos t  C
+      obtain y                                                                           A1
+                        t      t2
+                                                                                                 [7 marks]
+                                                        –9–          M12/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+                      2
+                      3
+                      n     3   A
+4.   (a)   un            or                                                               M1
+                2
+                      1     2 2n  1
+                      n
+                        1
+           using lim  0                                                                   (M1)
+                 n  n
+
+                             3
+           obtain lim un   L                                                               A1          N1
+                   n       2
+                                                                                                   [3 marks]
+
+                              7
+     (b)   un  L                                                                          (A1)
+                           2(2n  1)
+                               1     7 
+           | un  L |    n   1                                                      (M1)
+                               2  2 
+
+           (i)             0.1  N  18                                                    A1
+
+           (ii)            0.00001  N  175000                                            A1
+                                                                                                   [4 marks]
+
+                               1
+     (c)   un  L and            0                                                         M1
+                               n
+              un
+                 ( L  0)  0 , hence converges                                            A1
+               n
+                                        1
+           2un  2  2 L  2  1             1 , hence converges                         M1A1
+                                     2un  2
+      Note:       To award A1 the value of the limit and a statement of convergence must
+                  be clearly seen for each sequence.
+
+
+           (1)n un does not converge                                                        A1
+           The sequence alternates (or equivalent wording) between values close to  L       R1
+
+                                                                                                   [6 marks]
+
+                           7
+     (d)   un  L            (re: harmonic sequence)                                       M1
+                           4n
+                  
+             (un  L) diverges by the comparison theorem                                   R1
+                  n 1
+
+      Note:       Accept alternative methods.
+                                                                                                   [2 marks]
+
+                                                                                            Total [15 marks]
+                                                    – 10 –           M12/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+5.   (a)   consider the limit as R   of the (proper) integral
+              R    dx
+            2 x (ln x)k                                                             (M1)
+
+                                       1
+           substitute u  ln x , du = dx                                             (M1)
+                                       x
+                                                   ln R
+                     ln R 1         1 1 
+           obtain            du         k 1 
+                                                                                      A1
+                     ln 2 u k
+                                    k  1 u  ln 2
+      Note:    Ignore incorrect limits or omission of limits at this stage.
+
+           or ln u  ln 2 if k  1
+                     ln R
+                                                                                      A1
+
+      Note:    Ignore incorrect limits or omission of limits at this stage.
+           because ln R (and ln ln R )   as R                                    (M1)
+           converges in the limit if k  1                                             A1
+                                                                                            [6 marks]
+
+     (b)   C: terms  0 as r                                                        A1
+            ur 1  ur for all r                                                      A1
+           convergence by alternating series test                                     R1
+           AC: ( x ln x)1 is positive and decreasing on [2, )                       A1
+           not absolutely convergent by integral test using part (a) for k  1        R1
+                                                                                            [5 marks]
+
+                                                                                     Total [11 marks]
+

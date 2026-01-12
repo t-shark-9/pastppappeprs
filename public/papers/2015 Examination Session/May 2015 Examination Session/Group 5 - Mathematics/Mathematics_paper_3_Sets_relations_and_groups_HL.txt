@@ -1,0 +1,146 @@
+m15/5/MATHL/HP3/eng/TZ0/SG
+
+
+
+
+Mathematics
+Higher level
+Paper 3 – sets, relations and groups
+
+
+Thursday 21 May 2015 (afternoon)
+
+
+1 hour
+
+
+Instructions to candidates
+yyDo not open this examination paper until instructed to do so.
+yyAnswer all the questions.
+yyUnless otherwise stated in the question, all numerical answers should be given exactly or
+  correct to three significant figures.
+yyA graphic display calculator is required for this paper.
+yyA clean copy of the mathematics HL and further mathematics HL formula booklet is
+  required for this paper.
+yyThe maximum mark for this examination paper is [60 marks].
+
+
+
+
+                                                                                              2215 – 7209
+     4 pages                                              © International Baccalaureate Organization 2015
+                                                      –2–                       m15/5/MATHL/HP3/eng/TZ0/SG
+
+Please start each question on a new page. Full marks are not necessarily awarded for a correct answer
+with no working. Answers must be supported by working and/or explanations. In particular, solutions
+found from a graphic display calculator should be supported by suitable working. For example, if
+graphs are used to find a solution, you should sketch these as part of your answer. Where an answer
+is incorrect, some marks may be given for a correct method, provided this is shown by written working.
+You are therefore advised to show all working.
+
+1.   [Maximum mark: 13]
+
+     Consider the set S3 = { p , q , r , s , t , u} of permutations of the elements of the set {1 , 2 , 3} ,
+     defined by
+
+                              1 2 3      1 2 3         1 2 3
+                            p=      , q =       , r = 3 2 1 ,
+                              1 2 3      1 3 2              
+
+                              1 2 3        1 2 3       1 2 3
+                           s=       , t =  2 3 1 , u =      .
+                              2 1 3                    3 1 2
+
+     Let  denote composition of permutations, so a  b means b followed by a . You may
+     assume that ( S3 ,  ) forms a group.
+
+     (a)   Complete the following Cayley table
+
+
+                                          p      q     r      s      t     u
+                                     p
+                                     q                   t                  s
+                                     r            u            t     s      q
+                                     s            t     u                   r
+                                     t            s     q      r
+                                    u             r     s      q
+                                                                                                               [5]
+
+     (b)   (i)    State the inverse of each element.
+
+		         (ii)   Determine the order of each element.                                                         [6]
+
+     (c)   Write down the subgroups containing
+
+		(i)             r,
+
+		(ii)            u.                                                                                           [2]
+                                                       –3–                    m15/5/MATHL/HP3/eng/TZ0/SG
+
+2.   [Maximum mark: 10]
+
+     The binary operation * is defined for x , y ∈ S = {0 , 1 , 2 , 3 , 4 , 5 , 6} by
+
+                                            x ∗ y = ( x 3 y − xy ) mod 7 .
+
+     (a)   Find the element e such that e * y = y , for all y ∈ S .                                   [2]
+
+     (b)   (i)    Find the least solution of x * x = e .
+
+		         (ii)   Deduce that (S , *) is not a group.                                                 [5]
+
+     (c)   Determine whether or not e is an identity element.                                         [3]
+
+
+3.   [Maximum mark: 12]
+
+     The relation R is defined on  by xRy if and only if x2y ≡ y mod 6 .
+
+     (a)   Show that the product of three consecutive integers is divisible by 6.                     [2]
+
+     (b)   Hence prove that R is reflexive.                                                           [3]
+
+     (c)   Find the set of all y for which 5Ry .                                                      [3]
+
+     (d)   Find the set of all y for which 3Ry .                                                      [2]
+
+     (e)   Using your answers for (c) and (d) show that R is not symmetric.                           [2]
+
+
+4.   [Maximum mark: 9]
+
+     Let X and Y be sets. The functions f : X → Y and g : Y → X are such that g  f is the
+     identity function on X .
+
+     (a)   Prove that
+
+		(i)             f is an injection,
+
+		(ii)            g is a surjection.                                                                  [6]
+
+     (b)   Given that X = + ∪ {0} and Y =  , choose a suitable pair of functions f and g to
+           show that g is not necessarily a bijection.                                                [3]
+
+
+
+
+                                                                                                Turn over
+                                                  –4–                    m15/5/MATHL/HP3/eng/TZ0/SG
+
+5.   [Maximum mark: 16]
+
+     Consider the sets
+
+                               n                        m                 
+                           G =  i | n ∈  , i ∈  , H =  j | m ∈  , j ∈  .
+                               6                        3                 
+
+     (a)   Show that (G , +) forms a group where + denotes addition on  . Associativity may be
+           assumed.                                                                               [5]
+
+     (b)   Assuming that (H , +) forms a group, show that it is a proper subgroup of (G , +) .    [4]
+
+     The mapping φ : G → G is given by φ ( g) = g + g , for g ∈ G .
+
+     (c)   Prove that φ is an isomorphism.                                                        [7]
+

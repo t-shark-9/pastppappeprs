@@ -1,0 +1,114 @@
+M17/5/MATHL/HP3/ENG/TZ0/DM
+
+
+
+
+Mathematics
+Higher level
+Paper 3 – discrete mathematics
+
+
+Monday 8 May 2017 (afternoon)
+
+
+1 hour
+
+
+Instructions to candidates
+yyDo not open this examination paper until instructed to do so.
+yyAnswer all the questions.
+yyUnless otherwise stated in the question, all numerical answers should be given exactly or
+  correct to three significant figures.
+yyA graphic display calculator is required for this paper.
+yyA clean copy of the mathematics HL and further mathematics HL formula booklet is
+  required for this paper.
+yyThe maximum mark for this examination paper is [50 marks].
+
+
+
+
+                                                                                              2217 – 7207
+     3 pages                                              © International Baccalaureate Organization 2017
+                                                  –2–                   M17/5/MATHL/HP3/ENG/TZ0/DM
+
+Please start each question on a new page. Full marks are not necessarily awarded for a correct answer
+with no working. Answers must be supported by working and/or explanations. In particular, solutions
+found from a graphic display calculator should be supported by suitable working. For example, if
+graphs are used to find a solution, you should sketch these as part of your answer. Where an answer
+is incorrect, some marks may be given for a correct method, provided this is shown by written working.
+You are therefore advised to show all working.
+
+1.   [Maximum mark: 16]
+
+     (a)   Use the Euclidean algorithm to find the greatest common divisor of 264 and 1365.         [5]
+
+     (b)   (i)    Hence, or otherwise, find the general solution of the Diophantine equation
+
+                                         264x - 1365y = 3 .
+
+		         (ii)   Hence find the general solution of the Diophantine equation
+
+                                         264x - 1365y = 6 .                                         [8]
+
+     (c)   By expressing each of 264 and 1365 as a product of its prime factors, determine the
+           lowest common multiple of 264 and 1365.                                                  [3]
+
+
+2.   [Maximum mark: 12]
+
+     The weights of the edges in the complete graph G are given in the following table.
+
+
+                                           A     B     C      D    E     F
+
+                                     A     –     4     9      8    14    6
+
+                                     B     4     –     1      14   9     3
+
+                                     C     9     1     –      5    12    2
+
+                                     D     8     14    5      –    11    12
+
+                                     E     14    9     12     11   –     7
+
+                                     F     6     3     2      12   7     –
+
+
+     (a)   Starting at A , use the nearest neighbour algorithm to find an upper bound for the
+           travelling salesman problem for G .                                                      [5]
+
+     (b)   By first deleting vertex A , use the deleted vertex algorithm together with Kruskal’s
+           algorithm to find a lower bound for the travelling salesman problem for G .              [7]
+                                                      –3–                 M17/5/MATHL/HP3/ENG/TZ0/DM
+
+3.   [Maximum mark: 9]
+
+     (a)   In the context of graph theory, explain briefly what is meant by
+
+		(i)             a circuit;
+
+		         (ii)   an Eulerian circuit.                                                              [2]
+
+     (b)   The graph G has six vertices and an Eulerian circuit. Determine whether or not its
+           complement G' can have an Eulerian circuit.                                              [3]
+
+     (c)   Find an example of a graph H , with five vertices, such that H and its complement H'
+           both have an Eulerian trail but neither has an Eulerian circuit. Draw H and H' as your
+           solution.                                                                                [4]
+
+
+4.   [Maximum mark: 13]
+
+     Consider the recurrence relation aun + 2 + bun + 1 + cun = 0 , n ∈  where a , b and c are
+     constants. Let α and β denote the roots of the equation ax2 + bx + c = 0 .
+
+     (a)   Verify that the recurrence relation is satisfied by
+
+                                                    un = Aαn + Bβ n ,
+
+           where A and B are arbitrary constants.                                                   [4]
+
+     (b)   Solve the recurrence relation
+
+           un + 2 – 2un + 1 + 5un = 0 given that u0 = 0 and u1 = 4 .                                [9]
+

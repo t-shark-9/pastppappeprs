@@ -1,0 +1,279 @@
+N13/5/COMSC/HP2/ENG/TZ0/XX
+
+
+
+
+     88137012
+
+Computer science
+HIGHER level
+Paper 2
+
+Friday 15 November 2013 (morning)
+
+2 hours 15 minutes
+
+
+INSTRUCTIONS TO CANDIDATES
+
+•   Do not open this examination paper until instructed to do so.
+•   Answer all the questions.
+•   A clean copy of the Computer Science case study is required for this paper.
+•   The maximum mark for this examination paper is [100 marks].
+
+
+
+
+8813-7012                                                                                             7 pages
+                                                              © International Baccalaureate Organization 2013
+                                                     –2–                  N13/5/COMSC/HP2/ENG/TZ0/XX
+
+Answer all the questions.
+
+1.    A program is written to help farm management.  The following class is used to create
+      objects representing fields in a farm.
+
+      public class FarmField
+      {
+        String fieldName;    // Unique name for the field
+        int fieldSize;       // Size of the field in square metres
+        int soilType;        // A value indicating soil acidity
+        int fertilizerType; // A value indicating the type of fertilizer
+        int cropType;        // Crop type: 1=Corn, 2=Soybeans, 3=Alfalfa, etc.
+      }
+
+      (a)   (i)    Construct an empty FarmField object named firstField.                            [1 mark]
+
+            (ii)   Construct the statements that will assign values of a 12,000 square metre
+                   field named “Back forty” to the firstField object.                               [2 marks]
+
+      The class Farm is used to store the information for each farm.
+
+      Each Farm object contains:
+      • the name of the farmer
+      • an ID number for the farm
+      • the number of fields in that farm
+      • an array of FarmField objects called theFields.
+
+      (b)   Construct the class Farm.                                                               [3 marks]
+
+      The data for a number of farms is stored in the array allFarms[].  The array contains
+      more elements than there are Farm objects.  The first part of the array contains Farm
+      objects and the remainder of the array contains null elements.
+
+      (c)   Construct the method findLargest that will return the size of the largest field
+            from all of the farms that have data stored in the array.  It has been started below.
+
+            int findLargest(Farm[] allFarms)
+            {
+            		       …
+            }                                                                                       [6 marks]
+
+      (d)   Describe, with the help of diagrams, how a new Farm object can be inserted at
+            the beginning of the array allFarms[].                                                  [4 marks]
+
+
+
+
+                                                             (This question continues on the following page)
+
+
+
+8813-7012
+                                                   –3–                 N13/5/COMSC/HP2/ENG/TZ0/XX
+
+(Question 1 continued)
+
+      The FarmPasture class is used to create objects representing fields in which animals
+      are kept.
+
+      public class FarmPasture
+      {
+        String fieldName;   // Unique name for the field
+        int fieldSize;      // Size of the field in square metres
+        int animalType;     // Animal type: 1=Cow, 2=Sheep, 3=Hog, etc.
+        int animalNumber;   // The number of animals in the pasture
+      }
+
+      (e)   Suggest, with the use of code, how inheritance could be used to avoid duplication
+            of common elements between the FarmField and FarmPasture classes.                   [4 marks]
+
+
+
+
+8813-7012                                                                                       Turn over
+                                                   –4–                N13/5/COMSC/HP2/ENG/TZ0/XX
+
+2.    A large collection of names is stored in a binary search tree of NameNode objects.
+
+      public class NameNode
+      {
+           public String name;
+           public NameNode leftChild;
+           public NameNode rightChild;
+
+            public NameNode(String newName)
+            {
+                 name = newName;
+                 leftChild = null;
+                 rightChild = null;
+            }
+      }
+
+
+      (a)   Explain why, in the above class, the variable leftChild is of type NameNode.        [2 marks]
+
+      The binary search tree is an instance of the Tree class.
+
+      public class Tree
+      {
+           public NameNode treeRoot;
+
+            public Tree()
+            {
+                 treeRoot = null;
+            }
+
+            void addNode(NameNode newNode)
+            {
+                 ... // Adds a node to a tree
+            }
+
+            boolean findName(String givenName)
+            {
+                 ...
+            }
+
+            void displayNames(NameNode root)
+            {
+                 ...
+            }
+      }
+
+      (b)   Outline the result of executing the following code.
+
+            Tree myTree = new Tree();
+            myTree.addNode(new NameNode(“Charley”));                                            [2 marks]
+
+
+
+                                                           (This question continues on the following page)
+
+
+8813-7012
+                                                  –5–               N13/5/COMSC/HP2/ENG/TZ0/XX
+
+(Question 2 continued)
+
+      Further nodes are added to the tree.
+
+      (c)   In parts (i) and (ii) below, you can assume that the corresponding method was
+            passed the variable searchName.
+
+            (i)    Outline the steps required to delete the appropriate node if the node
+                   containing searchName was found to be a leaf node.                       [4 marks]
+
+            (ii)   Explain how the process becomes more complex if the node to be deleted
+                   has a single child (which is a leaf node).                               [2 marks]
+
+      (d)   Construct the method findName() that will return true if givenName is already
+            in the tree myTree and false otherwise.                                         [4 marks]
+
+      (e)   Construct the recursive method displayNames() that outputs in alphabetical
+            order the list of names stored in an instance of the Tree class.                [6 marks]
+
+
+
+
+8813-7012                                                                                   Turn over
+                                                        –6–               N13/5/COMSC/HP2/ENG/TZ0/XX
+
+3.    A team of marine biologists is tracking the movements of a large number of whales.  
+      Each whale has a device attached to it that transmits the whale’s identifier number and
+      location every time it surfaces after a dive.  A computer in a research lab receives all
+      of these location reports.
+
+      The lab computer also maintains a direct access master file that includes a record for
+      each whale being tracked.  These records contain:
+
+      •     an identifier number for the whale
+      •     the number of dives the whale has made
+      •     the last recorded location of the whale
+      •     the total distance the whale has travelled
+      •     the date and time of the last location report.
+
+      (a)      Identify the key field of the master file.                                           [1 mark]
+
+      (b)      (i)    Suggest how the direct access master file should be organized,
+                      including any conditions that should be placed on the key field.              [3 marks]
+
+               (ii)   Describe the processing that would take place to allow a particular record
+                      to be accessed.                                                               [3 marks]
+
+      Each time a whale surfaces, its device sends the whale’s identifier number and
+      current location.
+
+      (c)      Outline how the appropriate record in the master file will be updated each time a
+               location report is received.                                                         [5 marks]
+
+      As each location report is received it is added to an archive file.  Over a period of time,
+      this archive file will contain far more data than could be loaded into the
+      lab computer’s memory.
+
+      (d)      Describe how the archive file could be sorted by the lab computer.                   [4 marks]
+
+      (e)      Discuss any ethical issues that should be considered before deciding whether to
+               release this information into the public domain.                                     [4 marks]
+
+
+
+
+8813-7012
+                                                    –7–               N13/5/COMSC/HP2/ENG/TZ0/XX
+
+This question requires the use of the Case Study.
+
+4.    (a)   Outline two precautions that a mobile device user can take to prevent their data
+            from being compromised if they lose their mobile device.                           [4 marks]
+
+      (b)   Outline two reasons why a phone designer might choose to integrate a solar
+            power panel into a mobile device.                                                  [4 marks]
+
+      (c)   Identify three reasons why many Bluetooth devices can operate in the same
+            office building without interfering with one another.                              [3 marks]
+
+      (d)   Compare the use of Ethernet with Bluetooth for data communication in
+            smartphones.                                                                       [3 marks]
+
+      Many mobile phones now have GPS integrated into them so that the user’s location
+      can be sent to data services.
+
+      (e)   Discuss the advantages and disadvantages of letting a mobile device transmit the
+            user’s location.                                                                   [6 marks]
+
+      (f)   Smartphones contain several different kinds of memory.
+
+            (i)    State the type of memory in which applications (“apps”) would be stored
+                   when the mobile device is powered off.                                      [1 mark]
+
+            (ii)   Describe the function of cache memory.                                      [3 marks]
+
+      (g)   The use of smartphone devices and apps has the potential to affect the health of
+            mobile phone users.
+
+            (i)    Outline two ways in which this use can help mobile phone users to
+                   be healthy.                                                                 [4 marks]
+
+            (ii)   Outline one way in which this use can harm the health of mobile
+                   phone users.                                                                [2 marks]
+
+      (h)   Explain two consequences of the change of protocols for 4G phones.                 [4 marks]
+
+      (i)   Discuss the effects that the widespread ownership of smartphones is having
+            on students.                                                                       [6 marks]
+
+
+
+
+8813-7012
+

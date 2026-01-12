@@ -1,0 +1,236 @@
+M13/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+
+
+                   MARKSCHEME
+
+
+                           May 2013
+
+
+
+                MATHEMATICS
+            DISCRETE MATHEMATICS
+
+
+
+                        Higher Level
+
+
+
+                               Paper 3
+
+
+
+
+11 pages
+                           –2–        M13/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+
+
+This markscheme is confidential and for the exclusive use of
+examiners in this examination session.
+
+It is the property of the International Baccalaureate and
+must not be reproduced or distributed to any other person
+without the authorization of the IB Assessment Centre.
+                                                     –7–            M13/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+1.   (a)   using the Euclidean Algorithm,
+           332 = 3 × 99 + 35                                                               M1
+            99 = 2 × 35 + 29                                                               A1
+            35 = 1× 29 + 6
+            29 = 4 × 6 + 5                                                                 A1
+              6 = 1× 5 + 1                                                                 A1
+           hence 332 and 99 have a gcd of 1                                                AG
+
+      Note: For both (a) and (b) accept layout in tabular form, especially the brackets
+            method of keeping track of the linear combinations as the method
+            proceeds.
+                                                                                                   [4 marks]
+
+     (b)   (i)    working backwards,                                                      (M1)
+                   6 −5 =1
+                   6 − (29 − 4 × 6) = 1 or 5 × 6 − 29 = 1                                   A1
+                   5 × (35 – 29) – 29 = 1 or 5 × 35 – 6 × 29 = 1                            A1
+                   5 × 35 – 6 × (99 – 2 × 35) = 1 or 17 × 35 – 6 × 99 = 1
+                  17 × (332 – 3 × 99) – 6 × 99 = 1 or 17 × 332 – 57 × 99 = 1                A1
+                  a solution to the Diophantine equation is therefore
+                   x = 17, y = 57                                                         (A1)
+                  the general solution is
+                   x = 17 + 99 N , y = 57 + 332 N                                         A1A1
+
+            Note: If part (a) is wrong it is inappropriate to give FT in (b) as the
+                  numbers will contradict, however the M1 can be given.
+
+           (ii)   it follows from previous work that
+                  17 × 332 = 1 + 99 × 57                                                  (M1)
+                           ≡ 1(mod 57)                                                     (A1)
+                   z = 332 is a solution to the given congruence                           (A1)
+                  the general solution is 332 + 57N so the smallest solution is 47          A1
+                                                                                                  [11 marks]
+
+                                                                                           Total [15 marks]
+                                                   –8–            M13/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+2.   (a)   (i)    there is an Eulerian trail because there are only 2 vertices of odd degree    R1
+                  there is no Eulerian circuit because not all vertices have even degree        R1
+
+           (ii)   eg GBAGFBCFECDE                                                               A2
+                                                                                                     [4 marks]
+
+     (b)   (i)    Step   Vertices labelled     Working values
+                   1     A                     A(0), B-3, G-2                            M1A1
+                   2     A, G                  A(0), G(2), B-3, F-8                        A1
+                   3     A, G, B               A(0), G(2), B(3), F-7, C-10                 A1
+                   4     A, G, B, F            A(0), G(2), B(3), F(7), C-9, E-12
+                   5     A, G, B, F, C         A(0), G(2), B(3), F(7), C(9), E-10, D-15    A1
+                   6     A, G, B, F, C, E      A(0), G(2), B(3), F(7), C(9), E(10), D-14
+                   7     A, G, B, F, C, E, D   A(0), G(2), B(3), F(7), C(9), E(10), D(14) A1
+
+            Note: In both (i) and (ii) accept the tabular method including back
+                  tracking or labels by the vertices on a graph.
+
+            Note: Award M1A1A1A1A0A0 if final labels are correct but
+                  intermediate ones are not shown.
+
+           (ii)   minimum weight path is ABFCED                                                 A1
+                  minimum weight is 14                                                          A1
+            Note: Award the final two A1 marks whether or not Dijkstra’s Algorithm
+                  is used.
+                                                                                                     [8 marks]
+
+                                                                                               Total [12 marks]
+                                                 –9–          M13/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+3.   (a)   the equation can be written as
+            (3n + 3) 2 = n3 + 3n 2 + 3n + 1                                            M1A1
+           any valid method of solution giving n = 8                                  (M1)A1
+
+      Note: Attempt to change at least one side into an equation in n gains the M1.
+                                                                                               [4 marks]
+
+     (b)   METHOD 1
+           as decimal numbers,
+            (33)8 = 27, (1331)8 = 729                                                  A1A1
+           converting to base 7 numbers,
+                   27 = (36)7                                                            A1
+                  7)729                                                                  M1
+                  7)104(1
+                  7) 14(6
+                  7) 2(0
+                  7) 0(2
+           therefore 729 = (2061)7                                                       A1
+           the required equation is
+           362 = 2061                                                                    A1
+
+           METHOD 2
+           as a decimal number, (33)8 = 27                                               A1
+           converting to base 7,
+                  27 = (36)7                                                             A1
+           multiplying base 7 numbers
+                     36
+                   × 36
+                  1440                                                                   M1
+                   321                                                                   A1
+                  2061                                                                   A1
+           the required equation is
+           362 = 2061                                                                    A1
+
+      Note: Allow M1 for showing the method of converting a number to base 7
+            regardless of what number they convert.
+                                                                                               [6 marks]
+
+                                                                                        Total [10 marks]
+                                                  – 10 –        M13/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+4.   (a)   evaluating the adjacency matrix to the fifth power                        (M1)
+           number of walks = 14                                                        A2
+                                                                                               [3 marks]
+
+     (b)   number of edges in G = 5                                                       A1
+                                   5
+           number of edges in G′ =   − 5                                           (M1)
+                                    2
+           =5                                                                             A1
+
+      Note: Allow listing of edges in G ′ or drawing graphs.
+                                                                                               [3 marks]
+
+     (c)   (i)    the adjacency matrix of G′ is
+
+                                         B        D    A        C   E
+                                  B      0        1    0        1   1
+                                  D      1        0    0        0   0
+                                  A      0        0    0        1   0
+                                  C      1        0    1        0   1
+                                  E      1        0    0        1   0
+                                                                                          A4
+
+            Note: Award A3 for one error, A2 for two errors, A1 for three errors and A0
+                  for more than three errors.
+
+           (ii)   it follows that G and G′ are isomorphic because the adjacency
+                  matrices of G and G′ are identical                                      R1
+            Note:    Or equivalent comprehensive explanation.
+                                                                                               [5 marks]
+
+     (d)   let H have e edges                                                             M1
+                                    6
+           number of edges in H ′ =   − e = 15 − e                                      A1
+                                     2
+           for an isomorphism to exist, these must be equal:                              M1
+           e = 15 − e  e = 7.5                                                           A1
+           which is impossible so no isomorphism                                          AG
+                                                                                               [4 marks]
+
+                                                                                      Total [15 marks]
+                                                    – 11 –          M13/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+5.   (a)   using Fermat’s little theorem,
+            k p ≡ k (mod p )                                                                (M1)
+           therefore,
+            p               p
+
+            k p ≡  k (mod p)
+           k =1            k =1
+                                                                                             M1
+
+                     p ( p + 1)
+                       ≡        (mod p)                                                      A1
+                         2
+                  ≡ 0(mod p)                                                                 AG
+                 ( p + 1)
+           since           is an integer (so that the right-hand side is a multiple of p)    R1
+                    2
+                                                                                                   [4 marks]
+
+     (b)   using the alternative form of Fermat’s little theorem,
+           k p −1 ≡ 1(mod p ), 1 ≤ k ≤ p − 1                                                 A1
+             p −1
+            k ≡ 0(mod p ), k = p                                                             A1
+           therefore,
+            p                p −1
+
+           k
+           k =1
+                    p −1
+                           ≡ 1 (+0)(mod p)
+                             k =1
+                                                                                             M1
+
+            ≡ p − 1(mod p )                                                                  A1
+           (so n = p − 1 )
+
+      Note: Allow first A1 even if qualification on k is not given.
+                                                                                                   [4 marks]
+
+                                                                                             Total [8 marks]
+

@@ -1,0 +1,144 @@
+N17/5/MATHL/HP3/ENG/TZ0/SP
+
+
+
+
+Mathematics
+Higher level
+Paper 3 – statistics and probability
+
+
+Thursday 16 November 2017 (afternoon)
+
+
+1 hour
+
+
+Instructions to candidates
+yy Do not open this examination paper until instructed to do so.
+yy Answer all the questions.
+yy Unless otherwise stated in the question, all numerical answers should be given exactly or
+   correct to three significant figures.
+yy A graphic display calculator is required for this paper.
+yy A clean copy of the mathematics HL and further mathematics HL formula booklet is
+   required for this paper.
+yy The maximum mark for this examination paper is [50 marks].
+
+
+
+
+                                                                                               8817 – 7210
+     4 pages                                               © International Baccalaureate Organization 2017
+                                                    –2–                       N17/5/MATHL/HP3/ENG/TZ0/SP
+
+Please start each question on a new page. Full marks are not necessarily awarded for a correct answer
+with no working. Answers must be supported by working and/or explanations. In particular, solutions
+found from a graphic display calculator should be supported by suitable working. For example, if
+graphs are used to find a solution, you should sketch these as part of your answer. Where an answer
+is incorrect, some marks may be given for a correct method, provided this is shown by written working.
+You are therefore advised to show all working.
+
+1.   [Maximum mark: 7]
+
+     A continuous random variable T has a probability density function defined by
+
+                                             t (4 − t2 )
+                                                         , 0≤t ≤2 .
+                                    f (t ) =      4
+                                                           otherwise
+                                                  0,
+
+     (a)   Find the cumulative distribution function F(t) , for 0 ≤ t ≤ 2 .                              [3]
+
+     (b)   (i)    Sketch the graph of F(t) for 0 ≤ t ≤ 2 , clearly indicating the coordinates of the
+                  endpoints.
+
+		         (ii)   Given that P(T < a) = 0.75 , find the value of a .                                     [4]
+
+
+2.   [Maximum mark: 8]
+
+     Anne is a farmer who grows and sells pumpkins. Interested in the weights of pumpkins
+     produced, she records the weights of eight pumpkins and obtains the following results in
+     kilograms.
+
+                                7.7 7.5 8.4 8.8 7.3 9.0 7.8 7.6
+
+     Assume that these weights form a random sample from a N(µ , σ 2) distribution.
+
+     (a)   Determine unbiased estimates for µ and σ 2 .                                                  [3]
+
+     (b)   Anne claims that the mean pumpkin weight is 7.5 kilograms. In order to test this claim,
+           she sets up the null hypothesis H0 : µ = 7.5 .
+
+		         (i)    Use a two-tailed test to determine the p-value for the above results.
+
+		         (ii)   Interpret your p-value at the 5 % level of significance, justifying your conclusion.   [5]
+                                                        –3–               N17/5/MATHL/HP3/ENG/TZ0/SP
+
+3.   [Maximum mark: 12]
+
+     A random variable X is distributed with mean µ and variance σ 2 . Two independent random
+     samples of sizes n1 and n2 are taken from the distribution of X . The sample means
+         —       —
+     are X1 and X2 respectively.
+
+                              —           —
+     (a)   Show that U = a X1 + (1 - a) X2 , a ∈  , is an unbiased estimator of µ .                     [3]
+
+
+                                               σ2              σ2
+     (b)   (i)     Show that Var(U ) = a          + (1 − a ) 2    .
+                                           2
+
+                                               n1              n2
+
+		         (ii)    Find, in terms of n1 and n2 , an expression for a which gives the most efficient
+                   estimator of this form.
+
+		         (iii)   Hence find an expression for the most efficient estimator and interpret the result.   [9]
+
+
+4.   [Maximum mark: 8]
+
+     The random variables U , V follow a bivariate normal distribution with product moment
+     correlation coefficient ρ .
+
+     (a)   State suitable hypotheses to investigate whether or not U , V are independent.                [2]
+
+     A random sample of 12 observations on U , V is obtained to determine whether there is
+     a correlation between U and V .  The sample product moment correlation coefficient is
+     denoted by r . A test to determine whether or not U , V are independent is carried out at
+     the 1 % level of significance.
+
+     (b)   Find the least value of |r| for which the test concludes that ρ ≠ 0 .                         [6]
+
+
+
+
+                                                                                                  Turn over
+                                                     –4–                   N17/5/MATHL/HP3/ENG/TZ0/SP
+
+5.   [Maximum mark: 15]
+
+     The random variable X follows a Poisson distribution with mean λ . The probability
+     generating function of X is given by GX (t) = eλ(t - 1) .
+
+     (a)   (i)    Find expressions for G'X(t) and G"X(t) .
+
+		         (ii)   Hence show that Var(X ) = λ .                                                          [5]
+
+     The random variable Y , independent of X , follows a Poisson distribution with mean µ .
+
+     (b)   By considering the probability generating function, GX + Y (t) , of X + Y , show that X + Y
+           follows a Poisson distribution with mean λ + µ .                                              [3]
+
+                                                                   x            n− x
+                                                     n λ          λ 
+     (c)   (i)    Show that P(X = x | X + Y = n) =             1−     , where n , x are
+                                                     x λ + µ   λ + µ 
+                  non-negative integers and n ≥ x .
+
+
+		         (ii)   Identify the probability distribution given in part (c)(i) and state its parameters.   [7]
+

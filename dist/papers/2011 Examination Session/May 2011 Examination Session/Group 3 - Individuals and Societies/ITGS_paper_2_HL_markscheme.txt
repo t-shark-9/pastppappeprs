@@ -1,0 +1,570 @@
+M11/3/ITGSX/HP2/ENG/TZ0/XX/M
+
+
+
+
+                   MARKSCHEME
+
+
+                               May 2011
+
+
+
+      INFORMATION TECHNOLOGY IN A
+            GLOBAL SOCIETY
+
+
+
+                         Higher Level
+
+
+
+                               Paper 2
+
+
+
+
+16 pages
+                              –2–             M11/3/ITGSX/HP2/ENG/TZ0/XX/M
+
+
+
+
+This markscheme is confidential and for the exclusive use of
+examiners in this examination session.
+
+It is the property of the International Baccalaureate and must not
+be reproduced or distributed to any other person without the
+authorization of IB Cardiff.
+                                                    –3–            M11/3/ITGSX/HP2/ENG/TZ0/XX/M
+
+
+Examiners should be aware that in some cases, candidates may take a different approach, which if
+appropriate should be rewarded. If in doubt, check with your Team Leader.
+
+In the case of an “identify” question read all answers and mark positively up to the maximum marks.
+Disregard incorrect answers. In the case of a “describe” question, which asks for a certain number of
+facts e.g. “describe two kinds”, mark the first two correct answers. This could include two descriptions,
+one description and one identification, or two identifications. In the case of an “explain” question,
+which asks for a specified number of explanations e.g. “explain two reasons”, mark the first two
+correct answers. This could include two full explanations, one explanation, one partial explanation, etc.
+
+“ITGS terminology refers to both the IT technical terminology and to the terminology related to social
+and ethical impacts.”
+
+                                Area of impact: Business and employment
+
+1.   (a)   (i)     Identify the key field in the RECEIVER_OF_LOAN table.                        [1 mark]
+
+                   Business_ID.
+
+                   Award [1 mark] for the correct answer.
+
+           (ii)    Identify the data type for the field Phone_Number in the
+                   RECEIVER_OF_LOAN table.                                                      [1 mark]
+
+                   text/alphanumeric/string
+
+                   Award [1 mark] for the correct answer.
+
+                   N.B. “Number” is not appropriate as this data type would not
+                   accommodate numbers beginning with “0”.
+
+                   Do not accept: letters or word
+
+     (b)   The database administrator wishes to produce an alphabetical list of lenders
+           from France who have contributed at least US$50 after 01/01/2001.
+
+           Describe the query that produces the list specified above.                          [4 marks]
+
+           •     Amount_Loaned>=50
+           •     Date_Loaned>01/01/2001
+           •     Country=France
+           •     Sort/display alphabetically by Family_Name.
+
+           Award [1 mark] for each of the above statements up to a maximum of [4 marks].
+                                              –4–               M11/3/ITGSX/HP2/ENG/TZ0/XX/M
+
+
+(c)   The field Business_Description should not be included in the LOANS table
+      because this would lead to data redundancy.
+
+      Explain why this could lead to inaccuracies in the database.                          [4 marks]
+
+      Answers may include:
+      • at data entry, if Business_Description is included in both the
+        RECEIVER_OF_LOAN and the LOANS table, then a typing error will result
+        in two different versions of the same data
+      • during editing (i.e. Business_Description is updated) a failure to update entries
+        in both tables will result in two different versions of the same data
+      • different versions of data will lead to different output depending on
+        whether a query includes the Business_Description field from the
+        RECEIVER_OF_LOAN or the LOANS table.
+
+      [1 mark]
+      A limited response that indicates very little understanding of the topic.
+
+      [2–3 marks]
+      A reasonable description of reasons for not including the field in the LOANS table
+      although the answer may lack appropriate reasoning at the lower end of the band.
+
+      [4 marks]
+      A clear, detailed and balanced explanation of the reasons for not including the
+      field in the LOANS table.
+                                                –5–                   M11/3/ITGSX/HP2/ENG/TZ0/XX/M
+
+
+(d)   “Kiva provides a data-rich, transparent lending platform. We are constantly
+      working to make the system more transparent to show how money flows
+      throughout the entire cycle, and what effect it has on the people and
+      institutions that lend, manage and borrow it along the way.”
+
+                           [Source: http://kiva.org/about, 25 September 2009]
+
+      Discuss what online services the Kiva web site could provide for effective
+      online reporting back to the lenders about the status of the recipient’s
+      business and the loan repayments.                                          [10 marks]
+
+      Answers may include:
+      • e-mail alerts – send e-mail alerts to lenders each time a loan repayment is made
+        informing them of the repayment amount/amount still owing
+      • cell (mobile) phone alerts
+      • web site with a secure web page for each lender – e.g. the web page may
+        include descriptions of outstanding loans and the status of the repayment
+      • web site with a secure page for each business – this could include details of all
+        loans, lenders and payments and videos/images of the business
+      • web site with graphic information – maps, interactive charts, graphs showing
+        information about lenders and statistics of loans embedded Google map
+        locating the business, track bar showing loan status
+      • widget to add to a web page/wiki – providing feedback on a lender’s
+        businesses/as a language translator
+      • blog – providing regular updates on status of loans
+      • forums – questions and answers about loans may be posted
+      • chat – lenders could chat with a Kiva representative about loans
+      • RSS feeds – lenders could subscribe to RSS feeds e.g. to hear podcast updates
+        on a business
+      • the site could enable subscription to newsletters which are sent automatically to
+        lenders
+      • searchable database – Kiva posts updates to the database which can be viewed
+        from a web page.
+      • online rating system on the KIVA website to show status of the recipient’s
+        business.
+
+      Concerns for discussion
+      • download speed may be a limiting factor when accessing some of these
+        services
+      • security is important to protect lenders’ privacy regarding their loans
+      • some services require the user to download additional software which may
+        have implications for security, disk space.
+
+      In part (d) of this question it is expected there will be a balance in the ITGS
+      terminology between IT technical terminology and the terminology related to
+      social and ethical impacts.
+
+      Please see generic markband information sheet on page 16.
+                                                 –6–               M11/3/ITGSX/HP2/ENG/TZ0/XX/M
+
+
+                      Area of impact: Arts, entertainment and leisure / Health
+
+2.   (a)   Define the term sensor.                                                               [2 marks]
+
+           Answers may include:
+           • a device that detects changes in a physical stimulus / responds to a physical
+             stimulus / measures a physical quantity
+           • a device that records a signal that can be measured / identification of a type of
+             sensor, e.g. one that measures body temperature
+           • a device that can measure analogue data which is then converted into digital
+             data for analysis by a computer
+           • it generates a signal as output / sends a signal to a computer
+
+           Award [1 mark] for each of the above points up to a maximum of [2 marks].
+
+     (b)   Describe the steps involved in the transmission of the user’s heart rate data
+           to the exercise watch and then to the Garmin web site.                        [4 marks]
+
+           Answers may include:
+           • sensors on the chest strap detect the heartbeat
+           • data is read as analogue then converted to a digital signal
+           • a signal is transmitted by the chest strap to the watch
+           • the signal may be sent by radio pulse/Bluetooth
+           • the watch acts as a receiver
+           • data is stored in the watch’s memory
+           • the heart rate is displayed on the watch face
+           • the user logs on to the web site using an ID and password
+           • upload takes place using a cable/USB/flash drive to the computer/or wirelessly
+             syncs to the Garmin website
+           • [on the website] the user clicks a button/uses special Garmin software/drags
+             data across to upload data on the Garmin upload page
+
+           Award [1 mark] for each step in the process up to a maximum of [4 marks].
+                                             –7–                M11/3/ITGSX/HP2/ENG/TZ0/XX/M
+
+
+(c)   Some users have seen unusual/unexpected information displayed on
+      the watch.
+
+      Explain two possible causes of inaccuracies in the data.                           [4 marks]
+
+      Answers may include:
+      • the watch has a limited amount of storage available – if data is not deleted all
+        the new data may not be recorded/recording errors could occur
+      • the chest strap may not be correctly worn – the signal may not be transmitted
+        correctly
+      • sampling frequency – less frequent sampling may result in less accurate results
+      • calibration – incorrect calibration could lead to errors as the base starting point
+        would be wrong
+      • digitization error – errors may occur when the signal is converted to a
+        digital form
+      • noise/interference – noise / magnetic fields may interfere with the reading
+      • malfunction of the sensor – data capture may be intermittent
+      • personal information is wrongly entered – this would lead to incorrect
+        calculations of fitness.
+      • a dying battery – giving unexpected results due to a weak signal/could affect
+        data stored in memory
+
+      Award [1 mark] for possible cause of inaccuracy of data up to a maximum of
+      [2 marks]. Award an additional [1 mark] for the explanation of each possible
+      cause up to a maximum of [2 marks]. Mark the first two possible causes
+      identified.
+                                            –8–               M11/3/ITGSX/HP2/ENG/TZ0/XX/M
+
+
+(d)   Exercise watches have become very popular for athletes and individuals who
+      exercise regularly. Evaluate the feature of this technology for the user.  [10 marks]
+
+      Answers may include:
+      Positives
+      • allows the wearer to monitor and adjust exercise using watch feedback/web
+        analysis during the training session – feedback is immediate
+      • exercise data can be stored, tracked and later analysed on the Web site
+      • some watches include GPS which allows the wearer to calculate distance and
+        speed when running
+      • accuracy of calculations – measurements are exact and not subject to human
+        error in measurement/calculation
+      • features such as the heart rate monitor give a better overview of the results
+        of exercise
+      • feedback is immediate – so the program can be instantly adjusted
+      • fitness programs, e.g. goals can be set for the amount of calories to be burned –
+        this could provide motivation for the exercise program
+      • safety features – safe zones can be determined once personal data (e.g. height,
+        weight, age) is inputted
+      • using the inputted personal data (e.g. height, weight, age) performances can be
+        measured against benchmarks – this provides feedback on the success of the
+        exercise program.
+      • data resulting from the exercise can be shared with other users online
+
+      Negatives
+      • inaccurate readings
+      • approximations due to sampling frequencies
+      • limited memory could mean new data is not recorded
+      • privacy of personal data stored on the web site complacency or worry due to
+        inaccuracies – possible inappropriate adjustment of exercise programs.
+
+      In part (d) of this question it is acceptable if there is more emphasis on
+      the terminology related to social and ethical impacts and less on IT
+      technical terminology.
+
+      Please see generic markband information sheet on page 16.
+                                                 –9–              M11/3/ITGSX/HP2/ENG/TZ0/XX/M
+
+
+                           Area of impact: Science and the environment
+
+3.   (a)   Identify two methods of updating a database with data from a spreadsheet.           [2 marks]
+
+           • import wizard
+           • link the database and spreadsheet – updates are automatic / use a macro to automatically
+             update
+           • copy and paste.
+
+           Award [1 mark] for each method up to a maximum of [2 marks].
+
+     (b)   A spreadsheet will be unreliable if data has been entered incorrectly.
+
+           Describe two ways to prevent the input of invalid data.                             [4 marks]
+
+           Answers may include:
+           • set validation checks on cells – this can restrict the type of data that can be
+             entered / prevent data being entered if it is outside a certain range
+           • cells can be locked – this prevents users changing cells that must not be
+             changed / passwords only allow privileged users to make changes
+           • data entry can be limited to predefined values using a drop-down list of
+             valid entries.
+
+           Award [1 mark] for identifying each way up to a maximum of [2 marks].
+           Award an additional [1 mark] for the description of each way up to a maximum of
+           an additional [2 marks].
+                                            – 10 –             M11/3/ITGSX/HP2/ENG/TZ0/XX/M
+
+
+(c)   The output from the spreadsheet (Diagram 2) contains valuable data for
+      users of the web site. Compare two different ways a user may choose to save
+      copies of this data to a personal computer (PC).                            [4 marks]
+
+      Answers may include:
+      • the data can be downloaded as an XLS file – this allows the user to perform
+        calculations in a spreadsheet
+      • the data can be downloaded as a data file/CSV file/comma-delimited format/
+        comma-separated values – this allows data to easily be shared between
+        applications (columns are separated by a comma and rows begin on a new line)
+      • the data can be saved as a PDF – this allows the user to read/store/print the data
+        but the user cannot operate on the numbers
+      • a screen shot could be taken and saved to disk – this allows the user to
+        read/store/print the data but the user cannot operate on the numbers, it may be
+        difficult to read
+      • the data can be copied and pasted into a spreadsheet – this gives the user access
+        to the numerical data and the ability to perform calculations.
+      • the data can be saved in HTML format (File => save as) – this does not allow
+        manipulation of the data
+
+      [1–2 marks]
+      A limited description that shows some understanding of the two ways a user may
+      choose to save copies of this data to a personal computer. The two ways are
+      described in isolation.
+
+      [3–4 marks]
+      An explicit and direct comparison of the two ways a user may choose to save
+      copies of this data to a personal computer.
+                                           – 11 –            M11/3/ITGSX/HP2/ENG/TZ0/XX/M
+
+
+(d)   Many companies create their own spreadsheets so they can use the data
+      from the government bureau of meteorology web site in order to assist in
+      their decision-making. Results are often limited due to poor design,
+      maintenance or control of these spreadsheets.
+
+      Discuss the policies that a company can implement to overcome such
+      problems.                                                          [10 marks]
+
+      Answers may include:
+      • testing – all formulae should be tested – values can be set to zero and all
+        formulae should output zero / the trace function in Excel shows relationships
+        between cells and formulae / manual checking of output with varying
+        input values
+      • design should take into account ease of use – minimum inputs, clear, consistent
+        and attractive layout
+      • documentation must be provided – e.g. original design/modifications
+      • if a spreadsheet is shared a single copy should be located centrally and all
+        updates made to this file – otherwise multiple versions of the same spreadsheet
+        will result
+      • data should be protected from accidental deletion or alteration – individual
+        cells can be locked to prevent data being deleted or changed
+      • data should only be available to authorized users – the spreadsheet can be
+        password protected / files can be stored on secure servers
+      • the spreadsheet should be protected from viruses/malware – this can be
+        achieved with regular virus scans/regular Windows updates to MS Office
+      • a backup routine must be implemented – daily, weekly, monthly backups /
+        backup media stored off site
+      • consideration should be given to new software updates which may provide
+        enhanced decision making features
+      • data from the government web site should be downloaded on a regular basis to
+        ensure currency of information
+      • training needs to be provided for staff who are involved in designing,
+        maintaining or controlling the spreadsheets.
+      • spreadsheet software must be robust/offer online help/include templates
+
+      In part (d) of this question it is expected there will be a balance in the ITGS
+      terminology between IT technical terminology and the terminology related to
+      social and ethical impacts.
+
+      Please see generic markband information sheet on page 16.
+                                                  – 12 –             M11/3/ITGSX/HP2/ENG/TZ0/XX/M
+
+
+                        Area of impact: Education / Politics and government
+
+4.   (a)   Identify two steps that must be taken in order for students to be able to log in
+           to the school network shown in the diagram above.                                [2 marks]
+
+           Answers may include:
+           • a student is assigned an account
+           • enter username and password [to log on to the school server]
+           • user name and password is checked against a database of network accounts
+           • students need to be located within range of the wireless network/hotspot / need to
+             connect their laptop to the wireless network
+           • enter a password for the wireless network
+           • students with private laptops may need to configure the laptop to access the network.
+
+           Award [1 mark] for each of the above points up to a maximum of [2 marks].
+
+     (b)   Describe the role of the uninterruptible power supply (UPS) and the role of
+           the firewall shown in the diagram above.                                    [4 marks]
+
+           Answers may include:
+           UPS
+           • it is battery powered and will keep a computer running for several minutes
+              after a power failure
+           • allows data in RAM to be saved
+           • allows a safe shutdown routine to occur.
+           • it acts as a surge protector to prevent surge of electricity e.g. during a storm or
+              power cut
+           Firewall
+           • prevents unauthorized access to or from a private network
+           • examines each message passing through and blocks those it deems a
+              security risk
+           • is frequently used to prevent unauthorized Internet users from accessing a
+              private network
+           • can create a list of trusted websites and/or list of websites to be blocked
+           • protects users from malware.
+
+           Award [1 mark] for identifying the role of the UPS and the role of the firewall up
+           to a maximum of [2 marks]. Award an additional [1 mark] for the description of
+           each role up to a maximum of an additional [2 marks].
+                                             – 13 –             M11/3/ITGSX/HP2/ENG/TZ0/XX/M
+
+
+(c)   Explain why a school may decide to spend their money on training and
+      network infrastructure before purchasing more hardware and software. [4 marks]
+
+      Answers may include:
+      Training
+      • teachers may not have sufficient skills to use the hardware and software in
+        their teaching
+      • technical staff may not have sufficient technical skills to manage a
+        larger network
+      • students may need extra classes/teaching in order to maximise the benefits of
+        new and possibly different hardware/software
+      • the school may train staff in the new software/hardware so they are proficient
+        when it arrives/so they can decide on their exact licensing needs.
+
+      Infrastructure
+      • without a suitable network infrastructure (cables/wireless access point)
+         new computers can only be used as standalone and will not have access to
+         shared files/Intranet/shared apps etc
+      • if applications are stored on network servers, new servers/server upgrades may
+         be needed to accommodate extra software
+      • students may only have access to dial up Internet, therefore purchasing
+         a broadband connection may be considered more beneficial than
+         further computers
+      • they may wish to ensure the current network is totally reliable/secure/adequate
+         (e.g. regarding storage/backup/firewall) before adding complications with more
+         machines/remote access/wireless access.
+
+
+      [1 mark]
+      A limited response that indicates very little understanding of the topic.
+
+      [2–3 marks]
+      A reasonable description of reasons for this decision although the answer may
+      lack appropriate balance and reasoning at the lower end of the band.
+      Award [2 marks] for a training and an infrastructure need identified or
+      one described. Award [3 marks] for a training and an infrastructure need
+      both described.
+
+      [4 marks]
+      A clear, detailed and balanced explanation of the reasons for this decision.
+                                            – 14 –            M11/3/ITGSX/HP2/ENG/TZ0/XX/M
+
+
+(d)   In certain schools, students are able to purchase their own laptops which
+      can be brought into school and configured to access the school network.
+      Evaluate the school’s decision to allow this to happen.                   [10 marks]
+
+      Answers may include:
+      Positive impacts
+      • increased access to IT in classes – enabling incorporation of IT in the
+        curriculum
+      • increased access to the Internet – for information research/global collaboration
+      • increased flexible learning – laptops can be taken to each class
+      • laptops can be used outside the classroom – e.g. taken on field trips/excursions
+      • cost savings for the school – if parents purchase laptops there will be less need
+        for computer labs/less cost for printed materials as many schools use e-books
+      • laptops are becoming more affordable and features are improving for lower
+        end machines end machines
+      • cost saving to parents if children can use a private laptop they have at home
+      • students who use a private laptop can choose their own hardware and
+        applications – they may prefer a more advanced computer and the school
+        laptops may be entry level
+      • students will be more familiar with their private laptops/applications and this
+        could lead to greater productivity/schools will need to do less training and
+        therefore have more time for teaching the curriculum
+      • work is easily transported between home and school – no need to transport
+        work on a USB
+      • students may be more responsible for their own laptops
+      • students can synchronise their iPhone with their own laptop – they may
+        download apps for school use – this may not be possible with school
+        computers.
+
+      Considerations
+      • schools may not have the network infrastructure (wireless access/cabling etc.)
+        to support additional computers
+      • concerns about potential viruses being uploaded from student laptops
+      • students may download inappropriate material to their laptops at home – this
+        could be shared/displayed at school
+      • there may not be sufficient technical support staff to assist students with
+        technical problems – it will be harder to assist students with private laptops
+        which may be configured differently/have different operating systems from the
+        school network
+      • teachers may not be sufficiently IT literate to manage laptops in the classroom
+      • cost to parents for software purchase and hardware upgrades
+      • equality of access – not all students will be able to afford their own laptops
+      • some students will have more powerful laptops – this may give them an
+        advantage in class
+      • responsibility for security of personal laptops at school – who is responsible if
+        they are damaged or stolen?
+      • school may require students to install certain software (e.g. screen viewing
+        software) – software may conflict with other programs on their laptop
+      • unauthorised access to personal data on a private laptop.
+                                   – 15 –           M11/3/ITGSX/HP2/ENG/TZ0/XX/M
+
+
+In part (d) of this question it is acceptable if there is more emphasis on
+the terminology related to social and ethical impacts and less on IT
+technical terminology.
+
+Please see generic markband information sheet on page 16.
+                                                – 16 –           M11/3/ITGSX/HP2/ENG/TZ0/XX/M
+
+
+Markband for all extended response questions.
+
+                          No knowledge or understanding of IT issues and concepts or use of
+                    0
+                          ITGS terminology.
+                          A brief and generalized response with very little knowledge and
+                1–2 marks understanding of IT issues and concepts with very little use of
+                          ITGS terminology.
+                          A response that may include opinions, conclusions and/or judgments
+                          that are no more than unsubstantiated statements.
+                          The response will largely take the form of a description with a limited
+                          use of ITGS terminology and some knowledge and/or understanding of
+                          IT issues and/or concepts.
+                3–5 marks
+                          If no reference is made to the information in the stimulus material,
+                          award up to [3 marks].
+                                At the top end of this band the description is sustained.
+                                At the lower end of the band a tendency towards fragmentary,
+                                common sense points with very little use of ITGS terminology.
+                          A response that demonstrates opinions, conclusions and/or judgments
+                          that have limited support.
+                          The response is a competent analysis that uses ITGS terminology
+   Opinion                appropriately. If there is no reference to ITGS terminology the
+   discuss,               candidate cannot access this markband.
+  evaluate,               There is evidence that the response is linked to the information in the
+   justify,               stimulus material.
+ recommend      6–8 marks       At the top end of the band the response is balanced,
+ and to what                    the response is explicitly linked to the information in the stimulus
+    extent                      material and there may be an attempt to evaluate it in the form of
+                                largely unsubstantiated comments. There is also evidence of
+                                clear and coherent connections between the IT issues.
+                                At the lower end of the band the response may lack depth,
+                                be unbalanced or tend to be descriptive. There may be also
+                                implicit links to the information in the stimulus.
+                          A detailed and balanced (at least one argument in favour and one
+                          against) response that demonstrates opinions, conclusions and/or
+                          judgments that are well supported and a clear understanding of the
+                          way IT facts and ideas are related.
+                          Thorough knowledge and understanding of IT issues and concepts.
+                          Appropriate use of ITGS terminology and application to specific
+               9–10 marks
+                          situations throughout the response. If there is no reference to ITGS
+                          terminology candidates cannot access this markband.
+                          The response is explicitly linked to the information in the stimulus
+                          material.
+                                At the lower end of the band opinions, conclusions and/or
+                                judgment may be tentative.
+
+“ITGS terminology refers to both the IT technical terminology and to the terminology related to
+social and ethical impacts.”
+

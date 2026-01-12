@@ -1,0 +1,147 @@
+M17/5/MATHL/HP3/ENG/TZ0/SE
+
+
+
+
+Mathematics
+Higher level
+Paper 3 – calculus
+
+
+Monday 8 May 2017 (afternoon)
+
+
+1 hour
+
+
+Instructions to candidates
+yyDo not open this examination paper until instructed to do so.
+yyAnswer all the questions.
+yyUnless otherwise stated in the question, all numerical answers should be given exactly or
+  correct to three significant figures.
+yyA graphic display calculator is required for this paper.
+yyA clean copy of the mathematics HL and further mathematics HL formula booklet is
+  required for this paper.
+yyThe maximum mark for this examination paper is [50 marks].
+
+
+
+
+                                                                                              2217 – 7208
+     4 pages                                              © International Baccalaureate Organization 2017
+                                                      –2–                  M17/5/MATHL/HP3/ENG/TZ0/SE
+
+Please start each question on a new page. Full marks are not necessarily awarded for a correct answer
+with no working. Answers must be supported by working and/or explanations. In particular, solutions
+found from a graphic display calculator should be supported by suitable working. For example, if
+graphs are used to find a solution, you should sketch these as part of your answer. Where an answer
+is incorrect, some marks may be given for a correct method, provided this is shown by written working.
+You are therefore advised to show all working.
+
+1.   [Maximum mark: 7]
+
+     Use l’Hôpital’s rule to determine the value of
+                                                         sin 2 x
+                                               lim                 .
+                                                x → 0 x ln(1 + x )
+
+
+
+
+2.   [Maximum mark: 6]
+
+     Let the Maclaurin series for tan x be
+
+                                     tan x = a1 x + a3 x3 + a5 x5 + …
+
+     where a1 , a3 and a5 are constants.
+
+     (a)   Find series for sec2 x , in terms of a1 , a3 and a5 , up to and including the x4 term
+
+		         (i)    by differentiating the above series for tan x ;
+
+		         (ii)   by using the relationship sec2 x = 1 + tan2 x .                                   [3]
+
+     (b)   Hence, by comparing your two series, determine the values of a1 , a3 and a5 .            [3]
+                                                   –3–                      M17/5/MATHL/HP3/ENG/TZ0/SE
+
+3.   [Maximum mark: 9]
+
+                                                                      ∞
+                                                                             1
+     Use the integral test to determine whether the infinite series   ∑ n ln n is convergent or
+                                                                      n=2
+     divergent.
+
+
+4.   [Maximum mark: 13]
+
+     (a)   Consider the differential equation
+
+                                         dy      y
+                                            = f  , x > 0 .
+                                         dx     x
+
+		         Use the substitution y = vx to show that the general solution of this differential
+           equation is
+                                        dv
+                                   ∫ f (v) −=
+                                            v
+                                              ln x + Constant .                                       [3]
+
+
+     (b)   Hence, or otherwise, solve the differential equation
+
+                                    dy x 2 + 3 xy + y 2
+                                       =                , x > 0,
+                                    dx        x2
+
+		         given that y = 1 when x = 1 . Give your answer in the form y = g(x) .                     [10]
+
+
+
+
+                                                                                                Turn over
+                                                   –4–                 M17/5/MATHL/HP3/ENG/TZ0/SE
+
+5.   [Maximum mark: 15]
+
+                                 1
+     Consider the curve y =        , x > 0.
+                                 x
+
+     (a)   By drawing a diagram and considering the area of a suitable region under the curve,
+           show that for r > 0 ,
+                                           1        r + 1 1
+                                              < ln       < .                                   [4]
+                                         r +1       r  r
+
+     (b)   Hence, given that n is a positive integer greater than one, show that
+
+                  n
+                        1
+		(i)            ∑ r > ln(1 + n) ;
+                 r =1
+
+
+                  n
+                        1
+		(ii)           ∑ r < 1 + ln n .
+                 r =1
+                                                                                                 [6]
+
+
+                        n
+                             1
+		Let Un =            ∑ r − ln n .
+                      r =1
+
+
+     (c)   Hence, given that n is a positive integer greater than one, show that
+
+		(i)           Un > 0 ;
+
+		(ii)          Un + 1 < Un .                                                                    [4]
+
+     (d)   Explain why these two results prove that {Un} is a convergent sequence.               [1]
+

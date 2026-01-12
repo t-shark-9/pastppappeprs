@@ -1,0 +1,380 @@
+M13/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+
+
+                   MARKSCHEME
+
+
+                           May 2013
+
+
+
+                COMPUTER SCIENCE
+
+
+
+                      Standard Level
+
+
+
+                               Paper 1
+
+
+
+
+10 pages
+                              –2–            M13/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+
+
+This markscheme is confidential and for the exclusive use of
+examiners in this examination session.
+
+It is the property of the International Baccalaureate and must not
+be reproduced or distributed to any other person without the
+authorization of the IB Assessment Centre.
+                                                 –5–              M13/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+Subject Details:            Computer Science SL Paper 1 Markscheme
+Mark Allocation
+
+Section A: Candidates are required to answer all questions. Total 30 marks.
+Section B: Candidates are required to answer all questions. Total 40 marks.
+           Maximum total = 70 marks.
+
+General
+
+A markscheme often has more specific points worthy of a mark than the total allows. This is intentional.
+Do not award more than the maximum marks allowed for that part of a question.
+
+When deciding upon alternative answers by candidates to those given in the markscheme, consider the
+following points:
+
+      Each statement worth one point has a separate line and the end is signified by means of a
+        semi-colon (;).
+
+      An alternative answer or wording is indicated in the markscheme by a “/”; either wording can
+        be accepted.
+
+      Words in ( … ) in the markscheme are not necessary to gain the mark.
+
+      If the candidate’s answer has the same meaning or can be clearly interpreted as being the
+        same as that in the markscheme then award the mark.
+
+      Mark positively. Give candidates credit for what they have achieved and for what they have
+        got correct, rather than penalizing them for what they have not achieved or what they have got
+        wrong.
+
+      Remember that many candidates are writing in a second language; be forgiving of minor
+        linguistic slips. In this subject effective communication is more important than grammatical
+        accuracy.
+
+     Occasionally, a part of a question may require a calculation whose answer is required for
+        subsequent parts. If an error is made in the first part then it should be penalized. However, if
+        the incorrect answer is used correctly in subsequent parts then follow through marks should
+        be awarded. Indicate this with “FT”.
+                                                 –6–              M13/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+                                             SECTION A                                 Total: [30 marks]
+
+1.   Award up to [2 marks max] for max two forms.
+     Barcode scanner;
+     OCR/OMR scanner;
+     MICR reader;
+     Voice recognition;
+     Directly-interfaced sensors, eg a temperature probe;
+     Smart Card reader;                                                                        [2 marks]
+
+
+2.   Award up to [4 marks] as follows:
+     [1 mark] for a stated advantage and [1 mark] for an expansion relevant to protest groups.
+     [1 mark] for a stated disadvantage and [1 mark] for an expansion relevant to protest groups.
+
+     Example of answers:
+
+     Advantages / Disadvantages:
+                  Pervasiveness;
+                  Immediacy;
+                  Accessibility;
+                  Anonymity
+                  Visibility;
+                  Multimedia nature of social networks;
+                  Information stored on the server;
+
+     Expansion: Help the group in organizing themselves quickly/broadly;
+                Contribute spreading the reasons of the protest;
+                Gain of visibility on media/political level;
+                Support publishing multimedia files that can document the protest, and
+                these can be used in several different ways (including defensive one or
+                to gain consensus from public opinion);
+
+                  Allows members with different objectives (undercover agents,
+                  radical exponents, or those opposed to the groups aims) to monitor the
+                  activities of the group;
+                  Compromise the identity of the group members;
+                  Misdirect the group to thwart them from the original purposes;               [4 marks]
+                                                  –7–               M13/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+
+3.   Award [1 mark] for each use (two uses) up to [2 marks max]. Accept any software tool
+     used to develop a large project which is composed of multiple components/sub-systems.
+           Summarise requirements;
+           Developing flow diagrams;
+           Scheduling tasks in development;
+           Preparing documentation;
+           Controlling system versions;
+           Developing code;
+           A statement that indicates a recognition that these tools are for coordinating the
+           design and development of multiple subsystems/parts within a larger project;         [2 marks]
+
+4.   (a)   Award up to [2 marks max].
+           Controls fetching instructions from memory;
+           Controls/directs transfer of data within the CPU;
+           Via the memory data and address buses;
+           Interprets instructions;
+           Controls/directs execution of instructions;
+           Controls/directs storing data in memory;                                             [2 marks]
+
+     (b)   Award up to [2 marks max].
+           Registers hold memory addresses;
+           The larger register can address a larger number of distinct memory locations;
+           Size of memory is 2n where n is the number of bits in the register;                  [2 marks]
+           Do not accept “if one is bigger, the other is bigger” unless fully explained.
+
+
+5.   Award [1 mark] for naming the disadvantage and [1 mark] for an explanation up to
+     [2 marks max].
+
+     Possible answers (there may be others)
+
+     Performances drop;
+           Because of the time to switch among applications;
+           The time to search/access files on the hard disk;
+           Access speed of secondary memory versus primary;
+
+     May require more HW;
+          Because part of the hard disk is reserved to virtual memory, hence additional
+          storage space might be necessary;
+
+     Increase power consumption;
+           Because the overall processing time slows down;                                      [2 marks]
+
+
+6.   Award up to [2 marks max].
+     Scan files searching for viruses;
+     Remove the viruses / alerts the user;
+     Scan incoming files to detect if they contain known virus;                                 [2 marks]
+                                                   –8–             M13/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+
+7.   Award [2 marks max] for one difference, in terms of both ASCII and Unicode.
+
+     Possible answers:
+     ASCII uses 7 bit;
+     Unicode extends it to 8/16/32 bit;
+     Hence Unicode requires more disk space;
+
+     ASCII encodes only 128 characters by assigning numbers;
+     Unicode may use different and more sophisticated representation;
+
+     ASCII American English alphabet+ control;
+     Unicode tries to include all possible existing alphabets;                                 [2 marks]
+
+8.   (a)   Award [1mark] for the correct answer;
+           Award [1 mark] for the conversion up to [2 marks max];
+
+           (189)10  (161  11  160  13)10
+            (BD)16                                                                            [2 marks]
+
+     (b)   Award [1 mark] for the correct answer, and [1 mark] for evidence of correct
+           working, up to [2 marks max].
+           Answer:10101001;
+           Method 1: Compute 87 as binary: 01010111;
+                      Flip bits and add 1;
+           Method 2: Compute (–128) – 87 in binary;
+                      10000000 – 01010111;
+           Method 3: Compute 128 – 87 = 41 in decimal, convert 41 and place 1 in MSB;          [2 marks]
+
+9.   Award up to [3 marks max].
+
+      v = 2.5 ;
+     In the 4th line of code, z takes the value 15.0 (accept either a statement that z is a
+     double or having the number written with a decimal place);
+     In the 5th line of code, a double division is performed, z/y is evaluated (2.5), before
+     being assigned to v;                                                                      [3 marks]
+                                                   –9–              M13/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+
+10.   Award [1 mark] for an example and [2 marks] for a discussion, up to [3 marks max].
+
+      Examples include and are not limited to:
+
+      public repositories, ftp/mail servers, any monitoring system as power stations,
+      hospitals, air-traffic control etc.;
+      Accept parallel running only in an example where system failure is critical and the
+      live back-up is essential;
+
+      Discussion includes:
+
+      Systems are increasingly complex;
+      Data integrity, reliability of system, and data loss recovery is vital especially for
+      critical real time operations;
+      Mirroring is a way to enforce at least two copies of the system run in parallel (should
+      one crash the mirror can continue running)                                                [3 marks]
+
+
+11.   Award up to [2 marks max].
+      A description on how checksum is computed;
+      Checksum is computed prior to transmission and sent with the data;
+      Checksum is recomputed by receiver and compared with checksum transmitted;
+      If the checksums do not match, a retransmission is requested;                             [2 marks]
+                                                         – 10 –            M13/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+                                                     SECTION B                                   Total: [40 marks]
+
+12.   (a)   (i)        A computer (and its software) that provides services available through
+                       the network;                                                                        [1 mark]
+
+            (ii)       A computer/terminal (and its software) used to access the services in a
+                       network, by sending requests to the server;                                         [1 mark]
+
+      (b)   It passes data packets from input channels;
+            To all output channels;                                                                       [2 marks]
+
+      (c)   (i)        Award up to [2 marks max].
+                       Assign different access rights to the files/parts of the file system;
+                       To different groups of users;                                                      [2 marks]
+
+            (ii)       Patients should log-on with a password or create an account;
+                       They should only have access to their own medical records;
+                       If they have access, it should be read only;
+                       They should have read/write access to the appointments/bookings in
+                       order to check/change their appointments;                                          [4 marks]
+
+                                                                                                 Total: [10 marks]
+
+
+
+13.   (a)   4;                                                                                             [1 mark]
+
+      (b)   Award marks as follows up to [4 marks].
+
+            Warning: Students might not evaluate the Boolean test in the third and fourth
+            column, be aware two kinds of answers will be accepted and marks awarded.
+
+            [1 mark] for each correct row in the table;
+            [1 mark] if the 4th column is filled with Boolean values only, even if table is
+            incorrect or truncated;
+
+            i      j       i < m && j<len                 s.charAt(i)!=s.charAt(j)             return
+            0      4       0<4 && 4<7 [or true]           x!=x       [or false]
+            1      5       1<4 && 5<7 [or true]           y!=y       [or false]
+            2      6       2<4 && 6<7 [or true]           z!=x       [or true]                 false        [4 marks]
+
+
+      (c)   Any string of the form SS or SxS, where S is a string and x is a char
+            (eg. aa, aba, adefade);                                                                        [1 mark]
+
+
+                                                                                                        continued …
+                                                  – 11 –            M13/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+Question 13 continued
+
+      (d)   Award [1 mark] for each condition (or equivalent expressions, including written
+            in words) up to [2 marks max].
+
+            !(i<m && j<len) OR (i>=m || j>=len);
+            s.charAt(i) != s.charAt(j);                                                           [2 marks]
+
+      (e)   Award up to [2 marks max].
+            It allows an early exit from the while and early termination of the program;
+            As soon as a condition is detected, that will make the program fail (substrings
+            with different current chars);                                                        [2 marks]
+
+                                                                                           Total: [10 marks]
+
+
+14.   (a)   Award up to [2 marks max].
+            Requirements;
+            Costs;
+            Benefits;
+            Estimates of the time for developing the project;
+            Possible difficulties and alternative solutions;
+            Risk analysis (costs/technical/legal);
+            Review of previously proposed solutions;                                              [2 marks]
+
+      (b)   Award [1 mark] for identifying a factor and [1 mark] for an expansion that
+            relates that factor to commercial or customized software up to [4 marks max].
+            Example factors to be considered:
+                  Cost;
+                  Time to develop/deploy;
+                  Availability of documentation and training materials;
+                  Suitability of the software for the task;
+
+            Example expansions:
+                 Cost –          Commercial software is usually cheaper to purchase than
+                                 developing customized software;
+                 Suitability – Commercial software is usually designed to appeal to a
+                                 large group of potential customers and may not contain
+                                 specialized features needed by the company / may contain
+                                 needlessly complex tools to support functions not needed
+                                 by the company;                                                  [4 marks]
+            Accept other realistic factors and expansions.
+
+      (c)   The customer could ask for modifications;
+            Adding some new/different features that affect the current design;
+            And that could affect the feasibility report in several ways;
+            Such as costs, delivery time, technical requirements;                                 [4 marks]
+            Accept these points if put in the context of “repeated analysis and design”.
+
+                                                                                           Total: [10 marks]
+                                                   – 12 –           M13/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+
+15.   (a)   HTML – hypertext markup language (accept PHP, ASP, .NET);                             [1 mark]
+
+      (b)   To search/retrieve information resources on the WWW via the URL;
+            To display it/make it available, possibly using other applications;                  [2 marks]
+
+      (c)   Award up to [3 marks max].
+            It behaves as an interpreter;
+            Since the browser must provide interactive access to the WWW;
+            HTML Tags are interpreted as they are received from the server;
+            To indicate the way to display text/graphics;
+            To access other URL/URI;                                                             [3 marks]
+            Accept other reasonable differences between an interpreter and compiler that
+            are applicable to a web browser.
+
+      (d)   Award [4 marks max] as follows:
+            [2 marks] each for up to two aspects ([1] for identifying and [1] for discussion)
+
+            Data encryption;
+            To protect from interception during transmission and to store data on disk
+
+            User login and individual passwords;
+            To protect from unauthorized users, and these should also be encrypted;
+
+            Permissions/access levels;
+            Given to different users groups, common users should have access to their data
+            only;
+
+            Settings;
+            Firewalls, proxies, protection against spyware;                                      [4 marks]
+            Do not accept answers about establishing an individual’s identity (i.e.
+            validating their credit card) – the question is about protecting the identity of
+            the donors after they have been established and saved on the organization’s
+            servers.
+
+                                                                                          Total: [10 marks]
+

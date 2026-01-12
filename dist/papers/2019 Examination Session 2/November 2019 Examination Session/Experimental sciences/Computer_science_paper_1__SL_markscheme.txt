@@ -1,0 +1,489 @@
+N19/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+
+
+                       Markscheme
+
+
+                        November 2019
+
+
+                     Computer science
+
+
+                         Standard level
+
+
+                               Paper 1
+
+
+
+
+13 pages
+                                           –2–                N19/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+
+
+No part of this product may be reproduced in any form or by any electronic or
+mechanical means, including information storage and retrieval systems, without written
+permission from the IB.
+
+Additionally, the license tied with this product prohibits commercial use of any selected
+files or extracts from this product. Use by third parties, including but not limited to
+publishers, private teachers, tutoring or study services, preparatory schools, vendors
+operating curriculum mapping services or teacher resource digital platforms and app
+developers, is not permitted and is subject to the IB’s prior written consent via a license.
+More information on how to request a license can be obtained from
+http://www.ibo.org/contact-the-ib/media-inquiries/for-publishers/guidance-for-third-party-
+publishers-and-providers/how-to-apply-for-a-license.
+
+Aucune partie de ce produit ne peut être reproduite sous quelque forme ni par quelque
+moyen que ce soit, électronique ou mécanique, y compris des systèmes de stockage et
+de récupération d’informations, sans l’autorisation écrite de l’IB.
+
+De plus, la licence associée à ce produit interdit toute utilisation commerciale de tout
+fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris, sans
+toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de tutorat
+ou d’aide aux études, des établissements de préparation à l’enseignement supérieur,
+des fournisseurs de services de planification des programmes d’études, des
+gestionnaires de plateformes pédagogiques en ligne, et des développeurs
+d’applications, n’est pas autorisée et est soumise au consentement écrit préalable de
+l’IB par l’intermédiaire d’une licence. Pour plus d’informations sur la procédure à suivre
+pour demander une licence, rendez-vous à l’adresse http://www.ibo.org/fr/contact-the-
+ib/media-inquiries/for-publishers/guidance-for-third-party-publishers-and-providers/how-
+to-apply-for-a-license.
+
+No se podrá reproducir ninguna parte de este producto de ninguna forma ni por ningún
+medio electrónico o mecánico, incluidos los sistemas de almacenamiento y
+recuperación de información, sin que medie la autorización escrita del IB.
+
+Además, la licencia vinculada a este producto prohíbe el uso con fines comerciales de
+todo archivo o fragmento seleccionado de este producto. El uso por parte de terceros
+—lo que incluye, a título enunciativo, editoriales, profesores particulares, servicios de
+apoyo académico o ayuda para el estudio, colegios preparatorios, desarrolladores de
+aplicaciones y entidades que presten servicios de planificación curricular u ofrezcan
+recursos para docentes mediante plataformas digitales— no está permitido y estará
+sujeto al otorgamiento previo de una licencia escrita por parte del IB. En este enlace
+encontrará más información sobre cómo solicitar una licencia: http://www.ibo.org/es/
+contact-the-ib/media-inquiries/for-publishers/guidance-for-third-party-publishers-and-
+providers/how-to-apply-for-a-license.
+                                                    –3–                N19/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+Subject details:        Computer science SL paper 1 markscheme
+
+Mark allocation
+
+Section A: Candidates are required to answer all questions. Total 25 marks.
+Section B: Candidates are required to answer all questions. Total 45 marks.
+           Maximum total = 70 marks.
+
+General
+
+A markscheme often has more specific points worthy of a mark than the total allows. This is intentional.
+Do not award more than the maximum marks allowed for that part of a question.
+
+When deciding upon alternative answers by candidates to those given in the markscheme, consider the
+following points:
+
+• Each statement worth one point has a separate line and the end is signified by means of a
+   semi-colon (;).
+
+• An alternative answer or wording is indicated in the markscheme by a “/”; either wording can be
+   accepted.
+
+• Words in ( … ) in the markscheme are not necessary to gain the mark.
+
+• If the candidate’s answer has the same meaning or can be clearly interpreted as being the same as
+   that in the markscheme then award the mark.
+
+• Mark positively. Give candidates credit for what they have achieved and for what they have got
+   correct, rather than penalizing them for what they have not achieved or what they have got wrong.
+
+• Remember that many candidates are writing in a second language; be forgiving of minor linguistic
+   slips. In this subject effective communication is more important than grammatical accuracy.
+
+• Occasionally, a part of a question may require a calculation whose answer is required for subsequent
+   parts. If an error is made in the first part then it should be penalized. However, if the incorrect answer
+   is used correctly in subsequent parts then follow through marks should be awarded. Indicate this
+   with “FT”.
+
+
+General guidance
+
+ Issue            Guidance
+ Answering        • In the case of an “identify” question, read all answers and mark positively up to the
+ more than           maximum marks. Disregard incorrect answers.
+ the quantity     • In the case of a “describe” question, which asks for a certain number of facts
+ of                 eg “describe two kinds”, mark the first two correct answers. This could include two
+ responses          descriptions, one description and one identification, or two identifications.
+ prescribed       • In the case of an “explain” question, which asks for a specified number of
+ in the             explanations eg “explain two reasons …”, mark the first two correct answers.
+ questions          This could include two full explanations, one explanation, one partial
+                    explanation etc.
+                                                     –4–             N19/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+                                                Section A
+
+1.   (a)   Award [1 max].
+           Retrieve;
+           Compare;
+           Store;
+           Add;                                                                               [1]
+
+     (b)   Award [2 max].
+           Fundamental operation requires one machine instruction cycle/do not require the
+           processor to go through many machine instruction cycles to reach a result;
+           A compound operation is complex / it is an operation that involves a number of
+           other operations to reach the result;
+           For example, find the largest number in an array/ sort the array in ascending
+           order etc;                                                                         [2]
+
+
+2.   (a)   Award [1 max].
+           Any malicious activity;
+           Natural disasters;
+           Human error;                                                                       [1]
+
+     (b)   Award [2 max].
+           Internet backup service could automatically back up (all important) data files;
+           to a remote server that could be accessed/controlled over the internet;
+
+           Copies of all important data files (backup) could be placed on two separate
+           hardware devices;
+           which are placed in two different physical locations;
+
+           A remote file server could be set up;
+           for uploading all important data files;                                            [2]
+                                                  –5–                N19/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+3.   (a)   Award [1 max].
+           It decodes the instructions and controls all the other internal components of the
+           CPU to make it work;                                                                     [1]
+
+     (b)   Award [3 max].
+           Cache memory is a memory that a computer microprocessor can access more
+           quickly than it can access regular RAM;
+           It is integrated directly with the CPU chip or placed on a separate chip which has
+           a separate bus interconnect with the CPU;
+           and stores frequently used data only until a computer is powered down;
+           Thus, when a processor requests data that already has an instance in the cache
+           memory; it does not need to go to the main memory or the hard disk to fetch the
+           data;
+
+           Cache memory is a small-sized type of volatile computer memory;
+           that provides high-speed data access to a processor;
+           and stores frequently used computer programs, applications and data;
+           Cache memory can be primary or secondary cache memory, where primary
+           cache memory is directly integrated to the processor;
+           And secondary cache memory is a reserved portion on a disk stores and provide
+           access to frequently accessed data/applications from the disk.                       [3 max]
+                                                  –6–            N19/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+4.   (a)   Award [1 max]
+           Hexadecimal numbers are used for shorter representation of data because a
+           (modern) byte can be represented exactly by two hexadecimal digits;
+           Hexadecimal numbers are used for shorter representation of data, because
+           computers store and handle binary digits, and four binary digits make one
+           hexadecimal digit;                                                             [1]
+
+     (b)   Award [1 max]
+           24;                                                                            [1]
+
+     (c)   Award [1 max]
+           256 x 256 x 256 / (28)3 / 224;
+           2563;
+           16 777 216;                                                                    [1]
+
+
+5.   Award [4 max]
+     Award [1] for all 8 input values correct;
+     Award [1] for correct X column;
+     Award [1] for correct Y column;
+     Award [1] for correct Z column;
+     Allow follow through from incorrect columns X or Y.
+
+                              A         B     C         X    Y        Z
+
+                              0         0     0         0    1        0
+
+                              0         0     1         0    0        1
+
+                              0         1     0         1    1        1
+
+                              0         1     1         1    0        1
+
+                              1         0     0         1    0        1
+
+                              1         0     1         1    0        1
+
+                              1         1     0         0    0        1
+
+                              1         1     1         0    0        1
+                                                                                          [4]
+                                                    –7–              N19/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+6.   Award [3 max]
+     Abstraction allows us to create a general idea of what the problem is and how to solve
+     it;
+     Abstraction removes all specific detail, and any patterns that will not help in solving a
+     problem. This helps in forming a “model” (If designers don’t abstract they may end up
+     with the wrong solution to the problem they are trying to solve);
+     Abstraction is widely used because there exist a number of “patterns” in programming
+     that keeps repeating in every application/program;
+     The pattern corresponding to an issue can be found, then the abstract solution to it can
+     be found and implemented, and the problem is solved;
+     Most programming languages provide some built-in abstract patterns, which are easy
+     to use (some API provides more advanced patterns);
+
+     Abstraction is the process of taking away or removing characteristics from something in
+     order to reduce it to a set of essential characteristics;
+     In object-oriented programming, abstraction is one of three central principles (along
+     with encapsulation and inheritance);
+     Through the process of abstraction, a programmer hides all but the relevant data about
+     an object in order to reduce complexity and increase efficiency;
+     The resulting object itself can be referred to as an abstraction, meaning a named entity
+     made up of selected attributes and behavior specific to a particular usage of the
+     originating entity. Abstraction is related to both encapsulation and data hiding;           [3 max]
+
+
+7.   Award [5 max] as follows:
+     Award [1] for a trace table with at least three columns (headings K, N, M, K<5 and
+     output);
+     Award [1] for each correct output up to [4 max]
+
+                        K          N            M          K<5         OUTPUT
+
+                        1           1           2         TRUE            1 2
+
+                        2           3           4         TRUE            3 4
+
+                        3           5           8         TRUE            5 8
+
+                        4           7           16        TRUE           7 16
+
+                        5           9           32        FALSE
+                                                                                                 [5 max]
+                                                  –8–                N19/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+                                               Section B
+8.   (a)   Award [2 max]
+           User roles / the organization restructure their workflow;
+           Technology issues / issues of software compatibility / hardware compatibility;         [2 max]
+
+     (b)   Award [5 max].
+           Direct changeover:
+           is the cheapest and quickest/the old system is completely switched for the new
+           one;
+           this is straight forward but also the most risky / nothing to fall back on;
+           no need to keep data duplicates;
+           it allows the organization to change the system when most convenient;
+           the employees have very little time in order get use to the new system as the
+           change is instantaneous;
+           there is a period of time when neither systems are operational;
+
+           Phased conversion:
+           method where the old system is still in use but parts of the new system or
+           modules are introduced, involves bringing in the new system one step at a time;
+           less risky than direct changeover; less risky that the whole system will go wrong/if
+           something happens, it will only affect the specific part;
+           takes a lot of time;
+           employees have enough time for training/to get use to the new system / are
+           introduced to the changes in small stages;
+           Employees/users could ask for changes which then hold up the installation of the
+           next phase which helps improving the system;                                               [5]
+
+     (c)   (i)    Award [1 max].
+                  User acceptance test;
+                  Beta testing;
+                                                                                                  [1 max]
+
+           (ii)   Award [3 max].
+                  Can lead to software which is not appropriate for the purpose it was
+                  intended/can lead to the system not meeting user requirements;
+                  Can lead to (undiscovered) bugs in software/errors in the system;
+                  Can lead to end user dissatisfaction;
+                  Can lead to reduced (employee) productivity;
+                  Can lead to decreased reliability of the organization;                          [3 max]
+                                                 –9–                N19/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+     (d)   Award [4 max].
+           Personal/professional development of all employees must be considered;
+           Physical safety (of all users);
+           Ergonomic standards (human-computer components);
+           Human dignity of all users;
+           The new system might be designed to replace some staff;
+           Code of ethics (system resources should not be used without approval);             [4 max]
+
+
+9.   (a)   Award [4 max].
+           File sharing/resource sharing;
+           instead of using a disk or USB key to carry files from one computer to another
+           files can be shared directly using a network/all computers in the network can
+           share resources such as printers, scanners;
+
+           Communication;
+           students/teachers can communicate with people around the world via the
+           network;
+
+           Interactive teamwork;
+           software (like Microsoft Office) enables many users to contribute to a document
+           concurrently;
+
+           Flexible access;
+           network allows students to access files from different computers (throughout the
+           network) (one can begin work on a project on one computer and finish up on
+           another);
+
+           Software cost;
+           software products are available for networks at a substantial savings in
+           comparison to buying individually licensed software;
+
+           Software management;
+           load software on the server saves time compared to installing and tracking files
+           on independent computers/upgrades are also easier because changes only have
+           to be done once on the file server instead of on individual computers;
+
+           Improved network security;
+           if the school has its own network, it can monitor network traffic / can create a
+           security culture (everyone who has a username and password is responsible for
+           keeping data secure);
+
+           Mark as [2] and [2].                                                               [4 max]
+                                             – 10 –              N19/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+(b)   (i)    Award [2 max].
+             A network router is a hardware device that is connected to multiple
+             channels for different networks;
+             through an interface that is situated on each network;
+
+             Router acts as a processing unit for information packets;
+             it duplicates information packets for use during transmission from one
+             network to another;
+
+             The router uses a protocol or set of rules;
+             to determine which information packets are to be routed to certain interfaces
+             within the network;                                                             [2 max]
+
+      (ii)   Award [2 max].
+             Network interface cards are used to connect each computer to the network;
+             so they can communicate with the network router to receive information
+             packets;
+
+             Interface cards determine the infrastructure of a local area network (LAN);
+             and allow all of the computers to connect to the network;                       [2 max]
+
+(c)   Award [2 max].
+      Protocols define the rules that govern network communication (for example,
+      packet format, type and size, what happens when an error occurs, and which part
+      of the network is supposed to handle the error and how);
+
+      Computer networks consists of various types of equipment (such as routers,
+      switches, hubs and network interface cards) and the equipment comes from
+      different vendors, but they must all work together or the network does not operate
+      correctly;
+
+      Protocols work in layers (the highest being what the user sees, and the lowest
+      being the wire that the information is transferred along) and these layers
+      communicate with each other according to the rules (allowing communication
+      to occur accurately and efficiently);                                                  [2 max]
+
+(d)   Award [1 max].
+      Data encryption refers to calculations/algorithms that transform plain text into a
+      form that is non-readable to unauthorized parties (authorized recipient of an
+      encrypted text uses a key and the algorithm to decrypt the data/ to transform
+      it to the original plain text version);                                                [1 max]
+                                           – 11 –             N19/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+(e)   Award [4 max].
+      Each (wireless network) adapter has a unique label called a MAC address;
+
+      Routers uses these addresses to identify/authenticate computers (routers include
+      an option to whitelist or blacklist certain devices based on MAC addresses, so
+      access could be restricted to any device which is not in the whitelist);
+
+      One disadvantage is that the whitelist should be amended any time a new device
+      is purchased / when access to guests should be granted;
+
+      Also this method is useless against hackers who use programs which intercept
+      data passing through network and report the MAC address of any device
+      communicating on the network;                                                      [4 max]
+                                                     – 12 –               N19/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+10.   (a)   Award [3 max].
+            X = 372 div 100 = 3;
+
+            Y = 3 + 10 * (372 mod 100 div 10) = 3 + 10 * ((372 mod 100) div 10) = 3 + 10 *
+            (72 div 10) = 3 + 10 * 7 = 73;
+
+            Z = 73 + (372 mod 10) * 100 = 73 + 2 * 100 = 273;
+
+            Award FT marks if working is shown.
+            Award 1 mark only for each correct value if no working shown, up to 3.
+
+            X = 3;
+
+            Y = 73;
+
+            Z = 273;
+
+            Allow FT marks.                                                                             [3]
+
+      (b)   Award [8 max].
+            Award [1] for reset/starting from the first item in the collection and for initialization
+            and correct increasing of the array index (K)
+            Award [1] for the while loop through the collection
+            Award [1] for retrieving a number from the collection
+            Award [1] for if statement- checking whether the number retrieved is a three-digit
+            number
+            Award [1] for correctly calculated digits in retreived number,
+            Award [1] for each
+            Award [1] for if statement which compares the three digits of the retrieved
+            number
+            Award [1] for correctly placing ITEM into the array THREE
+            Award [1] for the correct output message
+            Example answer:
+
+            K=-1
+            NUMBERS.resetNext()
+            loop while NUMBERS.hasNext()
+               ITEM=NUMBERS.getNext()
+               if ITEM>99 and ITEM<1000 then
+                  F=ITEM DIV 100
+                  S=ITEM MOD 100 DIV 10   //or                 S= ITEM DIV 10 MOD 10
+                  T=ITEM MOD 10
+                  if F<S and S<T then
+                     K=K+1
+                     THREE[K]=ITEM
+                  end if
+               end if
+            end loop
+            if K==-1 then
+               output('No such numbers')
+            endif                                                                                       [8]
+                                            – 13 –              N19/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+(c)   Award [4 max].
+      The selection sort algorithm starts by finding the minimum/smallest value in the
+      array THREE (containing K elements);
+      and moving it to the beginning of the array THREE (element at the first position is
+      THREE[0]) / exchanges it with the element in the first position;
+      the correct entry is in the first place in the array and the process is repeated on
+      the remaining entries / this step is then repeated for the second lowest value,
+      then the third, and so on;
+      once this has been repeated K-1 times;
+      the K-1 smallest entries are in the first K-1 places which leaves the largest
+      element in the last place (the array is sorted in ascending order);                   [4]
+

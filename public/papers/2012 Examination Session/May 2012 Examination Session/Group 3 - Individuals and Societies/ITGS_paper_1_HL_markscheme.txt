@@ -1,0 +1,1041 @@
+M12/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+
+
+                   MARKSCHEME
+
+
+                               May 2012
+
+
+
+      INFORMATION TECHNOLOGY IN A
+            GLOBAL SOCIETY
+
+
+
+                         Higher Level
+
+
+
+                               Paper 1
+
+
+
+
+27 pages
+                              –2–             M12/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+
+
+This markscheme is confidential and for the exclusive use of
+examiners in this examination session.
+
+It is the property of the International Baccalaureate and must not
+be reproduced or distributed to any other person without the
+authorization of IB Cardiff.
+                                                   –3–               M12/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+Examiners should be aware that in some cases, candidates may take a different approach, which if
+appropriate should be rewarded. If in doubt, check with your Team Leader.
+
+In the case of an “identify” question read all answers and mark positively up to the maximum marks.
+Disregard incorrect answers. In all other cases where a question asks for a certain number of facts
+e.g. “describe two kinds”, mark the first two correct answers. This could include two descriptions,
+one description and one identification, or two identifications.
+
+It should be recognized that, given time constraints, answers for part (c) questions are likely to include a
+much narrower range of issues and concepts than identified in the markband. There is no “correct”
+answer. Examiners must be prepared to award full marks to answers which synthesize and evaluate even
+if they do not examine all the stimulus material.
+                                                   –4–               M12/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+                                              SECTION A
+
+1.   Implementation of a school database
+
+     (a)   (i)    State the name of the primary key field of the table tblVisit.              [1 mark]
+
+                   Visit_Number.
+
+                  Award [1 mark] for the correct key field stated.
+
+           (ii)   State the relationship between the tables tblNurse and tblVisit.            [1 mark]
+
+                   The Nurse_ID field in tblNurse and Nurse_ID field in tblVisit.
+
+                  Accept Nurse_ID.
+                  Award [1 mark] for the correct relationship stated.
+
+           (iii) State a field type that would be suitable for Surname in the table
+                 tblStudent.                                                                  [1 mark]
+
+                  Answers may include:
+                   string
+                   varchar
+                   text.
+
+                  Do not accept number.
+                  Award [1 mark] for a field type stated up to a maximum of [1 mark].
+
+           (iv) State a field type that would be suitable for Salary in the table tblNurse.   [1 mark]
+
+                  Answers may include:
+                   numeric / numeral / number
+                   floating point
+                   currency.
+
+                  Award [1 mark] for a field type stated up to a maximum of [1 mark].
+
+           (v)    State a field type that would be suitable for Sent_Home? in the
+                  table tblVisit.                                                             [1 mark]
+
+                  Answers may include:
+                   logical
+                   Boolean
+                   yes/no.
+
+                  Award [1 mark] for a field type stated up to a maximum of [1 mark].
+                                                –5–           M12/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+
+      (vi) State a field type that would be suitable for Telephone_Number in the
+           table tblNurse.                                                                [1 mark]
+
+             Answers may include:
+              string
+              character
+              text
+              varchar.
+
+             Award [1 mark] for a field type stated up to a maximum of [1 mark].
+
+(b)   (i)    The database will allow teachers to export data to a spreadsheet.
+
+             Explain one reason why teachers would export data from the database
+             to a spreadsheet.                                                   [2 marks]
+
+             Answers may include:
+              Reason: exported data in spreadsheet format may be shared with
+               other users
+               Explanation: some users cannot work with a database but do work with a
+               spreadsheet or do not have the database software
+              Reason: exported data can be shared without having to share all data in
+               the database i.e. data to be shared is selected
+               Explanation: exported file size smaller / avoid sharing unnecessary data
+              Reason: exported data may need calculations
+               Explanation: these special functions and formulae are present in
+               spreadsheet software and not in database software.
+
+             Do not accept answers that refer to “user friendly” or “easier to use”.
+             Award [1 mark] for one reason identified and [1 mark] for an appropriate
+             explanation of that reason up to a maximum of [2 marks].
+
+      (ii)   The new database will also require teachers to undertake training to be
+             able to use it.
+
+             A local company is offering to train users in the use of the new system.
+             The two options proposed are:
+              online training
+              face-to-face training.
+
+             Contrast the two options.                                                    [4 marks]
+
+             Answers may include:
+             Examples of situations:
+              time and place of the training
+              IT requirements
+              personal considerations
+              cost considerations.
+                                 –6–              M12/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+Contrasts may include:
+           Online training                     Face to face training
+ Time and place of training:           Time and place of training:
+  online     training    can    be     training is scheduled in one place
+    scheduled for longer periods of      for a fixed period of time
+    time and 24/7                       teachers may have difficulties in
+  training may be available to          participating in the f2f training
+    teachers regardless of where         due to other commitments.
+    they are.
+ IT requirements:                      IT requirements:
+  users need hardware, software        rooms need to be set up with the
+    and an Internet connection.           hardware and software resources
+                                          for the training session. Internet
+                                          access may not be necessary.
+ Personal considerations:              Personal considerations:
+  the    participant     may     be    trainees      may     feel     more
+   distracted or feel isolated            comfortable to ask questions to an
+  the participant may have more          actual trainer
+   time for reflection and posting      trainees may see what others are
+   questions                              doing and receive help / advice or
+  online simulation may crash            step-by-step guidance
+   and teachers may not have the        the individual needs of the trainee
+   resources or knowledge to              can be more easily met
+   solve the technical problem          trainees may learn from each
+  lessons can be customized for          other as well as from the tutor
+   the participant, i.e. move at the    the presence of a tutor may
+   pace needed                            provide a friendly atmosphere /
+  stressful, impossible for a non-       be less threatening.
+   IT person.
+ Costs involved:                       Costs involved:
+  no need for travel (tutors or        logistical and cost issues of
+   learners)                             trainees travelling to the training
+  need for personal equipment           need to be addressed.
+   and software.
+
+[1–2 marks]
+The candidate identifies one or more situations that have differences in
+online and face-to-face training but they have been described in isolation.
+
+[3–4 marks]
+The candidate explicitly describes one or more situations that have
+differences in online and face-to-face training in relation to each other.
+Appropriate terminology is used throughout.
+                                             –7–               M12/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(c)   The following screen shows the options this database will have in its online
+      version.
+
+      When the system was purchased it was possible to include a Virtual Private
+      Network (VPN), giving remote access to teachers to this database, which is
+      stored on the school’s server.
+
+      Discuss the impact for the school of the decision to allow teachers remote
+      access to the school server.                                               [8 marks]
+
+      Answers may include:
+      Positive impacts for the school – “school includes teachers, administrators
+      and students”
+       school may bring deadlines forward because teachers will be able to work after
+        school from home
+       school will provide a better service for students if teachers can access students’
+        records from home to do follow-ups, upload homework, update the
+        calendar etc.
+
+      Negative impacts for the school – “school includes teachers, administrators
+      and students”
+       some teachers may have difficulty meeting deadlines because their connection
+        from home may not be as good as needed to work with the software
+       teacher dissatisfaction – there may be more expectation on teachers to work in
+        the evenings on school-related tasks
+       teachers may request extra compensation because they are expected to work
+        from home
+       teachers may not feel comfortable with the use of IT and may need training
+       school will now have the responsibility to have the system running after school
+        hours and provide some support / provision for failure; IT support available
+        after school, robust servers, hacker protection
+       school will have to provide teachers with the hardware such as laptops and,
+        additional software to use the VPN from outside of school
+       some teachers may not log out of the network when away from school which
+        may present security issues.
+
+      In part (c) of this question it is expected there will be a balance in the ITGS
+      terminology between IT technical terminology and the terminology related to
+      social and ethical impacts.
+
+      Please see generic markband information sheet on page 27.
+                                                  –8–              M12/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+2.   Telemedicine
+
+     (a)   (i)    Define the term real-time communication.                                      [2 marks]
+
+                  Answers may include:
+                   communication in which information is received at (or nearly at) the time
+                    it is sent
+                   is synonymous with “live communication”
+                   uses a direct path between the source and the destination
+                   data goes from source to destination without being stored anywhere
+                   often used for communication between people in different locations.
+
+                  Award [1 mark] for any of the points stated above up to a maximum of
+                  [2 marks].
+
+           (ii)   After an accident an image of an x-ray of a badly broken leg was taken
+                  in bitmap format. To ensure the resolution was clear/high enough for a
+                  doctor to see the extent of the injuries, the image size was 12 MB
+                  (Megabyte). The connection the doctor will be using has a speed of
+                  240 kb/s (kilobit per second).
+
+                  Calculate how long it will take to download an image of each x-ray.
+                  (Show your working.)                                                [2 marks]
+
+                  The following calculation must be shown:
+                   Conversion to kilobit:
+                    12 MB is 12 1024 KB 12 288 KB (Kilobyte),
+                    12 288  8  98304 kb (kilobit)
+                   Calculation of transfer time:
+                    98 304 / 240 = 409.6 seconds (6.83 min / 6 min 49.6 seconds).
+
+                  Or
+
+                  Considering the conversion by 1000 instead of 1024:
+                   12 MB = 12 000 000 bytes = 96 000 000 bits (approx)
+                   download speed = 240 kb/s = 240 000 bits per second
+                   length of time for download = 96 000 000 / 240 000 = 9600 / 24
+                    = 400 seconds (approx)
+                    = 6.67 min/6 min 40 seconds (approx).
+
+                  Award [1 mark] for the conversion to the same units (e.g. 12 MB to kb,
+                  or kb/s to MB/s).
+                  Award an additional [1 mark] for the calculation of the transfer time.
+                  Accept correct calculations if units are not stated.
+                                      –9–              M12/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(iii) In some cases the technology available in the remote locations will not
+      allow for large images to be sent to the hospital.
+
+     Identify two methods to resolve this problem.                                   [2 marks]
+
+     Answers may include:
+      compress the image (and save into a different picture format e.g. JPG)
+      take a picture again in a different format that has a lower resolution
+       (sacrifice resolution for transfer time)
+      break down the file into smaller files using appropriate software and send
+       individual files separately
+      resize the image
+      convert the image to a different format (that requires less space e.g. jpeg
+       files smaller than png files).
+
+     Do not accept uploading the image to a service such as Flickr so that the
+     hospital can download them.
+     Award [1 mark] for each of the points stated above up to a maximum of
+     [2 marks].
+                                             – 10 –             M12/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(b)   (i)    Explain one situation in telemedicine that is better suited to real-time
+             data transfer and one situation in telemedicine that is better suited to
+             store and forward data transfer.                                         [4 marks]
+
+             Answers may include:
+             Situation in telemedicine better suited to real-time data transfer:
+              doctors guiding an operation in a remote location (robotic operation) –
+                he will need to have the information such as blood pressure or oxygen
+                levels in blood in real-time during the operation
+              an ambulance at an accident – paramedics may need real-time data such
+                as heart rate of the patient(s).
+
+             Award [1 mark] for situations similar to those stated above. Award an
+             additional [1 mark] for a reason why specific data needs to be transferred
+             in real time.
+
+             N.B. In this situation “store and forward” is used to refer to “delayed data
+             transfer” where it is saved on a device or server until it can be sent.
+
+             Situation in telemedicine better suited to store and forward data
+             transfer:
+              doctors in remote locations may not have a permanent internet
+                connection – X-ray files, or similar, will be stored at the server and
+                transferred when the internet connection is available
+              situations that might not need immediate response or do not need to have
+                all the participants available simultaneously – data can be digitized, sent
+                and transferred only when recipient accepts it for clinical consultation
+                rather than for a hospital visit.
+
+             Award [1 mark] for situations similar to those stated above. Award an
+             additional [1 mark] for a reason why the specific data needs store and
+             forward data transfer.
+             Award a maximum of [4 marks] for this question.
+
+      (ii)   Many mobile devices use store and forward to manage data transfer.
+
+             Explain one reason for using store and forward by such devices.                  [2 marks]
+
+             Answers may include:
+              messages will be stored until the recipient is available to receive the
+               message – the recipient’s cell phone may be turned off or without service
+               and the message will be kept in the server until the mobile phone appears
+               as available. Otherwise the message would be lost
+              exchange server stores messages and prioritizes their delivery
+              mobile devices use different networks so routing messages through an
+               exchange server allows it to be sent to the destination.
+
+             Award [1 mark] for the point stated up to a maximum of [2 marks].
+                                           – 11 –            M12/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(c)   In many countries doctors are using videoconferencing to treat patients
+      remotely. Evaluate this medical practice.                               [8 marks]
+
+      Answers may include:
+      Advantages
+       patients do not have to travel
+       doctors do not have to travel
+       patients in remote locations have access to experts from around the world
+       doctors/nurses/health care workers in remote locations benefit from
+        assisting/listening to an expert who will be doing the treatment
+       video conferences can be recorded for later review
+       more patients may be treated by the same doctor as there is no need for the
+        doctor to have to travel between patients.
+
+      Disadvantages
+       equipment for videoconferencing is needed
+       time may be a problem if doctors are in a different time zone
+       doctors do not get to “see” and touch the patient, must trust doctor in remote
+        location
+       connection may fail and ruin the communication
+       results from tests and exams will have to be sent (e.g. emailed/transferred)
+        in advance
+       some patients may not be familiar with video conferencing, and be less willing
+        to describe their symptoms to the doctor.
+
+      Do not accept costs involved in video conferencing systems.
+
+      In part (c) of this question it is expected there will be a balance in the ITGS
+      terminology between the IT technical terminology and the terminology related
+      to social and ethical impacts.
+
+      Please see generic markband information sheet on page 27.
+                                                 – 12 –             M12/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+3.   Improving Lima’s transport system
+
+     (a)   (i)    Describe what is meant by social networking.                                   [2 marks]
+
+                  Answers may include:
+                   online services that allow users to contact and make connections with
+                    other individuals
+                   social networking establishes interconnected online communities
+                   social networks are made of people who gather together online to share
+                    in a common purpose
+                   assumes all users have equal access to one another in an online
+                    community
+                   share and collaborate using social media (i.e. videos, images, text)
+                   specific examples such as Facebook, Twitter.
+
+                  Do not accept communicating with others – too vague.
+                  Award [1 mark] for an aspect of social networking identified and award
+                  [1 mark] for the description of that aspect. Award a maximum of [2 marks]
+                  for the answer.
+
+           (ii)   Different types of files can be uploaded to highlight the traffic problems
+                  described above.
+
+                  Describe two appropriate types of files which could be uploaded and
+                  how they highlight the problem.                                     [4 marks]
+
+                  Answers may include:
+                   image files (accept file formats such as .jpg .gif) showing buses in large
+                    traffic jams / showing an accident
+                   audio files (accept file formats such as .mp3 .wmv) providing opinions
+                    about the service of trains / buses being delayed
+                   video files (accept file formats such as .mp4 .mov) – users may film
+                    situations like full buses, accidents on the route, large queues
+                   text / document files (accept file formats such as .txt .doc) describing a
+                    particular transport problem.
+
+                  Accept references to traffic and transport problems, but not passengers.
+                  Do not accept a problem being stated only as a “traffic problem”, a specific
+                  problem needs to be cited.
+
+                  Award [1 mark] for each type of file identified and award [1 mark] for the
+                  description of how they highlight the problem. Award a maximum of
+                  [4 marks] for the answer.
+
+                  Award [1 mark] if a candidate identifies two correct files types relating to
+                  the same scenario.
+                                          – 13 –            M12/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(b)   Some managers of local businesses have realized that social networking may
+      provide new business opportunities and have created company webpages
+      on Facebook.
+
+      Explain why companies will use social networking websites to develop new
+      business opportunities.                                                  [6 marks]
+
+      Answers may include:
+       social networking websites can provide updated information frequently, for
+        example, a new business opportunity such as informing users of new products
+        or the opening of a new office
+       social networking websites can keep users interested with latest
+        changes/opportunities, for example, a new business opportunity marking the
+        business known to more people
+       many new potential customers are already using these networks to
+        communicate with friends, for example, a new business opportunity providing
+        users and potential users of a better or more interesting way of promoting
+        products
+       social networking sites are free
+       social networking sites may have services not offered by websites such as join
+        interest groups “like a product”
+       social networking sites are used to target specific customers based on age,
+        interest, gender etc.
+       a presence on social networking sites may encourage customers to go to an
+        official business website.
+
+      [1–2 marks]
+      A limited response that demonstrates minimal knowledge and understanding of
+      the topic. There may only be a reference to why companies use social networking
+      websites and uses little or no appropriate ITGS terminology.
+
+      [3–4 marks]
+      A partial explanation that demonstrates some knowledge and understanding of
+      the topic. There may be a reference to why companies use social networking
+      websites. Some relevant examples are used within the response. There is some
+      use of appropriate ITGS terminology in the response.
+
+      [5–6 marks]
+      A detailed explanation of the issue which demonstrates thorough knowledge and
+      understanding of the topic and explains why companies use social networking
+      websites to develop business opportunities. Relevant examples and appropriate
+      ITGS terminology are used throughout the response.
+                                           – 14 –             M12/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(c)   Although the Facebook page reporting system is not managed by the Lima
+      authorities, they are using it to solve the transport problems that happen in
+      the city of Lima.
+
+      The Lima authorities are considering implementing an official website for
+      reporting transport problems.
+
+      To what extent is a social networking website preferable to an official website
+      for reporting transport problems?                                               [8 marks]
+
+      Answers may include:
+       official website needs to be maintained and made sure to be working properly –
+        additional costs involved
+       no website hosting service is needed to store the website if a social networking
+        service such as Facebook is used
+       people may feel more at ease using a social networking website such as
+        Facebook because they use it frequently
+       one comment may trigger others and information may be greater on a social
+        networking website
+       the social networking website is probably used and known by citizens who use
+        it for several purposes – an official website would have few uses and may not
+        be known by users
+       social networking websites such as Facebook already has applications for
+        portable devices that are checked by users when they are away from home or
+        their office
+       comments may not always be true on a social networking website
+       people may regard information on an official website as being more reliable or
+        legitimate than on a social networking website
+       social networking websites may not be available to all users
+       some users may not feel comfortable using social networking websites.
+
+      In part (c) of this question it is expected there will be a balance in the ITGS
+      terminology between IT technical terminology and the terminology related to
+      social and ethical impacts.
+
+      Please see generic markband information sheet on page 27.
+                                                   – 15 –             M12/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+                                               SECTION B
+
+4.   University IT support
+
+     (a)   The information services department employs:
+            information system managers
+            programmers
+            IT support staff.
+
+           (i)    Identify two specific tasks that the information system managers
+                  must perform.                                                    [2 marks]
+
+                  Answers may include:
+                   hardware inventories
+                   provisioning
+                   server availability monitoring
+                   software inventory / installation
+                   anti-virus / anti-malware management
+                   user activities monitoring
+                   capacity monitoring
+                   security management
+                   storage management
+                   network capacity and utilization monitoring
+                   manage the provision of IT support.
+
+                  Award [1 mark] for each task identified up to a maximum of [2 marks].
+
+           (ii)   Identify two specific tasks that the programmers must perform.          [2 marks]
+
+                  Answers may include:
+                   write / create / edit / customize / design software
+                   test software
+                   debug software
+                   maintain software
+                   upgrade software.
+
+                  Award [1 mark] for each task identified up to a maximum of [2 marks].
+                                            – 16 –             M12/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+      (iii) Identify two specific tasks that the IT support staff must perform.              [2 marks]
+
+            Answers may include:
+             monitor computer systems
+             maintain computer systems
+             maintain networks of an organization
+             install / configure computer systems
+             diagnose hardware / software faults
+             solve technical and applications problems.
+             provide guidance on how to use applications
+             classify / prioritize incidents
+             provide guidance on how to use IT systems (access the network, use
+              equipment: printers, scanners, projectors, whiteboards, …)
+             keep a log of incidents.
+
+            Award [1 mark] for each task identified up to a maximum of [2 marks].
+
+(b)   When a user reports an incident, the IT support staff have to create a log of
+      the incident and then make decisions about the course of action to be taken.
+
+      The information services department needs to classify incidents as major
+      or minor. Explain three criteria that the information services department
+      could use to reach this decision.                                         [6 marks]
+
+      Answers may include:
+       does it affect the core business of the university? + reason why the work of the
+        IS Dept affects the core business of the university, may relate to the part of the
+        business affected
+       does it affect more than n users? + reason why the number of users makes the
+        incident a priority
+       how senior is the complainant? + reason why the seniority of the complainant
+        may make the issue a priority
+       does it affect the image/reputation of the university? + reason why the image /
+        reputation of the university may be affected
+       is it intermittent? + reason why an intermittent problem may be more serious
+        than one that happens, but does not seem to resolve itself
+       the time required to complete the repair + reason why the particular incident
+        needs a speedy resolution (or not)
+       day of the week – how does this help classify an incident as major or minor? –
+        + reason as it may determine the number of users, type of activity interrupted
+        etc.
+
+      Award [1 mark] for each criterion identified and [1 mark] for the explanation of
+      that criterion. Award a maximum of [6 marks] for the answer.
+                                           – 17 –             M12/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(c)   The computer science department wants to run its computers using a
+      different network operating system to that used by the rest of the university.
+
+      To what extent should it be the responsibility of the information services
+      department to provide support for this?                                    [8 marks]
+
+      Answers may include:
+       the operating system might be needed as a teaching resource – it might be an
+        essential service for them
+       the operating system might create a system conflict – it might create problems
+        for other users (investigation of possible problems)
+       the operation system might bring security issues to the rest of the university –
+        it might create problems for the university
+       the CS Dept might need hardware (computers, cables, hubs, … ) that belong to
+        the university – information services may have to provide the equipment
+       the support might have a cost (equipment, staff, software) that the IS
+        Department does not have
+       the support might require training – the IS Department might not know how to
+        do this and cannot use their resources to learn / train others
+       the support might take time – the IS Department might be dealing with too
+        many incidents in other key areas and cannot deal with a different one that
+        involves only one dept
+       the CS dept might want to do this as a private investigation project –
+        information services would want to keep this network isolated from the others
+        to avoid problems /conflicts / security issues.
+
+      In part (c) of this question it is expected there will be a balance in the ITGS
+      terminology and the terminology related to social and ethical impacts.
+
+      Please see generic markband information sheet on page 27.
+                                                  – 18 –             M12/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+5.   Daffodil Hotels
+
+     (a)   (i)    Identify two overall responsibilities of a project manager.                    [2 marks]
+
+                  Answers may include:
+                   ensure project is delivered on time / or stages are delivered on time
+                   make sure the project meets the specifications to specification
+                   makes sure the project is within constraints (e.g. financial)
+                   liaise with the client / suppliers.
+
+                  Award [1 mark] for each responsibility identified up to a maximum of
+                  [2 marks].
+
+           (ii)   Identify four features that might be part of a software requirements
+                  specification.                                                       [4 marks]
+
+                  Answers may include:
+                   a complete description of the behaviour of the system to be developed –
+                    what should the system do
+                   the interactions the users will have with the software – for example, how
+                    does the software interact with people, HCI interface issues, the systems
+                    hardware, other hardware, other software
+                   functional requirements – the performance of the system
+                   non-functional (or supplementary) requirements such as security,
+                    portability
+                   constraints on the design or implementation such as performance
+                    engineering requirements, quality standards, design constraints, policies,
+                    resources, standards.
+
+                  Award [1 mark] for each feature identified.         Award a maximum of
+                  [4 marks] for the answer.
+                                          – 19 –            M12/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(b)   During discussions with the developers, prototypes are frequently used.
+
+      Explain how the use of prototypes can assist in the development of a software
+      product that is acceptable to the client.                                     [6 marks]
+
+      Answers may include:
+       quick way to show business managers what is possible
+       facilitates communication between developer and client
+       developer uses different concepts / language to the business managers
+       changes can quickly be demonstrated using prototyping software
+       prototypes can often be developed into the real product, saving effort
+       prototypes assist iteration with client
+       issues linked to functionality can be resolved as the product is developed
+       costs reduced, as alterations made during development are cheaper than when
+        the product is launched.
+
+      [1–2 marks]
+      A limited response that indicates very little understanding of the topic or the
+      reason is not clear. There may only be a reference to why prototypes are used.
+      There is little or no ITGS terminology.
+
+      [3–4 marks]
+      A reasonable explanation that demonstrates some knowledge of why prototypes
+      can assist in the development of a software product. There may be some relevant
+      examples given with some use of ITGS terminology.
+
+      [5–6 marks]
+      A detailed explanation that demonstrates knowledge of why prototypes can assist
+      in the development of a software product. Relevant examples are given and ITGS
+      terminology is used throughout the response.
+                                           – 20 –             M12/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(c)   The project manager used the waterfall method of systems development in
+      order to draw up the project plan shown in the Gantt chart below.
+
+      The changeover did not go according to plan. When the software was ready
+      to be installed, many serious problems occurred, leading to a failure to
+      deliver the required specification.
+
+      With reference to the Gantt chart and other examples you have studied,
+      to what extent is the project plan adequate as the basis for this
+      software changeover?                                                   [8 marks]
+
+      Answers may include:
+      Adequate
+       jobs are divided up clearly
+       time plan given
+       dependencies shown
+       milestones shown
+       logical progression
+       can determine when a task is complete.
+
+      Inadequate
+       example testing left out
+       example hardware procurement / other examples left out
+       resources/personnel not shown
+       no provision for problems
+       no provision for data migration
+       no provision for changed requirements
+       no provision for parallel tasks, e.g. training users could be done before/at the
+        same time as installation at developer’s premises
+       agile development and/or combination of waterfall and agile
+       no evidence of contingency planning
+       no slack time in the diagram
+       no time allotted for discussions with client.
+
+      In part (c) of this question it is expected there will be a balance in the ITGS
+      terminology between IT technical terminology and the terminology related to
+      social and ethical impacts.
+
+      Please see generic markband information sheet on page 27.
+                                                 – 21 –            M12/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+                                              SECTION C
+
+6.   Fuzzy logic
+
+     (a)   Some washing machines can examine the washing and can add or reduce
+           time to the washing cycle, based on factors such as the hardness of the water
+           in the washing. This gives more precise control over the washing conditions,
+           thereby saving time, water and energy.
+
+           (i)    Identify two data items, in addition to the hardness of the water,
+                  that must be measured in order to make a suitable decision about
+                  washing time.                                                      [2 marks]
+
+                  Answers may include:
+                   water temperature
+                   water volume
+                   size / weight of washing
+                   dirtiness of washing
+                   amount of detergent added
+                   nature of detergent (solid or liquid)
+                   previous washing experience (machine “self-learns”)
+                   type of fabric.
+
+                  Award [1 mark] for each data item identified up to a maximum of
+                  [2 marks].
+
+
+           (ii)   Identify four steps that the washing machine software must take in
+                  order to adjust the length of the washing cycle correctly.         [4 marks]
+
+                   receive input from (any) sensor.
+
+                  Award [1 mark] for first input identified. Do not award marks for any
+                  subsequent inputs.
+
+                  Answers may include any three of the following steps:
+                   compare value with stored table / data
+                   calculate difference
+                   calculate difference required in washing cycle duration
+                   alter washing cycle duration accordingly.
+
+                  Award [1 mark] for each step described up to a maximum of [3 marks].
+                                            – 22 –             M12/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(b)   A bank is considering introducing new IT systems to support the
+      processing of customers’ accounts. Two cases where these systems would be
+      applied are:
+       processing customers’ monthly bank statements
+       detecting fraudulent bank transactions.
+
+      Contrast the suitability of using fuzzy logic in these two cases.                      [6 marks]
+
+      Answers may include:
+      Bank statements – fuzzy logic not suitable
+       account data is not subjective
+       an account is either overdrawn or it is not
+       no validity in assigning account data to a set on the basis of a rough assessment.
+
+      Fraudulent transactions – fuzzy logic is suitable
+       many variables to be considered
+       a matter of judgment whether a transaction is suspect
+       suitable situation for the system to learn the characteristics of a customer
+       example such as “is a withdrawal in another country out of character for
+        this customer?”
+
+      Mark in 3 stages:
+       Award [1 mark] if the candidate states whether the use of fuzzy logic is not
+        suitable for processing a bank statement. Award an additional [1 mark] for a
+        description of the unsuitability of this case.
+
+       Award [1 mark] if the candidate states whether the use of fuzzy logic is suitable
+        for detecting fraudulent bank transactions. Award an additional [1 mark] for
+        a description of the suitability of this case.
+
+       Award up to [2 marks] if the candidate gives an account of the differences
+        between the suitability/unsuitability of using fuzzy logic in the two cases
+        referring to both of them throughout. There is appropriate ITGS terminology
+        in the response.
+
+      The maximum mark for this question is [6 marks].
+                                          – 23 –            M12/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(c)   Computer systems are being developed based on fuzzy logic to predict
+      market trends for investors.
+
+      To what extent is it sensible for an investor to trust such systems instead of
+      his own judgment?                                                              [8 marks]
+
+      Answers may include:
+      Advantages
+       system can be supplied with a large data set
+       no likelihood of it forgetting data
+       judgments will be based on evidence from past events
+       system can learn from its mistakes
+       unbiased decisions.
+
+      Disadvantages
+       there are more variables than can be adequately programmed
+       the human element may be important
+       e.g. knowledge of the personalities / behaviour of board members of companies
+        may be good indicators of future performance
+       new unexpected information may not be reacted to by a computer system
+       gut feeling may sometimes be more successful than analysis
+       possibility of bias from developer
+       past performance may not be a guide to future returns.
+
+      In part (c) of this question it is expected there will be a balance in the ITGS
+      terminology between the IT technical terminology and the terminology related
+      to social and ethical impacts.
+
+      Please see generic markband information sheet on page 27.
+                                                  – 24 –            M12/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+7.   Expert car repairs
+
+     (a)   (i)    Sensors are used to provide data to show that the emission control
+                  system is not working properly.
+
+                  Identify two sensors that could provide this data.                             [2 marks]
+
+                  Answers may include:
+                   oxygen
+                   gas such as CO2, NO2 / specific pollutant sensor
+                   temperature
+                   water / moisture
+                   light
+                   pressure
+                   electrical
+                   air flow (indicates a parameter may be outside of tolerance).
+
+                  Award [1 mark] for each sensor identified up to a maximum of [2 marks].
+
+           (ii)   Many cars have a traction control system to prevent the wheels from
+                  spinning if the accelerator is pressed too hard. This is controlled by the
+                  engine control unit (ECU).
+
+                  Identify four different ways in which the software in the ECU could
+                  carry this out.                                                     [4 marks]
+
+                  Answers may include any four of the following ways:
+                   sensors are used to capture information such as accelerator pressure,
+                    wheel rotation, variations in wheel rotation
+                   information is sent to ECU
+                   preset range of acceptable values for parameter(s) identified such as
+                    those above are stored in memory in ECU
+                   if the parameter(s) is outside of the acceptable value then
+                   the traction control system is engaged / the ECU could
+                   action is taken such as “cutting the link” between the accelerator and the
+                    wheels and the wheels or reducing fuel intake.
+
+                  Award [1 mark] for one way identified within each group up to a maximum
+                  of [4 marks].
+
+                  Do not accept the second case from any group.
+                                           – 25 –             M12/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(b)   When the mechanic carries out the first diagnostic test on a car, a series of
+      diagnostic trouble codes (DTC) are produced (see Figure 1 below).
+
+      Explain why a mechanic would need to use an expert system in order to
+      proceed with repairing a car.                                         [6 marks]
+
+      Answers may include:
+      The expert system:
+       holds more information than a human can (provides access to knowledge
+        compiled from the experience of many experts the issue is more quality
+        than quantity)
+       provides a code that may indicate a component in the car where there is a fault
+        (the code is the link to the expert system inference engine (decision making))
+       can ask questions that will help it find probable causes of the problem and then
+       suggest the most likely cause of the problem
+       can, if the solution provided does not solve the problem the expert system ask
+        further questions to try to diagnose the fault
+       may provide a more rapid method of diagnosing / finding the fault or act as a
+        way of confirming (or not) the diagnosis of the mechanic
+       will reduce time spent in the repair of the car
+       reduce the labour costs to the car owner
+       increase the income of the mechanic / garage owner.
+
+      [1–2 marks]
+      A limited response that indicates very little understanding of the topic or the
+      reason is not clear. Uses little or no appropriate ITGS terminology.
+
+      [3–4 marks]
+      A partial explanation of the reasons why a mechanic would need to use an expert
+      system. Some examples are used within the response.
+
+      [5–6 marks]
+      A clear and detailed explanation of why a mechanic would use an expert system.
+      Relevant examples are used throughout the response. There is appropriate ITGS
+      terminology throughout the response.
+                                          – 26 –            M12/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(c)   Discuss the impacts on motorists and car repair shops of the use of diagnostic
+      expert systems to investigate problems in cars.                                [8 marks]
+
+      Answers may include:
+      Positive impacts
+       training of the staff – upskilling – staff will become more knowledgeable
+       the system will allow the garage to work more effectively / efficiently
+       expert systems will detect finer problems than a human mechanic can
+       shows proof the car owner what needed to be repaired, reducing the chances of
+        being overcharged by the garage
+       might identify other problems or factors that need to be fixed as well?
+
+      Negative impacts
+       reliability of the machines must be acceptable
+       cost of machines may outweigh financial advantages gained
+       limitation of the knowledge base – not all situations will be diagnosed
+       updating the knowledge base – this requires IT skills and possible additional
+        expense
+       every model is different – this may limit the usefulness of the system
+       accuracy and currency of the knowledge base
+       de-skilling of staff – mechanics might eventually be incapable of carrying out
+        traditional repairs.
+
+      In part (c) of this question it is expected there will be a balance in the ITGS
+      terminology between IT technical terminology and the terminology related to
+      social and ethical impacts.
+
+      Please see generic markband information sheet on page 27.
+                                            – 27 –               M12/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+   SL and HL paper 1 part (c) and HL paper 3 question 3 markband
+Marks                  Level descriptor
+
+                        •   A response with no knowledge or understanding of the relevant ITGS
+                            issues and concepts.
+       No marks
+                        •   A response that includes no appropriate ITGS terminology.
+
+                        •   A response with minimal knowledge and understanding of the relevant
+                            ITGS issues and concepts.
+                        •   A response that          includes     minimal   use      of    appropriate
+        Basic               ITGS terminology.
+                        •   A response that has no evidence of judgments and/or conclusions.
+      1–2 marks
+                        •   No reference is made to the scenario in the stimulus material in the
+                            response.
+                        •   The response may be no more than a list.
+
+                        •   A descriptive response with limited knowledge and/or understanding
+                            of the relevant ITGS issues and/or concepts.
+                        •   A response that          includes     limited   use      of    appropriate
+                            ITGS terminology.
+       Adequate
+                        •   A response that has evidence of conclusions and/or judgments that are
+      3–4 marks             no more than unsubstantiated statements. The analysis underpinning
+                            them may also be partial or unbalanced.
+                        •   Implicit references are made to the scenario in the stimulus material in
+                            the response.
+
+                        •   A response with knowledge and understanding of the relevant ITGS
+                            issues and/or concepts.
+                        •   A response       that    uses       ITGS   terminology        appropriately
+      Competent             in places.
+                        •   A response that includes conclusions and/or judgments that have
+      5–6 marks
+                            limited support and are underpinned by a balanced analysis.
+                        •   Explicit references to the scenario in the stimulus material are made at
+                            places in the response.
+
+                        •   A response with a detailed knowledge and understanding of the
+                            relevant ITGS issues and/or concepts.
+                        •   A response that uses ITGS terminology appropriately throughout.
+      Proficient
+                        •   A response that includes conclusions and/or judgments that are well
+      7–8 marks             supported and underpinned by a balanced analysis.
+                        •   Explicit references are made appropriately to the scenario in the
+                            stimulus material throughout the response.
+

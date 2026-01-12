@@ -1,0 +1,234 @@
+© International Baccalaureate Organization 2023
+
+All rights reserved. No part of this product may be reproduced in any form or by any
+electronic or mechanical means, including information storage and retrieval systems,
+without the prior written permission from the IB. Additionally, the license tied with this
+product prohibits use of any selected files or extracts from this product. Use by third
+parties, including but not limited to publishers, private teachers, tutoring or study services,
+preparatory schools, vendors operating curriculum mapping services or teacher resource
+digital platforms and app developers, whether fee-covered or not, is prohibited and is a
+criminal offense.
+
+More information on how to request written permission in the form of a license can be
+obtained from https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-
+license/.
+
+© Organisation du Baccalauréat International 2023
+
+Tous droits réservés. Aucune partie de ce produit ne peut être reproduite sous quelque
+forme ni par quelque moyen que ce soit, électronique ou mécanique, y compris des
+systèmes de stockage et de récupération d’informations, sans l’autorisation écrite
+préalable de l’IB. De plus, la licence associée à ce produit interdit toute utilisation de tout
+fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris, sans
+toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de tutorat ou
+d’aide aux études, des établissements de préparation à l’enseignement supérieur, des
+fournisseurs de services de planification des programmes d’études, des gestionnaires de
+plateformes pédagogiques en ligne, et des développeurs d’applications, moyennant
+paiement ou non, est interdite et constitue une infraction pénale.
+
+Pour plus d’informations sur la procédure à suivre pour obtenir une autorisation écrite
+sous la forme d’une licence, rendez-vous à l’adresse https://ibo.org/become-an-ib-school/
+ib-publishing/licensing/applying-for-a-license/.
+
+© Organización del Bachillerato Internacional, 2023
+
+Todos los derechos reservados. No se podrá reproducir ninguna parte de este producto
+de ninguna forma ni por ningún medio electrónico o mecánico, incluidos los sistemas de
+almacenamiento y recuperación de información, sin la previa autorización por escrito del
+IB. Además, la licencia vinculada a este producto prohíbe el uso de todo archivo o
+fragmento seleccionado de este producto. El uso por parte de terceros —lo que incluye,
+a título enunciativo, editoriales, profesores particulares, servicios de apoyo académico o
+ayuda para el estudio, colegios preparatorios, desarrolladores de aplicaciones y
+entidades que presten servicios de planificación curricular u ofrezcan recursos para
+docentes mediante plataformas digitales—, ya sea incluido en tasas o no, está prohibido
+y constituye un delito.
+
+En este enlace encontrará más información sobre cómo solicitar una autorización por
+escrito en forma de licencia: https://ibo.org/become-an-ib-school/ib-publishing/licensing/
+applying-for-a-license/.
+Computer science
+Standard level
+Paper 1
+
+5 May 2023
+
+Zone A morning   Zone B afternoon   Zone C afternoon
+
+
+1 hour 30 minutes
+
+Instructions to candidates
+y   Do not open this examination paper until instructed to do so.
+y   Section A: answer all questions.
+y   Section B: answer all questions.
+y   The maximum mark for this examination paper is [70 marks].
+
+
+
+
+                                                                                               2223 – 7014
+      5 pages                                              © International Baccalaureate Organization 2023
+                                                    –2–                                  2223 – 7014
+
+
+                                                Section A
+
+Answer all questions.
+
+1.   Outline the function of a web browser.                                                     [2]
+
+
+2.   State the purpose of the memory address register (MAR).                                    [1]
+
+
+3.   Outline one reason for using Unicode to represent data in a computer system.               [2]
+
+
+4.   (a)	Identify one characteristic of random access memory (RAM).                            [1]
+
+     (b)   Explain the use of cache memory.                                                     [3]
+
+
+5.   Construct a truth table for the logic expression                                           [4]
+
+                                               (A nand B) nor C
+
+
+6.   Outline what is meant by a collection.                                                     [2]
+
+
+7.   Identify two layers in the Open Systems Interconnection (OSI) seven-layer model.           [2]
+                                                    –3–                     2223 – 7014
+
+
+8.   Given the integer array DATA:
+
+                          DATA       [0]    [1]     [2]   [3]   [4]   [5]
+
+                                      7      21       5   19     6     2
+
+     and the following algorithm:
+
+     K=0
+     A=0
+     B=0
+     loop while K<6
+         if DATA[K]>4 and DATA[K]<8
+              A=A+DATA[K]
+              B=B+1
+         end if
+         K=K+1
+     end loop
+     C=A/B
+
+     (a)   construct a trace table for this algorithm;                             [4]
+
+     (b)   deduce the purpose of this algorithm.                                   [2]
+
+
+9.   Outline what is meant by the term “abstraction”.                              [2]
+
+
+
+
+                                                                            Turn over
+                                                    –4–                                             2223 – 7014
+
+
+                                                Section B
+
+Answer all questions.
+
+10.   An organization needs to improve its current computer systems. The systems are legacy
+      systems with a large number of end users.
+
+      (a)   Identify two issues concerning the roles of end users that must be considered in
+            relation to the new system.                                                                    [2]
+
+      (b)   Outline the meaning of the term “legacy system”.                                               [2]
+
+      (c)   Identify one method of gathering requirements from end users.                                  [1]
+
+      The organization needs to use existing data in the new system.
+
+      (d)   Explain one problem that may occur during data migration.                                      [3]
+
+      A decision needs to be made on whether to use parallel running or a direct changeover
+      method of implementation.
+
+      (e)   Explain one advantage of using parallel running instead of a direct changeover.                [3]
+
+      (f)   End users will require training in the use of the new system.
+
+            (i)    Identify one method of training for end users.                                          [1]
+
+            (ii)   Evaluate the advantages and disadvantages for the end user of the method
+                   of training identified in (f)(i).                                                       [3]
+
+
+11.   Many organizations use a virtual private network (VPN) to enable employees working
+      remotely to access files that are held on the organization’s server.
+
+      (a)   State two technologies that are required to provide a virtual private network (VPN).           [2]
+
+      (b)   Identify two factors that may affect the speed of data transmission.                           [2]
+
+      (c)   Explain why data compression would be used when data is transmitted.                           [3]
+
+      A large amount of sensitive data is stored online and needs to be protected.
+
+      (d)   Outline how encryption is used to protect data.                                                [2]
+
+      (e)   Describe the role of a firewall.                                                               [2]
+
+      Employees are increasingly working from home.
+
+      (f)   Discuss the social impacts of this changed work pattern on employees.                          [4]
+                                                       –5–                                            2223 – 7014
+
+
+12.   There are 1000 rooms where students can live on a college campus. The rooms are numbered
+      from 1 to 1000. The bill for each room must be paid each month.
+
+      The room numbers of the students who have paid their bills for the month of May so far are
+      stored in the ROOMNUMS array (see Figure 1).
+
+                           Figure 1: Example data stored in the ROOMNUMS array
+
+            ROOMNUMS     [0]     [1]     [2]     [3]     [4]     [5]     [6]     [7]    [8]     [9]
+
+                          2      216      15     109     156      120    93      18      21      56
+
+      For example, the bill for room number 93 has been paid. This can be seen in ROOMNUMS[6].
+
+      (a)     State two characteristics of a linear array.                                                   [2]
+
+      The campus administrator would like to check whether the student in room number X has
+      paid the bill for the month of May or not.
+
+      The sub-program check(ROOMNUMS) accepts the array ROOMNUMS, allows room number X to
+      be input, searches for X in the ROOMNUMS array, and outputs an appropriate message.
+
+      (b)     Identify two types of searching algorithm.                                                     [2]
+
+      Figure 2 shows two examples of input and output for the data stored in the ROOMNUMS array
+      as given in Figure 1.
+
+                                   Figure 2: Examples of input and output
+
+                           Example 1                                      Example 2
+
+             Input:     216                                   Input:    444
+
+             Output:    “The student in room 216              Output:   “The student in room 444
+                        has paid the bill”                              has not paid the bill yet”
+
+      (c)     Construct an algorithm in pseudocode for the sub-program check().[5]
+
+      (d)     Construct an algorithm in pseudocode to sort the ROOMNUMS array in ascending order
+              using the selection sort algorithm.                                                            [6]
+
+
+
+
+

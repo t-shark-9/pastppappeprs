@@ -1,0 +1,222 @@
+M11/5/FURMA/SP2/ENG/TZ0/XX
+
+
+
+
+     22117102
+
+Further mathematics
+STANDARD level
+Paper 2
+
+Friday 6 May 2011 (morning)
+
+2 hours
+
+
+Instructions to candidates
+
+ Do not open this examination paper until instructed to do so.
+ Answer all questions.
+ Unless otherwise stated in the question, all numerical answers must be given exactly or correct
+  to three significant figures.
+
+
+
+
+2211-7102                                                                                           5 pages
+                                                            © International Baccalaureate Organization 2011
+                                                    –2–                M11/5/FURMA/SP2/ENG/TZ0/XX
+
+Please start each question on a new page. Full marks are not necessarily awarded for a correct answer
+with no working. Answers must be supported by working and/or explanations. In particular, solutions
+found from a graphic display calculator should be supported by suitable working, e.g. if graphs are used to
+find a solution, you should sketch these as part of your answer. Where an answer is incorrect, some marks
+may be given for a correct method, provided this is shown by written working. You are therefore advised
+to show all working.
+
+1.    [Maximum mark: 12]
+
+      A canal system divides a city into six land masses connected by fifteen bridges,
+      as shown in the diagram below.
+
+
+
+                            D
+
+                                                               E
+
+
+
+
+            C
+                                        A                          B
+
+
+
+
+                                          F
+
+
+      (a)   Draw a planar graph to represent this map.                                          [2 marks]
+
+      (b)   Write down the adjacency matrix of the graph.                                       [2 marks]
+
+      (c)   List the degrees of each of the vertices.                                           [2 marks]
+
+      (d)   State with reasons whether or not this graph has
+
+		          (i)    an Eulerian circuit;
+
+		          (ii)   an Eulerian trail.                                                           [4 marks]
+
+      (e)   Find the number of walks of length 4 from E to F.                                   [2 marks]
+
+
+
+
+2211-7102
+                                                      –3–                M11/5/FURMA/SP2/ENG/TZ0/XX
+
+2.    [Maximum mark: 18]
+
+      (a)   (i)    Two non-intersecting circles, centres C1 , C2         having radii     r1 , r2
+                   respectively, where r1 > r2 , are shown below.
+
+
+                                                       P
+
+
+
+
+                                             r1                r2
+                                        C1             Q            C2
+
+
+
+
+			                The point P has the same power with respect to each of the two circles.
+                   The perpendicular from P to [C1C2 ] intersects [C1C2 ] at Q.
+                                          r 2 − r2 2
+                   Show that C1Q − C2 Q = 1          .
+                                           C1C2
+
+
+		          (ii)   Given that circle with centre C1 has equation x 2 + y 2 + 2 x − 10 y + 17 = 0
+                   and that circle with centre C2 has equation x 2 + y 2 − 10 x + 6 y + 30 = 0 ,
+                              C Q 21
+                   show that 1 = .                                                                  [12 marks]
+                              C2 Q 19
+
+      (b)   ABCD is a quadrilateral. (AD) and (BC) intersect at F and (AB) and (CD)
+            intersect at H. (DB) and (CA) intersect (FH) at G and E respectively. This is
+            shown in the diagram below.
+
+                                                                    D
+
+
+
+
+                       E                          A                        C
+
+                                                           B
+                                              F
+                                                       G
+                                                                                H
+
+                         HG    HE
+            Prove that      =−    .                                                                  [6 marks]
+                         GF    EF
+
+
+
+2211-7102                                                                                           Turn over
+                                                     –4–                  M11/5/FURMA/SP2/ENG/TZ0/XX
+
+3.    [Maximum mark: 24]
+
+      (a)   In an opinion poll of 1400 people, 852 said they preferred Swiss chocolate to any
+            other kind. Calculate a 95 % confidence interval for the proportion of people
+            who prefer Swiss chocolate.                                                          [5 marks]
+
+      (b)   An α % confidence interval based on a sample of size 600 for the proportion
+            of people preferring Swiss cheese to other kinds was calculated to be
+            [0.2511, 0.3155] . Calculate
+		          (i)    the number of people in the sample who preferred Swiss cheese;
+
+		          (ii)   the value of α .                                                              [9 marks]
+
+                                                                      2
+      (c)   Stating null and alternative hypotheses carry out a χ test at the 5 % level
+            to decide if the following data can be modelled by the binomial distribution
+             B(5 , 0.35) .
+
+                               x      0         1    2     3     4         5
+                               f      15        49   65    36    10        5                    [10 marks]
+
+
+
+
+4.    [Maximum mark: 14]
+
+      (a)   Given the linear congruence ax ≡ b (mod p ) , where a , b ∈  , p is a prime and
+            gcd (a , p ) =1, show that x ≡ a p −2b (mod p ) .                                    [4 marks]
+
+      (b)   (i)    Solve 17 x ≡ 14 (mod 21) .
+
+		          (ii)   Use the solution found in part (i) to find the general solution to the
+                   Diophantine equation 17 x + 21 y = 14 .                                      [10 marks]
+
+
+
+
+2211-7102
+                                                       –5–                  M11/5/FURMA/SP2/ENG/TZ0/XX
+
+5.    [Maximum mark: 28]
+
+                                  1        
+      (a)   Find the value of lim  − cot x  .                                                   [6 marks]
+                              x →0 x
+                                           
+
+      (b)   Find the interval of convergence of the infinite series
+
+                                     ( x + 2) ( x + 2 ) 2 ( x + 2) 3
+                                             + 2         + 3         +… .                        [10 marks]
+                                       3 ×1     3 ×2        3 ×3
+
+      (c)   (i)    Find the Maclaurin series for ln (1+ sin x) up to and including the term
+                   in x3 .
+
+		          (ii)   Hence find a series for ln (1− sin x) up to and including the term in x3 .
+
+		          (iii) Deduce, by considering the difference of the two series, that
+
+                                                     π      π2 
+                                            ln 3 ≈      1 +    .                               [12 marks]
+                                                     3  216 
+
+
+
+6.    [Maximum mark: 24]
+
+      (a)   (i)    Draw the Cayley table for the set S = {0 , 1, 2 , 3 , 4 , 5} under addition
+                   modulo six (+ 6 ) and hence show that {S , + 6 } is a group.
+
+		          (ii)   Show that the group is cyclic and write down its generators.
+
+		          (iii) Find the subgroup of {S , + 6 } that contains exactly three elements.          [11 marks]
+
+      (b)   Prove that a cyclic group with exactly one generator cannot have more than
+            two elements.                                                                         [4 marks]
+
+      (c)   H is a group and the function Φ : H → H is defined by Φ (a ) = a −1 , where a −1
+            is the inverse of a under the group operation. Show that Φ is an isomorphism
+            if and only if H is Abelian.                                                          [9 marks]
+
+
+
+
+2211-7102
+

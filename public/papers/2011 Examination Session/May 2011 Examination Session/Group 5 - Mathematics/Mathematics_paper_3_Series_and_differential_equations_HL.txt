@@ -1,0 +1,141 @@
+M11/5/MATHL/HP3/ENG/TZ0/SE
+
+
+
+
+     22117208
+
+mathematics
+Higher level
+Paper 3 – SERIES AND DIFFERENTIAL EQUATIONS
+
+Monday 9 May 2011 (morning)
+
+1 hour
+
+
+instructions to candidates
+
+ Do not open this examination paper until instructed to do so.
+ Answer all the questions.
+ Unless otherwise stated in the question, all numerical answers must be given exactly or correct
+  to three significant figures.
+
+
+
+
+2211-7208                                                                                           3 pages
+                                                            © International Baccalaureate Organization 2011
+                                                         –2–                      M11/5/MATHL/HP3/ENG/TZ0/SE
+
+Please start each question on a new page. Full marks are not necessarily awarded for a correct answer with
+no working. Answers must be supported by working and/or explanations. In particular, solutions found
+from a graphic display calculator should be supported by suitable working, e.g. if graphs are used to find
+a solution, you should sketch these as part of your answer. Where an answer is incorrect, some marks may
+be given for a correct method, provided this is shown by written working. You are therefore advised to show
+all working.
+
+1.    [Maximum mark: 10]
+
+      (a)   Find the first three terms of the Maclaurin series for ln (1+ e x ) .                   [6 marks]
+
+                                                                     2 ln (1 + e x ) − x − ln 4
+      (b)   Hence, or otherwise, determine the value of lim                                     .   [4 marks]
+                                                                x →0             x2
+
+
+
+2.    [Maximum mark: 8]
+
+                                             dy
+      Consider the differential equation        = x 2 + y 2 where y = 1 when x = 0 .
+                                             dx
+
+      (a)   Use Euler’s method with step length 0.1 to find an approximate value of  y
+            when x = 0.4 .                                                                          [7 marks]
+
+      (b)   Write down, giving a reason, whether your approximate value for  y  is greater
+            than or less than the actual value of  y .                                               [1 mark]
+
+
+
+
+3.    [Maximum mark: 11]
+
+      Solve the differential equation
+
+                                             dy
+                                        x2      = y 2 + 3 xy + 2 x 2
+                                             dx
+
+      given that y = −1 when x = 1 .  Give your answer in the form y = f ( x) .
+
+
+
+
+2211-7208
+                                                                            –3–               M11/5/MATHL/HP3/ENG/TZ0/SE
+
+4.    [Maximum mark: 15]
+
+                                                   ( n +1) π
+      The integral I n is defined by I n = ∫                   e − x | sin x | dx , for n ∈  .
+                                                  nπ
+
+
+
+                              1
+      (a)   Show that I 0 =     (1 + e − π ) .                                                                  [6 marks]
+                              2
+
+      (b)   By letting y = x − nπ , show that I n = e − nπ I 0 .                                                [4 marks]
+
+                                                                        ∞
+      (c)   Hence determine the exact value of ∫ e − x | sin x | dx .                                           [5 marks]
+                                                                    0
+
+
+
+
+5.    [Maximum mark: 16]
+                                                               ∞
+                                                                  xn
+      The exponential series is given by e x = ∑                      .
+                                                             n =0 n !
+
+
+      (a)   Find the set of values of  x  for which the series is convergent.                                   [4 marks]
+
+      (b)   (i)    Show, by comparison with an appropriate geometric series, that
+
+                                                                     2x
+                                                  ex −1 <                , for 0 < x < 2 .
+                                                                    2− x
+
+                                                                n
+                                        2n + 1 
+            (ii)   Hence show that e <                      +
+                                                 , for n ∈  .                                                 [6 marks]
+                                        2n − 1 
+
+      (c)   (i)    Write down the first three terms of the Maclaurin series for 1− e − x and
+                   explain why you are able to state that
+
+                                                        −x          x2
+                                                 1− e          > x − , for 0 < x < 2 .
+                                                                    2
+
+                                                                    n
+                                        2n 2      
+            (ii)   Deduce that e >  2                          +
+                                                    , for n ∈  .                                              [4 marks]
+                                    2 n − 2 n + 1 
+
+      (d)   Letting n = 1000, use the results in parts (b) and (c) to calculate the value of e
+            correct to as many decimal places as possible.                                                      [2 marks]
+
+
+
+
+2211-7208
+

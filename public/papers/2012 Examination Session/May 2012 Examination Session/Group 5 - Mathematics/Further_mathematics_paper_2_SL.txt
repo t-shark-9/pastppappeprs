@@ -1,0 +1,237 @@
+M12/5/FURMA/SP2/ENG/TZ0/XX
+
+
+
+
+     22127102
+
+Further mathematics
+STANDARD level
+Paper 2
+
+Monday 7 May 2012 (morning)
+
+2 hours
+
+
+Instructions to candidates
+
+ Do not open this examination paper until instructed to do so.
+ Answer all questions.
+ Unless otherwise stated in the question, all numerical answers should be given exactly or
+  correct to three significant figures.
+ A graphic display calculator is required for this paper.
+ A clean copy of the Mathematics HL and Further Mathematics SL information booklet is
+  required for this paper.
+ The maximum mark for this examination paper is [120 marks].
+
+
+
+
+2212-7102                                                                                       6 pages
+                                                        © International Baccalaureate Organization 2012
+                                                      –2–                  M12/5/FURMA/SP2/ENG/TZ0/XX
+
+Please start each question on a new page. Full marks are not necessarily awarded for a correct answer
+with no working. Answers must be supported by working and/or explanations. In particular, solutions
+found from a graphic display calculator should be supported by suitable working, e.g. if graphs are used to
+find a solution, you should sketch these as part of your answer. Where an answer is incorrect, some marks
+may be given for a correct method, provided this is shown by written working. You are therefore advised
+to show all working.
+
+1.    [Total mark: 23]
+
+      Part A [Maximum mark: 11]
+
+      The area of an equilateral triangle is 1 cm2. Determine the area of
+
+      (a)   the circumscribed circle;                                                           [8 marks]
+
+      (b)   the inscribed circle.                                                               [3 marks]
+
+      Part B [Maximum mark: 12]
+
+      The points A , B have coordinates (1, 0) , (0 , 1) respectively. The point P ( x , y )
+      moves in such a way that AP = kBP where k ∈  + .
+
+      (a)   When k = 1, show that the locus of P is a straight line.                             [3 marks]
+
+      (b)   When k ≠ 1, the locus of P is a circle.
+
+		          (i)    Find, in terms of k , the coordinates of C, the centre of this circle.
+
+		          (ii)   Find the equation of the locus of C as k varies.                             [9 marks]
+
+
+
+
+2212-7102
+                                                        –3–              M12/5/FURMA/SP2/ENG/TZ0/XX
+
+2.    [Total mark: 25]
+
+      Part A [Maximum mark: 16]
+
+      The graph H has the following adjacency matrix.
+
+                                       A B C D E F G
+                                   A 0     1   0   0   0   0   1
+                                                                  
+                                   B 1     0   1   1   0   1   0
+                                   C 0     1   0   0   1   0   0
+                                                                  
+                                   D 0     1   0   0   1   0   0
+                                   E 0     0   1   1   0   0   0
+                                                                  
+                                   F 0     1   0   0   0   0   1
+                                   G  1   0   0   0   0   1   0 
+
+      (a)   (i)    Show that H is bipartite.
+
+		          (ii)   Draw H as a planar graph.                                               [3 marks]
+
+      (b)   (i)    Explain what feature of H guarantees that it has an Eulerian circuit.
+
+		          (ii)   Write down an Eulerian circuit in H .                                   [3 marks]
+
+      (c)   (i)    Find the number of different walks of length five joining A to B.
+
+		          (ii)   Determine how many of these walks go through vertex F after passing
+                   along two edges.                                                        [6 marks]
+
+      (d)   Find the maximum number of extra edges that can be added to H while keeping
+            it simple, planar and bipartite.                                               [4 marks]
+
+      Part B [Maximum mark: 9]
+
+      (a)   Find the smallest positive integer m such that 3m ≡ 1(mod 22) .                [2 marks]
+
+      (b)   Given that 349 ≡ n (mod 22) where 0 ≤ n ≤ 21 , find the value of  n .          [4 marks]
+
+      (c)   Solve the equation 3x ≡ 5 (mod 22) .                                           [3 marks]
+
+
+
+
+2212-7102                                                                                  Turn over
+                                                        –4–                    M12/5/FURMA/SP2/ENG/TZ0/XX
+
+3.    [Maximum mark: 29]
+
+                                d
+      (a)   (i)    Show that      ( sec θ tan θ + ln (sec θ + tan θ ) ) = 2 sec3θ .
+                               dθ
+
+		          (ii)   Hence write down ∫ sec3 θ dθ .                                                     [5 marks]
+
+                                                         dy
+      (b)   Consider the differential equation (1 + x 2 ) + xy = 1 + x 2 given that y = 1
+            when x = 0 .                                 dx
+
+
+            (i)    Use Euler’s method with a step length of 0.1 to find an approximate value
+                   for y when x = 0.3 .
+
+		          (ii)   Find an integrating factor for determining the exact solution of the
+                   differential equation.
+
+		          (iii) Find the solution of the equation in the form y = f ( x) .
+
+            (iv) To how many significant figures does the approximation found in part (i)
+                 agree with the exact value of y when x = 0.3 ?                                     [24 marks]
+
+
+
+
+4.    [Total mark: 25]
+
+      Part A [Maximum mark: 12]
+
+                                                                       x
+      The function f :  ×  →  ×  is defined by X  AX , where X =   and
+                                                                       y
+          a b 
+      A=        where a , b , c , d are all non-zero.
+          c d 
+
+      (a)   Show that f is a bijection if A is non-singular.                                          [7 marks]
+
+      (b)   Suppose now that A is singular.
+
+		          (i)    Write down the relationship between a , b , c , d .
+
+		          (ii)   Deduce that the second row of A is a multiple of the first row of  A .
+
+		          (iii) Hence show that f is not a bijection.                                               [5 marks]
+
+
+                                                                 (This question continues on the following page)
+
+
+2212-7102
+                                                         –5–              M12/5/FURMA/SP2/ENG/TZ0/XX
+
+(Question 4 continued)
+
+      Part B [Maximum mark: 13]
+
+		          Consider the group {S , + m } where S = {0 , 1, 2... m − 1}, m ∈  , m ≥ 3 and + m
+            denotes addition modulo m .
+
+      (a)   Show that {S , + m } is cyclic for all m .                                            [3 marks]
+
+      (b)   Given that m is prime,
+
+		          (i)    explain why all elements except the identity are generators of {S , + m } ;
+
+            (ii)   find the inverse of  x , where x is any element of {S , + m } apart from the
+                   identity;
+
+		          (iii) determine the number of sets of two distinct elements where each element
+                  is the inverse of the other.                                                    [7 marks]
+
+      (c)   Suppose now that m = ab where a , b are unequal prime numbers. Show that
+            {S , + m } has two proper subgroups and identify them.                                [3 marks]
+
+
+
+
+2212-7102                                                                                         Turn over
+                                                       –6–                 M12/5/FURMA/SP2/ENG/TZ0/XX
+
+5.    [Maximum mark: 18]
+
+      (a)   The continuous random variable X takes values only in the interval [a , b] and F
+            denotes its cumulative distribution function. Using integration by parts, show that:
+                                                         b
+		                                        E ( X ) = b − ∫ F ( x ) dx .                             [4 marks]
+                                                         a
+
+
+
+      (b)   The continuous random variable Y has probability density function f given by:
+
+                                                                     π
+                                        f ( y ) = cos y, 0 ≤ y ≤
+                                                                     2
+		                                      f ( y ) = 0,         elsewhere .
+
+		          (i)    Obtain an expression for the cumulative distribution function of Y , valid
+                              π
+                   for 0 ≤ y ≤ . Use the result in (a) to determine E (Y ) .
+                              2
+
+		          (ii)   The random variable U is defined by U = Y n , where n ∈ + . Obtain
+                   an expression for the cumulative distribution function of U valid for
+                              n
+                          π
+                   0≤u≤  .
+                          2
+		          (iii) The medians of U and Y are denoted respectively by mu and m y .
+                  Show that mu = m yn .                                                            [14 marks]
+
+
+
+
+2212-7102
+

@@ -1,0 +1,242 @@
+N10/5/COMSC/HP1/ENG/TZ0/XX
+
+
+
+
+       88107011
+
+
+Computer science
+HIGHER level
+Paper 1
+
+Tuesday 16 November 2010 (afternoon)
+
+2 hours 15 minutes
+
+
+INSTRUCTIONS TO CANDIDATES
+
+ Do not open this examination paper until instructed to do so.
+ Section A: answer all the questions.
+ Section B: answer all the questions.
+
+
+
+
+8810-7011                                                                                          6 pages
+                                                           © International Baccalaureate Organization 2010
+                                                      –2–                  N10/5/COMSC/HP1/ENG/TZ0/XX
+
+                                                 SECTION A
+
+Answer all the questions.
+
+1.    (a)   Outline the purpose of the systems life cycle model.                                      [2 marks]
+
+      (b)   Identify the stage of the systems life cycle in which a feasibility report is prepared.   [1 mark]
+
+
+2.    Draw a labelled diagram representing the basic structure of the central processing
+      unit (CPU).                                                                                     [4 marks]
+
+
+3.    Customer orders are collected on paper, keyed in, and stored in the customer orders file.
+      A stock master file is searched to determine whether sufficient stock is available and
+      an appropriate report is produced.
+
+      Construct a systems flowchart representing the process described above.                         [5 marks]
+
+
+4.    Outline one example of online processing.                                                       [2 marks]
+
+
+5.    State two features to be considered when comparing the speed of different processors.           [2 marks]
+
+
+6.    (a)   Convert the decimal number 20.5 into binary.                                              [2 marks]
+
+      (b)   Convert the binary number 1010  1001 into hexadecimal.                                    [1 mark]
+
+
+7.    Numbers can be stored in a computer in either integer or floating-point representation.
+
+      (a)   State one reason for using floating-point representation.                                 [1 mark]
+
+      (b)   State one reason for using integer representation.                                        [1 mark]
+
+
+8.    (a)   State the register in which the results of all arithmetic operations are stored.          [1 mark]
+
+      (b)   Define the term overflow error.                                                           [2 marks]
+
+
+9.    State two types of utility software.                                                            [2 marks]
+
+
+
+8810-7011
+                                                   –3–                 N10/5/COMSC/HP1/ENG/TZ0/XX
+
+10.   (a)   State the BigO efficiency of a binary search algorithm.                             [1 mark]
+
+      (b)   State the BigO efficiency of a bubble sort algorithm.                               [1 mark]
+
+
+11.   Data is collected by groups of students, on a field trip, and later transferred to a
+      central computer.
+
+      (a)   Identify one method of data capture.                                                [1 mark]
+
+      (b)   Identify one method of transferring data from the field to the central computer.    [1 mark]
+
+      (c)   There have been concerns about the accuracy of the data. Outline how
+            verification and validation can be used to ensure it is as accurate as possible.   [4 marks]
+
+
+12.   Define the term encapsulation.                                                           [2 marks]
+
+
+13.   (a)   State one type of interrupt.                                                        [1 mark]
+
+      (b)   Outline the steps in the machine instruction cycle.                                [3 marks]
+
+
+
+
+8810-7011                                                                                      Turn over
+                                                      –4–                 N10/5/COMSC/HP1/ENG/TZ0/XX
+
+                                                 SECTION B
+
+Answer all the questions.
+
+14.   When a computer program is being developed errors may occur.
+
+      (a)   Outline two types of possible errors, each with a suitable example.                [4 marks]
+
+      (b)   Describe three examples of software that assist in the development of
+            computer programs.                                                                 [6 marks]
+
+
+15.   (a)   Draw the resultant binary search tree after the items in the following list have
+            been inserted.
+
+                                              6, 4, 8, 3, 5, 7, 9                              [3 marks]
+
+      (b)   State the order in which items will be listed using pre-order traversal.           [2 marks]
+
+      (c)   State the tree traversal that will list the items in ascending order.              [1 mark]
+
+      (d)   Discuss, using diagrams, how the original order of the data will affect the
+            efficiency of searching the tree.                                                  [4 marks]
+
+
+16.   A hospital has a large networked computer system. Data in the computer system
+      is confidential.
+
+      (a)   Identify two ways in which the security of the network within the hospital can
+            be ensured.                                                                        [2 marks]
+
+      (b)   Describe how data could be recovered in a case of corruption.                      [4 marks]
+
+      Doctors, administrative staff and patients are permitted to access different parts of
+      the data.
+
+      (c)   Outline how the network administrator can reduce the risk that sensitive
+            patient data is seen by someone other than a doctor.                               [4 marks]
+
+
+
+
+8810-7011
+                                                      –5–             N10/5/COMSC/HP1/ENG/TZ0/XX
+
+17.   (a)   (i)    Define the term recursion.                                                    [1 mark]
+
+		          (ii)   Describe one advantage and one disadvantage of recursion.                    [4 marks]
+
+      Examine the following recursive method.
+
+      public int mystery(int x, int y)
+      {
+        if (x < y)
+        { return 0; }
+        else
+        { return 1 + mystery(x – y, y); }
+      }
+
+      (b)   State the value of variable w after
+
+		          (i)    int w = mystery(2, 3) ;                                                       [1 mark]
+
+		          (ii)   int w = mystery(2, 2) ;                                                       [1 mark]
+
+		          (iii) int w = mystery(7, 3) .                                                        [1 mark]
+
+      (c)   Assuming that both arguments are positive, determine the purpose of the
+            method mystery.                                                                     [2 marks]
+
+
+18.   Consider the simplified logic circuit shown below. It has three inputs (X, Y and Z)
+      and one output (OUT).
+
+                                                  Y
+
+
+
+                                Z                            OUT
+
+
+
+                                                  X
+
+      The output at OUT is the same as the input signal at X when the input signal at Z is 0.
+      The output at OUT is the same as the input signal at Y when the input signal at Z is 1.
+
+      (a)   Construct a truth table that summarizes this behaviour.                             [3 marks]
+
+      (b)   (i)    From the truth table, construct the Boolean expression for output OUT
+                   in terms of inputs X, Y and Z.                                               [2 marks]
+
+		          (ii)   Show that the expression can be simplified to YZ + XZ .                      [2 marks]
+
+      (c)   Draw the logic circuit corresponding to the expression YZ + XZ .                    [3 marks]
+
+8810-7011                                                                                       Turn over
+                                                    –6–                N10/5/COMSC/HP1/ENG/TZ0/XX
+
+19.   Consider the following program fragment.
+
+      int n = 8;
+      int p = 1;
+      int s = 0;
+      for (int c = 1; c < n; c = c + 1)
+      {
+        if (c % 2 == 0)
+        { s = s + c; }
+        else
+        { p = p * c; }
+      }
+      output("s = " + s);
+      output("p = " + p);
+
+      (a)   Construct the trace table, started below, for the program fragment.          [3 marks]
+
+                     c    c % 2 == 0        c < 8         p        s        output
+
+
+
+
+      (b)   Determine the purpose of the program fragment.                               [2 marks]
+
+      (c)   Rewrite the program fragment, converting the for loop into an equivalent
+            while loop.                                                                  [2 marks]
+
+      (d)   Analyse the efficiency of the program fragment.                              [3 marks]
+
+
+
+
+8810-7011
+

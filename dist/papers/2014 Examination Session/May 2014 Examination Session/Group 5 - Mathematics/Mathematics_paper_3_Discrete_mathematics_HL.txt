@@ -1,0 +1,149 @@
+M14/5/MATHL/HP3/ENG/TZ0/DM
+
+
+
+
+      22147207
+
+MATHEMATICS
+HIGHER LEVEL
+PAPER 3 – DISCRETE MATHEMATICS
+
+Thursday 15 May 2014 (afternoon)
+
+1 hour
+
+
+INSTRUCTIONS TO CANDIDATES
+
+ Do not open this examination paper until instructed to do so.
+ Answer all the questions.
+ Unless otherwise stated in the question, all numerical answers should be given exactly or
+  correct to three significant figures.
+ A graphic display calculator is required for this paper.
+ A clean copy of the Mathematics HL and Further Mathematics HL formula booklet is required
+  for this paper.
+ The maximum mark for this examination paper is [60 marks].
+
+
+
+
+2214-7207                                                                                       4 pages
+                                                        © International Baccalaureate Organization 2014
+                                                    –2–               M14/5/MATHL/HP3/ENG/TZ0/DM
+
+Please start each question on a new page. Full marks are not necessarily awarded for a correct answer
+with no working. Answers must be supported by working and/or explanations. In particular, solutions
+found from a graphic display calculator should be supported by suitable working. For example, if graphs
+are used to find a solution, you should sketch these as part of your answer. Where an answer is incorrect,
+some marks may be given for a correct method, provided this is shown by written working. You are therefore
+advised to show all working.
+
+1.    [Maximum mark: 10]
+
+      The weighted graph K , representing the travelling costs between five customers, has the
+      following adjacency table.
+
+
+                                      A        B          C      D        E
+
+                              A        0       1          6      7        4
+
+                              B        1       0          9      8       10
+
+                              C        6       9          0      11       3
+
+                              D        7       8          11     0       12
+
+                              E        4       10         3     12        0
+
+
+      (a)   Draw the graph K .                                                                        [2]
+
+      (b)   Starting from customer D, use the nearest-neighbour algorithm, to determine an upper
+            bound to the travelling salesman problem for K .                                          [4]
+
+      (c)   By removing customer A, use the method of vertex deletion, to determine a lower bound
+            to the travelling salesman problem for K .                                                [4]
+
+
+
+
+2214-7207
+                                                      –3–                  M14/5/MATHL/HP3/ENG/TZ0/DM
+
+2.    [Maximum mark: 23]
+
+      (a)   Consider the integers a = 871 and b = 1157 , given in base 10.
+
+		          (i)    Express a and b in base 13.
+
+		          (ii)   Hence show that gcd ( a , b) = 13 .                                                  [7]
+
+      (b)   A list L contains n + 1 distinct positive integers. Prove that at least two members
+            of L leave the same remainder on division by n .                                            [4]
+
+      (c)   Consider the simultaneous equations
+
+                                                    4 x + y + 5z =a
+                                                          2x + z =b
+                                                   3x + 2 y + 4 z =
+                                                                  c
+
+		where x , y , z∈  .
+
+		          (i)    Show that 7 divides 2a + b − c .
+
+		(ii)             Given that a = 3 , b = 0 and c = −1 , find the solution to the system of equations
+                   modulo 2.                                                                            [6]
+
+      (d)   Consider the set P of numbers of the form n 2 − n + 41 , n ∈  .
+
+		          (i)    Prove that all elements of P are odd.
+
+		          (ii)   List the first six elements of P for n = 0, 1, 2, 3, 4, 5 .
+
+		          (iii) Show that not all elements of P are prime.                                            [6]
+
+
+
+
+2214-7207                                                                                       Turn over
+                                                      –4–                M14/5/MATHL/HP3/ENG/TZ0/DM
+
+3.    [Maximum mark: 10]
+
+      (a)   Draw a spanning tree for
+
+		          (i)    the complete graph, K 4 ;
+
+		          (ii)   the complete bipartite graph, K 4,4 .                                                      [2]
+
+      (b)   Prove that a simple connected graph with n vertices, where n > 1 , must have two vertices
+            of the same degree.                                                                               [3]
+
+      (c)   Prove that every simple connected graph has at least one spanning tree.                           [5]
+
+
+
+
+4.    [Maximum mark: 17]
+
+      (a)   (i)    Write down the general solution of the recurrence relation un + 2un −1 =0, n ≥ 1 .
+
+		          (ii)   Find a particular solution of the recurrence relation un + 2un −1 =3n − 2, n ≥ 1 ,
+                   in the form u=
+                                n  An + B , where A , B ∈  .
+
+		          (iii) Hence, find the solution to un + 2un −1 =3n − 2, n ≥ 1 where u1 = 7 .                      [10]
+
+      (b)                                               un 2un −1 − 2un −2 , n ≥ 2 , where u0 = 2 ,
+            Find the solution of the recurrence relation=
+		 u1 = 2 .            Express your solution in the form 2 f ( n ) cos ( g ( n ) π ) , where the functions
+		 f and g map  to  .                                                                                       [7]
+
+
+
+
+2214-7207
+

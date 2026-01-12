@@ -1,0 +1,698 @@
+N14/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+
+
+                   MARKSCHEME
+
+
+                      November 2014
+
+
+
+                COMPUTER SCIENCE
+
+
+
+                      Standard Level
+
+
+
+                               Paper 2
+
+
+
+
+17 pages
+                            –2–           N14/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+
+
+This markscheme is the property of the International
+Baccalaureate and must not be reproduced or distributed to any
+other person without the authorization of the IB Assessment
+Centre.
+                                                  –3–              N14/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+Subject Details:             Computer Science SL Paper 2 Markscheme
+
+Mark Allocation
+
+Candidates are required to answer all questions in one Option. Total 45 marks.
+
+
+General
+
+A markscheme often has more specific points worthy of a mark than the total allows. This is intentional.
+Do not award more than the maximum marks allowed for that part of a question.
+
+When deciding upon alternative answers by candidates to those given in the markscheme, consider the
+following points:
+
+          Each statement worth one point has a separate line and the end is signified by means of
+           a semi-colon (;).
+
+          An alternative answer or wording is indicated in the markscheme by a “/”; either wording can
+           be accepted.
+
+          Words in ( … ) in the markscheme are not necessary to gain the mark.
+
+          If the candidate’s answer has the same meaning or can be clearly interpreted as being the
+           same as that in the markscheme then award the mark.
+
+          Mark positively. Give candidates credit for what they have achieved and for what they have
+           got correct, rather than penalizing them for what they have not achieved or what they have
+           got wrong.
+
+          Remember that many candidates are writing in a second language; be forgiving of
+           minor linguistic slips. In this subject effective communication is more important than
+           grammatical accuracy.
+
+          Occasionally, a part of a question may require a calculation whose answer is required for
+           subsequent parts. If an error is made in the first part then it should be penalized. However, if
+           the incorrect answer is used correctly in subsequent parts then follow through marks should
+           be awarded. Indicate this with “FT”.
+
+General guidance
+
+ Issue          Guidance
+ Answering      • In the case of an “identify” question read all answers and mark positively up to the
+ more than        maximum marks. Disregard incorrect answers.
+ the quantity   • In the case of a “describe” question, which asks for a certain number of facts
+ of responses     eg “describe two kinds”, mark the first two correct answers. This could include two
+ prescribed       descriptions, one description and one identification, or two identifications.
+ in the         • In the case of an “explain” question, which asks for a specified number of
+ questions        explanations eg “explain two reasons …”, mark the first two correct answers.
+                  This could include two full explanations, one explanation, one partial explanation etc.
+                                                   –4–              N14/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+Option A — Databases
+
+1.   (a)   (i)    An operation is one of the minimal functions that a database can perform;
+                  While a transaction may consist of multiple operations;
+                  For example a withdrawal might consist of a query to determine the account
+                  balance followed by a second query to reduce the account balance;          [3 marks]
+
+           (ii)   If the transaction could not be completed successfully;                     [1 mark]
+
+           (iii) Returns the database to the state before the transaction was started;        [1 mark]
+
+     (b)   Award [1 mark] each for identifying two reasons, up to [2 marks max].
+           Award [1 mark] each for an elaboration that goes beyond simply identifying
+           reasons, up to [2 marks max].
+
+           Example:
+           A database engine provides standardized support for operations such as queries;
+           It has built-in capabilities for ensuring that transactions succeed;
+           Easy to sort/retrieve/analyse data;
+           No redundant data / no data entered twice;
+           This greatly reduces development time by providing a common platform that
+           developers can reuse in multiple projects;                                      [4 marks]
+
+     (c)   Award up to [2 marks max] each for validation and verification, for a total of
+           [4 marks max]. Award [1 mark] for correctly defining the term and [1 mark] for
+           an example.
+
+           Example:
+           Validation is making sure that the value entered is of the correct type;
+           For example, the user entered a currency value to deposit and not a date;
+           Verification is getting confirmation that the value entered is the one intended;
+           For example, making the user enter the deposit amount twice and ensuring that the
+           entries match;                                                                    [4 marks]
+
+     (d)   Isolation refers to the property of having transactions that are performed at the
+           same time, produce the same results as if they were performed sequentially;
+           In either order;
+           For example, a deposit of $10 and a withdrawal of $50 should result in the
+           account balance being decreased by $40, regardless of the order or simultaneity of
+           the two transactions;                                                              [3 marks]
+                                                  –5–               N14/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+2.   (a)   Size: integer;
+           Price: float;
+           Maker: String;
+           Accept reasonable alternatives, eg size could be float or price could be integer.    [3 marks]
+
+     (b)   Creation of a database;
+           Manipulation of the database;
+           Interrogation of the database;                                                       [3 marks]
+
+     (c)   Award up to [2 marks] for each security feature, up to [4 marks max]. For each
+           feature, award [1 mark] for identifying the feature and [1 mark] for further
+           elaboration.
+
+           Example:
+           Data Validation;
+           Ensuring that only data of the correct type is stored in the database: No dates in
+           the balance column, for example;
+
+           Access Rights;
+           Ensuring that users can only access data to which they are authorized: Customer A
+           cannot access Customer B’s data, for example;
+
+           Data Locking;
+           Preventing data values from being accessed by a transaction while another
+           transaction involving the same data is in progress;                       [4 marks]
+
+     (d)   Award up to [2 marks max].
+           A data dictionary describes the data in a database;
+           Its meaning;
+           Its format;
+           Its relationship to other data;                                                      [2 marks]
+
+     (e)   Award up to [3 marks max].
+           The data model is the “blueprint” for the physical database;
+           Ensure that all data objects required are identified;
+           Ensure that all data objects are accurately specified;
+           Provide a description of the database that can be understood/reviewed by
+           customers/end-users;                                                     [3 marks]
+                                                –6–             N14/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+3.   (a)   Award up to [2 marks max].
+           A normalized database is one which minimizes/reduces/eliminates redundancies;
+           And/or dependencies;
+           So that manipulation of a field only needs to be performed in one table;          [2 marks]
+
+     (b)   Award up to [2 marks max].
+           Redundant data in a database wastes space;
+           Creates the potential for inconsistency;
+           Requires extra work to keep updated;                                              [2 marks]
+
+     (c)           Bookcase                                             Shelf
+            Bookcase_Number             1               0..N   Book*
+            Aisle_Number
+            Shelf*
+
+
+                                                                            1
+
+
+
+
+                                                                            0..N
+
+                   Sales_Log                                            Book
+            Book_Title                  0..N              1    Book_Title
+            Customer_Name                                      Author
+            Price_Paid                                         Publication_Date
+            Sale_Date                                          List_Price
+                                                               Number_of_Copies
+
+
+           NOTE: The graphical notation of the ERD is not being evaluated: Only its
+           content.
+           Award marks as follows, up to [3 marks max].
+           Award [1 mark] for creating separate tables.
+           Award [1 mark] for showing three suitable tables.
+           Award [1 mark] for showing relationships as links between tables.
+           Award [1 mark] for showing the nature of the relationships.              [3 marks]
+
+     (d)   (i)   Award [1 mark max].
+                 No primary keys are identified;
+                 The Book column in the Shelf table will be duplicative and/or not atomic;
+                 The Shelf column in the Bookcase table will be duplicative and/or
+                 not atomic;                                                                 [1 mark]
+                                          –7–             N14/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+      (ii)   Award up to [3 marks max].
+             Group the related data into a table;
+             For example, make a Shelving table with Booktitle, ShelfNumber, and
+             BookcaseNumber rows;
+             Remove subsets of data that apply to multiple rows in a table;
+             For example, CustomerName will duplicate the name of a repeat customer
+             for each transaction;                                                  [3 marks]
+
+(e)   Award [1 mark] for identifying an issue. Award an additional [2 marks] for
+      discussion.
+      Customer information might be made available;
+      Police could identify suspicious reading/purchasing habits;
+      This may represent a breach of the customer’s privacy;
+      The information may prove unreliable;                                      [3 marks]
+                                                 –8–              N14/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+Option B — Modelling and simulation
+
+4.   (a)   50 ×1.5 = 75 mg ;                                                                 [1 mark]
+
+     (b)   Award [1 mark] for the variables and [1 mark] for the calculation.
+           Variables: age, weight, amount;
+           Calculation: (total amount) = (weight) × (amount per kg for their age group);     [2 marks]
+
+     (c)   Award marks as follows, up to [4 marks max].
+           Award [1 mark] for correct inputs.
+           Award [1 mark] for calculating amount.
+           Award [1 mark] for correct day loop.
+           Award [1 mark] for correct time loop.
+
+           Example:
+           input weight, age
+           calculate amount
+           output amount, “to be taken at these times”
+           loop day from 1 to 10
+                output day
+                loop time from 0 to 2
+                     output 8 + time*8
+                end loop
+           end loop                                                                          [4 marks]
+
+     (d)   (i)   Award [2 marks] for describing how the software is used and [2 marks] for
+                 correct calculations. Spreadsheet is most likely to be used (the only one
+                 compulsory in the guide) but accept any suitable software reference.
+
+                 Example: (using a spreadsheet, description or illustration)
+                 Construct column headings to show dose number (day and time) and
+                 amount of dose given (calculated from age and weight);
+                 Amount in blood at the moment in one (last) column;
+                 First dose entered is the first amount;
+                 From second dose onwards;
+                 (amount) = (first dose) + (0.2 × (previous amount));
+                 Copy down to last dose;
+
+                  Dose #                   Dose Given                Amount in Blood
+                  1                        D                         = B2
+                  2                        D                         =B2+0.2*C2
+                  3                        D                         (copy down)
+                  4                        D                         etc.
+
+                 Example: (using Insightmaker.com – a free simulation download)
+                 Set [initial] to dose calculated from weight and age;
+                 Set variable [amount] to initial dose;
+                 Set equation to [initial] + 0.2*[amount];
+                 Number of simulations = 29 (accept 30);
+                 Run simulation to see graph or table of amounts;                            [4 marks]
+                                                  –9–              N14/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+           (ii)   Award [1 mark max].
+                  Input errors that could occur are age category and weight.
+
+                  Example:
+                  If input age was not within the categories due to mistyping then no dose
+                  would be given;
+                  If weight was wrongly measured or rounded then the wrong dose could
+                  be given;                                                                     [1 mark]
+
+           (iii) By measuring medicine levels in the blood at each dosage;
+                 And calculating/checking with the results expected from software;
+                 Errors in the input or in the model can be identified;                         [3 marks]
+
+
+5.   (a)   Input the current population. For each successive year, multiply the previous year
+           by 1.07 / increase by 7 % ;                                                          [1 mark]
+
+     (b)   Award up to [3 marks max].
+           Change in birth rate;
+           Change in death rate;
+           Immigration;
+           Emigration;                                                                          [3 marks]
+
+     (c)   Award up to [3 marks max]. Award [1 mark] for each of the factors included in a
+           logical way.
+
+           Example:
+           Build up percentage change from rise in birth rate;
+           (Use previous trend figures to change the birth rate over the 10 years;)
+           Minus the death rate;
+           (Use previous trend figures to change the death rate over the 10 years;)
+           Seen from registry;
+           Immigration – most difficult to predict but could work on figures in similar new
+           towns to give an average number/percentage rise;
+           Any planned new factories/companies or known redundancies could be factored
+           into immigration/emigration;                                                     [3 marks]
+
+     (d)   Award [2 marks] for each source of inaccuracy which is discussed, up to
+           [4 marks max]. A list of four or more which are not elaborated should get no
+           more than [3 marks max].
+
+           Example:
+           This method assumes that the change in population can be expressed as a
+           combination of factors listed above;
+           But there are many other factors that have not been included such as economic
+           climate of the country;
+           It also assumes a ten year span can be calculated on past figures;
+           Whereas a new town has different population patterns from an established one;
+           For example the early years could see an influx which stops after a short while/or
+           the opposite – takes time to get established;                                      [4 marks]
+                                                   – 10 –             N14/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+     (e)   Award [1 mark] for each consequence identified and [1 mark] for a description,
+           up to [4 marks max].
+
+           Example:
+           Predicted population is used to build schools/hospitals;
+           If the population is far greater there will not be enough services – if it is smaller
+           then too much money will have been invested and the community could have
+           economic problems;                                                                    [4 marks]
+
+
+6.   (a)   Award up to [2 marks max].
+           A wire frame is a representation of a 3D object;
+           Which shows the structure of the object;
+           As a series of vectors (lines) joining the vertices (corners);
+           Which are stored in memory;
+           And positioned on screen according to the desired view;                              [2 marks]
+
+     (b)   (i)    Award up to [1 mark max] for any reasonable example.
+                  For example change a three door car to a five door car;
+                  Changing the shape of the car from one form to another;                       [1 mark]
+
+           (ii)   Award up to [2 marks max].
+                  Change the points/coordinates;
+                  By changing the vectors;
+                  Which would change the shape;
+                  Lengths and positions of lines change;                                        [2 marks]
+
+           (iii) Award up to [2 marks max].
+                 By using a graphics pen/mouse;
+                 On a touch screen;
+                 Entering different coordinates;
+                 Sections can be copied from one part to another;                               [2 marks]
+
+     (c)   Award up to [2 marks max].
+           Experiment with colour combinations of interior and exterior;
+           Change the fabric of the seats;
+           Fit different forms of headlights;                                                   [2 marks]
+
+     (d)   The wire frame needs to be rendered;
+           So that the surface made by joining the lines and points are seen;
+           Each time the model is moved or rotated the rendering has to be repeated;
+           Colour is also added to show light and shade;
+           Ray tracing is one on the techniques that apply a realistic 3D picture;
+           By working from a point of presumed light;
+           Accept any other optimization techniques that are outlined including shading,
+           rasterization etc.                                                            [6 marks]
+                                                  – 11 –             N14/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+Option C — Web science
+
+7.   (a)   Award up to [2 marks] for clearly showing the difference between the two. Only
+           award the third mark if a complete answer that is in context (as shown below)
+           is included.
+           The internet is the interconnected networks and communication links that allow
+           data to be transferred between the newspaper’s web server and the user’s
+           computer in the UK;
+           The World Wide Web represents the actual resources held on the various servers
+           that are linked to the internet including the text, video, graphics etc held by the
+           newspaper’s server;                                                                 [3 marks]
+
+     (b)   Award up to [2 marks max].
+           Audio clips;
+           Video clips;
+           Blogs;
+           RSS feeds;
+           Search facilities;
+           Social networking links;                                                           [2 marks]
+
+     (c)   (http://www.southafricantimes.com/football/mon/rt)
+
+           http://
+           Identifies the protocol/scheme used (which will determine how the website is
+           accessed);
+
+           www.southafricantimes.com
+           Identifies the domain/server;
+
+           /football/mon/rt
+           Identifies the specific pathway through the directories to the required file;      [3 marks]
+
+     (d)   Award up to [4 marks max].
+           The CGI (is a specification which) allows web pages to be connected to the
+           server’s database;
+           The form contains a link to a CGI script on the web site;
+           This script is a server-side script;
+           When the script is executed it uses the option chosen by the user;
+           To select the required data from the database;
+           This data is incorporated into an HTML page and sent back to the user;     [4 marks]
+
+
+     (e)   IP protocol;
+           Which determines the number of bits used to represent an address;
+           And increasing the number of bits increases the number of addresses / mathematical
+           demonstration of this;                                                             [3 marks]
+                                                 – 12 –           N14/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+8.   (a)   In the HITS algorithm the page is ranked on a combination of its importance as a
+           hub and an authority;
+           Its value as an authority will depend upon the ranking of the in-links (pages
+           pointing to it);
+           Its value as a hub will depend upon the ranking of the out-links;
+           So if high profile scientific magazines (eg Nature, Science) have more links to one
+           of these magazines than the other, the page rankings will be different (or similar);
+           Only award the fourth mark if an example in context (last point above) is given.     [4 marks]
+
+     (b)   Lossless compression would be used when no (significant) data can be lost;
+           As in the delivery of text;
+           Lossy compression can be used when (certain) images are downloaded;
+           As reduced resolution may not be noticeable/an issue;                               [4 marks]
+
+     (c)   This can happen as a result of browsing history being recorded;
+           For example, the search term “Paris Hilton” for a businessman who travels
+           frequently might produce hotel links;
+           Whilst someone who regularly accesses society magazines might be linked with
+           the website of this celebrity;
+           Accept other examples of search terms that could be interpreted in different ways
+           by the search engine depending on the user eg car models or film titles.          [3 marks]
+
+     (d)   Award [1 mark] for each system identified, up to [2 marks max].
+           Award [1 mark] for each example, up to [2 marks max].
+
+           Examples:
+           Grid computing;
+           Used to share out work amongst different computers, eg analyzing astronomical
+           data;
+           Peer-2-peer networks;
+           Used for sharing data, eg music files;
+           Also allow answers referring to ubiquitous and mobile computing.              [4 marks]
+                                                  – 13 –             N14/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+9.   (a)   (i)    Applications are accessed through the internet (and not stored locally);
+                  Storage space is accessed online (and not locally);                           [2 marks]
+
+           (ii)   As access to resources is through the browser;
+                  The user will need to have internet access (Wi-Fi) in order to use (most)
+                  resources;
+                  The user will not be able to use their favourite software;
+                  As they will be restricted to that provided by the supplier;
+                  Security issues;
+                  Files/documents are not directly protected by the user;
+                  Performance issues;
+                  Load/response time of an application is dependent on the connection;      [4 marks]
+
+     (b)   Award up to [2 marks] for a well-defined argument for control.
+           Award up to [2 marks] for a well-defined argument against control.
+           Award a further [1 mark] for a justified conclusion (based on the arguments
+           presented).
+
+           Examples:
+           Positive
+           Allows free flow of information;
+           Prevents individual countries from exercising censorship;
+           Creates equal opportunities for businesses of all sizes;
+           Negative
+           Subversive information freely available (eg bomb making);
+           Incorrect information can spread freely (eg Twitter);                                [5 marks]
+
+     (c)   Award [1 mark] for identifying the particular intellectual property (eg film,
+           music etc).
+           Award [1 mark] for describing a measure that is currently in force.
+           Award a further [2 marks max] for a sound evaluation of the success of this
+           measure.
+
+           Examples:
+           Theses of university students;
+           Sites exist such as Turnitin which crosscheck a submitted essay with a database of
+           previously written essays;
+           This will return a statistical evaluation of the authenticity of the submitted piece;
+           This will generally find examples of plagiarism although it is generally only
+           successful for essays written in the English language;
+           Music;
+           Some countries now track the movements on peer-2-peer networks to identify
+           individual offenders;
+           The number of prosecutions is low, but the publicity may be an important
+           deterrent;
+           Illegal downloading still exists extensively, but at the same time record number of
+           legal downloads are taking place, suggesting that an “acceptable” balance may
+           exist;                                                                                [4 marks]
+                                                   – 14 –             N14/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+Option D — Object-oriented programming
+
+10.   (a)   Award up to [2 marks max].
+            It is the method that instantiates/creates a new object;
+            It may be used to initialize variables (of the new object);                   [2 marks]
+
+      (b)   Award [1 mark] for identifying an advantage.
+            Award [1 mark] for identifying an example.
+            Award [1 mark] for an elaboration.
+
+            Example:
+            Polymorphism allows an external program to use the same method action on all
+            subclasses;
+            By allowing overridden functions in child classes to add only the code that is
+            needed for the unique processing of that sub-class;
+            In this example, the getWeight() method returns the weight of each piece of
+            RollingStock. In the case of a wagon, the additional computation needed to add
+            the weight of the cargo is added;                                              [3 marks]
+
+      (c)   Award [1 mark] for correct UML box.
+            Award [1 mark] for correct member variables.
+            Award [1 mark] for correct member functions.
+
+                                  Train
+                -mEngines : Engine[]
+                -mWagons : Wagon[]
+                -mEngineCount : int
+                -mWagonCount : int
+                -mTrainNumber : int
+                -mWeight : double
+                +Train(number : int)
+                +addEngine(newEngine : Engine)
+                +removeEngine() : Engine
+                +addWagon(newWagon : Wagon)
+                +removeWagon() : Wagon
+                +getWeight() : double
+                                                                                          [3 marks]
+
+      (d)   Award [1 mark] for correct function declaration line, including public.
+            Award [1 mark] for returning the correct value.
+
+            Example:
+            public int getNumberOfWagons()
+            {
+              return mWagonCount;
+            }                                                                             [2 marks]
+                                                 – 15 –           N14/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+      (e)   Award [1 mark] for correct function declaration line, including public.
+            Award [1 mark] for reducing WagonCount.
+            Award [1 mark] for return statement.
+            Award [1 mark] for returning the correct object.
+            Award [1 mark] for checking the value of the counter.
+
+            Example:
+            public Wagon removeWagon()
+            {
+              if (mWagonCount > 0 )
+              {
+                mWagonCount--;
+                return mWagons[mWagonCount];
+              }
+              else
+              {
+                return null;
+              }
+            }                                                                                   [5 marks]
+
+
+11.   (a)   Award [1 mark] for stating an advantage and [1 mark] for a more complete
+            outline, up to [2 marks max].
+
+            Example:
+            Supports code reuse;
+            Programmers can select an appropriate object class from the library and not have
+            to design, implement and test it;                                                [2 marks]
+
+      (b)   Award [1 mark] for stating the difference and [1 mark] for describing it, for two
+            differences, up to [4 marks max].
+
+            Example:
+            Programmers can be specialized;
+            Some programmers can develop special expertise in testing, while others focus on
+            User Interfaces, etc;
+            Information hiding can be used to reduce module dependencies;
+            Different programmers can work on different classes independently because the
+            internals of those classes are hidden;
+            Easier to resolve problems when many heads;                                      [4 marks]
+
+
+      (c)   (i)    String;                                                                      [1 mark]
+
+            (ii)   int;                                                                         [1 mark]
+
+            (iii) Boolean;                                                                      [1 mark]
+                                                   – 16 –            N14/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+      (d)   It needs to modify the instance variable declarations;
+            Change the formal parameters of the constructor;
+            Add “get” and “set” methods;                                                  [3 marks]
+
+      (e)   Inheritance avoids duplicating code in the two new classes;
+            The new DestinationAddress class will have a member variable to store the
+            special delivery instructions;
+            The OriginAddress class will have a member variable indicating where the
+            parcel was collected from;
+            They will inherit common attributes from the parent;
+            Examples of these;                                                        [3 marks]
+
+
+12.   (a)   (i)    Award [1 mark] for showing the correct engines (7 and 9).
+                   Award [1 mark] for showing the engines in the correct order.
+
+                        [0]    [1]       [2]        …
+                         7      9                                                          [2 marks]
+
+            (ii)   2;                                                                     [1 mark]
+
+            (iii) Award [1 mark] for showing the correct Wagons (23 and 214).
+                  Award [1 mark] for showing the wagons in the correct order.
+
+                        [0]    [1]       [2]        …
+                        23     214                                                         [2 marks]
+
+      (b)   Award [1 mark] for calling getWeight() on parent class.
+            Award [1 mark] for adding weight of individual parcels in a loop.
+            Award [1 mark] for using correct loop index endpoints.
+            Award [1 mark] for returning the correct value.
+
+            Example:
+            public double getWeight()
+            {
+              double totalWeight = super.getWeight(); //                 or totalWeight=32000
+              for(int i=0; i < mParcelCount; i++)
+              {
+                totalWeight += mParcels[i].getWeight();
+              }
+              return totalWeight;
+            }                                                                             [4 marks]
+                                            – 17 –           N14/4/COMSC/SP2/ENG/TZ0/XX/M
+
+
+(c)   Award [1 mark] for intitializing total weight to zero.
+      Award [1 mark] for correctly adding the weights of all the engines.
+      Award [1 mark] for correctly adding the weights of all the wagons.
+      Award [1 mark] for returning the correct value.
+
+      Example:
+      public double getWeight()
+      {
+        double totalWeight = 0;
+        for (int i = 0; i < mEngineCount; i++ )
+        {
+          totalWeight += mEngines[i].getWeight();
+        }
+        for (int i = 0; i < mWagonCount; i++ )
+        {
+          totalWeight += mWagons[i].getWeight();
+        }
+        return totalWeight;
+      }                                                                               [4 marks]
+
+(d)   The compiler can tell which is which;
+      The compiler checks to see what class of object the method is being invocated on
+      and therefore choose the correct one;
+      They are in different classes;                                                   [2 marks]
+

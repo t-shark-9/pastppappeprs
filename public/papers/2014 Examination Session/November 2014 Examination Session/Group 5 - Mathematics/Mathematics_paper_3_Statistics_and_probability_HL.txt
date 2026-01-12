@@ -1,0 +1,181 @@
+N14/5/MATHL/HP3/ENG/TZ0/SP
+
+
+
+
+      88147210
+
+MATHEMATICS
+HIGHER LEVEL
+PAPER 3 – STATISTICS AND PROBABILITY
+
+Thursday 13 November 2014 (afternoon)
+
+1 hour
+
+
+INSTRUCTIONS TO CANDIDATES
+
+ Do not open this examination paper until instructed to do so.
+ Answer all the questions.
+ Unless otherwise stated in the question, all numerical answers should be given exactly or
+  correct to three significant figures.
+ A graphic display calculator is required for this paper.
+ A clean copy of the Mathematics HL and Further Mathematics HL formula booklet is required
+  for this paper.
+ The maximum mark for this examination paper is [60 marks].
+
+
+
+
+8814-7210                                                                                       5 pages
+                                                        © International Baccalaureate Organization 2014
+                                                       –2–                N14/5/MATHL/HP3/ENG/TZ0/SP
+
+Please start each question on a new page. Full marks are not necessarily awarded for a correct answer
+with no working. Answers must be supported by working and/or explanations. In particular, solutions
+found from a graphic display calculator should be supported by suitable working. For example, if graphs
+are used to find a solution, you should sketch these as part of your answer. Where an answer is incorrect,
+some marks may be given for a correct method, provided this is shown by written working. You are therefore
+advised to show all working.
+
+1.    [Maximum mark: 9]
+
+      A random variable X has probability density function
+
+                                                        0   x<0
+                                                        1
+                                                          0 ≤ x <1
+                                                        2
+                                               f ( x) =             .
+                                                        1 1 ≤ x < 3
+                                                        4
+                                                        0   x≥3
+                                                        
+
+      (a)   Sketch the graph of y = f ( x) .                                                               [1]
+
+      (b)   Find the cumulative distribution function for X .                                              [5]
+
+      (c)   Find the interquartile range for X .                                                           [3]
+
+
+2.    [Maximum mark: 9]
+
+      Eric plays a game at a fairground in which he throws darts at a target. Each time he throws
+      a dart, the probability of hitting the target is 0.2. He is allowed to throw as many darts as
+      he likes, but it costs him $1 a throw. If he hits the target a total of three times he wins $10.
+
+      (a)   Find the probability he has his third success of hitting the target on his sixth throw.        [3]
+
+      (b)   (i)    Find the expected number of throws required for Eric to hit the target three times.
+
+            (ii)   Write down his expected profit or loss if he plays until he wins the $10.               [3]
+
+      (c)   If he has just $8, find the probability he will lose all his money before he hits the target
+            three times.                                                                                   [3]
+
+
+
+
+8814-7210
+                                                    –3–                   N14/5/MATHL/HP3/ENG/TZ0/SP
+
+3.    [Maximum mark: 11]
+
+      (a)   If X and Y are two random variables such that E ( X ) = µ X and E (Y ) = µY then
+            Cov ( X , Y ) = E ( ( X − µ X )(Y − µY ) ) .
+
+            Prove that if X and Y are independent then Cov ( X , Y ) = 0 .                                  [3]
+
+      (b)   In a particular company, it is claimed that the distance travelled by employees to work is
+            independent of their salary. To test this, 20 randomly selected employees are asked about
+            the distance they travel to work and the size of their salaries. It is found that the product
+            moment correlation coefficient,  r , for the sample is −0.35 .
+
+            You may assume that both salary and distance travelled to work follow normal distributions.
+
+            Perform a one-tailed test at the 5 % significance level to test whether or not the distance
+            travelled to work and the salaries of the employees are independent.                            [8]
+
+
+
+
+8814-7210                                                                                           Turn over
+                                                    –4–                  N14/5/MATHL/HP3/ENG/TZ0/SP
+
+4.    [Maximum mark: 21]
+
+      If X is a random variable that follows a Poisson distribution with mean λ > 0 then the
+      probability generating function of X is G (t ) = eλ ( t −1) .
+
+      (a)   (i)    Prove that E (X ) = λ .
+
+
+		(ii)             Prove that Var ( X ) = λ .                                                             [6]
+
+      Y is a random variable, independent of X , that also follows a Poisson distribution with
+      mean λ .
+
+      (b)   If S = 2 X − Y find
+
+		(i)              E (S ) ;
+
+		(ii)             Var ( S ) .                                                                            [3]
+
+                  X Y
+      Let T =      + .
+                  2 2
+
+      (c)   (i)    Show that T is an unbiased estimator for λ .
+
+		          (ii)   Show that T  is a more efficient unbiased estimator of λ than S .                      [3]
+
+      (d)   Could either S or T model a Poisson distribution? Justify your answer.                        [1]
+
+      (e)   By consideration of the probability generating function, GX +Y (t ) , of X + Y , prove that
+            X + Y follows a Poisson distribution with mean 2 λ .                                          [3]
+
+      (f)   Find
+
+		(i)              GX +Y (1) ;
+
+		(ii)             GX +Y (−1) .                                                                           [2]
+
+      (g)   Hence find the probability that X + Y is an even number.                                      [3]
+
+
+
+
+8814-7210
+                                                      –5–                  N14/5/MATHL/HP3/ENG/TZ0/SP
+
+5.    [Maximum mark: 10]
+
+      Two species of plant, A and B, are identical in appearance though it is known that the mean
+      length of leaves from a plant of species A is 5.2 cm, whereas the mean length of leaves from
+      a plant of species B is 4.6 cm. Both lengths can be modelled by normal distributions with
+      standard deviation 1.2 cm.
+
+      In order to test whether a particular plant is from species A or species B, 16 leaves are
+      collected at random from the plant. The length, x , of each leaf is measured and the mean
+      length evaluated. A one-tailed test of the sample mean, X , is then performed at the 5 % level,
+      with the hypotheses: H 0 : µ = 5.2 and H1 : µ < 5.2 .
+
+      (a)   Find the critical region for this test.                                                          [3]
+
+      (b)   Find the probability of a Type II error if the leaves are in fact from a plant of species B.     [2]
+
+      It is now known that in the area in which the plant was found 90 % of all the plants are of
+      species A and 10 % are of species B.
+
+      (c)   Find the probability that X will fall within the critical region of the test.                    [2]
+
+      (d)   If, having done the test, the sample mean is found to lie within the critical region, find the
+            probability that the leaves came from a plant of species A.                                      [3]
+
+
+
+
+8814-7210
+

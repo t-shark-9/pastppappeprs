@@ -1,0 +1,290 @@
+M12/5/COMSC/HP1/ENG/TZ0/XX
+
+
+
+
+     22127011
+
+COMPUTER SCIENCE
+HIGHER LEVEL
+PAPER 1
+
+Friday 18 May 2012 (afternoon)
+
+2 hours 15 minutes
+
+
+INSTRUCTIONS TO CANDIDATES
+
+   Do not open this examination paper until instructed to do so.
+   Section A: answer all the questions.
+   Section B: answer all the questions.
+   The maximum mark for this examination paper is [100 marks].
+
+
+
+
+2212-7011                                                                                            7 pages
+                                                             © International Baccalaureate Organization 2012
+                                                     –2–                 M12/5/COMSC/HP1/ENG/TZ0/XX
+
+                                                SECTION A
+
+Answer all the questions.
+
+1.    State two ways in which a compiler will help in the development of a program.         [2 marks]
+
+
+2.    State two differences between the CPU in a desktop computer and the microprocessor
+      in a washing machine.                                                                 [2 marks]
+
+
+3.    Explain why both validation and verification are important when processing data.      [4 marks]
+
+
+4.    Outline the resource monitoring function of an operating system.                      [2 marks]
+
+
+5.    (a)   Determine the representation of the decimal number 12.25, in fixed-point,
+            using 8 bits, where 3 bits are used for the fractional part.                    [2 marks]
+
+      (b)   Determine the representation of –12.25, in fixed-point, using 3 bits for the
+            fractional part, in two’s complement.                                           [1 mark]
+
+
+6.    Outline the function of formatting a disk for its first use by an operating system.   [2 marks]
+
+
+7.    Explain the difference in the effect of a logic error and a syntax error in the
+      development of a program.                                                             [4 marks]
+
+
+8.    A picture measures 70 by 100 pixels and is stored as a graphic file.   The colour
+      representation uses 5 bits for red, 5 bits for green and 5 bits for blue.
+
+      (a)   Calculate how many different colours can be represented.                        [1 mark]
+
+      (b)   Each pixel is stored in two bytes.  Calculate the size of the graphic file.     [1 mark]
+
+      (c)   State two ways of storing the file in 12 kB RAM.                                [2 marks]
+
+
+9.    State two features of modern computers that can contribute to our environment’s
+      protection.                                                                           [2 marks]
+
+
+
+
+2212-7011
+                                                   –3–                 M12/5/COMSC/HP1/ENG/TZ0/XX
+
+10.   Consider the following circuit.
+
+               B
+
+               A
+
+
+
+
+                                                                                          O
+
+
+
+
+      (a)   State, without simplifying, the Boolean expression in O that corresponds to
+            the circuit.                                                                      [2 marks]
+
+      (b)   Simplify the Boolean expression in O from part (a) to minimize the number of
+            gates in the corresponding circuit.                                               [2 marks]
+
+      (c)   Suggest a way to prove that the given circuit is equivalent to A xor B.           [2 marks]
+
+
+11.   Identify two advantages of serial transmission over parallel transmission.              [2 marks]
+
+
+12.   Explain two disadvantages of using interviews as a technique for data collection.       [4 marks]
+
+
+13.   Identify three pieces of information that a data packet must contain.                   [3 marks]
+
+
+
+
+2212-7011                                                                                     Turn over
+                                                    –4–                  M12/5/COMSC/HP1/ENG/TZ0/XX
+
+                                                SECTION B
+
+Answer all the questions.
+
+14.   In a self-service fuel station, each pump has a touchscreen display equipped with a
+      credit card reader and a printer for receipts.  All these peripherals are connected to
+      a common computer that can communicate with the various credit card companies.  
+      The pumps are set to deliver up to a maximum of 70 EUR of fuel.
+
+      The customer inserts the payment card, enters the PIN and chooses the type of fuel.  
+      The card is returned after validation and authorization from the credit card company,
+      and only if these operations were successful can the fuel be dispensed.  Finally, the
+      customer can choose to have a printed receipt with the actual expenditure.
+
+      (a)   Describe the process that takes place at the station’s computer after the card’s
+            PIN is entered through the touchscreen.                                            [2 marks]
+
+      (b)   Identify one piece of information that the computer at the fuel station needs to
+            communicate to the credit card company if the authorization was successful.        [1 mark]
+
+      (c)   Construct the system flowchart for the scenario described above.                   [4 marks]
+
+      At night, the self-service fuel station may not be a particularly safe place.
+
+      (d)   Explain why the owner of the fuel station has decided to set a limit of 70 EUR.    [3 marks]
+
+
+
+
+2212-7011
+                                                  –5–                M12/5/COMSC/HP1/ENG/TZ0/XX
+
+15.   Consider the following recursive method.
+
+      public int foo(int n)
+      {
+        if (n <= 0) return –1;
+        else
+        {
+          if (n == 1) return 1;
+          else
+          {
+             int y = n % 2;
+             if (y == 0) return foo(n / 2);
+             else return foo(3 * n + 1);
+          }
+        }
+      }
+
+      (a)   Identify the following in the code:
+
+            (i)    a formal parameter;                                                        [1 mark]
+
+            (ii)   a local variable.                                                          [1 mark]
+
+      (b)   By copying and completing the following table, trace the algorithm for the
+            call  foo(3).                                                                    [2 marks]
+
+                                         n        y        return
+                                         3
+
+
+
+      (c)   Suggest a way to modify the method above in order to optimize the tests on  n.   [2 marks]
+
+      (d)   Suggest how the method  bfoo, that returns Boolean values, can be obtained as
+            a modification of the method  foo.                                               [2 marks]
+
+      (e)   State one advantage and one disadvantage of recursion versus iteration.          [2 marks]
+
+
+
+
+2212-7011                                                                                    Turn over
+                                                   –6–                 M12/5/COMSC/HP1/ENG/TZ0/XX
+
+16.   A farm grows fruit in several greenhouses.   There is a network of sensors that
+      contain microprocessors, which periodically measure the temperature and humidity
+      in the greenhouses.  When a sensor detects a value outside of the acceptable range,
+      it sends a message that causes an interrupt in the main server.  
+
+      (a)   Explain why polling would not be appropriate in this situation.                      [2 marks]
+
+      (b)   Outline how a CPU handles an interrupt.                                              [3 marks]
+
+      (c)   Identify one process that takes place in the sensors’ microprocessors.               [1 mark]
+
+      The server performs various tasks, including the regulation of temperature and
+      humidity in each greenhouse.
+
+      (d)   Suggest the steps the server would now take to restore conditions to within the
+            acceptable range.                                                                    [4 marks]
+
+
+17.   A social club stores on a disk file records containing some data of its members.  
+      The records do not need to be frequently accessed.  The record structure is shown below.
+
+                         Data type          Field name        Example data
+                            int             memberNr             1000
+                          String               name             Smith
+                          String             address        Hollyoak Farm
+
+
+      (a)   Define the term fixed-length record.                                                 [1 mark]
+
+      (b)   Explain how the length of each record can be fixed considering the data types
+            above.                                                                               [3 marks]
+
+      (c)   Explain why direct access is an appropriate system for accessing data in
+            this situation.                                                                      [3 marks]
+
+      (d)   Describe how a record can be accessed quickly if the file does not consist of
+            fixed-length records.                                                                [3 marks]
+
+
+
+
+2212-7011
+                                                     –7–                  M12/5/COMSC/HP1/ENG/TZ0/XX
+
+18.   The tree shown below is unbalanced, i.e. there are at least two leaves in the tree that
+      are located at levels whose difference is more than one.   For example, the levels’
+      difference for the leaves labelled Padma and Amina is three.
+
+                   Level 0:                     David
+
+
+                   Level 1:    Amina                             Marion
+
+
+                   Level 2:                               Lou             Rachid
+
+
+                   Level 3:                         George              Neil    Wei
+
+
+                   Level 4:                                             Padma
+
+      (a)   State the mode of traversal on the tree above that would allow a list of names to
+            be obtained in alphabetical order.                                                      [1 mark]
+
+      Successive operations of insertion and deletion of nodes must preserve the possibility
+      of producing a list of names in alphabetical order through the mode of traversal
+      identified in part (a).
+
+      (b)   The node Silvia is added to the tree.  Identify its position in the tree.               [1 mark]
+
+      (c)   Discuss how the order in which the names are inserted in the tree can affect the
+            BigO efficiency of searching.                                                           [4 marks]
+
+      (d)   Describe the steps, without writing any code, necessary to delete the node Marion
+            from the given tree.                                                                    [4 marks]
+
+
+19.   A company has set up a nationwide telephone call centre for enquiries.  Depending on
+      the phone number of the caller, a mainframe (central server) redirects incoming calls
+      to one of the four servers, each of them located at a regional centre.  The calls will then
+      be directed to the operators in the regional call centre, working with their computers.  
+      The network developed is hybrid.
+
+      (a)   Construct a labelled diagram showing a suitable hybrid network made up of two
+            basic topologies.                                                                       [5 marks]
+
+      (b)   Suggest a physical transmission medium for communication:
+
+            (i)      between the mainframe and the four servers at regional centres;                [1 mark]
+
+            (ii)     between the server and the operators’ computers.                               [1 mark]
+
+      (c)   Explain why switches would be used, rather than hubs, in this hybrid network.           [3 marks]
+
+2212-7011
+

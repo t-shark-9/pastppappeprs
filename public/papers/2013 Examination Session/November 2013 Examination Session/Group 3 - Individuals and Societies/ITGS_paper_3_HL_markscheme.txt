@@ -1,0 +1,386 @@
+N13/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+
+
+                   MARKSCHEME
+
+
+                       November 2013
+
+
+
+      INFORMATION TECHNOLOGY IN A
+            GLOBAL SOCIETY
+
+
+                         Higher Level
+
+
+
+                               Paper 3
+
+
+
+
+11 pages
+                              –2–             N13/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+
+
+This markscheme is confidential and for the exclusive use of
+examiners in this examination session.
+
+It is the property of the International Baccalaureate and must not
+be reproduced or distributed to any other person without the
+authorization of the IB Assessment Centre.
+                                                  –3–                N13/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+Examiners should be aware that in some cases, candidates may take a different approach, which if
+appropriate should be rewarded. If in doubt, check with your Team Leader.
+
+If candidates answer more than the prescribed number of questions:
+
+ In the case of an “identify” question read all answers and mark positively up to the maximum marks.
+  Disregard incorrect answers.
+
+ In the case of a “describe” question, which asks for a certain number of facts eg “describe two kinds”,
+  mark the first two correct answers. This could include two descriptions, one description and
+  one identification, or two identifications.
+
+ In the case of an “explain” question, which asks for a specified number of explanations eg “explain
+  two reasons”, mark the first two correct answers. This could include two full explanations,
+  one explanation, one partial explanation etc.
+                                                   –4–                N13/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+1.   Describe two situations in which the use of a Global Positioning System (GPS)
+     would fail to provide the information the taxi driver needs to find a customer’s
+     pick-up point.                                                                   [4 marks]
+
+     Answers may include:
+      when signal is poor (ie GPS receiver is near high buildings) or system not
+       functioning (ie not connecting to satellites) the driver is unable to find the location as
+       they do not have the required knowledge of the city
+      less than three satellites are visible from the location of the taxi or client, making a
+       GPS position inaccurate or unobtainable
+      where streets in different districts have the same name, the driver may inadvertently
+       select the wrong street causing a delay in the passenger being picked up
+      the GPS system may not pick the quickest or cheapest route to the passenger’s
+       location as the algorithms used to determine such routes may focus on designated
+       and/or well known locations and/or the shortest route may take longer due to poor
+       road conditions
+      the GPS software may not be sufficiently up-to-date and does not recognize changes
+       to road usage, such as newly designated one-way streets, street closures, road works
+       etc
+      the software may have bugs / errors in its logic (ie reliability issue) which give wrong
+       positions or routes
+      the hardware may have reliability issues (faulty components, bad manufacture, wear
+       and tear etc) which may lead to incorrect positions and routes
+      weather condition may also affect GPS, for example an extremely cloudy day,
+       thunderstorm or even heavy rain can all affect the signal
+      at certain times for political or malicious reasons GPS can be jammed or
+       faked/spoofed
+      customer gives the wrong address to the control centre and therefore the taxi
+       software sends the taxi in the wrong direction
+      customer’s device gives an incorrect GPS location therefore the taxi goes the wrong
+       way
+      customer device can’t get a signal for any of the reasons mentioned above.
+
+     Award [1 mark] for each situation identified and an additional [1 mark] for a
+     description of the situation where the use of a Global Positioning System would not
+     provide the information that the taxi driver needs to find a customer’s pick-up point.
+     Award a maximum of [2 marks] for each situation.
+     Award a maximum of [4 marks] for the question.
+                                                  –5–                N13/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+2.   The control centre receives a request to pick up a customer. Explain how the
+     integrated IT system (lines 55–61) can determine which taxi should be selected. [6 marks]
+
+     Answer should focus on how the system decides on which taxi is best, but can also
+     include a little about how the system get the information and how it then process it.
+
+     Answers may include:
+      customer gives location to the control centre at Red Dragon Taxi Company
+      staff member at the office inputs location of customer into the integrated IT (IIT)
+       system
+      a search may be done on the database to retrieve customer’s address and details
+      IIT system calculates determines which taxi is most appropriate for the journey based
+       on relevant factors (ie amount of time, length of the journey) to reach customer
+      IIT system software uses predefined settings to remove taxis that are occupied or do
+       not meet the other criteria that may be incorporated into the integrated IT system
+       (such as female driver only, ability to speak English, no shared taxi)
+      the IIT system takes into consideration the shift ending time of the taxi driver to
+       check whether a long journey would be possible
+      the IIT System might consider previous bookings for that taxi driver to make sure the
+       taxi is still in the area to fulfill previous planned journeys
+      the IIT System might consider the amount of jobs a driver has already had that day
+       when deciding between two possible taxis, so that workload/commission is balanced
+       out evenly
+      the IIT System might take into consideration the type of vehicle (size / wheelchair
+       access etc) according to the needs of the customer
+      a predetermined algorithm ranks the taxis that are available in order of
+       appropriateness
+      a message is sent to this taxi to inform the driver of the location of the customer
+      a taxi will accept the job and therefore confirm that it has received and will act on the
+       instructions, otherwise another taxi may be chosen instead
+      a message may be sent to the customer to inform him/her of how long the taxi may
+       take to arrive, the taxi registration number etc.
+
+     [1–2 marks]
+     A limited response that indicates very little understanding of the topic or the reason is
+     not clear.
+
+     [3–4 marks]
+     A reasonable description of how the integrated IT system determines the most
+     appropriate driver. The answer may be unbalanced and lack appropriate reasoning at
+     the lower end of the band.
+
+     [5–6 marks]
+     A clear, detailed and balanced explanation of how the integrated IT system determines
+     the most appropriate driver with clear evidence of technical understanding.
+                                                 –6–                N13/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+3.   Red Dragon Taxi Company’s new integrated communication and dispatch system
+     (line 107) has the capability of recording information about customers and their
+     journeys.
+
+     With reference to your research, to what extent does the collection of customer
+     information conflict with the customers’ privacy?                               [8 marks]
+
+     Answers may include:
+      what data is Red Dragon Taxi Company recording about the customers?
+      are the customers aware of the data that is being collected by Red Dragon Taxi
+       Company and how it may be used? Are they required to agree to the collection and
+       possible dissemination of the data? What are the advantages to Red Dragon Taxi
+       Company of holding personal data?
+      how feasible is it to record customers’ data unless they register with Red Dragon
+       Taxi Company? Must prospective customers register to take advantage of the service
+       provided by Red Dragon Taxi Company? How appropriate is registration for many
+       of the customers of Red Dragon Taxi Company?
+      who has access to this data collected by Red Dragon Taxi Company? To what extent
+       does the Red Dragon Taxi Company make prospective customers aware of how their
+       personal information may be used?
+      how long will the data be kept for, and how will it be destroyed after this time period
+       has expired?
+      what policies is Red Dragon Taxi Company considering implementing to ensure the
+       privacy of the data held on its IT systems?
+      if Red Dragon Taxi Company’s data is held on a third party server, what measures
+       are in place to ensure the privacy of customer data?
+      what safeguards exist to prevent the future selling of customer data held by Red
+       Dragon Taxi Company? What measures can be put in place to ensure the privacy of
+       customers?
+      will there by physical security at the data centre / server? IE locks, key cards,
+       biometrics to prevent physical access by unauthorized people?
+      will there be digital security measures to prevent unauthorized access and corruption
+       (firewall, password access, anti-virus and anti-malware)
+      to what extent does Red Dragon Taxi Company have a different understanding of the
+       terms privacy, ethical data management and data security to that of its customers?
+      sensitivity of the data – is it basic contact information, does it contain medical or
+       other data such as religion, or what about credit card payments – are the credit cards
+       numbers stored with the customer details
+      the data recorded may be from during the actual journey, as well as about the journey
+       (ie audio/video footage recorded by a CCTV/audio device in the taxi). This could
+       therefore raise privacy concerns because conversations could be recorded.
+                                         –7–                N13/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+SL and HL paper 1 part (c) and HL paper 3 question 3 markband
+     Marks                                      Level descriptor
+                          A response with no knowledge or understanding of the relevant
+    No marks               ITGS issues and concepts.
+                          A response that includes no appropriate ITGS terminology.
+                          A response with minimal knowledge and understanding of the
+                           relevant ITGS issues and concepts.
+                          A response that       includes   minimal    use   of   appropriate
+      Basic                ITGS terminology.
+   1–2 marks              A response that has no evidence of judgments and/or conclusions.
+                          No reference is made to the scenario in the stimulus material in
+                           the response.
+                          The response may be no more than a list.
+                          A descriptive response with limited knowledge and/or
+                           understanding of the relevant ITGS issues and/or concepts.
+                          A response that       includes    limited   use   of   appropriate
+                           ITGS terminology.
+    Adequate
+                          A response that has evidence of conclusions and/or judgments
+   3–4 marks
+                           that are no more than unsubstantiated statements. The analysis
+                           underpinning them may also be partial or unbalanced.
+                          Implicit references are made to the scenario in the stimulus
+                           material in the response.
+                          A response with knowledge and understanding of the relevant
+                           ITGS issues and/or concepts.
+                          A response that uses ITGS terminology appropriately in places.
+   Competent
+                          A response that includes conclusions and/or judgments that have
+   5–6 marks
+                           limited support and are underpinned by a balanced analysis.
+                          Explicit references to the scenario in the stimulus material are
+                           made at places in the response.
+                          A response with a detailed knowledge and understanding of the
+                           relevant ITGS issues and/or concepts.
+                          A response that uses ITGS terminology appropriately throughout.
+    Proficient
+                          A response that includes conclusions and/or judgments that are
+   7–8 marks
+                           well supported and underpinned by a balanced analysis.
+                          Explicit references are made appropriately to the scenario in the
+                           stimulus material throughout the response.
+                                                 –8–                N13/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+4.   Red Dragon Taxi Company has found that there is a wide range of IT systems
+     available that could meet their needs and be implemented by July 2014.
+     With reference to your research, discuss the criteria that could be used to evaluate
+     these systems.                                                                       [12 marks]
+
+     Examiners need to be aware that students may mention specific features that the system
+     should have which should be accepted only if this is inside one of the criteria
+     mentioned, such as “features of the system”. It is not valid if the focus of the response
+     deals with features of the system only.
+
+     Answers may include:
+     Economic
+      initial costs of purchasing the system and/or finance packages available. What value
+       will the integrated communication and dispatch system add to Red Dragon Taxi
+       Company?
+      possible additional costs such as system upgrades. What is included? What is not?
+       To what extent is the system structured so that some system modules can be
+       purchased as needed to delay costs?
+      possible licensing costs to run and maintain the integrated communication and
+       dispatch systems
+      development costs for new features
+      training costs for existing staff
+      data costs for updating data (eg map data on GPs / GIS systems).
+
+     Functionality
+      the software should fulfil all of the requirements of the Red Dragon Taxi Company
+       which will have been laid out in the requirements specification
+      the functionality of the software may go beyond the requirements of the Red Dragon
+       Taxi Company and also have features which are useful
+      the software should not have many extra features which are not useful to the Red
+       Dragon Taxi Company as this may confuse users or affect the performance of the
+       software
+      the speed and performance of the software as well as the capacity for storage of
+       information is adequate for present and future needs.
+
+
+
+                                                                                             continued …
+                                                  –9–                N13/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+Question 4 continued
+
+     Usability / ease of implementation / changeover for Red Dragon Taxi Company and
+     taxi drivers
+      how well does the software operate with existing IT systems?
+      how much data can be transferred/migrated to the integrated communication and
+        dispatch system?
+      how much training is required by the staff in the Red Dragon Taxi Company offices
+        to work with the integrated communication and dispatch system?
+      what refinements are necessary for drivers working for Red Dragon Taxi Company
+        to be able to utilise the integrated communication and dispatch system?
+      how important for Red Dragon Taxi Company is it that the software is intuitive? Is it
+        preferable to have a cheaper solution that can be more rapidly implemented and train
+        the staff to use it?
+      how urgent is the need to adopt the new integrated communication and dispatch
+        system?
+      how quickly can the project be completed (does it fit in the timeline that the Red
+        Dragon Taxi Company have thought of)?
+
+     Standards and Protocols / Technology
+      is the software future-proof?
+      does it implement the latest standards and versions
+      is it compatible with other related products and data sources
+      is it compatible with any legacy systems the company already has?
+
+     The company providing the software
+      does the company have a good reputation or positive track record?
+      is the company financially stable and guaranteed to exist for the life of the product
+      are there references / proof from existing customers/users of the software
+
+     Support provided by the software developers of the integrated communication and
+     dispatch system
+      what are the Service Level Agreements available with the integrated communication
+        and dispatch systems? (ie response time, levels of service)
+      is the support for the system confined to that provided by the software developer, or
+        are there user forums that Red Dragon Taxi Company can use to resolve issues with
+        the software? How reliable are these forums?
+
+     Cost benefit analysis
+      to what extent do the weightings of the different criteria selected vary? How much
+       will this influence a final decision?
+      how important are the different phases associated with the implementation of a new
+       integrated communication and dispatch system? For example, is it more important
+       that the new integrated communication and dispatch system is implemented without
+       a rigorous stakeholder analysis? How much emphasis should be placed on the
+       planning stage?
+
+
+
+                                                                                               continued …
+                                                – 10 –             N13/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+Question 4 continued
+
+     Organisational benefits / customer satisfaction
+      to what extent will the integrated communication and dispatch system improve the
+       management and efficiency of the service provided by Red Dragon Taxi Company?
+       Is it worth the investment?
+
+     N.B. Many of these points may be expressed across a range of different criteria.
+                                         – 11 –              N13/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+HL paper 3 question 4 markband
+      Marks                                        Level descriptor
+                         A response with no knowledge or understanding of the relevant
+     No marks             ITGS issues and concepts.
+                         A response that includes no appropriate ITGS terminology.
+                         A response with minimal knowledge and understanding of the
+                          relevant ITGS issues and concepts.
+                         A response that         includes   minimal   use   of   appropriate
+                          ITGS terminology.
+       Basic
+                         A response that has no evidence of judgments, conclusions or future
+     1–3 marks            strategies.
+                         No reference is made to the information in the case study or
+                          independent research in the response.
+                         The response may be no more than a list.
+                         A descriptive response with limited knowledge and/or
+                          understanding of the relevant ITGS issues and/or concepts.
+                         A response that         includes   limited   use   of   appropriate
+                          ITGS terminology.
+      Adequate
+                         A response that has evidence of conclusions, judgments or future
+     4–6 marks
+                          strategies that are no more than unsubstantiated statements.
+                          The analysis underpinning them may also be partial or unbalanced.
+                         Implicit references are made to the information in the case study or
+                          independent research in the response.
+                         A response with knowledge and understanding of the relevant ITGS
+                          issues and/or concepts.
+                         A response that uses ITGS terminology appropriately in places.
+     Competent
+                         A response that includes future strategies, conclusions and/or
+     7–9 marks            judgments that have limited support and are underpinned by a
+                          balanced analysis.
+                         Explicit references to the information in the case study or
+                          independent research are made at places in the response.
+                         A response with a detailed knowledge and understanding of the
+                          relevant ITGS issues and/or concepts.
+                         A response that uses ITGS terminology appropriately throughout.
+     Proficient
+                         A response that includes conclusions, judgments or future strategies
+    10–12 marks
+                          that are well supported and underpinned by a balanced analysis.
+                         Explicit references are made appropriately to the information in the
+                          case study and independent research throughout the response.
+

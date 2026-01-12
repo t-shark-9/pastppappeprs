@@ -1,0 +1,755 @@
+M17/5/FURMA/HP2/ENG/TZ0/XX/M
+
+
+
+
+                       Markscheme
+
+
+                               May 2017
+
+
+                   Further mathematics
+
+
+                           Higher level
+
+
+                               Paper 2
+
+
+
+
+16 pages
+                          –2–            M17/5/FURMA/HP2/ENG/TZ0/XX/M
+
+
+
+
+This markscheme is the property of the International
+Baccalaureate and must not be reproduced or distributed
+to any other person without the authorization of the IB
+Global Centre, Cardiff.
+                                                  –3–                M17/5/FURMA/HP2/ENG/TZ0/XX/M
+
+
+                                       Instructions to Examiners
+
+Abbreviations
+
+M      Marks awarded for attempting to use a valid Method; working must be seen.
+
+(M)    Marks awarded for Method; may be implied by correct subsequent working.
+
+A      Marks awarded for an Answer or for Accuracy; often dependent on preceding M marks.
+
+(A)   Marks awarded for an Answer or for Accuracy; may be implied by correct subsequent working.
+
+R      Marks awarded for clear Reasoning.
+
+N      Marks awarded for correct answers if no working shown.
+
+AG     Answer given in the question and so no marks are awarded.
+
+
+Using the markscheme
+
+1     General
+
+      Mark according to RM™ Assessor instructions and the document “Mathematics HL: Guidance
+      for e-marking May 2017”. It is essential that you read this document before you start marking.
+      In particular, please note the following:
+
+      • Marks must be recorded using the annotation stamps. Please check that you are entering
+        marks for the right question.
+      • If a part is completely correct, (and gains all the “must be seen” marks), use the ticks with
+        numbers to stamp full marks.
+      • If a part is completely wrong, stamp A0 by the final answer.
+      • If a part gains anything else, it must be recorded using all the annotations.
+      • All the marks will be added and recorded by RM™ Assessor.
+
+2     Method and Answer/Accuracy marks
+
+      • Do not automatically award full marks for a correct answer; all working must be checked,
+        and marks awarded according to the markscheme.
+      • It is not possible to award M0 followed by A1, as A mark(s) depend on the preceding
+        M mark(s), if any.
+      • Where M and A marks are noted on the same line, eg M1A1, this usually means M1
+        for an attempt to use an appropriate method (eg substitution into a formula) and A1 for using
+        the correct values.
+      • Where the markscheme specifies (M2), N3, etc., do not split the marks.
+      • Once a correct answer to a question or part-question is seen, ignore further working.
+        However, if further working indicates a lack of mathematical understanding do not award the
+        final A1. An exception to this may be in numerical answers, where a correct exact value is
+        followed by an incorrect decimal. However, if the incorrect decimal is carried through to a
+        subsequent part, and correct FT working shown, award FT marks as appropriate but do
+        not award the final A1 in that part.
+                                                   –4–              M17/5/FURMA/HP2/ENG/TZ0/XX/M
+
+
+    Examples
+
+         Correct answer seen       Further working seen            Action
+    1.                               5.65685...                     Award the final A1
+            8 2                      (incorrect decimal value)      (ignore the further working)
+    2.      1
+              sin 4 x                sin x                           Do not award the final A1
+            4
+    3.      log a − log b            log (a − b)                     Do not award the final A1
+
+
+3   N marks
+
+    Award N marks for correct answers where there is no working.
+
+    • Do not award a mixture of N and other marks.
+    • There may be fewer N marks available than the total of M, A and R marks; this is
+      deliberate as it penalizes candidates for not following the instruction to show their working.
+
+4   Implied marks
+
+    Implied marks appear in brackets eg (M1), and can only be awarded if correct work is seen or
+    if implied in subsequent working.
+
+    • Normally the correct work is seen or implied in the next line.
+    • Marks without brackets can only be awarded for work that is seen.
+
+5   Follow through marks
+
+    Follow through (FT) marks are awarded where an incorrect answer from one part of a question is
+    used correctly in subsequent part(s). To award FT marks, there must be working present and
+    not just a final answer based on an incorrect answer to a previous part.
+
+    • If the question becomes much simpler because of an error then use discretion to award fewer
+      FT marks.
+    • If the error leads to an inappropriate value (eg sin θ = 1.5 ), do not award the mark(s) for the
+      final answer(s).
+    • Within a question part, once an error is made, no further dependent A marks can be awarded,
+      but M marks may be awarded if appropriate.
+    • Exceptions to this rule will be explicitly noted on the markscheme.
+
+6   Misread
+
+    If a candidate incorrectly copies information from the question, this is a misread (MR).
+    A candidate should be penalized only once for a particular misread. Use the MR stamp to indicate
+    that this has been a misread. Then deduct the first of the marks to be awarded, even if this is an
+    M mark, but award all others so that the candidate only loses one mark.
+
+    • If the question becomes much simpler because of the MR, then use discretion to award
+      fewer marks.
+    • If the MR leads to an inappropriate value (eg sin θ = 1.5 ), do not award the mark(s) for the
+      final answer(s).
+                                                              –5–          M17/5/FURMA/HP2/ENG/TZ0/XX/M
+
+
+7    Discretionary marks (d)
+
+     An examiner uses discretion to award a mark on the rare occasions when the markscheme does
+     not cover the work seen. In such cases the annotation DM should be used and a brief note written
+     next to the mark explaining this decision.
+
+8    Alternative methods
+
+     Candidates will sometimes use methods other than those in the markscheme. Unless the question
+     specifies a method, other correct methods should be marked in line with the markscheme. If in
+     doubt, contact your team leader for advice.
+
+     • Alternative methods for complete questions are indicated by METHOD 1, METHOD 2, etc.
+     • Alternative solutions for part-questions are indicated by EITHER . . . OR.
+     • Where possible, alignment will also be used to assist examiners in identifying where these
+       alternatives start and finish.
+
+9    Alternative forms
+
+     Unless the question specifies otherwise, accept equivalent forms.
+
+     • As this is an international examination, accept all alternative forms of notation.
+     • In the markscheme, equivalent numerical and algebraic forms will generally be written in
+       brackets immediately following the answer.
+     • In the markscheme, simplified answers, (which candidates often do not write in
+       examinations), will generally appear in brackets. Marks should be awarded for either the
+       form preceding the bracket or the form in brackets (if it is seen).
+
+     Example: for differentiating f ( x) = 2sin(5 x – 3) , the markscheme gives:
+
+     f ′( x) = ( 2 cos (5 x – 3) ) 5 ( = 10 cos (5 x – 3) )                                   A1
+
+
+     Award A1 for ( 2 cos (5 x – 3) ) 5 , even if 10 cos (5 x – 3) is not seen.
+
+10   Accuracy of Answers
+
+     Candidates should NO LONGER be penalized for an accuracy error (AP).
+
+     If the level of accuracy is specified in the question, a mark will be allocated for giving the answer to
+     the required accuracy. When this is not specified in the question, all numerical answers should be
+     given exactly or correct to three significant figures. Please check work carefully for FT.
+
+11   Crossed out work
+
+     If a candidate has drawn a line through work on their examination script, or in some other way
+     crossed out their work, do not award any marks for that work.
+                                                 –6–               M17/5/FURMA/HP2/ENG/TZ0/XX/M
+
+
+12   Calculators
+
+     A GDC is required, but calculators with symbolic manipulation features (for example, TI-89) are
+     not allowed.
+
+     Calculator notation
+     The Mathematics HL guide says:
+     Students must always use correct mathematical notation, not calculator notation.
+     Do not accept final answers written using calculator notation. However, do not penalize the
+     use of calculator notation in the working.
+
+13   More than one solution
+
+     Where a candidate offers two or more different answers to the same question, an examiner should
+     only mark the first response unless the candidate indicates otherwise.
+                                                    –7–                M17/5/FURMA/HP2/ENG/TZ0/XX/M
+
+
+1.   (a)   (i)    there is an Eulerian trail because G contains exactly two vertices of
+                  odd order                                                                 A1
+                  there is no Eulerian circuit because G contains vertices of odd order     A1
+
+           (ii)   the trail must start at B and end at E (or vice versa)                   (R1)
+                  BAFBCFECDE                                                                R1
+                                                                                                  [4 marks]
+
+     (b)   Step         Vertices labelled       Working values
+           1            A                     [A0], B-4, F-3                                M1
+           2            A, F                  [A0], [F3], B-4, C-10, E-15                   A1
+           3            A, F, B               [A0], [F3], [B4], C-7, E-15                   A1
+           4            A, F, B, C            [A0], [F3], [B4], [C7], D-14, E-10            A1
+           5            A, F, B, C, E         [A0], [F3], [B4], [C7], [E10], D-12           A1
+           6            A, F, B, C, E, D      [A0], [F3], [B4], [C7], [E10], [D12]         (A1)
+           the path of minimum total weight is ABCED with total weight 12                 A1N2
+      Note: Award full marks if the correct path is given with correct total weight
+            if an annotated graph is given that represents the Dijkstra algorithm.
+                                                                                                  [7 marks]
+
+                                                                                          Total [11 marks]
+
+
+2.   (a)   Reflexive: xRx                                                                 (M1)
+           because x x= e ∈ H
+                      –1
+                                                                                            R1
+           therefore reflexive                                                             AG
+           Symmetric: Let xRy so that x –1 y ∈ H                                           M1
+
+                           (        ) = y x ∈ H ⇒ yRx
+                                    –1
+           it follows that x –1 y         –1
+                                                                                          M1A1
+           therefore symmetric                                                              AG
+           Transitive: Let xRy and yRz so that x –1 y ∈ H and y –1 z ∈ H                    M1
+           it follows that x –1 y y –1 z = x –1 z ∈ H ⇒ xRz                               M1A1
+           therefore transitive (therefore R is an equivalence relation on the set G)       AG
+                                                                                                  [8 marks]
+
+     (b)   (i)    attempt at inverse of 3: since 3 × 9 = 27 = 1(mod13)                    (M1)
+                  it follows that 3 = 9
+                                     –1
+                                                                                            A1
+                  since 9 × 10 = 90 = 12(mod13)∈ H                                        M1A1
+                  it follows that 3R10                                                      AG
+
+           (ii)   the three equivalence classes are {3, 10}, {1, 12} and {4, 9}         A1A1A1
+                                                                                                  [7 marks]
+
+                                                                                          Total [15 marks]
+                                                           –8–                    M17/5/FURMA/HP2/ENG/TZ0/XX/M
+
+
+                   the auxiliary equation is m – m – 6 = 0 or equivalent
+                                                    2
+3.   (a)   (i)                                                                                    A1
+
+           (ii)    attempt to solve quadratic                                                    (M1)
+                   the roots are 3, – 2                                                            A1
+                   the general solution is
+                   un = A × 3n + B × (–2) n                                                       A1
+                   initial conditions give
+                   3 A − 2B =  12
+                                                                                                  M1
+                   9 A + 4B =   6
+                   the solution is A = 2, B = − 3                                                 A1
+                   un =
+                      2 × 3 – 3 × (–2)
+                                 n         n
+                                                                                                  AG
+
+           (iii)   un + un –1 = 2 × 3n – 3 × (–2) n + 2 × 3n –1 – 3 × (–2) n –1                   M1
+                   = 8 × 3 + multiple of 2
+                          n –1                   n –1
+                                                                                                  A1
+                   un – un –1 = 2 × 3n – 3 × (–2) n – 2 × 3n –1 + 3 × (–2) n –1
+                   = 4 × 3n –1 + multiple of 2n –1                                                A1
+                                                             n –1
+                   any evidence of noting that the 3                terms dominate                R1
+                        un + un −1
+                   lim             =2                                                             A1
+                   n →∞ u − u
+                         n    n −1
+                                                                                                        [11 marks]
+
+     (b)   vn =
+              2 × 32 n – 3 × (–2) 2 n                                                             M1
+           =
+           2 × 9n – 3 × 4n                                                                        A1
+           the auxiliary equation is
+           m 2 –13m + 36 =
+                         0                                                                        A1
+           the recurrence relation is
+           vn + 2 = 13vn +1 – 36vn                                                                A1
+                                                                                                         [4 marks]
+
+                                                                                                Total [15 marks]
+
+
+4.   (a)   (i)     det( A)= λ (12 − 7λ ) + 3(3λ − 6) + 2(14 − 12)                               M1A1
+              = 12λ – 7λ 2 + 9λ –18 + 4
+             = –7λ 2 + 21λ –14                                                                    A1
+
+           (ii)    A is singular when λ = 1 because the determinant is zero                       R1
+      Note: Do not award the R1 if the determinant has not been obtained.
+               the other value is 2                                                               A1
+                                                                                                         [5 marks]
+
+     (b)   (i)     the third row is the sum of the first two rows                                 A1
+
+
+                                                                                                    continued…
+                                                       –9–                      M17/5/FURMA/HP2/ENG/TZ0/XX/M
+
+
+Question 4 continued
+
+           (ii)    the null space satisfies
+                   1 3 2   x  0 
+                    2 4 1   y  = 0                                                        M1
+                               
+                    3 7 3   z  0 
+                    x + 3y + 2z =     0
+                   2x + 4 y + z =     0                                                        (A1)
+                   3x + 7 y + 3z =     0
+                   the solution is (by GDC or otherwise)
+                    x          5
+                    y =         −3 α where α ∈                                           M1A1
+                                
+                    z         2 
+
+           (iii)   the rank-nullity theorem for square matrices states that
+                   rank of matrix + dimension of null space = number of columns          A1
+                   here, rank = 2, dimension of null space = 1 and number of columns = 3 A1
+                                                                                                      [7 marks]
+
+     (c)   first show that the result is true for n = 3
+                13 29 11 
+           B = 13 29 11 
+              2
+                                                                                                A1
+                            
+                 26 58 22 
+               104 232 88 
+           B = 104 232 88 
+            3
+                                                                                                A1
+                              
+                208 464 176 
+           therefore B = 8 B so true for n = 3
+                             3       2
+                                                                                                R1
+           assume the result is true for n = k , that is B = 8
+                                                             k   k –2       2
+                                                                        B                       M1
+                     k +1
+           consider B = 8 B
+                           k –2 3
+                                                                                                M1
+           = 8k –28 B 2
+           = 8k –1 B 2                                                                          A1
+           therefore, true for n= k ⇒ true for n= k + 1 and since the result is true
+           for n = 3, it is true for n ≥ 3                                                      R1
+
+                                                                                                      [7 marks]
+
+                                                                                              Total [19 marks]
+                                                             – 10 –       M17/5/FURMA/HP2/ENG/TZ0/XX/M
+
+
+                     d                        sec x tan x + sec 2 x
+  5.   (a)   (i)        ( ln(sec x + tan x) ) =                                           M1
+                     dx                          sec x + tan x
+                    = sec x                                                               A1
+                    therefore ∫ sec xdx = ln(sec x + tan x) + C                           AG
+
+
+ ∫ sec =xdx ∫ sec x × sec xdx
+                         3                       2
+             (ii)                                                                         M1
+ = sec x tan x – ∫ sec x tan xdx                     2
+                                                                                        A1A1
+
+ = sec x tan x – ∫ sec x ( sec x –1) dx                  2
+                                                                                          A1
+= sec x tan x – ∫ sec xdx + ∫ sec xdx       3
+
+
+= sec x tan x – ∫ sec xdx + ln(sec x + tan x)
+                                            3
+                                                                                          A1
+
+ 2 ∫ sec xd=x ( sec x tan x + ln(sec x + tan x) )
+                             3
+                                                                                          A1
+                    therefore
+                                   1
+                    ∫ sec =
+                         3
+                          xdx   ( sec x tan x + ln(sec x + tan x) ) + C                   AG
+                              2
+                                                                                                [8 marks]
+
+
+                    int factor = e ∫
+                                       tan xdx
+       (b)   (i)                                                                         (M1)
+                    = eln sec x                                                          (A1)
+                    = sec x                                                               A1
+                    the differential equation can be written as
+                    d
+                       ( y sec x) = 2sec3 x                                             M1A1
+                    dx
+                    integrating,
+                     y sec=
+                          x sec x tan x + ln(sec x + tan x) + C                           A1
+                    putting x = 0, y = 1,                                                 M1
+                    C=1                                                                   A1
+                             =
+                    the solution is y cos x ( sec x tan x + ln(sec x + tan x) + 1)        A1
+
+
+
+                                                                                            continued…
+                                                        – 11 –                M17/5/FURMA/HP2/ENG/TZ0/XX/M
+
+
+Question 5 continued
+
+           (ii)    differentiating the differential equation,
+                   d 2 y dy
+                       2
+                         + tan x + y sec 2 x =      4sec 2 x tan x                                 A1A1
+                   dx      dx
+                     2
+                         + ( 2sec 2 x – y tan x ) tan x + y sec 2 x =
+                   d y
+                       2
+                                                                    4sec 2 x tan x                   A1
+                   dx
+                   d2 y
+                         +y=   2sec 2 x tan x                                                        AG
+                   dx 2
+
+                                               d2 y
+           (iii)   at a point of inflection,      2
+                                                    = 0 so y = 2sec 2 x tan x                      (M1)
+                                               dx
+                   therefore the point of inflection can be found as the point of
+                                           =
+                   intersection of the graphs  of y cos x ( sec x tan x + ln(sec x + tan x) + 1)
+                   and y = 2sec 2 x tan x                                                          (M1)
+                   drawing these graphs on the calculator, x = 0.605                                 A2
+
+                                                                                                          [16 marks]
+
+                                                                                                   Total [24 marks]
+
+
+6.   (a)   (i)     let r = radius of circle. Consider
+                   PR × PS = (PO − r )(PO + r )                                                      M1
+                   = PO 2 – OQ 2                                                                     A1
+                   = PQ 2 because POQ is a right angled triangle                                     R1
+
+           (ii)    the result is true even if PS does not pass through O                             A1
+                                                                                                           [4 marks]
+
+     (b)   (i)     using the tangent-secant theorem,                                                 M1
+                    = BD × CD
+                   AD   2
+                                                                                                     A1
+                        AD 2 CD
+                   so    =      … (1)                                                                AG
+                        BD 2 BD
+
+
+                                                                                                       continued…
+                                                      – 12 –             M17/5/FURMA/HP2/ENG/TZ0/XX/M
+
+
+Question 6 continued
+
+           (ii)    consider the triangles CAD and ABD. They are similar because           M1
+                    ˆ = ACD
+                   DAB   ˆ , angle D̂ is common therefore the third angles must
+                   be equal                                                               A1
+      Note: Beware of the assumption that AC is a diameter of the circle.
+              therefore
+                   AD AC
+                     =   … (2)                                                            AG
+                   BD AB
+                   it follows from (1) and (2) that
+                   CD AC2
+                     =                                                                    AG
+                   BD AB2
+
+           (iii)   two similar expressions are
+                   AE BA 2
+                     =                                                                  M1A1
+                   CE BC2
+                   BF CB2
+                     =                                                                    A1
+                   AF CA 2
+                   multiplying the three expressions,
+                   CD AE BF AC2 BA 2 CB2
+                     ×  ×   =   ×   ×                                                     M1
+                   BD CE AF AB2 BC2 CA 2
+                   CD AE BF
+                     ×  ×     =
+                              1                                                           A1
+                   BD CE AF
+                   it follows from the converse of Menelaus’ theorem (ignoring signs)     R1
+                   that D, E, F are collinear                                             AG
+                                                                                               [10 marks]
+
+                                                                                        Total [14 marks]
+
+
+                            kt 2kt 2 3kt 3
+7.   (a)   (i)     G (t=
+                       )      + 2 + 3 +…                                                M1A1
+                            3   3     3
+
+                   T        (n + 1)kt n +1 3n
+            =
+           (ii) n +1
+                                          ×                                             M1A1
+                    Tn          3n +1       nkt n
+                         t
+                   →       as n → ∞                                                       A1
+                         3
+                                          t
+                   for convergence,         < 1 so radius of convergence = 3              A1
+                                          3
+
+
+                                                                                            continued…
+                                                           – 13 –   M17/5/FURMA/HP2/ENG/TZ0/XX/M
+
+
+Question 7 continued
+
+                             kt 2kt 2 3kt 3
+           (iii)      G (t=
+                          )     + 2 + 3 +…
+                             3      3        3
+                                  2        3
+                   t           kt      2kt
+                      G (=
+                         t)      2
+                                    + 3 +…
+                   3           3        3
+                    t               kt kt 2 kt 3
+                    1 –    G (t=)       +      +    +…                          M1A1
+                    3                3 32 33
+                         kt
+                   = 3                                                              A1
+                       t
+                      1 – 
+                       3
+                                 kt
+                                 3           3kt
+                   =
+                   G (t ) =           2
+                                                                                    AG
+                              t          (3 – t ) 2
+                             1 – 
+                              3
+
+           (iv)      G (1) = 1                                                      M1
+                             4
+                     so k =                                                         AG
+                             3
+                                                                                         [10 marks]
+
+     (b)   (i)        ln G (t ) = ln 4t – ln(3 – t ) 2                              M1
+                      ln G (t ) = ln 4 + ln t − 2 ln(3 − t )                        AG
+
+                      G′(t ) 1   2
+           (ii)             =  +                                                  M1A1
+                      G (t ) t 3 − t
+
+                     putting t = 1
+                      G′(1) = 2                                                     A1
+                      G′′(t )G (t ) – [G′(t ) ]
+                                           2
+                                                1    2
+                                           = – 2+                                 M1A1
+                             [G (t )]
+                                       2
+                                                t (3 – t ) 2
+                     putting t = 1
+                                           1
+                      G′′(1) − 4 =− 1 +
+                                           2
+                                 7
+                      G′′(1) =                                                      A1
+                                 2
+
+                                                         3
+                              G′′(1) + G′(1) – [G′(1) ] =
+                      Var(X ) =
+                                                       2
+           (iii)                                                                    A1
+                                                         2
+                                                                                          [8 marks]
+
+                                                                                  Total [18 marks]
+                                                       – 14 –                M17/5/FURMA/HP2/ENG/TZ0/XX/M
+
+
+8.   (a)   (i)      a ×n b =0 ⇒ ab = a multiple of n (or vice versa)                         R1
+                   since n is prime, this can only occur if a = 1 and b = multiple of n which
+                   is impossible because the multiple of n would not belong to S n           R1
+
+           (ii)    a ×n b = a ×n c ⇒ a ×n (b − c) = 0                                            M1
+                   suppose b ≠ c and let b > c (without loss of generality)
+                   (b − c) ∈ S n and from (i), a ×n (b − c) =
+                                                            0 is a contradiction                 R1
+                   therefore b = c                                                               AG
+                                                                                                        [4 marks]
+
+     (b)   Gn is associative because modular multiplication is associative                        A1
+           Gn is closed because the value of a ×n b always lies between 1 and n –1                A1
+           the identity is 1                                                                      A1
+           consider a ×n b where b can take n –1 possible values. Using the result from
+           (a)(ii), this will result in n –1 different values, one of which will be 1, which will
+           give the inverse of a                                                                  R1
+           Gn is therefore a group                                                                AG
+                                                                                                        [4 marks]
+
+     (c)   (i)        =
+                   (n –1) 2
+                             n 2 – 2n + 1 ≡ 1(mod n)                                             M1
+                   so that (n − 1) ×n (n − 1) = 1 and n –1 has order 2                        R1AG
+
+                                   1
+           (ii)    consider 2 ×      (n + 1) = n + 1 = 1(mod n)                                  A1
+                                   2
+                           1
+                   since     (n + 1) is an integer for all n, it is the inverse of 2          R1AG
+                           2
+
+                                  1
+           (iii)   consider 3 ×     (n + 1) = n + 1 = 1(mod n)                                   M1
+                                  3
+                               1
+                   therefore     (n + 1) is the inverse of 3 if it is an integer but not otherwise R1
+                               3
+
+           (iv)    the inverse of 3 in G11 is 4                                                  A1
+
+           (v)     the inverse of 3 in G31 is 21                                            (M1)A1
+                                                                                                        [9 marks]
+
+                                                                                              Total [17 marks]
+                                                          – 15 –               M17/5/FURMA/HP2/ENG/TZ0/XX/M
+
+
+                        a b  1   a 
+9.   (a)     consider         =                                                         (M1)
+                        c d  0  c 
+             the image of (1, 0) is (cos α , sin α )                                           A1
+                 =
+             therefore a cos=  α , c sin α                                                     AG
+                        a b  0  b 
+             consider         =  
+                        c d  1   d 
+             the image of (0, 1) is (− sin α , cos α )                                         A1
+             therefore b = − sin α , d =  cos α                                                AG
+                                                                                                     [3 marks]
+
+                      X  cos α − sin α   x     x   cos α sin α   X 
+     (b)=
+        (i)                           =     ⇒                     
+                      Y   sin α cos α   y      y   − sin α cos α   Y 
+                     or x =X cos α + Y sin α , y = − X sin α + Y cos α                         A1
+                     substituting in the equation of the hyperbola,                            M1
+                     ( X cos α + Y sin α ) 2 – 4( X cos α + Y sin α )(– X sin α + Y cos α )
+                     –2(– X sin α + Y cos α ) 2 =  3                                            A1
+                     X ( cos α – 2sin α + 4sin α cos α ) +
+                       2      2          2
+
+
+                     XY ( 2sin α cos α – 4 cos 2 α + 4sin 2 α + 4sin α cos α ) +
+                     Y 2 ( sin 2 α – 2 cos 2 α – 4sin α cos α ) = 3
+
+                        1           1                   2
+             (ii)       =
+                     when=tan α
+                          , sin α      and=   cos α                                             A1
+                        2            5                   5
+           the XY term 6sin α cos α – 4 cos α + 4sin α
+           =                                2          2
+                                                                                               M1
+                  1    2          4     1  12 16 4 
+            = 6×     ×     −4 × + 4 ×  −             +                                        A1
+                   5    5         5     5 5        5    5
+           =0                                                                                  AG
+
+             (iii)   the equation of the rotated hyperbola is
+                      2 X 2 – 3Y 2 = 3                                                        M1A1
+                         X2        Y2
+                              2
+                                –    2
+                                       =1                                                       A1
+                       3  (1)
+                           
+                       2
+                                 X2 Y2
+                     (Accept         –    = 1)
+                                  3    1
+                                  2
+
+                                                                                                 continued…
+                                                        – 16 –          M17/5/FURMA/HP2/ENG/TZ0/XX/M
+
+
+Question 9 continued
+
+          (iv)   the coordinates of the foci of the rotated hyperbola
+                          3              5 
+                 are  ±     + 1, 0 =    ± , 0                                  M1A1
+                          2
+                                          2 
+                 the coordinates of the foci prior to rotation were given by
+                  2      1 
+                  5             5
+                           5  ± 
+                                  2                                                M1A1
+                  1      2 
+                 − 5      5 
+                                 0 
+                 
+                 ± 2 
+                                                                                      A1
+                  1 
+                   2 
+                                                                                             [14 marks]
+
+                                                                                      Total [17 marks]
+

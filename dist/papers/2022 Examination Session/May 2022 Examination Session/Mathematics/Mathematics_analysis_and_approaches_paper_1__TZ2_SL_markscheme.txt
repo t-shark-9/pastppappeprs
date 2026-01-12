@@ -1,0 +1,782 @@
+M22/5/MATHX/SP1/ENG/TZ2/XX/M
+
+
+
+
+                       Markscheme
+
+
+                               May 2022
+
+
+   Mathematics: analysis and approaches
+
+
+                         Standard level
+
+
+                               Paper 1
+
+
+
+22 pages
+                                            –2–                 M22/5/MATHX/SP1/ENG/TZ2/XX/M
+
+
+
+
+© International Baccalaureate Organization 2022
+
+All rights reserved. No part of this product may be reproduced in any form or by any
+electronic or mechanical means, including information storage and retrieval systems,
+without the prior written permission from the IB. Additionally, the license tied with this
+product prohibits use of any selected files or extracts from this product. Use by third
+parties, including but not limited to publishers, private teachers, tutoring or study services,
+preparatory schools, vendors operating curriculum mapping services or teacher resource
+digital platforms and app developers, whether fee-covered or not, is prohibited and is a
+criminal offense.
+
+More information on how to request written permission in the form of a license can be
+obtained from https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-
+license/.
+
+© Organisation du Baccalauréat International 2022
+
+Tous droits réservés. Aucune partie de ce produit ne peut être reproduite sous quelque
+forme ni par quelque moyen que ce soit, électronique ou mécanique, y compris des
+systèmes de stockage et de récupération d’informations, sans l’autorisation écrite
+préalable de l’IB. De plus, la licence associée à ce produit interdit toute utilisation de tout
+fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris, sans
+toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de tutorat ou
+d’aide aux études, des établissements de préparation à l’enseignement supérieur, des
+fournisseurs de services de planification des programmes d’études, des gestionnaires de
+plateformes pédagogiques en ligne, et des développeurs d’applications, moyennant
+paiement ou non, est interdite et constitue une infraction pénale.
+
+Pour plus d’informations sur la procédure à suivre pour obtenir une autorisation écrite
+sous la forme d’une licence, rendez-vous à l’adresse https://ibo.org/become-an-ib-school/
+ib-publishing/licensing/applying-for-a-license/.
+
+© Organización del Bachillerato Internacional, 2022
+
+Todos los derechos reservados. No se podrá reproducir ninguna parte de este producto
+de ninguna forma ni por ningún medio electrónico o mecánico, incluidos los sistemas de
+almacenamiento y recuperación de información, sin la previa autorización por escrito del
+IB. Además, la licencia vinculada a este producto prohíbe el uso de todo archivo o
+fragmento seleccionado de este producto. El uso por parte de terceros —lo que incluye,
+a título enunciativo, editoriales, profesores particulares, servicios de apoyo académico o
+ayuda para el estudio, colegios preparatorios, desarrolladores de aplicaciones y
+entidades que presten servicios de planificación curricular u ofrezcan recursos para
+docentes mediante plataformas digitales—, ya sea incluido en tasas o no, está prohibido
+y constituye un delito.
+
+En este enlace encontrará más información sobre cómo solicitar una autorización por
+escrito en forma de licencia: https://ibo.org/become-an-ib-school/ib-publishing/licensing/
+applying-for-a-license/.
+                                              –3–               M22/5/MATHX/SP1/ENG/TZ2/XX/M
+
+
+                                  Instructions to Examiners
+
+Abbreviations
+
+M    Marks awarded for attempting to use a correct Method.
+
+A    Marks awarded for an Answer or for Accuracy; often dependent on preceding M marks.
+
+R    Marks awarded for clear Reasoning.
+
+AG Answer given in the question and so no marks are awarded.
+
+FT   Follow through. The practice of awarding marks, despite candidate errors in previous parts,
+     for their correct methods/answers using incorrect results.
+
+
+Using the markscheme
+
+1    General
+
+     Award marks using the annotations as noted in the markscheme eg M1, A2.
+
+
+2    Method and Answer/Accuracy marks
+
+     • Do not automatically award full marks for a correct answer; all working must be checked,
+       and marks awarded according to the markscheme.
+     • It is generally not possible to award M0 followed by A1, as A mark(s) depend on the
+       preceding M mark(s), if any.
+     • Where M and A marks are noted on the same line, e.g. M1A1, this usually means M1 for
+       an attempt to use an appropriate method (e.g. substitution into a formula) and A1 for
+       using the correct values.
+     • Where there are two or more A marks on the same line, they may be awarded
+       independently; so if the first value is incorrect, but the next two are correct, award
+       A0A1A1.
+     • Where the markscheme specifies A3, M2 etc., do not split the marks, unless there is a
+       note.
+     • The response to a “show that” question does not need to restate the AG line, unless a
+       Note makes this explicit in the markscheme.
+     • Once a correct answer to a question or part question is seen, ignore further working even
+       if this working is incorrect and/or suggests a misunderstanding of the question. This will
+       encourage a uniform approach to marking, with less examiner discretion. Although some
+       candidates may be advantaged for that specific question item, it is likely that these
+       candidates will lose marks elsewhere too.
+     • An exception to the previous rule is when an incorrect answer from further working is used
+       in a subsequent part. For example, when a correct exact value is followed by an incorrect
+       decimal approximation in the first part and this approximation is then used in the second
+       part. In this situation, award FT marks as appropriate but do not award the final A1 in the
+       first part.
+                                                 –4–               M22/5/MATHX/SP1/ENG/TZ2/XX/M
+
+
+       Examples:
+
+     Correct        Further      Any FT issues?                Action
+     answer         working seen
+     seen
+1.                    5.65685...        No.                     Award A1 for the final mark
+       8 2           (incorrect         Last      part    in    (condone the incorrect further
+                    decimal value)      question.               working)
+2.      35           0.468111…          Yes.                    Award A0 for the final mark
+                     (incorrect         Value is used in        (and full FT is available in
+        72          decimal value)      subsequent parts.       subsequent parts)
+
+
+3    Implied marks
+
+     Implied marks appear in brackets e.g. (M1),and can only be awarded if correct work is
+     seen or implied by subsequent working/answer.
+
+
+4    Follow through marks (only applied after an error is made)
+
+     Follow through (FT) marks are awarded where an incorrect answer from one part of a
+     question is used correctly in subsequent part(s) (e.g. incorrect value from part (a) used in
+     part (d) or incorrect value from part (c)(i) used in part (c)(ii)). Usually, to award FT marks,
+     there must be working present and not just a final answer based on an incorrect answer
+     to a previous part. However, if all the marks awarded in a subsequent part are for the answer
+     or are implied, then FT marks should be awarded for their correct answer, even when
+     working is not present.
+
+     For example: following an incorrect answer to part (a) that is used in subsequent parts,
+     where the markscheme for the subsequent part is (M1)A1, it is possible to award full marks
+     for their correct answer, without working being seen. For longer questions where all but
+     the answer marks are implied this rule applies but may be overwritten by a Note in the
+     Markscheme.
+
+     • Within a question part, once an error is made, no further A marks can be awarded for
+       work which uses the error, but M marks may be awarded if appropriate.
+
+     • If the question becomes much simpler because of an error then use discretion to award
+       fewer FT marks, by reflecting on what each mark is for and how that maps to the simplified
+       version.
+
+     • If the error leads to an inappropriate value (e.g. probability greater than 1, sin  = 1.5 , non-
+       integer value where integer required), do not award the mark(s) for the final answer(s).
+
+     • The markscheme may use the word “their” in a description, to indicate that candidates
+       may be using an incorrect value.
+                                              –5–               M22/5/MATHX/SP1/ENG/TZ2/XX/M
+
+
+    • If the candidate’s answer to the initial question clearly contradicts information given in the
+      question, it is not appropriate to award any FT marks in the subsequent parts. This
+      includes when candidates fail to complete a “show that” question correctly, and then in
+      subsequent parts use their incorrect answer rather than the given value.
+
+    • Exceptions to these FT rules will be explicitly noted on the markscheme.
+
+    • If a candidate makes an error in one part but gets the correct answer(s) to subsequent
+      part(s), award marks as appropriate, unless the command term was “Hence”.
+
+
+5   Mis-read
+
+    If a candidate incorrectly copies values or information from the question, this is a mis-read
+    (MR). A candidate should be penalized only once for a particular misread. Use the MR
+    stamp to indicate that this has been a misread and do not award the first mark, even if this
+    is an M mark, but award all others as appropriate.
+    • If the question becomes much simpler because of the MR, then use discretion to award
+      fewer marks.
+
+    • If the MR leads to an inappropriate value (e.g. probability greater than 1, sin  = 1.5 , non-
+      integer value where integer required), do not award the mark(s) for the final answer(s).
+
+    • Miscopying of candidates’ own work does not constitute a misread, it is an error.
+
+    • If a candidate uses a correct answer, to a “show that” question, to a higher degree of
+      accuracy than given in the question, this is NOT a misread and full marks may be scored
+      in the subsequent part.
+
+    • MR can only be applied when work is seen. For calculator questions with no working and
+      incorrect answers, examiners should not infer that values were read incorrectly.
+
+
+6   Alternative methods
+
+    Candidates will sometimes use methods other than those in the markscheme. Unless the
+    question specifies a method, other correct methods should be marked in line with the
+    markscheme. If the command term is ‘Hence’ and not ‘Hence or otherwise’ then alternative
+    methods are not permitted unless covered by a note in the mark scheme.
+
+    • Alternative methods for complete questions are indicated by METHOD                          1,
+      METHOD 2, etc.
+    • Alternative solutions for parts of questions are indicated by EITHER . . . OR.
+                                                   –6–                 M22/5/MATHX/SP1/ENG/TZ2/XX/M
+
+
+7   Alternative forms
+
+    Unless the question specifies otherwise, accept equivalent forms.
+
+    • As this is an international examination, accept all alternative forms of notation for
+      example 1.9 and 1,9 or 1000 and 1,000 and 1.000 .
+
+    • Do not accept final answers written using calculator notation. However, M marks and
+      intermediate A marks can be scored, when presented using calculator notation, provided
+      the evidence clearly reflects the demand of the mark.
+
+    • In the markscheme, equivalent numerical and algebraic forms will generally be written
+      in brackets immediately following the answer.
+
+    • In the markscheme, some equivalent answers will generally appear in brackets. Not all
+      equivalent notations/answers/methods will be presented in the markscheme and
+      examiners are asked to apply appropriate discretion to judge if the candidate work is
+      equivalent.
+
+
+8   Format and accuracy of answers
+
+    If the level of accuracy is specified in the question, a mark will be linked to giving the answer
+    to the required accuracy. If the level of accuracy is not stated in the question, the general
+    rule applies to final answers: unless otherwise stated in the question all numerical answers
+    must be given exactly or correct to three significant figures.
+
+    Where values are used in subsequent parts, the markscheme will generally use the exact
+    value, however candidates may also use the correct answer to 3 sf in subsequent parts.
+    The markscheme will often explicitly include the subsequent values that come “from the use
+    of 3 sf values”.
+
+    Simplification of final answers: Candidates are advised to give final answers using good
+    mathematical form. In general, for an A mark to be awarded, arithmetic should be completed, and
+                                                                             25                     5
+    any values that lead to integers should be simplified; for example,         should be written as .
+                                                                             4                      2
+    An exception to this is simplifying fractions, where lowest form is not required (although the
+                                                                         10
+    numerator and the denominator must be integers); for example,           may be left in this form or
+                                                                          4
+                 5            10
+    written as     . However,    should be written as 2, as it simplifies to an integer.
+                 2             5
+
+    Algebraic expressions should be simplified by completing any operations such as addition and
+    multiplication, e.g. 4e2 x  e3 x should be simplified to 4e5 x , and 4e2 x  e3 x − e4 x  e x should be
+    simplified to 3e5 x . Unless specified in the question, expressions do not need to be factorized, nor
+    do factorized expressions need to be expanded, so x ( x + 1) and x 2 + x are both acceptable.
+
+    Please note: intermediate A marks do NOT need to be simplified.
+                                           –7–               M22/5/MATHX/SP1/ENG/TZ2/XX/M
+
+
+9   Calculators
+
+    No calculator is allowed. The use of any calculator on this paper is malpractice and will
+    result in no grade awarded. If you see work that suggests a candidate has used any
+    calculator, please follow the procedures for malpractice.
+
+
+10. Presentation of candidate work
+
+    Crossed out work: If a candidate has drawn a line through work on their examination script,
+    or in some other way crossed out their work, do not award any marks for that work unless
+    an explicit note from the candidate indicates that they would like the work to be marked.
+
+    More than one solution: Where a candidate offers two or more different answers to the
+    same question, an examiner should only mark the first response unless the candidate
+    indicates otherwise. If the layout of the responses makes it difficult to judge, examiners
+    should apply appropriate discretion to judge which is “first”.
+                                                  –8–   M22/5/MATHX/SP1/ENG/TZ2/XX/M
+
+
+                                       Section A
+
+1.   (a)   g ( 0 ) = −2                                                            A1
+
+                                                                             [1 mark]
+
+
+     (b)   evidence of using composite function                                  (M1)
+           f ( g ( 0 ) ) OR f ( −2 )
+
+           (f   g )( 0 ) = 8                                                       A1
+
+                                                                            [2 marks]
+
+
+     (c)   x=3                                                                     A2
+                                                                            [2 marks]
+                                                                       Total [5 marks]
+                                              –9–               M22/5/MATHX/SP1/ENG/TZ2/XX/M
+
+
+2.   (a)   u1 = 12                                                                         A1
+
+                                                                                     [1 mark]
+
+
+
+
+     (b)   15 − 3n = −33                                                                 (A1)
+           n = 16                                                                          A1
+                                                                                    [2 marks]
+
+
+
+
+     (c)   valid approach to find d                                                      (M1)
+           u2 − u1 = 9 − 12 OR recognize gradient is −3 OR attempts to solve
+           −33 = 12 + 15d
+           d = −3                                                                          A1
+                                                                                    [2 marks]
+                                                                               Total [5 marks]
+                                                           – 10 –                    M22/5/MATHX/SP1/ENG/TZ2/XX/M
+
+
+3.   (a)   ( n − 1) + n + ( n + 1)                                                                                   (A1)
+
+           = 3n                                                                                                        A1
+           which is always divisible by 3                                                                             AG
+                                                                                                                [2 marks]
+
+
+           ( n − 1) + n2 + ( n + 1)       ( = n 2 − 2n + 1 + n 2 + n 2 + 2n + 1 )
+                  2                   2
+     (b)                                                                                                               A1
+
+           attempts to expand either ( n − 1) or ( n + 1)             (do not accept n 2 − 1 or n 2 + 1 )
+                                                     2            2
+                                                                                                                     (M1)
+
+           = 3n 2 + 2                                                                                                  A1
+                                                                                    2
+           demonstrating recognition that 2 is not divisible by 3 or                  seen after correct
+                                                                                    3
+           expression divided by 3                                                                                     R1
+
+
+           3n 2 is divisible by 3 and so 3n 2 + 2 is never divisible by 3
+           OR     the first term is divisible by 3, the second is not
+
+                        2                 3n2 + 2
+           OR     3 n2 +           OR             = n2 +
+                                                           2
+                        3                   3            3
+
+           hence the sum of the squares is never divisible by 3                                                       AG
+                                                                                                                [4 marks]
+                                                                                                           Total [6 marks]
+                           – 11 –   M22/5/MATHX/SP1/ENG/TZ2/XX/M
+
+
+4.   (a)   (i)    x = −1                                      A1
+
+
+           (ii)   y=2                                         A1
+                                                        [2 marks]
+     (b)
+
+
+
+
+                                                      continued…
+                                                  – 12 –              M22/5/MATHX/SP1/ENG/TZ2/XX/M
+
+
+Question 4 continued
+
+
+           rational function shape with two branches in opposite quadrants, with two
+           correctly positioned asymptotes and asymptotic behaviour shown                            A1
+     Note: The equations of the asymptotes are not required on the graph provided
+           there is a clear indication of asymptotic behaviour at x = −1 and y = 2 (or
+           at their FT asymptotes from part (a)).
+                                                  1
+           axes intercepts clearly shown at x =     and y = −1                                    A1A1
+                                                  2
+                                                                                              [3 marks]
+
+
+
+
+                1
+     (c)   x                                                                                        A1
+                2
+
+                                                                 1          1    
+     Note: Accept correct alternative correct notation, such as  ,   and  ,   .
+                                                                 2          2    
+
+
+                                                                                               [1 mark]
+                                                                                         Total [6 marks]
+                                                  – 13 –                M22/5/MATHX/SP1/ENG/TZ2/XX/M
+
+
+                  π
+5.   determines     (or 45 ) as the first quadrant (reference) angle                            (A1)
+                  4
+                         x π π
+     attempts to solve    + =                                                                   (M1)
+                         2 3 4
+                                               x π π 7π
+     Note: Award M1 for attempting to solve     + = , ( ,...)
+                                               2 3 4 4
+     x π π              π
+      + =  x  0 and so is rejected                                                             (R1)
+     2 3 4              4
+     x π      π  7π 
+      + = 2π −  =                                                                               A1
+     2 3      4  4 
+          17π
+     x=           (must be in radians)                                                            A1
+           6
+                                                                                            [5 marks]
+                                                             – 14 –       M22/5/MATHX/SP1/ENG/TZ2/XX/M
+
+
+6.   (a)   EITHER
+           recognises the required term (or coefficient) in the expansion                          (M1)
+
+           bx5 = 7C2 x512      OR b = C2
+                                           7
+                                                OR
+                                                         7
+                                                             C5
+
+                 7!        7!      
+           b=         =           
+                2!5!  2!( 7 − 2 )! 
+           correct working                                                                           A1
+           7  6  5  4  3  2 1            76                42
+                                       OR               OR
+           2  1 5  4  3  2  1             2!                2
+
+
+           OR
+           lists terms from row 7 of Pascal’s triangle                                             (M1)
+           1,7, 21,...                                                                               A1
+
+
+           THEN
+           b = 21                                                                                   AG
+                                                                                              [2 marks]
+
+
+
+
+     (b)   a=7                                                                                     (A1)
+           correct equation                                                                          A1
+                    ax 6 + 35 x 4                    7 x 6 + 35 x 4
+           21x5 =                     OR   21x5 =
+                          2                                2
+           correct quadratic equation                                                                A1
+           7 x 2 − 42 x + 35 = 0 OR x 2 − 6 x + 5 = 0 (or equivalent)
+           valid attempt to solve their quadratic                                                  (M1)
+
+                                                     ( −6 ) − 4 (1)( 5)
+                                                             2
+                                               6
+           ( x − 1)( x − 5) = 0 OR x =
+                                                         2 (1)
+           x = 1, x = 5                                                                              A1
+
+     Note: Award final A0 for obtaining x = 0, x = 1, x = 5 .
+
+                                                                                              [5 marks]
+                                                                                         Total [7 marks]
+                                                             – 15 –    M22/5/MATHX/SP1/ENG/TZ2/XX/M
+
+
+                                                Section B
+7.   (a)   x=3                                                                                   A1
+                                                                          −b
+     Note: Must be an equation in the form “ x = ”. Do not accept 3 or       = 3.
+                                                                          2a
+                                                                                            [1 mark]
+
+
+
+
+     (b)   (i)    h = 3 , k = 4 (accept a ( x − 3)2 + 4 )                                     A1A1
+
+           (ii)   attempt to substitute coordinates of Q                                       (M1)
+
+                  12 = a ( 5 − 3) + 4 , 4a + 4 = 12
+                                   2
+
+
+
+                  a=2                                                                            A1
+                                                                                           [4 marks]
+
+
+
+
+     (c)   recognize need to find derivative of f                                              (M1)
+            f  ( x ) = 4 ( x − 3) or f  ( x ) = 4 x − 12                                       A1
+
+            f  ( 5) = 8 (may be seen as gradient in their equation)                            (A1)
+
+           y − 12 = 8 ( x − 5) or y = 8 x − 28                                                   A1
+
+     Note: Award A0 for L = 8x − 28 .
+                                                                                           [4 marks]
+                                                                                         continued…
+                                                     – 16 –              M22/5/MATHX/SP1/ENG/TZ2/XX/M
+
+
+Question 7 continued
+
+
+     (d)   METHOD 1
+           Recognizing that for g to be increasing, f ( x ) − d  0 , or g   0                  (M1)
+
+           The vertex must be above the x-axis, 4 − d  0 , d − 4  0                             (R1)
+           d 4                                                                                     A1
+                                                                                             [3 marks]
+
+
+           METHOD 2
+           attempting to find discriminant of g                                                  (M1)
+
+           ( −12 ) − 4 ( 2 )( 22 − d )
+                  2
+
+
+
+           recognizing discriminant must be negative                                              (R1)
+           −32 + 8d  0 OR   0
+           d 4                                                                                     A1
+                                                                                             [3 marks]
+
+
+     (e)   recognizing that for g to be concave up, g   0                                      (M1)
+
+           g   0 when f   0 , 4 x − 12  0 , x − 3  0                                       (R1)
+
+           x3                                                                                      A1
+                                                                                             [3 marks]
+                                                                                       Total [15 marks]
+                                                     – 17 –                 M22/5/MATHX/SP1/ENG/TZ2/XX/M
+
+
+            1
+8.   (a)       +1 = x − 3                                                                           (M1)
+           x−4
+           x 2 − 8 x + 15 = 0 OR ( x − 4 ) = 1
+                                            2
+                                                                                                     (A1)
+
+           valid attempt to solve their quadratic                                                   (M1)
+
+                                           8  82 − 4 (1)(15 )
+           ( x − 3)( x − 5) = 0 OR x =                           OR ( x − 4 ) = 1
+                                                  2 (1)
+
+           x = 5 ( x = 3, x = 5) (may be seen in answer)                                              A1
+
+           B ( 5, 2 ) (accept x = 5 , y = 2 )                                                         A1
+
+                                                                                                [5 marks]
+                                                                                              continued…
+                                                             – 18 –                M22/5/MATHX/SP1/ENG/TZ2/XX/M
+
+
+Question 8 continued
+
+
+     (b)   recognizing two correct regions from x = 3 to x = 5 and from x = 5 to x = k                                    (R1)
+
+                                                                                                   1       
+                         k                       5           k               5                k
+           triangle +  f ( x)dx OR
+                         5
+                                                 g ( x)dx +  f ( x)dx OR
+                                                 3           5
+                                                                              ( x − 3 ) dx +   x − 4 + 1 dx
+                                                                             3                5
+
+
+                                              22     52         32         
+           area of triangle is 2 OR               OR  − 3 ( 5)  −  − 3 ( 3)                                           (A1)
+                                               2     2          2           
+           correct integration                                                                                        (A1)(A1)
+
+              1         
+             x − 4 + 1 dx = ln ( x − 4 ) + x ( +C )
+     Note: Award A1 for ln( x − 4) and A1 for x.
+     Note: The first three A marks may be awarded independently of the R mark.
+
+
+           substitution of their limits (for x) into their integrated function (in terms of x)                           (M1)
+           ln ( k − 4 ) + k − ( ln1 + 5)
+
+           ln ( x − 4 ) + x  5k = ln ( k − 4 ) + k − 5                                                                 A1
+
+           adding their two areas (in terms of k) and equating to ln p + 8                                               (M1)
+
+           2 + ln ( k − 4 ) + k − 5 = ln p + 8
+           equating their non-log terms to 8 (equation must be in terms of k)                                            (M1)
+           k −3 = 8
+           k = 11                                                                                                          A1
+           11 − 4 = p
+           p=7                                                                                                             A1
+                                                                                                                    [10 marks]
+                                                                                                            Total [15 marks]
+                                                     – 19 –                M22/5/MATHX/SP1/ENG/TZ2/XX/M
+
+
+9.   (a)   uses     P ( X = x ) = 1 to form a linear equation in p and q                               (M1)
+
+           correct equation in terms of p and q from summing to 1                                        A1
+           p + 0.3 + q + 0.1 = 1 OR      p + q = 0.6 (or equivalent)
+
+           uses E ( X ) = 2 to form a linear equation in p and q                                        (M1)
+
+           correct equation in terms of p and      q from E ( X ) = 2                                    A1
+
+           p + 0.6 + 3q + 0.4 = 2 OR      p + 3q = 1 (or equivalent)
+
+
+     Note: The marks for using      P ( X = x ) = 1 and the marks for using E ( X ) = 2
+            may be awarded independently of each other.
+
+
+           evidence of correctly solving these equations simultaneously                                  A1
+           for example, 2q = 0.4  q = 0.2 or p + 3  ( 0.6 − p ) = 1  p = 0.4
+
+           so p = 0.4 and q = 0.2                                                                        AG
+                                                                                                   [5 marks]
+
+
+
+
+     (b)   valid approach                                                                               (M1)
+           P ( X  2 ) = P ( X = 3) + P ( X = 4 ) OR P ( X  2 ) = 1 − P ( X = 1) − P ( X = 2 )
+
+           = 0.3                                                                                         A1
+                                                                                                   [2 marks]
+                                                                                                  continued…
+                                                             – 20 –          M22/5/MATHX/SP1/ENG/TZ2/XX/M
+
+
+Question 9 continued
+
+     (c)   recognises at least one of the valid scores (6, 7, or 8) required to win the game         (M1)
+
+
+     Note: Award M0 if candidate also considers scores other than 6, 7, or 8 (such as
+           5).
+
+
+           let T represent the score on the last two rolls
+           a score of 6 is obtained by rolling ( 2,4 ) , ( 4,2 ) or ( 3,3)
+
+           P (T = 6 ) = 2 ( 0.3)( 0.1) + ( 0.2 )       ( = 0.1)
+                                                   2
+                                                                                                       A1
+
+           a score of 7 is obtained by rolling ( 3,4 ) or ( 4,3)
+
+           P (T = 7 ) = 2 ( 0.2 )( 0.1) ( = 0.04 )                                                     A1
+
+           a score of 8 is obtained by rolling ( 4, 4 )
+
+           P (T = 8 ) = ( 0.1)       ( = 0.01)
+                                 2
+                                                                                                       A1
+
+
+     Note: The above 3 A1 marks are independent of each other.
+
+
+           P ( Nicky wins ) = 0.1 + 0.04 + 0.01
+
+           = 0.15                                                                                      A1
+                                                                                                 [5 marks]
+
+
+
+
+     (d)   3+b = 8                                                                                   (M1)
+           b=5                                                                                         A1
+                                                                                                 [2 marks]
+                                                                                               continued…
+                                                       – 21 –     M22/5/MATHX/SP1/ENG/TZ2/XX/M
+
+
+Question 9 continued
+
+     (e)   METHOD 1
+           EITHER
+                           4
+           P ( S = 5) =
+                          16
+                                4
+           P ( S = a + 2) =                                                                 A1
+                               16
+           a+2=5
+
+           OR
+                           3
+           P ( S = 6) =
+                          16
+                                2                       1
+           P ( S = a + 3) =       and P ( S = 5 + 1) =                                      A1
+                               16                      16
+            a+3= 6
+
+           OR
+                           3
+           P ( S = 4) =
+                          16
+                               2                       1
+           P ( S = a + 1) =      and P ( S = 1 + 3) =                                       A1
+                              16                      16
+            a +1 = 4
+
+           THEN
+           a =3                                                                            A1
+
+
+     Note: Award A0A0 for a = 3 obtained without working/reasoning/justification.
+                                                                                      [2 marks]
+                                                                                    continued…
+                                                      – 22 –               M22/5/MATHX/SP1/ENG/TZ2/XX/M
+
+
+Question 9 continued
+
+          METHOD 2
+          EITHER
+          correctly lists a relevant part of the sample space                                              A1
+          for example, S = 4 = (3,1),(1, a),(1, a) or S = 5 = (2, a),(2, a),(2, a),(2, a)
+
+          or S = 6 = (3, a),(3, a),(1,5)
+
+           a+3= 6
+
+          OR
+          eliminates possibilities (exhaustion) for a  5
+          convincingly shows that a  2,4                                                                  A1
+
+                                                 2
+           a  4 , for example, P ( S = 7 ) =      from ( 2,5) , ( 2,5) and so
+                                                16
+           ( 3, a ) , ( 3, a )  a + 3  7
+
+          THEN
+           a =3                                                                                           A1
+                                                                                                    [2 marks]
+                                                                                              Total [16 marks]
+

@@ -1,0 +1,341 @@
+© International Baccalaureate Organization 2021
+
+All rights reserved. No part of this product may be reproduced in any form or by any
+electronic or mechanical means, including information storage and retrieval systems,
+without the prior written permission from the IB. Additionally, the license tied with this
+product prohibits use of any selected files or extracts from this product. Use by third
+parties, including but not limited to publishers, private teachers, tutoring or study services,
+preparatory schools, vendors operating curriculum mapping services or teacher resource
+digital platforms and app developers, whether fee-covered or not, is prohibited and is a
+criminal offense.
+
+More information on how to request written permission in the form of a license can be
+obtained from https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-
+license/.
+
+© Organisation du Baccalauréat International 2021
+
+Tous droits réservés. Aucune partie de ce produit ne peut être reproduite sous quelque
+forme ni par quelque moyen que ce soit, électronique ou mécanique, y compris des
+systèmes de stockage et de récupération d’informations, sans l’autorisation écrite
+préalable de l’IB. De plus, la licence associée à ce produit interdit toute utilisation de tout
+fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris, sans
+toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de tutorat ou
+d’aide aux études, des établissements de préparation à l’enseignement supérieur, des
+fournisseurs de services de planification des programmes d’études, des gestionnaires de
+plateformes pédagogiques en ligne, et des développeurs d’applications, moyennant
+paiement ou non, est interdite et constitue une infraction pénale.
+
+Pour plus d’informations sur la procédure à suivre pour obtenir une autorisation écrite
+sous la forme d’une licence, rendez-vous à l’adresse https://ibo.org/become-an-ib-school/
+ib-publishing/licensing/applying-for-a-license/.
+
+© Organización del Bachillerato Internacional, 2021
+
+Todos los derechos reservados. No se podrá reproducir ninguna parte de este producto
+de ninguna forma ni por ningún medio electrónico o mecánico, incluidos los sistemas de
+almacenamiento y recuperación de información, sin la previa autorización por escrito del
+IB. Además, la licencia vinculada a este producto prohíbe el uso de todo archivo o
+fragmento seleccionado de este producto. El uso por parte de terceros —lo que incluye,
+a título enunciativo, editoriales, profesores particulares, servicios de apoyo académico o
+ayuda para el estudio, colegios preparatorios, desarrolladores de aplicaciones y
+entidades que presten servicios de planificación curricular u ofrezcan recursos para
+docentes mediante plataformas digitales—, ya sea incluido en tasas o no, está prohibido
+y constituye un delito.
+
+En este enlace encontrará más información sobre cómo solicitar una autorización por
+escrito en forma de licencia: https://ibo.org/become-an-ib-school/ib-publishing/licensing/
+applying-for-a-license/.
+Mathematics: applications and interpretation
+Higher level
+Paper 3
+
+Tuesday 11 May 2021 (morning)
+
+
+1 hour
+
+
+Instructions to candidates
+y Do not open this examination paper until instructed to do so.
+y A graphic display calculator is required for this paper.
+y Answer all the questions in the answer booklet provided.
+y Unless otherwise stated in the question, all numerical answers should be given exactly or
+  correct to three significant figures.
+y A clean copy of the mathematics: applications and interpretation formula booklet is
+  required for this paper.
+y The maximum mark for this examination paper is [55 marks].
+
+
+
+
+                                                                                              2221 – 7208
+     6 pages                                              © International Baccalaureate Organization 2021
+                                                    –2–                                               2221 – 7208
+
+
+Answer both questions in the answer booklet provided. Please start each question on a new page.
+Full marks are not necessarily awarded for a correct answer with no working. Answers must be
+supported by working and/or explanations. Solutions found from a graphic display calculator should
+be supported by suitable working. For example, if graphs are used to find a solution, you should sketch
+these as part of your answer. Where an answer is incorrect, some marks may be given for a correct
+method, provided this is shown by written working. You are therefore advised to show all working.
+
+1.   [Maximum mark: 27]
+
+     A suitable site for the landing of a spacecraft on the planet Mars is identified at a point, A.
+     The shortest time from sunrise to sunset at point A must be found.
+
+     Radians should be used throughout this question. All values given in the question should be
+     treated as exact.
+
+     Mars completes a full orbit of the Sun in 669 Martian days, which is one Martian year.
+
+
+
+           Mars                                  Sun
+
+           axis
+
+     On day t , where t ∈ ℤ , the length of time, in hours, from the start of the Martian day until
+     sunrise at point A can be modelled by a function, R(t) , where
+
+                                        R(t) = a sin (bt) + c , t ∈ ℝ .
+
+     The graph of R is shown for one Martian year.
+
+                         R(t )
+                      (hours)
+
+
+                             c
+
+
+
+
+                             0                                  669           t (days)
+
+     (a)   Show that b ≈ 0.00939 .                                                                            [2]
+
+     Mars completes a full rotation on its axis in 24 hours and 40 minutes.
+
+     (b)   Find the angle through which Mars rotates on its axis each hour.                                   [3]
+
+
+
+(This question continues on the following page)
+                                                              –3–                                                        2221 – 7208
+
+
+(Question 1 continued)
+
+     The time of sunrise on Mars depends on the angle, δ , at which it tilts towards the Sun.
+     During a Martian year, δ varies from −0.440 to 0.440 radians.
+
+     The angle, ω , through which Mars rotates on its axis from the start of a Martian day to the
+     moment of sunrise, at point A, is given by cos ω = 0.839 tan δ , 0 ≤ ω ≤ π .
+
+     (c)    (i)	Show that the maximum value of ω = 1.98 , correct to three significant figures.                                [3]
+
+            (ii)    Find the minimum value of ω .                                                                               [1]
+
+     (d)    Use your answers to parts (b) and (c) to find
+
+            (i)     the maximum value of R(t ) ;                                                                                [2]
+
+            (ii)    the minimum value of R(t ) .                                                                                [1]
+
+     (e)    Hence show that a = 1.6 , correct to two significant figures.                                                       [2]
+
+     (f)    Find the value of c .[2]
+
+     Let S (t ) be the length of time, in hours, from the start of the Martian day until sunset at
+     point A on day t . S (t ) can be modelled by the function
+
+                                       S (t ) = 1.5 sin (0.00939t + 2.83) + 18.65 .
+
+     The length of time between sunrise and sunset at point A, L(t) , can be modelled by the function
+
+                             L(t ) = 1.5 sin (0.00939t + 2.83) − 1.6 sin (0.00939t ) + d .
+
+     (g)    Find the value of d .[2]
+
+     Let f (t ) = 1.5 sin (0.00939t + 2.83) − 1.6 sin (0.00939t ) and hence L(t ) =  f (t ) + d .
+
+     f (t ) can be written in the form  ​Im (​ ​z​1​− ​z​2​)​ , where  ​z​1​  and  ​z​2​  are complex functions of t .
+
+     (h)    (i)	Write down  ​z​1​  and  ​z​2​  in exponential form, with a constant modulus.                                   [3]
+
+            (ii)    Hence or otherwise find an equation for L in the form L(t ) = p sin (qt + r) + d ,
+                    where p , q , r , d ∈ ℝ .                                                                                   [4]
+
+            (iii)   Find, in hours, the shortest time from sunrise to sunset at point A that is predicted
+                    by this model.                                                                                              [2]
+
+
+
+
+                                                                                                                         Turn over
+                                                   –4–                                                2221 – 7208
+
+
+2.   [Maximum mark: 28]
+
+     A firm wishes to review its recruitment processes. This question considers the validity
+     and reliability of the methods used.
+
+     Every year an accountancy firm recruits new employees for a trial period of one year from a
+     large group of applicants.
+
+     At the start, all applicants are interviewed and given a rating. Those with a rating of either
+     Excellent, Very good or Good are recruited for the trial period. At the end of this period,
+     some of the new employees will stay with the firm.
+
+     It is decided to test how valid the interview rating is as a way of predicting which of the new
+     employees will stay with the firm.
+
+     Data is collected and recorded in a contingency table.
+
+                                                  Interview rating
+
+                                      Excellent       Very good         Good
+
+                            Stay          12               20             19
+                           Leave          10               15             24
+
+     (a)   Use an appropriate test, at the 5 % significance level, to determine whether a new
+           employee staying with the firm is independent of their interview rating. State the null
+           and alternative hypotheses, the p-value and the conclusion of the test.                           [6]
+
+     The next year’s group of applicants are asked to complete a written assessment which
+     is then analysed. From those recruited as new employees, a random sample of size 18
+     is selected.
+
+     The sample is stratified by department. Of the 91 new employees recruited that year,
+     55 were placed in the national department and 36 in the international department.
+
+     (b)   Show that 11 employees are selected for the sample from the national department.                  [2]
+
+
+
+(This question continues on the following page)
+                                                                                         –5–                                                           2221 – 7208
+
+
+(Question 2 continued)
+
+     At the end of their first year, the level of performance of each of the 18 employees in the
+     sample is assessed by their department manager. They are awarded a score between
+     1 (low performance) and 10 (high performance).
+
+     The marks in the written assessment and the scores given by the managers are shown in
+     both the table and the scatter diagram.
+
+                                                                  National department                                          International department
+
+  Employee                                    A       B   C        D       E       F     G       H        I    J   K        L    M    N        O   P    Q    R
+
+  Mark in written
+                                              82 76 74 70 65 62 58 58 55 54 51 93 85 82 77 74 66 65
+  assessment
+
+  Score given by                              10 10 10             9       7        8        9       8    7    8       7    8     7   6        7   6     5    4
+  manager
+
+
+
+
+                                                                                                 C        B        A
+                                    10
+                                                          G                              D
+           Score given by manager
+
+
+
+
+                                                  J
+                                    8                         H        F
+                                          K                                                                                           L
+                                                      I                        E                          O                M
+                                    6                                                                              N
+                                                                                                     P
+                                                                                Q
+                                    4
+                                                                               R
+
+                                    2
+
+                                    0
+                                         50       55          60           65           70           75       80       85        90       95
+                                                                       Mark in written assessment
+
+     The firm decides to find a Spearman’s rank correlation coefficient,  ​rs​​ , for this data.
+
+     (c)   (i)	Without calculation, explain why it might not be appropriate to calculate a
+                correlation coefficient for the whole sample of 18 employees.                                                                                 [2]
+
+           (ii)                      Find  ​rs​​  for the seven employees working in the international department.                                            [4]
+
+           (iii)                     Hence comment on the validity of the written assessment as a measure of the
+                                     level of performance of employees in this department. Justify your answer.                                               [2]
+
+
+(This question continues on the following page)
+
+                                                                                                                                                       Turn over
+                                                          –6–                                              2221 – 7208
+
+
+(Question 2 continued)
+
+      The same seven employees are given the written assessment a second time, at the end of
+      the first year, to measure its reliability. Their marks are shown in the table below.
+
+                                                       International department
+
+                                                  L     M      N     O      P     Q      R
+                              First mark         93     85    82     77    74     66    65
+                              Second mark        90     92    85     73    79     71    65
+
+      (d)     (i)	State the name of this type of test for reliability.                                           [1]
+
+              (ii)    For the data in this table, test the null hypothesis,  ​H​0​: ρ = 0​ , against the
+                      alternative hypothesis,  ​H​1​: ρ > 0​ , at the 5 % significance level. You may
+                      assume that all the requirements for carrying out the test have been met.                   [4]
+
+              (iii)   Hence comment on the reliability of the written assessment.                                 [1]
+
+      (e)     The written assessment is in five sections, numbered 1 to 5. At the end of the year,
+              the employees are also given a score for each of five professional attributes:
+              V, W, X, Y and Z.
+
+              The firm decides to test the hypothesis that there is a correlation between the mark
+              in a section and the score for an attribute.
+
+              They compare marks in each of the sections with scores for each of the attributes.
+
+              (i)     Write down the number of tests they carry out.                                              [1]
+
+              (ii)    The tests are performed at the 5 % significance level.
+
+                      Assuming that:
+                      y there is no correlation between the marks in any of the sections and scores
+                        in any of the attributes,
+                      y the outcome of each hypothesis test is independent of the outcome of the
+                        other hypothesis tests,
+
+                      find the probability that at least one of the tests will be significant.                    [4]
+
+              (iii)   The firm obtains a significant result when comparing section 2 of the written
+                      assessment and attribute X. Interpret this result.                                          [1]
+
+
+
+
+
+
+
+References:
+
+© International Baccalaureate Organization 2021
+

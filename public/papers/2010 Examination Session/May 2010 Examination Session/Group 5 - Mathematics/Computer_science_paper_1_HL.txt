@@ -1,0 +1,262 @@
+M10/5/COMSC/HP1/ENG/TZ0/XX
+
+
+
+
+       22107011
+
+
+Computer science
+HIGHER level
+Paper 1
+
+Thursday 6 May 2010 (afternoon)
+
+2 hours 15 minutes
+
+
+INSTRUCTIONS TO CANDIDATES
+
+ Do not open this examination paper until instructed to do so.
+ Section A: answer all the questions.
+ Section B: answer all the questions.
+
+
+
+
+2210-7011                                                                                          7 pages
+                                                           © International Baccalaureate Organization 2010
+                                                      –2–                M10/5/COMSC/HP1/ENG/TZ0/XX
+
+                                                Section a
+
+Answer all the questions.
+
+1.    State two items that would be included in a requirements specification in addition to
+      inputs and outputs.                                                                       [2 marks]
+
+
+2.    (a)   Calculate DE + 3C , giving your answer in hexadecimal.                              [2 marks]
+
+      (b)   State the answer to part (a) in binary.                                             [1 mark]
+
+      (c)   State the error that would occur when this result is stored in an 8 bit register.   [1 mark]
+
+
+3.    Outline the function of the arithmetic and logic unit (ALU) in the central processing
+      unit (CPU).                                                                               [2 marks]
+
+
+4.    Compare magnetic tape with flash memory as media for backing up data.                     [4 marks]
+
+
+5.    Describe the difference between private class members and public class members.           [2 marks]
+
+
+6.    (a)   Outline one use of a macro within an application.                                   [2 marks]
+
+      (b)   State two advantages of using the macro from part (a).                              [2 marks]
+
+
+7.    Describe how a check sum could ensure data integrity in the transmission of data.         [3 marks]
+
+
+8.    Outline one advantage of creating a prototype during the design stage of software
+      development.                                                                              [2 marks]
+
+
+9.    (a)   State two examples of the use of an interrupt.                                      [2 marks]
+
+      (b)   Outline how the operating system processes an interrupt.                            [2 marks]
+
+
+10.   Describe the use of key words by Internet search engines.                                 [3 marks]
+
+
+
+
+2210-7011
+                                                     –3–                   M10/5/COMSC/HP1/ENG/TZ0/XX
+
+11.   (a)   (i)    Outline the characteristics of serial transmission.                       [2 marks]
+
+		          (ii)   State one suitable example of its use.                                     [1 mark]
+
+      (b)   (i)    Outline the characteristics of parallel transmission.                     [2 marks]
+
+		          (ii)   State one suitable example of its use.                                     [1 mark]
+
+
+12.   (a)   Define the term virtual memory.                                                  [2 marks]
+
+      (b)   Outline the use of virtual memory in the running of a program.                   [2 marks]
+
+
+
+
+2210-7011                                                                                    Turn over
+                                                    –4–                 M10/5/COMSC/HP1/ENG/TZ0/XX
+
+                                               Section b
+
+Answer all the questions.
+
+13.   Software is used to design a road bridge. The software allows the user to simulate
+      small changes to the thickness of the materials used to build the bridge.
+
+      (a)   Describe the data type needed to represent the thickness of the materials.          [2 marks]
+
+      An important factor in bridge safety is the amount of traffic that uses the bridge.
+
+      (b)   Outline one method for collecting data on the amount of traffic that would be
+            using the bridge.                                                                   [2 marks]
+
+      (c)   Suggest how the results of this data collection would be used to influence the
+            design of the bridge.                                                               [4 marks]
+
+      (d)   Outline one advantage of using a computer and appropriate software to design
+            the bridge.                                                                         [2 marks]
+
+
+14.   An insurance company has over 50 000 customers, whose details are stored in records
+      within a database.   Two of the fields in the customer record are  customer name
+      and customer ID. The records are held in order of customer ID.
+
+      (a)   Identify the search method used to access the record of a customer when the
+            name is known and state the BigO efficiency of this search.                         [2 marks]
+
+      (b)   Identify the search method that should be used to access the record of a customer
+            when the customer ID is known and state the BigO efficiency of this search.         [2 marks]
+
+      Another field in the customer record is  date payment due. At the end of each month,
+      the database is searched to find all customers whose payment is due.
+
+      (c)   Identify the type of processing used in this search.                                [1 mark]
+
+      The company implements a completely new computer system with a better designed
+      database. This is implemented overnight.
+
+      (d)   Discuss the advantages and disadvantages of using a direct changeover method.       [5 marks]
+
+
+
+
+2210-7011
+                                                   –5–                 M10/5/COMSC/HP1/ENG/TZ0/XX
+
+15.   A washing machine which has several different programs can be set to start working
+      at a specified time.  The time to start and the required program are input by a user.  
+      The washing machine is controlled by a microprocessor.
+
+      (a)   Identify two items that would need to be held in read-only memory (ROM).            [2 marks]
+
+      (b)   Identify two items that would need to be held in random access memory (RAM).        [2 marks]
+
+      The microprocessor controls water input (W), heating (H) and rotation (R).
+      The following table shows the state of these controls for whether or not the
+      washing machine is operating (M).
+
+                                       W     H     R     M
+                                       0     0     0     0
+                                       0     0     1     0
+                                       0     1     0     1
+                                       0     1     1     1
+                                       1     0     0     0
+                                       1     0     1     1
+                                       1     1     0     0
+                                       1     1     1     1
+
+      (c)   Use the truth table to state the logical conditions that define when the
+            washing machine is operating and simplify the expression as far as possible.        [3 marks]
+
+      (d)   Construct the logical circuit from the simplified expression you obtained
+            in part (c).                                                                        [3 marks]
+
+
+16.   Study the recursive method below.
+
+      public int question(int n, int b)
+      {
+        if (n / 10 > 0)
+        {
+           int y = (n % 10) * b;
+           return (y + question(n / 10, b * 2));
+        }
+        else
+           return (n % 10) * b;
+      }
+
+      (a)   Identify the terminating condition.                                                  [1 mark]
+
+      (b)   By showing the result of each recursive call, determine the output of this method
+            when n = 1011 and b = 1.                                                            [5 marks]
+
+      (c)   Explain one advantage and one disadvantage of solving this kind of problem
+            recursively rather than using an iterative method.                                  [4 marks]
+
+2210-7011                                                                                       Turn over
+                                                    –6–                   M10/5/COMSC/HP1/ENG/TZ0/XX
+
+17.   An online dictionary translates between English and German. When a user knows the
+      German word they can find the English word and when a user knows the English word
+      they can find the German word.
+
+      A sample of the word pairs that are stored is as follows:
+
+                                      GERMAN ENGLISH
+                                      Fisch   Fish
+                                      Spinat  Spinach
+                                      Ei      Egg
+                                      Lamm    Lamb
+                                      Karotte Carrot
+
+      Assume that these five pairs are input in the order shown.
+
+      (a)   Construct the binary tree which stores the above list of pairs in alphabetical
+            order by German word, showing the information which would need to be held at
+            each leaf of the tree.                                                            [4 marks]
+
+      This data could also be represented as a single linked list in alphabetical order by
+      German word.
+
+      (b)   (i)    Explain one advantage of using a binary tree.                              [2 marks]
+
+		          (ii)   Explain one advantage of using a single linked list.                       [2 marks]
+
+      (c)   Suggest how this single linked list could be modified to allow translation from
+            English to German as well as from German to English.                              [2 marks]
+
+
+
+
+2210-7011
+                                                  –7–                M10/5/COMSC/HP1/ENG/TZ0/XX
+
+18.   A website allows members to place orders for products. A person may become a
+      member by completing an online form with their details, including payment method,
+      email address and password. To order from the site a member must enter a username
+      and a password.
+
+      (a)   Outline the use of verification and validation in the completion of the
+            membership form.                                                                [2 marks]
+
+      (b)   Outline the way in which encryption should be used in this system.              [3 marks]
+
+      (c)   Explain the role of protocols when a member accesses the site.                  [2 marks]
+
+      Two members are logged onto the site at the same time and both want to buy the same
+      product but there is only one left.
+
+      Some products are in limited supply and cannot be replaced.
+
+      (d)   Outline a way in which the web server could be updated on the number of
+            products in stock.                                                              [1 mark]
+
+      (e)   Suggest how the web server would avoid the situation of two people buying the
+            last item at the same time.                                                     [2 marks]
+
+
+
+
+2210-7011
+

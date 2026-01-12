@@ -1,0 +1,334 @@
+M&N15/3/ITGSx/HP3/eng/TZ0/XX/CS
+
+
+
+
+Information technology in a global society
+Case study: Asociación de Supermercados Independientes
+            An investigation into Big Data
+
+
+For use in May and November 2015
+
+
+
+
+Instructions to candidates
+• Case study booklet required for higher level paper 3 information technology in a global society
+   examinations.
+
+
+
+
+     10 pages                                             © International Baccalaureate Organization 2015
+                                                 –2–             m&n15/3/ITGSX/HP3/eng/TZ0/XX/CS
+
+Foreword
+
+The ITGS case study, Asociación de Supermercados Independientes: An investigation into Big Data,
+is the stimulus material for the research investigation required for May and November 2015 higher level
+paper 3. All of the work related to the case study should reflect the integrated approach explained on
+pages 15–17 of the ITGS guide.
+
+Candidates should consider Asociación de Supermercados Independientes: An investigation into
+Big Data with respect to:
+• relevant IT systems in a social context
+• both local and global areas of impact
+• social and ethical impacts on individuals and societies
+• current challenges and solutions
+• future developments.
+
+Candidates are expected to research real-life situations similar to Asociación de Supermercados
+Independientes: An investigation into Big Data and relate their findings to first-hand experiences
+wherever possible. Information may be collected through a range of activities: secondary and primary
+research, field trips, guest speakers, personal interviews and email correspondence.
+
+Responses to examination questions must reflect the synthesis of knowledge and experiences that the
+candidates have gained from their investigations. In some instances, additional information may be
+provided in examination questions to allow candidates to generate new ideas.
+                                              –3–             m&n15/3/ITGSX/HP3/eng/TZ0/XX/CS
+
+     Big Data is a commonly used term with no single accepted definition. Most definitions are
+     linked to the analysis of very large data sets, which do not use the traditional relational
+     database model, by organizations to provide a competitive advantage.
+
+     Overview
+
+     In Mexico, over 300 independent family-owned supermarkets across the country have recently
+ 5   decided to create an association of local supermarkets called the Asociación de Supermercados
+     Independientes (ASI). This was proposed so they could use economies of scale when
+     purchasing goods to compete with the larger more established supermarket chains,
+     who currently receive better prices from suppliers. Currently each family-owned supermarket is
+     responsible for the purchasing of stock for their own store. The ASI management has chosen to
+10   have its Head Office in Mexico City.
+
+     Since they are local community stores many supermarkets in the ASI have become involved
+     with community organizations such as schools and sports clubs. Based on customers’
+     suggestions, the supermarkets often donate a small percentage of their sales revenue to these
+     community organizations. They believe it is important to be an integral and socially responsible
+15   part of the community they serve.
+
+     The managers of the supermarkets do not feel they have a systematic way of analysing data
+     from customer purchases, which may be reducing possible profits and their competitiveness
+     with large supermarket chain stores in the area.
+
+
+
+
+                                                                                            Turn over
+                                              –4–             m&n15/3/ITGSX/HP3/eng/TZ0/XX/CS
+
+
+     Current IT system
+
+     Currently, each store operates its own independent information system that manages
+20   the sales, finance and stock data on a local area network. Various types of EPOS
+     (Electronic Point of Sale) and stock control systems are used by the different stores in these
+     information systems. To order stock from the suppliers a variety of methods are used, such as
+     email, online ordering, phone calls and faxes.
+
+     The changing situation
+
+     The ASI Loyalty Card scheme
+25   The management of the ASI realized that customers like to feel that they are being rewarded
+     either altruistically, by giving to good causes, or financially, through price discounts.
+     The introduction of a loyalty card scheme was seen as a mechanism to facilitate the rewarding
+     of customers.
+
+     About five years ago the large supermarket chains developed loyalty card schemes that offer
+30   points based on the value of the goods purchased, which are recorded at the checkout.
+     The ASI Loyalty Card will reward customers with 1 point for each 10 peso purchase. The points
+     can be redeemed for a variety of goods and services such as discounts, gifts, travel vouchers
+     and donations to a charity, where 5 points is equivalent to 1 peso.
+
+     Customers can register at any ASI supermarket by filling in a written form with personal details,
+35   and are given a card soon after with the customer name and Loyalty ID number (also recorded
+     as a barcode so it can be scanned quickly). This data in the customer database will eventually
+     lead to an online profile being created which will also contain details of purchases along with
+     other information such as time of purchase and store location. Customers will be able to access
+     their profile and purchasing record on the ASI website.
+
+40   Whenever a customer in a supermarket taking part in the ASI Loyalty Card scheme makes a
+     purchase, their loyalty card barcode is scanned like a normal product barcode. After payment
+     they receive a receipt. In some cases the receipts may not show the full name of the item,
+     only the amount paid for it. However, the loyalty card ID number, the product code (the name is
+     not needed) of the item, plus additional data, such as the price, store ID number, and time and
+45   date of purchase, are put into the store database without the customer being aware of it.
+     This data is eventually transferred to the ASI data warehouse and is included in the profile of
+     the customer.
+                                         –5–   M&N15/3/ITGSX/HP3/ENG/TZ0/XX/CS
+
+
+
+
+        SHOPCO
+        ---------------
+          PHONE: 078675309
+           STORE: 0545
+         RECEIPT: 8096
+       SERVED BY: MARIA–316
+
+                                   ₱
+  BANANAS                        9.15
+  TEABAGS                       30.99
+  TEABAGS                       30.99           ASI LOYALTY CARD
+  BEANS (LOOSE)                 45.50
+  BAKED BEANS                   10.35
+  BAKED BEANS                   10.35
+  ORANGES                        7.55
+                                                   asi.mx/LoyaltyCard/
+  SUB TOTAL                     144.88
+
+-------------------------------
+ TOTAL TO PAY           144.88
+ CREDIT CARD SALE       144.88
+   NUMBER    : ************9999
+   AUTH CODE : 085463
+   MERCHANT : 84387283                            ASI LOYALTY CARD
+   EXPIRY    : 09/17                               asi.mx/LoyaltyCard/
+   Cardholder Signature Verified
+CHANGE DUE         0.00                              Diego Ortega
+         ASI LOYALTY CARD
+        You have earned 14
+                                                    2793276164719
+   ASI Loyalty Card points in
+this transaction for Loyalty Card
+          2793276164719
+    Total points balance: 987
+    Visit asi.mx/LoyaltyCard/
+       to redeem your reward
+ -------------------------------
+             05/27/14   17:54
+
+
+
+
+                                                                         Turn over
+                                               –6–             m&n15/3/ITGSX/HP3/eng/TZ0/XX/CS
+
+
+     Proposed system
+
+     Manuel Arriagada, a member of the senior management team of ASI, realized that in
+     aggregating data from many stores there was an opportunity to find out more about customers
+50   and their purchasing patterns. Manuel, while working in the United States, had heard of how
+     businesses had been improved by implementing “Big Data” analysis techniques on the data that
+     their business was collecting from the stores and customers.
+
+     ASI will use SUSA Analytics, a company that Manuel has worked with previously, to provide
+     advice and expertise to support local stores with the analysis of the data. He will liaise with
+55   Lorena Florentes from SUSA Analytics throughout the process.
+
+     ASI will gather large amounts of data about customer behaviour and product purchases through
+     the use of a loyalty card scheme. This can be used for deeper analysis of their business
+     activities. ASI will use the data collected for targeted advertising, marketing to customers who
+     show various behavioural traits and to identify valuable customers.
+
+60   Stock management
+     Decisions on what to stock, and when, are based on current sales patterns and the stock control
+     database. As a result of discussions at their monthly meetings the managers of the individual
+     stores have concluded that the current systems are inadequate for the following reasons:
+     • there has been an increase in customer complaints that certain goods are not available
+65   • managers have noticed that the shelves are either empty or overstocked, and in this case
+        has to sell the goods at a reduced price.
+
+     The store managers have recognized that this lack of efficiency in stock management is
+     reducing their ability to make profits and compete with the large supermarket chains.
+
+     As a result, the management of the ASI, after further discussions with store managers, is in the
+70   process of setting up stock distribution centres in the various regions. The operations of the
+     centres will rely on the information provided by SUSA Analytics and ASI Head Office in
+     Mexico City. This means that stock can be bought in bulk from local and international suppliers
+     at a competitive price to that of the larger supermarket chains. Each distribution centre will use
+     a Just-in-Time (JIT) process to ensure that the volume of stock being held in storage both in the
+75   distribution centre and in the individual supermarkets is as low as possible.
+                                             –7–              M&N15/3/ITGSX/HP3/ENG/TZ0/XX/CS
+
+      The proposed integrated ASI information system – stock and customer data
+
+    Independent                                                             SUSA Analytics
+    supermarket                        ASI head office                      data warehouse
+
+
+Store Manager                         ASI Manager                          Data Analyst
+
+
+                             ETL                                ETL
+
+
+
+
+   Customer
+
+
+
+Views reports                      Orders stock for all stores          Examines anomalies in data
+Checks stock                       Generates reports for use by         Explores data to answer
+Orders stock                       ASI management and the stores        hypothesis
+Confirms delivery of stock                                              Analyses data, looking for
+                                                                        clustering and patterns
+
+
+  The data from the individual supermarkets may be in a variety of formats.
+
+  This data is assimilated into a relational database at the ASI head office.
+
+  The data in the SUSA Analytics data warehouse is in a different format to that sent from
+  the head office.
+  Extract, Transform, Load (ETL) is taking place in the ASI head office and again at the
+  SUSA Analytics data warehouse.
+
+
+
+
+                                                                                           Turn over
+                                               –8–             m&n15/3/ITGSX/HP3/eng/TZ0/XX/CS
+
+
+      Challenges faced
+
+      Analysing Big Data
+      • SUSA Analytics will provide reports based on the data provided by customers in ASI stores.
+        This will allow ASI to create comprehensive customer profiles and to introduce targeted
+        marketing.
+ 80   • Strategic data analysis using data mining techniques will be used to discover patterns
+        to inform future decisions and planning. This will include: clustering/pattern analysis,
+        forecasting, hypothesis testing and targeted marketing. The data collected will be used for
+        analysing current customer purchasing patterns and predicting future customer purchasing
+        patterns to allow the supermarkets to create medium- and long-term forecasts for staffing
+ 85     requirements and marketing strategies.
+      • Operational reporting and analysis includes exception reporting, querying of the store
+        database to produce regular and customized reports, real-time display of sales and inventory,
+        and data visualization of sales and trends. Data is collected to assist managers in making
+        short-term decisions about appropriate stock levels, numbers of staff for a particular time/day,
+ 90     number of checkout lanes required and opening times.
+      • Data analysts have expressed concerns about the homogeneity of such large data sets and
+        the ability of data analysis techniques to determine information that is specific to individual
+        stores. For example, the findings from the analysis of the Big Data may provide suggested
+        pricing levels for products for all of the stores in the ASI, but pricing of individual products
+ 95     may need to vary from to store to store.
+      • The opening hours of the store and the shift details of staff, as well as their wages,
+        will also be collected and included in the analyses. Recommendations can be made to store
+        managers about managing the store and the staff.
+
+      Communicating the data analytics approach
+100   • Manuel is concerned that with such a large amount of technical language, he will not be able
+        to explain the way the proposed system would function. Lorena Florentes from
+        SUSA Analytics has been asked to outline how the system would work to senior managers of
+        ASI and to individual store managers (see diagram on page 7). Lorena’s ability to explain the
+        technical language in a form that is understandable by the audience is a major advantage.
+105   • As well as the technical details Lorena will demonstrate and explain the benefits of the
+        analytical techniques identified above, which the individual store managers and
+        ASI managers in the Head Office will be trained to use.
+                                               –9–             m&n15/3/ITGSX/HP3/eng/TZ0/XX/CS
+
+      Ethical and social impacts
+      • With respect to customers involved in the loyalty card scheme, ASI is unsure to what extent
+110     customers should be aware of how much information is being collected about them,
+        the purpose for which it will be used, and with whom it will be shared.
+      • ASI is concerned that customer involvement in the loyalty card system may have implications
+        for their privacy, security and anonymity.
+      • ASI must develop policies for the ethical use of customer and corporate data.
+115   • ASI is keen to ensure customer details held in the database can be anonymized when used.
+      • The implications of using the data collected about customer behaviour for targeted
+        advertising to and preferential treatment for individual customers need to be investigated.
+
+      Implementation issues
+      • ASI management are concerned and stress that according to data privacy laws there must
+120     be appropriate access controls to protect customer and store data when accessed from the
+        database system. This is because the data will be accessible in real-time via a
+        web-browser/smartphone dashboard app by managers; and by customers through the loyalty
+        card scheme website and smartphones.
+      • Manuel, in consultation with Lorena, will develop a detailed timeline for implementation of the
+125     new system.
+
+
+
+
+                                                                                            Turn over
+                                                   – 10 –           m&n15/3/ITGSX/HP3/eng/TZ0/XX/CS
+
+Specific information technology items, additional to those in the ITGS guide, which are
+associated with Asociación de Supermercados Independientes: An investigation into Big Data
+
+Analysis
+Business intelligence software
+Clustering/pattern analysis
+Data analysis/data analytics
+Data extrapolation
+Data mining
+Data querying
+Data visualization
+Data warehouse
+ETL (Extract, Transform, Load) process
+Forecasting and hypothesis testing
+
+Marketing
+Behavioural marketing
+Targeted advertising
+Targeted marketing
+
+
+Any individuals named in this case study are fictitious and any similarities with actual entities are purely
+coincidental.
+

@@ -1,0 +1,123 @@
+N12/5/MATHL/HP3/ENG/TZ0/DM
+
+
+
+
+     88127207
+
+mathematics
+Higher level
+Paper 3 – DISCRETE MATHEMATICS
+
+Thursday 8 November 2012 (morning)
+
+1 hour
+
+
+instructions to candidates
+
+ Do not open this examination paper until instructed to do so.
+ Answer all the questions.
+ Unless otherwise stated in the question, all numerical answers should be given exactly or
+  correct to three significant figures.
+ A graphic display calculator is required for this paper.
+ A clean copy of the Mathematics HL and Further Mathematics SL information booklet is
+  required for this paper.
+ The maximum mark for this examination paper is [60 marks].
+
+
+
+
+8812-7207                                                                                       3 pages
+                                                        © International Baccalaureate Organization 2012
+                                                    –2–                      N12/5/MATHL/HP3/ENG/TZ0/DM
+
+Please start each question on a new page. Full marks are not necessarily awarded for a correct answer
+with no working. Answers must be supported by working and/or explanations. In particular, solutions
+found from a graphic display calculator should be supported by suitable working, e.g. if graphs are used to
+find a solution, you should sketch these as part of your answer. Where an answer is incorrect, some marks
+may be given for a correct method, provided this is shown by written working. You are therefore advised
+to show all working.
+
+1.    [Maximum mark: 14]
+
+                               A                    7                B
+
+                       4           2        3                                         6
+                                                            5            7
+                           3                5
+            S                                                    6                        8
+                                    C
+                                                        D                    E                    T
+                   5           1        4                            5            6
+                                                                                              9
+
+                           F                        8                         G
+
+      In the graph given above, the numbers shown represent the distance along that edge.
+
+      (a)   Using Dijkstra’s algorithm, find the length of the shortest path from vertex S
+            to vertex T . Write down this shortest path.                                              [6 marks]
+
+      (b)   (i)    Does this graph have an Eulerian circuit? Justify your answer.
+
+		          (ii)   Does this graph have an Eulerian trail? Justify your answer.                       [4 marks]
+
+      (c)   The graph above is now to be considered with the edges representing roads
+            in a town and with the distances being the length of that road in kilometres.
+            Huan is a postman and he has to travel along every road in the town to deliver
+            letters to all the houses in that road. He has to start at the sorting office at S
+            and also finish his route at S . Find the shortest total distance of such a route.
+            Fully explain the reasoning behind your answer.                                           [4 marks]
+
+
+
+2.    [Maximum mark: 10]
+
+      (a)   Draw all the possible non-isomorphic simple graphs with three vertices.
+            (No proofs are required.)                                                                 [4 marks]
+
+      (b)   Draw all the possible non-isomorphic trees with six vertices. (No proofs
+            are required.)                                                                            [6 marks]
+
+
+
+
+8812-7207
+                                                   –3–                 N12/5/MATHL/HP3/ENG/TZ0/DM
+
+3.    [Maximum mark: 18]
+
+      Let the greatest common divisor of 861 and 957 be h .
+
+      (a)   Using the Euclidean algorithm, find h .                                           [4 marks]
+
+      (b)   Hence find integers A and B such that 861A + 957 B = h .                          [3 marks]
+
+      (c)   Using part (b), solve 287 w ≡ 2 (mod 319) , where w ∈  , w < 319 .               [5 marks]
+
+      (d)   Find the general solution to the diophantine equation 861x + 957 y = 6 .          [6 marks]
+
+
+
+
+4.    [Maximum mark: 10]
+
+      (a)   State Fermat’s little theorem.                                                    [2 marks]
+
+      (b)   Let x ∈  . If x ≡/ 0 (mod 5) , x ≡/ 0 (mod 13) and x12 ≡ 4 (mod 11) , find the
+            remainder when x12 is divided by 715.                                             [8 marks]
+
+
+
+
+5.    [Maximum mark: 8]
+
+      G is a simple connected graph with four vertices and its complement G is also
+      connected. Prove that G and G are isomorphic.
+
+
+
+
+8812-7207
+

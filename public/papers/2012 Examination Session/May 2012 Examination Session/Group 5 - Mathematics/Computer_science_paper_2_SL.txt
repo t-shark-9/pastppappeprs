@@ -1,0 +1,237 @@
+M12/5/COMSC/SP2/ENG/TZ0/XX
+
+
+
+
+     22127014
+
+COMPUTER SCIENCE
+STANDARD LEVEL
+PAPER 2
+
+Monday 21 May 2012 (morning)
+
+1 hour 30 minutes
+
+
+INSTRUCTIONS TO CANDIDATES
+
+•   Do not open this examination paper until instructed to do so.
+•   Answer all the questions.
+•   A clean copy of the Computer Science case study is required for this paper.
+•   The maximum mark for this examination paper is [70 marks].
+
+
+
+
+2212-7014                                                                                             6 pages
+                                                              © International Baccalaureate Organization 2012
+                                                     –2–                 M12/5/COMSC/SP2/ENG/TZ0/XX
+
+Answer all the questions.
+
+1.    Consider the following code.
+
+      public static void main(String[] args)
+      {
+        int distance = 600;
+        String town = "Mexico";
+        String newTown = changes(distance, town);
+        output distance;
+        output newTown;
+      }
+
+      private static String changes(int distance, String town)
+      {
+        distance = distance + 100;
+        String t = " City";
+        town = town + t;
+        output distance;
+        return town;
+      }
+
+      (a)   (i)    Define, using an example from the above code, the scope of a variable.          [2 marks]
+
+            (ii)   With reference to the above code, outline the significance of the identifier
+                   private.                                                                        [2 marks]
+
+            (iii) State the output from the above code.                                            [3 marks]
+
+      The string function  length() returns the number of elements in a string.  For example,
+      word.length() will return the value  8, if  word   =   "computer".
+
+      Similarly, the function  charAt(x) returns the character at position  x   in a string.  
+      For example,  word.charAt(1) will return the character “o” and  word.charAt(3)
+      will return “p”.
+
+      (b)   Consider another section of code.
+
+            String word = "school";
+            int a = word.length();
+            char b = word.charAt(0);
+
+            (i)    State the value assigned to the variable  a.                                    [1 mark]
+
+            (ii)   State the value assigned to the variable  b.                                    [1 mark]
+
+
+
+
+                                                              (This question continues on the following page)
+
+
+2212-7014
+                                                  –3–                M12/5/COMSC/SP2/ENG/TZ0/XX
+
+(Question 1 continued)
+
+      The method  analyse() has been written that counts the number of vowels in a set
+      of words (the vowels can be considered to be the letters a, e, i, o and u).
+
+      (c)   Describe the global variable  vowels  that holds the number of occurrences of
+            each of the five vowels.                                                         [3 marks]
+
+      The method  analyse  will be called by the statement  analyse(wordArray, size);,
+      where  wordArray   is an array of words, and  size   is the number of words in
+      this array.
+
+      (d)   Construct the method  analyse() that will look for each vowel in every word
+            in  wordArray, and amend  vowels  accordingly.  You can assume that all of the
+            words are formed of lower case letters.                                          [8 marks]
+
+
+
+
+2212-7014                                                                                    Turn over
+                                                      –4–                 M12/5/COMSC/SP2/ENG/TZ0/XX
+
+2.    A small supermarket has computerized both its checkout (where the customers pay)
+      and its inventory system (where the stock levels are kept).  Each item in the supermarket
+      can be identified by means of a barcode.
+
+      (a)     State two essential features of the barcodes that will enable them to function
+              within this computerized system.                                                     [2 marks]
+
+      Details of all of the supermarket’s products are stored on a sequential access file on the
+      main server.  This file can be accessed from the checkout terminals.
+
+      (b)     Identify two reasons for the checkout terminals being able to access this file.      [2 marks]
+
+      The  Customer   class is called every time a new customer arrives at the checkout.  
+      The  Item  class contains details of one particular supermarket item.  The two classes
+      are partly shown below.
+
+      public class Item // contains details of an item
+      {
+        String name;
+        String barcode;
+        double cost;
+        String type; // e.g. fruit, cosmetics
+      }
+
+      public class Customer
+      {
+        public double totalCost;              // final cost
+
+            public static void newCustomer()
+            // runs the checkout process
+
+            private static String readBarcode()
+            // returns the barcode for a scanned item
+
+            private Item getDetails(String barcode)
+            // retrieves the details of one item from the database
+
+            private static void printItem(Item i)
+            // prints some details of the current item on the receipt
+
+            private static void updateInventory(String barcode)
+            // updates the inventory (stock levels) on the file
+            // when an item is bought
+
+            public static void main(String[] args)
+            {
+              new Customer();
+            }
+      }
+
+
+
+                                                              (This question continues on the following page)
+
+2212-7014
+                                                   –5–                   M12/5/COMSC/SP2/ENG/TZ0/XX
+
+(Question 2 continued)
+
+      (c)   Assuming that there are no other classes in the program, state the first two   
+            methods that would be run by the  Customer  class.                                  [2 marks]
+
+      As the checkout process begins, the method  newCustomer() is called.  
+      After the last item is scanned, the process is terminated by pressing an END key.  
+      The  newCustomer() method includes the following series of steps:
+      • an array of  Item  objects is created
+      • repeat until END key is pressed
+        * an item is scanned in and its barcode read
+        * an  Item  object is initialized using data from the database
+        * some of its details are printed on the receipt
+      • after the END key is pressed
+        * the inventory is updated for each item sold
+        * the total cost is printed.
+
+      (d)   Construct the method  newCustomer() which is started below.   You should
+            make use of the other methods listed in the  Customer  class without writing
+            their code.                                                                         [8 marks]
+
+            public static void newCustomer()
+            {
+              Item[] goods = new Item[500];
+              // the rest of the code is missing
+            }
+
+      (e)   Outline the steps (without writing code) that must take place whenever the
+            method  updateInventory() is called.                                                [4 marks]
+
+      (f)   Suggest an additional process that can be carried out as item records are updated
+            on the file.                                                                        [2 marks]
+
+
+
+
+2212-7014                                                                                       Turn over
+                                                    –6–                  M12/5/COMSC/SP2/ENG/TZ0/XX
+
+3.    This question requires the use of the case study.
+
+      (a)   Suggest two principal reasons that have led to the convergence of technologies
+            as shown on page 3 of the case study.                                                 [2 marks]
+
+      (b)   Explain two reasons why flash memory is used extensively by mobile devices.           [4 marks]
+
+      (c)   Explain why Wi-Fi has been chosen as the communication technology for
+            Internet hotspots as opposed to other technologies.                                   [4 marks]
+
+      (d)   Discuss whether the lack of dominance of one operating system for mobile
+            devices might improve the security of data in smartphones in comparison with
+            personal computers.                                                                   [4 marks]
+
+      (e)   Two students are sitting in a café.  They both have smartphones which have their
+            Bluetooth facility enabled.
+
+            (i)    Describe the precautions they should take while sending files to each other.   [4 marks]
+
+            (ii)   State two different examples of a piconet that might be operating within
+                   this café.                                                                     [2 marks]
+
+            (iii) Outline how  frequency-hopping prevents the piconets from interfering
+                  with each other.                                                                [4 marks]
+
+      (f)   With reference to one specific example, discuss whether the possible
+            disadvantages of the use of smartphones by doctors for their work outweigh
+            the advantages.                                                                       [6 marks]
+
+
+
+
+2212-7014
+

@@ -1,0 +1,243 @@
+N12/5/COMSC/SP1/ENG/TZ0/XX
+
+
+
+
+     88127013
+
+COMPUTER SCIENCE
+STANDARD LEVEL
+PAPER 1
+
+Thursday 8 November 2012 (afternoon)
+
+1 hour 30 minutes
+
+
+INSTRUCTIONS TO CANDIDATES
+
+   Do not open this examination paper until instructed to do so.
+   Section A: answer all the questions.
+   Section B: answer all the questions.
+   The maximum mark for this examination paper is [70 marks].
+
+
+
+
+8812-7013                                                                                            6 pages
+                                                             © International Baccalaureate Organization 2012
+                                                    –2–                    N12/5/COMSC/SP1/ENG/TZ0/XX
+
+                                                SECTION A
+
+Answer all the questions.
+
+1.    State one application that uses:
+
+      (a)   on-line processing;                                                                 [1 mark]
+
+      (b)   real time processing.                                                               [1 mark]
+
+
+2.    State two characteristics that should be considered when comparing different
+      computers.                                                                                [2 marks]
+
+
+3.    Describe how increasing the size of cache memory improves the performance of
+      a computer.                                                                               [2 marks]
+
+
+4.    Outline the need for an A–D converter in a voice recognition system.                      [2 marks]
+
+
+5.    Outline one advantage to computer system designers of using the prototyping approach.     [2 marks]
+
+
+6.    Describe how a parity check is used to ensure data integrity in the transmission
+      of data.                                                                                  [3 marks]
+
+
+7.    Integers are represented in an 8-bit register using the two’s complement method.
+
+                            1       1    1    1     0      0      0    1
+
+      (a)   State the decimal value of the integer represented.                                 [2 marks]
+
+      (b)   State the binary representation of the largest possible positive integer.           [1 mark]
+
+
+8.    Convert  FA7116  into binary.                                                             [1 mark]
+
+
+9.    An international organization has offices in five different world regions.  Compare the
+      use of e-mail with video conferencing for communication between the staff.                [4 marks]
+
+
+
+
+8812-7013
+                                                     –3–           N12/5/COMSC/SP1/ENG/TZ0/XX
+
+10.   Define the term multi-tasking.                                                  [1 mark]
+
+
+11.   The following code is used to display discount depending on the number of
+      units bought.
+
+      int no = inputInt("Enter the number of units bought");
+      if (no < 5)
+      { output("discount is 2 %"); }
+      if ((no >= 5) && (no < 10))
+      { output("discount is 5 %"); }
+      else
+      { output("discount is 10 %"); }
+
+      (a)   State the output produced for:
+
+            (i)    15 units bought;                                                   [1 mark]
+
+            (ii)   7 units bought;                                                    [1 mark]
+
+            (iii) 3 units bought.                                                     [1 mark]
+
+      (b)   Identify the type of error that occurs in this code.                      [1 mark]
+
+
+12.   Describe one advantage and one disadvantage of the growing use of computers
+      in society.                                                                    [4 marks]
+
+
+
+
+8812-7013                                                                            Turn over
+                                                    –4–                  N12/5/COMSC/SP1/ENG/TZ0/XX
+
+                                                SECTION B
+
+Answer all the questions.
+
+13.   A system analyst has been asked to oversee the computerization of a new department
+      of a large firm and uses interviews and questionnaires to collect data.
+
+      (a)   Outline one advantage of using:
+
+            (i)    interviews rather than questionnaires;                                         [2 marks]
+
+            (ii)   questionnaires rather than interviews.                                         [2 marks]
+
+      At the end of the analysis stage a  feasibility report is produced which contains several
+      possible solutions.
+
+      (b)   Explain why more than one possible solution is proposed.                              [2 marks]
+
+      The hardware and software have now been installed.
+
+      (c)   Explain two tasks that should be carried out before the new computer system can
+            be fully implemented.                                                                 [4 marks]
+
+
+14.   At the end of each school year up to 200 students take an examination.  Exams are
+      marked by the teacher and results input using a keyboard.   Sample data about two
+      students is shown below.
+
+                      Student Code: 9902-008        Score: 28        Passed: No
+                      Student Code: 9902-028        Score: 82        Passed: Yes
+
+      (a)   (i)    State appropriate data types for the three data items listed above.            [3 marks]
+
+            (ii)   Describe a data structure that could be used to hold data about all students
+                   in the school.                                                                 [3 marks]
+
+      A multiple choice examination will be used the following year in order to capture and
+      process the data automatically.
+
+      (b)   Suggest suitable input devices and data preparation requirements so that this can
+            be carried out.                                                                       [4 marks]
+
+
+
+
+8812-7013
+                                                       –5–             N12/5/COMSC/SP1/ENG/TZ0/XX
+
+15.   (a)   State the purpose of the following when creating a Java program.
+
+            (i)    editor                                                                  [1 mark]
+
+            (ii)   compiler                                                                [1 mark]
+
+            (iii) interpreter                                                              [1 mark]
+
+      (b)   A processor is executing the following simple program.
+
+            class QuestionApp
+            {
+              public static void main(String[] args)
+              {
+                int x = inputInt();
+                int y = inputInt();
+                int s = x + y;
+                output("The sum is " + s);
+              }
+            }
+
+            (i)    State where instructions are stored.                                    [1 mark]
+
+            (ii)   State where input data is stored.                                       [1 mark]
+
+            (iii) Identify the arithmetic operation in this program.                       [1 mark]
+
+            (iv) State where this operation will be performed.                             [1 mark]
+
+            (v)    State where the result will be stored.                                  [1 mark]
+
+            (vi) Outline the purpose of address buses in the execution of  s = x + y; .   [2 marks]
+
+
+
+
+8812-7013                                                                                 Turn over
+                                                   –6–                N12/5/COMSC/SP1/ENG/TZ0/XX
+
+16.   Consider the following method and array.
+
+      public void find(int[] A, int target)
+      {
+        int pos = -1;
+        boolean found = false;
+        while (!found)
+        {
+          pos = pos + 1;
+          found = (A[pos] == target);
+        }
+        if (found)
+        {
+          output(target + " is found at position " + pos);
+        }
+      }
+
+      int[] Numbers = {25, 32, 76, 85, 96, 101}
+
+      (a)   Copy and complete the trace table for the method call.
+
+                                          find(Numbers, 32)                                   [4 marks]
+
+                     pos              found        A[pos] == target         output
+
+
+
+
+      (b)   State the name of this type of algorithm.                                         [1 mark]
+
+      The method call  find(Numbers, 20)  will cause an error.
+
+      (c)   (i)    Explain what will happen after this method call.                           [2 marks]
+
+            (ii)   Suggest changes needed to take this situation into account and alert the
+                   user about the error.                                                      [3 marks]
+
+
+
+
+8812-7013
+

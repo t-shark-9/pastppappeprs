@@ -1,0 +1,608 @@
+M23/4/COMSC/SP1/ENG/TZ1/XX/M
+
+
+
+
+                       Markscheme
+
+
+                               May 2023
+
+
+                     Computer science
+
+
+                         Standard level
+
+
+                               Paper 1
+
+
+
+
+14 pages
+                                            –2–                 M23/4/COMSC/SP1/ENG/TZ1/XX/M
+
+
+
+
+© International Baccalaureate Organization 2023
+
+All rights reserved. No part of this product may be reproduced in any form or by any
+electronic or mechanical means, including information storage and retrieval systems,
+without the prior written permission from the IB. Additionally, the license tied with this
+product prohibits use of any selected files or extracts from this product. Use by third
+parties, including but not limited to publishers, private teachers, tutoring or study services,
+preparatory schools, vendors operating curriculum mapping services or teacher resource
+digital platforms and app developers, whether fee-covered or not, is prohibited and is a
+criminal offense.
+
+More information on how to request written permission in the form of a license can be
+obtained from https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-
+license/.
+
+© Organisation du Baccalauréat International 2023
+
+Tous droits réservés. Aucune partie de ce produit ne peut être reproduite sous quelque
+forme ni par quelque moyen que ce soit, électronique ou mécanique, y compris des
+systèmes de stockage et de récupération d’informations, sans l’autorisation écrite
+préalable de l’IB. De plus, la licence associée à ce produit interdit toute utilisation de tout
+fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris, sans
+toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de tutorat ou
+d’aide aux études, des établissements de préparation à l’enseignement supérieur, des
+fournisseurs de services de planification des programmes d’études, des gestionnaires de
+plateformes pédagogiques en ligne, et des développeurs d’applications, moyennant
+paiement ou non, est interdite et constitue une infraction pénale.
+
+Pour plus d’informations sur la procédure à suivre pour obtenir une autorisation écrite
+sous la forme d’une licence, rendez-vous à l’adresse https://ibo.org/become-an-ib-school/
+ib-publishing/licensing/applying-for-a-license/.
+
+© Organización del Bachillerato Internacional, 2023
+
+Todos los derechos reservados. No se podrá reproducir ninguna parte de este producto
+de ninguna forma ni por ningún medio electrónico o mecánico, incluidos los sistemas de
+almacenamiento y recuperación de información, sin la previa autorización por escrito del
+IB. Además, la licencia vinculada a este producto prohíbe el uso de todo archivo o
+fragmento seleccionado de este producto. El uso por parte de terceros —lo que incluye,
+a título enunciativo, editoriales, profesores particulares, servicios de apoyo académico o
+ayuda para el estudio, colegios preparatorios, desarrolladores de aplicaciones y
+entidades que presten servicios de planificación curricular u ofrezcan recursos para
+docentes mediante plataformas digitales—, ya sea incluido en tasas o no, está prohibido
+y constituye un delito.
+
+En este enlace encontrará más información sobre cómo solicitar una autorización por
+escrito en forma de licencia: https://ibo.org/become-an-ib-school/ib-publishing/licensing/
+applying-for-a-license/.
+                                                   –3–                M23/4/COMSC/SP1/ENG/TZ1/XX/M
+
+
+Subject details:        Computer science SL paper 1 markscheme
+
+Mark allocation
+
+Section A: Candidates are required to answer all questions. Total 25 marks.
+Section B: Candidates are required to answer all questions. Total 45 marks.
+           Maximum total = 70 marks.
+
+General
+
+A markscheme often has more specific points worthy of a mark than the total allows. This is intentional.
+Do not award more than the maximum marks allowed for that part of a question.
+
+When deciding upon alternative answers by candidates to those given in the markscheme, consider the
+following points:
+
+• Each statement worth one point has a separate line and the end is signified by means of a
+   semi-colon (;).
+
+• An alternative answer or wording is indicated in the markscheme by a “/”; either wording can be
+   accepted.
+
+• Words in ( … ) in the markscheme are not necessary to gain the mark.
+
+• If the candidate’s answer has the same meaning or can be clearly interpreted as being the same as
+   that in the markscheme then award the mark.
+
+• Mark positively. Give candidates credit for what they have achieved and for what they have got correct,
+   rather than penalizing them for what they have not achieved or what they have got wrong.
+
+• Remember that many candidates are writing in a second language; be forgiving of minor linguistic slips.
+   In this subject effective communication is more important than grammatical accuracy.
+
+• Occasionally, a part of a question may require a calculation whose answer is required for subsequent
+   parts. If an error is made in the first part then it should be penalized. However, if the incorrect answer
+   is used correctly in subsequent parts then follow through marks should be awarded. Indicate this with
+   “FT”.
+
+
+General guidance
+
+ Issue            Guidance
+ Answering        • In the case of an “identify” question, read all answers and mark positively up to the
+ more than           maximum marks. Disregard incorrect answers.
+ the quantity     • In the case of a “describe” question, which asks for a certain number of facts
+ of                 eg “describe two kinds”, mark the first two correct answers. This could include two
+ responses          descriptions, one description and one identification, or two identifications.
+ prescribed       • In the case of an “explain” question, which asks for a specified number of
+ in the             explanations eg “explain two reasons …”, mark the first two correct answers.
+ questions          This could include two full explanations, one explanation, one partial
+                    explanation etc.
+                                                  –4–                M23/4/COMSC/SP1/ENG/TZ1/XX/M
+
+
+                                              Section A
+1.   Award [2 max]
+     web browser allows users access to information/resources on the WWW;
+     (when a user asks for a particular website) the web browser fetches the required content
+     from a web server/ acts as an interface between a client and server;
+     prepares the retrieved information to be displayed/ interprets the content to be rendered in
+     a format that can be understood/ displays the resulting web page on the user's device;
+     allows user to navigate around website/ open more than one web page/ print/ save page/ etc. ;
+
+
+2.   Award [1 max]
+     holds the address of the current instruction/data that is to be fetched from / transferred to memory;
+
+
+3.   Award [2 max]
+     Because Unicode is (an established) standard for data representation/ a single encoding scheme
+     for all languages and characters;
+     So, data can be used/transported through many different systems/ platforms/ devices;
+
+     Because of the difference between ASCII and Unicode in the number of bits used to encode
+     (ASCII (8-bits) and Unicode (16/32 bits);
+     It can represent over a million characters/ ASCII cannot be used to encode the many types of
+     characters found around the world;
+
+     Because Unicode can be defined with different character encoding like UTF-8, UTF-16, UTF-32,
+     etc.;
+     And is used to represent many (over a million) characters from many (more than 150) modern and
+     historic scripts (along with emoji);
+                                                   –5–              M23/4/COMSC/SP1/ENG/TZ1/XX/M
+
+
+4.   (a)   Award [1 max]
+           Random Access Memory is volatile / requires power to maintain the stored information/ data
+           is retained in RAM as long as the computer is on, but it is lost when the computer is turned
+           off;
+           Data/instructions that are currently being used are stored in RAM;
+           RAM can be modified, erased, or read/ data stored in RAM can be altered;
+           RAM is small in capacity compared to secondary storage media;
+           It is fast (faster to read from and write to than other kinds of storage, such as a hard disk
+           drive (HDD)/ solid-state drive (SSD));
+
+
+     (b)   Award [3 max]
+           Cache memory is (an extremely) fast memory type;
+           that acts as a buffer between RAM and the CPU;
+           it holds frequently requested data and instructions;
+           so that they are immediately available to the CPU when needed;
+
+           Cache memory is used as an intermediate form of storage between very high-speed CPU
+           registers and the slower RAM;
+           located inside the CPU and can be directly accessed by the processor;
+           It is used to store instructions and data that are repeatedly required during the execution of
+           programs; thus, improving the performance and speed of the whole system/ thus avoiding
+           the need to access the dynamic RAM to retrieve the same data repeatedly/ is used to reduce
+           the average time to access data from the main memory;
+
+
+5.   Award [4 max]
+     Award [1] for every 2 correct rows in the truth table.
+
+
+       A      B      C        A NAND (B NOR C)
+       0      0      0                1
+       0      0      1                1
+       0      1      0                1
+       0      1      1                1
+       1      0      0                0
+       1      0      1                1
+       1      1      0                1
+       1      1      1                1
+                                                   –6–                M23/4/COMSC/SP1/ENG/TZ1/XX/M
+
+
+6.   Award [2 max]
+     Award [1] for structure and [1] for methods/properties.
+
+     A collection is a grouping of a variable number of data items into a single unit;
+     that need to be operated upon together;
+
+     A collection is a term used to describe a data structure designed to contain multiple elements of
+     any type;
+     and methods which make this data useful; Accept example methods, such as methods given in IB
+     pseudocode: hasNext(), getNext(), resetNext(), etc. ;
+
+     A collection is a class used to represent a set of similar data type items as a single unit (such as an
+     array list, linked list, stack, queue);
+     and methods used for efficient data manipulation/ and the set of methods that are common to all
+     data items;
+
+
+7.   Award [2 max]
+     Physical layer;
+     Data Link layer (DLL);
+     Network layer;
+     Transport layer;
+     Session layer;
+     Presentation layer;
+     Application layer;
+
+
+8.   (a)    Award [4 max]
+            Award [1] for a trace table with at least 4 columns (K, A, B, Output)
+            Award [1] for correct column K
+            Award [1] for correct column A
+            Award [1] for correct column B
+            Award [1] for correct column Output
+
+            Example:
+
+            Note: The trace table may be differently presented.
+
+       K       A       B    K>=0      DATA[K]         DATA[K] mod 2 <1              Output
+       5       1       0    True         2                 True
+       4       2            True         6                 True
+       3       12           True        19                 False
+       2               1    True         5                 False
+       1               2    True        21                 False
+       0               3    True         7                 False
+       -1              4    False
+                                                                                         12
+                                                                                         4
+
+
+     (b)    Award [2 max]
+            It counts the number of odd numbers held in the DATA array;
+            It calculates the product of the even numbers held in the DATA array;
+                                                  –7–                M23/4/COMSC/SP1/ENG/TZ1/XX/M
+
+
+9.   Award [2 max]
+     one of the key concepts of OOP languages;
+     to decompose complex problems;
+     Hide / remove unnecessary details;
+     look for recurring patterns;
+
+     Example 1 (OOP)
+     Abstraction is a process in which a programmer hides / removes all but the relevant data about an
+     object;
+     in order to reduce complexity / increase efficiency;
+
+     Example 2 (OOP)
+     Abstraction in OOP is a programming methodology in which details of the programming codes are
+     hidden away from the user;
+     and only the essential things are displayed to the user;
+
+     Example 3 (OOP)
+     Abstraction is one of the key concepts of OOP languages;
+     its main goal is to handle complexity (by hiding/removing unnecessary details);
+
+     Example 4
+     Abstraction is the process of ignoring the characteristics of patterns that we don't need;
+     in order to concentrate on those that we do need;
+
+     Example 5
+     Abstraction means decomposing complex problems;
+     And then looking for patterns among and within the smaller problems (that make up the
+     complex problem);
+                                                    –8–                 M23/4/COMSC/SP1/ENG/TZ1/XX/M
+
+
+                                                 Section B
+
+10.    (a)   Award [2 max]
+             Award [1] for identifying an issue (benefit or problem) caused by the introduction of
+             a new computer system which transforms how end users perform and interact, x2.
+
+             Examples (the list is not exhaustive):
+             Need for training;
+             (lack of knowledge of the end-users about the new system/ lack of ability to use the new
+             system/ resistance to training?);
+
+             Resistance to changes;
+             (turnover-some end users leave the organisation, end user not giving feedback or
+             requirements for the new system);
+
+             End-user satisfaction;
+             (end-users excited about changes? increased efficiency/ productivity/ increased employee
+             morale);
+
+             Change in roles/ role specification;
+             (agreements/ disagreements on job duties/ fear of redundancy);
+
+             Poor processes management;
+             (employees may not understand what is expected of them/ employees could feel that new
+             practices are in conflict with previous/ existing practices);
+
+
+      (b)    Award [2 max]
+             Legacy system is an outdated computer system/(application) software that is still in use/ still
+             meets the needs it was originally designed for/ is essential for the organization;
+             it cannot be updated /does not receive support and maintenance/ doesn’t allow for growth/ is
+             incompatible with current (new) more advanced solutions;
+
+
+       (c)   Award [1 max]
+             Observation ;
+             Survey/Questionnaire ;
+             Interview;
+             Brainstorming (get as many ideas as possible from a representative group of end users);
+
+
+       (d)   Award [3 max]
+             Example 1
+             Data loss/data available in legacy system but after migration process it is not available in the
+             new system;
+             because data is accidentally deleted/ something causes data to become corrupted/ viruses/
+             physical damage/incomplete transfer;
+             cost involved in rectifying data loss leads to financial risk for the organization / sets back
+             productivity / reputation risk (can cause the organization to lose customers);
+
+             Example 2
+             Data Corruption/ Data integrity;
+             format and content of data in legacy system and new system is different / incompatible data/
+             anomalies or redundant or duplicated data or presence of non-meaningful data;
+             this affects the efficiency/ it can totally beat purpose of migration;
+                                             –9–                M23/4/COMSC/SP1/ENG/TZ1/XX/M
+
+
+
+      Note: Students may write an example for this, such as: the legacy system may have had
+      gender details of the employees, but the new system may not have/require them).
+
+
+(e)   Award [3 max]
+      Example 1
+      Parallel running is less risky than direct changeover;
+      if the new system fails, operation can continue under the old system;
+      whilst in direct changeover if the new system fails the data is lost/ operation cannot continue;
+
+      Example 2
+      Parallel running allows organization to test the new system (all features of the new system
+      can be fully trialled);
+      and the organization switches over to the new one if (when) it is found to be more efficient
+      than the old one;
+      Whilst in direct changeover the new system is started without ensuring that the new system
+      is working correctly/efficiently before the old system is terminated;
+
+      Example 3
+      Parallel running ensures new system runs without errors;
+      if errors are found, refer to old system to resolve and make modifications to new system;
+      Whilst in direct changeover the old system is terminated (and the new system is started
+      without ensuring that it is working correctly);
+
+      Example 4
+      Parallel running allows staff to be trained in the new system gradually;
+      helps them gain confidence in new system;
+      as the changeover does not happen immediately;
+
+      Note: Reward other suitable responses.
+                                                – 10 –         M23/4/COMSC/SP1/ENG/TZ1/XX/M
+
+
+(f)   (i)    Award [1 max]
+             self -instruction/self-learning;
+             formal classes;
+             remote/online training;
+
+             Note: Reward other suitable methods.
+
+      (ii)   Award [3 max]
+             Award up to [2] for any advantage to end-user (trainee) evaluated, and up to [2] for
+             any disadvantage evaluated.
+             Note: The response should match the method of training identified in (i).
+
+             Award marks for the advantages and disadvantages involving convenience, cost, time,
+             effectiveness, comprehensiveness, learning needs, etc.
+
+             Example 1 (remote /online training)
+             advantage of online training is that it allows end-users to attend classes from any
+             location of their choice;
+             with reduced financial costs (because online learning eliminates the cost of
+             transportation/ meals/ the study materials are cheaper (available online));
+             but there are also disadvantages such as: struggle with focusing on the screen for long
+             periods of time/ technology issues (requirements of internet enabled devices / smart
+             devices / live internet connection) /sense of isolation/ time zone differences between
+             the trainer and the trainees;
+
+             Example 2 (formal classes)
+             Direct interaction between the trainer and trainees (end-users); no technology
+             issues/no sense of isolation;
+             Verified study materials and trainers allows immediate answer to end-users/ gives end-
+             user (trainees) the benefit of receiving immediate feedback;
+             but it involves high costs (the expenses associated with end-user training);
+             it is time intensive/requires time away from the work;
+
+             Example 3 (self-instruction)
+             Self-learning is neither location constrained nor time-bound (end users can choose
+             their own pace/materials/methods);
+             less stressed out about failing in front of another person/no social interaction;
+             lack of input from trainers can lead to slower progress than f2f training;
+                                                   – 11 –               M23/4/COMSC/SP1/ENG/TZ1/XX/M
+
+
+11.   (a)   Award [2 max]
+            (VPN) tunnelling (server);
+            (VPN aware) router (and firewall);
+            Encryption (protocol) (Accept examples IPSec/ SSL / TSL);
+            VPN client software (installed on the employee’s computer);
+
+
+      (b)   Award [2 max]
+            physical distance/ the number of network devices which have to be crossed;
+            the performance of each of the devices (sender and receiver), for example weak processor;
+            quality/characteristics of network equipment (such as the router or transmission media/
+            cable/fibre/wireless);
+            number of network users (and their demand at any particular time);
+
+            Accept other reasonable answers, such as the type of encryption used or the encryption
+            strength/ server bandwidth/ size of the user data/ type of protocol used, etc.;
+
+
+      (c)   Award [3 max]
+            (Because) compression reduces the size of a file/ size of data/ the number of packets to be
+            transmitted;
+            Which reduces transmission time/ consumes less bandwidth;
+            And can result in significant cost savings;
+
+
+      (d)   Award [2 max]
+            Encryption scrambles readable text;
+            So, it can only be read/understood by the person who has the decryption key;
+
+            Data encryption translates plain text into ciphertext;
+            That can be viewed/read in its original form only if it is decrypted with the correct key;
+
+
+      (e)   Award [2 max]
+            A firewall monitors incoming and outgoing network traffic;
+            and decides whether to allow or block specific traffic (based on a defined set of security
+            rules)/ restricts access to parts of a network / prevents unauthorised access of
+            confidential data);
+
+            Note: Accept software and hardware firewalls.
+
+            A (software) firewall (is a program installed on each computer that) monitors incoming and
+            outgoing traffic/ controls the behaviour of applications;
+            and filter/block traffic coming from unsecured or suspicious apps/ blacklisted apps;
+
+            A (hardware) firewall (is a piece of equipment installed between the network and gateway
+            that) regulates traffic through ports;
+            and prohibits suspicious data packets from passing through;
+                                            – 12 –             M23/4/COMSC/SP1/ENG/TZ1/XX/M
+
+
+
+(f)   Award [4 max]
+      Award [2 max] for positive aspects, 1 mark for stating any of the positive aspects (of working
+      from home) and 1 mark for discussion.
+      Award [2 max] for negative aspects, 1 mark for stating any of the negative aspects (of
+      working from home) and 1 mark for discussion.
+
+      Examples (Positive aspects):
+      Flexibility and agility
+      Increased productivity - due to fewer interruptions
+      Increased motivation
+      Autonomy
+      Improved health and wellbeing
+      Better work/life balance
+
+      Examples (negative aspects):
+      Working from home doesn't suit everyone
+      Employees feeling isolated
+      Home distractions
+      Negative impact on mental health
+      Not all jobs suit home working
+
+
+      Note: When a change to the work pattern is identified it can be an advantage or a
+      disadvantage. For example, working at home can improve interaction with the family but also
+      provide a distraction to work.
+                                                    – 13 –              M23/4/COMSC/SP1/ENG/TZ1/XX/M
+
+
+
+
+12.   (a)   Award [2 max]
+            Predetermined size (size should be known in compile time / it should be known in advance
+            how many elements are to be stored in array);
+            Fixed size (once the memory is allocated to the linear array, it cannot be increased or
+            decreased);
+            An array holds elements that have the same data type;
+            Array name represents the address of the starting element, all elements of an array can be
+            distinguished using an index number (direct access to each element);
+            Array elements are stored in subsequent memory locations;
+
+
+      (b)   Award [2 max]
+            Linear/sequential search;
+            Binary search;
+
+            Note: Award other suitable responses such as Jump search, Interpolation search,
+            Exponential search, etc.
+
+
+      (c)   Award [5 max]
+            Award [1] for the input of X and initialization of all variables used
+            Award [1] for a correct loop
+            Award [1] for checking if ROOMNUMS[K] is equal to X
+            Award [1] for changing the value of FLAG/FOUND
+            Award [1] for correct if statement after the loop
+            Award [1] for outputting both appropriate messages
+
+            Note: The binary search is not acceptable, it will not work in this situation because the
+            ROOMNUMS array is not sorted.
+            Note: The sub-program heading may not appear.
+            Note: For the loop accept either 0 to 9 (as question paper) or 0 to 999 to match array
+            capacity
+
+            Example 1
+            check(ROOMNUMS)
+                input X
+            FOUND=false
+                K=0
+                loop while K<=9 and not FOUND
+                     if ROOMNUMS[K]=X then
+                         FOUND=true
+                     end if
+                     K=K+1
+                end loop
+                if FOUND then
+                     output('The student in the room ', X, 'has paid the bill ')
+                else
+                     output('The student in the room ', X, 'has not paid the bill
+            yet')
+                end if
+            end check
+                                           – 14 –             M23/4/COMSC/SP1/ENG/TZ1/XX/M
+
+
+
+      Example 2
+      check(ROOMNUMS)
+          input X
+          FLAG=0
+          loop K from 0 to 9
+               if ROOMNUMS[K]= X then
+                   then FLAG=1
+               end if
+          end loop
+          if FLAG=1 then
+               output('The room No ', X, '- the bill paid ')
+          else
+               output('The room No ', X, '- the bill NOT paid ')
+          end if
+      end check
+
+
+(d)   Award [6 max]
+      Award [1] for correct outer loop
+      Award [1] for use of FLAG to stop loop when sorted
+      Award [1] for correct inner loop (e.g. iterating 0 to n-1 or 1 to n)
+      Award [1] for using an if statement inside the inner loop
+      Award [1] for correct comparison of adjacent elements in ROOMNUMS[]
+      Award [1] for correct swap
+
+      Note: The selection sort algorithm is not acceptable because the bubble sort algorithm is
+      requested in the question paper.
+
+
+      FLAG = true
+      loop while FLAG = true
+          FLAG = false
+          loop I from 0 to 8 //allow 0 to 998 limits
+               if ROOMNUMS[I] < ROOMNUMS[I + 1] then
+                   TEMP = ROOMNUMS[I]
+                   ROOMNUMS[I] = ROOMNUMS[I + 1]
+                   ROOMNUMS{I + 1] = Temp
+                   FLAG = true
+               end if
+          end loop
+      end loop
+
+      Note: Limit could also be 1 to 9 / 1 to 999 with the check being ROOMNUMS[I + 1] >
+      ROOMNUMS[I].
+

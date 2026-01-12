@@ -1,0 +1,311 @@
+No part of this product may be reproduced in any form or by any electronic or
+mechanical means, including information storage and retrieval systems, without written
+permission from the IB.
+
+Additionally, the license tied with this product prohibits commercial use of any selected
+files or extracts from this product. Use by third parties, including but not limited to
+publishers, private teachers, tutoring or study services, preparatory schools, vendors
+operating curriculum mapping services or teacher resource digital platforms and app
+developers, is not permitted and is subject to the IB’s prior written consent via a license.
+More information on how to request a license can be obtained from
+https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-license/.
+
+Aucune partie de ce produit ne peut être reproduite sous quelque forme ni par quelque
+moyen que ce soit, électronique ou mécanique, y compris des systèmes de stockage et
+de récupération d’informations, sans l’autorisation écrite de l’IB.
+
+De plus, la licence associée à ce produit interdit toute utilisation commerciale de
+tout fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris,
+sans toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de
+tutorat ou d’aide aux études, des établissements de préparation à l’enseignement
+supérieur, des fournisseurs de services de planification des programmes
+d’études, des gestionnaires de plateformes pédagogiques en ligne, et des
+développeurs d’applications, n’est pas autorisée et est soumise au consentement écrit
+préalable de l’IB par l’intermédiaire d’une licence. Pour plus d’informations sur la
+procédure à suivre pour demander une licence, rendez-vous à l’adresse suivante :
+https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-license/.
+
+No se podrá reproducir ninguna parte de este producto de ninguna forma ni por ningún
+medio electrónico o mecánico, incluidos los sistemas de almacenamiento y
+recuperación de información, sin que medie la autorización escrita del IB.
+
+Además, la licencia vinculada a este producto prohíbe el uso con fines comerciales de
+todo archivo o fragmento seleccionado de este producto. El uso por parte de terceros
+—lo que incluye, a título enunciativo, editoriales, profesores particulares, servicios
+de apoyo académico o ayuda para el estudio, colegios preparatorios, desarrolladores
+de aplicaciones y entidades que presten servicios de planificación curricular u
+ofrezcan recursos para docentes mediante plataformas digitales— no está permitido
+y estará sujeto al otorgamiento previo de una licencia escrita por parte del IB. En este
+enlace encontrará más información sobre cómo solicitar una licencia:
+https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-license/.
+N20/5/FURMA/HP2/ENG/TZ0/XX
+
+
+
+
+Further mathematics
+Higher level
+Paper 2
+
+Monday 26 October 2020 (morning)
+
+
+2 hours 30 minutes
+
+
+Instructions to candidates
+y Do not open this examination paper until instructed to do so.
+y Answer all questions.
+y Unless otherwise stated in the question, all numerical answers should be given exactly or
+  correct to three significant figures.
+y A graphic display calculator is required for this paper.
+y A clean copy of the mathematics HL and further mathematics HL formula booklet is
+  required for this paper.
+y The maximum mark for this examination paper is [150 marks].
+
+
+
+
+                                                                                              8820 – 7102
+     6 pages                                              © International Baccalaureate Organization 2020
+                                                     –2–                N20/5/FURMA/HP2/ENG/TZ0/XX
+
+Please start each question on a new page. Full marks are not necessarily awarded for a correct answer
+with no working. Answers must be supported by working and/or explanations. In particular, solutions
+found from a graphic display calculator should be supported by suitable working. For example, if graphs
+are used to find a solution, you should sketch these as part of your answer. Where an answer is
+incorrect, some marks may be given for a correct method, provided this is shown by written working.
+You are therefore advised to show all working.
+
+1.   [Maximum mark: 14]
+
+     (a)   Use the Euclidean algorithm to show that the greatest common divisor of 411 and
+           339 is 3.[5]
+
+     (b)   (i)	Hence find the general solution of the Diophantine equation 411x - 339y = 3 .
+
+           (ii)    Hence find the general solution of the linear congruence 137x ≡ 1 (mod 113) .    [9]
+
+
+2.   [Maximum mark: 14]
+
+     (a)   The matrix A is given by
+
+                 1 a b 
+            A  0 1 c  where a , b , c   .
+                 0 0 1 
+
+           Verify that the inverse matrix of A is given by
+
+                 1 a ac  b 
+            A  0 1
+              1
+                        c  .[2]
+                 0 0   1 
+
+
+                                1 a b  
+                                        
+     (b)   The set of matrices  0 1 c  , where a , b , c ∈  , is denoted by S .
+                                         
+                                0 0 1  
+                                        
+           (i)  Show that {S , *} is a group, where * denotes matrix multiplication. It may be
+                   assumed that matrix multiplication is associative.
+
+           (ii)    Determine whether {S , *} is Abelian.
+
+           (iii)   Identify any self-inverse elements of {S , *} .                                 [11]
+
+                          1 a b  
+                                
+     The set of matrices  0 1 c  , where a , b , c ∈  , is denoted by T .
+                                 
+                          0 0 1  
+                                
+
+     (c)   Giving a reason, state whether {T , *} is a subgroup of {S , *} .                        [1]
+                                                      –3–                N20/5/FURMA/HP2/ENG/TZ0/XX
+
+3.   [Maximum mark: 14]
+
+     The following diagram shows the weighted graph G .
+
+                                    W         2        V       12       U
+
+                            9                                                   8
+                                                                5
+                                               3           4
+                    P                 3                                     2           T
+
+                            5                                                   4
+                                              9                12
+                                    Q                  R                S
+
+     (a)   Write down a Hamiltonian circuit in G starting at P .[1]
+
+     (b)   (i)	State what feature of G enables you to deduce that it is not bipartite.
+
+           (ii)    Explain why G does not have an Eulerian trail.
+
+           (iii)   An edge is removed from G , creating a new graph H , which does have an
+                   Eulerian trail. Identify all the possibilities for this edge.                     [5]
+
+     (c)   (i)	Use Dijkstra’s algorithm in G to find the minimum weight path from P to T .
+
+           (ii)    State the total weight of this path.                                              [8]
+
+
+4.   [Maximum mark: 23]
+
+     The curve C has equation y2 = 4ax where a > 0 . The distinct points S (as2 , 2as) and
+     T (at2 , 2at) lie on C and move in such a way that SÔT is always a right angle, where O
+     denotes the origin.
+
+     (a)   Show that st = - 4 .                                                                      [3]
+
+     (b)   Show that the line (ST) passes through a fixed point on the x-axis independent of
+           s and t .[6]
+
+     (c)   Show that the tangents at the points S and T meet on the line x + 4a = 0 .[6]
+
+     (d)   (i)	Determine the equation of the locus of the midpoint of [ST] , showing it to be a
+                parabola.
+
+           (ii)    State the coordinates of the vertex and of the focus of this parabola.            [8]
+
+
+
+
+                                                                                                Turn over
+                                                      –4–                   N20/5/FURMA/HP2/ENG/TZ0/XX
+
+5.   [Maximum mark: 13]
+
+     (a)   Assuming the Maclaurin series for cos x and ln (1 + x) , show that the Maclaurin series
+           for cos (ln (1 + x)) is
+
+                                            1     1      5
+                                         1  x 2  x 3  x 4  ... .[4]
+                                            2     2     12
+
+     (b)   By differentiating the series in part (a), show that the Maclaurin series for sin (ln (1 + x))
+                    1 2 1 3
+           is x      x  x  ... .[4]
+                    2    6
+     (c)   Hence determine the Maclaurin series for tan (ln (1 + x)) as far as the term in x3 .[5]
+
+
+6.   [Maximum mark: 18]
+
+     (a)   The relation R is defined such that aRb if and only if p divides a2 - b2 , where p is a
+           fixed prime number greater than 2 and a , b ∈ + .
+
+           (i)      Show that R is an equivalence relation.
+
+           (ii)     Find, in terms of p , the two smallest positive integers that are related to 1 , apart
+                    from 1 itself.                                                                          [11]
+
+     (b)   The relation S is defined such that xSy if and only if 1 + | x – y | is the cube of a positive
+           integer, where x , y ∈ + .
+
+           (i)      Find the two smallest positive integers that are related to 2 , apart from 2 itself.
+
+           (ii)     Show that only two of the three requirements for S to be an equivalence relation
+                    are satisfied.                                                                           [7]
+                                                     –5–                N20/5/FURMA/HP2/ENG/TZ0/XX
+
+7.   [Maximum mark: 18]
+
+     The continuous random variable X has probability density function f given by
+
+                                                   4 x3
+                                                           0 xa
+                                         f ( x)   a 4
+                                                   0
+                                                           otherwise
+
+     where a is a positive constant. To estimate the value of a , a random sample of n
+     observations is taken from the distribution of X . The sample mean is denoted by X̅ .
+
+     (a)   Show that
+
+                              5
+                       â =     X
+                              4
+
+           is an unbiased estimator for a .                                                           [5]
+
+     (b)   Show that
+
+                                                             a2
+                                               Var(aˆ ) =       .[7]
+                                                            24n
+
+     In a particular case, n = 50 and a is known to be 15 .
+
+     (c)   (i)	Use the central limit theorem to determine, approximately, the interval with centre
+                15 , in which â will lie with probability 0.95 .
+
+           (ii)   State whether it would be correct to conclude that your interval is an approximate
+                  95 % confidence interval for â . Give a reason for your answer.                    [6]
+
+
+
+
+                                                                                                Turn over
+                                                    –6–                   N20/5/FURMA/HP2/ENG/TZ0/XX
+
+8.   [Maximum mark: 19]
+
+     Consider the matrix
+
+                                             1  2 
+                                       A   4 1  .
+                                             2 1  
+
+     (a)   Show that 3 is the only real value of λ for which A is singular.                         [4]
+
+     (b)   Consider the system of equations
+
+                                       1 3 2   x   1 
+                                       3 4 1   y    4  .
+                                                   
+                                        2 1 3   z    
+
+           (i)    Determine the value of µ for which the equations are consistent.
+
+           (ii)   Solve the equations in that case.                                                 [6]
+
+     (c)   Consider the system of equations
+
+                                        1 1 2   x   a 
+                                        1 4 1   y    5  .
+                                                   
+                                        2 1 1  z   1 
+           where a is an integer.
+
+           (i)    Find the inverse of the matrix of coefficients, giving the answer in exact form.
+
+           (ii)   Given that y = x2 , determine the value of a and hence the value of x and of y .[9]
+
+
+9.   [Maximum mark: 17]
+
+                                           dy y  x
+     Consider the differential equation            , where x , y > 0 .
+                                           dx y  x
+
+     It is given that y = 2 when x = 1 .
+
+     (a)   Solve the differential equation, giving your answer in the form f (x , y) = 0 .[9]
+
+     (b)   The graph of y against x has a local maximum between x = 2 and x = 3 . Determine
+           the coordinates of this local maximum.                                                   [4]
+
+     (c)   Show that there are no points of inflexion on the graph of y against x .[4]
+
+
+
+
+

@@ -1,0 +1,189 @@
+N12/5/MATHL/HP3/ENG/TZ0/SP
+
+
+
+
+     88127210
+
+mathematics
+Higher level
+Paper 3 – STATISTICS AND PROBABILITY
+
+Thursday 8 November 2012 (morning)
+
+1 hour
+
+
+instructions to candidates
+
+ Do not open this examination paper until instructed to do so.
+ Answer all the questions.
+ Unless otherwise stated in the question, all numerical answers should be given exactly or
+  correct to three significant figures.
+ A graphic display calculator is required for this paper.
+ A clean copy of the Mathematics HL and Further Mathematics SL information booklet is
+  required for this paper.
+ The maximum mark for this examination paper is [60 marks].
+
+
+
+
+8812-7210                                                                                       5 pages
+                                                        © International Baccalaureate Organization 2012
+                                                    –2–                    N12/5/MATHL/HP3/ENG/TZ0/SP
+
+Please start each question on a new page. Full marks are not necessarily awarded for a correct answer
+with no working. Answers must be supported by working and/or explanations. In particular, solutions
+found from a graphic display calculator should be supported by suitable working, e.g. if graphs are used to
+find a solution, you should sketch these as part of your answer. Where an answer is incorrect, some marks
+may be given for a correct method, provided this is shown by written working. You are therefore advised
+to show all working.
+
+1.    [Maximum mark: 16]
+
+      Anna has a box with 10 biscuits in it. 4 biscuits are chocolate and 6 are plain.
+      Anna takes a biscuit from her box at random and eats it. She repeats this process until
+      she has eaten 5 biscuits in total.
+
+      Let A be the number of chocolate biscuits that Anna eats.
+
+      (a)   State the distribution of A .                                                        [1 mark]
+
+      (b)   Find P ( A = 3) .                                                                   [2 marks]
+
+      (c)   Find P ( A = 5) .                                                                    [1 mark]
+
+      Bill also has a box with 10 biscuits in it. 4 biscuits are chocolate and 6 are plain.
+      Bill takes a biscuit from his box at random, looks at it and replaces it in the box.
+      He repeats this process until he has looked at 5 biscuits in total. Let B be the number
+      of chocolate biscuits that Bill takes and looks at.
+
+      (d)   State the distribution of B .                                                        [1 mark]
+
+      (e)   Find P ( B = 3) .                                                                   [2 marks]
+
+      (f)   Find P ( B = 5) .                                                                   [2 marks]
+
+      Let D = B − A .
+
+      (g)   Calculate E ( D) .                                                                  [2 marks]
+
+      (h)   Calculate Var ( D) , justifying the validity of your method.                        [5 marks]
+
+
+
+
+8812-7210
+                                                       –3–                   N12/5/MATHL/HP3/ENG/TZ0/SP
+
+2.    [Maximum mark: 11]
+
+      The n independent random variables X 1 , X 2 ,…, X n all have the distribution N ( µ , σ 2 ).
+
+      (a)   Find the mean and the variance of
+
+		          (i)     X1 + X 2 ;
+
+		          (ii)    3 X1 ;
+
+		          (iii)   X1 + X 2 − X 3 ;
+
+                             ( X 1 + X 2 +…+ X n )
+		          (iv)    X=                             .                                                  [8 marks]
+                                         n
+
+      (b)   Find E ( X 12 ) in terms of µ and σ .                                                     [3 marks]
+
+
+
+
+8812-7210                                                                                             Turn over
+                                                    –4–                    N12/5/MATHL/HP3/ENG/TZ0/SP
+
+3.    [Maximum mark: 19]
+
+      (a)   The random variable X represents the height of a wave on a particular surf beach.
+            It is known that X is normally distributed with unknown mean µ (metres) and
+                                   1
+            known variance σ 2 = (metres 2 ) . Sally wishes to test the claim made in a surf
+                                   4
+            guide that µ = 3 against the alternative that µ < 3 . She measures the heights
+            of 36 waves and calculates their sample mean x . She uses this value to test the
+            claim at the 5 % level.
+
+		          (i)    Find a simple inequality, of the form x < A , where A is a number to
+                   be determined to 4 significant figures, so that Sally will reject the null
+                   hypothesis, that µ = 3 , if and only if this inequality is satisfied.
+
+		          (ii)   Define a Type I error.
+
+		          (iii) Define a Type II error.
+
+		          (iv) Write down the probability that Sally makes a Type I error.
+
+		          (v)    The true value of µ is 2.75. Calculate the probability that Sally makes a
+                   Type II error.                                                                [11 marks]
+
+      (b)   The random variable Y represents the height of a wave on another surf beach.
+            It is known that Y is normally distributed with unknown mean µ (metres) and
+            unknown variance σ 2 (metres 2 ) . David wishes to test the claim made in a surf
+            guide that µ = 3 against the alternative that µ < 3 . He is also going to perform
+            this test at the 5 % level. He measures the heights of 36 waves and finds that the
+            sample mean, y = 2.860 and the unbiased estimate of the population variance,
+              2
+             sn−1 = 0.25 .
+
+
+
+		          (i)    State the name of the test that David should perform.
+
+		          (ii)   State the conclusion of David’s test, justifying your answer by giving
+                   the p-value.
+
+		          (iii) Using David’s results, calculate the 90 % confidence interval for µ , giving
+                  your answers to 4 significant figures.                                         [8 marks]
+
+
+
+
+8812-7210
+                                                       –5–                  N12/5/MATHL/HP3/ENG/TZ0/SP
+
+4.    [Maximum mark: 14]
+
+      Jenny and her Dad frequently play a board game. Before she can start Jenny has to
+      throw a “six” on an ordinary six-sided dice. Let the random variable X denote the
+      number of times Jenny has to throw the dice in total until she obtains her first “six”.
+
+      (a)   If the dice is fair, write down the distribution of X , including the value of any
+            parameter(s).                                                                           [1 mark]
+
+      (b)   Write down E ( X ) for the distribution in part (a).                                    [1 mark]
+
+      Jenny has played the game with her Dad 216 times and the table below gives the
+      recorded values of X .
+
+       Value of X      1        2    3      4      5      6      7      8     9      10    ≥ 11
+       Frequency      40       34   26     24     16     14     12     10     6      4     30
+
+      (c)   Use this data to test, at the 10 % significance level, the claim that the probability
+                                                             1
+            that the dice lands with a “six” uppermost is . Justify your conclusion.                [8 marks]
+                                                             6
+      Before Jenny’s Dad can start, he has to throw two “sixes” using a fair, ordinary
+      six-sided dice. Let the random variable Y denote the total number of times Jenny’s
+      Dad has to throw the dice until he obtains his second “six”.
+
+      (d)   Write down the distribution of Y , including the value of any parameter(s).             [1 mark]
+
+                                                          1
+      (e)   Find the value of y such that P (Y = y ) =      .                                       [1 mark]
+                                                         36
+
+      (f)   Find P (Y ≤ 6) .                                                                        [2 marks]
+
+
+
+
+8812-7210
+

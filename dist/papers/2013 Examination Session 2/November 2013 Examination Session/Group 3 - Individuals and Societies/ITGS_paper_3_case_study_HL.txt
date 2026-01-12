@@ -1,0 +1,249 @@
+M&N13/3/ITGSX/HP3/ENG/TZ0/XX/CS
+
+
+
+
+Information technology in a global society
+CASE STUDY: red dragon taxi company
+
+
+For use in May and November 2013
+
+
+
+
+INSTRUCTIONS to candidates
+
+• Case study booklet required for higher level paper 3 information technology in a global society
+  examinations.
+
+
+
+
+                                                                                                    7 pages
+                                                            © International Baccalaureate Organization 2012
+                                                  –2–          M&N13/3/ITGSX/HP3/ENG/TZ0/XX/CS
+
+Foreword
+
+The ITGS case study, Red Dragon Taxi Company, is the stimulus material for the research investigation
+required for May and November 2013 higher level paper 3.  All of the work related to the case study should
+reflect the integrated approach explained on pages 15–17 of the ITGS guide.
+
+Candidates should consider Red Dragon Taxi Company with respect to:
+• relevant IT systems in a social context
+• both local and global areas of impact
+• social and ethical impacts on individuals and societies
+• current challenges and solutions
+• future developments.
+
+Candidates are expected to research real-life situations similar to Red Dragon Taxi Company and relate
+their findings to first-hand experiences wherever possible.   Information may be collected through a
+range of activities: secondary and primary research, field trips, guest speakers, personal interviews and
+email correspondence.
+
+Responses to examination questions must reflect the synthesis of knowledge and experiences that the
+candidates have gained from their investigations.   In some instances, additional information may be
+provided in examination questions to allow candidates to generate new ideas.
+                                                –3–          M&N13/3/ITGSX/HP3/ENG/TZ0/XX/CS
+
+     Overview
+
+     Dragon City is a small city of approximately 200 000 people in East Asia.  There is one main
+     taxi company, Red Dragon Taxi Company, which the owner Yao Chu’s grandfather started with
+     one taxi.  Over the years the family run company has grown and is now the leading taxi company
+     in the city, although there are other operators in a highly competitive market.  There are ten people
+ 5   working in the company who manage an increasing number of drivers.
+
+     Demand for taxis in Dragon City is rising and Red Dragon Taxi Company is expanding rapidly
+     as a result of increased economic growth in the area.  Yao Chu believes an increased use of IT
+     will facilitate the planned growth of Red Dragon Taxi Company ensuring it continues to be the
+     leading taxi company in Dragon City.  Yao Chu realizes that unless the company upgrades its IT
+10   they run the risk of being overtaken by other operators that are starting to use information and
+     communication technologies.
+
+     Current IT system
+
+     At the present time the company controls about 150 taxis from a small office in the centre of
+     the city, but not all of them are on the road at the same time.  The company has a set of networked
+     computers in the office as well as landline and mobile phone communications.  Customers who
+15   ring for a taxi have their request answered by one of the controllers in the office who then contacts
+     a taxi driver on their mobile phone from a list of free taxis.   Usually the drivers call in to be
+     recorded as booked when a customer requests a taxi from the side of the street.  If a driver does not
+     call in, then the taxi will remain recorded as free, which has caused many problems.
+
+     The taxi requests are recorded in a shared spreadsheet on the office network with one worksheet
+20   for each driver which is cumbersome to use.  At the end of the day each driver returns to the
+     depot to reconcile the jobs and money taken, and this data is entered into the spreadsheet as well.  
+     This system is highly inefficient.  The company is making a profit but keeping track of expenses,
+     profits, vehicle maintenance and driver wages is becoming very difficult, especially for drivers
+     who own their own cars.
+
+25   Processing the data in the spreadsheets to analyse taxi performance has been a problem and
+     Yao Chu’s son, who is studying Computer Science at university, has been experimenting with a
+     prototype database application to import the spreadsheet data and produce weekly taxi and driver
+     performance reports and more accurate wage slips.  He has not completed the task.
+
+     The increased business is also causing problems with the current system not being able to
+30   handle the load efficiently.   This is causing dissatisfaction among the customers with longer
+     response times.
+
+     The range of problems is creating difficulties for the administration and threatens to undermine the
+     expansion of the company, jeopardizing their market position.
+
+
+
+
+                                                                                              Turn over
+                                                  –4–               M&N13/3/ITGSX/HP3/ENG/TZ0/XX/CS
+
+     Solution requirements
+
+     Yao Chu and his family are looking at procuring an integrated IT system that serves the following
+35   purposes:
+
+     Online booking management
+     The booking system needs to be able to offer a variety of services for customers and to
+     manage bookings.  Many of the features of the booking system will need to be able to be accessed
+     on the company website and through the use of smartphones and the internet by customers.
+
+40   The booking system needs to be able to:
+     • identify regular customers and their usual pick up and drop off address and to be able to display
+       the address through a map look-up
+     • provide the availability of taxis and their location, arrange for multiple pick-up,
+       regular bookings, long term and multi-trip hirings, return trips, and a trip price calculator
+45   • manage special vehicle hiring, eg for large numbers of customers, with large luggage capacity,
+       special needs customers, and luxury taxis
+     • monitor bookings to prevent overbookings and possible overload of the taxi system during
+       busy periods
+     • handle different methods of accepting bookings such as by telephone, through the company
+50     website on the internet, by email, by SMS, or by using a smartphone app.
+
+     System interface
+     The system in the office needs to include graphical displays to make the management and
+     monitoring of the taxis easy and quick.  These will display information about taxi location, bookings,
+     job tracking, and traffic updates which can be communicated to the drivers in their taxis as well.
+
+
+
+
+        Home         Software          Hardware               Price list           Contact
+
+
+
+                                    [Source: http://www.taxi-track.com/, April 2012]
+                                               –5–           M&N13/3/ITGSX/HP3/ENG/TZ0/XX/CS
+
+55   Dispatch
+     A dispatch system is needed that can allocate taxis, either automatically or manually.  
+     The system also needs to be able to display the location and status of each taxi and the progress of
+     each journey.  This can be done using taxi location equipment based on GPS and other information
+     sent back to the office using communications and monitoring systems.
+
+60   The dispatch system needs to be able to communicate to the customer the time they can be expected
+     to be picked up, and to alert the customer if there are any delays.
+
+     Journey optimization
+     Taxis need to be available throughout the city to minimize the response time.  The system needs to
+     be able to monitor the location of taxis in the city.
+
+65   Red Dragon Taxi Company is also looking for software that will help with planning of the routes
+     taxis should take, especially one that can help with minimizing the waiting time for pick-ups.
+
+     As the city is growing, an increasing challenge will be the ability to locate new and changing
+     pickup points and destinations.
+
+     Inside the taxi
+70   As well as fare calculation equipment, the taxi needs to have these systems installed:
+     • a visual and voice guiding GPS navigator with built-in maps and text display of information
+     • a variety of communications systems between the dispatch centre and the driver
+     • vehicle tracking and data logging equipment
+     • driver and customer safety equipment such as CCTV.
+
+75   Control centre management
+     The control centre will have a customer account manager who is responsible for:
+     • managing credit card and other payment methods by customers
+     • production of regular customer invoices
+     • recording and management of taxi maintenance and usage
+80   • driver activity statements.
+
+     Challenges faced
+
+     Project management and system procurement
+     The company wants the system to be in place by July 2014.  They are concerned that not all the
+     requirements can be met by this date, and that they may need to prioritize the implementation of
+     the features.
+
+85   The IT system needs to be secure, easy to use and maintain, and be scalable as the
+     company expands.  The cost of the new system must be able to be justified from the benefits it
+     will provide.  Also there are other considerations:
+     • Yao Chu has become more aware of the different types of systems available, both off-the-shelf
+        and customized, from a variety of providers, and needs to make a decision about which type
+90      of system/s and which provider/s to use, especially with the continued rapid growth that is
+        being foreseen.
+     • Some systems require the setting up of the system in-house and some can be outsourced in a
+        variety of ways, which is attractive since no one in the company has much expertise in IT.
+
+                                                                                             Turn over
+                                                –6–           M&N13/3/ITGSX/HP3/ENG/TZ0/XX/CS
+
+      System requirements
+ 95   Data management
+      The new system at Red Dragon Taxi Company needs to be capable of collecting and storing
+      information about the company’s customers.  This would enable the company to keep in contact
+      with those customers and allow it to offer incentives and special rates and services.  The company
+      may also choose to share customer information with other businesses for marketing purposes.   
+100   This information could include which customers have been put on a blacklist .
+
+      Many of the systems being considered have the capability of analysing and sharing the data stored
+      about customers and drivers as well as the times and locations of trips made.  Red Dragon Taxi
+      Company is considering the purchase of business intelligence software to enhance this capability,
+      but is not certain of the benefits and implications for the company.
+
+105   Communication and booking management
+      The company is investigating different methods of communications between the taxis,
+      control centre and customers.   The integrated communication and dispatch system must be
+      compatible with the data management system that Red Dragon Taxi Company will implement.
+
+      The communications systems must be able to cope with unexpected events such as accidents,
+110   traffic jams and dangerous situations.  Because of the possibility of these and other disruptions,
+      as well as general performance issues, Red Dragon Taxi Company is investigating whether to use
+      available communications systems for their communications or a dedicated system.   The need
+      to have communications maintained when the usual communication system fails for a variety of
+      possible reasons is also a main consideration here.  A variety of backup communications systems
+115   and procedures needs to be investigated.
+
+      Surveillance
+      The management of Red Dragon Taxi Company has announced that CCTV equipment will
+      be installed to monitor the activities in the taxi in the interests of driver and customer safety.  
+      GPS and GPRS will also provide the location of the vehicles.  However, this raises concerns from
+120   the drivers about employee monitoring.  Different monitoring systems are being investigated.
+
+      Also, Red Dragon Taxi Company is regularly asked by the police and other authorities for
+      information about customers and their journeys.  The information in the system needs to be held
+      for up to two years.
+                                               –7–        M&N13/3/ITGSX/HP3/ENG/TZ0/XX/CS
+
+Specific information technology items, additional to those in the ITGS guide, which are associated
+with the Red Dragon Taxi Company
+
+Behavioural marketing
+Business intelligence software
+CCTV
+Cost benefit analysis
+Cost estimation
+Customer management software
+Data logging
+GPRS
+GPS
+Route planning software / route optimization
+Smartphone apps
+Smartphone
+SMS
+Software as a service (SaaS)
+
+
+
+Any individuals named in this case study are fictitious and any similarities with actual entities
+are purely coincidental.
+

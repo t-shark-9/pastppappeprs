@@ -1,0 +1,415 @@
+M15/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+
+
+                       Markscheme
+
+
+                               May 2015
+
+
+                     Computer science
+
+
+                        Standard level
+
+
+                               Paper 1
+
+
+
+
+11 pages
+                          –2–            M15/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+
+
+This markscheme is the property of the International
+Baccalaureate and must not be reproduced or distributed
+to any other person without the authorization of the IB
+Assessment Centre.
+                                                    –3–                M15/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+Subject details:                Computer science SL paper 1 markscheme
+
+Mark allocation
+
+Section A: Candidates are required to answer all questions. Total 25 marks.
+Section B: Candidates are required to answer all questions. Total 45 marks.
+           Maximum total = 70 marks.
+
+General
+
+A markscheme often has more specific points worthy of a mark than the total allows. This is intentional.
+Do not award more than the maximum marks allowed for that part of a question.
+
+When deciding upon alternative answers by candidates to those given in the markscheme, consider the
+following points:
+
+          Each statement worth one point has a separate line and the end is signified by means of
+           a semi-colon (;).
+
+          An alternative answer or wording is indicated in the markscheme by a “/”; either wording can
+           be accepted.
+
+          Words in ( … ) in the markscheme are not necessary to gain the mark.
+
+          If the candidate’s answer has the same meaning or can be clearly interpreted as being the
+           same as that in the markscheme then award the mark.
+
+          Mark positively. Give candidates credit for what they have achieved and for what they have
+           got correct, rather than penalizing them for what they have not achieved or what they have
+           got wrong.
+
+          Remember that many candidates are writing in a second language; be forgiving of
+           minor linguistic slips. In this subject effective communication is more important than
+           grammatical accuracy.
+
+          Occasionally, a part of a question may require a calculation whose answer is required for
+           subsequent parts. If an error is made in the first part then it should be penalized. However,
+           if the incorrect answer is used correctly in subsequent parts then follow through marks
+           should be awarded. Indicate this with “FT”.
+
+
+General guidance
+
+  Issue            Guidance
+  Answering        • In the case of an “identify” question read all answers and mark positively up to the
+  more than          maximum marks. Disregard incorrect answers.
+  the quantity     • In the case of a “describe” question, which asks for a certain number of facts
+  of                 eg “describe two kinds”, mark the first two correct answers. This could include two
+  responses          descriptions, one description and one identification, or two identifications.
+  prescribed       • In the case of an “explain” question, which asks for a specified number of
+  in the             explanations eg “explain two reasons …”, mark the first two correct answers.
+  questions          This could include two full explanations, one explanation, one partial explanation etc.
+                                                  –4–               M15/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+                                               Section A
+
+1.   Award [1 mark] for each correct pair of rows.
+
+                              A     B      C      (A or B) and (not C or B)
+                              0     0      0                 0
+                              0     0      1                 0
+                              0     1      0                 1
+                              0     1      1                 1
+                              1     0      0                 1
+                              1     0      1                 0
+                              1     1      0                 1
+                              1     1      1                 1
+
+                                                                                                       [4]
+
+
+2.   Award [1 mark] for a relevant example and [2 marks] for an elaboration.
+
+     Example 1:
+     A business can let employees work at home / employees who travel a lot/external
+     (non-employee) users;
+     Accessing the data and services (at the office);
+     Via secure login;
+
+     Example 2:
+     Using VPN, address is masked;
+     The location of the user is not known;
+     May be essential in delicate situations such as political protest groups working from their own
+     country;
+     Note: Accept any legitimate reason for needing to be unknown.                                     [3]
+
+
+3.   Award [1 mark] for details of a sub-procedure and [1 mark] for how it is used.
+     For example:
+     A sub-procedure is a section of code in a program that does a specific job;
+     It can be called by name when needed without naming the details as these are
+     wrapped in the procedure;                                                             [2]
+                                                     –5–               M15/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+4.   Award [4 marks] as follows.
+     Award [1 mark] for going 3 times through the loop (with COUNT from 1 to 3).
+     Award [1 mark] for incrementing correctly SUM (when N mod COUNT = 0).
+     Award [1 mark] for the correct output (“perfect”).
+     Award [1 mark] for showing all working in a trace table with at least three columns (eg COUNT,
+     SUM, OUTPUT).
+     Award the first 3 marks for an evident trace but working not shown in a trace table.
+
+     Example answer 1:
+
+          COUNT      N mod COUNT=0           SUM               SUM=N        output
+            1            TRUE                 1
+            2            TRUE                 3
+            3            TRUE                 6
+                                                               TRUE          perfect
+
+
+     Example answer 2:
+
+        COUNT       N mod COUNT        SUM           output
+                                        0
+           1              0             1
+           2              0             3
+           3              0             6            perfect
+                                                                                                          [4]
+
+
+5.   Award [1 mark] for each usability feature and [1 mark] for an elaboration clearly related to the needs
+     of the user, taking into account that not all users have the same physical/technical capabilities, up to
+     [4 marks max].
+
+     For example:
+
+     Larger screen;
+     Easier to view large amounts of data without excessive scrolling or squinting / reduced eyestrain /
+     more accessible to those with weak eyesight;
+
+     Hotkeys to control brightness, sound volume, navigation, etc;
+     Quick access to frequently used adjustments that aid in viewing, listening, etc without first navigating
+     to a software-based control panel;
+
+     Size and sensitivity of touchpad;
+     Those with mobility or coordination issues, or simply with large hands, may need a larger and/or less
+     sensitive pad to control the cursor;
+
+     Standard accessibility for visually impaired;
+     Larger text option or text to speech;                                                                [4]
+                                                    –6–                 M15/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+6.   Award up to [2 marks max].
+     Award [1 mark] for communication with user – email/ pop up etc.
+     Award [1 mark] for method of installation of update – automatic/ link/ in list for user to install etc.
+
+     When the software is installed and registered (a cookie is placed on the machine);
+     This communicates with the software developer automatically on start up;
+     Messages about updates are sent back to the machine and alerts are given;
+
+     OR
+
+     Send an email;
+     With a link to the update;                                                                  [2]
+
+
+7.   (a)    Award [1 mark] for the correct list and [1 mark] for the correct order. The last
+            two can be in any order. Accept similar descriptions of individual tasks.
+
+            Collect samples
+            Analyse samples
+            Write report
+            Prepare presentation                                                                 [2]
+
+     (b)    Award [1 mark] for the correct tasks and [1 mark] for outlining how they can be
+            done concurrently.
+
+            “Write report” and “prepare presentation” can be done at the same time as they
+            can be performed by different students (using the same data).                 [2]
+
+     (c)    Award [1 mark] for a correctly labelled chart illustrating the order of tasks from
+            part (a) and [1 mark] for showing the concurrency from part (b).
+            For example:
+
+           Task           Phase 1                   Phase 2                    Phase 3
+Collect samples
+Analyse samples
+Write report
+Prepare presentation                                                                                           [2]
+                                                 –7–                M15/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+                                        Section B
+8.   (a)   Award marks as follows, up to [6 marks max].
+           Award [1 mark] for looping through the database and accessing all records.
+           Award [1 mark] for correct calculation of date difference (eg = today – paymentDate
+                 OR paymentDate – today).
+           Award [1 mark] for each list correctly compiled, x3 (correct conditional statements according
+           to date difference used).
+           Note: Accept date difference not calculated/stated but assumed as “today – paymentDate”
+                 OR “paymentDate – today”.
+           Award [1 mark] for successive if/else but wrong conditions.
+           Award [1 mark] for flagging correct records for deletion (do not accept deleting the records).
+
+           Example:
+           set CURRDATE to current date (as a day number)
+           set LIST1, LIST2 and LIST3 to empty
+           loop through all CUSTREC in DATABASE
+                DUEPERIOD = CURRDATE - CUSTREC.PAYMENTDATE
+                if DUEPERIOD > 30 then
+                     add CUSTREC to LIST3
+                     flag CUSTREC to delete
+                else if DUEPERIOD > 14 then
+                     add CUSTREC to LIST2
+                else if DUEPERIOD > - 30 then
+                     add CUSTREC to LIST1
+                end if
+           end loop                                                                                   [6]
+
+
+           Note: If candidates give their answer in flowchart form then credit them using the same
+           marking points.
+
+
+     (b)   Award up to [4 marks max].
+           (Using a mail merge facility);
+           Template for each type of reminder created in the word processor;
+           Lists created with customer ID;
+           Linked to customer details in database;
+           Appropriate details merged/inserted into template;
+           Email lists created and sent / letters printed and sent;                        [4]
+
+     (c)   Award [1 mark] for a consequence of data loss to customers and [1 mark] for a
+           consequence of data loss to the insurance company.
+
+           Example answer:
+           Customers would not be reminded when they needed to pay and some may
+           overlook payment, hence not be insured;
+           The company could lose customers/ruin reputation;                               [2]
+                                             –8–                M15/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+(d)   Award marks as follows up to [3 marks max].
+      Award [1 mark] for a suitable measure and [2 marks] for a description related to
+      the insurance company.
+      Example answers:
+      Mirror system;
+      All changes to the records made on two systems;
+      If one fails then the other holds all current data;
+
+      Off site backup;
+      Snapshots/backups made on a regular basis;
+      In the case of failure a dated/time stamped copy exists and the state up until then
+      can be used to restore customer records;                                         [3]
+                                                  –9–               M15/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+9.   (a)   Award up to [3 marks max].
+           The OSI is a standardized system/model for network connection;
+           Consists of (7) layers;
+           Each dealing with specific parts of network communication;
+           For example the physical layer which defines the physical connection;              [3]
+
+           Note: Award [1 mark] for the purpose of any of the 7 layers.
+           If candidate lists all 7 layers with no specific example award [2 marks] and a
+           further [1 mark] if the purpose of at least one layer is given.
+
+     (b)   Award up to [3 marks max].
+           Protocols are a set of rules;
+           To facilitate a process being carried out correctly;
+           (Used in each layer to ensure communication;)
+           For example (in the physical layer) the protocols could define the methods for
+           opening and closing communication;                                             [3]
+           Note: Do not accept examples which are not related to networks.
+
+     (c)   Award [2 marks] for an advantage with an elaboration and [2 marks] for a
+           disadvantage with an elaboration, up to [4 marks max].
+           For example:
+           An advantage is that lawyers can access quickly with mobile devices;
+           Anywhere in the building and do not need to be at the workstation;
+
+           Users can logon with their own devices (if properly configured);
+           More familiar with interface/functions;
+
+           One disadvantage is security as it could be possible to get to the server from a
+           nearby neighbourhood if not very secure;
+           Less secure than the cabled system in the building;
+
+           Wireless signal could be weak in some parts of the building;
+           Leading to frustrated/ineffective employees;                                       [4]
+
+     (d)   Award marks as follows up to [5 marks max].
+           Award [1 mark] for looping through the collection.
+           Award [1 mark] for returning a job first if time>10 min.
+           Award [1 mark] for searching the loop again for each priority level.
+           Award [1 mark] for searching from 1 – 4 in order.
+           Award [1 mark] for ending when the highest priority level job is found.
+
+           Note: Accept algorithms, bullet points and text answers which are clear and in correct logical
+                 order. Accept the list being sorted before searching.
+
+           For example:
+                loop through all the jobs
+                   If job.time > 10 min return job
+                   else set priority = 1
+                     while priority< 5
+                        loop through all jobs
+                          if job.priority = priority return job
+                        endloop
+                        increment priority
+                     end while
+                   endif
+                endloop                                                                       [5]
+                                                    – 10 –              M15/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+10.   (a)   Award [2 marks max] for the similarities and [2 marks max] for the differences.
+            Both use nested loops;
+            Each time reducing the inner loop;
+
+            Bubble sort swaps adjacent items each time it goes through the list;
+            Selection sort finds the next smallest each time it goes through the list;
+            Bubble sort can exit early if already sorted;                                      [4]
+
+      (b)   Award [1 mark] for reference to the size of the list and [1 mark] for stating why
+            the selection sort is faster.
+            It is possible that selection sort will only need 10 passes of the outer loop to find
+            10 fastest times;
+            But bubble sort will need to complete the procedure for the entire list every time;
+
+            OR
+
+            List is long;
+            Swapping takes longer than selecting;                                              [2]
+
+      (c)   Award marks as follows up to [6 marks max].
+            Award [1 mark] for setting all variables at start.
+            Award [1 mark] for correct double looping through TIMES.
+            Award [1 mark] for correct selection of MIN.
+            Award [1 mark] for transfer to FASTEST.
+            Award [1 mark] for successful swapping selected value.
+            Award [1 mark] for resetting MIN to value transferred.
+            Award [1 mark] for incrementing array index in FASTEST.
+            Award [1 mark] for transfer of exactly 10 elements.
+
+            For example:
+            MIN = 0
+            TRANSFER = 0
+            loop while TRANSFER < 10
+                 MIN = 250000 //larger than first 10 fastest
+                 COUNT = TRANSFER
+                 loop while COUNT < 150
+                      if TIMES [COUNT] < MIN
+                          MIN = TIMES[COUNT]
+                          K = COUNT
+                      end if
+                      COUNT = COUNT + 1
+                 end loop
+                 FASTEST[TRANSFER] = TIMES[K]
+                 TEMP = TIMES[TRANSFER]
+                 TIMES[TRANSFER] = TIMES[K]
+                 TIMES[K] = TEMP
+                 K = K + 1
+                 TRANSFER = TRANSFER + 1
+            end loop
+
+            Note: Accept any reasonable value set as MIN – including TIMES[0] provided that this is not
+            replaced by MIN after the first loop.
+                                            – 11 –             M15/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+      Alternatively the array can be sorted and then transferred in which case award
+      marks as follows:
+
+      Award [1 mark] for creating the array FASTEST.
+      Award [1 mark] for correct double looping through TIMES.
+      Award [1 mark] for comparing adjacent values.
+      Award [1 mark] for correct swap if second value is lower.
+      Award [1 mark] for looping through FASTEST.
+      Award [1 mark] for transferring first TIMES to FASTEST.                                  [6]
+
+(d)   The problem with parallel arrays is the sorting/indexing/maintaining relationship;
+      An object would contain at least a name and a time (accept other descriptions of
+      object);
+      Would only need to sort the array of objects / only one list to be sorted;         [3]
+

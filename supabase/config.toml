@@ -1,0 +1,34 @@
+project_id = "jimfuknlntcqgtqfwcod"
+
+[functions.ai-autocomplete]
+verify_jwt = false
+
+[functions.ai-assistant]
+verify_jwt = true
+
+[functions.evaluate-draft]
+verify_jwt = true
+
+[functions.evaluate-block]
+verify_jwt = true
+
+[functions.generate-sections]
+verify_jwt = true
+
+[functions.import-document]
+verify_jwt = true
+
+[functions.convert-html-to-blocks]
+verify_jwt = true
+
+[functions.send-password-reset]
+verify_jwt = false
+
+[functions.send-collaboration-invite]
+verify_jwt = true
+
+[functions.send-newsletter]
+verify_jwt = true
+
+[functions.generate-blog]
+verify_jwt = false

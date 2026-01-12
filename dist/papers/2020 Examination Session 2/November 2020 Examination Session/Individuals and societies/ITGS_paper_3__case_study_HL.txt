@@ -1,0 +1,279 @@
+No part of this product may be reproduced in any form or by any electronic or
+mechanical means, including information storage and retrieval systems, without written
+permission from the IB.
+
+Additionally, the license tied with this product prohibits commercial use of any selected
+files or extracts from this product. Use by third parties, including but not limited to
+publishers, private teachers, tutoring or study services, preparatory schools, vendors
+operating curriculum mapping services or teacher resource digital platforms and app
+developers, is not permitted and is subject to the IB’s prior written consent via a license.
+More information on how to request a license can be obtained from
+https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-license/.
+
+Aucune partie de ce produit ne peut être reproduite sous quelque forme ni par quelque
+moyen que ce soit, électronique ou mécanique, y compris des systèmes de stockage et
+de récupération d’informations, sans l’autorisation écrite de l’IB.
+
+De plus, la licence associée à ce produit interdit toute utilisation commerciale de
+tout fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris,
+sans toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de
+tutorat ou d’aide aux études, des établissements de préparation à l’enseignement
+supérieur, des fournisseurs de services de planification des programmes
+d’études, des gestionnaires de plateformes pédagogiques en ligne, et des
+développeurs d’applications, n’est pas autorisée et est soumise au consentement écrit
+préalable de l’IB par l’intermédiaire d’une licence. Pour plus d’informations sur la
+procédure à suivre pour demander une licence, rendez-vous à l’adresse suivante :
+https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-license/.
+
+No se podrá reproducir ninguna parte de este producto de ninguna forma ni por ningún
+medio electrónico o mecánico, incluidos los sistemas de almacenamiento y
+recuperación de información, sin que medie la autorización escrita del IB.
+
+Además, la licencia vinculada a este producto prohíbe el uso con fines comerciales de
+todo archivo o fragmento seleccionado de este producto. El uso por parte de terceros
+—lo que incluye, a título enunciativo, editoriales, profesores particulares, servicios
+de apoyo académico o ayuda para el estudio, colegios preparatorios, desarrolladores
+de aplicaciones y entidades que presten servicios de planificación curricular u
+ofrezcan recursos para docentes mediante plataformas digitales— no está permitido
+y estará sujeto al otorgamiento previo de una licencia escrita por parte del IB. En este
+enlace encontrará más información sobre cómo solicitar una licencia:
+https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-license/.
+Information technology in a global society
+Case study: The FaceToFace facial recognition application
+
+
+For use in May 2020, November 2020 and May 2021
+
+
+
+
+Instructions to candidates
+y Case study booklet required for higher level paper 3 information technology in a global society
+   examinations.
+
+
+
+
+     7 pages                                               © International Baccalaureate Organization 2019
+                                                  –2–
+
+Foreword
+
+The ITGS case study, The FaceToFace facial recognition application, is the stimulus material for the
+research investigation required for May 2020, November 2020 and May 2021 higher level paper 3. All of
+the work related to the case study should reflect the integrated approach explained on pages 15–17 of
+the ITGS guide.
+
+Candidates should consider The FaceToFace facial recognition application with respect to:
+y relevant IT systems in a social context
+y both local and global areas of impact
+y social and ethical impacts on individuals and societies
+y current challenges and solutions
+y future developments.
+
+Candidates are expected to research real-life situations similar to The FaceToFace facial recognition
+application and relate their findings to first-hand experiences wherever possible. Information may be
+collected through a range of activities: secondary and primary research, field trips, guest speakers,
+personal interviews and email correspondence.
+
+Responses to examination questions must reflect the synthesis of knowledge and experiences that
+the candidates have gained from their investigations. In some instances, additional information may be
+provided in examination questions to allow candidates to generate new ideas.
+                                                –3–
+
+     Overview
+
+     There is a growing trend to use technology that authenticates individuals based on their bodily
+     or behavioural characteristics, such as fingerprints, voice, iris or gait. A survey by Market Wired
+     predicted that the global biometric technologies market will reach $41.5 billion by 2020,
+ 5   significantly greater than the $14.9 billion in 2015.
+
+     FaceToFace, a small start-up business, was founded in South-East Asia in 2017 by Mike Lim,
+     a computer science graduate, and two of his friends from university: Carol Tan, a marketing
+     graduate, and Sandra Li, a law graduate. Mike developed the initial facial recognition
+     algorithms while at university but had no idea how to market them. Carol saw great potential
+10   for facial recognition software in a variety of areas, but she was not sure about the associated
+     legal and ethical implications. While waiting for coffee one afternoon in their university coffee
+     shop, the three decided that the coffee shop would be the ideal location as a starting point for
+     their venture.
+
+     Current situation
+
+15   In an effort to improve customer loyalty, the university coffee shop currently has a loyalty card
+     programme that stores customers’ personal details and coffee preferences. The loyalty card
+     data is stored in the coffee shop’s customer database stored in the cloud.
+
+     Members are issued with a loyalty card that they can present when they make a purchase, so
+     they can collect points that are redeemable for free coffee and seasonal promotions. Customers
+20   can choose whether to opt in to this loyalty card programme.
+
+     The FaceToFace facial recognition application was introduced into the university coffee shop
+     as a proof of concept in an attempt to solve the problems related to long queues at busy times
+     of the day and the lack of personal service caused by a high turnover of coffee shop staff. The
+     coffee shop was chosen to prove the concept rather than a school or office.
+
+25   With the facial recognition application installed, the first time a customer approaches the till to
+     make a purchase, they will be asked whether they wish to have their facial image linked to their
+     loyalty card data.
+
+     The customer must be a member of the loyalty card programme if they wish their facial image to
+     be linked to the customer database.
+
+30   If the customer does not want their facial image to be used or linked to the loyalty card
+     programme, they can choose to opt out.
+
+     On subsequent visits, when customers who have linked their facial image to the loyalty card
+     programme approach the cashier to make an order, the facial recognition application will
+     capture an image of their face and match it to a record in the database. This will provide the
+35   cashier with details about the customer. The FaceToFace facial recognition application will
+     identify the customer to the coffee shop staff who can then greet them by their name and offer
+     them their preferred choice of coffee.
+
+
+
+
+                                                                                              Turn over
+                                                –4–
+
+        Figure 1: An example of the prompt displayed to the cashier for a customer
+                     whose record exists in the coffee shop database
+
+
+
+
+     If a customer has opted out of the loyalty card programme, the coffee shop staff will not be
+     provided with personalized information about the customer or their coffee preferences.
+
+40   Currently, the FaceToFace facial recognition application is software as a service (SaaS) and
+     uses cloud-based processing and storage for the facial recognition data. This data is then linked
+     to the customer database in the coffee shop’s point-of-sale (POS) system to provide prompts to
+     the staff using the facial recognition application. FaceToFace is leasing processing and storage
+     facilities from a reputable cloud service provider for the facial recognition application.
+
+45   The proof of concept was a huge success, with the coffee shop having shorter queueing times
+     and an increase in the satisfaction of both coffee shop staff and customers.
+
+     Next steps
+
+     South-East Asia Coffee Shops (SEACS), a local chain of coffee shops, observed the successful
+     partnership between FaceToFace and the university coffee shop. They have approached Carol
+50   for a meeting about the use of the facial recognition application in their shops.
+
+     Mike has informed Carol and Sandra that this development will require an upgrade to
+     the existing IT cloud-based infrastructure. This infrastructure will need to be scalable to
+     accommodate not only SEACS’s project but also future clients.
+
+     Sandra has advised that, since the data is being shared between the coffee shops, which
+55   are located in a number of countries in South East Asia, there will also be legal and ethical
+     implications to be considered. She is also keen that any policies developed would enable a
+     roll‑out of the facial recognition application to a wider market.
+                                                 –5–
+
+      Challenges faced
+
+      Carol believes that the market for facial recognition systems has great potential and she is keen
+ 60   for FaceToFace to consider expanding into new markets, such as schools and offices.
+
+      Mike, Carol and Sandra are aware that the expansion of the facial recognition application into
+      these new markets will present a number of challenges. They held a meeting and drew up a list
+      of possible challenges that may result from such an expansion.
+
+      Technical challenges
+ 65   y Different clients may have different thresholds for accuracy (error rate) in the identification of
+        the user. These different levels of accuracy will require the adaptation of the algorithms and
+        may require different numbers of nodal points to be matched.
+      y The FacetoFace application must allow for interoperability and be forward compatible with
+        future clients’ databases.
+
+ 70   Legal challenges
+      y The storage and use of data is governed by national laws. For example, the General Data
+        Protection Regulation (GDPR) in the European Union (EU) is far more stringent than other
+        national privacy laws. Sandra is conscious that these laws will need to be discussed with
+        FaceToFace’s clients and that policies will need to be developed to ensure compliance and
+ 75     proper procedures are implemented.
+      y Sandra is concerned about accountability if a data breach occurs.
+
+      Ethical challenges
+      While Mike was developing the new facial recognition application and integrating it into SEACS,
+      the team realized there were a number of ethical issues that needed to be addressed.
+ 80   y Sandra wants to ensure any future expansion is underpinned by sound ethical principles.
+         She suggests that an impact analysis should be cooperatively undertaken by FaceToFace
+         and clients using a range of decision-making tools, such as a privacy impact assessment
+         (PIA) and ethics canvases.
+      y There should be a code of ethics to which SEACS and any other potential stakeholders
+ 85      should subscribe when any collaboration takes place. This may need to be adapted for
+         various clients.
+      y Privacy, anonymity, surveillance and the need for consent are significant concerns that may
+         arise with new developments such as the facial recognition application.
+      y Cloud storage of facial images and continual gathering of information, such as date and time
+ 90      of purchases made by SEACS customers, are a concern for Sandra.
+      y Accessibility of data by third parties. Once FaceToFace has created applications that can
+         be linked to databases, others – such as governments and other companies – may wish to
+         access this information. This could directly contradict the expressed desire of FaceToFace for
+         complete transparency in how their data is managed.
+
+ 95   Social challenges
+      Any introduction of a new ICT system can have impacts on the behaviour of individuals,
+      organizations and societies.
+      y Sandra is concerned that the introduction of facial recognition systems could lead to changes
+         in the way people behave when they are aware they are being watched.
+100   y If people accept facial recognition as a part of their everyday lives, it could become easier for
+         less ethical future applications to be accepted without thorough investigation.
+      y Some people may feel that the introduction of facial recognition applications could lead to an
+         increasing level of surveillance.
+
+
+
+                                                                                                Turn over
+                                               –6–
+
+      Marketing challenges
+105   Carol is interested in expanding into other markets. These are:
+      y airports
+      y offices
+      y schools
+      y shops.
+
+110   Expansion into these markets may provide a number of opportunities as well as challenges.
+                                                    –7–
+
+Key terms associated with The FaceToFace facial recognition application
+
+ACM Code of Ethics
+ACTIVE ethics
+Algorithm
+Autonomy
+(Biometric) nodal points
+Consent
+Data ethics canvas
+Data migration
+Data sharing formats
+Ethics canvas
+Forward compatibility
+General Data Protection Regulation (GDPR)
+Image analysis
+Interoperability
+Loyalty card programme
+Metrics
+Opt in / opt out
+Point-of-sale (POS)
+Privacy impact assessment (PIA)
+Proof of concept
+Software as a service (SaaS)
+Start-up business
+Usability
+
+
+Any individuals named in this case study are fictitious and any similarities with actual entities are purely
+coincidental.
+
+
+
+
+
+
+
+References:
+
+CS          © International Baccalaureate Organization 2020.
+

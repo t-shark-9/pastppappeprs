@@ -1,0 +1,779 @@
+                                                           -2-                                                 2223-7012
+
+
+Option A - Databases
+
+1.    Quick Rent-a-Car is a popular car rental company in Chicago. The company stores
+      information about the cars, customers and rental agreements.
+
+      The diagram below shows a part of the entity-relationship diagram (ERO) for the
+      Quick Rent-a-Car database.
+
+               CUSTOMER                               RENTAL                                   CAR
+
+                    CustlO                           RentalNum                                 Carlo
+
+                    FName                                CustlO                                Make
+
+                    SName                             OateOut                                  Man
+                    Phone                                OateRet                               Year
+
+                      ...                                 Carlo                          CarSerialNum
+                                                            ...                                 ...
+
+      (a)   (i)     State the type of relationship between the CUSTOMER table and the
+                    RENTAL table.                                                                                    [1I
+
+            (ii)    State the name of one primary key.                                                               [1I
+
+            (iii)   State the name of the table that contains foreign keys.                                          [1I
+
+      Some of the information held in the three tables in the Quick Rent-a-Car database is
+      shown below:
+
+                                                    CUSTOMER
+
+            �YlitlD                 FName                SName                 Phone                   ...
+             4098                     Rod                  Lever         480-9225-9180                 ...
+
+             6543                     Cador              Travolta        708-4567-1012                 ...
+
+             8265                      Ella              Hanks           605-6543-1056                 ...
+
+                                                      RENTAL
+
+     B11ntalNym              CustlD            DateOut              DateRet            CarlD                 ...
+     00000001                4098             22/01/2020          25/01/2020      WRE2345                    ...
+
+     00000002                6543             22/01/2020          23/01/2020       ELA3489                   ...
+     00000003                8265             22/01/2020          26/01/2020      ACC2345                    ...
+
+     00000004                6543             24/01/2020          29/01/2020      WEM6789                    ...
+
+
+(Option A continues on the following page)
+                                                                -3-                                 2223-7012
+
+ (Option A, question 1 continued)
+
+                                                                CAR
+
+             CarlD            Make              Man              Year       CarSerialNum      ...
+       WRE2345               Pacifica         Chrysler          2018     5Y2SP670X92459140    ...
+        DEF4567                 ux              Lexus           2017     2CNDL73F456219488    ...
+
+        ELA3489              ES350              Lexus ,         2015     1 FTFX28L7VNB18489   ...
+
+       WEM6789               Pacifica         Chrysler          2018     8YTBN54K8CSD2879     ...
+
+       ACC2345                  ux              Lexus"          2017     4DFBS43LOMNB3156     ...
+
+       DHE7623               EF475             Lexus            2016     2GHKU98P1 SWY 456    ...
+
+
+      (b)      State the result from the following query:                                                 [1 I
+               SELECT Make
+               FROM    CAR
+               WHERE Man = Lexus"   11
+
+
+               AND Year = 2016;
+
+      (c)      Outline two possible validation checksfor the CarlD attribute. You may assume that
+               the CarlD will always be in the format shown.                                              [4)
+
+      (d)      Identify the steps to create a query to find the surname (SName) of the customer who
+               rented the car from 22 January 2020 (22/01/2020) until 26 January 2020 (26/01/2020).       [4]
+
+      (e )     Explain why queries would be used to create views of the Quick Rent-a-Car database.        [ 3)
+
+      Views of the database can also be created by using a query language.
+
+      (f)      Explain how a data definition language can be used to implement a data model such as
+               the Quick Rent-a-Car database.                                                             [3)
+
+      (g)      Explain why maintaining data consistency is important in the Quick Rent-a-Car database. [3)
+
+ (Option A continues on the following page)
+
+
+a)   :.Hcc-r $NI\Mt
+     Pf'. ON\ UJt -ror'\ Er I              R. EN TA l
+                      CU.I. C,<itTIC :.-     �fTAl, 1t'"-'//Q
+                     Rerlif;L, /:)Ml       8AJ '> .. 'l-2../o� /-,c'JO
+                     fU,NiltL-- �              �      <•    '2.6 /o1)ioic
+
+
+
+
+                                                                                                    Turn over
+                                                      -4-                                        2223-7012
+
+(Option A continued)
+
+2.     Database recovery is performed when disasters, hardware failures or appli cation problems
+       occur. Database administrators have to make decisions about which type of database
+       recovery strategy to use.
+
+       ( a)   Identify one factor that a database administrator could consider when choosing a
+              database recovery strategy.                                                               (1]
+
+       (b)    Describe two methods of database recovery that a database administrator can carry out. (4]
+
+       Many organizations are concerned about staff having access to sensitive or inappropriate data.
+
+       (c)    Describe two methods organizations could use to ensure that staff do not have access
+              to sensitive or inappropriate data.                                                       [4]
+
+
+3.     Artisan College has the following data about students and the courses they have chosen.
+
+                                               STUDENT table
+
+     §tudentlD      9'-lame      FName        MajorlD         Major      CourseNum     Course Name
+       2907          Smith        Jacob        MAT       Mathematics      MAT0011      Discrete Maths
+                                                                          MAT0027      Calculus I
+                                                                          EGL0010      Classics I
+       4019        Paterson       Jane          PHI         Philosophy    PHI0010      Philosophy
+                                                                          CS00100      Programming 1
+       5145          Neeld        Norris       EGL           English     SOC0102       Ascent of man
+       6132        Morrison       Xavier       MUS            Music      MUS0002       Origin of jazz
+                                                                         SOC0102       Ascent of man
+       8966         Juarez      Samantha       EGL           English      EGL0010      Classics I
+                                                                          EGL0101      Shakespeare II
+
+       The table can also be represented in the following form.
+
+       STUDENT (StudentID, FName, SName, MajorID, Major, CourseNum, CourseName)
+
+       ( a)   Outline why this table is not in 1st Normal Form (1NF).                                   [2]
+
+       (b)    Construct the 3rd Normal Form (3NF) of the unnormalized relation shown above.             [8]
+
+       (c)    Explain the importance of data modelling in the design of a database.                     [5]
+
+(Option A continues on the following page)
+                                                     -5-                                             2223-7012
+
+(Option A continued)
+
+4.      Lacio Dairy Products has data stored in a data warehouse.
+
+        (a)   Define the term data warehouse.                                                               [2]
+        Lacio Dairy Products uses a network data model.
+
+        (b)   Describe two characteristics of a network data model.                                         [4]
+
+        Data is obtained from a number of different sources. This data needs to be extracted,
+        transformed and loaded into the data warehouse.
+
+        (c)   Outline two ways Extract, Transform, Load (ETL) processes can be used to clean up
+              data for the data warehouse.                                                                  [4]
+
+        Lacio Dairy Products supplies dairy products directly to both wholesalers' and retailers'.
+        Lacto Dairy Products have different pricing models for wholesalers and retailers.
+
+        (d)   Discuss the advantages and disadvantages of Lacio Dairy Products using data
+              segmentation.                                                                                 [5]
+
+        Data analytics, such as the analysis of data held in data warehouses, can assist the
+        managers at Lacio Dairy Products in their future decision making.
+
+        (e)   Explain why data analytics can be used to assist the managers of Lacio Dairy Products
+              in their future decision making.                                                             [5]
+
+
+1
+     wholesaler: a person or company that buys large quantities of goods from various
+     producers or vendors, and resells to retailers
+2
+     retailer: a person or company that sells goods to the public
+
+
+
+
+                                          End of Option A
+
+
+
+
+                                                                                                     Turn over
+                                                     -6-                                                2223-7012
+
+Option 8 - Modelling and simulation
+
+5.   A restaurant is concerned about the increase in its electricity bills as it uses electricity for
+     cooking, refrigeration, heating, air conditioning, air extraction systems and lighting.
+
+     The electricity bill is paid every month and is based on a daily charge of $0.75 with a charge
+     of $0.20 per unit of electricity used.
+
+     The table below shows the electricity usage from the previous year.
+
+                        Month                Electricity use (Units)       Days in month
+                        January                      5800                         31
+                       February                      5000                         28
+                         March                        5200                        31
+                         April                       4800                         30
+                          May                        4750                         31
+                         June                        4900                         30
+                          July                       5500                         31
+                        August                       6500                         31
+                      September                      5600                         30
+                        October                      5960                         31
+                      November                       5850                         30
+                      December                       6280                         31
+
+     A tax of 1 O % is applied to the total bill.
+
+     The restaurant would like to create a computer model of its electricity usage using data from
+     the previous year.
+
+     (a)    Define the term computer model.                                                                   [1]
+
+     (b)    State three variables and their data type that could be used in the computer model.               [3]
+
+     {c)    Construct the pseudocode that will input the units used in each month and the days in
+            each month to calculate and output the electricity bill for the restaurant in any month
+            and the quantity of electricity used per day.                                                     [5]
+
+     (d )   Outline one limitation of this model in helping the restaurant owners to save money on
+            their electricity bills.                                                                          [2]
+
+(Option 8 continues on the following page)
+                                                   -7-                                          2223-7012
+
+
+(Option B, question 5 continued)
+
+     The model needs to determine the months with the highest and lowest electricity usage.
+
+     (e)    State two ways that this model could be implemented.                                       [2]
+
+     (f)    Construct the pseudocode to provide the restaurant owner with this information.            [8]
+
+
+6.   Governments use simulations to help them to decide how their resources will be allocated
+     in the future. This enables them to predict how much income they will require from sources
+     such as taxation.
+
+     The simulation needs to consider information such as the size of the population, the income
+     from taxation and the expenditure on healthcare and education.
+
+     Information is collected every three years.
+
+     (a)    Describe the difference between a model and a simulation in the context of this scenario. [2]
+
+     (b)    (i)    Outline one advantage of a government using a simulation to predict how
+                   resources will be allocated in the future.                                         [2]
+
+            (ii)   Outline one disadvantage of a government using a simulation to predict how
+                   resources will be allocated in the future.                                         [2]
+
+     (c )   Describe two ways that the collection of data could be improved to enhance the
+            accuracy of this simulation.                                                              [4]
+
+     (d )   Discuss whether the ethical concerns expressed by citizens about the collection of this
+            data are justified.                                                                       [5]
+
+
+7.   (a)    (i)    State one example of 20 visualization.                                             [1 l
+
+            (ii)   State one example of 30 visualization.                                             [1 l
+
+     (b)    Describe the significance of a key frame in the process of completing 30 visualization.   [2]
+     A computer game makes use of 30 animation and involves game characters that move
+     throughout different scenes.
+
+     (c)    Explain the implications of 30 animation on computer resources during the creation of
+            this game.                                                                                [5]
+
+(Option B continues on the following page)
+
+
+
+
+                                                                                                Turn over
+                                                   -8-                                           2223-7012
+
+(Option B continued)
+
+8.   Autonomous vehicles, or self-driving cars, make use of genetic algorithms.
+
+     (a)   Outline how a genetic algorithm is iterative.                                               [2)
+
+     (b)   Outline the role of the fitness function in a genetic algorithm.                            [2)
+
+     Autonomous vehicles can be controlled by the "drivers" using verbal commands which can
+     be "learned" by either supervised or unsupervised learning.
+
+     (c)   (i)    Outline one benefit of using supervised learning in order for the autonomous
+                  vehicle to learn verbal commands.                                                    [2)
+
+           (ii)   Outline one benefit of using unsupervised learning in order for the autonomous
+                  vehicle to learn verbal commands.                                                    [2]
+
+     (d)   Explain the advances in natural language processing that will ensure the autonomous
+           vehicle responds appropriately to verbal commands.                                          [5)
+
+     (e)   Explain why there are differences between human and machine learning of a language.         [5]
+
+     (f)   Describe the use of a chatbot.                                                              [2]
+
+
+
+                                        End of Option B
+                                                    -9-                                            2223-7012
+
+Option C - Web Science
+
+9.   Sonia is a student at an international school and is developing her skills in building websites.
+     The computer science teacher at the school directed her to an online resource site that
+     provides tutorials. She provided her with the uniform resource locator (URL) of this site.
+
+     (a)   Define the term unifonn resource locator (URL).                                                11 I
+
+     (b)   Describe how a domain name server (ONS) functions.                                            [3]
+     The site uses the protocol HTTPS.
+
+     (c)   Identify two characteristics of HTTPS.                                                         [2]
+
+     (d)   Distinguish between a protocol and a standard.                                                [2]
+
+     The internet protocol (IP) has three basic characteristics: connectionless, best effort and
+     media independent.
+
+     (e)   Outline what the term connectionless means in the context of the transmission of a
+           page request.                                                                                 [2]
+
+(Option C continues on the following page)
+
+
+
+
+                                                                                                   Turn over
+                                                     -10-                                           2223-7012
+
+
+(Option C continued)
+
+10.   Below is a fragment of the code from a web page.
+
+
+
+
+            $sql = "INSERT INTO GuestsTable (FirstName,Surname,Email,Cellphone)
+            VALUES ('Sonia', 'Smith', 'sonia@smith. corn', '+61231456789') ";
+
+            if ($conn->query($sql) == TRUE) {
+                echo ,rNew record created successfully 11           ;
+
+
+              else {
+                Echo ''Error.''.$sql.''<br>''.$conn->error;
+
+
+
+      (a)     (i)    Describe the process outlined in the code fragment above.                            [3]
+
+              (ii)   Describe how the common gateway interface (CGI) enables the execution of
+                     scripts on a server.                                                                 [3]
+
+      It is possible to increase the visibility of a website using search engine optimization.
+
+      (b)     (i)    Identify two techniques used in search engine optimization.                          [2]
+
+              (ii)   Explain why incoming and outgoing links are significant factors in search results.   [4]
+
+      Search engines frequently undertake web-indexing.
+
+      (c)     Describe how a web crawler would index a webpage.                                           [3]
+      A limitation of commonly used search engines is that they can only access part of the web.
+      They are unable to access the deep web.
+
+      (d)    Suggest why the problem of not being able to access the deep web could increasingly
+             become a problem for search engines.                                                         [4]
+
+(Option C continues on the following page)
+                                                   -11 -                                           2223-7012
+
+(Option C continued)
+
+11.   Many people use online resources like peer-2-peer (P2P) networks to access music and
+      movies from their mobile phones.
+
+      (a)   Identify two characteristics of a peer-2-peer network.                                         [2)
+
+      A user downloads an album and an eBook about an artist from a file sharing site. The site
+      uses lossy compression.
+
+      (b)   Evaluate the appropriateness of lossy compression for both the album and the eBook.            [6)
+
+      An artist has been encouraged to join a cloud-based photosharing site.
+
+      (c)   Identify two characteristics of cloud computing.                                               [2)
+      (d)   To protect their intellectual property the artist considers two methods of protecting their work.
+
+            • Requiring the viewer to join the site and protecting the images behind the log in.
+            • Using a script to disable the "save image" option in the drop down menu.
+
+            Evaluate these two methods of protecting the artist's intellectual property.                   [6]
+
+(Option C continues on the following page)
+
+
+
+
+                                                                                                   Turn over
+                                                   -12-                                         2223-7012
+
+(Option C continued)
+
+12.   The model below shows the bowtie graph representing the internet. It is a based on data
+      from a 2012 hyperlink graph crawl.
+
+
+                                                   Tubes
+                                                 9.1 million
+                                                   0.26%
+
+
+
+
+                      IN                           sec                       OUT
+                      1139 million             1828 million            215 million
+                      31.9%                      51.28%                   6.05%
+
+
+
+
+                                                 Tendrils
+                                                164 million
+                                                  4.61 %
+
+                                                     0         0
+                                        0      Disconnected
+                                                208 million
+                                                  5.84%
+                                                                  0
+      The crawl visited approximately 3500 million nodes and discovered 128 000 million edges.
+
+      (a)    (i)    Define the term node.                                                             [1 l
+
+             (ii)   Define the term edge.                                                             [1 l
+
+      The strongly connected core (SCC) contains 51.8% of the nodes discovered in this crawl.
+
+      (b )   Identify two characteristics of a node in the sec.                                       [2]
+(Option C continues on the following page)
+                                                   -13-                                        2223-7012
+
+(Option C, question 12 continued)
+
+     A directed sub-graph can be used to represent a portion of the World Wide Web (WWW).
+
+     (c)   Draw a directed sub-graph representing the structure described below. Use arrows to
+           represent the direction of edges and circles to represent the nodes.
+
+           A, B and C are IN nodes.
+
+           D, E, F, G are nodes located in the sec.
+
+           H and I are OUT nodes.
+
+           In addition, node C connects directly to node I.                                          [4]
+
+     In earlier representations of the bowtie model the size of the IN and OUT portions are equal.
+
+
+
+
+                    IN                             sec                        OUT
+                    44 million                   56 million              44 million
+                    21 %                           27%                        21 %
+
+
+
+
+     The percentage of websites in the IN portion has changed from 21 % in 2000 to
+     approximately 32% in 2012.
+
+     The percentage of websites in the OUT portion has changed from 21 % in 2000 to
+     approximately 6% in 2012.
+
+     (d)   Suggest why the percentages in the IN and OUT portions have changed between
+           2000 and 2012.                                                                            [4]
+
+     In 2001, Tim Berners-Lee said the semantic web was "an extension of the current one, in
+     which information is given well-defined meaning, better enabling computers and people to
+     work in cooperation".
+
+     In 2011, the World Wide Web Consortium (W3C) described the semantic web as providing
+     "a common framework that allows data to be shared and reused across applications,
+     enterprise, and community boundaries".
+
+     (e)   Identify two characteristics of collective intelligence.                                  [2]
+
+     (f)   Discuss the significance of ontologies and folksonomies in the development of the
+           semantic web.                                                                             [6]
+
+                                         End of Option C
+                                                                                               Turn over
+                                                     -14-                                       2223-7012
+
+
+Option D - Object-oriented programming
+
+13.   A real estate business maintains an unsorted database of houses and apartments that it tries
+      to sell for the property owners.
+
+      The following UML diagram describes the objects in the current system.
+
+      Owner                                           Property
+       - name: String                                 - ID: String
+         address: String                              -
+         phone: String                             v - address: String
+                                                       city: String
+       < ... more attributes >                        - price: int
+                                                          ... more   attributes >
+      + constructor                                   + constructor
+        accessor and                                  + accessor and
+      mutator methods                                 mutator methods
+
+
+
+
+                              House
+                                                    /�                      Apartment
+                              < attributes >                                < attributes >
+
+                              < methods >                                   < methods >
+
+      (a)   Define the term primitive data type.                                                      I1 I
+      (b)   State an additional attribute in the class Property that would have data type
+
+            (i)    Boolean                                                                            11 l
+            (ii)   integer.                                                                           [1 J
+      (c)   State the relationship between
+
+            (i)    Owner and Property                                                                 11 I
+            0i)    HouseandProperty.                                                                  11 l
+      (d)   Distinguish between a class and an instantiation in this scenario.                        [2]
+
+      (e)   Outline how the modifier static affects how a variable is used.                           [2]
+
+      (f)   Describe how the modifier static could be used to access the total number of both
+            Houseand Apartment objects that have been created in this system.                         [2]
+(Option D continues on the following page)
+                                                 -15-                                           2223-7012
+
+
+(Option D, question 13 continued)
+
+      The object-oriented software solution that implements this system for the real estate
+      business allows a customer to select a maximum of 10 houses that he or she is interested in.
+      These houses are stored in an array wishList of type House.
+
+      (g)   Construct the code needed to instantiate an array wishList that can store a maximum
+            of 10 House objects.                                                                      [3]
+
+
+14.   (a)   Define the term encapsulation.                                                            I1 l
+      (b)   Explain one benefit provided by encapsulation.                                            [3]
+
+      The real estate business is planning to expand its database to include student housing.
+      These "houses" are usually single rooms in a privately owned house.
+
+      (c)   Explain one benefit of using inheritance to create a new class Room.                      [3]
+
+      Many of the prospective students have an international background.
+
+      (d)   Explain one feature of modern programming languages that allows for internationalization. [3]
+
+(Option D continues on the following page)
+
+
+
+
+                                                                                                Turn over
+                                                      -16-                                        2223-7012
+
+(Option D continued)
+
+15.   All the unsorted House objects in the database have been copied to a sufficiently large array
+      allHouses. This array is not completely filled with House objects.
+
+      The array allHouses and all methods in this question are declared in the main program class.
+      All methods can access the array allHouses directly.
+
+      Consider the following method.
+
+      public void unknown(String x)
+      {
+        for (int i=O; i<allHouses.length; i++)
+        {
+          if ( allHouses [ i] . getCi ty () . equals (x) )
+          {
+            output (allHouses[i] .getAddress());
+
+
+
+
+      (a)    Define the term method signature.                                                          [2]
+
+      (b)    Describe how the original String variable, passed to a method as a parameter,
+             can be assigned a new value by that method.                                                [2]
+      ( c)   State the intended purpose of the method unknown.                                          (1 J
+
+      (d)    (i)    Outline the runtime error that is likely to occur if this method is called.         [2]
+             (ii)   Outline how this error can be corrected.                                            [2]
+
+      (e)    Construct the code for the method house sort that will sort the array allHouses in
+             ascending order of price.                                                                  [5]
+
+      A method is needed to select from the original unsorted array allHouses the three most
+      expensive houses below or equal to a given price.
+
+      (f)    Construct the code for the method select Three that will take an integer parameter
+             budget. It must return a sorted array of size 3 that contains the three most expensive
+             House objects (in ascending order of price) with a price that is less than or equal
+             to budget.
+
+             You may assume that the array allHouses contains at least three House objects
+             with a price less than or equal to budget. As part of your answer you should use the
+             method houseSort I I as developed in part (e).                                             [7]
+
+(Option D continues on the following page)
+                                                  -17-                                         2223-7012
+
+(Option D continued)
+
+16.   Once a month the real estate business organizes an open day for a particular house.
+
+      Interested clients can sign up by giving their name and phone number to the real estate business.
+
+      This information is stored in a list node ClientNode as follows.
+
+      public class ClientNode
+      {
+        private String name;
+        private String phone;
+        private boolean attended;
+        private ClientNode next;
+
+        public ClientNode (String aName, String aPhone)
+            (
+          this.name = aName;
+          this.phone = aPhone;
+          this.attended= false;
+          this.next = null;
+
+        public String getName()
+        {
+          return this.name;
+
+        public String getClient()
+        {
+          return this.name+" "+this.phone;
+
+        public void setAttended()
+        {
+          attended= true;
+
+        public ClientNode getNext()
+        {
+          return this.next;
+
+        public void setNext(ClientNode nextNode)
+        {
+          this.next = nextNode;
+
+
+
+      (a)   Identify two features of an abstract data type (ADT).                                     [2]
+
+(Option D continues on the following page)
+
+
+
+
+                                                                                              Turn over
+                                                      -18-                                             2223-7012
+
+
+(Option D, question 16 continued)
+
+     A new class ClientList is implemented as outlined below.
+
+     public class ClientList
+     {
+       ClientNode root;
+
+           // default constructor
+
+           void enList(ClientNode visitor)
+           {
+             ... adds visitor to the end of the list - missing code _
+
+
+           boolean isEmpty()
+
+             return (root==null);
+
+           ... more methods ...
+
+
+     A list openDay has been instantiated of the type ClientList.
+
+               openDay                       John Belaka                          Emma Kim
+                                             071112223                            071135322
+
+
+     (b)      Describe the meaning of the following statement.                                               [3)
+
+              open Day. enList (new ClientNode ("Sophie Bella", "072 456721") ) ;
+
+     (c)      By using object references, construct the method enList that allows a client to be
+              added to the end of the list open Day.                                                         [5]
+
+     The attendance of potential buyers is tracked during the open day by changing the at tended
+     variable to true when a potential buyer arrives.
+
+     At the end of the day, the list open Day is processed so that every potential buyer that
+     attended is added to new list hasAttended and every potential buyer that did not attend is
+     added to a new list notAttended.
+
+     (d)      Without writing code, outline the steps involved in splitting the list openDay into a list
+              hasAttended and a list notAttended.                                                            [4]
+
+(Option D continues on the following page)
+                                                -19-                                          2223-7012
+
+
+(Option D, question 16 continued)
+
+     The real estate business keeps the data of all past owners in a file for future reference.
+     This file is sorted by owner name. When needed, this file is read into a LinkedList called
+     contacts, which has been instantiated as follows.
+
+     private LinkedList<Owner> contacts = new LinkedList<Owner>();
+
+     (e)   Construct a recursive binary search method given as
+
+           public Owner binSearch(String name, int low, int high)
+
+           where name is the search term.
+
+           You may assume that contacts is accessible to binSearch and that it has been filled
+           with many objects.
+
+           You may use the following standard LinkedList method.
+
+           . get(int index)
+
+           This returns the object located in the LinkedList at index.                              [6]
+
+
+
+                                      End of Option D
+

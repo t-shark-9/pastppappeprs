@@ -1,0 +1,943 @@
+M18/5/FURMA/HP1/ENG/TZ0/XX/M
+
+
+
+
+                       Markscheme
+
+
+                               May 2018
+
+
+                   Further mathematics
+
+
+                           Higher level
+
+
+                               Paper 1
+
+
+
+
+21 pages
+                          –2–            M18/5/FURMA/HP1/ENG/TZ0/XX/M
+
+
+
+
+This markscheme is the property of the International
+Baccalaureate and must not be reproduced or distributed
+to any other person without the authorization of the IB
+Global Centre, Cardiff.
+                                                  –3–                M18/5/FURMA/HP1/ENG/TZ0/XX/M
+
+
+                                       Instructions to Examiners
+
+Abbreviations
+
+M      Marks awarded for attempting to use a valid Method; working must be seen.
+
+(M)    Marks awarded for Method; may be implied by correct subsequent working.
+
+A      Marks awarded for an Answer or for Accuracy; often dependent on preceding M marks.
+
+(A)   Marks awarded for an Answer or for Accuracy; may be implied by correct subsequent working.
+
+R      Marks awarded for clear Reasoning.
+
+N      Marks awarded for correct answers if no working shown.
+
+AG     Answer given in the question and so no marks are awarded.
+
+
+Using the markscheme
+
+1     General
+
+      Mark according to RM™ Assessor instructions and the document “Mathematics HL: Guidance
+      for e-marking May 2018”. It is essential that you read this document before you start marking.
+      In particular, please note the following:
+
+       Marks must be recorded using the annotation stamps. Please check that you are entering
+        marks for the right question.
+       If a part is completely correct, (and gains all the “must be seen” marks), use the ticks with
+        numbers to stamp full marks.
+       If a part is completely wrong, stamp A0 by the final answer.
+       If a part gains anything else, it must be recorded using all the annotations.
+       All the marks will be added and recorded by RM™ Assessor.
+
+2     Method and Answer/Accuracy marks
+
+       Do not automatically award full marks for a correct answer; all working must be checked,
+        and marks awarded according to the markscheme.
+       It is not possible to award M0 followed by A1, as A mark(s) depend on the preceding
+        M mark(s), if any.
+       Where M and A marks are noted on the same line, eg M1A1, this usually means M1
+        for an attempt to use an appropriate method (eg substitution into a formula) and A1 for
+        using the correct values.
+       Where the markscheme specifies (M2), N3, etc., do not split the marks.
+       Once a correct answer to a question or part-question is seen, ignore further working.
+        However, if further working indicates a lack of mathematical understanding do not award the
+        final A1. An exception to this may be in numerical answers, where a correct exact value is
+        followed by an incorrect decimal. However, if the incorrect decimal is carried through to a
+        subsequent part, and correct FT working shown, award FT marks as appropriate but do not
+        award the final A1 in that part.
+                                                 –4–                M18/5/FURMA/HP1/ENG/TZ0/XX/M
+
+
+    Examples
+
+           Correct answer seen       Further working seen            Action
+      1.                               5.65685...                     Award the final A1
+               8 2                     (incorrect decimal value)      (ignore the further working)
+      2.       1
+                 sin 4 x               sin x                          Do not award the final A1
+               4
+      3.       log a  log b           log (a  b)                    Do not award the final A1
+
+
+3   N marks
+
+    Award N marks for correct answers where there is no working.
+
+     Do not award a mixture of N and other marks.
+     There may be fewer N marks available than the total of M, A and R marks; this is
+      deliberate as it penalizes candidates for not following the instruction to show their working.
+
+4   Implied marks
+
+    Implied marks appear in brackets eg (M1), and can only be awarded if correct work is seen or
+    if implied in subsequent working.
+
+     Normally the correct work is seen or implied in the next line.
+     Marks without brackets can only be awarded for work that is seen.
+
+5   Follow through marks
+
+    Follow through (FT) marks are awarded where an incorrect answer from one part of a question is
+    used correctly in subsequent part(s). To award FT marks, there must be working present and
+    not just a final answer based on an incorrect answer to a previous part.
+
+     If the question becomes much simpler because of an error then use discretion to award fewer
+      FT marks.
+     If the error leads to an inappropriate value (eg sin   1.5 ), do not award the mark(s) for the
+      final answer(s).
+     Within a question part, once an error is made, no further dependent A marks can be awarded,
+      but M marks may be awarded if appropriate.
+     Exceptions to this rule will be explicitly noted on the markscheme.
+
+6   Misread
+
+    If a candidate incorrectly copies information from the question, this is a misread (MR).
+    A candidate should be penalized only once for a particular misread. Use the MR stamp to indicate
+    that this has been a misread. Then deduct the first of the marks to be awarded, even if this is an
+    M mark, but award all others so that the candidate only loses one mark.
+
+     If the question becomes much simpler because of the MR, then use discretion to award
+      fewer marks.
+     If the MR leads to an inappropriate value (eg sin   1.5 ), do not award the mark(s) for the
+      final answer(s).
+                                                            –5–            M18/5/FURMA/HP1/ENG/TZ0/XX/M
+
+
+7    Discretionary marks (d)
+
+     An examiner uses discretion to award a mark on the rare occasions when the markscheme does
+     not cover the work seen. In such cases the annotation DM should be used and a brief note written
+     next to the mark explaining this decision.
+
+8    Alternative methods
+
+     Candidates will sometimes use methods other than those in the markscheme. Unless the question
+     specifies a method, other correct methods should be marked in line with the markscheme. If in
+     doubt, contact your team leader for advice.
+
+      Alternative methods for complete questions are indicated by METHOD 1, METHOD 2, etc.
+      Alternative solutions for part-questions are indicated by EITHER . . . OR.
+      Where possible, alignment will also be used to assist examiners in identifying where these
+       alternatives start and finish.
+
+9    Alternative forms
+
+     Unless the question specifies otherwise, accept equivalent forms.
+
+      As this is an international examination, accept all alternative forms of notation.
+      In the markscheme, equivalent numerical and algebraic forms will generally be written in
+       brackets immediately following the answer.
+      In the markscheme, simplified answers, (which candidates often do not write in
+       examinations), will generally appear in brackets. Marks should be awarded for either the
+       form preceding the bracket or the form in brackets (if it is seen).
+
+     Example: for differentiating f ( x)  2sin(5 x – 3) , the markscheme gives:
+
+     f ( x)   2 cos(5 x – 3)  5   10 cos(5 x – 3)                                      A1
+
+     Award A1 for  2 cos(5 x – 3)  5 , even if 10 cos(5 x – 3) is not seen.
+
+10   Accuracy of Answers
+
+     Candidates should NO LONGER be penalized for an accuracy error (AP).
+
+     If the level of accuracy is specified in the question, a mark will be allocated for giving the answer to
+     the required accuracy. When this is not specified in the question, all numerical answers should be
+     given exactly or correct to three significant figures. Please check work carefully for FT.
+
+11   Crossed out work
+
+     If a candidate has drawn a line through work on their examination script, or in some other way
+     crossed out their work, do not award any marks for that work.
+                                                 –6–               M18/5/FURMA/HP1/ENG/TZ0/XX/M
+
+
+12   Calculators
+
+     A GDC is required, but calculators with symbolic manipulation features (for example, TI-89) are
+     not allowed.
+
+     Calculator notation
+     The Mathematics HL guide says:
+     Students must always use correct mathematical notation, not calculator notation.
+     Do not accept final answers written using calculator notation. However, do not penalize the
+     use of calculator notation in the working.
+
+13   More than one solution
+
+     Where a candidate offers two or more different answers to the same question, an examiner should
+     only mark the first response unless the candidate indicates otherwise.
+                                                      –7–        M18/5/FURMA/HP1/ENG/TZ0/XX/M
+
+
+1.   (a)   383  5  74  13                                                     M1
+           74  5 13  9                                                        A1
+           13  1 9  4                                                        (A1)
+           9  2 4 1
+           4  4 1  0
+            gcd (74, 383)  1                                                   A1
+                                                                                        [4 marks]
+
+     (b)   EITHER
+           1  9  2 4                                                          (M1)
+            9  2 13  1 9   3  9  2 13                                  (A1)
+            3  74  5 13  2 13  3  74  17 13                           (A1)
+            3  74  17  383  5  74   88  74  17  383
+
+           OR
+           13  383  5  74                                                     (M1)
+           9  74  5 13
+              74  5(383  5  74)
+              26  74  5  383                                                 (A1)
+           4  13  9
+              (383  5  74)  (26  74  5  383)
+              6  383  31 74                                                  (A1)
+           1  9  2 4
+              (26  74  5  383)  2(6  383  31 74)
+              88  74  17  383
+
+           THEN
+            s  88 and t  17                                                A1A1
+                                                                                        [5 marks]
+
+                                                                                Total [9 marks]
+                                                      –8–                       M18/5/FURMA/HP1/ENG/TZ0/XX/M
+
+
+2.   (a)   METHOD 1
+           A4  4 A2  4 AI  I 2 or equivalent                                               M1A1
+            4(2 A  I )  4 A  I                                                              A1
+            8A  4I  4 A  I
+            12 A  5 I                                                                         AG
+                                                                                                      [3 marks]
+
+           METHOD 2
+           A3  A  2 A  I   2 A2  AI  2  2 A  I   A   5 A  2 I                  M1A1
+           A  A 5A  2I 
+            4
+                                                                                                A1
+            5A  2A  52A  I   2A
+                2
+
+
+            12 A  5 I                                                                         AG
+
+
+                18 2 
+     (b)   B2                                                                               (A1)
+                 1 11
+           18 2   4 2   4 0  10 0 
+            1 11   1 3   0 4    0 10                                               (A1)
+                                         
+            k  10                                                                             A1
+                                                                                                      [3 marks]
+
+                                                                                               Total [6 marks]
+                                                         –9–           M18/5/FURMA/HP1/ENG/TZ0/XX/M
+
+
+3.    (a)    43035  4  53  3  52  0  51  3  50                                    (M1)
+              500  75  3
+              578                                                                         A1
+                                                                                                 [2 marks]
+
+      (b)    METHOD 1
+             1000  a0  7 a1  49a2  343a3                                              (M1)
+             (Since 343a3  1000 )  a3  2                                               (A1)
+             1000  a0  7a1  49a2  686
+             a0  7a1  49a2  314  a2  6                                               (A1)
+             a0  7a1  20  a1  2, a0  6                                               (A1)
+              100010  26267                                                              A1
+
+             METHOD 2
+             1000  7  142  6                                                           (M1)
+             142  7  20  2                                                             (A1)
+             20  7  2  6                                                               (A1)
+             27 0  2                                                                   (A1)
+              (1000)10  26267                                                            A1
+                                                                                                 [5 marks]
+
+                                                                                          Total [7 marks]
+
+
+ 4.    (a)
+                                   T1            T2            T3       T4
+                    T1             T1            T2            T3       T4
+                    T2            T2             T3            T4       T1
+                    T3            T3             T4            T1       T2
+                    T4            T4             T1            T2       T3
+                                                                                           A2
+                                                                                                 [2 marks]
+       Note: Award A1 for 6, 7 or 8 correct.
+
+      (b)    (i)    the table is closed – no new elements                                  A1
+                    T1 is the identity                                                     A1
+                    T3 (and T1 ) are self-inverse; T2 and T4 are an inverse pair. Hence
+                    every element has an inverse                                           A1
+                    hence it is a group                                                    AG
+
+             (ii)   all elements in the group can be generated by T2 (or T4 )              R1
+                    hence the group is cyclic                                              AG
+                                                                                                 [4 marks]
+
+
+                                                                                             continued…
+                                                          – 10 –    M18/5/FURMA/HP1/ENG/TZ0/XX/M
+
+
+Question 4 continued
+
+                                   1 0 
+     (c)     T3 is represented by                                                  A1
+                                   0 1
+                                   0 1 
+             T4 is represented by                                                  A1
+                                  1 0 
+                                  1 0 
+             T5 is represented by                                                  A1
+                                   0 1 
+                                                                                           [3 marks]
+
+                        0 1 1 0   1 0   0 1
+     (d)    (i)                                                          (M1)A1
+                        1 0  0 1  0 1  1 0 
+              Note: Award M1A0 for multiplying the matrices in the wrong order.
+
+            (ii)       a reflection in the line y   x                              A1
+                                                                                           [3 marks]
+
+                                                                                   Total [12 marks]
+
+
+5.   let u  ln x                                                                   (M1)
+           du 1
+              
+           dx x
+             1               1
+      x  ln x  dx   u du
+                   2          2
+                                                                                    (A1)
+
+           1          1
+                                                                                (A1)
+           u        ln x
+                                      m
+                            1 
+     m
+             1
+     2 x  ln x 2  d x    
+                            ln x 
+                                      2
+                                                                                     M1
+
+        1     1 
+                                                                                 A1
+        ln m ln 2 
+                          1
+     as m   ,             0                                                     (A1)
+                        ln m
+     
+             1             1
+     2 x  ln x 2 dx  ln 2 and hence the series converges                         R1
+                                                                                           [7 marks]
+                                                      – 11 –             M18/5/FURMA/HP1/ENG/TZ0/XX/M
+
+
+6.   (a)   (i)    B  C  3 4 6 8 9 12 15 16 18 20                                    (M1)
+                   A  ( B  C )  {4 6 8 12 16 18 20}                                   A1
+
+           (ii)   B \ C  B  C   {3 6 9 15 18}                                    (M1)(A1)
+
+                                                
+                  A \ ( B \ C )  A  ( B  C  )  {2 4 8 10 12 14 16 20}               A1
+                                                                                                [5 marks]
+     (b)   let x be any element of M
+           then x  10q for q                                                           M1
+           hence x  5  2  q                                                           A1
+           since 2  q is an integer, x is an element of N                                R1
+           since M is smaller than N,                                                     R1
+           it is a proper subset                                                          AG
+                                                                                                [4 marks]
+                                                                                         Total [9 marks]
+
+
+                   2 
+7.   (a)   X  N  , 
+                      n 
+                       36 
+           X  N  65,                                                                  (A1)
+                   100 
+           P  Type I Error   P  X  66.5                                           (M1)
+            0.00621                                                                      A1
+                                                                                                [3 marks]
+
+     (b)   (i)    P  Type II Error   P  accept H 0 | H1 is true 
+                   P  X  66.5 |   67.9                                            (M1)
+                                                      36 
+                   P  X  66.5  when X  N  67.9,                                  (M1)
+                                                     100 
+                   0.00982                                                               A1
+
+
+                                                                                            continued…
+                                                  – 12 –            M18/5/FURMA/HP1/ENG/TZ0/XX/M
+
+
+Question 7 continued
+
+          (ii)   the variances of the distributions given by H 0 and H1 are equal,   (R1)
+                 by symmetry the value of x lies midway between 65 and 67.9          (M1)
+                        1
+                 x       65  67.9   66.45                                       A1
+                        2
+
+
+
+
+                                                                                            [6 marks]
+
+                                                                                     Total [9 marks]
+                                                     – 13 –   M18/5/FURMA/HP1/ENG/TZ0/XX/M
+
+
+            1 0 1 1  1           0    1  1 
+                                              
+8.   (a)    3 1 2 1    3a  2 0 2a  1 a  b  or equivalent            M1A1
+            2 a 1 b   2               1 b 
+                                  a
+            0      0 a  3 4a  2  b 
+                                       
+            3a  2 0 2a  1  a b 
+            2         1               
+                   a           b       
+               4a  b  2
+           z                                                               M1A1
+                   a 3
+           x  1  z                                                         M1
+                     4 a  b  2 
+           x  1                 
+                     a3 
+                a  3  4a  b  2
+           x
+                       a 3
+               3a  b  1
+           x                                                                 A1
+                  a 3
+           y  1  3x  2 z                                                   M1
+                     3a  b  1   4a  b  2 
+           y  1 3               2          
+                     a 3   a 3 
+             a  3  9a  3b  3  8a  2b  4
+           
+                            a 3
+             b  10
+                                                                             A1
+              a 3
+                                                                                    [8 marks]
+
+     (b)   when a  3 the denominator of x, y and z  0                       R1
+
+      Note: Accept any valid reason.
+          hence no unique solutions                                           AG
+                                                                                     [1 mark]
+
+     (c)   For example let z                                               (M1)
+           x  1                                                          (A1)
+           y  1  3( 1   )  2
+           y  4                                                           (A1)
+                1       1 
+                
+           r   4     1                                               A1
+               0        1
+                         
+                                                                                    [4 marks]
+     Note: Accept answers which let x   or y   .
+                                                                            Total [13 marks]
+                                                         – 14 –                 M18/5/FURMA/HP1/ENG/TZ0/XX/M
+
+
+9.   (a)    A  B is a rectangle                                                                 A1
+           vertices at  0, 0  ,  3, 0  ,  0, 4  and  3, 4  or equivalent description     A1
+           and its interior                                                                      A1
+      Note: Accept diagrammatic answers.
+                                                                                                       [3 marks]
+
+     (b)   (i)    need to prove it is injective and surjective                                   R1
+                  need to show if f  x, y   f  u, v  then  x, y    u , v               M1
+                   x  3 y  u  3v
+                  2 x  y  2u  v                                                               A1
+                  Equation 2 – 2 Equation 1  y  v
+                  Equation 1 + 3 Equation 2  x  u                                              A1
+                  thus  x, y    u , v   f is injective
+                  let  s, t  be any value in the co-domain   
+                  we must find  x, y  such that f  x, y    s, t                           M1
+                  s  x  3 y and t  2 x  y                                                    M1
+                          2s  t
+                  y                                                                            A1
+                             7
+                            s  3t
+                  and x                                                                         A1
+                               7
+                  hence f  x, y    s, t  and is therefore surjective
+
+                                    x  3y 2x  y 
+           (ii)    f 1  x, y          ,                                                  A1A1
+                                    7        7 
+                                                                                                      [10 marks]
+
+                                                                                               Total [13 marks]
+                                                    – 15 –        M18/5/FURMA/HP1/ENG/TZ0/XX/M
+
+
+10.   (a)   (i)
+
+                                              
+                                  7       7   
+
+
+
+
+                                                                                 (M1)
+
+                   using the transformation of the unit square:
+                    1   cos 2       0   sin 2 
+                               and                                     (M1)
+                    0   sin 2       1    cos 2 
+                                          cos 2 sin 2 
+                   hence the matrix P is                                        A1
+                                          sin 2  cos 2 
+
+            (ii)   using the transformation of the unit square:
+                    1   cos        0    sin  
+                              and                                      (M1)
+                    0   sin        1   cos  
+                                           cos   sin  
+                   hence the matrix Q is                                        A1
+                                           sin  cos  
+                                                                                        [5 marks]
+
+
+                                                                                    continued…
+                                                         – 16 –               M18/5/FURMA/HP1/ENG/TZ0/XX/M
+
+
+Question 10 continued
+
+                   cos  cos 2  sin  sin 2     cos  sin 2  sin  cos 2 
+      (b)   PQ                                                                           M1A1
+                    cos 2 sin   sin 2 cos   sin  sin 2  cos  cos 2 
+              cos  2    sin  2      cos  sin  
+                                                                                      M1A1
+              sin  2     cos  2      sin   cos  
+                                                        1 
+            this is a reflection in the line y   tan   x                                  A1
+                                                        2 
+                                                                                                    [5 marks]
+
+                      cos  sin    cos   sin  
+      (c)   Q TQ                                     
+                       sin  cos    sin  cos  
+                     cos 2   sin 2         cos  sin   cos  sin  
+                                                                                         M1A1
+                sin  cos   cos  sin         sin 2   cos 2       
+               1   0 
+                                                                                           AG
+              0 1
+                                                                                                    [2 marks]
+
+                                                                                            Total [12 marks]
+
+
+                 yx
+11.   (a)   z
+                 yx
+
+                         y  x  
+                                    dy                 dy 
+                                       1   y  x    1
+                 dz                dx                 dx 
+                                                                                          M1A1
+                                        y  x
+                                                2
+                 dx
+                            dy    dy           dy dy
+                        y       x  yx y  x  y x
+              dz            dx    dx           dx dx
+                                                                                            A1
+                                       y  x
+                                               2
+              dx
+                 dz     2  dy        
+                           2 
+                                 x  y                                                       AG
+                 dx  y  x   dx    
+                                                                                                    [3 marks]
+
+                     y  x 2  dz
+      (b)   f  x               y 2  x2                                                 (M1)
+                        2       dx
+                               
+                   dz
+            f  x  2
+                             y  x  y  x                                                 A1
+                                 y  x
+                                         2
+                   dx
+
+            f  x
+                     dz
+                        2
+                            y  x  2z                                                      AG
+                     dx     y  x
+                                                                                                    [2 marks]
+
+
+                                                                                                continued…
+                                             – 17 –   M18/5/FURMA/HP1/ENG/TZ0/XX/M
+
+
+Question 11 continued
+
+     (c)   METHOD 1
+                dz
+           f  x   2z
+                dx
+           1 dz    2
+                
+           z dx f  x 
+           1 dz   2
+                                                                   M1A1
+           z dx x  3
+
+           EITHER
+
+            ln z  2ln  x  3  c                                  A1
+                                         1
+           when y  5, x  4  z                                     M1
+                                         9
+                        1
+            c  ln                                                   A1
+                        9
+                                      1
+            ln z  2 ln  x  3  ln
+                                      9
+            ln z  ln  x  3  ln 9
+                               2
+                                                                      A1
+                                    2
+                        x3
+            ln z  ln                                              A1
+                        3 
+                                2
+                 x 3
+            z      
+                 3 
+
+           OR
+
+            ln z  2ln  x  3  ln c                               A1
+
+           z  c  x  3
+                            2
+                                                                    M1A1
+                                         1
+           when y  5, x  4  z                                     M1
+                                         9
+                    1
+           c                                                        A1
+                    9
+
+           THEN
+                                    2
+                y  x  x3
+                                                                  AG
+                yx  3 
+
+
+                                                                        continued…
+                                                           – 18 –   M18/5/FURMA/HP1/ENG/TZ0/XX/M
+
+
+Question 11 continued
+
+            METHOD 2
+                  dz
+            f  x    2z
+                  dx
+                  dz
+            f  x  2z  0
+                  dx
+            dz 2 z
+                     0                                                            M1
+            dx x  3
+                                              2
+                                    dx
+            integrating factor is e x 3                                            A1
+                  2
+            e
+                      dx
+                 x 3
+                            e 2ln  x 3
+                      1
+                                                                                   A1
+                  x  3
+                              2
+
+
+
+                           d  z 
+            hence                          0                                     M1
+                           dx   x  32 
+            z  A  x  3
+                                    2
+                                                                                    A1
+                                                   1
+            when y  5, x  4  z                                                  M1
+                                                   9
+                  1
+             A                                                                    A1
+                  9
+                           2
+              y  x  x3
+                                                                                AG
+              yx  3 
+
+                                                                                          [7 marks]
+
+                                                                                  Total [12 marks]
+
+
+            auxiliary equation is m  4m  4  0
+                                              2
+12.   (a)                                                                         M1A1
+            hence m has a repeated root of 2                                       (A1)
+            solution is of the form un  a  2   bn  2 
+                                                       n      n
+                                                                                    M1
+            using the initial conditions                                            M1
+                                 1
+             a  1 and b  
+                                 2
+                        n
+             un  2 n   2 
+                               n
+                                                                                    A1
+                        2
+                                                                                          [6 marks]
+
+
+                                                                                      continued…
+                                                                 – 19 –                       M18/5/FURMA/HP1/ENG/TZ0/XX/M
+
+
+Question 12 continued
+
+                          n
+               41 1 n
+     (b)   vn      3
+               52 5
+                                                 0
+                         41 1 0 4 1
+           let n  0 v0      3    1
+                         5 2 5      5 5
+                                             1
+                         41 1 1 2 3
+           let n  1 v1      3    1
+                         52 5           5 5
+           hence true for n  0 and n  1                                                                   M1A1
+                                                     j
+                                          41 1
+           assume that v j                    3 is true for all j  k 1
+                                                     j
+                                                                                                              M1
+                                          52 5
+                                         k                                k 1
+                              41 1 k               41                            1 k 1
+           hence vk               3 and vk 1                                 3
+                              5 2 5                52                            5
+                   7vk  3vk 1
+           vk 1 
+                         2
+                      4  1  k 1 k   4  1 k 1 1 k 1 
+                   7      3   3      3 
+                     5  2  5                  5  2            5       
+           vk 1                                                                                          M1A1
+                                                     2
+                     8  1     k 1
+                                          1       k 1      16  1 k 1 1      k 1 
+                   7      3   3      3 
+                     5  2            15               5  2        45          
+           vk 1                                                                                           (A1)
+                                                          2
+                              k 1                                k 1
+                   56  1              7                48  1        1
+                           3      3
+                                               k 1                         k 1
+
+                    5 2             15                 5 2         15
+           vk 1                                                                                            (A1)
+                                                     2
+                           k 1
+                   8 1              6
+                         3
+                                            k 1
+
+                   5 2              15
+           vk 1                                                                                          (A1)
+                                 2
+      Note: Only one of the above (A1) can be implied.
+                              k 1
+                  41                   1 k 1
+           vk 1                        3
+                  5 2                  5
+           since the basis step and the inductive step have been verified, the
+                                                                                               n
+                                                                 41 1 n
+           Principle of Mathematical Induction tells us that vn      3 is
+                                                                 52 5
+           the general solution                                                                               R1
+                                                                                                                    [9 marks]
+ Note: Only award final R1 if at least 5 previous marks have been awarded.
+                                                                                                            Total [15 marks]
+                                                   – 20 –   M18/5/FURMA/HP1/ENG/TZ0/XX/M
+
+
+             2 4  k   2k          k 
+13.   (a)                     2                              M1A1
+             1 1  k   2k         k 
+            hence still on the line y  x                                   AG
+                                                                                  [2 marks]
+
+                      2 4  4k 
+      (b)   consider                                                    M1
+                      1 1  k 
+              12k    4k  
+                    3                                               A1
+              3k    k  
+            hence the line is invariant                                     A1
+                                                                                  [3 marks]
+
+      (c)   hence the eigenvalues are 2 and 3                            A1A1
+                                                                                  [2 marks]
+
+             1    4
+      (d)     and  1 or equivalent                                   A1A1
+             1     
+                                                                                  [2 marks]
+
+                                                                           Total [9 marks]
+
+
+14.   (a)   x  43.94                                                      (A1)
+            unbiased variance estimate  466.0847                          (A1)
+
+       Note: Accept sample variance  464.2204.
+             90% confidence interval is (41.7,46.2)                      A1A1
+                                                                                  [4 marks]
+
+      (b)   Z-value is 1.87489 or 1.87866                                (A1)
+            probability is 0.0304 or 0.0301                                (A1)
+               3.01                                                   (M1)A1
+                                                                                  [4 marks]
+
+                                                                           Total [8 marks]
+                                                                  – 21 –     M18/5/FURMA/HP1/ENG/TZ0/XX/M
+
+
+15.   EITHER
+      attempt to differentiate                                                              (M1)
+                    dy                            dx
+      let y  2at       2a and x  at 2            2at                                   A1
+                    dt                            dt
+              dy dy dt 2a 1
+      hence                                                                              A1
+              dx dt dx 2at t
+      let P have coordinates  at 21 , 2at1  and Q have coordinates  at 22 , 2at2        (M1)
+                                         1                                  1
+      therefore gradient of tangent at P is and gradient of tangent at Q is                  A1
+                                         t1                                 t2
+                                             1 1
+      since these tangents are perpendicular   1  t1t2  1                              A1
+                                             t1 t2
+                           a  t 21  t 22                  
+      mid-point of PQ is                     , a  t1  t2                                A1
+                                   2                         
+                                                             
+                
+      y  a t 1  2t1t2  t 2
+       2    2   2           2
+                                                                                            M1
+               2x     
+      y2  a2      2    y 2  2ax  2a 2                                               A1
+               a      
+
+      OR
+      attempt to differentiate                                                              (M1)
+         dy
+      2 y  4a                                                                               A1
+         dx
+      dy 2 a
+         
+      dx    y
+      let coordinates of P be  x1 , y1  and the coordinates of Q be  x2 , y2            (M1)
+                                          x  x2 y1  y2 
+      coordinates of midpoint of PQ are  1       ,                                         M1
+                                          2          2 
+                                        2a 2a
+      if the tangents are perpendicular          1                                        A1
+                                        y1 y2
+       y1 y2  4a 2
+      y12  y22  4a  x1  x2                                                              A1
+       y12  2 y1 y2  y22 4a  x1  x2   2 y1 y2
+                                                                                            M1
+                4                         4
+                    2
+       y1  y2             x1  x2  8a
+                                              2
+
+                     2 a                                                               A1
+       2                   2  4
+      hence equation of locus is y  2ax  2a
+                                            2       2
+                                                                                             A1
+                                                                                                   [9 marks]
+

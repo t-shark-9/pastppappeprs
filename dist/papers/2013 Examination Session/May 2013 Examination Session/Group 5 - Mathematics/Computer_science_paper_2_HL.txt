@@ -1,0 +1,346 @@
+M13/5/COMSC/HP2/ENG/TZ0/XX
+
+
+
+
+     22137012
+
+COMPUTER SCIENCE
+HIGHER LEVEL
+PAPER 2
+
+Wednesday 15 May 2013 (morning)
+
+2 hours 15 minutes
+
+
+INSTRUCTIONS TO CANDIDATES
+
+•   Do not open this examination paper until instructed to do so.
+•   Answer all the questions.
+•   A clean copy of the Computer Science case study is required for this paper.
+•   The maximum mark for this examination paper is [100 marks].
+
+
+
+
+2213-7012                                                                                             8 pages
+                                                              © International Baccalaureate Organization 2013
+                                                    –2–                M13/5/COMSC/HP2/ENG/TZ0/XX
+
+Answer all the questions.
+
+1.    A games company employs a team of programmers for the development of
+      online games.
+
+      (a)   Identify two benefits that the online feature provides for the users of the games.      [2 marks]
+
+      The company employs a modular approach to programme development.
+
+      (b)   Describe two benefits that can be gained from using this approach.                      [4 marks]
+
+      One of the games being developed is a version of Sudoku.  The game is based on
+      3 % 3 grids (each consisting of nine cells).   In each grid, the user must enter all of
+      the digits from 1 to 9 once only.   The grids can be represented by 2-D arrays as
+      shown below.
+
+                Grid 1                                                                 Grid 2
+            0     1      2                                                         0     1      2
+        0   4     2      7                                                    0    7     5      9
+        1   1     6      3                                                    1    2     4      8
+        2   5     9      8                                                    2    5     6      3
+
+
+      Grid 1 (above) has been filled in correctly, however, Grid 2 is incorrect, as the
+      digit “5” appears twice (and the digit “1” fails to appear).
+
+      In the Sudoku program, the grid is represented by a 2-D array (called  grid).  
+      For example, in Grid 1, the value represented by  grid[2][1] would be “9”.
+
+      (c)   For Grid 2, state the value of grid[1][2].                                              [1 mark]
+
+      When all of the cells have been filled, the program checks the number of times
+      each digit has been entered, in order to see if the grid has been filled in correctly.
+
+      (d)   Describe the data structure, digits, that would be suitable for storing the
+            number of times that each digit from 1 to 9 has been entered.                           [2 marks]
+
+
+
+
+                                                            (This question continues on the following page)
+
+
+
+
+2213-7012
+                                                    –3–                    M13/5/COMSC/HP2/ENG/TZ0/XX
+
+(Question 1 continued)
+
+      The method checkGrid() inspects each square of the grid and returns the
+      message “Success” or “Failure” depending upon whether or not the grid has
+      been filled in correctly.
+
+      (e)   Construct the method checkGrid().                                                  [7 marks]
+
+      One version of the game consists of nine such 3 % 3 grids joined together as shown
+      below.  The grid has been partially filled in.
+
+                                                  Grid 3
+                                 0    1   2   3     4      5   6   7   8
+                             0   2   3    6                    1   8   5
+                             1   5   1    4                    7   4   9
+                             2   7   8    9                    2   6   3
+                             3
+                             4
+                             5
+                             6
+                             7
+                             8
+
+
+
+      For success, the conditions that must apply are:
+      • each 3 % 3 grid must contain each digit from 1 to 9 just once (same as before)
+      • each complete row must contain each digit from 1 to 9 just once
+      • each complete column must contain each digit from 1 to 9 just once.
+
+      In the example shown (Grid 3), there is a mistake in Row 1 where the digit “4” appears
+      twice.
+
+      (f)   Discuss whether the programming team will be able to reuse the
+            checkGrid()  method to check all of these conditions.   You should include
+            details of any modifications or conditions that would have to be made or met,
+            to make this possible.                                                             [4 marks]
+
+
+
+
+2213-7012                                                                                      Turn over
+                                                    –4–                  M13/5/COMSC/HP2/ENG/TZ0/XX
+
+2.    A linked list is being used to hold the marks for a class of students.
+
+      (a)   With reference to memory, explain how links are formed between consecutive
+            nodes in a linked list.                                                                [2 marks]
+
+      (b)   Explain why a temporary variable is used when traversing a linked list.                [2 marks]
+
+      Each node in the list is a Student object, the Student class being shown below.
+
+      class Student
+      {
+        String surname;
+        int id;
+        Mark firstMark; //points to the first node in a linked list of marks
+        Student nextStudent; //points to the next Student node, or to null
+      }
+
+
+      As shown above, each Student object includes a pointer to a linked list which
+      contains the student’s marks.  Each mark is contained in an object of the Mark class
+      which is shown below.
+
+      class Mark
+      {
+        int score;
+        Mark nextMark;
+      }
+
+
+      (c)   Suggest why both the students and the marks are held in linked lists.                  [2 marks]
+
+      The list holds the following data about two students:
+
+
+                 Position in list      Surname        id             Marks
+                        1              Kuyt           475            23, 12, 45, 12
+                        2              Peters         386            54, 87
+
+
+
+      (d)   Construct a diagram showing the linked lists, using the above data.                    [3 marks]
+
+
+
+
+                                                              (This question continues on the following page)
+
+
+
+
+2213-7012
+                                                  –5–                M13/5/COMSC/HP2/ENG/TZ0/XX
+
+(Question 2 continued)
+
+      The class that is used by the system which manages the students’ marks includes the
+      following methods:
+
+      public double average(Mark firstMark){}
+      //returns the average mark for the list pointed to by firstMark
+
+      public Student locateStudent(int id){}
+      //returns the pointer to a specific node in the student linked list
+
+      public double studentAverage(int id){}
+      // returns the average mark for a specific student or -1 for an
+      // empty marks’ list
+
+      (e)   Construct the method public double average(Mark firstMark).                     [7 marks]
+
+      The average mark of a specified student is determined through the method call:
+
+      double averageMark = studentAverage(id);
+
+
+      (f)   Construct the method studentAverage(int id), making use of any
+            previously defined methods.                                                     [4 marks]
+
+
+
+
+2213-7012                                                                                   Turn over
+                                                   –6–                 M13/5/COMSC/HP2/ENG/TZ0/XX
+
+3.    A hashing algorithm is used to locate records that are stored on a disk.  The algorithm
+      operates on an id number (id) to produce a hash value.  This value indexes a location
+      in a hash table.
+
+      The hash table consists of an array of objects, each of which contains an id number
+      and the memory location of the corresponding record.
+
+                                       hashing
+                       id                                     hash value
+                                      algorithm
+
+
+
+                                      hash table (array of objects)
+
+
+      (a)   Outline one reason for choosing a hashing algorithm to access the records.          [2 marks]
+
+      (b)   If the hashing algorithm used is id % 1000 (where % is the modulo operator),
+
+            (i)    state the hash value produced when the id number = 24 456.                    [1 mark]
+
+            (ii)   state another id number which would give the same hash value.                 [1 mark]
+
+      The method hash() receives the id number and returns the hash value, which is used
+      as the index to the hash table.
+
+      Each entry in the hash table consists of an object of the class Node as shown below.
+
+      class Node
+      {
+        int idNumber;       // id number of a record
+        int memoryLocation; // identifies the memory location for that record
+      }
+
+
+
+
+                                                           (This question continues on the following page)
+
+
+
+
+2213-7012
+                                                      –7–               M13/5/COMSC/HP2/ENG/TZ0/XX
+
+(Question 3 continued)
+
+      The class that manages the hash table is partially shown below.
+
+      class HashTable
+      {
+        Node [] table = new Node[?];                      // see part (c) (i) below
+
+            void displayRecord(int memoryLocation){}
+            // displays the record that is in the specified memory location
+
+            void findRecord(int idNumber){}
+
+            // Note: collisions are dealt with by allocating the next free space in
+            // the array.
+      }
+
+
+      (c)     Given the hash algorithm in part (b), suggest, with reasons,
+
+              (i)    a value for the size of the table array.                              [2 marks]
+
+              (ii)   a value for the number of records.                                    [2 marks]
+
+      When a record is to be displayed, the method findRecord() is called, which carries
+      out the following steps:
+      • the id number is passed as a parameter
+      • the hash function uses the id number to calculate the array index (hash value)
+      • the correct entry in the hash table is located
+      • the complete record is displayed.
+
+      (d)     Construct the method findRecord(), making use of any previously defined
+              methods.                                                                     [8 marks]
+
+      The programmer has the choice of using a hash table or a full index to access an
+      individual record.
+
+      (e)     Suggest reasons for choosing a full index and not a hash table.              [4 marks]
+
+
+
+
+2213-7012                                                                                  Turn over
+                                                    –8–                 M13/5/COMSC/HP2/ENG/TZ0/XX
+
+This question requires the use of the case study.
+
+4.    (a)   With reference to page 4 of the case study, explain with the use of examples why
+            RAM is also known as dynamic memory.                                                 [2 marks]
+
+      (b)   Identify the data that would be stored in the firmware of a smartphone.               [1 mark]
+
+      (c)   Describe two ways in which manufacturers have overcome the limited number
+            of options that can be displayed on a touch screen.                                  [4 marks]
+
+      (d)   Explain why the increase in use of 3G/4G phones might be of concern to
+            Internet Service Providers (ISPs).                                                   [3 marks]
+
+      (e)   By making use of both positive and negative examples, discuss whether students
+            should be allowed to use smartphones during lessons at school.                       [6 marks]
+
+      (f)   Outline why one of the chips inside a smartphone will contain an
+            analogue-to-digital converter (ADC).                                                 [2 marks]
+
+      (g)   Describe two consequences of the low power consumption of Bluetooth for
+            smartphone users.                                                                    [4 marks]
+
+      Scientists often make use of sensors when taking part in field studies.
+
+      (h)   With reference to a specific example, describe how a smartphone could be used
+            in these studies.                                                                    [3 marks]
+
+      (i)   Suggest one reason for choosing a smartphone that makes use of a “kill” switch.      [2 marks]
+
+      (j)   Explain why higher-pixel density leads to sharper images on a screen.                [3 marks]
+
+      (k)   (i)    Describe a scenario in which an interrupt will cause a program to take
+                   priority in a smartphone.                                                     [2 marks]
+
+            (ii)   For the scenario in part (k) (i) outline how the program that was initially
+                   running can be resumed.                                                       [2 marks]
+
+      When a name is being searched for in a smartphone’s address book, entering the
+      first letter of the name takes the user to the correct section of the book.   Entering
+      the second letter then refines the search even more.
+
+      (l)   With reference to both data structures and processing, suggest how the search
+            process is carried out.                                                              [6 marks]
+
+
+
+
+2213-7012
+

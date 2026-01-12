@@ -1,0 +1,303 @@
+N18/4/COMSC/HP1/ENG/TZ0/XX
+
+
+
+
+Computer science
+Higher level
+Paper 1
+
+
+Friday 2 November 2018 (afternoon)
+
+
+2 hours 10 minutes
+
+
+Instructions to candidates
+yyDo not open this examination paper until instructed to do so.
+yySection A: answer
+                  all questions.
+yySection B: answer
+                  all questions.
+yyThe maximum mark for this examination paper is [100 marks].
+
+
+
+
+                                                                                            8818 – 7011
+     9 pages                                            © International Baccalaureate Organization 2018
+  –2–        N18/4/COMSC/HP1/ENG/TZ0/XX
+
+
+
+
+Blank page
+                                                  –3–                  N18/4/COMSC/HP1/ENG/TZ0/XX
+
+                                              Section A
+
+Answer all questions.
+
+1.   (a)   Outline what is meant by the term computer network.                                      [2]
+
+     (b)   Describe one problem resulting from low bandwidth in a computer network.[2]
+
+
+2.   Direct observation is a technique used by a system analyst to determine user requirements
+     for updating a computer system.
+
+     (a)   Identify one advantage of direct observation.                                            [1]
+
+     (b)   Identify one disadvantage of direct observation.                                         [1]
+
+
+3.   Construct a logic diagram for the following expression.
+
+								                                     not A or (A and B)[3]
+
+
+4.   An international company is in the process of moving its Head Office from Europe to Asia.
+
+     (a)   Identify two possible compatibility issues as a part of data migration.                  [2]
+
+     (b)   Outline how a virtual private network (VPN) will allow employees who are in Europe to
+           communicate with the Head Office in Asia.                                                [2]
+
+     (c)   Outline one social issue associated with this process.                                   [2]
+
+
+5.   Describe how data is transmitted by packet switching.                                          [4]
+
+
+6.   Explain the importance of the method isEmpty() when constructing an algorithm which
+     performs operations on a stack data structure.                                                 [3]
+
+
+7.   Distinguish between the use of time slicing and priorities in the scheduling of processes by
+     an operating system.                                                                           [3]
+
+
+
+
+                                                                                               Turn over
+                                                   –4–                   N18/4/COMSC/HP1/ENG/TZ0/XX
+
+                                                 Section B
+
+Answer all questions.
+
+8.   (a)   (i)	Distinguish between random access memory (RAM) and read only memory (ROM). [3]
+
+           (ii)    Outline the function of an operating system in managing primary memory.              [2]
+
+     (b)    Explain the roles of the data bus and the address bus in the machine instruction cycle.     [4]
+
+     (c)    (i)	State how the data stored in the following byte will be represented in hexadecimal.   [1]
+
+                                    0    1   0     1   1     1   1   0
+
+           (ii)    State how many integers could be represented in this byte.                           [1]
+
+           (iii)   Outline why this byte could not be used to represent characters such as those
+                   used in Chinese.                                                                     [2]
+
+     (d)   Construct a truth table with two input variables. If input variables are equal the value of
+           output variable should be True, False otherwise.[2]
+
+
+9.   (a)   Outline the need for higher level languages.                                                 [2]
+
+     (b)   Explain two benefits of using sub-procedures within a computer program.                      [4]
+
+     (c)   Identify three characteristics of a collection.[3]
+
+     Collection NUMBERS already exists and stores real numbers.
+
+     (d)   Construct in pseudocode an algorithm, using the access methods of a collection, which
+           will iterate through the collection NUMBERS and count how many elements stored in the
+           collection are in the interval [–1,1].
+
+           The final answer should be output.                                                           [6]
+                                                    –5–                 N18/4/COMSC/HP1/ENG/TZ0/XX
+
+10.   An oil and gas company has a networked computer system for use of their employees in the
+      Head Office.
+
+      (a)   (i)	Identify one hardware security measure that will ensure that confidential data
+                  from the Head Office cannot be accessed.                                              [1]
+
+            (ii)   Identify one software security measure that will ensure that confidential data from
+                   the Head Office cannot be accessed.                                                  [1]
+
+      The company also uses the internet to enable communication with employees working on
+      exploration and production in many remote geographical areas.
+
+      (b)   Identify one network security measure.                                                      [1]
+
+      The sub-sea oil and gas exploration and production unit of the company relies on thousands
+      of kilometres of pipeline which are monitored by a computer control system which can detect
+      leaks.
+
+      (c)   Explain the environmental benefit of using a computer control system to monitor the
+            pipeline.[3]
+
+      The process of detecting leaks is carried out by sensors which are continuously monitoring
+      changes in the flow and pressure of the liquids in the pipes.
+
+      This data is processed on a computer in the office.
+
+      If any of sensor values are outside of the acceptable parameters stored on a disk in the
+      office, the following error routines are performed:
+
+      • an alarm is sounded on the computer at the office
+      • an email message is sent to managers in the Head Office.
+      A member of staff can also configure the system.
+
+      (d)   Explain the relationship between sensors, output transducers and processor in this
+            situation.[4]
+
+      (e)   Construct a system flowchart to represent the process described above.                      [5]
+
+
+
+
+                                                                                                   Turn over
+                                                      –6–                  N18/4/COMSC/HP1/ENG/TZ0/XX
+
+11.   The names of vegetables must be always held in alphabetical order in a list in the
+      main memory.
+
+      The application program should allow insertion and deletion of the names of vegetables from
+      this list.
+
+      (a)   Compare the use of a dynamic linked list for holding these names of vegetables with a
+            static one-dimensional array.                                                                   [3]
+
+      Given the following vegetables: potato, asparagus, lettuce, radish.
+
+      (b)   Sketch a single linked list holding these vegetables.                                           [2]
+
+      (c)   (i)    List the steps required to insert cabbage into the linked list.                          [4]
+
+            (ii)   Explain why deleting the first node in this list is different to deleting other nodes.   [2]
+
+      (d)   State the dynamic data structure suitable for maintaining this list of vegetables which
+            will allow faster searching for a given vegetable name.                                         [1]
+
+      The vegetable names are input in the following order
+
+                                   potato, asparagus, lettuce, radish.
+
+      (e)   Sketch the data structure suggested in part (d) containing the vegetable names sorted
+            in alphabetical order.                                                                          [3]
+                                                      –7–                  N18/4/COMSC/HP1/ENG/TZ0/XX
+
+12.   The following method, swap(A,B)is written to exchange the values of variables A and B.
+
+		swap(A,B)
+			TEMP = A
+			B = TEMP
+			A = B
+		end swap
+
+      (a)   (i)       Assume A = 3 and B = 5.
+
+                      State the values of A and B after execution of swap(A,B).                      [1]
+
+            (ii)      Suggest how the algorithm used in method swap() would need to be modified to
+                      successfully exchange the values of variables A and B.                         [2]
+
+      Method swapRows(MAT,K,L) swaps the elements of two rows (row K and row L) in the
+      two‑dimensional array MAT.
+
+      For example,
+                                                                              The contents of the
+                   The initial contents of                                      two-dimensional
+                   the two-dimensional                                           array MAT after
+                         array MAT                                            execution of method
+                                                                             swapRows(MAT,1,4)
+             [0]        [1]     [2]    [3]                                  [0]    [1]   [2]   [3]
+
+      [0]         7       1      2       3                           [0]     7      1     2    3
+      [1]         4       0      0       0   swapRows(MAT,1,4) [1]           5      0    –1    0
+      [2]         6       0     –3       0                           [2]     6      0    –3    0
+      [3]         4       0      0       4                           [3]     4      0     0    4
+      [4]         5       0     –1       0                           [4]     4      0     0    0
+      [5]         5     –6       0       9                           [5]     5     –6     0    9
+
+      (b)   Use pseudocode to construct an algorithm for the method swapRows().[4]
+
+
+
+(This question continues on the following page)
+
+
+
+
+                                                                                                Turn over
+                                                      –8–             N18/4/COMSC/HP1/ENG/TZ0/XX
+
+(Question 12 continued)
+
+     A game consists of four rounds. In each round a player can score up to 100 points.
+
+     The data about the game is sorted in alphabetical order of names and stored in the memory
+     as follows
+
+           PLAYERS                               ROUNDS                     TOTALS
+                                      [0]       [1]   [2]   [3]
+
+    [0]     Annie              [0]     70       10    23     3        [0]        106
+    [1]     Boris              [1]     40        0    50    90        [1]        180
+    [2]     Hugh               [2]     60       38    42    90        [2]        230
+    [3]     Paul               [3]     45        0     0    60        [3]        105
+    [4]     Robby              [4]     55        0    15    10        [4]         80
+    [5]     Tammy              [5]     51       60    20    90        [5]        221
+
+
+     Where
+     PLAYERS is a one-dimensional array holding names of players (currently sorted in
+     alphabetical order).
+     ROUNDS is a two-dimensional array holding players’ scores.
+     TOTALS is a one-dimensional array holding total scores.
+
+     For example,
+     PLAYER[1] is Boris. The total number of points he scored is 180 and this can be found in
+     TOTALS[1].
+     Boris scored 40 points in the first round which can be found in ROUNDS[1][0].
+     The value stored in ROUNDS[1][2] is 50 which means that Boris scored 50 points in the
+     third round.
+
+     (c)   (i)     State Paul’s total score.                                                    [1]
+
+           (ii)    State where Hugh’s score in the fourth round can be found.                   [1]
+
+
+
+(This question continues on the following page)
+                                                   –9–                 N18/4/COMSC/HP1/ENG/TZ0/XX
+
+(Question 12 continued)
+
+     All the data stored in memory should be sorted in ascending order of total score using
+     selection sort.
+
+     For example, after sorting, the data given opposite will be held in memory as follows
+
+           PLAYERS                           ROUNDS                           TOTALS
+                                    [0]    [1]     [2]    [3]
+
+    [0]    Hugh              [0]     60     38     42      90          [0]      230
+    [1]    Tammy             [1]     51     60     20      90          [1]      221
+    [2]    Boris             [2]     40      0     50      90          [2]      180
+    [3]    Annie             [3]     70     10     23       3          [3]      106
+    [4]    Paul              [4]     45      0       0     60          [4]      105
+    [5]    Robby             [5]     55      0     15      10          [5]          80
+
+
+     (d)   Construct an algorithm that will sort all the data in ascending order.
+
+           In your solution you should call methods swap() and swapRows() given in part (a) and
+           part (b).                                                                             [6]
+

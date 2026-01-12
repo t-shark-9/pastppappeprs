@@ -1,0 +1,342 @@
+© International Baccalaureate Organization 2022
+
+All rights reserved. No part of this product may be reproduced in any form or by any
+electronic or mechanical means, including information storage and retrieval systems,
+without the prior written permission from the IB. Additionally, the license tied with this
+product prohibits use of any selected files or extracts from this product. Use by third
+parties, including but not limited to publishers, private teachers, tutoring or study services,
+preparatory schools, vendors operating curriculum mapping services or teacher resource
+digital platforms and app developers, whether fee-covered or not, is prohibited and is a
+criminal offense.
+
+More information on how to request written permission in the form of a license can be
+obtained from https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-
+license/.
+
+© Organisation du Baccalauréat International 2022
+
+Tous droits réservés. Aucune partie de ce produit ne peut être reproduite sous quelque
+forme ni par quelque moyen que ce soit, électronique ou mécanique, y compris des
+systèmes de stockage et de récupération d’informations, sans l’autorisation écrite
+préalable de l’IB. De plus, la licence associée à ce produit interdit toute utilisation de tout
+fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris, sans
+toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de tutorat ou
+d’aide aux études, des établissements de préparation à l’enseignement supérieur, des
+fournisseurs de services de planification des programmes d’études, des gestionnaires de
+plateformes pédagogiques en ligne, et des développeurs d’applications, moyennant
+paiement ou non, est interdite et constitue une infraction pénale.
+
+Pour plus d’informations sur la procédure à suivre pour obtenir une autorisation écrite
+sous la forme d’une licence, rendez-vous à l’adresse https://ibo.org/become-an-ib-school/
+ib-publishing/licensing/applying-for-a-license/.
+
+© Organización del Bachillerato Internacional, 2022
+
+Todos los derechos reservados. No se podrá reproducir ninguna parte de este producto
+de ninguna forma ni por ningún medio electrónico o mecánico, incluidos los sistemas de
+almacenamiento y recuperación de información, sin la previa autorización por escrito del
+IB. Además, la licencia vinculada a este producto prohíbe el uso de todo archivo o
+fragmento seleccionado de este producto. El uso por parte de terceros —lo que incluye,
+a título enunciativo, editoriales, profesores particulares, servicios de apoyo académico o
+ayuda para el estudio, colegios preparatorios, desarrolladores de aplicaciones y
+entidades que presten servicios de planificación curricular u ofrezcan recursos para
+docentes mediante plataformas digitales—, ya sea incluido en tasas o no, está prohibido
+y constituye un delito.
+
+En este enlace encontrará más información sobre cómo solicitar una autorización por
+escrito en forma de licencia: https://ibo.org/become-an-ib-school/ib-publishing/licensing/
+applying-for-a-license/.
+Mathematics: applications and interpretation
+Higher level
+Paper 3
+
+Tuesday 8 November 2022 (afternoon)
+
+
+1 hour
+
+
+Instructions to candidates
+y Do not open this examination paper until instructed to do so.
+y A graphic display calculator is required for this paper.
+y Answer all the questions in the answer booklet provided.
+y Unless otherwise stated in the question, all numerical answers should be given exactly or
+  correct to three significant figures.
+y A clean copy of the mathematics: applications and interpretation formula booklet is
+  required for this paper.
+y The maximum mark for this examination paper is [55 marks].
+
+
+
+
+                                                                                              8822 – 7203
+     8 pages                                              © International Baccalaureate Organization 2022
+  –2–        8822 – 7203
+
+
+
+
+Blank page
+                                                  –3–                                            8822 – 7203
+
+
+Answer both questions in the answer booklet provided. Please start each question on a new page.
+Full marks are not necessarily awarded for a correct answer with no working. Answers must be
+supported by working and/or explanations. Solutions found from a graphic display calculator should be
+supported by suitable working. For example, if graphs are used to find a solution, you should sketch
+these as part of your answer. Where an answer is incorrect, some marks may be given for a correct
+method, provided this is shown by written working. You are therefore advised to show all working.
+
+1.   [Maximum mark: 29]
+
+     In this question, you will explore possible approaches to using historical sports results
+     for making predictions about future sports matches.
+
+     Two friends, Peter and Helen, are discussing ways of predicting the outcomes of international
+     football matches involving Argentina.
+
+     Peter suggests analysing historical data to help make predictions. He lists the results of the
+     most recent 240 matches in which Argentina played, in chronological order, then considers
+     blocks of four matches at a time. He counts how many times Argentina has won in each
+     block. The following table shows his results for the 60 blocks of four matches.
+
+                             Number of wins for Argentina
+                                                                 Frequency
+                              (per block of four matches)
+
+                                            0                          0
+                                            1                        11
+                                            2                        21
+                                            3                        21
+                                            4                          7
+
+     (a)   Determine the mean number of wins per block of four matches for Argentina.                   [2]
+
+     Peter thinks that this data can be modelled by a binomial distribution with n = 4 and decides
+     to carry out a χ 2 goodness of fit test.
+
+     (b)   Use Peter’s data to write down an estimate for the probability p for this binomial model.    [1]
+
+     (c)   (i)	Use the binomial model to find the probability that Argentina win zero matches in
+                a block of four matches.                                                                [1]
+
+           (ii)   Find the expected frequency for zero wins.                                            [2]
+
+(This question continues on the following page)
+
+
+
+
+                                                                                                Turn over
+                                                    –4–                                            8822 – 7203
+
+
+(Question 1 continued)
+
+     As some expected frequencies are less than 5, Peter combines rows in his table to produce
+     the following observed frequencies. He then uses his binomial model to find appropriate
+     expected frequencies, correct to one decimal place.
+
+           Number of wins for Argentina
+                                                Observed frequency        Expected frequency
+            (per block of four matches)
+
+                          0 or 1                          11                       10.8
+                            2                             21                       20.7
+                            3                             21                       20.7
+                            4                                 7                      7.8
+
+     (d)   Peter uses this table to carry out a χ 2 goodness of fit test, to test the hypothesis that
+           the data follows a binomial distribution with n = 4 , at the 5 % significance level.
+
+           For this test, state
+
+           (i)     the null hypothesis;                                                                   [1]
+
+           (ii)    the number of degrees of freedom;                                                      [1]
+
+           (iii)   the p-value;[2]
+
+           (iv)    the conclusion, justifying your answer.                                                [2]
+
+     (e)   Using Peter’s binomial model, find the probability that Argentina will win at least one of
+           their next four international football matches.                                                [2]
+
+(This question continues on the following page)
+                                                    –5–                                          8822 – 7203
+
+
+(Question 1 continued)
+
+     Helen thinks that a better prediction might be made by considering the transition between
+     matches. To keep the model simple, she decides to use only two states: Argentina won (A)
+     or Argentina did not win (B). Helen looks at Peter’s list of results and counts the number of
+     times that:
+     y Argentina won, twice in succession (AA),
+     y Argentina won, then did not win (AB),
+     y Argentina did not win, then won (BA),
+     y Argentina did not win, twice in succession (BB).
+
+     She recorded the following results.
+
+                                          Transition    Frequency
+
+                                              AA             85
+                                              AB             60
+                                              BA             62
+                                              BB             32
+
+     Helen uses the relative frequencies to estimate the probabilities in a transition matrix.
+
+     (f)   (i)	Given that Argentina won the previous match, show that Helen’s estimate for the
+                                                                        17
+                   probability of Argentina winning the next match is      .[2]
+                                                                        29
+           (ii)    Write down the transition matrix, T , for Helen’s model.                             [2]
+
+     (g)   (i)	Show that the characteristic polynomial of T is 1363λ2 − 1263λ − 100 = 0.[3]
+
+           (ii)    Hence or otherwise, find the eigenvalues of T .                                      [1]
+
+           (iii)   Find the corresponding eigenvectors.                                                 [3]
+
+     (h)   In her retirement, many years from now, Helen is planning to travel to three consecutive
+           international football matches involving Argentina. Use Helen’s model to find the
+           probability that Argentina will win all three matches.                                       [4]
+
+
+
+
+                                                                                                 Turn over
+                                                          –6–                                                        8822 – 7203
+
+
+2.   [Maximum mark: 26]
+
+     Some medical conditions require patients to take medication regularly for long
+     periods of time. In this question, you will explore the concentration of a medicinal
+     drug in the body, when the drug is given repeatedly.
+
+     Once a drug enters the body, it is absorbed into the blood. As the body breaks down the
+     drug over time, the concentration of the drug decreases. Let C (t ) , measured in milligrams
+     per millilitre (mg ml−1) , be the concentration of the drug, t hours after the drug is given to the
+     patient. The rate at which the drug is broken down is modelled as directly proportional to its
+     concentration, leading to the differential equation
+
+                                           dC
+                                               kC , where k∈+ .
+                                           dt
+
+     The initial concentration is d mg ml−1 , d > 0 .
+
+     (a)   By solving the differential equation, show that C = de−kt .                                                      [3]
+
+     For the remainder of this question, you will consider a particular drug where it is known
+     that k = 0.2 . The first dose is given at time t = 0 and it is assumed that before this there
+     is no drug present in the blood.
+
+     (b)   Find the time, in hours, for this drug to reach 5 % of its initial concentration.                                [2]
+
+     The drug is to be given every T hours and in constant doses, such that the concentration of
+     the drug is increased by an amount d mg ml−1 . To simplify the model, it is assumed that each
+     time the drug is given the concentration of the drug in the blood increases instantaneously.
+
+
+     (c)                                                           
+           Show that the concentration of the drug is d 1  e 0.2T  e 0.4T               immediately after the
+           third dose is given.                                                                                             [4]
+
+     Immediately after the nth dose is given, the concentration of the drug is
+
+
+                                     d 1  e 0.2T  e 0.4T  ...  e 0.2 ( n1)T  .
+
+
+                                                               1  e 0.2 nT 
+     (d)   Show that this concentration can be expressed as d         0.2T 
+                                                                                .[2]
+                                                               1 e          
+(This question continues on the following page)
+                                                   –7–                                            8822 – 7203
+
+
+(Question 2 continued)
+
+     After a patient has been taking this drug for a long time, it is required to keep the
+     concentration within a particular range so that it is both safe and effective.
+
+     Let Hn be the highest concentration of the drug in the body for the interval (n − 1)T ≤ t < nT .
+
+     Let Ln be the lowest concentration of the drug in the body for the interval (n − 1)T ≤ t < nT .
+     This is shown in the following graph.
+
+                           C
+
+
+
+                          Hn
+
+
+
+
+                          Ln
+
+
+
+
+                                  (n – 1)T             nT                 (n+1)T      t
+
+
+     H∞ is defined as lim H n and L∞ is defined as lim Ln .
+                           n                        n
+
+     (e)   Find, in terms of d and T , an expression for
+
+           (i)    H∞ .                                                                                   [2]
+
+           (ii)   L∞ .                                                                                   [3]
+
+     (f)   Show that
+
+           (i)    H∞ − L∞ = d .[2]
+
+                      H 
+           (ii)   5ln     T .[3]
+                       L 
+
+(This question continues on the following page)
+
+
+
+
+                                                                                                 Turn over
+                                                      –8–                                            8822 – 7203
+
+
+(Question 2 continued)
+
+      It is known that this drug is ineffective if the long-term concentration is less than 0.06 mg ml−1
+      and safe if it never exceeds 0.28 mg ml−1 .
+
+      (g)     Hence, for this drug, find a suitable value for
+
+              (i)    d .                                                                                    [1]
+
+              (ii)   T .                                                                                    [1]
+
+      (h)     For the values of d and T found in part (g), find the proportion of time for which the
+              concentration of the drug is at least 0.06 mg ml−1 between the first and second doses.        [2]
+
+      (i)     Suggest a reason why the instructions on the label of the drug might use a different
+              value for T to that found in part (g)(ii).                                                    [1]
+
+
+
+
+
+
+
+
+References:
+© International Baccalaureate Organization 2022
+

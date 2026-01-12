@@ -1,0 +1,196 @@
+N12/5/MATHL/HP3/ENG/TZ0/SG
+
+
+
+
+     88127209
+
+mathematics
+Higher level
+Paper 3 – SETS, RELATIONS AND GROUPS
+
+Thursday 8 November 2012 (morning)
+
+1 hour
+
+
+instructions to candidates
+
+ Do not open this examination paper until instructed to do so.
+ Answer all the questions.
+ Unless otherwise stated in the question, all numerical answers should be given exactly or
+  correct to three significant figures.
+ A graphic display calculator is required for this paper.
+ A clean copy of the Mathematics HL and Further Mathematics SL information booklet is
+  required for this paper.
+ The maximum mark for this examination paper is [60 marks].
+
+
+
+
+8812-7209                                                                                       5 pages
+                                                        © International Baccalaureate Organization 2012
+                                                     –2–                N12/5/MATHL/HP3/ENG/TZ0/SG
+
+Please start each question on a new page. Full marks are not necessarily awarded for a correct answer
+with no working. Answers must be supported by working and/or explanations. In particular, solutions
+found from a graphic display calculator should be supported by suitable working, e.g. if graphs are used to
+find a solution, you should sketch these as part of your answer. Where an answer is incorrect, some marks
+may be given for a correct method, provided this is shown by written working. You are therefore advised
+to show all working.
+
+1.    [Maximum mark: 19]
+
+      All of the relations in this question are defined on  \{0} .
+
+      (a)   Decide, giving a proof or a counter-example, whether xRy ⇔ x + y > 7 is
+
+            (i)    reflexive;
+
+            (ii)   symmetric;
+
+		          (iii) transitive.                                                                   [4 marks]
+
+      (b)   Decide, giving a proof or a counter-example, whether xRy ⇔ −2 < x − y < 2 is
+
+            (i)    reflexive;
+
+            (ii)   symmetric;
+
+		          (iii) transitive.                                                                   [4 marks]
+
+      (c)   Decide, giving a proof or a counter-example, whether xRy ⇔ xy > 0 is
+
+            (i)    reflexive;
+
+            (ii)   symmetric;
+
+		          (iii) transitive.                                                                   [4 marks]
+
+                                                                           x
+      (d)   Decide, giving a proof or a counter-example, whether xRy ⇔       ∈  is
+                                                                           y
+
+            (i)    reflexive;
+
+            (ii)   symmetric;
+
+		          (iii) transitive.                                                                   [4 marks]
+
+      (e)   One of the relations from parts (a), (b), (c) and (d) is an equivalence relation.
+            For this relation, state what the equivalence classes are.                          [3 marks]
+
+8812-7209
+                                                     –3–                N12/5/MATHL/HP3/ENG/TZ0/SG
+
+2.    [Maximum mark: 9]
+
+                                                                 x         
+      Let A be the set of 2 ×1 matrices defined as follows: A =   x , y ∈   . A function
+                                                                  y         
+                                       x  1 2 x 
+      f  is defined from  A to A by f     =         .
+                                       y  3 4 y 
+
+                       5
+      (a)   Evaluate f     .                                                                 [1 mark]
+                       6
+
+      (b)   Prove that f is an injection.                                                       [2 marks]
+
+      (c)   Prove that f is a surjection.                                                       [2 marks]
+
+                       x 
+      (d)   Find f −1     .                                                                 [2 marks]
+                       y 
+
+                                                        x  1 2 x 
+      Another function g  is defined from  A to A by g     =        .
+                                                         y    3 6  y 
+
+      (e)   Is g a bijection? Justify your answer.                                              [2 marks]
+
+
+
+
+8812-7209                                                                                       Turn over
+                                                       –4–                 N12/5/MATHL/HP3/ENG/TZ0/SG
+
+3.    [Maximum mark: 15]
+
+      Let A = {a , b} .
+
+      (a)   Write down all four subsets of A .                                                     [1 mark]
+
+      Let the set of all these subsets be denoted by P ( A) . The binary operation symmetric
+      difference, ∆ , is defined on P ( A) by X ∆Y = ( X \ Y ) ∪ (Y \ X ) where X , Y ∈ P ( A) .
+
+      (b)   Construct the Cayley table for P ( A) under ∆ .                                        [3 marks]
+
+      (c)   Prove that {P ( A), ∆} is a group. You are allowed to assume that ∆ is associative.    [3 marks]
+
+      Let  4 = {0 , 1, 2 , 3} and + 4 denote addition modulo 4.
+
+      (d)   Is {P ( A), ∆} isomorphic to { 4 , + 4 } ? Justify your answer.                       [2 marks]
+
+      Let S be any non-empty set. Let P ( S ) be the set of all subsets of S . For the following
+      parts, you are allowed to assume that ∆ , ∪ and ∩ are associative.
+
+      (e)   (i)    State the identity element for {P ( S ), ∆} .
+
+		          (ii)   Write down X −1 for X ∈ P ( S ) .
+
+		          (iii) Hence prove that {P ( S ), ∆} is a group.                                        [4 marks]
+
+      (f)   Explain why {P ( S ), ∪} is not a group.                                               [1 mark]
+
+      (g)   Explain why {P ( S ), ∩} is not a group.                                               [1 mark]
+
+
+
+
+8812-7209
+                                                         –5–            N12/5/MATHL/HP3/ENG/TZ0/SG
+
+4.    [Maximum mark: 17]
+
+      Let c be a positive, real constant. Let G be the set {x ∈  − c < x < c} . The binary
+                                                       x+ y
+      operation * is defined on the set  G by x * y =       .
+                                                         xy
+                                                      1+ 2
+                                                         c
+
+                       c 3c
+      (a)   Simplify    * .                                                                   [2 marks]
+                       2 4
+
+      (b)   State the identity element for G under * .                                        [1 mark]
+
+      (c)   For x ∈ G find an expression for x −1 (the inverse of x under * ).                [1 mark]
+
+      (d)   Show that the binary operation * is commutative on G .                            [2 marks]
+
+      (e)   Show that the binary operation * is associative on G .                            [4 marks]
+
+      (f)   (i)    If x , y ∈ G explain why (c − x) (c − y ) > 0 .
+
+                                                  xy
+		          (ii)   Hence show that x + y < c +       .                                        [2 marks]
+                                                  c
+
+                                    xy
+      You are also told that −c −      < x+ y.
+                                    c
+
+      (g)   Show that G is closed under * .                                                   [2 marks]
+
+      (h)   Explain why {G , *} is an Abelian group.                                          [2 marks]
+
+      (i)   State what happens to the group {G , *} as c → ∞ .                                [1 mark]
+
+
+
+
+8812-7209
+

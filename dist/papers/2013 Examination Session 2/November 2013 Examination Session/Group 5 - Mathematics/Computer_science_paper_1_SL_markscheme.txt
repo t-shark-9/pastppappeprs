@@ -1,0 +1,307 @@
+N13/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+
+
+                   MARKSCHEME
+
+
+                      November 2013
+
+
+
+                COMPUTER SCIENCE
+
+
+
+                      Standard Level
+
+
+
+                               Paper 1
+
+
+
+
+9 pages
+                              –2–            N13/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+
+
+This markscheme is confidential and for the exclusive use of
+examiners in this examination session.
+
+It is the property of the International Baccalaureate and must not
+be reproduced or distributed to any other person without the
+authorization of the IB Assessment Centre.
+                                                  –3–              N13/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+Subject Details:             Computer Science SL Paper 1 Markscheme
+
+Mark Allocation
+
+Section A: Candidates are required to answer all questions. Total 30 marks.
+Section B: Candidates are required to answer all questions. Total 40 marks.
+           Maximum total = 70 marks.
+
+General
+
+A markscheme often has more specific points worthy of a mark than the total allows. This is intentional.
+Do not award more than the maximum marks allowed for that part of a question.
+
+When deciding upon alternative answers by candidates to those given in the markscheme, consider the
+following points:
+
+         Each statement worth one point has a separate line and the end is signified by means of a
+           semi-colon (;).
+
+         An alternative answer or wording is indicated in the markscheme by a “/”; either wording can
+           be accepted.
+
+         Words in ( … ) in the markscheme are not necessary to gain the mark.
+
+         If the candidate’s answer has the same meaning or can be clearly interpreted as being the
+           same as that in the markscheme then award the mark.
+
+         Mark positively. Give candidates credit for what they have achieved and for what they have
+           got correct, rather than penalizing them for what they have not achieved or what they have got
+           wrong.
+
+         Remember that many candidates are writing in a second language; be forgiving of minor
+           linguistic slips. In this subject effective communication is more important than grammatical
+           accuracy.
+
+         Occasionally, a part of a question may require a calculation whose answer is required for
+           subsequent parts. If an error is made in the first part then it should be penalized. However, if
+           the incorrect answer is used correctly in subsequent parts then follow through marks should
+           be awarded. Indicate this with “FT”.
+                                                    –4–          N13/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+                                                 SECTION A                           Total: [30 marks]
+
+1.   Award up to [2 marks max].
+     User manual;
+     Installation instructions;
+     (Online) help/support;
+     Etc.                                                                                   [2 marks]
+
+
+2.   Award up to [2 marks max].
+     To speed up access to data stored on the disk;
+     It reorganizes blocks of data on a hard disk;
+     Which became separated as data is added/deleted;
+     To be next to each other;                                                              [2 marks]
+
+
+3.   Award up to [2 marks max].
+     Memory management;
+     Resource handling;
+     Program and data management;
+     Coordinating processing;
+     Communicating with peripherals;
+     Etc.                                                                                   [2 marks]
+
+
+4.   Award up to [2 marks max].
+     Text based;
+     Base of any other software for creation of web pages;
+     Cheap/free for schools;                                                                [2 marks]
+
+
+5.   (a)   Award up to [2 marks max].
+           Hackers;
+           Will attempt to gain access rights;
+           OR
+           Viruses;
+           Could damage important data or hardware;
+           Etc.                                                                             [2 marks]
+
+     (b)   Award [2 marks] for each implication discussed, ×2 up to [4 marks max].
+
+           Example:
+           Lack of privacy;
+           Students could be prevented from visiting unsuitable sites (games, chat rooms,
+           etc.);
+           Students could be prevented in copying/receiving/sending work from/to other
+           students;                                                                        [4 marks]
+                                                                   –5–     N13/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+6.   (a)    Award [1 mark] for each representation up to [2 marks max].
+
+            The representation of 33(10)
+
+               0       0         1       0       0       0         0   1
+
+            The representation of −33(10)
+
+               1       1         0       1       1       1         1   1                        [2 marks]
+
+     (b)    From −27 = −128 ;(           )
+                         (
+            to 27 −1 = 127 ;         )                                                         [2 marks]
+
+
+7.   Example answer
+
+     ALU performs all logical and arithmetic operations and holds all temporary results.        [1 mark]
+
+
+8.   Award [1 mark] for each labelled flowchart symbol up to [5 marks max].
+
+
+                      Transaction
+                          file
+
+
+
+                   validation
+
+
+                                                   Invalid
+                                             transactions/report
+     Valid transactions/file
+
+
+
+
+                   sorting
+                                                         Sorted valid
+                                                       transactions/file                       [5 marks]
+                                                –6–         N13/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+9.    Award [1 mark] for each output up to [4 marks max].
+
+       j       k      j>=1    s     output
+       4       2      true    −1    −2
+       3       4      true    1     4
+       2       6      true    −1    −6
+       1       8      false   1     8
+       0       10     false   −1                                                 [4 marks]
+
+
+10.   Example answer:
+
+      Debugging program is used to detect/diagnose;
+      And correct errors found by testing the code;                             [2 marks]
+                                                   –7–               N13/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+                                               SECTION B                                  Total: [40 marks]
+
+11.   (a)   Award [2 marks] for any benefit outlined up to [4 marks max].
+            The design can be precisely drawn/inputted by a pen;
+            Held in a graphics file/stored within the memory;
+            Using the pen, changes can be easily made;
+            And the contents of the memory immediately updated;                                  [4 marks]
+
+      (b)   Designer’s computer connected to the Internet (broadband, fibre optic or other);
+            Secure link to company’s server;                                                     [2 marks]
+
+      (c)   When large graphic files are compressed they occupy less memory space on
+            the designer’s and company’s computer;
+            Transmission of smaller files is faster and cheaper;                                 [2 marks]
+
+      (d)   The data files should be encrypted/secured because they may be
+            intercepted/read;
+            And then misused by other designers or companies;                                    [2 marks]
+
+                                                                                          Total: [10 marks]
+
+
+12.   (a)   Award up to [2 marks max].
+            Interview;
+            Observation;
+            Questionnaires;
+            Studying literature;
+            Etc.                                                                                 [2 marks]
+
+      (b)   Two or more prototypes allow the system’s owners/management to choose;
+            Whichever is the best for the company / whichever they can afford;                   [2 marks]
+
+      (c)   Award up to [6 marks max].
+            New jobs in a town in an area where previously the main industry had been
+            coal mining, but employees will need training, new skills requested for using
+            the new system;
+            The communication system in the area should be improved, in a major city it
+            already exists;
+            Some employees might be redundant, they could either lose a job or be sent to
+            work in some other departments/to another town;
+            Management and owners will also need training to use the system, some should
+            move with their families to the new location;
+            Job conditions and requirements are changed so managers will spend a lot of
+            time in (re)organizing work;
+            Owners may be happy because the increased efficiency and income;
+            Or unhappy because of decreased efficiency/income;                                   [6 marks]
+
+                                                                                          Total: [10 marks]
+                                                 –8–               N13/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+13.   (a)   Batch processing;                                                            [1 mark]
+
+      (b)   (i)    Award up to [1 mark max].
+                   Wireless link;
+                   Cable;                                                                [1 mark]
+
+            (ii)   Award up to [1 mark max].
+                   Broadband connection;
+                   Satellite link;                                                       [1 mark]
+
+      (c)   Analog form of temperature data measured by sensors;
+            Should be converted to digital form;
+            So it can be stored and processed by the computer;                          [3 marks]
+
+      (d)   Award [2 marks] for a strategy explained, ×2 up to [4 marks].
+            All temperatures are stored in weather station;
+            And also on the central server;
+            So data can easily be recovered;
+            Two computer systems could be used;
+            The original and “mirrored” system;
+            So if one fails the other can be used;                                      [4 marks]
+
+                                                                                 Total: [10 marks]
+                                                     –9–            N13/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+14.   (a)   Example answer
+
+            Local variables are declared within a block/method and can be used only
+            within this block/method;
+            Local variables in method check()are: p and k;                                       [2 marks]
+
+      (b)   A;                                                                                    [1 mark]
+
+      (c)   (i)    Boolean;                                                                       [1 mark]
+
+            (ii)   Award up to [4 marks max] as follows.
+                   Award [1 mark] for clearly showing that Data is actual parameter for
+                   A/values in array A are same as values in array Data;
+                   Award [1 mark] for correctly filled column with heading k;
+                   Award [1 mark] for correctly filled column with heading k+1<A.length-1;
+                   Award [1 mark] for correctly filled column with heading p;
+                   Award [1 mark] for the correct returned value;
+
+                   Example answer:
+
+                          k+1<A.length-1
+                    k                         A[k]     A[k]<A[k+1]           p    return
+                              (k+1<5)
+                    -1   true                                             true
+                    0                       14.3       false
+                    1                       13.98      false
+                    2                       11.6       false
+                    3                       8.123      true
+                    4    false              9.2        false              false   false
+
+                                                                                                  [4 marks]
+
+      (d)   It determines whether or not the array elements are sorted;
+            In descending order;                                                                 [2 marks]
+
+                                                                                          Total: [10 marks]
+

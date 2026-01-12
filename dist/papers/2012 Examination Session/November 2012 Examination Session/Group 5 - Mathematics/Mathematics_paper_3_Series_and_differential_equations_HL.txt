@@ -1,0 +1,203 @@
+N12/5/MATHL/HP3/ENG/TZ0/SE
+
+
+
+
+     88127208
+
+mathematics
+Higher level
+Paper 3 – SERIES AND DIFFERENTIAL EQUATIONS
+
+Thursday 8 November 2012 (morning)
+
+1 hour
+
+
+instructions to candidates
+
+ Do not open this examination paper until instructed to do so.
+ Answer all the questions.
+ Unless otherwise stated in the question, all numerical answers should be given exactly or
+  correct to three significant figures.
+ A graphic display calculator is required for this paper.
+ A clean copy of the Mathematics HL and Further Mathematics SL information booklet is
+  required for this paper.
+ The maximum mark for this examination paper is [60 marks].
+
+
+
+
+8812-7208                                                                                       4 pages
+                                                        © International Baccalaureate Organization 2012
+                                                     –2–                   N12/5/MATHL/HP3/ENG/TZ0/SE
+
+Please start each question on a new page. Full marks are not necessarily awarded for a correct answer
+with no working. Answers must be supported by working and/or explanations. In particular, solutions
+found from a graphic display calculator should be supported by suitable working, e.g. if graphs are used to
+find a solution, you should sketch these as part of your answer. Where an answer is incorrect, some marks
+may be given for a correct method, provided this is shown by written working. You are therefore advised
+to show all working.
+
+1.    [Maximum mark: 13]
+
+                                            dy y
+      A differential equation is given by     = , where x > 0 and y > 0 .
+                                            dx x
+
+      (a)   Solve this differential equation by separating the variables, giving your answer
+            in the form y = f ( x) .                                                              [3 marks]
+
+      (b)   Solve the same differential equation by using the standard homogeneous
+            substitution y = vx .                                                                 [4 marks]
+
+      (c)   Solve the same differential equation by the use of an integrating factor.             [5 marks]
+
+      (d)   If y = 20 when x = 2 , find y when x = 5 .                                            [1 mark]
+
+
+
+
+2.    [Maximum mark: 12]
+
+                                    dy
+      Let the differential equation    = x + y , ( x + y ≥ 0) satisfying the initial conditions
+                                    dx
+       y = 1 when x = 1 . Also let y = c when x = 2 .
+
+
+      (a)   Use Euler’s method to find an approximation for the value of c , using a step
+            length of h = 0.1 . Give your answer to four decimal places.                          [6 marks]
+
+      You are told that if Euler’s method is used with h = 0.05 then c  2.7921 , if it is used
+      with h = 0.01 then c  2.8099 and if it is used with h = 0.005 then c  2.8121 .
+
+      (b)   Plot on graph paper, with h on the horizontal axis and the approximation for c
+            on the vertical axis, the four points (one of which you have calculated and three
+            of which have been given). Use a scale of 1 cm = 0.01 on both axes. Take the
+            horizontal axis from 0 to 0.12 and the vertical axis from 2.76 to 2.82.               [3 marks]
+
+      (c)   Draw, by eye, the straight line that best fits these four points, using a ruler.      [1 mark]
+
+      (d)   Use your graph to give the best possible estimate for c , giving your answer to
+            three decimal places.                                                                 [2 marks]
+
+
+
+8812-7208
+                                                           –3–                     N12/5/MATHL/HP3/ENG/TZ0/SE
+
+3.    [Maximum mark: 17]
+
+                                  H 1
+      (a)    Prove that lim ∫           dx exists and find its value in terms of a (where a ∈  + ).   [3 marks]
+                             H →∞ a x 2
+
+
+                                                      ∞
+                                                           1
+      (b)    Use the integral test to prove that ∑           2
+                                                               converges.                              [3 marks]
+                                                      n =1 n
+
+
+            ∞
+                 1
+      Let ∑        2
+                     = L.
+            n =1 n
+
+
+                                                                 1
+      (c)    The diagram below shows the graph of y =               .
+                                                                 x2
+                    y
+
+
+
+
+                                                                             diagram
+                                                                            not to scale
+
+
+
+
+                              1       2    3                       k    k +1 k +2 k +3        x
+
+
+		           (i)        Shade suitable regions on a copy of the diagram above and show that
+                         k
+                             1        ∞ 1
+                        ∑
+                        n =1 n
+                               2
+                                 + ∫ k +1 x 2 dx < L .
+		           (ii)       Similarly shade suitable regions on another copy of the diagram above and
+                                       k
+                                           1     ∞ 1
+                        show that L < ∑ 2 + ∫ 2 dx .                                                   [6 marks]
+                                      n =1 n
+                                                k x
+
+
+
+                                      k
+                                        1       1         k
+                                                              1 1
+      (d)    Hence show that ∑            2
+                                            +      < L < ∑      2
+                                                                  + .                                  [2 marks]
+                                   n =1 n     k +1       n =1 n    k
+
+                                   π2
+      You are given that L =          .
+                                   6
+
+      (e)    By taking k = 4 , use the upper bound and lower bound for L to find an upper
+             bound and lower bound for π . Give your bounds to three significant figures.              [3 marks]
+
+
+8812-7208                                                                                              Turn over
+                                                       –4–                     N12/5/MATHL/HP3/ENG/TZ0/SE
+
+4.    [Maximum mark: 18]
+
+                                                             ∞
+                                                                       1
+      (a)   Use the limit comparison test to prove that ∑                    converges.              [5 marks]
+                                                             n =1 n ( n + 1)
+
+
+
+                          1                                                       ∞
+                                                                                           1
+      (b)   Express             in partial fractions and hence find the value of ∑               .   [4 marks]
+                      n (n + 1)                                                  n =1 n ( n + 1)
+
+
+      (c)   Using the Maclaurin series for ln (1+ x) , show that the Maclaurin series for
+                                       ∞
+                                          (−1) n+1 x n+1
+            (1 + x) ln (1 + x) is x + ∑                  .                                           [3 marks]
+                                      n =1 n ( n + 1)
+
+
+
+      (d)   Hence find lim(1 + x) ln (1 + x) .                                                       [2 marks]
+                         x→−1
+
+
+
+      (e)   Write down lim x ln ( x) .                                                               [1 mark]
+                          x→0
+
+
+
+      (f)   Hence find lim x x .                                                                     [3 marks]
+                         x→0
+
+
+
+
+8812-7208
+

@@ -1,0 +1,168 @@
+No part of this product may be reproduced in any form or by any electronic or
+mechanical means, including information storage and retrieval systems, without written
+permission from the IB.
+
+Additionally, the license tied with this product prohibits commercial use of any selected
+files or extracts from this product. Use by third parties, including but not limited to
+publishers, private teachers, tutoring or study services, preparatory schools, vendors
+operating curriculum mapping services or teacher resource digital platforms and app
+developers, is not permitted and is subject to the IB’s prior written consent via a license.
+More information on how to request a license can be obtained from
+http://www.ibo.org/contact-the-ib/media-inquiries/for-publishers/guidance-for-third-party-
+publishers-and-providers/how-to-apply-for-a-license.
+
+Aucune partie de ce produit ne peut être reproduite sous quelque forme ni par quelque
+moyen que ce soit, électronique ou mécanique, y compris des systèmes de stockage et
+de récupération d’informations, sans l’autorisation écrite de l’IB.
+
+De plus, la licence associée à ce produit interdit toute utilisation commerciale de tout
+fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris, sans
+toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de tutorat
+ou d’aide aux études, des établissements de préparation à l’enseignement supérieur,
+des fournisseurs de services de planification des programmes d’études, des
+gestionnaires de plateformes pédagogiques en ligne, et des développeurs
+d’applications, n’est pas autorisée et est soumise au consentement écrit préalable de
+l’IB par l’intermédiaire d’une licence. Pour plus d’informations sur la procédure à suivre
+pour demander une licence, rendez-vous à l’adresse http://www.ibo.org/fr/contact-the-
+ib/media-inquiries/for-publishers/guidance-for-third-party-publishers-and-providers/how-
+to-apply-for-a-license.
+
+No se podrá reproducir ninguna parte de este producto de ninguna forma ni por ningún
+medio electrónico o mecánico, incluidos los sistemas de almacenamiento y
+recuperación de información, sin que medie la autorización escrita del IB.
+
+Además, la licencia vinculada a este producto prohíbe el uso con fines comerciales de
+todo archivo o fragmento seleccionado de este producto. El uso por parte de terceros
+—lo que incluye, a título enunciativo, editoriales, profesores particulares, servicios de
+apoyo académico o ayuda para el estudio, colegios preparatorios, desarrolladores de
+aplicaciones y entidades que presten servicios de planificación curricular u ofrezcan
+recursos para docentes mediante plataformas digitales— no está permitido y estará
+sujeto al otorgamiento previo de una licencia escrita por parte del IB. En este enlace
+encontrará más información sobre cómo solicitar una licencia: http://www.ibo.org/es/
+contact-the-ib/media-inquiries/for-publishers/guidance-for-third-party-publishers-and-
+providers/how-to-apply-for-a-license.
+N19/5/MATHL/HP3/ENG/TZ0/DM
+
+
+
+
+Mathematics
+Higher level
+Paper 3 – discrete mathematics
+
+
+Thursday 21 November 2019 (afternoon)
+
+
+1 hour
+
+
+Instructions to candidates
+yyDo not open this examination paper until instructed to do so.
+yyAnswer all the questions.
+yyUnless otherwise stated in the question, all numerical answers should be given exactly or
+  correct to three significant figures.
+yyA graphic display calculator is required for this paper.
+yyA clean copy of the mathematics HL and further mathematics HL formula booklet is
+  required for this paper.
+yyThe maximum mark for this examination paper is [50 marks].
+
+
+
+
+                                                                                              8819 – 7207
+     3 pages                                              © International Baccalaureate Organization 2019
+                                                    –2–                 N19/5/MATHL/HP3/ENG/TZ0/DM
+
+Please start each question on a new page. Full marks are not necessarily awarded for a correct answer
+with no working. Answers must be supported by working and/or explanations. In particular, solutions
+found from a graphic display calculator should be supported by suitable working. For example, if
+graphs are used to find a solution, you should sketch these as part of your answer. Where an answer is
+incorrect, some marks may be given for a correct method, provided this is shown by written working.
+You are therefore advised to show all working.
+
+1.   [Maximum mark: 10]
+
+     A driver needs to make deliveries to five shops A , B , C , D and E . The driver starts and
+     finishes his journey at the warehouse W . The driver wants to find the shortest route to
+     visit all the shops and return to the warehouse. The distances, in kilometres, between the
+     locations are given in the following table.
+
+                                        A      B    C     D      E     W
+                                    A    -     11   28    15     20    40
+                                    B   11      -   25    20     32    36
+                                    C   28     25    -    16     22    39
+                                    D   15     20   16     -     12    42
+                                    E   20     32   22    12      -    41
+                                    W   40     36   39    42     41     -
+
+     (a)   By deleting W , use the deleted vertex algorithm to find a lower bound for the length of
+           a route that visits every shop, starting and finishing at W .[6]
+
+     (b)   Starting from W , use the nearest-neighbour algorithm to find a route which gives an
+           upper bound for this problem and calculate its length.                                   [4]
+
+
+2.   [Maximum mark: 15]
+
+     (a)   (i)    State Fermat’s little theorem.
+
+           (ii)   Find the remainder when 151207 is divided by 13.[7]
+
+     In parts (b) and (c), (abc…)n denotes the number abc… written in base n , where n ∈ + .
+     For example, (359)n = 3n2 + 5n + 9 .
+
+     (b)   Convert (7A2)16 to base 5 , where (A)16 = (10)10 .                                       [4]
+
+     (c)   Consider the equation (1251)n + (30)n = (504)n + (504)n .
+
+           Find the value of n .                                                                    [4]
+                                                     –3–                    N19/5/MATHL/HP3/ENG/TZ0/DM
+
+3.   [Maximum mark: 6]
+
+     A linear recurrence relation is defined by
+
+                                       un = aun-1 + b , where a , b ∈  .
+
+     The first two terms are u1 = 25 and u2 = 16 .
+
+                                                     2
+     (a)   Given that lim un = 10 , show that a =      .[4]
+                        n →∞                         5
+     (b)   Hence find the value of u3 .                                                            [2]
+
+
+4.   [Maximum mark: 14]
+
+     (a)   G is a simple, connected graph with eight vertices.
+
+           (i)     Write down the minimum number of edges in G .
+
+           (ii)    Find the maximum number of edges in G .
+
+           (iii)   Find the maximum number of edges in G , given that G contains an
+                   Eulerian circuit.                                                               [5]
+
+     (b)   H is a connected, planar graph, with v vertices, e edges and f faces. Every face in H
+           is bounded by exactly k edges.
+
+           (i)     Explain why 2e = k f .
+
+           (ii)    Find the value of f when v = 9 and k = 3 .
+
+           (iii)   Find the possible values of f when v = 13 .                                     [9]
+
+
+5.   [Maximum mark: 5]
+
+     Ten points are placed anywhere inside or on the perimeter of a square of side length 1.
+
+     Use the pigeon-hole principle to prove that at least two of these points have a distance
+                                                      2
+     between them that is less than or equal to         .
+                                                     3
+
+
+
+

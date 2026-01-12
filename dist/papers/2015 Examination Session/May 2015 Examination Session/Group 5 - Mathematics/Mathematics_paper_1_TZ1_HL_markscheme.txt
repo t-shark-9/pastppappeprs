@@ -1,0 +1,986 @@
+M15/5/MATHL/HP1/ENG/TZ1/XX/M
+
+
+
+
+                      Markscheme
+
+
+                           May 2015
+
+
+
+                        Mathematics
+
+
+
+                         Higher level
+
+
+
+                               Paper 1
+
+
+
+
+22 pages
+                          –2–             M15/5/MATHL/HP1/ENG/TZ1/XX/M
+
+
+
+
+This markscheme is confidential and for the exclusive use
+of examiners in this examination session.
+
+It is the property of the International Baccalaureate and
+must not be reproduced or distributed to any other person
+without the authorization of the IB Assessment Centre.
+                                                  –3–                M15/5/MATHL/HP1/ENG/TZ1/XX/M
+
+
+
+                                       Instructions to Examiners
+
+Abbreviations
+
+M     Marks awarded for attempting to use a valid Method; working must be seen.
+
+(M)   Marks awarded for Method; may be implied by correct subsequent working.
+
+A     Marks awarded for an Answer or for Accuracy; often dependent on preceding M marks.
+
+(A)   Marks awarded for an Answer or for Accuracy; may be implied by correct subsequent working.
+
+R     Marks awarded for clear Reasoning.
+
+N     Marks awarded for correct answers if no working shown.
+
+AG    Answer given in the question and so no marks are awarded.
+
+
+Using the markscheme
+
+1     General
+
+      Mark according to RM™ Assessor instructions and the document “Mathematics HL: Guidance
+      for e-marking May 2015”. It is essential that you read this document before you start marking. In
+      particular, please note the following:
+
+       Marks must be recorded using the annotation stamps. Please check that you are entering
+        marks for the right question.
+       If a part is completely correct, (and gains all the “must be seen” marks), use the ticks with
+        numbers to stamp full marks.
+       If a part is completely wrong, stamp A0 by the final answer.
+       If a part gains anything else, it must be recorded using all the annotations.
+       All the marks will be added and recorded by RM™ Assessor.
+
+2     Method and Answer/Accuracy marks
+
+       Do not automatically award full marks for a correct answer; all working must be checked,
+        and marks awarded according to the markscheme.
+       It is not possible to award M0 followed by A1, as A mark(s) depend on the preceding M mark(s),
+        if any.
+       Where M and A marks are noted on the same line, eg M1A1, this usually means M1 for an
+        attempt to use an appropriate method (eg substitution into a formula) and A1 for using the
+        correct values.
+       Where the markscheme specifies (M2), N3, etc., do not split the marks.
+                                                    –4–                 M15/5/MATHL/HP1/ENG/TZ1/XX/M
+
+
+     Once a correct answer to a question or part-question is seen, ignore further correct working.
+      However, if further working indicates a lack of mathematical understanding do not award the final
+      A1. An exception to this may be in numerical answers, where a correct exact value is followed by
+      an incorrect decimal. However, if the incorrect decimal is carried through to a subsequent part,
+      and correct FT working shown, award FT marks as appropriate but do not award the final A1 in
+      that part.
+
+
+       Examples
+
+              Correct answer seen         Further working seen            Action
+        1.                                  5.65685...                     Award the final A1
+                  8 2                       (incorrect decimal value)      (ignore the further working)
+        2.        1
+                    sin 4 x                 sin x                           Do not award the final A1
+                  4
+        3.        log a  log b             log (a  b)                     Do not award the final A1
+
+
+
+3   N marks
+
+    Award N marks for correct answers where there is no working.
+
+     Do not award a mixture of N and other marks.
+     There may be fewer N marks available than the total of M, A and R marks; this is deliberate as it
+      penalizes candidates for not following the instruction to show their working.
+
+4   Implied marks
+
+    Implied marks appear in brackets eg (M1), and can only be awarded if correct work is seen or if
+    implied in subsequent working.
+
+     Normally the correct work is seen or implied in the next line.
+     Marks without brackets can only be awarded for work that is seen.
+
+5   Follow through marks
+
+    Follow through (FT) marks are awarded where an incorrect answer from one part of a question is
+    used correctly in subsequent part(s). To award FT marks, there must be working present and
+    not just a final answer based on an incorrect answer to a previous part.
+
+     If the question becomes much simpler because of an error then use discretion to award fewer
+      FT marks.
+     If the error leads to an inappropriate value (eg sin   1.5 ), do not award the mark(s) for the final
+      answer(s).
+     Within a question part, once an error is made, no further dependent A marks can be awarded,
+      but M marks may be awarded if appropriate.
+     Exceptions to this rule will be explicitly noted on the markscheme.
+                                                            –5–                   M15/5/MATHL/HP1/ENG/TZ1/XX/M
+
+
+6     Mis-read
+
+     If a candidate incorrectly copies information from the question, this is a mis-read (MR).
+     A candidate should be penalized only once for a particular mis-read. Use the MR stamp to indicate
+     that this has been a misread. Then deduct the first of the marks to be awarded, even if this is an
+     M mark, but award all others so that the candidate only loses one mark.
+
+      If the question becomes much simpler because of the MR, then use discretion to award
+       fewer marks.
+      If the MR leads to an inappropriate value (eg sin   1.5 ), do not award the mark(s) for the
+       final answer(s).
+
+7    Discretionary marks (d)
+
+     An examiner uses discretion to award a mark on the rare occasions when the markscheme does
+     not cover the work seen. In such cases the annotation DM should be used and a brief note written
+     next to the mark explaining this decision.
+
+8    Alternative methods
+
+     Candidates will sometimes use methods other than those in the markscheme. Unless the
+     question specifies a method, other correct methods should be marked in line with the markscheme.
+     If in doubt, contact your team leader for advice.
+
+      Alternative methods for complete questions are indicated by METHOD 1, METHOD 2, etc.
+      Alternative solutions for part-questions are indicated by EITHER . . . OR.
+      Where possible, alignment will also be used to assist examiners in identifying where these
+       alternatives start and finish.
+
+9    Alternative forms
+
+     Unless the question specifies otherwise, accept equivalent forms.
+
+      As this is an international examination, accept all alternative forms of notation.
+      In the markscheme, equivalent numerical and algebraic forms will generally be written in
+       brackets immediately following the answer.
+      In the markscheme, simplified answers, (which candidates often do not write in examinations),
+       will generally appear in brackets. Marks should be awarded for either the form preceding the
+       bracket or the form in brackets (if it is seen).
+
+        Example: for differentiating f ( x)  2sin (5 x  3) , the markscheme gives:
+
+                        f  ( x)   2cos (5 x  3)  5     10cos (5 x  3)                A1
+
+              Award A1 for  2cos (5 x  3)  5 , even if 10cos (5 x  3) is not seen.
+
+10   Accuracy of Answers
+
+     Candidates should NO LONGER be penalized for an accuracy error (AP).
+
+     If the level of accuracy is specified in the question, a mark will be allocated for giving the answer to
+     the required accuracy. When this is not specified in the question, all numerical answers should be
+     given exactly or correct to three significant figures. Please check work carefully for FT.
+                                                   –6–                M15/5/MATHL/HP1/ENG/TZ1/XX/M
+
+
+
+11    Crossed out work
+
+      If a candidate has drawn a line through work on their examination script, or in some other way
+      crossed out their work, do not award any marks for that work.
+
+12    Calculators
+
+      No calculator is allowed. The use of any calculator on paper 1 is malpractice, and will result in no
+      grade awarded. If you see work that suggests a candidate has used any calculator, please follow
+      the procedures for malpractice. Examples: finding an angle, given a trig ratio of 0.4235.
+
+13    More than one solution
+
+      Where a candidate offers two or more different answers to the same question, an examiner
+      should only mark the first response unless the candidate indicates otherwise.
+
+14.   Candidate work
+
+      Candidates are meant to write their answers to Section A on the question paper (QP), and
+      Section B on answer booklets. Sometimes, they need more room for Section A, and use the
+      booklet (and often comment to this effect on the QP), or write outside the box. This work should
+      be marked.
+
+      The instructions tell candidates not to write on Section B of the QP. Thus they may well have done
+      some rough work here which they assume will be ignored. If they have solutions on the answer
+      booklets, there is no need to look at the QP. However, if there are whole questions or whole part
+      solutions missing on answer booklets, please check to make sure that they are not on the QP,
+      and if they are, mark those whole questions or whole part solutions that have not been written on
+      answer booklets.
+                                               –7–       M15/5/MATHL/HP1/ENG/TZ1/XX/M
+
+
+                                             Section A
+1.   (a)   METHOD 1
+                            1 2
+           area  22        2    3                              M1A1
+                            2
+
+      Note: Award M1 for using area formula.
+
+                                
+            2                                                     A1
+                                2
+      Note: Degrees loses final A1
+
+           METHOD 2
+           let x  2  
+                1 2
+           area  2 x (  3                                            M1
+                2
+                3
+           x                                                          A1
+                2
+                
+                                                                      A1
+                2
+
+           METHOD 3
+           Area of circle is 4π                                          A1
+                          
+           Shaded area is   of the circle                               (R1)
+                          4
+                 
+                                                                      A1
+                 2
+                                                                               [3 marks]
+
+                         3
+     (b)   arc length  2                                                A1
+                          2
+                         3
+           perimeter  2     2 2
+                          2
+            3  4                                                      A1
+                                                                               [2 marks]
+
+                                                                        Total [5 marks]
+                                                      –8–          M15/5/MATHL/HP1/ENG/TZ1/XX/M
+
+
+                   1 0  19 10
+2.   (a)    x                    9 .5                                         (M1)A1
+                         20
+                                                                                         [2 marks]
+
+     (b)   median is 10                                                            A1
+                                                                                          [1 mark]
+
+     (c)   (i)          19                                                         A1
+
+           (ii)         1                                                          A1
+                                                                                         [2 marks]
+
+                                                                                  Total [5 marks]
+
+
+
+             1  tan x  dx   sec x dx  tan x (c)
+                             2        2
+3.   (a)                                                                         M1A1
+                                                                                         [2 marks]
+                          1  cos2 x
+             sin x dx   2 dx
+                    2
+     (b)                                                                         M1A1
+
+               x sin2 x
+                       (c)                                                      A1
+               2     4
+
+Note: Allow integration by parts followed by trig identity.
+      Award M1 for parts, A1 for trig identity, A1 final answer.
+
+                                                                                         [3 marks]
+
+                                                                                  Total [5 marks]
+
+
+4.   (a)    ( x  h)3  x3  3x 2 h  3xh 2  h3                                (M1)A1
+                                                                                         [2 marks]
+
+                           ( x  h) 3  x 3
+     (b)    f ( x)  lim                                                         (M1)
+                       h0        h
+                   x  3 x h  3 xh 2  h3  x 3
+                     3       2
+             lim
+              h 0                h
+             lim  3 x  3 xh  h 2 
+                        2
+                                                                                   A1
+                 h 0
+
+             3x 2                                                                 A1
+
+Note: Do not award final A1 on FT if  3x 2 is not obtained
+
+Note: Final A1 can only be obtained if previous A1 is given
+                                                                                         [3 marks]
+
+                                                                                  Total [5 marks]
+                                                           –9–                   M15/5/MATHL/HP1/ENG/TZ1/XX/M
+
+
+5.   (a)   EITHER
+           f ( x)  f ( x)                                                                      M1
+            ax  bx  c  ax  bx  c  2bx  0, (x  )
+                 2                2
+                                                                                                 A1
+
+           OR
+           y-axis is eqn of symmetry                                                             M1
+              b
+           so      0                                                                            A1
+              2a
+
+           THEN
+           b0                                                                                  AG
+                                                                                                      [2 marks]
+
+     (b)   g (  x )   g ( x )  p sin (  x )  qx  r   p sin x  qx  r
+             p sin x  qx  r   p sin x  qx  r                                             M1
+
+      Note: M1 is for knowing properties of sin.
+
+            2r  0  r  0                                                                      A1
+
+     Note: In (a) and (b) allow substitution of a particular value of x
+                                                                                                      [2 marks]
+
+     (c)   h (  x )  h ( x)   h ( x )  2h ( x )  0  h ( x )  0, (x )                  M1A1
+
+      Note: Accept geometrical explanations.
+                                                                                                      [2 marks]
+
+                                                                                                Total [6 marks]
+                                                  – 10 –             M15/5/MATHL/HP1/ENG/TZ1/XX/M
+
+
+                          3 x  2 1
+6.   (a)    f :x y              f :yx
+                          2x 1
+                  3x  2
+           y               3 x  2  2 xy  y                                      M1
+                  2x 1
+            3x  2 xy   y  2                                                     M1
+            x (3  2 y )  2  y
+                   2 y
+            x                                                                       A1
+                  3 2y
+                           2 y
+           ( f 1 ( y )         )
+                          3 2y
+                          2 x            3
+            f 1 ( x )              x                                            A1
+                         3  2x           2
+
+      Note: x and y might be interchanged earlier.
+
+      Note: First M1 is for interchange of variables second M1 for
+            manipulation
+
+      Note: Final answer must be a function of x
+
+                                                                                           [4 marks]
+
+           3x  2         B
+     (b)           A          3 x  2  A (2 x  1)  B
+            2x 1      2x 1
+           equating coefficients 3  2A and 2   A  B                            (M1)
+                3             1
+           A  and B                                                               A1
+                2             2
+
+      Note: Could also be done by division or substitution of values.
+                                                                                           [2 marks]
+
+                         3     1
+     (c)    f ( x) dx  2 x  4 ln 2 x  1  c                                      A1
+
+
+      Note: accept equivalent e.g. ln 4 x  2
+
+                                                                                            [1 mark]
+
+                                                                                    Total [7 marks]
+                                                       – 11 –             M15/5/MATHL/HP1/ENG/TZ1/XX/M
+
+
+                   an1  1
+7.   (a)   (i)                                                                       A1
+                   an  2
+
+                         n a0   36
+           (ii)    ( 1)           18                                           A1A1
+                           an  2
+
+            Note: First A1 is for the negative sign.
+                                                                                                [3 marks]
+
+     (b)   METHOD 1
+           if  satisfies p ( )  0 then q (  4)  0
+           so the roots of q ( x ) are each 4 less than the roots of p ( x )             (R1)
+                                   1
+           so sum of roots is        4  5  20.5                                      A1
+                                   2
+
+           METHOD 2
+            p ( x  4)  2 x5  2  5  4 x 4  x 4   2 x5  41x 4                   (M1)
+                                     41
+           so sum of roots is            20.5                                          A1
+                                      2
+                                                                                                [2 marks]
+
+                                                                                         Total [5 marks]
+                                                  – 12 –         M15/5/MATHL/HP1/ENG/TZ1/XX/M
+
+
+     du
+8.       ex                                                                    (A1)
+     dx
+
+     EITHER
+
+                            ex
+     integral is    e  3  2 dx                                              M1A1
+                            
+                        x        2       2
+
+
+            1
+               du                                                            M1A1
+          u  22
+           2
+
+
+
+ Note: Award M1 only if the integral has completely changed
+       to one in u.
+
+ Note: du needed for final A1
+
+     OR
+     ex  u  3
+                                     1
+     integral is    (u  3)  6(u  3)  13 du
+                             2
+                                                                               M1A1
+
+
+ Note: Award M1 only if the integral has completely changed
+       to one in u.
+
+            1
+               du                                                            M1A1
+          u  22
+           2
+
+
+
+ Note: In both solutions the two method marks are independent.
+
+     THEN
+      1        u
+      arc tan   ( c)                                                        (A1)
+      2        2
+      1         ex  3 
+      arc tan           c                                                  A1
+      2         2 
+                                                                                Total [7 marks]
+                                                      – 13 –               M15/5/MATHL/HP1/ENG/TZ1/XX/M
+
+
+9.   (a)   g  f ( x)  g  f ( x)                                                        M1
+                    
+            g  2x  
+                    5
+
+                        
+            3sin  2 x    4                                                            AG
+                        5
+                                                                                                  [1 mark]
+
+     (b)   since 1  sin  1 , range is 1, 7                                       (R1)A1
+                                                                                                 [2 marks]
+
+                                                   3
+     (c)   3sin  2 x    4  7  2 x    2n  x      n                           (M1)
+                      5                5 2            20
+                                    23
+           so next biggest value is                                                        A1
+                                     20
+
+      Note: Allow use of period.
+                                                                                                 [2 marks]
+
+     (d)   Note: Transformations can be in any order but see notes below.
+
+           stretch scale factor 3 parallel to y axis (vertically)                          A1
+           vertical translation of 4 up                                                    A1
+
+                                       4
+      Note: Vertical translation is      up if it occurs before stretch
+                                       3
+             parallel to y axis.
+
+                                1
+           stretch scale factor   parallel to x axis (horizontally)                        A1
+                                2
+                                      
+           horizontal translation of    to the left                                        A1
+                                     10
+
+                                           
+      Note: Horizontal translation is        to the left if it occurs before
+                                           5
+             stretch parallel to x axis.
+
+      Note: Award A1 for magnitude and direction in each case.
+            Accept any correct terminology provided that the
+            meaning is clear eg shift for translation.
+                                                                                                 [4 marks]
+
+                                                                                          Total [9 marks]
+                                                       – 14 –             M15/5/MATHL/HP1/ENG/TZ1/XX/M
+
+
+10.   METHOD 1
+      to have 3 consecutive losses there must be exactly 5, 4 or 3 losses
+                                                                            5
+                                                                     1
+      the probability of exactly 5 losses (must be 3 consecutive) is                          A1
+                                                                      3
+                                                                       4
+                                                                    1  2
+      the probability of exactly 4 losses (with 3 consecutive) is 4                   A1A1
+                                                                    3  3
+
+       Note: First A1 is for the factor 4 and second A1 for the other 2 factors.
+
+                                                                      3         2
+                                                                    1  2
+      the probability of exactly 3 losses (with 3 consecutive) is 3                   A1A1
+                                                                    3  3
+
+       Note: First A1 is for the factor 3 and second A1 for the other 2 factors.
+
+      (Since the events are mutually exclusive)
+                                   1  8  12 21  7 
+      the total probability is                                                              A1
+                                       35      243  81 
+                                                                                                     [6 marks]
+
+      METHOD 2
+      Roy loses his job if
+      A – first 3 games are all lost (so the last 2 games can be any result)
+      B – first 3 games are not all lost, but middle 3 games are all lost (so the first game
+      is not a loss and the last game can be any result)
+      or C – first 3 games are not all lost, middle 3 games are not all lost but last 3 games
+      are all lost, (so the first game can be any result but the second game is not a loss)
+
+      for A 4th & 5th games can be anything
+
+                   3
+              1   1
+      P( A)                                                                                 A1
+               3  27
+
+      for B 1st game not a loss & 5th game can be anything                                  (R1)
+
+                       3
+              2 1    2
+      P( B )                                                                               A1
+              3  3  81
+
+      for C 1st game anything, 2nd game not a loss                                          (R1)
+
+                             3
+                2 1    2
+      P(C )  1                                                                            A1
+                3  3  81
+
+      (Since the events are mutually exclusive)
+
+                                 1  2 2   7
+      total probability is                                                                   A1
+                                 27 81 81 81
+
+                                                                                                 continued…
+                                               – 15 –               M15/5/MATHL/HP1/ENG/TZ1/XX/M
+
+
+Question 10 continued.
+
+      Note:    In both methods all the A marks are independent.
+
+
+      Note:   If the candidate misunderstands the question and thinks
+              that it is asking for exactly 3 losses award
+                                              
+              A1 A1 and A1 for an answer of       as in the last lines of
+                                              243
+              Method 1.
+                                                                                        [6 marks]
+
+                                                                                   Total [6 marks]
+                                                             – 16 –           M15/5/MATHL/HP1/ENG/TZ1/XX/M
+
+
+                                                         Section B
+
+            dy
+11.   (a)
+            dx
+                                        
+                1 e3 x  x  3e3 x  e3 x  3xe3 x                                         M1A1
+
+                                                                                                     [2 marks]
+                                                n
+                                               d y
+      (b)   let P ( n ) be the statement          n
+                                                     n3n1 e3 x  x3n e3 x
+                                               dx
+            prove for n  1                                                                    M1
+                             dy
+            LHS of P (1) is      which is 1 e3 x  x  3e3 x and RHS is 30 e3 x  x31 e3 x     R1
+                             dx
+            as LHS  RHS, P (1) is true
+            assume P ( k ) is true and attempt to prove P ( k  1) is true                     M1
+                           k
+                       d y
+            assuming          k 3k 1 e3 x  x3k e3 x
+                       dx k
+            d k 1 y d  d k y 
+                                                                                           (M1)
+            dx k 1 dx  dx k 
+
+             k 3k 1  3e3 x  1 3k e3 x  x3k  3e3 x                                        A1
+             ( k  1) 3k e3 x  x3k 1 e3 x (as required)                                      A1
+
+       Note: Can award the A marks independent of the M marks
+
+            since P (1) is true and P ( k ) is true  P ( k  1) is true
+            then (by PMI), P ( n ) is true (  n    )                                        R1
+
+       Note: To gain last R1 at least four of the above marks must have been gained.
+
+                                                                                                     [7 marks]
+
+
+
+                                                                                                 continued…
+                                                        – 17 –           M15/5/MATHL/HP1/ENG/TZ1/XX/M
+
+
+Question 11 continued
+
+                                                        1
+     (c)   e3 x  x  3e3 x  0  1  3 x  0  x                                    M1A1
+                                                        3
+                         1    1 
+           point is       ,                                                          A1
+                         3    3e 
+
+           EITHER
+
+           d2 y
+              2
+                 2  3e3 x  x  32 e3 x
+           dx
+                        1 d2 y
+           when x   ,            0 therefore the point is a minimum                 M1A1
+                        3 dx 2
+
+           OR
+                                   1
+              x               
+                                   3
+             dy
+                        ve    0        ve
+             dx
+           nature table shows point is a minimum                                       M1A1
+                                                                                              [5 marks]
+
+           d2 y
+     (d)         2  3e3 x  x  32 e3 x                                                A1
+           dx 2
+                                                                 2
+           2  3e3 x  x  32 e3 x  0  2  3 x  0  x                             M1A1
+                                                                 3
+                         2      2 
+           point is       , 2                                                        A1
+                         3     3e 
+                                 2
+              x               
+                                 3
+            d2 y        ve    0        ve
+            dx 2
+           since the curvature does change (concave down to concave up) it is a
+           point of inflection                                                           R1
+                                                                 2
+            Note: Allow 3rd derivative is not zero at 
+                                                                 3
+                                                                                              [5 marks]
+
+
+
+                                                                                           continued…
+                                                 – 18 –              M15/5/MATHL/HP1/ENG/TZ1/XX/M
+
+
+Question 11 continued
+
+     (e)
+
+
+
+
+           (general shape including asymptote and through origin)                    A1
+           showing minimum and point of inflection                                   A1
+
+      Note: Only indication of position of answers to (c) and (d) required, not
+            coordinates.
+                                                                                          [2 marks]
+
+                                                                                   Total [21 marks]
+                                                                       – 19 –   M15/5/MATHL/HP1/ENG/TZ1/XX/M
+
+
+12.   (a)   (i)     METHOD 1
+
+                    vn 1 2un1
+                          un                                                                   M1
+                     vn    2
+                     2un1  un  2 d                                                          A1
+
+                    METHOD 2
+
+                    vn1    2and
+                          a( n1) d                                                           M1
+                     vn   2
+                     2d                                                                        A1
+
+            (ii)    2a                                                                          A1
+                                      u
+             Note: Accept 2 1 .
+
+            (iii)   EITHER
+                    vn is a GP with first term 2a and common ratio 2d
+                    vn  2 a (2 d ) ( n 1)
+
+                    OR
+
+                    un  a  (n  1)d as it is an AP
+
+                    THEN
+
+                    vn  2 a ( n 1 )d                                                         A1
+                                                                                                      [4 marks]
+
+                           2 a  (2 d ) n  1       2a  2 d n  1
+      (b)   (i)     Sn =                                                                     M1A1
+                                2d  1                  2d  1
+
+             Note: Accept either expression.
+
+
+            (ii)    for sum to infinity to exist need 1  2d  1                               R1
+
+                     log 2d  0  d log 2  0  d  0                                       (M1)A1
+                                                          d
+             Note: Also allow graph of 2 .
+
+
+                              2a
+            (iii)   S                                                                         A1
+                            1  2d
+
+
+                                                                                                 continued…
+                                                                      – 20 –    M15/5/MATHL/HP1/ENG/TZ1/XX/M
+
+
+Question 12 continued
+
+                        2a                 1
+           (iv)                2a 1         2                                               M1
+                       1 2 d
+                                        1  2d
+
+                        1  2  2d 1  2d 1  1
+
+                        d  1                                                                 A1
+                                                                                                      [8 marks]
+
+
+
+     (c)   METHOD 1
+           wn  pq n 1 , zn  ln pq n 1                                                      (A1)
+           zn  ln p  (n  1) ln q                                                           M1A1
+           zn 1  zn  (ln p  n ln q )  (ln p  ( n  1) ln q )  ln q
+           which is a constant so this is an AP
+           (with first term ln p and common difference ln q )
+
+             n
+                         n
+            z  2  2ln p  (n  1) ln q 
+           i 1
+                   i                                                                            M1
+
+                                                   
+                                              n 1 
+                                                                n21  
+                        n  ln p  ln q      2 
+                                                        n ln  pq                         (M1)
+                                                                         
+                                                                         
+                                   n  n 1
+                                            
+                        ln  p n q 2                                                          A1
+                                            
+                                            
+
+           METHOD 2
+             n
+
+            z  ln p  ln pq  ln pq   ln pq
+            i 1
+                   i
+                                                     2                  n 1
+                                                                                             (M1)A1
+
+                   
+            ln p n q 123( n1)                                                      (M1)A1
+                       n  n 1
+                                
+            ln  p n q 2                                                                   (M1)A1
+                                
+                                
+                                                                                                      [6 marks]
+
+                                                                                              Total [18 marks]
+                                                         – 21 –              M15/5/MATHL/HP1/ENG/TZ1/XX/M
+
+
+             
+13.   (a)   OP  i  2 j  3k   ( i  j  k )
+             
+            OQ  2i  j  k   ( i  j  2k )
+                        
+            PQ  OQ OP                                                                     (M1)
+             
+            PQ  i  j  4k   ( i  j  k )   ( i  j  2k )
+             (1     ) i  (1     ) j  ( 4    2  ) k                          A1
+                                                                                                   [2 marks]
+      (b)   METHOD 1
+
+            use of scalar product                                                            M1
+            perpendicular to i  j  k gives
+            (1     )  (1     )  (4    2 )  0
+             3  2  4                                                                   A1
+            perpendicular to i  j  2k gives
+            (1     )  (1     )  2 (4    2 )  0
+             2  6  6                                                                   A1
+                                                                  6     5
+            solving simultaneous equations gives                 ,                    A1A1
+                                                                  7     7
+
+            METHOD 2
+
+            v  w  3i  j  2k                                                            M1A1
+             
+            PQ  a  3i  j  2k 
+
+            1      3a
+            1      a                                                                  A1
+            4    2  2a
+                                                                  6     5
+            solving simultaneous equations gives                 ,                    A1A1
+                                                                  7     7
+                                                                                                   [5 marks]
+
+                  18 6    12
+      (c)   PQ       i j k                                                                A1
+                    7   7   7
+                                            6 2                      6
+            shortest distance  PQ            3  (1) 2  ( 2) 2    14                 M1A1
+                                             7                        7
+                                                                                                   [3 marks]
+      (d)   METHOD 1
+            vector perpendicular to Π is given by vector product of v and w                 (R1)
+             v  w  3i  j  2k                                                          (M1)A1
+            so equation of Π is 3 x  y  2 z  d  0
+            through (1, 2, 3)  d  5                                                        M1
+            so equation is 3x  y  2 z  5  0                                              A1
+
+                                                                                              continued…
+                                                    – 22 –           M15/5/MATHL/HP1/ENG/TZ1/XX/M
+
+
+Question 13 continued
+
+           METHOD 2
+                             18 6        12
+           from part (b) PQ     i  j  k is a vector perpendicular to Π          R1A2
+                               7     7     7
+                                18      6    12
+           so equation of Π is      x y zc 0
+                                 7      7     7
+                                   30
+           through (1, 2, 3)  c                                                    M1
+                                    7
+                          18     6     12    30
+           so equation is    x y z            0 ( 3x  y  2 z  5  0 )         A1
+                           7     7      7     7
+
+      Note: Allow other methods ie via vector parametric equation.
+                                                                                          [5 marks]
+
+            
+     (e)   OT  2i  j  k   (3i  j  2k )
+           T  (2  3 , 1   ,  1  2 ) lies on Π implies
+           3(2  3 )  (1   )  2 (1  2 )  5  0                              M1
+                                        6
+            12  14  0                                                        A1
+                                        7
+
+      Note: If no marks awarded in (d) but correct vector product calculated
+            in (e) award M1A1 in (d).
+                                                                                          [2 marks]
+
+                  6 2                       6
+     (f)    BT      3  ( 1) 2  ( 2) 2    14                                  M1A1
+                   7                         7
+                                                                                          [2 marks]
+
+     (g)   they agree                                                                A1
+
+      Note: FT is inappropriate here.
+
+            
+           BT is perpendicular to both Π and l2
+           so its length is the shortest distance between Π and l2 which is the
+           shortest distance between l1 and l2                                       R1
+                                                                                          [2 marks]
+
+                                                                                   Total [21 marks]
+

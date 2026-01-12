@@ -1,0 +1,487 @@
+N17/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+
+
+                       Markscheme
+
+
+                        November 2017
+
+
+                     Computer science
+
+
+                         Standard level
+
+
+                               Paper 1
+
+
+
+
+12 pages
+                          –2–            N17/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+
+
+This markscheme is the property of the International
+Baccalaureate and must not be reproduced or distributed
+to any other person without the authorization of the IB
+Global Centre, Cardiff.
+                                                   –3–                N17/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+                                               Section A
+1.   Award up to [2 max].
+     Fixed vocabulary;
+     Unambiguous meaning;
+     Consistent grammar;
+     Consistent syntax;
+     Provide a way to define basic data types and operations on those types (ability to write
+     functions/procedures);
+     Provide ability of Input and output handling;
+     Provide some kind of loop that can be stopped / conditional statement / branching
+     (conditional and unconditional branching);
+     It should have variables that reference computer memory, syntax for basic arithmetic
+     and logical;
+     Operations on those memory locations;
+     It has to run on/be able to be processed by a computer (ie it must have a
+     compiler/interpreter)
+
+     Note: do not accept aspects that address interoperability/portability/standards/user
+     friendliness                                                                                  [2]
+
+
+2.   Compare (accept Check);
+     Store (accept Write / Save);
+
+     Note: Accept the following wording for categories of operations
+     Input (Read);
+     Processing/execution (eg calculate, decode, fetch, delete, evaluate, sort, transfer,
+     transmit);
+     Output;
+     Control;
+
+     Remark: Beware of repetitions with the wording in the question paper, or repetitions
+     between the two given examples. Marks should not be awarded twice in those cases.
+     For example,
+     Search/look up, or comparable wording, are synonyms of the given Retrieve;
+     Insert/put, or comparable wording, are synonyms of the given Add;
+     Lists of repeated arithmetic operations that fall under examples of calculations (subtract,
+     divide, multiply, square) are all examples of calculations, and hence processing.             [2]
+
+
+3.   (a)   A piece of computer hardware or software that accesses a service made
+           available by a server /
+           The role of a client is to access a service made available by a server by sending
+           a request for service;
+
+           Note: the term client is to be understood only from the computing perspective, ie
+           this is not a human.                                                                    [1]
+
+     (b)   A program/host computer that awaits and fulfills requests from client programs (in
+           the same or other computers) /
+           The role of a server is to fulfill requests from client programs (which can reside in
+           the same or in other computers)
+
+           Note: the term server is to be understood only from the computing perspective,
+           ie this is not a human.                                                                 [1]
+                                                  –4–                 N17/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+4.   Award up to [1 max].
+     Text-to-speech;
+     Voice recognition;
+     Braille keyboards;
+     Touch screen;
+     Input from scanner;                                                                       [1]
+
+
+5.   Award [1] for all correct input values, [1] for a correct A NOR B column and [1] for a
+     correct (A NOR B) OR A column.
+
+                      A                   B               A NOR B         (A NOR B) OR A
+                    FALSE               FALSE              TRUE               TRUE
+                    FALSE               TRUE              FALSE               FALSE
+                    TRUE                FALSE             FALSE               TRUE
+                    TRUE                TRUE              FALSE               TRUE
+                                                                                               [3]
+
+
+6.   Award [1] for each correctly placed gate, up to [3 max].
+
+
+
+
+                                                                                               [3]
+
+
+ Note: Award only [1] for an answer of:
+                                                  –5–                  N17/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+7.   (a)   N2                                                                                    [1]
+
+     (b)   N;                                                                                    [1]
+
+     (c)   Award marks as follows up to [4 max].
+           Award [1] for correct initialization.
+           Award [1] for correct condition.
+           Award [1] for correct output.
+           Award [1] for changing the value of controlling variable.
+
+           Note: The question explicitly requires one while loop.
+           Do no not accept a for loop. Do not accept two while loops.
+
+           Example answer
+           K = 1
+           loop while K <= N
+                output K
+                K = K + 1
+           end loop
+
+           Example answer (including J variable)
+           K = 1
+           J = 1
+           loop while K = J AND K <= N
+                output K
+                K = K + 1
+                J = J + 1
+           end loop                                                                              [4]
+
+
+
+8.   (a)   Primary memory / RAM                                                                  [1]
+
+     (b)   Award up to [2 max].
+           Note: there must be explicit reference to both address and data bus
+
+           Example 1
+           Buses are used as physical connections to carry information to the CPU;
+           The data bus transports data from/to CPU, whereas the address bus the memory
+           address where the data is supposed to go/be.
+
+           Example 2
+           Data bus is a physical connection to transport data from-to CPU to be
+           processed;
+           Address bus is a physical connection to transport an address of memory storage where data
+           (transported in the data bus) should be read/written;
+
+           Note: Award [1] mark, for responses that show some understanding of use of
+           buses in CPU, for address location and data transport without using specialist
+           terminology                                                                           [2]
+                                                    –6–             N17/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+9.    Binary digit;
+      (Minimal) unit of storage that can be set to 0 or 1;                                   [1]
+
+
+10.   Award up to [2 max].
+      Involves sending sample software to the intended audience;
+      (Selected audience do not pay for this software);
+      To try/use the software product;
+      And give the feedback to the authors (which help in correcting bugs);                  [2]
+                                                     –7–                   N17/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+                                           Section B
+11.   (a)   Each word in the text file is compared with words in a dictionary (held in
+            memory/online);
+            If the word is found in the dictionary it is correctly spelt / if the word is not found in
+            the dictionary, spellchecker will recognize that it is incorrectly spelt;                          [2]
+
+      (b)   Award [1 max].
+            If power goes off, only the text typed after last (automatic) save is lost;
+
+            NOTE: accept responses that express evidence of just a partial loss of the file.                   [1]
+
+      (c)   Award up to [2 max].
+            Apply styles, effects;
+            Insert (tables/pictures/graphs/formulas/...);
+            Mail merge;
+            Macros;
+            Print;
+            etc.                                                                                               [2]
+
+      (d)   Award [1] for stating an application software package and [1] for stating its use in
+            the office, up to [2 max].
+
+            Example answers
+            Spreadsheet;
+            For graphically presenting various data;
+
+            Database software;
+            For holding employees/customers data;
+
+            Web page creators/editors;
+            To create/manage the office’s web pages;
+            etc.                                                                                               [2]
+
+      (e)   Award up to [2 max].
+
+            Off site data storage;
+            Make backups regularly/periodically/frequently;
+
+            Prevent physical damage to the computers / Keep equipment in safe and dust-
+            free places / Protect equipment from static electricity that can erase data or
+            damage components / Protection during lightning and electrical storms;
+
+            Note: Accept any reasonable examples, but there should be more than one.
+            The focus of the question is on data loss, and not in relation to
+            security/hacking.                                                                            [2]
+
+      (f)   Award [1] for stating a problem and [1] for an elaboration, up to [2 max].
+            Users/employees might be afraid of these changes (for various reasons);
+            And not willing to help in this change;
+
+            Data migration problems;
+            For example, different file formats so conversion must be performed;
+
+            Employee efficiency may drop;
+            As they learn to use the new system;
+
+            Issue of compatibility with legacy software/hardware;
+            So features of new software/hardware may not work correctly;                                       [2]
+                                                   –8–                 N17/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+      (g)   Award [1] for outlining what is meant by direct changeover, [1] for outlining what
+            is meant by phased conversion, and then [1] for an advantage or disadvantage
+            of each, up to [2].
+
+            Example answer:
+            Direct changeover, the old software and hardware is completely replaced, in one
+            move, by the new software and hardware;
+            Phased conversion involves selecting one section in the office for the direct
+            changeover and other sections will be switched when the first section selected is
+            running satisfactorily. Eventually the whole office has been changed;
+            A phased conversion is less risky than a direct changeover as any problems that
+            might arise will be isolated in only one section in the office;
+            Direct changeover means everyone in the organization has same
+            software/hardware and so there are no compatibility issues;                             [4]
+
+
+12.   (a)   Award up to [1 max].
+            Wireless router/modem;
+            Access points;
+            Switch;
+            Wireless repeater/extender/booster;                                                     [1]
+
+      (b)   Award [1] for identifying a disadvantage and [1] for an expansion, for two
+            disadvantages up to [4 max].
+
+            Data transfer will decrease (compared with a wired LAN);
+            Because the number of computers using the network increases;
+            (and because) WLAN has lower bandwidth than a wired LAN;
+
+            Less data security;
+            As devices from outside the school can access the network/intercept
+            transmissions;
+
+            More easily open to misuse;
+            As teacher/administrator cannot directly monitor a specific student/teacher/
+            machine;
+
+            Intermittent connectivity due to physical barriers (walls);
+            Results in low transfer/speed and may hinder operations.
+
+            Note: Accept any reasonable points, provided they are appropriately
+            elaborated.                                                                             [4]
+
+      (c)   Award up to [3 max].
+            Give each user appropriate login details/passwords;
+            Different access rights for students, teachers, school administrators (file-level and
+            share-level security);
+            All passwords and files should be encrypted;
+            Use the latest WiFi protocol/WPA2;
+            Require MAC address authentication;
+            Password protect the documents;
+
+            Note: the focus of the question is on confidential data (firewalls not accepted)        [3]
+                                             –9–                  N17/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+(d)   Set of rules for data transmission;                                                    [1]
+
+(e)   Award up to [6] as follows:
+
+      Award up to [3 max] for a general description of how data is transferred by
+      packet switching. ([1 max] if this general description is very simplistic and refers
+      to just the Header/Data/Trailer already shown in the question paper).
+
+      Award up to [3 max] for added detail that references the contents of the given
+      data packet in the answer.
+
+      Example of general description
+
+      Data is organized in specially formatted units (data packets) which are routed
+      from source to destination using network switches and routers;
+
+      Network switches and routers determine how best to transfer the packet between
+      a number of intermediate devices (routers and switches) on the path to its
+      destination (rather than flowing directly over a single wire on the path to its
+      destination);
+
+      Data packets are reassembled at the destination;
+
+      Example of referencing content
+
+      Addresses have to be in a standard format so that each switch/routing station
+      recognizes the address;
+      Address of sender identifies the sending computer, so that any packets not
+      received can be re-requested;
+      Address of receiver identifies intended recipient so it can be forwarded on
+      correctly;
+      The protocol used must be identified so that the correct rules are followed;
+      Size of packet / size of fields in packet – All packets/fields must have the same
+      size so that the data can be reassembled;
+      Sequence number so that packets can be reassembled in correct order;
+      Transmission codes to show whether the data packet is transmitted or
+      re-transmitted;
+      Control bits, to maintain the integrity of the data by ensuring that the data
+      received is the same as the data sent;
+      Error checking code – when an error is detected, an algorithm either corrects
+      the error or requests that the packet is resent;                                       [6]
+                                                  – 10 –             N17/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+13.   (a)   3;                                                                                  [1]
+
+      (b)   Award [1] for each correct column, other than column K.
+
+                  K                CL        K < len(S)       S[K] = "E"        output
+                   0                0           TRUE            FALSE
+                   1               "              "                "
+                   2                1             "              TRUE
+                   3               "              "             FALSE
+                   4               "              "                "
+                   5               "              "                "
+                   6               "              "                "
+                   7               "              "                "
+                   8               "              "                "
+                   9                2             "              TRUE
+                  10               "           FALSE                                2
+                                                                                                [4]
+
+            Note: The symbol " appearing in cells above means that the value in that cell is
+            the same as the one in the cell just above it; unfilled cells means that no value
+            must be present.
+
+            Remark: Accept drawings of tables where the values of the column CL are
+            shifted downwards of one cell only, therefore showing the first value 2 when
+            K = 10. Do not propagate by FT to the other columns, they are independent from
+            the way CL has been filled.)                                                        [4]
+
+      (c)   Example answer 1
+            Award marks as follows up to [5 max].
+            Award [1] for correct boundaries in first for-loop.
+            Award [1] for correct assignment of array SUBSTITUTE in first loop.
+            Award [1] for correct boundaries in second for-loop.
+            Award [1] for correct assignment of array SUBSTITUTE in second loop.
+            Award [1] for incrementing IND in both loops.
+
+            IND = 0
+            loop for K from N to len(UPCASELETTERS)-1
+                     // accept ‘K from 0 to 25’
+                 SUBSTITUTE[IND] = UPCASELETTERS[K]
+                 IND = IND+1
+            end loop
+            loop for K from 0 to N-1
+                 SUBSTITUTE[IND] = UPCASELETTERS[K]
+                 IND = IND+1
+            end loop
+                                       – 11 –              N17/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+Example answers 2 and 3
+Award marks as follows up to [5 max].
+Award [1] for initializing array SUBSTITUTE.
+Award [1] for repeating the process N times.
+Award [1] for temporarily storing SUBSTITUTE[0]
+Award [1] for correctly shifting to the left the contents of array SUBSTITUTE.
+Award [1] for correctly placing the temporary stored value in the last position in
+SUBSTITUTE, after shifting
+
+Example answer 2
+loop for K from 0 to 25
+     SUBSTITUTE[K] = UPCASELETTERS[K]
+end loop
+         // accept SUBSTITUTE = UPCASELETTERS
+loop for K from 1 to N
+     TEMP = SUBSTITUTE[0]
+     IND = 0
+     loop while IND <= 25
+         SUBSTITUTE[IND] = SUBSTITUTE[IND + 1]
+         IND = IND + 1
+     end loop
+     SUBSTITUTE[25] = TEMP
+end loop
+
+Example answer 3 (with for loops)
+loop for K from 0 to len(UPCASELETTERS)-1
+         // accept “K from 0 to 25”
+     SUBSTITUTE[K] = UPCASELETTERS[K]
+end loop
+         // accept SUBSTITUTE = UPCASELETTERS
+loop for K from 1 to N
+     TEMP = SUBSTITUTE[0]
+     loop for IND = 0 to len(UPCASELETTERS)-1
+         SUBSTITUTE[IND] = SUBSTITUTE[IND + 1]
+     end loop
+     SUBSTITUTE[len(UPCASELETTERS)-1] = TEMP
+end loop
+
+Example 4 (single loop)
+Award marks as follows up to [5 max].
+Award [1] for correct outer for loop (correct boundaries)
+Award [1] for correct condition in if statement.
+Award [2 max] for correct first assignment as follows:
+     [1] for using correct expressions of both indexes 26 –(N-K) in
+     SUBSTITUTE,and K in UPCASELETTERS
+     [1] for using appropriate direction of assignment (UPCASELETTERS is used
+     to rewrite into
+     SUBSTITUTE)
+Award [1] for correct assignment of SUBSTITUTE in the other branch;
+
+loop for K from 0 to 25
+     if K < N
+          SUBSTITUTE[26-(N-K)] = UPCASELETTERS[K]
+     else
+          SUBSTITUTE[K-N] = UPCASELETTERS[K]
+     end if
+end loop
+                                           – 12 –             N17/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+      Example 5 (with mod)
+
+      Award [1] creation/generation/instantiation of array SUBSTITUTE of length 26.
+      Award [1] correct main loop boundaries
+      Award [1] for fully correct mod expression in IND
+      Award [1] assignment of IND of mod expression
+      Award [1] correct assignment of values to SUBSTITUTE, via IND index.
+
+      loop for K from 0 to 25
+           SUBSTITUTE[K] = UPCASELETTERS[K]
+      end loop
+               // accept SUBSTITUTE = UPCASELETTERS or
+               // SUBSTITUTE [K] = ”A” or new array SUBSTITUTE
+
+      loop for K from 0 to 25 //main loop
+           IND = (K+N) mod 26
+           SUBSTITUTE[K] = UPCASELETTERS[IND]
+      end loop
+
+      Remark: no marks for calculations of indexes that can become negative.           [5]
+
+(d)   Award up to [5 max].
+      Search the array UPCASELETTERS;
+      Using a linear/sequential or binary search;
+      Search for the position/index of character CH;
+      If CH is found in UPCASELETTER;
+      Return the value stored in the array SUBSTITUTE at this position/index;
+      Otherwise return CH;                                                             [5]
+

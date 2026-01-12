@@ -1,0 +1,542 @@
+M15/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+
+
+                        Markscheme
+
+
+                               May 2015
+
+
+                               Calculus
+
+
+                           Higher level
+
+
+                               Paper 3
+
+
+
+
+12 pages
+                          –2–            M15/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+
+
+This markscheme is the property of the International
+Baccalaureate and must not be reproduced or distributed
+to any other person without the authorization of the IB
+Assessment Centre.
+                                                  –3–                M15/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+
+
+                                       Instructions to Examiners
+
+Abbreviations
+
+M     Marks awarded for attempting to use a valid Method; working must be seen.
+
+(M)   Marks awarded for Method; may be implied by correct subsequent working.
+
+A     Marks awarded for an Answer or for Accuracy; often dependent on preceding M marks.
+
+(A)   Marks awarded for an Answer or for Accuracy; may be implied by correct subsequent working.
+
+R     Marks awarded for clear Reasoning.
+
+N     Marks awarded for correct answers if no working shown.
+
+AG    Answer given in the question and so no marks are awarded.
+
+Using the markscheme
+
+1     General
+
+      Mark according to RM™ Assessor instructions and the document “Mathematics HL: Guidance
+      for e-marking May 2015”. It is essential that you read this document before you start marking.
+      In particular, please note the following:
+
+       Marks must be recorded using the annotation stamps. Please check that you are entering
+        marks for the right question.
+       If a part is completely correct, (and gains all the “must be seen” marks), use the ticks with
+        numbers to stamp full marks.
+       If a part is completely wrong, stamp A0 by the final answer.
+       If a part gains anything else, it must be recorded using all the annotations.
+       All the marks will be added and recorded by RM™ Assessor.
+
+2     Method and Answer/Accuracy marks
+
+       Do not automatically award full marks for a correct answer; all working must be checked,
+        and marks awarded according to the markscheme.
+       It is not possible to award M0 followed by A1, as A mark(s) depend on the preceding M mark(s),
+        if any.
+       Where M and A marks are noted on the same line, eg M1A1, this usually means M1 for an
+        attempt to use an appropriate method (eg substitution into a formula) and A1 for using the
+        correct values.
+       Where the markscheme specifies (M2), N3, etc., do not split the marks.
+       Once a correct answer to a question or part-question is seen, ignore further correct working.
+        However, if further working indicates a lack of mathematical understanding do not award the final
+        A1. An exception to this may be in numerical answers, where a correct exact value is followed by
+        an incorrect decimal. However, if the incorrect decimal is carried through to a subsequent part,
+        and correct FT working shown, award FT marks as appropriate but do not award the final A1 in
+        that part.
+                                                    –4–               M15/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+    Examples
+          Correct answer seen        Further working seen           Action
+    1.                               5.65685...                     Award the final A1
+          8 2                        (incorrect decimal value)      (ignore the further working)
+    2.    1
+            sin 4 x                   sin x                         Do not award the final A1
+          4
+    3.    log a  log b               log (a  b)                   Do not award the final A1
+
+
+
+3   N marks
+
+    Award N marks for correct answers where there is no working.
+
+     Do not award a mixture of N and other marks.
+     There may be fewer N marks available than the total of M, A and R marks; this is deliberate as it
+      penalizes candidates for not following the instruction to show their working.
+
+
+4   Implied marks
+
+    Implied marks appear in brackets eg (M1), and can only be awarded if correct work is seen or if
+    implied in subsequent working.
+
+     Normally the correct work is seen or implied in the next line.
+     Marks without brackets can only be awarded for work that is seen.
+
+5   Follow through marks
+
+    Follow through (FT) marks are awarded where an incorrect answer from one part of a question is
+    used correctly in subsequent part(s). To award FT marks, there must be working present and
+    not just a final answer based on an incorrect answer to a previous part.
+
+     If the question becomes much simpler because of an error then use discretion to award fewer
+      FT marks.
+     If the error leads to an inappropriate value (eg sin   1.5 ), do not award the mark(s) for the final
+      answer(s).
+     Within a question part, once an error is made, no further dependent A marks can be awarded,
+      but M marks may be awarded if appropriate.
+     Exceptions to this rule will be explicitly noted on the markscheme.
+
+6   Mis-read
+
+    If a candidate incorrectly copies information from the question, this is a mis-read (MR).
+    A candidate should be penalized only once for a particular mis-read. Use the MR stamp to indicate
+    that this has been a misread. Then deduct the first of the marks to be awarded, even if this is an
+    M mark, but award all others so that the candidate only loses one mark.
+
+     If the question becomes much simpler because of the MR, then use discretion to award
+      fewer marks.
+     If the MR leads to an inappropriate value (eg sin   1.5 ), do not award the mark(s) for the
+         final answer(s).
+                                                          –5–                   M15/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+7    Discretionary marks (d)
+
+     An examiner uses discretion to award a mark on the rare occasions when the markscheme does
+     not cover the work seen. In such cases the annotation DM should be used and a brief note written
+     next to the mark explaining this decision.
+
+8    Alternative methods
+
+     Candidates will sometimes use methods other than those in the markscheme. Unless the
+     question specifies a method, other correct methods should be marked in line with the markscheme.
+     If in doubt, contact your team leader for advice.
+
+      Alternative methods for complete questions are indicated by METHOD 1, METHOD 2, etc.
+      Alternative solutions for part-questions are indicated by EITHER . . . OR.
+      Where possible, alignment will also be used to assist examiners in identifying where these
+       alternatives start and finish.
+
+9     Alternative forms
+
+      Unless the question specifies otherwise, accept equivalent forms.
+
+      As this is an international examination, accept all alternative forms of notation.
+      In the markscheme, equivalent numerical and algebraic forms will generally be written in
+       brackets immediately following the answer.
+      In the markscheme, simplified answers, (which candidates often do not write in examinations),
+       will generally appear in brackets. Marks should be awarded for either the form preceding the
+       bracket or the form in brackets (if it is seen).
+
+        Example: for differentiating f ( x)  2sin (5 x  3) , the markscheme gives:
+
+                        f  ( x)   2cos (5 x  3)  5   10cos (5 x  3)                A1
+
+              Award A1 for  2cos (5 x  3)  5 , even if 10cos(5x  3) is not seen.
+
+10   Accuracy of Answers
+
+     Candidates should NO LONGER be penalized for an accuracy error (AP).
+
+     If the level of accuracy is specified in the question, a mark will be allocated for giving the answer to
+     the required accuracy. When this is not specified in the question, all numerical answers should be
+     given exactly or correct to three significant figures. Please check work carefully for FT.
+
+11   Crossed out work
+
+     If a candidate has drawn a line through work on their examination script, or in some other way
+     crossed out their work, do not award any marks for that work.
+                                                 –6–                M15/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+12   Calculators
+
+     A GDC is required for paper 3, but calculators with symbolic manipulation features (for example,
+     TI-89) are not allowed.
+
+     Calculator notation
+     The Mathematics HL guide says:
+                 Students must always use correct mathematical notation, not calculator notation.
+     Do not accept final answers written using calculator notation. However, do not penalize the use of
+     calculator notation in the working.
+
+13   More than one solution
+
+     Where a candidate offers two or more different answers to the same question, an examiner
+     should only mark the first response unless the candidate indicates otherwise.
+                                                    –7–    M15/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+1.   f (0)  0                                                               A1
+     f ( x)  e x cos x  e x sin x  1                               M1A1
+     f (0)  0                                                            (M1)
+     f ( x )  2e  x sin x                                                A1
+     f (0)  0
+     f (3) ( x)  2e x sin x  2e  x cos x                                A1
+     f (3) (0)  2
+                                     2 x 3  x3 
+     the first non-zero term is                                           A1
+                                      3!  3 
+
+     Note: Award no marks for using known series.
+                                                                                   [7 marks]
+
+
+2.   (a)   METHOD 1
+            dy     1               1
+                 2  f ( x ) dx  f ( x )                            M1M1A1
+            dx    x                x
+             dy
+            x  y  f ( x) , x  0                                          AG
+             dx
+
+     Note: M1 for use of product rule, M1 for use of the fundamental
+           theorem of calculus, A1 for all correct.
+
+           METHOD 2
+
+              dy
+            x       y  f ( x)
+              dx
+            d ( xy )
+                      f ( x)                                              (M1)
+              dx
+            xy   f ( x)dx                                               M1A1
+                 1
+                 x
+            y      f ( x )dx                                               AG
+
+                                                                       [3 marks]
+
+
+                                                                               continued…
+                                                      –8–                 M15/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+Question 2 continued
+
+              1  12    
+     (b)   y   2x  c                                                                      A1A1
+              x        
+
+      Note: A1 for correct expression apart from the constant, A1 for
+            including the constant in the correct position.
+
+           attempt to use the boundary condition                                                M1
+           c4                                                                                  A1
+              1 1        
+           y   2x 2  4                                                                      A1
+              x          
+                                                                                                     [5 marks]
+
+      Note: Condone use of integrating factor.
+                                                                                               Total [8 marks]
+
+
+3.   (a)   METHOD 1
+                        1      1
+           (0 )      2
+                              2 , (for n  3)                                                  A1
+                     n ln (n) n
+            
+                 1
+            n converges
+           n2
+                 2
+                                                                                                A1
+
+
+                                                                   
+                                            1                               1
+           by the comparison test (     
+                                        n2 n
+                                              2
+                                                converges implies)       2
+                                                                   n  2 n (ln n)
+                                                                                  converges     R1
+
+
+      Note: Mention of using the comparison test may have come earlier.
+            Only award R1 if previous 2 A1s have been awarded.
+
+           METHOD 2
+
+                 1 
+                 2              1
+           lim  n ln n   lim       0                                                        A1
+           n      1       n  ln n
+                       
+                 n2 
+             
+                1
+           
+           n2 n
+                 2
+                   converges                                                                    A1
+
+
+           by the limit comparison test (if the limit is 0 and the series represented by the
+           denominator converges, then so does the series represented by the
+
+
+                                                                                                  continued…
+                                                           –9–             M15/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+Question 3 continued
+                                     
+                                               1
+           numerator, hence)         n (ln n) converges
+                                    n2
+                                           2
+                                                                                            R1
+
+      Note: Mention of using the limit comparison test may come earlier.
+            Do not award the R1 if incorrect justifications are given, for example the
+            series “converge or diverge together”.
+            Only award R1 if previous 2 A1s have been awarded.
+                                                                                                  [3 marks]
+
+     (b)   (i)      EITHER
+                                  1          1 
+                     ln (n)  ln 1    ln  n  1                                     A1
+                                  n          n 
+
+                    OR
+                                     1                n  1
+                     ln (n)  ln  1    ln (n)  ln       
+                                     n                n 
+                      ln (n)  ln (n  1)  ln (n)                                         A1
+
+                    THEN
+                      ln (n  1)                                                          AG
+
+                                                         n      ln (n)
+           (ii)     attempt to use the ratio test                                           M1
+                                                      (n  1) ln (n  1)
+                       n
+                            1 as n                                                      (A1)
+                     n 1
+                       ln (n)             ln (n)
+                                                                                           M1
+                     ln (n  1)                 1
+                                   ln (n)  ln 1  
+                                                n
+                      1 (as n  )                                                        (A1)
+                        n       ln (n)
+                                          1 (as n  ) hence ratio test is inconclusive    R1
+                     (n  1) ln (n  1)
+      Note: A link with the limit equalling 1 and the result being inconclusive needs to
+            be given for R1.
+                                                                                                  [6 marks]
+
+                                             1
+     (c)   (i)      consider f ( x )            (for x  1)                                A1
+                                          x ln x
+                     f ( x) is continuous and positive                                      A1
+                    and is (monotonically) decreasing                                       A1
+      Note: If a candidate uses n rather than x, award as follows
+                     1
+                         is positive and decreasing A1A1
+                  n ln n
+                     1
+                         is continuous for n   , n >1 A1 (only award this mark if the
+                  n ln n
+                  domain has been explicitly changed).
+                                                                                              continued…
+                                                                                 – 10 –   M15/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+Question 3 continued
+
+                                                  R          1
+           (ii)           consider                              dx                                       M1
+                                                  2       x ln x
+                             ln (ln x) 2
+                                                      R
+                                                                                                       (M1)A1
+                            as R                                                                      R1
+                          hence series diverges                                                           A1
+
+      Note: Condone the use of  in place of R.
+
+
+      Note: If the lower limit is not equal to 2, but the expression is integrated correctly
+            award M0M1A1R0A0.
+                                                                                                                [8 marks]
+
+                                                                                                        Total [17 marks]
+
+
+                x2         2x
+4.   (a)   lim    x
+                     lim x                                                                             M1A1
+           x  e     x  e
+
+                2
+           lim x  0                                                                                    M1A1
+           x e
+
+
+
+      Note: Award M1 for an attempt at differentiating for a second time.
+                                                                                                                [4 marks]
+
+     (b)   attempt to integrate by parts                                                                  M1
+            x e dx   x e   2 xe dx
+                  2       x                 2 x                     x
+                                                                                                         (A1)
+             x e  2 xe   2e dx
+                          2 x               x               x
+                                                                                                         (A1)
+             x 2e  x  2 xe  x  2e  x (c)                                                          A1
+
+             x e dx  R e  2Re  2e  2
+              R       2        x                     2 R             R   R
+                                                                                                        M1A1
+              0
+
+
+                          R
+           lim 0 x e dx  2
+           R 
+                                    2   x
+                                                                                                       M1A1
+
+
+      Note: Award M1 for consideration of the limit and A1 for correct
+            limiting value.
+
+           hence the improper integral converges                                                          AG
+
+      Note: Do not award the final four marks to candidates who do not
+            consider R.
+                                                                                                                [8 marks]
+
+                                                                                                        Total [12 marks]
+                                                      – 11 –                M15/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+5.   (a)   (i)     f ( x )  3 x 2  6 x                                                             A1
+                  gradient of chord  1                                                               A1
+                  3c 2  6c  1
+                       3  2 3
+                  c            (  2.15, 0.155)                                                   A1A1
+                           3
+
+     Note: Accept any answers that round to the correct 2sf answers (–2.2, 0.15) .
+
+           (ii)
+
+
+
+
+                  award A1 for correct shape and clear indication of correct domain,
+                  A1 for chord (from x = 3 to x = 1) and A1 for two tangents drawn
+                  at their values of c                                               A1A1A1
+                                                                                                           [7 marks]
+
+     (b)   (i)    METHOD 1
+                  (if a theorem is true for the interval [a, b], it is also true for any interval
+                  [ x1 , x2 ] which belongs to [a, b])
+                  suppose x1 , x2 [a , b]                                                           M1
+                                                                     f ( x2 )  f ( x1 )
+                  by the MVT, there exists c such that f (c)                           0     M1A1
+                                                                          x2  x1
+                  hence f ( x1 )  f ( x2 )                                                           R1
+                  as x1 , x2 are arbitrarily chosen, f  x  is constant on  a , b
+
+           Note: If the above is expressed in terms of a and b award M0M1A0R0.
+
+                  METHOD 2
+
+                  (if a theorem is true for the interval [a, b], it is also true for any interval
+                  [ x1 , x2 ] which belongs to [a, b])
+                  suppose x [a , b]                                                                 M1
+
+                                                                                                       continued…
+                                                              – 12 –          M15/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+Question 5 continued
+
+                                                                       f ( x)  f (a )
+                 by the MVT, there exists c such that f (c)                          0   M1A1
+                                                                            xa
+                 hence f (x)  f (a)  constant                                               R1
+
+
+          (ii)                                                            
+                 attempt to differentiate f ( x)  2arccos x  arccos 1  2 x 2              M1
+                        1                   4 x
+                 2                                                                        A1A1
+                       1  x2           1  1  2 x 
+                                                   2 2
+
+
+                            1                4x
+                  2                                   0                                   A1
+                         1 x   2
+                                          4x  4x4
+                                             2
+
+
+
+      Note: Only award A1 for 0 if a correct attempt to simplify the denominator is
+            also seen.
+
+                                            
+                  f ( x )  f (0)  2        0                                          A1AG
+                                            2
+
+      Note: This A1 is not dependent on previous marks.
+
+      Note: Allow any value of x  [0, 1] .
+                                                                                                   [9 marks]
+
+                                                                                            Total [16 marks]
+

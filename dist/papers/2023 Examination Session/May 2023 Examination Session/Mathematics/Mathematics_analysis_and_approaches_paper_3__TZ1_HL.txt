@@ -1,0 +1,228 @@
+© International Baccalaureate Organization 2023
+
+All rights reserved. No part of this product may be reproduced in any form or by any
+electronic or mechanical means, including information storage and retrieval systems,
+without the prior written permission from the IB. Additionally, the license tied with this
+product prohibits use of any selected files or extracts from this product. Use by third
+parties, including but not limited to publishers, private teachers, tutoring or study services,
+preparatory schools, vendors operating curriculum mapping services or teacher resource
+digital platforms and app developers, whether fee-covered or not, is prohibited and is a
+criminal offense.
+
+More information on how to request written permission in the form of a license can be
+obtained from https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-
+license/.
+
+© Organisation du Baccalauréat International 2023
+
+Tous droits réservés. Aucune partie de ce produit ne peut être reproduite sous quelque
+forme ni par quelque moyen que ce soit, électronique ou mécanique, y compris des
+systèmes de stockage et de récupération d’informations, sans l’autorisation écrite
+préalable de l’IB. De plus, la licence associée à ce produit interdit toute utilisation de tout
+fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris, sans
+toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de tutorat ou
+d’aide aux études, des établissements de préparation à l’enseignement supérieur, des
+fournisseurs de services de planification des programmes d’études, des gestionnaires de
+plateformes pédagogiques en ligne, et des développeurs d’applications, moyennant
+paiement ou non, est interdite et constitue une infraction pénale.
+
+Pour plus d’informations sur la procédure à suivre pour obtenir une autorisation écrite
+sous la forme d’une licence, rendez-vous à l’adresse https://ibo.org/become-an-ib-school/
+ib-publishing/licensing/applying-for-a-license/.
+
+© Organización del Bachillerato Internacional, 2023
+
+Todos los derechos reservados. No se podrá reproducir ninguna parte de este producto
+de ninguna forma ni por ningún medio electrónico o mecánico, incluidos los sistemas de
+almacenamiento y recuperación de información, sin la previa autorización por escrito del
+IB. Además, la licencia vinculada a este producto prohíbe el uso de todo archivo o
+fragmento seleccionado de este producto. El uso por parte de terceros —lo que incluye,
+a título enunciativo, editoriales, profesores particulares, servicios de apoyo académico o
+ayuda para el estudio, colegios preparatorios, desarrolladores de aplicaciones y
+entidades que presten servicios de planificación curricular u ofrezcan recursos para
+docentes mediante plataformas digitales—, ya sea incluido en tasas o no, está prohibido
+y constituye un delito.
+
+En este enlace encontrará más información sobre cómo solicitar una autorización por
+escrito en forma de licencia: https://ibo.org/become-an-ib-school/ib-publishing/licensing/
+applying-for-a-license/.
+Mathematics: analysis and approaches
+Higher level
+Paper 3
+
+9 May 2023
+
+Zone A afternoon   Zone B morning   Zone C afternoon
+
+
+1 hour
+
+Instructions to candidates
+y Do not open this examination paper until instructed to do so.
+y A graphic display calculator is required for this paper.
+y Answer all the questions in the answer booklet provided.
+y Unless otherwise stated in the question, all numerical answers should be given exactly or
+  correct to three significant figures.
+y A clean copy of the mathematics: analysis and approaches formula booklet is required for
+  this paper.
+y The maximum mark for this examination paper is [55 marks].
+
+
+
+
+                                                                                           2223 – 7108
+      5 pages                                          © International Baccalaureate Organization 2023
+  –2–        2223 – 7108
+
+
+
+
+Blank page
+                                                         –3–                                        2223 – 7108
+
+
+Answer all questions in the answer booklet provided. Please start each question on a new page. Full
+marks are not necessarily awarded for a correct answer with no working. Answers must be supported
+by working and/or explanations. Solutions found from a graphic display calculator should be supported
+by suitable working. For example, if graphs are used to find a solution, you should sketch these as part
+of your answer. Where an answer is incorrect, some marks may be given for a correct method, provided
+this is shown by written working. You are therefore advised to show all working.
+
+1.   [Maximum mark: 25]
+
+     In this question, you will be investigating the family of functions of the form f (x) = xn e-x .
+
+     Consider the family of functions f n (x) = xn e-x , where x ≥ 0 and n ∈ + .
+
+     When n = 1 , the function f 1 (x) = xe-x , where x ≥ 0 .
+
+     (a)   Sketch the graph of y = f 1 (x) , stating the coordinates of the local maximum point.           [4]
+
+     (b)   Show that the area of the region bounded by the graph y = f 1 (x) , the x-axis and the
+                                               eb - b -1
+           line x = b , where b > 0 , is given by        .[6]
+                                                   eb
+     You may assume that the total area, An , of the region between the graph y = f n (x) and the
+                                      ∞                                  b
+     x-axis can be written as An = ∫ f n ( x) dx and is given by lim ∫ f n ( x) dx .
+                                      0                            b→∞ 0
+                                                     b
+                                                    e − b −1
+     (c)   (i)	Use l’Hôpital’s rule to find lim             . You may assume that the condition for
+                                              b→∞     eb
+                  applying l’Hôpital’s rule has been met.[2]
+
+           (ii)   Hence write down the value of A1 .                                                       [1]
+
+     You are given that A2 = 2 and A3 = 6 .
+
+     (d)   Use your graphic display calculator, and an appropriate value for the upper limit,
+           to determine the value of
+
+           (i)    A4 ;                                                                                     [2]
+
+           (ii)   A5 .                                                                                     [1]
+
+     (e)   Suggest an expression for An in terms of n , where n ∈ + .                                     [1]
+
+     (f)   Use mathematical induction to prove your conjecture from part (e). You may assume
+           that, for any value of m , lim x me − x = 0 .[8]
+                                       x→∞
+
+
+
+
+                                                                                                    Turn over
+                                                       –4–                                                  2223 – 7108
+
+
+2.   [Maximum mark: 30]
+
+     In this question, you will investigate the maximum product of positive real numbers
+     with a given sum.
+
+     Consider the two numbers x1 , x2 ∈ + , such that x1 + x2 = 12 .
+
+     (a)   Find the product of x1 and x2 as a function, f , of x1 only.                                            [2]
+
+     (b)   (i)	Find the value of x1 for which the function is maximum.                                            [1]
+
+           (ii)    Hence show that the maximum product of x1 and x2 is 36 .[1]
+
+     Consider Mn(S) to be the maximum product of n positive real numbers with a sum of S ,
+     where n ∈ + and S ∈ + .
+                                                                               2
+                                                                           S
+     For n = 2 , the maximum product can be expressed as M 2 ( S ) =         .
+                                       2
+                                                                           2
+                                 S
+     (c) Verify that M 2 ( S ) =   is true for S = 12 .                                                          [1]
+                                 2
+     Consider n positive real numbers, x1 , x2 , ... , xn .
+                                                                 1
+     The geometric mean is defined as ( x1 × x2 × ... × xn ) n . It is given that the geometric mean is
+                                                                               1
+                                                                                     ( x1 + x2 + ... + xn )
+     always less than or equal to the arithmetic mean, so ( x1 × x2 × ... × xn ) ≤
+                                                                               n
+                                                                                                            .
+                                                                                               n
+     (d)   (i)	Show that the geometric mean and arithmetic mean are equal
+                when x1 = x2 = ... = xn .                                                                          [2]
+                                                                     n
+                                                            S
+           (ii)    Use this result to prove that M n ( S ) =  .[4]
+                                                            n
+     (e)   Hence determine the value of
+
+           (i)     M3(12) ;                                                                                        [1]
+
+           (ii)    M4(12) ;                                                                                        [1]
+
+           (iii)   M5(12) .                                                                                        [1]
+
+     For n ∈ + , let P (S) denote the maximum value of Mn(S) across all possible values of n .
+
+     (f)   Write down the value of P (12) and the value of n at which it occurs.                                   [2]
+
+     (g)   Determine the value of P (20) and the value of n at which it occurs.                                    [3]
+
+(This question continues on the following page)
+                                                       –5–                                      2223 – 7108
+
+
+(Question 2 continued)
+
+                                                               S
+      Consider the function g , defined by ln ( g ( x) ) = x ln                 +
+                                                                   , where x ∈  .
+                                                                x
+                                                                
+      A sketch of the graph of y = g (x) is shown in the following diagram. Point A is the maximum
+      point on this graph.
+
+                         y
+                                         A
+
+
+
+
+                                                                         y = g (x)
+                                                                                      x
+                     0
+
+      (h)     Find, in terms of S , the x-coordinate of point A .                                       [6]
+
+      (i)     Verify that g (x) = Mx(S) , when x ∈ + .                                                 [2]
+
+      (j)     Use your answer to part (h) to find the largest possible product of positive numbers
+              whose sum is 100. Give your answer in the form a × 10k , where 1 ≤ a < 10 and k ∈ + .   [3]
+
+
+
+
+References:
+
+© International Baccalaureate Organization 2023
+

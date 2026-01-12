@@ -1,0 +1,408 @@
+M11/3/ITGSX/SP2/ENG/TZ0/XX
+
+
+
+
+     22115515
+
+Information technology in a global society
+Standard level
+PAPER 2
+
+Friday 6 May 2011 (morning)
+
+2 hours
+
+
+INSTRUCTIONS to candidates
+
+ Do not open this examination paper until instructed to do so.
+ Section A: answer all parts of the question.
+ Section B: answer two questions.
+
+
+
+
+2211-5515                                                                                         11 pages
+                                                           © International Baccalaureate Organization 2011
+                                                   –2–                    M11/3/ITGSX/SP2/ENG/TZ0/XX
+
+                                               SECTION A
+
+Answer all parts of the question.
+
+                               Area of impact: Business and employment
+
+1.    Kiva is a company that lends money to small businesses in the developing world. Details of each
+      business are displayed on the Kiva web site. New businesses wanting loans can sign up, at no cost,
+      and individuals who wish to lend money can register as lenders. Lenders can search the Kiva
+      database and choose a new business from countries such as Kenya and Vietnam.
+
+      Lenders transfer money to the Kiva web site in the form of a loan using PayPal or a credit card.
+      Lenders may lend as little as US$25 so a loan is usually shared by many lenders. The loan is
+      complete when the total of individual lenders’ loans equals the sum required by the business owner.
+      Provided the business is successful the business owner gradually repays each loan.
+
+      Regular electronic feedback is provided to the lenders on the status of their loans and the success
+      of the business. Lenders can also log in to the web site at any time and check current and past loans.
+      Download speeds vary and are often slow in developing countries. Lenders find information about
+      the progress of each loan useful and it makes them feel valued. This often encourages further loans.
+
+
+
+
+                                    www.kiva.org. Used with permission.
+
+                                                           (This question continues on the following page)
+
+
+
+
+2211-5515
+                                                   –3–                     M11/3/ITGSX/SP2/ENG/TZ0/XX
+
+(Question 1 continued)
+
+      (a)   The information about loans is stored in a relational database such as the one
+            illustrated below.
+
+
+              LENDERS                  LOANS                        RECEIVER_OF_LOAN
+                                                                    (i.e. BUSINESS)
+              Lender_ID                Loan_ID                      Business_ID
+              First_Name               Business_ID                  Business_Name
+              Family_Name              Lender_ID                    Business_Description
+              Street                   Amount_Loaned                Contact_Name
+              City                     Date_Loaned                  Address
+              Country                                               Phone_Number
+              Email_Address                                         Loan_Status
+              Payment_Method
+
+
+
+		          (i)    Identify the key field in the RECEIVER_OF_LOAN table.                          [1 mark]
+
+		          (ii)   Identify the data type for         the   field     Phone_Number    in   the
+                   RECEIVER_OF_LOAN table.                                                        [1 mark]
+
+      (b)   The database administrator wishes to produce an alphabetical list of lenders from
+            France who have contributed at least US$50 after 01/01/2001.
+
+            Describe the query that produces the list specified above.                            [4 marks]
+
+      (c)   The field Business_Description should not be included in the LOANS table
+            because this would lead to data redundancy.
+
+            Explain why this could lead to inaccuracies in the database.                          [4 marks]
+
+      (d)   “Kiva provides a data-rich, transparent lending platform. We are constantly
+            working to make the system more transparent to show how money flows
+            throughout the entire cycle, and what effect it has on the people and institutions
+            that lend, borrow and manage it along the way.”
+
+                             www.kiva.org. Used with permission.
+
+		          Discuss what online services the Kiva web site could provide for effective online
+            reporting back to the lenders about the status of the recipient’s business and the
+            loan repayments.                                                                     [10 marks]
+
+
+
+
+2211-5515                                                                                        Turn over
+                                                                –4–               M11/3/ITGSX/SP2/ENG/TZ0/XX
+
+                                                            SECTION B
+
+Answer two questions.
+
+                                                      Area of impact: Education
+
+2.    Universities are taking advantage of the increased availability of mobile devices such as personal
+      digital assistants (PDAs), including cell (mobile) phones, to provide access to video and audio files of
+      material covered in lectures. These files may be podcasts1 and vidcasts2 which are accessed securely
+      from the university server.
+
+      Many students, such as Amy who is an international athlete, are unable to attend a number of their
+      lectures due to other commitments. These students, like Amy, are taking advantage of the opportunity
+      to access the material covered in lectures to keep up with their studies.
+
+      However, there are other students who are taking advantage of this technology to socialize and
+      earn money at part-time work, knowing that the lectures they miss are available through the
+      university network.
+
+
+
+      1
+            podcast: refers to an audio-only file
+      2
+            vidcast: refers to a podcast with video
+
+
+
+
+      (a)       Identify two file formats that can be used for podcasts or vidcasts on PDAs.            [2 marks]
+
+      (b)       Describe the steps for producing a podcast file.                                        [4 marks]
+
+      (c)       Explain two possible educational uses for podcasts or vidcasts other than
+                providing access to lecture material.                                                   [4 marks]
+
+      (d)       Many universities around the world are also making their lectures publicly
+                available through online podcast and vidcast hosting services. The lectures
+                cover a wide range of topics, opening up new opportunities for lecturing
+                and learning.
+
+                To what extent could stakeholders, other than students enrolled in the
+                university courses, be affected by the public availability of university lectures as
+                podcasts and vidcasts?                                                                 [10 marks]
+
+
+
+
+2211-5515
+                                                         –5–                       M11/3/ITGSX/SP2/ENG/TZ0/XX
+
+                             Area of impact: Arts, entertainment and leisure
+
+3.    A social games company, PlayFish, announced that its users installed 100 million copies of its new
+      social games in the first 18 months since the company began.
+
+      One of their social games is called Pet Society. When you join as a member you are able to contact
+      other members, called “friends”, and contact their cartoon pets. You are only allowed to visit
+      a “friend’s” pet once a day, where you earn 30 virtual coins. Items can be bought for “friends” and
+      pets which can cost thousands of coins. It takes weeks of playing in order to buy these items.
+      Therefore the aim of the game is to acquire as many “friends” as possible.
+
+      Recently one player, Chui, had more than 4400 “friends”. Through playing Pet Society she is online
+      for more than 8 hours each day. Because of her vast “friend” network, Chui is the most popular
+      member in Pet Society.
+
+                                        Image removed for copyright reasons
+
+
+      Social games are normally free. They provide the opportunity for users to communicate with each
+      other online and play collaboratively to achieve the goals in the game. Users play the games in their
+      web browsers through social networking web sites such as Facebook.
+
+      According to gaming experts, the emphasis on online interaction between “friends” has expanded
+      the popularity of social games far beyond both video games on desktop computers and online games.
+      Moreover, social games appeal to an entirely new, non-gaming, audience.
+
+                      [Source: http://gamasutra.com/php-bin/news_index.php?story=25173, 25 September 2009]
+
+
+
+      (a)   Identify two reasons why a social networking web site such as Facebook would
+            provide access to free online social games through its web site.                                  [2 marks]
+
+      (b)   Pet Society downloads cookies on to your computer. Describe two possible
+            ways that games companies could use cookies.                                                      [4 marks]
+
+      (c)   Online social games sometimes run slowly on home computers. Explain the
+            factors that can cause this problem.                                                              [4 marks]
+
+      (d)   To what extent could the intensive playing of online games have long-lasting
+            effects on the user?                                                                             [10 marks]
+
+
+
+
+2211-5515                                                                                                    Turn over
+                                                          –6–                        M11/3/ITGSX/SP2/ENG/TZ0/XX
+
+                                             Area of impact: Health
+
+4.    2020 Vision is a firm of opticians in the UK (United Kingdom) that conducts eye examinations and
+      prescribes glasses and contact lenses. During an eye examination they take digital photographs of
+      customers’ retinas using a 6 megapixel camera and store them on their computer system. By comparing
+      them with previously stored photographs, the opticians can see if there have been any changes which
+      may indicate eye disease. The images are converted to JPG format and placed in a secure area
+      on their web site. Customers can log in and see their photographs as well as their prescriptions at
+      any time.
+
+
+
+
+                                 [Source: http://visionsking.com/prescription, 25 September 2009]
+
+
+
+
+                      [Source: http://depts.washington.edu/ophthweb/images/J01retina.jpg, 25 September 2009]
+
+
+
+      Up until now UK medical institutions and services such as 2020 Vision store their patient medical
+      records in different IT systems. The UK government has already spent billions of pounds of taxpayers’
+      money on an IT medical records system which is supposed to provide medical professionals with
+      access to all patients’ records from any computer connected to the government system. The project
+      had problems from the start and it looks as if it will never be satisfactorily completed. It has been
+      suggested that a better solution would be to allow another established Internet company, MedSystems,
+      to store UK patients’ medical records using technology that is already available.
+
+
+                                                                    (This question continues on the following page)
+
+2211-5515
+                                                   –7–                  M11/3/ITGSX/SP2/ENG/TZ0/XX
+
+(Question 4 continued)
+
+      (a)   Define the term pixel.                                                               [2 marks]
+
+      (b)   Describe two steps that would need to be taken for a patient’s 2020 Vision images
+            to be made available in MedSystems’s medical records.                                [4 marks]
+
+      (c)   Explain why images of the retina need to be converted to JPG format before
+            being displayed on the 2020 Vision web site.                                         [4 marks]
+
+      (d)   The UK government has to decide whether to:
+            • continue to fund the current IT medical records system in an attempt to get
+              it working
+            • abandon this development and outsource a similar records system to a third
+              party such as MedSystems.
+
+            Evaluate both of these strategies.                                                  [10 marks]
+
+
+
+
+2211-5515                                                                                       Turn over
+                                                        –8–                        M11/3/ITGSX/SP2/ENG/TZ0/XX
+
+                              Area of impact: Science and the environment
+
+5.    A government bureau of meteorology collects data from weather stations. This data is imported into
+      a database and displayed on a web site.
+
+      On the web site (Diagram 1) it is possible for a user to select a particular weather station, e.g. 23090,
+      and display data such as temperature, rainfall and other weather conditions, and to choose daily or
+      monthly statistics.
+
+      Diagram 1
+
+
+
+
+                            Source: http://bom.gov.au. Commonwealth of Australia permission.
+
+
+                                                                  (This question continues on the following page)
+
+
+
+
+2211-5515
+                                                        –9–                        M11/3/ITGSX/SP2/ENG/TZ0/XX
+
+(Question 5 continued)
+
+      This data is also used for climatic modelling and is used by companies who need additional analysis
+      of the information provided. This data is stored in the form of spreadsheets.
+
+      When station 23090 is selected the screen displays a snapshot of data from Adelaide Hyde Park
+      (Diagram 2). Collection began in 1977 and continues to the present day.
+
+      Diagram 2
+
+
+
+
+                            Source: http://bom.gov.au. Commonwealth of Australia permission.
+
+      (a)   Identify two methods of updating a database with data from a spreadsheet.                [2 marks]
+
+      (b)   A spreadsheet will be unreliable if data has been entered incorrectly.
+
+            Describe two ways to prevent the input of invalid data.                                  [4 marks]
+
+      (c)   The output from the spreadsheet (Diagram 2) contains valuable data for users of
+            the web site. Compare two different ways a user may choose to save copies of
+            this data to a personal computer (PC).                                                   [4 marks]
+
+      (d)   Many companies create their own spreadsheets so they can use the data from
+            the government bureau of meteorology web site in order to assist in their
+            decision-making. Results are often limited due to poor design, maintenance or
+            control of these spreadsheets.
+
+            Discuss the policies that a company can implement to overcome such problems.            [10 marks]
+
+
+2211-5515                                                                                           Turn over
+                                                    – 10 –                 M11/3/ITGSX/SP2/ENG/TZ0/XX
+
+                                 Area of impact: Politics and government
+
+6.    In some countries all vehicles are taxed annually. However, before the tax can be paid, the owner
+      needs valid insurance and a current safety certificate. A tax sticker is then issued and must be displayed
+      in the vehicle.
+
+      In the month before the vehicle tax must be paid, the owner receives a renewal letter that has
+      a 16-digit unique identification number that must be used when paying the tax. In order to make
+      the payment, the owner has to go to a post office with the vehicle insurance and other relevant
+      documents as well as the vehicle tax renewal letter.
+
+      The UK (United Kingdom) government has introduced an online system so that the vehicle owner can
+      make the payment of the vehicle tax online.
+
+      When the vehicle owner accesses the web page, they are asked to enter the 16-digit identification
+      number. At various points in the process the vehicle owner is asked for additional relevant information
+      that must also be entered.
+
+      During the renewal process the government system accesses a database to find out whether the vehicle
+      owner has valid insurance and also checks that the vehicle has a current safety certificate. If at any
+      point the vehicle owner gives an incorrect, invalid or unexpected response that they cannot correct,
+      then they will not be able to complete the process.
+
+      At the end of the process the vehicle tax payment is authorized and a new tax sticker is sent by post
+      to the vehicle owner.
+
+      The UK government is considering extending this online scheme to include other types of payment
+      such as property tax.
+
+
+      (a)   Identify two reasons why the UK government is encouraging people to pay their
+            vehicle tax online.                                                                      [2 marks]
+
+      (b)   When paying the vehicle tax online, the URL of the vehicle tax web site uses the
+            protocol HTTPS. Describe the difference between HTTP and HTTPS.                          [4 marks]
+
+      (c)   Explain how the UK vehicle tax database system could make use of private key/
+            public key encryption in order to safeguard an owner’s data.                             [4 marks]
+
+
+
+
+                                                             (This question continues on the following page)
+
+
+
+
+2211-5515
+                                                  – 11 –                M11/3/ITGSX/SP2/ENG/TZ0/XX
+
+(Question 6 continued)
+
+      (d)   The UK government has access to a range of other databases such as:
+            • vehicle registration database
+            • income tax database
+            • police records
+            • cell (mobile) phone records
+            • credit card records
+            • Internet service provider (ISP) records of web sites visited.
+
+            Data matching techniques allow the government to collate information from
+            numerous sources and build up a comprehensive picture of an individual.
+            Civil liberty groups are concerned about the amount of information that
+            governments hold, the amount of access they have to other databases and how
+            they use it.
+
+            With reference to specific examples, to what extent are the concerns of the civil
+            liberty groups justified?                                                           [10 marks]
+
+
+
+
+2211-5515
+

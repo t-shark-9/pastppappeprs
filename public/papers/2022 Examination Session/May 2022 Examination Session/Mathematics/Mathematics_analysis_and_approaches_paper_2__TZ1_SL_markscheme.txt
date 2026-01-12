@@ -1,0 +1,870 @@
+M22/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+
+
+                       Markscheme
+
+
+                               May 2022
+
+
+   Mathematics: analysis and approaches
+
+
+                         Standard level
+
+
+                               Paper 2
+
+
+
+
+23 pages
+                                            –2–                 M22/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+
+
+© International Baccalaureate Organization 2022
+
+All rights reserved. No part of this product may be reproduced in any form or by any
+electronic or mechanical means, including information storage and retrieval systems,
+without the prior written permission from the IB. Additionally, the license tied with this
+product prohibits use of any selected files or extracts from this product. Use by third
+parties, including but not limited to publishers, private teachers, tutoring or study services,
+preparatory schools, vendors operating curriculum mapping services or teacher resource
+digital platforms and app developers, whether fee-covered or not, is prohibited and is a
+criminal offense.
+
+More information on how to request written permission in the form of a license can be
+obtained from https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-
+license/.
+
+© Organisation du Baccalauréat International 2022
+
+Tous droits réservés. Aucune partie de ce produit ne peut être reproduite sous quelque
+forme ni par quelque moyen que ce soit, électronique ou mécanique, y compris des
+systèmes de stockage et de récupération d’informations, sans l’autorisation écrite
+préalable de l’IB. De plus, la licence associée à ce produit interdit toute utilisation de tout
+fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris, sans
+toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de tutorat ou
+d’aide aux études, des établissements de préparation à l’enseignement supérieur, des
+fournisseurs de services de planification des programmes d’études, des gestionnaires de
+plateformes pédagogiques en ligne, et des développeurs d’applications, moyennant
+paiement ou non, est interdite et constitue une infraction pénale.
+
+Pour plus d’informations sur la procédure à suivre pour obtenir une autorisation écrite
+sous la forme d’une licence, rendez-vous à l’adresse https://ibo.org/become-an-ib-school/
+ib-publishing/licensing/applying-for-a-license/.
+
+© Organización del Bachillerato Internacional, 2022
+
+Todos los derechos reservados. No se podrá reproducir ninguna parte de este producto
+de ninguna forma ni por ningún medio electrónico o mecánico, incluidos los sistemas de
+almacenamiento y recuperación de información, sin la previa autorización por escrito del
+IB. Además, la licencia vinculada a este producto prohíbe el uso de todo archivo o
+fragmento seleccionado de este producto. El uso por parte de terceros —lo que incluye,
+a título enunciativo, editoriales, profesores particulares, servicios de apoyo académico o
+ayuda para el estudio, colegios preparatorios, desarrolladores de aplicaciones y
+entidades que presten servicios de planificación curricular u ofrezcan recursos para
+docentes mediante plataformas digitales—, ya sea incluido en tasas o no, está prohibido
+y constituye un delito.
+
+En este enlace encontrará más información sobre cómo solicitar una autorización por
+escrito en forma de licencia: https://ibo.org/become-an-ib-school/ib-publishing/licensing/
+applying-for-a-license/.
+                                              –3–               M22/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+                                  Instructions to Examiners
+
+Abbreviations
+
+M    Marks awarded for attempting to use a correct Method.
+
+A    Marks awarded for an Answer or for Accuracy; often dependent on preceding M marks.
+
+R    Marks awarded for clear Reasoning.
+
+AG Answer given in the question and so no marks are awarded.
+
+FT   Follow through. The practice of awarding marks, despite candidate errors in previous parts,
+     for their correct methods/answers using incorrect results.
+
+
+Using the markscheme
+
+1    General
+
+     Award marks using the annotations as noted in the markscheme eg M1, A2.
+
+
+2    Method and Answer/Accuracy marks
+
+     • Do not automatically award full marks for a correct answer; all working must be checked,
+       and marks awarded according to the markscheme.
+     • It is generally not possible to award M0 followed by A1, as A mark(s) depend on the
+       preceding M mark(s), if any.
+     • Where M and A marks are noted on the same line, e.g. M1A1, this usually means M1 for
+       an attempt to use an appropriate method (e.g. substitution into a formula) and A1 for
+       using the correct values.
+     • Where there are two or more A marks on the same line, they may be awarded
+       independently; so if the first value is incorrect, but the next two are correct, award
+       A0A1A1.
+     • Where the markscheme specifies A3, M2 etc., do not split the marks, unless there is a
+       note.
+     • The response to a “show that” question does not need to restate the AG line, unless a
+       Note makes this explicit in the markscheme.
+     • Once a correct answer to a question or part question is seen, ignore further working even
+       if this working is incorrect and/or suggests a misunderstanding of the question. This will
+       encourage a uniform approach to marking, with less examiner discretion. Although some
+       candidates may be advantaged for that specific question item, it is likely that these
+       candidates will lose marks elsewhere too.
+     • An exception to the previous rule is when an incorrect answer from further working is used
+       in a subsequent part. For example, when a correct exact value is followed by an incorrect
+       decimal approximation in the first part and this approximation is then used in the second
+       part. In this situation, award FT marks as appropriate but do not award the final A1 in the
+       first part.
+                                                 –4–               M22/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+Examples:
+
+     Correct        Further            Any FT issues?          Action
+     answer         working seen
+     seen
+1.                    5.65685...        No.                     Award A1 for the final mark
+       8 2           (incorrect         Last      part    in    (condone the incorrect further
+                    decimal value)      question.               working)
+2.      35           0.468111…          Yes.                    Award A0 for the final mark
+                     (incorrect         Value is used in        (and full FT is available in
+        72          decimal value)      subsequent parts.       subsequent parts)
+
+
+3    Implied marks
+
+     Implied marks appear in brackets e.g. (M1),and can only be awarded if correct work is
+     seen or implied by subsequent working/answer.
+
+
+4    Follow through marks (only applied after an error is made)
+
+     Follow through (FT) marks are awarded where an incorrect answer from one part of a
+     question is used correctly in subsequent part(s) (e.g. incorrect value from part (a) used in
+     part (d) or incorrect value from part (c)(i) used in part (c)(ii)). Usually, to award FT marks,
+     there must be working present and not just a final answer based on an incorrect answer
+     to a previous part. However, if all the marks awarded in a subsequent part are for the answer
+     or are implied, then FT marks should be awarded for their correct answer, even when
+     working is not present.
+
+     For example: following an incorrect answer to part (a) that is used in subsequent parts,
+     where the markscheme for the subsequent part is (M1)A1, it is possible to award full marks
+     for their correct answer, without working being seen. For longer questions where all but
+     the answer marks are implied this rule applies but may be overwritten by a Note in the
+     Markscheme.
+
+     • Within a question part, once an error is made, no further A marks can be awarded for
+       work which uses the error, but M marks may be awarded if appropriate.
+
+     • If the question becomes much simpler because of an error then use discretion to award
+       fewer FT marks, by reflecting on what each mark is for and how that maps to the simplified
+       version.
+
+     • If the error leads to an inappropriate value (e.g. probability greater than 1, sin  = 1.5 , non-
+       integer value where integer required), do not award the mark(s) for the final answer(s).
+
+     • The markscheme may use the word “their” in a description, to indicate that candidates
+       may be using an incorrect value.
+
+     • If the candidate’s answer to the initial question clearly contradicts information given in the
+       question, it is not appropriate to award any FT marks in the subsequent parts. This
+                                              –5–               M22/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+      includes when candidates fail to complete a “show that” question correctly, and then in
+      subsequent parts use their incorrect answer rather than the given value.
+
+    • Exceptions to these FT rules will be explicitly noted on the markscheme.
+
+    • If a candidate makes an error in one part but gets the correct answer(s) to subsequent
+      part(s), award marks as appropriate, unless the command term was “Hence”.
+
+
+5   Mis-read
+
+    If a candidate incorrectly copies values or information from the question, this is a mis-read
+    (MR). A candidate should be penalized only once for a particular misread. Use the MR
+    stamp to indicate that this has been a misread and do not award the first mark, even if this
+    is an M mark, but award all others as appropriate.
+    • If the question becomes much simpler because of the MR, then use discretion to award
+      fewer marks.
+
+    • If the MR leads to an inappropriate value (e.g. probability greater than 1, sin  = 1.5 , non-
+      integer value where integer required), do not award the mark(s) for the final answer(s).
+
+    • Miscopying of candidates’ own work does not constitute a misread, it is an error.
+
+    • If a candidate uses a correct answer, to a “show that” question, to a higher degree of
+      accuracy than given in the question, this is NOT a misread and full marks may be scored
+      in the subsequent part.
+
+    • MR can only be applied when work is seen. For calculator questions with no working and
+      incorrect answers, examiners should not infer that values were read incorrectly.
+
+
+6   Alternative methods
+
+    Candidates will sometimes use methods other than those in the markscheme. Unless the
+    question specifies a method, other correct methods should be marked in line with the
+    markscheme. If the command term is ‘Hence’ and not ‘Hence or otherwise’ then alternative
+    methods are not permitted unless covered by a note in the mark scheme.
+
+    • Alternative methods for complete questions are indicated by METHOD                         1,
+      METHOD 2, etc.
+    • Alternative solutions for parts of questions are indicated by EITHER . . . OR.
+                                                   –6–                 M22/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+7   Alternative forms
+
+    Unless the question specifies otherwise, accept equivalent forms.
+
+    • As this is an international examination, accept all alternative forms of notation for
+      example 1.9 and 1,9 or 1000 and 1,000 and 1.000 .
+
+    • Do not accept final answers written using calculator notation. However, M marks and
+      intermediate A marks can be scored, when presented using calculator notation, provided
+      the evidence clearly reflects the demand of the mark.
+
+    • In the markscheme, equivalent numerical and algebraic forms will generally be written
+      in brackets immediately following the answer.
+
+    • In the markscheme, some equivalent answers will generally appear in brackets. Not all
+      equivalent notations/answers/methods will be presented in the markscheme and
+      examiners are asked to apply appropriate discretion to judge if the candidate work is
+      equivalent.
+
+
+8   Format and accuracy of answers
+
+    If the level of accuracy is specified in the question, a mark will be linked to giving the answer
+    to the required accuracy. If the level of accuracy is not stated in the question, the general
+    rule applies to final answers: unless otherwise stated in the question all numerical answers
+    must be given exactly or correct to three significant figures.
+
+    Where values are used in subsequent parts, the markscheme will generally use the exact
+    value, however candidates may also use the correct answer to 3 sf in subsequent parts.
+    The markscheme will often explicitly include the subsequent values that come “from the use
+    of 3 sf values”.
+
+    Simplification of final answers: Candidates are advised to give final answers using good
+    mathematical form. In general, for an A mark to be awarded, arithmetic should be completed, and
+                                                                             25                     5
+    any values that lead to integers should be simplified; for example,         should be written as .
+                                                                             4                      2
+    An exception to this is simplifying fractions, where lowest form is not required (although the
+                                                                         10
+    numerator and the denominator must be integers); for example,           may be left in this form or
+                                                                          4
+                 5            10
+    written as     . However,    should be written as 2, as it simplifies to an integer.
+                 2             5
+
+    Algebraic expressions should be simplified by completing any operations such as addition and
+    multiplication, e.g. 4e2 x  e3 x should be simplified to 4e5 x , and 4e2 x  e3 x − e4 x  e x should be
+    simplified to 3e5 x . Unless specified in the question, expressions do not need to be factorized, nor
+    do factorized expressions need to be expanded, so x ( x + 1) and x 2 + x are both acceptable.
+
+    Please note: intermediate A marks do NOT need to be simplified.
+                                            –7–               M22/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+9   Calculators
+
+    A GDC is required for this paper, but If you see work that suggests a candidate has used
+    any calculator not approved for IB DP examinations (eg CAS enabled devices), please follow
+    the procedures for malpractice.
+
+
+10. Presentation of candidate work
+
+    Crossed out work: If a candidate has drawn a line through work on their examination script,
+    or in some other way crossed out their work, do not award any marks for that work unless
+    an explicit note from the candidate indicates that they would like the work to be marked.
+
+    More than one solution: Where a candidate offers two or more different answers to the
+    same question, an examiner should only mark the first response unless the candidate
+    indicates otherwise. If the layout of the responses makes it difficult to judge, examiners
+    should apply appropriate discretion to judge which is “first”.
+                                                 –8–                 M22/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+                                              Section A
+1.
+
+     Note: The first time an answer is not given to two decimal places, the final A1 in
+           that part is not awarded.
+
+     (a)   EITHER
+
+           N = 10                        OR                     N = 20
+           I % = 2.74                                           I % = 2.74
+           PV = ( )1700                                         PV = ( )1700
+
+           P / Y =1                                             P /Y = 2
+           C /Y = 2                                             C /Y = 2
+
+                                                                                            (M1)(A1)
+
+     Note: Award (M1) for an attempt to use a financial app in their technology with at
+           least two entries seen, and award (A1) for all entries correct. Accept a
+           positive or negative value for PV.
+
+           OR
+                             210
+                 0.0274 
+           1700 1 +                                                                       (M1)(A1)
+                    2 
+
+     Note: Award (M1) for substitution into compound interest formula.
+           Award (A1) for correct substitution.
+
+
+           THEN
+           $2231.71                                                                              A1
+                                                                                           [3 marks]
+                                                                                          continued…
+                                                –9–                 M22/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+Question 1 continued
+
+
+     (b)   EITHER
+           N = 10
+           PV = 1700
+           FV = 2231.71...
+           P / Y =1
+           C / Y =1                                                                             (M1)
+
+     Note: Award (M1) for an attempt to use a financial app in their technology with at
+           least two entries seen.
+
+           OR
+                          10
+                æ    r ö
+           1700 ç 1+     = 2231.71...                                                           (M1)
+                è 100 ÷ø
+
+
+           THEN
+           r = 2.75876…
+           r = 2.76                                                                               A1
+
+     Note: Ignore omission of opposite signs for PV and FV if r = 2.76 is obtained.
+
+                                                                                           [2 marks]
+
+
+     (c)   $531.71                                                                                A1
+                                                                                            [1 mark]
+                                                                                      Total [6 marks]
+                                                       – 10 –                 M22/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+2.   (a)   EITHER
+           recognising that half the total frequency is 10 (may be seen in an ordered list or
+           indicated on the frequency table)                                                                   (A1)
+           OR
+           5 +1+ 4 = 3 + x                                                                                     (A1)
+           OR
+
+            f = 20                                                                                            (A1)
+
+
+           THEN
+           x=7                                                                                                   A1
+                                                                                                         [2 marks]
+
+
+     (b)   METHOD 1
+           1.58429…
+           1.58                                                                                                  A2
+           METHOD 2
+           EITHER
+
+                  5  (2 − 4.3)2 + 1 (3 − 4.3) 2 + 4  (4 − 4.3) 2 + 3  (5 − 4.3) 2 + 7  (6 − 4.3) 2
+           2 =                                                                                         (= 2.51) (A1)
+                                                          20
+           OR
+
+                  5  22 + 1 32 + 4  42 + 3  52 + 7  62
+           2 =                                             − 4.32 (= 2.51)                                    (A1)
+                                     20
+           THEN
+
+            = 2.51 = 1.58429...
+           = 1.58                                                                                                A1
+                                                                                                         [2 marks]
+                                                                                                  Total [4 marks]
+                                                    – 11 –           M22/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+3.   (a)   valid approach to find area of segment by finding area of sector – area of triangle   (M1)
+
+           1 2    1
+             r  − r 2 sin 
+           2      2
+           1 2      1
+             (2)  − (2) 2 sin                                                                   (A1)
+           2        2
+           area = 2 − 2sin                                                                       A1
+                                                                                             [3 marks]
+
+
+     (b)   EITHER
+           area of logo = area of rectangle – area of segments                                   (M1)
+           5  4 − 2  (2 − 2sin  ) = 13.4                                                      (A1)
+
+           OR
+
+                                      20 − 13.4
+           area of one segment =                ( = 3.3)                                         (M1)
+                                          2
+           2 − 2sin  = 3.3                                                                      (A1)
+           THEN
+            = 2.35672...
+            = 2.36 (do not accept an answer in degrees)                                           A1
+
+     Note: Award (M1)(A1)A0 if there is more than one solution.
+           Award (M1)(A1FT)A0 if the candidate works in degrees and obtains a
+           final answer of 135.030…
+
+                                                                                             [3 marks]
+                                                                                       Total [6 marks]
+                                                      – 12 –                M22/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+4.   (a)   0.41 + k − 0.28 + 0.46 + 0.29 − 2k 2 = 1 OR k − 2k 2 + 0.01 = 0.13 (or equivalent)         A1
+
+           2k 2 − k + 0.12 = 0                                                                       AG
+                                                                                                 [1 mark]
+
+
+
+
+     (b)   one of 0.2 OR 0.3                                                                        (M1)
+
+           k = 0.3                                                                                    A1
+
+           reasoning to reject k = 0.2 eg P(1) = k − 0.28  0 therefore k  0.2                       R1
+
+                                                                                                [3 marks]
+
+
+     (c)   attempting to use the expected value formula                                             (M1)
+
+           E( X ) = 0  0.41 + 1 (0.3 − 0.28) + 2  0.46 + 3  (0.29 − 2  0.32 )
+           = 1.27                                                                                     A1
+
+     Note: Award M1A0 if additional values are given.
+
+
+                                                                                                [2 marks]
+                                                                                         Total [6 marks]
+                                                                            – 13 –                          M22/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+5.   (a)   recognizing at rest v = 0                                                                                                         (M1)
+
+           t = 3.34692...
+           t = 3.35 (seconds)                                                                                                                  A1
+
+     Note: Award (M1)A0 for additional solutions to v = 0 eg t = −0.205 or t = 6.08 .
+
+                                                                                                                                         [2 marks]
+
+
+
+
+     (b)   recognizing particle changes direction when v = 0 OR when t = 3.34692...                                                          (M1)
+
+           a = −4.71439...
+
+           a = −4.71(ms-2 )                                                                                                                    A2
+
+                                                                                                                                         [3 marks]
+
+
+
+                                                    v dt OR
+                                                    6
+     (c)   distance travelled =
+                                                    0
+
+
+
+                              (e              + 4sin(t ) ) dt −          (e              + 4sin(t ) ) dt (= 14.3104... + 6.44300...)
+                     3.34...                                         6
+                                    sin( t )                                    sin( t )
+                                                                                                                                              (A1)
+                  0                                              3.34...
+
+
+           = 20.7534...
+           = 20.8 (metres)                                                                                                                     A1
+                                                                                                                                         [2 marks]
+                                                                                                                               Total [7 marks]
+                                                      – 14 –                M22/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+6.   (a)   METHOD 1
+           EITHER
+
+           one of P( A) = x + 0.16 OR P( B) = x + 0.36                                             A1
+
+           OR
+
+
+
+
+                                                                                                   A1
+           THEN
+           attempt to equate their P( A  B) with their expression for P( A)  P( B)               M1
+
+           P( A  B) = P( A)  P( B)  x = ( x + 0.16)  ( x + 0.36)                               A1
+
+           x = 0.24                                                                                A1
+           METHOD 2
+
+           attempt to form at least one equation in P( A) and P( B) using independence             M1
+
+           ( P( A  B) = P( A)  P( B)  ) P( A)  (1 − P( B) ) = 0.16 OR
+           ( P( A ' B) = P( A ')  P( B)  ) (1 − P( A) )  P( B) = 0.36
+           P( A) = 0.4 AND P( B) = 0.6                                                             A1
+
+           P( A  B) = P( A)  P( B) = 0.4  0.6                                                  (A1)
+
+           x = 0.24                                                                                A1
+                                                                                             [4 marks]
+                                                                                            continued…
+                                                  – 15 –   M22/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+Question 6 continued
+
+
+     (b)   METHOD 1
+           recognising P( A | B) = P( A)                                       (M1)
+
+           = 1 − 0.16 − 0.24
+           = 0.6                                                                    A1
+
+
+           METHOD 2
+
+           P( B) = 0.36 + 0.24 ( = 0.6 )
+
+                           P( A  B)  0.24 
+           P( A | B) =               =                                        (A1)
+                              P( B)    0.4 
+           = 0.6                                                                    A1
+                                                                             [2 marks]
+                                                                        Total [6 marks]
+                                                      – 16 –                M22/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+                                                    Section B
+7.   (a)   attempt to use the distance formula to find AV                                               (M1)
+
+             (1 − (−1)) 2 + (5 − 1) 2 + (0 − 6) 2
+
+           = 7.48331...
+
+                           (
+           = 7.48 (cm) = 56 or 2 14             )                                                        A1
+
+                                                                                                   [2 marks]
+
+
+
+
+     (b)   METHOD 1
+
+           attempt to apply cosine rule OR sine rule to find AB                                         (M1)
+
+
+                       7.48...2 + 7.48...2 − 2  7.48...  7.48...cos ( 40 ) OR
+                                                                                    AB      56
+           ( AB = )                                                                     =               (A1)
+                                                                                  sin 40 sin 70
+           = 5.11888...
+           = 5.12 (cm)                                                                                   A1
+
+
+           METHOD 2
+           Let M be the midpoint of [AB]
+
+           attempt to apply right-angled trigonometry on triangle AVM                                   (M1)
+
+           = 2 7.48...  sin(20 )                                                                      (A1)
+
+           = 5.11888...
+           = 5.12 (cm)                                                                                   A1
+                                                                                                   [3 marks]
+
+
+                                                                                                  continued…
+                                               – 17 –     M22/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+Question 7 continued
+
+
+     (c)   METHOD 1
+           equating volume of pyramid formula to 57.2                           (M1)
+
+           1
+              5.11...2  h = 57.2                                              (A1)
+           3
+           h = 6.54886...
+           h = 6.55 (cm)                                                         A1
+
+
+           METHOD 2
+
+           Let M be the midpoint of [AB]
+
+           AV 2 = AM 2 + MX 2 + XV 2                                            (M1)
+                                       2              2
+                             5.11...   5.11... 
+            XV = 7.48... − 2
+                                       −                                     (A1)
+                             2   2 
+           h = 6.54886...
+           h = 6.55 (cm)                                                         A1
+
+                                                                           [3 marks]
+
+
+                                                                          continued…
+                                                       – 18 –              M22/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+Question 7 continued
+
+
+     (d)   V = x  2 x  y = 57.2                                                                   (A1)
+
+           S = 2 ( 2 x 2 + xy + 2 xy )                                                                A1
+
+     Note: Condone use of A.
+
+
+
+                                           57.2
+           attempt to substitute y =            into their expression for surface area              (M1)
+                                           2 x2
+
+           ( S ( x) = ) 4 x 2 + 6 x 
+                                      57.2 
+                                         2 
+                                     2x 
+
+
+           EITHER
+           attempt to find minimum turning point on graph of area function                          (M1)
+
+
+           OR
+
+           dS
+              = 8 x − 171.6 x −2 = 0 OR x = 2.77849...                                              (M1)
+           dx
+
+
+           THEN
+           92.6401...
+           minimum surface area = 92.6 (cm2)                                                          A1
+
+                                                                                               [5 marks]
+                                                                                         Total [13 marks]
+                                                     – 19 –            M22/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+8.   (a)   (i)    x = −4                                                                               A1
+
+
+
+                                                   a
+           (ii)   attempt to substitute into y =     OR table with large values of x OR sketch
+                                                   c
+                  of f showing asymptotic behaviour                                                  (M1)
+
+                  y=4                                                                                  A1
+
+                                                                                                 [3 marks]
+
+
+
+
+                       4x +1
+     (b)   (i)    y=
+                       x+4
+                  attempt to interchange x and y (seen anywhere)                                       M1
+
+                  xy + 4 y = 4 x + 1 OR xy + 4 x = 4 y + 1                                            (A1)
+
+                  xy − 4 x = 1 − 4 y OR xy − 4 y = 1 − 4 x                                            (A1)
+
+                                1− 4x             1− 4x
+                  f −1 ( x) =         (accept y =       )                                              A1
+                                 x−4               x−4
+                                                                                            continued…
+                                                   – 20 –               M22/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+Question 8 continued
+
+
+          (ii)   reflection in y-axis given by f (− x)                                                 (M1)
+
+                             −4 x + 1
+                 f (− x) =                                                                              (A1)
+                             −x + 4
+                 reflection of their f (− x) in x-axis given by − f (− x) accept “now − f ( x) ”         M1
+
+                                     −4 x + 1
+                 ( − f (− x) = ) −
+                                     −x + 4
+                     −4 x + 1    4x −1
+                 =            OR                                                                         A1
+                      x−4        −x + 4
+                     1− 4x
+                 =
+                      x−4
+                           ( = f −1 ( x) )                                                              AG
+
+     Note: If the candidate attempts to show the result using a particular coordinate
+           on the graph of f rather than a general coordinate on the graph of f, where
+           appropriate, award marks as follows:
+           M0A0 for eg (2,3) → (−2,3)
+            M0A0 for (−2,3) → (−2, −3)
+
+                                                                                                   [8 marks]
+                                                                                               continued…
+                                                    – 21 –               M22/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+Question 8 continued
+
+
+
+     (c)   (i)    attempt to solve f ( x) = f −1 ( x) using graph or algebraically              (M1)
+
+                  p = −1 AND q = 1                                                                A1
+
+     Note: Award (M1)A0 if only one correct value seen.
+
+
+
+           (ii)   attempt to set up an integral to find area between f and f −1                 (M1)
+
+                        4x +1 1− 4x 
+                  1
+
+                    x + 4 − x − 4  dx
+                  −1
+                                                                                                (A1)
+
+
+                  = 0.675231...
+                  = 0.675                                                                         A1
+                                                                                           [5 marks]
+                                                                                     Total [16 marks]
+                                                     – 22 –           M22/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+9.   (a)   P(C  61)                                                                              (M1)
+
+           = 0.365112...
+           = 0.365                                                                                  A1
+                                                                                              [2 marks]
+
+
+     (b)   recognition of binomial eg X       B(12,0.365...)                                      (M1)
+
+           P( X = 5) = 0.213666...
+
+           = 0.214                                                                                  A1
+                                                                                              [2 marks]
+
+
+     (c)   (i)    Let CM represent ‘chocolate muffin’ and BM represent ‘banana muffin’
+
+                  P( B  61) = 0.0197555...                                                        (A1)
+
+                  EITHER
+                  P(CM )  P(C  61| CM ) + P( BM )  P( B  61 | BM ) (or equivalent in words)   (M1)
+
+                  OR
+                  tree diagram showing two ways to have a muffin weigh < 61                       (M1)
+                  THEN
+                  (0.6  0.365...) + (0.4  0.0197...)                                             (A1)
+
+                  = 0.226969...
+                  = 0.227                                                                           A1
+
+
+           (ii)   recognizing conditional probability                                             (M1)
+
+
+     Note: Recognition must be shown in context either in words or symbols, not just
+             P( A | B) .
+
+                  0.6  0.365112...
+                                                                                                   (A1)
+                     0.226969...
+                  = 0.965183...
+                  = 0.965                                                                           A1
+                                                                                              [7 marks]
+                                                                                            continued…
+                                                    – 23 –            M22/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+Question 9 continued
+     (d)   METHOD 1
+           P(CM )  P(C  61| CM ) + P( BM )  P( B  61| BM ) = 0.157                         (M1)
+
+           ( 0.6  P(C  61) ) + (0.4  0.0197555...) = 0.157
+           P(C  61) = 0.248496...                                                             (A1)
+
+           attempt to solve for  using GDC                                                    (M1)
+
+     Note: Award (M1) for a graph or table of values to show their P ( C  61) with a
+            variable standard deviation.
+
+            = 1.47225...
+            = 1.47 (g)                                                                          A2
+
+
+           METHOD 2
+           P(CM )  P(C  61| CM ) + P( BM )  P( B  61| BM ) = 0.157                         (M1)
+
+           ( 0.6  P(C  61) ) + (0.4  0.0197555...) = 0.157
+           P(C  61) = 0.248496...                                                             (A1)
+
+           use of inverse normal to find z score of their P(C  61)                            (M1)
+
+           z = −0.679229...
+           correct substitution                                                                (A1)
+
+           61 − 62
+                     = −0.679229...
+              
+            = 1.47225...
+            = 1.47 (g)                                                                          A1
+                                                                                          [5 marks]
+                                                                                    Total [16 marks]
+

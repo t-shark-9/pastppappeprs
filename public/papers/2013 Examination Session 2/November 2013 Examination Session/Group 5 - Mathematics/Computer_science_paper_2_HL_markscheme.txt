@@ -1,0 +1,413 @@
+N13/5/COMSC/HP2/ENG/TZ0/XX/M
+
+
+
+
+                   MARKSCHEME
+
+
+                      November 2013
+
+
+
+                COMPUTER SCIENCE
+
+
+
+                        Higher Level
+
+
+
+                               Paper 2
+
+
+
+
+11 pages
+                              –2–            N13/5/COMSC/HP2/ENG/TZ0/XX/M
+
+
+
+
+This markscheme is confidential and for the exclusive use of
+examiners in this examination session.
+
+It is the property of the International Baccalaureate and must not
+be reproduced or distributed to any other person without the
+authorization of the IB Assessment Centre.
+                                                  –3–              N13/5/COMSC/HP2/ENG/TZ0/XX/M
+
+
+Subject Details:             Computer Science HL Paper 2 Markscheme
+
+Mark Allocation
+
+Candidates are required to answer ALL questions [20 marks] for question 1, [20 marks] for question 2,
+[20 marks] for question 3 and [40 marks] for question 4. Maximum total = [100 marks].
+
+General
+
+A markscheme often has more specific points worthy of a mark than the total allows. This is intentional.
+Do not award more than the maximum marks allowed for that part of a question.
+
+When deciding upon alternative answers by candidates to those given in the markscheme, consider the
+following points:
+
+         Each statement worth one point has a separate line and the end is signified by means of a
+           semi-colon (;).
+
+         An alternative answer or wording is indicated in the markscheme by a “/”; either wording can
+           be accepted.
+
+         Words in ( … ) in the markscheme are not necessary to gain the mark.
+
+         If the candidate’s answer has the same meaning or can be clearly interpreted as being the
+           same as that in the markscheme then award the mark.
+
+         Mark positively. Give candidates credit for what they have achieved, and for what they
+           have got correct, rather than penalizing them for what they have not achieved or what they
+           have got wrong.
+
+         Remember that many candidates are writing in a second language; be forgiving of
+           minor linguistic slips. In this subject effective communication is more important than
+           grammatical accuracy.
+
+         Occasionally, a part of a question may require a calculation whose answer is required for
+           subsequent parts. If an error is made in the first part then it should be penalized. However, if
+           the incorrect answer is used correctly in subsequent parts then follow through marks
+           should be awarded. Indicate this with “FT”.
+                                                 –4–              N13/5/COMSC/HP2/ENG/TZ0/XX/M
+
+
+1.   (a)   (i)     FarmField firstField = new FarmField();                             [1 mark]
+
+           (ii)    firstField.fieldSize = 12000;
+                   firstField.fieldName = “Back forty”;                               [2 marks]
+
+     (b)   Award marks as follows:
+           Award [1 mark] for correct structure of a class declaration;
+           Award [1 mark] for correct declaration of the array theFields;
+           Award [1 mark] for correct declaration of the other instance variables;
+
+           public class Farm
+           {
+               String farmerName;
+               int farmID;
+               int numberOfFields;
+               FarmField[] theFields;
+           }                                                                          [3 marks]
+
+     (c)   Award marks as follows:
+           Award [1 mark] for correctly initializing the largest field variable;
+           Award [1 mark] for returning the largest field size;
+           Award [2 marks] for correctly looping through all the Farm objects;
+           Award [1 mark] for correctly looping through all the fields in a Farm
+           object;
+           Award [1 mark] for correctly updating the largest field size;
+
+           int findLargest(Farm [] allFarms)
+           {
+             int largestField = 0;
+             int iField;
+             Farm currentFarm;
+             int iFarm = 0
+
+                 currentFarm = allFarms[iFarm];
+                 while (currentFarm != null)
+                 {
+                   for (iField = 0; iField < currentFarm.numberOfFields; iField++)
+                   {
+                      if (currentFarm.theFields[iFields].fieldSize > largestField)
+                      {
+                      largestField = currentFarm.theFields[iFields].fieldSize;
+                      }
+                   }
+                   iFarm += 1;
+                   currentFarm = allFarms[iFarm];
+                 }
+                 return largestField;
+           }                                                                          [6 marks]
+                                                   –5–              N13/5/COMSC/HP2/ENG/TZ0/XX/M
+
+
+Question 1 continued
+
+     (d)   Describes how to find the end of the “used” elements in the array;
+           Describes the process of shifting the “used” array elements to free the first;
+           States that the new farm object is inserted into the first array element;
+           Any reasonable diagram illustrating the shifting of the array elements;          [4 marks]
+
+     (e)   Award [3 marks max] if this is not shown through code.
+           Identifies the 2 instance variables common between the classes;
+           Suggests creation of a single super-class;
+           States that the two sub-classes would inherit the common instance variables
+           from the new class / extend the super-class;
+           States that the two sub-class declarations would need to add the variables
+           that are unique to each;                                                         [4 marks]
+                                                      –6–              N13/5/COMSC/HP2/ENG/TZ0/XX/M
+
+
+2.   (a)   leftChild identifies a node in the tree;
+           Each node in the tree is a NameNode object;                                          [2 marks]
+
+     (b)   Creates a new binary search tree called myTree;
+           That consists of a single node containing the name “Charley”;                        [2 marks]
+
+     (c)   (i)       Award up to [4 marks max].
+                     searchName is compared to the root;
+                     If smaller (alphabetically) it is then compared with the left child (if
+                     bigger, the right child);
+                     This continues until the node is found;
+                     It has to be ascertained whether the found node is a left child or right
+                     child;
+                     The corresponding link to this node is replaced with null;                 [4 marks]
+
+           (ii)      When it is ascertained whether the found node is a left child or right
+                     child;
+                     Then the appropriate link to the found node is changed to link to the
+                     found node’s child;                                                        [2 marks]
+
+     (d)   Award marks as follows:
+           Award [2 marks] for correctly searching the tree;
+           Award [1 mark] for using the correct String functions;
+           Award [1 mark] for returning the correct value;
+
+           boolean findName(String queryName)
+           {
+             NameNode currentNode = treeRoot;
+             while(currentNode != null)
+             {
+               if(currentNode.name.equals(queryName))
+                  return true;
+
+                     if(currentNode.name.compareTo(queryName) > 0)
+                     {
+                       currentNode = currentNode.leftChild;
+                     }
+                     else
+                     {
+                       currentNode = currentNode.rightChild;
+                     }
+                 }
+
+                 return false;
+           }                                                                                    [4 marks]
+                                                –7–              N13/5/COMSC/HP2/ENG/TZ0/XX/M
+
+
+Question 2 continued
+
+     (e)   Award marks as follows:
+           Award [1 mark] for producing an algorithm that is recursive;
+           Award [2 marks] for checking for an empty tree;
+           Award [1 mark] for the correct recursive calls;
+           Award [1 mark] for the correct statement for displaying the names;
+           Award [1 mark] for printing in in-order (alphabetical);
+
+           void displayNames(NameNode root)
+           {
+              if (root != null)
+              {
+                 displayNames(root.leftChild);
+                 System.out.println(root.name);
+                 displayNames(root.rightChild);
+               }
+           }
+
+           OR
+           {
+               if (root.leftChild != null)
+               {
+                 displayNames(root.leftChild);
+               }
+               System.out.println(root.name);
+               if (root.rightChild != null)
+               {
+                 displayNames(root.rightChild);
+               }
+           }
+                                                                                     [6 marks]
+                                                    –8–              N13/5/COMSC/HP2/ENG/TZ0/XX/M
+
+
+3.   (a)   The numerical identifier the whale will be the master file key;                     [1 mark]
+
+     (b)   (i)    Award up to [3 marks max].
+                  The records in the file should be sorted;
+                  Based on the value of the whale identifier (or key field);
+                  The whale identifiers must be unique;
+                  The whale identifiers cannot have any “gaps”, if there are N whales,
+                  the whale identifiers should be 0 to N–1;                                    [3 marks]
+
+           (ii)   The (fixed) size of a record;
+                  Should be multiplied by the whale identifier;
+                  The result gives the offset from the start of the file to the start of the
+                  desired record;                                                              [3 marks]
+
+     (c)   The record corresponding to the received whale identifier will be retrieved;
+           The number of dives should be increased by one;
+           The distance between the last recorded location and the new position should
+           be calculated and added to the total distance the whale has travelled;
+           The last recorded location should be changed to the newly received position;
+           The date/time of the last position should be replaced with the current
+           date/time;                                                                          [5 marks]
+
+     (d)   The archive file could be broken into smaller files;
+           That are small enough to fit in the available memory;
+           The individual files can would then be sorted;
+           The sorted files can be merged into a single, sorted archive file;                  [4 marks]
+
+     (e)   Award marks as follows, up to [4 marks max].
+           Award [1 mark] for identifying a group with whom the information might be
+           shared or an ethical issue.
+           Award [2 marks] for identifying 2 issues or discussing one issue with its
+           consequence related to a particular group.
+           Award [3 marks] for a discussion that considers more than 1 ethical issue
+           with their consequences related to a particular group.
+           Award [4 marks] for a sound discussion of at least 2 ethical issues and their
+           consequences and 2 corresponding groups of people related to these issues.          [4 marks]
+                                                     –9–                N13/5/COMSC/HP2/ENG/TZ0/XX/M
+
+
+4.   (a)   Award marks as follows up to [4 marks max].
+           Award [1 mark] for identifying the precaution;
+           Award [1 mark] for describing the precaution beyond simply stating it;
+           For two precautions.
+
+           For example:
+           Assign a password to the device;
+           So it cannot be accessed by an unauthorized user;
+
+           Do not store sensitive data on the smartphone;
+           So that it is not there to be found if the device is lost;
+
+           Do not store username/password account logins (or “remember me”
+           cookies) on the device;
+           So somebody finding the device will not be able to access your accounts;         [4 marks]
+
+     (b)   Award marks as follows up to [4 marks max].
+           Award [1 mark] for identifying the reason;
+           Award [1 mark] for an elaboration;
+           For two reasons.
+
+           For example:
+           Uses a smaller battery;
+           So weighs less;
+
+           Can be marketed as green;
+           Increases sales;
+
+           Will charge up when outside;
+           Less chance it will run out of power;                                            [4 marks]
+
+     (c)   They change frequencies several times a second;
+           Limited range;
+           Addressing (not pairing);                                                        [3 marks]
+
+     (d)   Award up to [3 marks max].
+           Bluetooth is much slower than Ethernet;
+           Ethernet requires a physical connection, Bluetooth does not;
+           Ethernet is more secure than Bluetooth;
+           An Ethernet network requires additional hardware (routers, hubs, etc).
+           Bluetooth does not;                                                              [3 marks]
+                                                    – 10 –           N13/5/COMSC/HP2/ENG/TZ0/XX/M
+
+
+Question 4 continued
+
+     (e)   Award [1 mark] for each advantage up to [2 marks max].
+           Award [1 mark] for each disadvantage up to [2 marks max].
+           Award [2 marks] for a discussion that does more than state them.
+
+           Advantages:
+           Emergency services can locate a distress call;
+           Friends can see where you are and meet you;
+           Advertisements could be tailored for things that are near you;
+
+           Disadvantages:
+           Illegal surveillance is possible;
+           Advertisers could profile your physical habits as well as your online;
+           Loss of location information (eg in a tunnel) could create erroneous data
+           in systems;                                                                   [6 marks]
+
+     (f)   (i)    Flash memory, or EEPROM, or hard-drive;                                 [1 mark]
+
+           (ii)   Cache memory is much faster than secondary memory (eg a
+                  hard-drive);
+                  Data that will not fit in RAM but will be needed soon is put into
+                  cache;
+                  And loaded back into memory when needed;                               [3 marks]
+
+     (g)   (i)    Award marks as follows up to [4 marks max].
+                  Award [1 mark] for identifying the idea;
+                  Award [1 mark] for elaborating on how it helps;
+                  For two cases.
+
+                  For example:
+                  By letting them access nutrition information when eating out;
+                  So they can eat healthier food;
+
+                  By supporting applications to monitor/track exercise;
+                  So they will be inspired to do more of it;
+
+                  By monitoring vital signs;
+                  To detect unhealthy conditions;                                        [4 marks]
+
+           (ii)   Award marks as follows up to [2 marks max].
+                  Award [1 mark] for identifying the reason;
+                  Award [1 mark] for elaborating on why;
+
+                  For example:
+                  By being too engaging;
+                  Causing the user to not pay attention to the real world;
+
+                  By taking up too much of the users’ time;
+                  Causing them to exercise or socialize less;                            [2 marks]
+                                                 – 11 –          N13/5/COMSC/HP2/ENG/TZ0/XX/M
+
+
+Question 4 continued
+
+     (h)   Award marks as follows up to [4 marks max].
+           Award [1 mark] for identifying the consequence;
+           Award [1 mark] for elaborating on the result;
+           For two consequences.
+
+           For example:
+           Seamless integration with internet service;
+           Allows more effective communication;
+
+           The IP routing/handling hardware and software design is standard;
+           So designs can be re-used thereby reducing unit costs;
+
+           The “translation” between the cellular and Internet protocols is no longer
+           needed;
+           Which makes the network faster, overall;                                        [4 marks]
+
+     (i)
+
+            Marks      Details
+              1–2      The candidate conveys some understanding of at least one effect
+                       of widespread ownership but merely states it/them without
+                       elaboration or example.
+              3–4      The candidate clearly identifies two or more effects and
+                       elaborates on one of them to explore at least one consequence of
+                       this effect.
+              5–6      The candidate clearly identifies and        elaborates   on   the
+                       consequences of two or more effects.
+
+           Answer to be focused on students. Examples include:
+           Positive:
+           •     Contact teachers with queries
+           •     Research topics
+           •     Replace expensive textbooks
+           •     Make study schedules
+           •     Store PowerPoint presentations
+
+           Negative:
+           •    Become a distraction in class
+           •    Reliance on smartphones as knowledge source
+           •    Plagiarism issues
+           •    Cheating in exams
+                                                                                           [6 marks]
+

@@ -1,0 +1,413 @@
+N12/5/COMSC/HP2/ENG/TZ0/XX/M
+
+
+
+
+                   MARKSCHEME
+
+
+                      November 2012
+
+
+
+                COMPUTER SCIENCE
+
+
+
+                        Higher Level
+
+
+
+                               Paper 2
+
+
+
+
+11 pages
+                              –2–            N12/5/COMSC/HP2/ENG/TZ0/XX/M
+
+
+
+
+This markscheme is confidential and for the exclusive use of
+examiners in this examination session.
+
+It is the property of the International Baccalaureate and must not
+be reproduced or distributed to any other person without the
+authorization of the IB Assessment Centre.
+                                                –3–              N12/5/COMSC/HP2/ENG/TZ0/XX/M
+
+
+General Marking Instructions
+
+After marking a sufficient number of scripts to become familiar with the markscheme and
+candidates’ responses to all or the majority of questions, Assistant Examiners (AEs) will be
+contacted by their Team Leader (TL). The purpose of this contact is to discuss the standard
+of marking, the interpretation of the markscheme and any difficulties with particular questions.
+It may be necessary to review your initial marking after contacting your TL. DO NOT BEGIN
+THE FINAL MARKING OF YOUR SCRIPTS IN RED INK UNTIL YOU RECEIVE
+NOTIFICATION THAT THE MARKSCHEME IS FINALIZED. You will be informed by
+e-mail, fax or post of modifications to the markscheme and should receive these about one week
+after the date of the examination. If you have not received them within 10 days you should
+contact your TL and the IB Assessment Centre. Make an allowance for any difference in time
+zone before calling. AEs WHO DO NOT COMPLY WITH THESE INSTRUCTIONS MAY
+NOT BE INVITED TO MARK IN FUTURE SESSIONS.
+
+
+You should contact the TL whose name appears on your “Allocation of Schools listing” sheet.
+
+
+Note:
+Please use a personal courier service when sending sample materials to TLs unless postal services can
+be guaranteed. Record the costs on your examiner claim form.
+                                                    –4–              N12/5/COMSC/HP2/ENG/TZ0/XX/M
+
+
+General Marking Instructions
+
+1.    Once markscheme is received mark in pencil until final markscheme is received.
+
+
+2.    Follow the markscheme provided, do not use decimals or fractions and mark only in RED.
+
+
+3.    Where a mark is awarded, a tick (ü) should be placed in the text at the precise point where it
+      becomes clear that the candidate deserves the mark.
+
+4.    Sometimes, careful consideration is required to decide whether or not to award a mark. Indeed,
+      another examiner may have arrived at the opposite decision. In these cases write a brief annotation
+      in the left-hand margin to explain your decision. You are encouraged to write comments where it
+      helps clarity, especially for moderation and re-marking.
+
+
+5.    Unexplained symbols or personal codes/notations on their own are unacceptable.
+
+
+6.    Record subtotals (where applicable) in the right-hand margin against the part of the answer to which
+      they refer. Show a mark for each part question (a), (b), etc. Do not circle sub-totals. Circle the total
+      mark for the question in the right-hand margin opposite the last line of the answer.
+
+
+7.    Where an answer to a part question is worth no marks, put a zero in the right-hand margin.
+
+
+8.    Record the mark awarded for each of the four questions answered in the Examiner Column on the
+      cover sheet. Add up the marks awarded and enter this in the box marked TOTAL in the Examiner
+      Column on the cover sheet.
+
+
+9.    After entering the marks on the cover sheet check your addition of all marks to ensure that you have
+      not made an arithmetical error. Check also that you have transferred the marks correctly to the
+      cover sheet. We have script checking and a note of all clerical errors may be given in feedback
+      to all examiners.
+
+
+10.   Every page and every question must have an indication that you have marked it. Do this by writing
+      your initials on each page where you have made no other mark.
+
+
+11.   A candidate can be penalized if he/she clearly contradicts him/herself within an answer. Once again
+      make a comment to this effect in the left-hand margin.
+                                                  –5–              N12/5/COMSC/HP2/ENG/TZ0/XX/M
+
+
+Subject Details:             Computer Science HL Paper 2 Markscheme
+
+Mark Allocation
+
+Candidates are required to answer ALL questions [20 marks] for question 1, [20 marks] for question 2,
+[20 marks] for question 3 and [40 marks] for question 4. Maximum total = [100 marks].
+
+General
+
+A markscheme often has more specific points worthy of a mark than the total allows. This is intentional.
+Do not award more than the maximum marks allowed for that part of a question.
+
+When deciding upon alternative answers by candidates to those given in the markscheme, consider the
+following points:
+
+         Each statement worth one point has a separate line and the end is signified by means of a
+           semi-colon (;).
+
+         An alternative answer or wording is indicated in the markscheme by a “/”; either wording can
+           be accepted.
+
+         Words in ( … ) in the markscheme are not necessary to gain the mark.
+
+         If the candidate’s answer has the same meaning or can be clearly interpreted as being the
+           same as that in the markscheme then award the mark.
+
+         Mark positively. Give candidates credit for what they have achieved, and for what they have
+           got correct, rather than penalizing them for what they have not achieved or what they have got
+           wrong.
+
+         Remember that many candidates are writing in a second language; be forgiving of minor
+           linguistic slips. In this subject effective communication is more important than grammatical
+           accuracy.
+
+         Occasionally, a part of a question may require a calculation whose answer is required for
+           subsequent parts. If an error is made in the first part then it should be penalized. However, if
+           the incorrect answer is used correctly in subsequent parts then follow through marks should
+           be awarded. Indicate this with “FT”.
+                                                 –6–             N12/5/COMSC/HP2/ENG/TZ0/XX/M
+
+
+1.   (a)   A collision occurs when a hashing algorithm produces the same index value for
+           two different inputs;                                                               [1 mark]
+
+     (b)   The weight of the sample must be a numeric type and the value will not
+           necessarily be an integer;                                                         [2 marks]
+
+     (c)   Each object in the Sample class contains a variable nextSample that can be
+           used to link to another Sample object.                                              [1 mark]
+
+     (d)   Award marks as follows up to [6 marks max].
+           Award [1 mark] for the correct method signature;
+           Award [1 mark] for using rockHash() to obtain index value for rockSample;
+           Award [1 mark] for calling rockHash() with the rockType of the sample,
+           not the sample object itself;
+           Award [1 mark] for using the index value to access the appropriate linked list
+           in allSamples;
+           Award [1 mark] for setting nextSample to the head element of the linked list
+           in allSamples;
+           Award [1 mark] for saving rockSample as the new head element of the linked
+           list in allSamples;
+
+           Example answer:
+           void insertSample(Sample rockSample)
+           {
+             int sampleIndex = rockHash(rockSample.rockType);
+             rockSample.nextSample = allSamples[sampleIndex];
+             allSamples[sampleIndex] = rockSample;
+           }                                                                                  [6 marks]
+
+
+
+                                                                                            continued …
+                                                   –7–           N12/5/COMSC/HP2/ENG/TZ0/XX/M
+
+
+Question 1 continued
+
+     (e)   Award marks as follows up to [7 marks max].
+           Award [1 mark] for the correct method signature;
+           Award [1 mark] for initializing maximum value seen to some reasonable value;
+           Award [1 mark] for using the rockHash() method to identify the correct
+           linked list;
+           Award [1 mark] for iterating through the samples in each linked list;
+           Award [1 mark] for correctly implementing the loop to iterate through each
+           linked list’s elements;
+           Award [1 mark] for comparing the weight of each sample to the maximum seen
+           so far;
+           Award [1 mark] for returning the correct sample index;
+
+           Example answer:
+           public static int findBigSample(String rockType)
+           {
+             int pos = rockHash(rockType);
+             double max = -1.0;
+             int maxNumber = -1;
+             Sample curr = allSamples[pos];
+
+              while (curr != null)
+              {
+                if (curr.sampleWeight > max)
+                {
+                   max = curr.sampleWeight;
+                   maxNumber = curr.sampleNumber;
+                }
+                curr = curr.nextSample;
+              }
+
+           return maxNumber;
+           }                                                                              [7 marks]
+
+     (f)   Must examine all elements of allSamples;
+           Must examine all samples in each linked list;
+           Output sample if it is from the specified location;                            [3 marks]
+
+                                                                                   Total: [20 marks]
+                                                   –8–            N12/5/COMSC/HP2/ENG/TZ0/XX/M
+
+
+2.   (a)   3;                                                                                 [1 mark]
+
+     (b)   polite ;                                                                           [1 mark]
+
+     (c)   Left subtree is null, or empty, or does not exist;
+           Right subtree:
+
+
+
+
+           Award [1 mark] for the correct root node and a [1 mark] for the correct tree.     [3 marks]
+
+     (d)   ferocious, agile, honourable, polite, more, rodent;                                [1 mark]
+
+     (e)   In-order;                                                                          [1 mark]
+
+     (f)   (w.leftChild == null) && (w.rightChild == null) is TRUE if w is a
+           leaf node;                                                                         [1 mark]
+
+     (g)   Award marks as follows up to [6 marks max].
+           Award [1 mark] for the correct method signature;
+           Award [1 mark] for returning 1 when w is a leaf node;
+           Award [1 mark] for recursively calling countLeaves on left and right subtrees;
+           Award [1 mark] for returning sum of subtree leaves when w is not a leaf;
+           Award [2 marks] for addressing the case where w has only one subtree;
+           Award [1 mark] for anything indicating an awareness of the potential problem;
+           Award [2 marks] for a correct solution;
+
+           Example answer:
+           int countLeaves( WordNode w )
+           {
+             if(w == null) return 0;
+                if((w.leftChild == null) && (w.rightChild == null)) return 1;
+                else return countLeaves(w.leftChild) + countLeaves(w.rightChild);
+           }                                                                                 [6 marks]
+
+     (h)   Award up to [2 marks max].
+           Using recursion can lead to stack overflows or memory depletion when large
+           trees are processed;
+           Recursive code can be very difficult to troubleshoot;
+           Recursive code can be difficult for another programmer to maintain;               [2 marks]
+
+     (i)   Award [1 mark] for identifying each modification, up to [2 marks max].
+           Award an additional [2 marks max] for outlining how such modifications will
+           permit access to the definition of each word.
+           The WordNode class could be modified to include a String variable. The
+           definition would be contained in the string.
+           The WordNode class could be modified to contain an integer that could then be
+           used as an index to retrieve the definition from a file.                          [4 marks]
+
+                                                                                      Total: [20 marks]
+                                                  –9–              N12/5/COMSC/HP2/ENG/TZ0/XX/M
+
+
+3.   (a)   The Type Of Part is the key field in the record;                                     [1 mark]
+
+     (b)   Batch processing;                                                                    [1 mark]
+
+     (c)   The records in the master file should be sorted by the Type Of Part field;           [1 mark]
+
+     (d)   The changes are downloaded from a device into a transaction file;
+           The transaction file records are sorted by the Type Of Part field;
+           A record is read from the transaction file and the master file is read until a
+           record containing the same Type Of Part is found;
+           The record in the Master file is updated with the data from the transaction
+           file record;                                                                        [4 marks]
+
+     (e)   Award up to [3 marks max].
+           Handshaking takes place at the start of a communication;
+           Device signals it wants to send data to the computer;
+           Computer indicates that it can send;
+           Computer verifies that device is authorized to send;                                [3 marks]
+
+     (f)   Type of Part;
+           Quantity used;                                                                      [2 marks]
+
+     (g)   Continuous communication allows for inventory to be updated immediately;
+           Suggest a reasonable file organization (random access or fully indexed);
+           Reasonable description of the resulting update process, including:
+           Part ID and quantity used are sent to the computer;
+           Computer reduces the quantity in inventory by the quantity used;                    [4 marks]
+
+     (h)   Check if the quantity remaining is less than the Re-order level;
+           If so, calculate the number to buy as the Maximum Quantity minus the
+           quantity remaining;
+           Add the Type of Part and the number to buy to the shopping list;
+           Repeat for all each Type of Part;                                                   [4 marks]
+
+                                                                                        Total: [20 marks]
+                                                  – 10 –            N12/5/COMSC/HP2/ENG/TZ0/XX/M
+
+
+4.   (a)   Award up to [2 marks max].
+           WiMax has much greater range than Wi-Fi;
+           WiMax has greater bandwidth (speed) than Wi-Fi;
+           WiMax is more secure than Wi-Fi;                                                       [2 marks]
+
+     (b)   Award up to [2 marks max].
+           Bluetooth has much less range than Wi-Fi;
+           Bluetooth uses much less power than Wi-Fi;
+           Bluetooth cannot work through building walls, Wi-Fi can;                               [2 marks]
+
+     (c)   Award [1 mark] for each reason identified, up to [2 marks max]. Award up to
+           an additional [2 marks] for reasonable explanations.
+           Device is for very text-heavy use (e.g. Blackberry for email);
+           Device may have to work in environment where touchpad will not work;
+           Device may be subjected to impacts that would break a touchscreen;
+           Device may have to be operated without looking at it;
+           etc.                                                                                   [4 marks]
+
+     (d)   Award [1 mark] for each reason identified, up to [2 marks max]. Award up to
+           an additional [2 marks] for reasonable explanations.
+           Patient data would be sent over internet;
+           Patient data may remain on phone (in cache) after it is sent;
+           User error could result in the patient data being sent to an unintended recipient;
+           etc.                                                                                   [4 marks]
+
+     (e)   Award [1 mark] for each mechanism identified, up to [2 marks max].
+           Award up to an additional [2 marks] for reasonable explanations.
+           Man-in-the-middle public Wi-Fi attacks;
+           A trojan in an installed app;
+           Phishing and other scams;
+           The mobile device is used to access a compromised or malicious host;
+           etc.                                                                                   [4 marks]
+
+     (f)   Award [1 mark] for each advantage identified. Only award the third mark for
+           an answer that outlines these advantages beyond simply stating them.
+           Companies may produce apps specific to one area (e.g. medicine);
+           Greater competition may lower prices / produce a greater variety of apps;              [3 marks]
+
+     (g)   Award [1 mark] for defining social engineering.
+           Award [2 marks] for describing a method of getting a user to reveal
+           personal data.
+           Award [1 mark] clearly identifying the social engineering element of the
+           method described.
+           example:
+           Social engineering tries to make use of previously know information and/or
+           promise of rewards in order to persuade users to part with sensitive data.
+           For example, an email pretending to be from the user’s bank, but with a
+           slightly altered address, requesting certain actions, which could involve the
+           user revealing bank account details.                                                   [4 marks]
+
+                                                                                                continued …
+                                                – 11 –            N12/5/COMSC/HP2/ENG/TZ0/XX/M
+
+
+Question 4 continued
+
+     (h)   The discussion should have two distinct areas. For each area, award [1 mark]
+           for identifying a reasonable area, [1 mark] for an elaboration and [1 mark] for
+           an example.
+
+           Possible areas for discussion:
+           Work/life balance issues.
+           Employer monitoring of personal behaviour outside of work environment
+           and hours.
+           Personal use of employer-owned mobile device.                                     [6 marks]
+
+     (i)   A standard message format used within a network;
+           Contains header and data;
+           Header identifies sender and recipient;
+           etc.                                                                              [3 marks]
+
+     (j)   Award [1 mark] for each reason identified, up to [2 marks max]. Award up to
+           an additional [2 marks] for reasonable explanations.
+           4G bandwidth is shared with other users, wired access is dedicated;
+           Wired access only available in one place, 4G accessible everywhere;
+           Wired access more reliable than 4G;
+           etc.                                                                              [4 marks]
+
+     (k)   Award [1 mark] for each problem faced by OS designers identified, up to
+           [2 marks max]. Award up to an additional [2 marks] for reasonable
+           suggestions as to how they are (or could be ) resolved.
+           Support for downloadable apps or plugins but resist viruses, trojans, etc.;
+           Store personal information and make it easy to retrieve but protect it from
+           unauthorized users;
+           Provide a good user experience on a very small display;
+           etc.                                                                              [4 marks]
+
+                                                                                      Total: [40 marks]
+

@@ -1,0 +1,324 @@
+© International Baccalaureate Organization 2021
+
+All rights reserved. No part of this product may be reproduced in any form or by any
+electronic or mechanical means, including information storage and retrieval systems,
+without the prior written permission from the IB. Additionally, the license tied with this
+product prohibits use of any selected files or extracts from this product. Use by third
+parties, including but not limited to publishers, private teachers, tutoring or study services,
+preparatory schools, vendors operating curriculum mapping services or teacher resource
+digital platforms and app developers, whether fee-covered or not, is prohibited and is a
+criminal offense.
+
+More information on how to request written permission in the form of a license can be
+obtained from https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-
+license/.
+
+© Organisation du Baccalauréat International 2021
+
+Tous droits réservés. Aucune partie de ce produit ne peut être reproduite sous quelque
+forme ni par quelque moyen que ce soit, électronique ou mécanique, y compris des
+systèmes de stockage et de récupération d’informations, sans l’autorisation écrite
+préalable de l’IB. De plus, la licence associée à ce produit interdit toute utilisation de tout
+fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris, sans
+toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de tutorat ou
+d’aide aux études, des établissements de préparation à l’enseignement supérieur, des
+fournisseurs de services de planification des programmes d’études, des gestionnaires de
+plateformes pédagogiques en ligne, et des développeurs d’applications, moyennant
+paiement ou non, est interdite et constitue une infraction pénale.
+
+Pour plus d’informations sur la procédure à suivre pour obtenir une autorisation écrite
+sous la forme d’une licence, rendez-vous à l’adresse https://ibo.org/become-an-ib-school/
+ib-publishing/licensing/applying-for-a-license/.
+
+© Organización del Bachillerato Internacional, 2021
+
+Todos los derechos reservados. No se podrá reproducir ninguna parte de este producto
+de ninguna forma ni por ningún medio electrónico o mecánico, incluidos los sistemas de
+almacenamiento y recuperación de información, sin la previa autorización por escrito del
+IB. Además, la licencia vinculada a este producto prohíbe el uso de todo archivo o
+fragmento seleccionado de este producto. El uso por parte de terceros —lo que incluye,
+a título enunciativo, editoriales, profesores particulares, servicios de apoyo académico o
+ayuda para el estudio, colegios preparatorios, desarrolladores de aplicaciones y
+entidades que presten servicios de planificación curricular u ofrezcan recursos para
+docentes mediante plataformas digitales—, ya sea incluido en tasas o no, está prohibido
+y constituye un delito.
+
+En este enlace encontrará más información sobre cómo solicitar una autorización por
+escrito en forma de licencia: https://ibo.org/become-an-ib-school/ib-publishing/licensing/
+applying-for-a-license/.
+Mathematics: applications and interpretation
+Higher level
+Paper 3
+
+Tuesday 9 November 2021 (morning)
+
+
+1 hour
+
+
+Instructions to candidates
+y Do not open this examination paper until instructed to do so.
+y A graphic display calculator is required for this paper.
+y Answer all the questions in the answer booklet provided.
+y Unless otherwise stated in the question, all numerical answers should be given exactly or
+  correct to three significant figures.
+y A clean copy of the mathematics: applications and interpretation formula booklet is
+  required for this paper.
+y The maximum mark for this examination paper is [55 marks].
+
+
+
+
+                                                                                              8821 – 7203
+     6 pages                                              © International Baccalaureate Organization 2021
+                                                           –2–                                     8821 – 7203
+
+
+Answer both questions in the answer booklet provided. Please start each question on a new page.
+Full marks are not necessarily awarded for a correct answer with no working. Answers must be
+supported by working and/or explanations. Solutions found from a graphic display calculator should
+be supported by suitable working. For example, if graphs are used to find a solution, you should sketch
+these as part of your answer. Where an answer is incorrect, some marks may be given for a correct
+method, provided this is shown by written working. You are therefore advised to show all working.
+
+1.   [Maximum mark: 25]
+
+     This question explores how graph algorithms can be applied to a graph with an
+     unknown edge weight.
+
+     Graph W is shown in the following diagram. The vertices of W represent tourist attractions
+     in a city. The weight of each edge represents the travel time, to the nearest minute, between
+     two attractions. The route between A and F is currently being resurfaced and this has led to a
+     variable travel time. For this reason, AF has an unknown travel time x minutes, where  ​x ∈ ​ℤ​+​  .
+
+                                                           B
+                                                                     6
+                                              3                               C
+                                  A                    7
+                                                                 9
+                                                                                  5
+                                                  H                  10
+                              x
+                                          8                                           D
+                                                   4
+
+                                      5       G                          10
+                          F
+                                                           8                  6
+                                              11
+
+                                                                          E
+
+     (a)   Write down a Hamiltonian cycle in W .                                                            [1]
+
+     Daniel plans to visit all the attractions, starting and finishing at A. He wants to minimize his
+     travel time.
+
+     To find a lower bound for Daniel’s travel time, vertex A and its adjacent edges are first deleted.
+
+     (b)   (i)	Use Prim’s algorithm, starting at vertex B, to find the weight of the minimum
+                spanning tree of the remaining graph. You should indicate clearly the order in
+                which the algorithm selects each edge.                                                     [5]
+
+           (ii)   Hence, for the case where x < 9 , find a lower bound for Daniel’s travel time,
+                  in terms of x .                                                                           [2]
+
+(This question continues on the following page)
+                                                       –3–                                                  8821 – 7203
+
+
+(Question 1 continued)
+
+     Daniel makes a table to show the minimum travel time between each pair of attractions.
+
+           A       B      C      D            E                  F                  G                  H
+    A              3      9      14    19 or  ​(11 + x)​      18 or x         14 or  ​(5 + x)​   10 or  ​(8 + x)​
+    B                     6      11    16 or  ​(14 + x)​   15 or  ​(3 + x)​   11 or  ​(8 + x)​         7
+    C                            5           10            17 or  ​(9 + x)​         p                  9
+    D                                         6            q or  ​(r + x)​          14                 10
+    E                                                            11                 8                  12
+    F                                                                               5                  8
+    G                                                                                                  4
+    H
+
+     (c)   Write down the value of
+
+           (i)     p ;                                                                                             [1]
+
+           (ii)    q ;                                                                                             [1]
+
+           (iii)   r.                                                                                               [1]
+
+     To find an upper bound for Daniel’s travel time, the nearest neighbour algorithm is used,
+     starting at vertex A.
+
+     (d)   Consider the case where x = 3 .
+
+           (i)     Use the nearest neighbour algorithm to find two possible cycles.                                 [3]
+
+           (ii)    Find the best upper bound for Daniel’s travel time.                                              [2]
+
+     (e)   Consider the case where x > 3 .
+
+           (i)     Find the least value of x for which the edge AF will definitely not be used by Daniel. [2]
+
+           (ii)    Hence state the value of the upper bound for Daniel’s travel time for the value of
+                   x found in part (e)(i).                                                                          [2]
+
+     The tourist office in the city has received complaints about the lack of cleanliness of some
+     routes between the attractions. Corinne, the office manager, decides to inspect all the routes
+     between all the attractions, starting and finishing at H. The sum of the weights of all the
+     edges in graph W is  ​(92 + x)​  .
+
+     Corinne inspects all the routes as quickly as possible and takes 2 hours.
+
+     (f)   Find the value of x during Corinne’s inspection.                                                         [5]
+
+
+                                                                                                           Turn over
+                                                       –4–                                                  8821 – 7203
+
+
+2.   [Maximum mark: 30]
+
+     This question explores models for the height of water in a cylindrical container as
+     water drains out.
+
+     The diagram shows a cylindrical water container of height 3.2 metres and base radius 1 metre.
+     At the base of the container is a small circular valve, which enables water to drain out.
+
+                                                                                     diagram not to scale
+
+
+
+
+                                   3.2
+
+
+
+
+                                                                  1
+
+
+     Eva closes the valve and fills the container with water.
+
+     At time  ​t = 0​ , Eva opens the valve. She records the height, h metres, of water remaining in
+     the container every 5 minutes.
+
+                                  Time, t (minutes)        Height, h (metres)
+
+                                            0                         3.2
+                                            5                         2.4
+                                           10                         1.6
+                                           15                         1.1
+                                           20                         0.5
+
+     Eva first tries to model the height using a linear function,  ​h(t ) = at + b​ , where  ​a , b ∈ ℝ​.
+
+     (a)   (i)	Find the equation of the regression line of h on t .                                                [2]
+
+           (ii)   Interpret the meaning of parameter a in the context of the model.                                 [1]
+
+(This question continues on the following page)
+                                                                    –5–                                    8821 – 7203
+
+
+(Question 2 continued)
+
+     Eva uses the equation of the regression line of h on t , to predict the time it will take for all
+     the water to drain out of the container.
+
+           (iii)   Suggest why Eva’s use of the linear regression equation in this way could be
+                   unreliable.                                                                                     [1]
+
+     Eva thinks she can improve her model by using a quadratic function,  ​h(t ) = p ​t​2​+ qt + r​  ,
+     where  ​p , q , r ∈ ℝ​.
+
+     (b)   (i)	Find the equation of the least squares quadratic regression curve.                                 [1]
+
+     Eva uses this equation to predict the time it will take for all the water to drain out of the
+     container and obtains an answer of k minutes.
+
+           (ii)    Find the value of k .                                                                          [2]
+
+           (iii)   Hence, write down a suitable domain for Eva’s function  ​h(t ) = p ​t​2​+ qt + r​  .           [1]
+
+     Let V be the volume, in cubic metres, of water in the container at time t minutes.
+     Let R be the radius, in metres, of the circular valve.
+
+     Eva does some research and discovers a formula for the rate of change of V .
+                                                                          _
+                                                      ​​  dV ​ = −π​R​2​​ 70 560 h
+                                                      ___
+                                                                     √
+                                                          dt
+                                         _
+     (c)                 dh ​ = −​R​2​​√ 70 560 h ​  .
+           Show that  ​​ __                                                                                        [3]
+                           dt
+                                                                          _
+     (d)                                          dh ​ = −​R​2​​√70 560 h ​ , show that the general solution
+           By solving the differential equation  ​​ __
+                                                      2        dt
+           is given by  ​h = 17 640 (​ c − ​R​2​t)​ ​ , where  ​c ∈ ℝ​  .                                         [5]
+
+     Eva measures the radius of the valve to be 0.023 metres. Let  ​T​  be the time, in minutes,
+     it takes for all the water to drain out of the container.
+
+     (e)   Use the general solution from part (d) and the initial condition  ​h(0) = 3.2​  to predict the
+           value of T .                                                                                            [4]
+
+     Eva wants to use the container as a timer. She adjusts the initial height of water in the
+     container so that all the water will drain out of the container in 15 minutes.
+
+     (f)   Find this new height.                                                                                   [3]
+
+(This question continues on the following page)
+
+
+
+
+                                                                                                           Turn over
+                                                            –6–                                         8821 – 7203
+
+
+(Question 2 continued)
+
+      Eva has another water container that is identical to the first one. She places one water
+      container above the other one, so that all the water from the highest container will drain
+      into the lowest container. Eva completely fills the highest container, but only fills the lowest
+      container to a height of 1 metre, as shown in the diagram.
+
+                                                                                       diagram not to scale
+
+
+
+
+                         3.2
+
+
+
+
+                                                        1
+
+
+
+
+                                                    1
+
+                                                                                1
+
+
+      At time  ​t = 0​  Eva opens both valves. Let H be the height of water, in metres, in the lowest
+      container at time t .
+                                                                          _
+      (g)                        dH ​≈ 0.2514 − 0.009873t − 0.1405 ​√H ​ , where  ​0 ≤ t ≤ T​  .
+              (i)	Show that  ​​ ___                                                                            [4]
+                                 dt
+              (ii)   Use Euler’s method with a step length of 0.5 minutes to estimate the maximum
+                     value of H .                                                                               [3]
+
+References:
+
+© International Baccalaureate Organization 2021
+

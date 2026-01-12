@@ -1,0 +1,364 @@
+N18/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+
+
+                           Markscheme
+
+
+                         November 2018
+
+
+                 Information technology
+                    in a global society
+
+
+                               Higher level
+
+
+                                 Paper 3
+
+
+
+
+11 pages
+                         –2–             N18/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+
+
+This markscheme is the property of the International
+Baccalaureate and must not be reproduced or
+distributed to any other person without the
+authorization of the IB Global Centre, Cardiff.
+                                                  –3–                 N18/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+Examiners should be aware that in some cases, candidates may take a different approach, which if
+appropriate should be rewarded. If in doubt, check with your Team Leader.
+
+If candidates answer more than the prescribed number of questions:
+
+ In the case of an “identify” question read all answers and mark positively up to the maximum marks.
+  Disregard incorrect answers.
+
+ In the case of a “describe” question, which asks for a certain number of facts eg “describe two kinds”,
+  mark the first two correct answers. This could include two descriptions, one description and
+  one identification, or two identifications.
+
+ In the case of an “explain” question, which asks for a specified number of explanations eg “explain
+  two reasons”, mark the first two correct answers. This could include two full explanations,
+  one explanation, one partial explanation etc.
+                                                  –4–                  N18/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+1.   (a)   Identify two pieces of information that Alicia could send to the cloud.                   [2]
+
+           Answers may include:
+            child’s user ID
+            audio recording of speech
+            when the child has played with Alicia, for example the time of day / date
+            context / topic of current conversation, for example, name, age, relationship
+            picture of child for mood/emotion/expression analysis
+            video of child asking a question of doing something
+            location of the child, such as a town or a city.
+
+           Others may be added at the discretion of Team Leaders.
+
+           Award [1] for identifying each piece of information that Alicia would send to the
+           cloud up to a maximum of [2].
+
+     (b)   Identify two ways parents would be able to access data about their child’s interactions
+           with Alicia.                                                                              [2]
+
+           Answers may include:
+            log into website to access cloud account data
+            using a mobile app which connects to Alicia and displays information
+            connecting to Alicia from a computer (via the Wi-Fi local network or Bluetooth)
+            Asking Alicia questions (eg when alone with the doll) possibly using password
+            by activating a “parent mode” on Alicia using an RFID chip or some other
+             piece of hardware
+            by requesting a monthly summary of interactions via email or post which
+             would be created by MAGS
+            accessing Alicia's history to find information about the child’s interactions.
+
+           Award [1] for identifying each way parents would be able to access data about
+           the child’s interactions with Alicia up to a maximum of [2].
+                                                 –5–                 N18/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+2.   (a)   Explain one method that could be used to ensure the data stored on Alicia cannot be
+           accessed by unauthorized persons.                                                     [2]
+
+           Answers may include:
+            encryption can be applied to the data stored on Alicia and explaining how the
+             encryption process is performed. For example. the use of keys
+            data is stored only temporarily on Alicia until it is sent to the cloud,
+             then deleted from the doll where it is more vulnerable
+            biometric data (such as fingerprint) could be used to allow/disallow access to
+             the data stored on Alicia
+            proprietary protocols could be used:
+             – use a different file system which is incompatible with standard devices and
+                 will not be viewable easily
+            allow Alicia data to be wiped remotely, for example if lost/stolen and no valid
+             connection is made to a network to “refresh” or authenticate the owner within a
+             period of time.
+
+           Award [1] for a method that could be used to ensure the data stored on Alicia
+           cannot be accessed by unauthorised persons and [1] for a development of that
+           method up to a maximum of [2].
+                                              –6–                  N18/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+
+(b)   Mark Danbung has advised the team that Alicia may pause for a few seconds before
+      giving an appropriate response to a child’s question. Explain why this might occur.             [4]
+
+      Answers may include:
+       the child’s questions are digitized into an audio format such as wav, mp3,
+        aif etc
+       the local Alicia software tries to interpret the speech and does not find a match
+       the audio data is sent (along with other contextual data and user ID) using the
+        Wi-Fi router of the home and eventually reaches the MAGS server
+       the server locates the child’s profile in a database and also searches for the
+        audio match in a huge database of the appropriate language etc
+       a server side process generates an appropriate (probably audio) response
+        and sends it back to the doll to play
+       another server side process updates the child’s profile with any new
+        information from the request which will be used to update the local software in
+        Alicia
+       the doll receives the response from the server and plays it to the child using
+        an in-built speaker if it is an audio response, or using other hardware if it is a
+        gesture, facial expression or body movement etc.
+
+      Some candidates may take an alternative approach:
+       no suitable response is found on Alicia and so it searches for a match on
+        MAGS servers
+       the question may be long and complex and therefore takes longer to process
+        and provide a suitable response
+       the question may be in a different language which needs translating before it
+        can be matched.
+       the child has only started to use the doll and therefore the profile is not as well
+        established and is connecting to the cloud.
+
+
+ Level                                                                                        Marks
+ 0        No knowledge or understanding of ITGS issues and concepts. No use of                0
+          appropriate ITGS terminology.
+ 1        Response with some steps and maybe out of sequence.                                 1–2
+ 2        Clear and correct sequence, covering input, processing, output/feedback and         3–4
+          using ITGS terminology.
+                                                   –7–                   N18/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+3.   Concerns have been expressed about who should be accountable if any harm comes
+     to the child, or if any property is damaged or if any law is broken while the child plays
+     with Alicia.
+
+     Discuss whether MAGS, the parent or another person or organization should be
+     accountable.                                                                                    [8]
+
+     Answers may include:
+
+     Introductory comments (showing balance)
+      it is important to establish levels of responsibility however in real life it may not be so
+        easy to distinguish and should be dealt with on a case-by-case basis
+      there are international and national organizations which provide standards that Alicia
+        has already passed (if sold legally)
+      the child might self-harm perhaps even without warning, so there may be situations
+        like this in which there really is nobody to blame. Likewise, it could also be a
+        complete accident or an unforeseeable situation.
+
+     Arguments for MAGS being responsible
+      MAGS has the responsibility to make sure that any toy they provide for a young
+       child to play with is not harmful
+      if Alicia fails to respond to a very basic (ie child safety) request from the child,
+       eg the child cries for help then perhaps that is due to the product not being
+       adequately tested and prepared to be used in this situation. In such a case MAGS
+       may be responsible for their lack of effectiveness in the programming or design of
+       Alicia
+      MAGS should have carried out an adequate testing phase on Alicia involving many
+       interactions with children and adults. If they did not, perhaps in a rush to market and
+       sell the product, then the unreliability that led to the accident would be their fault
+      MAGS is responsible for privacy and security of the conversations, so would be
+       responsible if the cloud was hacked and wrong information was sent to the doll and
+       on to the child
+      MAGS should be responsible for informing parents about the way the doll functions
+       (as a friend for the child rather than a babysitter) and alerting parents to the
+       supervisory role they must play.
+
+     Arguments for THE PARENT being responsible
+      it was the decision of the parents (whether well informed or not) to buy the doll for
+       their child, knowing that it would have an unpredictable impact, which they may not
+       have monitored closely enough
+      the parents presumably left the child and Alicia alone during the incident
+      there should be a user agreement which the parents have signed or acknowledged
+       which would state that the parents have at least some responsibility for their child’s
+       safety while playing with Alicia.
+                                             –8–                  N18/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+Arguments for OTHERS being responsible
+ the crime or damage may have been initiated by a 3rd person accompanying the
+  child while playing with Alicia and therefore has nothing to do with the actions of the
+  child or the doll – therefore it should be that person who is held responsible
+  (eg babysitter)
+ there are many international standards set by governments in which the toys are
+  sold. These may not be up-to-date and wide enough to cover the effects for an
+  AI toy which can influence a child’s behaviour. In this case, perhaps some blame
+  lies on the government or standards organization of enabling a potentially harmful
+  toy to be sold in their jurisdiction
+ if Alicia detects danger to the child but is not able to contact authorities/parents/etc
+  due to a failure in network (Bluetooth, Wi-Fi or 3G) connectivity then should the
+  responsibility of the incident rest with MAGS? Perhaps the communications provider
+  is more liable because it did not provide the means to carry out the necessary
+  notifications
+ MAGS could allow parents to opt out of the cloud access and just use the limited
+  functionality of the doll (lessening risks)
+  – parents are still ultimately responsible for their children, especially as most
+      children playing with dolls would be very young
+  – parents should be aware of their child’s play (similar to Internet use) and watch
+      over their play with the doll.
+
+Potential ideas for a conclusion
+ Alicia may well be able to record the whole situation (audio and/or video) and this
+  may be able to provide evidence to decide extent of liability
+ Alicia’s log of past behaviour and interactions with the child will be stored on a
+  server and this can also be used (with permission) to establish whether the incident
+  was foreseeable or not
+ there are some very potentially positive possibilities for Alicia to be able to inform
+  authorities / call for help in dangerous situations, but these might depend on the
+  doll’s communication capabilities and available networks etc. Likewise, the correct
+  usage of Alicia depends on some level of monitoring / supervision by adults as well
+  as by the MAGS algorithms.
+                                        –9–                 N18/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+SL and HL paper 1 part (c) and HL paper 3 question 3 markband
+
+     Marks                                 Level descriptor
+
+   No marks      No knowledge or understanding of the relevant ITGS issues and
+                  concepts.
+                 No ITGS terminology.
+
+     Basic       Shows only a little ITGS knowledge.
+   1–2 marks     Makes at least one argument.
+                 May not have any comparison/conclusion.
+
+   Adequate      Shows a little more ITGS knowledge but still weak.
+   3–4 marks     Has more arguments, (at least two) and possibly from different
+                  stakeholders.
+                 Has a conclusion or judgments which are probably not backed by
+                  much reasoning.
+
+   Competent     Shows good ITGS knowledge and detail.
+   5–6 marks     Has more arguments and they are balanced (+ and –) and for
+                  different stakeholders.
+                 Conclusion/judgments are supported by the arguments and is well
+                  thought out.
+
+   Proficient    Shows very good ITGS knowledge.
+   7–8 marks     Arguments are very balanced and detailed.
+                 Conclusion is based completely on the arguments.
+                                                   – 10 –                N18/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+4.   Artificial intelligence (AI) toys such as Alicia are becoming more sophisticated and
+     human-like. With reference to your independent research, to what extent is it
+     acceptable for AI toys to replace the friendships of other children?                           [12]
+
+     Answers may include:
+
+     Pros
+      might be useful in situations where the child has no access to other children to form
+       friendships with (eg lives in a remote area)
+      could be used in circumstances in which a child is psychologically or physically unfit
+       to mix with other children and the doll could provide surrogate friendship
+      children do not always have healthy relationships and the doll could be programmed
+       to give each individual child the support and learning that he or she specifically
+       needs, rather than leaving that to chance with human friendships
+      children of certain ages (toddlers) usually develop imaginary friends anyway who
+       talk to them and give them “advice”, and take the blame for their actions. An AI toy
+       may be able to provide that function, but in a more discerning way – eg it could be
+       like an imaginary friend who provides good advice and informs parents of potential
+       bad behavior.
+
+     Cons
+      it would not be good for the child if it stopped the child from making other human
+       friends because human interaction is required to develop social competence in
+       children [possibility to refer to research here – many studies available]
+      if a child relates to an AI personality he/she could be learning relationship skills
+       which are not quite human and make the child less able to relate to real human
+       children in the future
+      an AI doll might not be as creative in playing with a child as another child would be.
+       It might not be able to encourage the child to be imaginative because imagination is
+       something which comes naturally to humans but can be very difficult for machines
+      too much interaction with a toy such as Alicia may develop an unrealistic view of the
+       world for the child (eg that all people will always be patiently waiting to carry out the
+       child’s instructions or help)
+      if the AI toy is programmed to inform the parents on a regular basis of the
+       conversation then this could be lead to insecurity in the child. Parents might not use
+       this information sensitively and could confront the child with evidence of their actions
+       in the form of recorded conversations with the doll. This could lead the child to
+       believe he/she had been betrayed.
+
+     Possible conclusion ideas:
+
+     Alicia might be better used to augment and support a child’s friendships with other
+     children.
+     The doll could take on the role of a friend and counsellor.
+
+     Whether we like it or not, AI will be forming a larger and larger part of the child’s future
+     life. Therefore, it might be better to allow the child to have exposure to an AI toy at an
+     early age and also develop in him/her an awareness that this is not human but has
+     some human characteristics and abilities.
+                                      – 11 –               N18/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+HL paper 3 question 4 markband
+
+      Marks                                     Level descriptor
+                     A response with no knowledge or understanding of the relevant
+     No marks         ITGS issues and concepts.
+                     A response that includes no appropriate ITGS terminology.
+                     A response with minimal knowledge and understanding of the
+                      relevant ITGS issues and concepts.
+                     A response that includes minimal use of appropriate
+                      ITGS terminology.
+       Basic
+                     A response that has no evidence of judgments, conclusions or
+    1–3 marks         future strategies.
+                     No reference is made to the information in the case study or
+                      independent research in the response.
+                     The response may be no more than a list.
+                     A descriptive response with limited knowledge and/or understanding
+                      of the relevant ITGS issues and/or concepts.
+                     A response that includes limited use of appropriate
+                      ITGS terminology.
+     Adequate
+                     A response that has evidence of conclusions, judgments or future
+    4–6 marks
+                      strategies that are no more than unsubstantiated statements.
+                      The analysis underpinning them may also be partial or unbalanced.
+                     Implicit references are made to the information in the case study or
+                      independent research in the response.
+                     A response with knowledge and understanding of the relevant ITGS
+                      issues and/or concepts.
+                     A response that uses ITGS terminology appropriately in places.
+    Competent
+                     A response that includes conclusions and/or judgments that have
+    7–9 marks
+                      limited support and are underpinned by a balanced analysis.
+                     Explicit references to the information in the case study or
+                      independent research are made at places in the response.
+                     A response with a detailed knowledge and understanding of the
+                      relevant ITGS issues and/or concepts.
+                     A response that uses ITGS terminology appropriately throughout.
+     Proficient
+                     A response that includes conclusions, judgments or future
+   10–12 marks        strategies that are well supported and underpinned by a balanced
+                      analysis.
+                     Explicit references are made appropriately to the information in the
+                      case study and independent research throughout the response.
+

@@ -1,0 +1,293 @@
+N11/3/ITGSX/HP2/ENG/TZ0/XX
+
+
+
+
+     88115512
+
+INFORMATION TECHNOLOGY IN A GLOBAL SOCIETY
+HIGHER LEVEL
+PAPER 2
+
+Friday 4 November 2011 (morning)
+
+2 hours
+
+
+INSTRUCTIONS TO CANDIDATES
+
+ Do not open this examination paper until instructed to do so.
+ Answer three questions.
+
+
+
+
+8811-5512                                                                                          7 pages
+                                                           © International Baccalaureate Organization 2011
+                                                                                      –2–                                         N11/3/ITGSX/HP2/ENG/TZ0/XX
+
+Answer three questions.
+
+             Area of impact: Business and employment / Arts, entertainment and leisure
+
+1.    The Wireless Waitress is a PDA-based system which allows waiters to take orders at the table in
+      a restaurant. Orders are sent wirelessly to the server in the kitchen and a record of each order is printed.
+      The bill is automatically calculated. As each meal item is ordered it is automatically deducted from the
+      total quantity available. The diagram below shows an example of a wireless network in a restaurant.
+
+
+                                                        Kitchen 1                                     WWWWWWWW
+                                                                                                                       Cashier
+                                                                                                                       Printer
+                                                                                                      VVVVVVVVV
+                                                                     WWWWWWWW                         WWWWWWWWWW
+                                                                     VVVVVVVVV                        VVVVVVVVVVVVVV
+
+
+
+
+                                                        Printer
+                                                                     WWWWWWWWWW                       WWWWWWW
+                                                                     VVVVVVVVVVVVVV                   VVVV
+                                                                     WWWWWWW
+                                                                     VVVV
+
+
+
+
+                                  Kitchen 2
+                                  Printer     WWWWWWWW
+                                              VVVVVVVVV
+
+
+
+
+                                                                                                                                            Router
+                                              WWWWWWWWWW
+                                              VVVVVVVVVVVVVV
+                                              WWWWWWW
+                                              VVVV
+
+
+
+
+                                                                                       Print Server
+
+
+
+                                      PDA
+
+
+
+                                                               PDA
+                                                                                                                          Wireless Server
+
+
+
+                                                                                      PDA
+
+
+
+
+                          [Source: http://accpol.com/wirelessrestaurantpos/systructure.htm, 12 October 2009]
+
+
+
+
+                                                                                                  (This question continues on the following page)
+
+
+
+
+8811-5512
+                                                         –3–                        N11/3/ITGSX/HP2/ENG/TZ0/XX
+
+(Question 1 continued)
+
+      A typical PDA order entry screen is shown below.
+
+
+
+
+                          [Source: http://accpol.com/wirelessrestaurantpos/screen.htm, 12 October 2009]
+
+
+
+      (a)   Identify two characteristics of a PDA.                                                         [2 marks]
+
+      (b)   Using information from both diagrams, identify the steps involved in processing
+            a customer’s order and payment.                                                                [4 marks]
+
+      (c)   The PDA shown above allows waiters to select from options on the screen.
+            Other PDAs allow users to input “handwritten” text directly on the screen.
+
+            Explain how handwriting recognition works on a PDA.                                            [4 marks]
+
+      (d)   The management of Maggie’s Meals restaurant is considering introducing the
+            Wireless Waitress system.
+
+            Evaluate the implications for both customers and restaurant staff.                            [10 marks]
+
+
+
+8811-5512                                                                                                 Turn over
+                                                                  –4–                         N11/3/ITGSX/HP2/ENG/TZ0/XX
+
+                                                   Area of impact: Education
+
+2.      Simplified Alerts is an internet-based, mass SMS* alert notification system. It is designed for schools
+        to send SMS advisory, weather, and emergency alerts to the cell (mobile) phones or e-mail addresses
+        of parents and school staff. Administrators can customize a sign-up form, pre-set text messages,
+        and send to user categories or entire lists. Parents need to sign up and opt in to receive messages.
+        This ensures that messages will not be treated as spam.
+
+                 [Source: adapted from http://simplifiedalerts.com/schoolalerts/index.html, 12 October 2009] Used with permission.
+
+
+
+
+*    SMS: a text message sent on a cell (mobile) phone
+
+
+
+
+        (a)     Define the term spam.                                                                                         [2 marks]
+
+        (b)     Many schools no longer print and post newsletters.
+
+                Describe two ways schools can distribute newsletters electronically to parents
+                and the school community.                                                                                     [4 marks]
+
+        (c)     Many parents receive the SMS alerts on their smart phones. The latest smart
+                phones come with up to 32 GB of storage.
+
+                Explain the reasons why many people want this amount of storage on their
+                smart phones.                                                                                                 [4 marks]
+
+        (d)     Discuss the advantages and disadvantages of introducing Simplified Alerts for
+                schools and parents.                                                                                        [10 marks]
+
+
+
+
+8811-5512
+                                                          –5–                       N11/3/ITGSX/HP2/ENG/TZ0/XX
+
+                                              Area of impact: Health
+
+3.    In the past, during a medical visit, it was common for the doctor to consult a textbook before prescribing
+      drugs for a patient. This book listed prescribed doses, any side effects, interactions with other drugs
+      the patient is taking and warnings for patients with certain conditions such as pregnancy.
+
+      Today these textbooks are being replaced by electronic versions which use relational databases to
+      store the information. A simplified version of a prescription database is shown in the diagram below.
+
+                          DRUGS                                                   INTERACTIONS
+               Drug_Name                              1                    Interaction_ID
+               (e.g. Doxycycline_100)                                      (e.g. Int001)
+               Description                                               ∞ Drug_Name
+               (e.g. Antibiotic)                                           (e.g. Doxycycline_100)
+               Dose (adult)                                                Reacts_With
+               (e.g. One daily)                                            (e.g. Antacids)
+               Side_Effects                                                Reaction
+               (e.g. Nausea, Diarrhoea)                                    (e.g. Prevents drug absorbing)
+
+      Using this relational database a doctor can search DRUGS to check the correct dose for the patient
+      and warn the patient about side effects. By linking to INTERACTIONS the doctor can check if the
+      prescribed drug has any adverse interactions with other drugs the patient is taking.
+
+      By linking to another table, such as one containing information about drug warnings, the doctor is
+      alerted to potential problems. For example, some drugs taken during pregnancy can harm the baby.
+
+      The information is stored in a relational database such as the one illustrated above. The brackets
+      contain examples of typical data for the antibiotic Doxycycline_100.
+
+                       [Source: http://mims.com.au, 13 October 2009] © MIMS Australia. Used with permission
+
+
+
+      (a)   With reference to the relational database diagram above, describe the nature of
+            the relationship between the table DRUGS and the table INTERACTIONS.                               [2 marks]
+
+      (b)   It is important that the database is accurate.
+
+            Describe two design features that a database designer could use to prevent data
+            input errors.                                                                                      [4 marks]
+
+      (c)   This prescription database now comes in many electronic formats. Two possible
+            formats are a CD-ROM version and an online version accessible through a
+            web site.
+
+            Compare the effectiveness of these two formats in providing a doctor with the
+            necessary information.                                                                             [4 marks]
+
+      (d)   Discuss how the use of the prescription database shown above can help a doctor
+            to improve medical care.                                                                          [10 marks]
+
+8811-5512                                                                                                     Turn over
+                                                                   –6–                          N11/3/ITGSX/HP2/ENG/TZ0/XX
+
+                     Area of impact: Politics and government / Science and the environment
+
+4.      Hundreds of thousands of wheelie bins (garbage cans/rubbish bins) are being fitted with special
+        RFID tags* to monitor the amount of non-recyclable garbage discarded by householders. The tag’s
+        microchip stores a serial number which identifies the household. The garbage trucks are fitted
+        with RFID readers and sensors. They also contain special equipment which records the weight of
+        the garbage. Garbage is collected twice a month.
+
+        Once the truck returns to the depot, all information collected is downloaded to a relational database
+        on a central computer. Householders can then be billed each month for the amount of non-recyclable
+        garbage that has been collected.
+
+        The aim is to encourage householders to recycle more and hence reduce their amount of non-recyclable
+        garbage.
+
+                                    [Source: adapted from http://independent.co.uk/news/uk/this-britain/ 500000-
+                                         wheelie-bins-have-a-spy-in-the-lid-413566.html, 13 October 2009]
+
+
+
+
+                                        [Source: http://en.wikipedia.org/wiki/File:ACT_recycling_truck.jpg]
+
+
+
+
+*    RFID tag: RFID (radio frequency identification) tags include a microchip and an antenna.
+               Data on the tag is read by a reader
+
+
+
+
+                                                                             (This question continues on the following page)
+
+
+
+
+8811-5512
+                                                   –7–                  N11/3/ITGSX/HP2/ENG/TZ0/XX
+
+(Question 4 continued)
+
+      (a)   Define the term sensor.                                                             [2 marks]
+
+      (b)   Identify the steps involved in calculating the monthly non-recyclable waste cost
+            for a household.                                                                    [4 marks]
+
+      (c)   Local governments want to create an advertising campaign that targets
+            neighbourhoods where householders have large quantities of non-recyclable
+            garbage.
+
+            Explain how data mining can be used to identify these neighbourhoods without
+            breaching householders’ privacy.                                                    [4 marks]
+
+      (d)   Many householders have expressed concerns about having their garbage
+            monitored in this way.
+
+            To what extent are these concerns justified?                                       [10 marks]
+
+
+
+
+8811-5512
+

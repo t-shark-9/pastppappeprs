@@ -1,0 +1,289 @@
+© International Baccalaureate Organization 2021
+
+All rights reserved. No part of this product may be reproduced in any form or by any
+electronic or mechanical means, including information storage and retrieval systems,
+without the prior written permission from the IB. Additionally, the license tied with this
+product prohibits use of any selected files or extracts from this product. Use by third
+parties, including but not limited to publishers, private teachers, tutoring or study services,
+preparatory schools, vendors operating curriculum mapping services or teacher resource
+digital platforms and app developers, whether fee-covered or not, is prohibited and is a
+criminal offense.
+
+More information on how to request written permission in the form of a license can be
+obtained from https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-
+license/.
+
+© Organisation du Baccalauréat International 2021
+
+Tous droits réservés. Aucune partie de ce produit ne peut être reproduite sous quelque
+forme ni par quelque moyen que ce soit, électronique ou mécanique, y compris des
+systèmes de stockage et de récupération d’informations, sans l’autorisation écrite
+préalable de l’IB. De plus, la licence associée à ce produit interdit toute utilisation de tout
+fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris, sans
+toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de tutorat ou
+d’aide aux études, des établissements de préparation à l’enseignement supérieur, des
+fournisseurs de services de planification des programmes d’études, des gestionnaires de
+plateformes pédagogiques en ligne, et des développeurs d’applications, moyennant
+paiement ou non, est interdite et constitue une infraction pénale.
+
+Pour plus d’informations sur la procédure à suivre pour obtenir une autorisation écrite
+sous la forme d’une licence, rendez-vous à l’adresse https://ibo.org/become-an-ib-school/
+ib-publishing/licensing/applying-for-a-license/.
+
+© Organización del Bachillerato Internacional, 2021
+
+Todos los derechos reservados. No se podrá reproducir ninguna parte de este producto
+de ninguna forma ni por ningún medio electrónico o mecánico, incluidos los sistemas de
+almacenamiento y recuperación de información, sin la previa autorización por escrito del
+IB. Además, la licencia vinculada a este producto prohíbe el uso de todo archivo o
+fragmento seleccionado de este producto. El uso por parte de terceros —lo que incluye,
+a título enunciativo, editoriales, profesores particulares, servicios de apoyo académico o
+ayuda para el estudio, colegios preparatorios, desarrolladores de aplicaciones y
+entidades que presten servicios de planificación curricular u ofrezcan recursos para
+docentes mediante plataformas digitales—, ya sea incluido en tasas o no, está prohibido
+y constituye un delito.
+
+En este enlace encontrará más información sobre cómo solicitar una autorización por
+escrito en forma de licencia: https://ibo.org/become-an-ib-school/ib-publishing/licensing/
+applying-for-a-license/.
+Computer science
+Standard level
+Paper 1
+
+
+Tuesday 11 May 2021 (afternoon)
+
+
+1 hour 30 minutes
+
+
+Instructions to candidates
+y   Do not open this examination paper until instructed to do so.
+y   Section A: answer all questions.
+y   Section B: answer all questions.
+y   The maximum mark for this examination paper is [70 marks].
+
+
+
+
+                                                                                               2221 – 7014
+      7 pages                                              © International Baccalaureate Organization 2021
+                                                   –2–                                            2221 – 7014
+
+
+                                                Section A
+
+Answer all questions.
+
+1.   Identify two roles that a computer can perform in a network.                                        [2]
+
+
+2.   Describe one method of implementation for a new computer system.                                    [2]
+
+
+3.   Draw the logic circuit represented by the following truth table.                                    [2]
+
+                                            A        B        Z
+
+                                            0        0        1
+
+                                            0        1        0
+
+                                            1        0        0
+
+                                            1        1        1
+
+
+4.   (a)	Identify two reasons why patches may be necessary for an operating system.                     [2]
+
+     (b)   Identify two methods that can be used to obtain these patches.                                [2]
+
+
+5.   Calculate the denary (base 10) equivalent of the hexadecimal number BF.                             [2]
+
+
+6.   Identify two reasons why fibre optic cable would be preferred over wireless connectivity.           [2]
+
+
+7.   Distinguish between a variable and a constant.[2]
+                                                      –3–                                      2221 – 7014
+
+
+8.    List the output from the given algorithm for the following input.                               [3]
+
+      2, 6, 8, 9, 12, 15, 18, 20
+
+      loop for Count from 0 to 7
+          input NUMBER
+          if NUMBER div 2 = NUMBER / 2 then
+              if NUMBER div 3 = NUMBER / 3 then
+              output NUMBER
+              end if
+          end if
+      end loop
+
+
+9.    Define the term data packet.[1]
+
+
+10.   Identify one common feature found in the user interface of application software to improve
+      its usability.                                                                                  [1]
+
+
+11.   Construct the truth table for the following logic circuit:                                      [4]
+
+                                             P
+                 A                 NOT
+
+                                                                    Q
+                                                       AND
+
+
+                 B                                                         AND          Z
+
+                                                                    R
+                                   OR
+                 C
+
+
+
+
+                                                                                              Turn over
+  –4–        2221 – 7014
+
+
+
+
+Blank page
+                                                   –5–                                           2221 – 7014
+
+
+                                               Section B
+
+Answer all questions.
+
+12.   A school currently has a cabled network but wants to add wireless networking across
+      the whole campus.
+
+      (a)   Describe two hardware components the school will need to implement the
+            wireless network.                                                                           [4]
+
+      (b)   Identify two advantages to the students of the new wireless network.                        [2]
+
+      There are concerns that unauthorized people could access the data on the wireless network.
+
+      (c)   Outline two methods the school could employ to prevent network data from being
+            accessed over their wireless system.                                                        [4]
+
+      The school has decided to implement a virtual private network (VPN) to provide access
+      to its network.
+
+      (d)   Identify two technologies the school would require to provide a VPN.                        [2]
+
+      (e)   Explain one benefit to the staff of using a VPN to remotely access the school network.      [3]
+
+
+13.   A company has 600 employees whose names are currently stored using a collection
+      called NAMES. The names are stored as surname, first name. For example: Smith, Jane,
+      Uysal, Rafael, Ahmed, Ishmael, Jonsonn, Sara, …
+
+      (a)   Construct a pseudocode algorithm that will store the surnames in one array and
+            first names in another.                                                                     [4]
+
+      The names in the collection are kept in a random order. However, it would be more useful
+      if they were kept in alphabetical order.
+
+      (b)   Construct a pseudocode algorithm that will sort the surnames into alphabetical order
+            using the bubble sort method. The order of the first names must also be changed so
+            that they keep the same index as their corresponding surname.                               [5]
+
+      The company’s staff list is now organized in the arrays in alphabetical order.
+
+      A binary search was used to find a specific name in the array.
+
+      (c)   Describe the process a binary search would follow to find a record in the surname array.    [4]
+
+      (d)   Outline one benefit of using sub-programmes to implement your algorithms from parts
+            (a) and (b).                                                                                [2]
+
+
+
+
+                                                                                               Turn over
+                                                   –6–                                          2221 – 7014
+
+
+14.   The following flowchart represents a standard algorithm:
+
+
+                                    START
+
+
+
+                                     INPUT
+                                    NUMBER
+
+
+
+                               DIGIT = NUMBER
+                                   MOD 2
+
+
+
+                                    OUTPUT
+                                    DIGIT
+
+
+
+                                  NUMBER =
+                                NUMBER DIV 2
+
+
+
+
+                      No          Is NUMBER                Yes        OUTPUT
+                                    = 1?                             NUMBER
+
+
+
+                                                                       END
+
+
+      (a)   Copy and complete the table that traces the algorithm in the flowchart using an input
+            value of 19.                                                                               [4]
+
+                               NUMBER              DIGIT          OUTPUT
+
+                                  19
+
+
+
+      (b)   State the purpose of the algorithm.                                                        [1]
+
+      (c)   Construct the algorithm from the flowchart using pseudocode. Add additional pseudocode
+            to ensure that input is validated to only allow positive integers to be entered.      [6]
+
+
+
+(This question continues on the following page)
+                                                   –7–                                          2221 – 7014
+
+
+(Question 14 continued)
+
+      Efficiency is an important consideration when designing algorithms to ensure they don’t
+      waste computer resources such as memory or processing time.
+
+      (d)     Suggest two design considerations that could be made to an algorithm that would
+              make it more efficient.                                                                  [4]
+
+
+
+
+
+
+
+
+References:
+© International Baccalaureate Organization 2021
+

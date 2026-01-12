@@ -1,0 +1,415 @@
+N13/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+
+
+                   MARKSCHEME
+
+
+                      November 2013
+
+
+
+                COMPUTER SCIENCE
+
+
+
+                        Higher Level
+
+
+
+                               Paper 1
+
+
+
+
+11 pages
+                              –2–            N13/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+
+
+This markscheme is confidential and for the exclusive use of
+examiners in this examination session.
+
+It is the property of the International Baccalaureate and must not
+be reproduced or distributed to any other person without the
+authorization of the IB Assessment Centre.
+                                                 –3–               N13/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+Subject Details:             Computer Science HL Paper 1 Markscheme
+Mark Allocation
+
+Section A: Candidates are required to answer all questions. Total 40 marks.
+Section B: Candidates are required to answer all questions. Total 60 marks.
+           Maximum total = 100 marks.
+
+General
+
+A markscheme often has more specific points worthy of a mark than the total allows. This is intentional.
+Do not award more than the maximum marks allowed for that part of a question.
+
+When deciding upon alternative answers by candidates to those given in the markscheme, consider the
+following points:
+
+          Each statement worth one point has a separate line and the end is signified by means of
+           a semi-colon (;).
+
+          An alternative answer or wording is indicated in the markscheme by a “/”; either wording can
+           be accepted.
+
+          Words in ( … ) in the markscheme are not necessary to gain the mark.
+
+          If the candidate’s answer has the same meaning or can be clearly interpreted as being the
+           same as that in the markscheme then award the mark.
+
+          Mark positively. Give candidates credit for what they have achieved and for what they have
+           got correct, rather than penalizing them for what they have not achieved or what they have
+           got wrong.
+
+          Remember that many candidates are writing in a second language; be forgiving of
+           minor linguistic slips. In this subject effective communication is more important than
+           grammatical accuracy.
+
+          Occasionally, a part of a question may require a calculation whose answer is required for
+           subsequent parts. If an error is made in the first part then it should be penalized. However, if
+           the incorrect answer is used correctly in subsequent parts then follow through marks should
+           be awarded. Indicate this with “FT”.
+                                                   –4–            N13/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+                                                 SECTION A                            Total: [40 marks]
+
+1.   Award up to [2 marks max].
+     User manual;
+     Installation instructions;
+     (Online) help/support;
+     Etc.                                                                                    [2 marks]
+
+
+2.   Award up to [2 marks max].
+     To speed up access to data stored on the disk;
+     It reorganizes blocks of data on a hard disk;
+     Which became separated as data is added/deleted;
+     To be next to each other;                                                               [2 marks]
+
+
+3.   (a)   It is correctly transmitted;
+           Because the number of 1’s is 4/an even number;                                    [2 marks]
+
+     (b)   Award [1 mark] for each comparison up to [3 marks max].
+
+                          Parity bit                              Check sum
+           Calculated from the data at sending end Calculated from the data at sending end
+           Calculated using only one byte           Calculated using several bytes
+           Parity must be either odd or even        Check sum could be any value
+           Transmitted together with the data       Transmitted together with the data
+           Recalculated at receiving end            Recalculated at receiving end
+                                                  Etc.                                       [3 marks]
+
+
+4.   Award up to [2 marks max].
+     Text based;
+     Base of any other software for creation of web pages;
+     Cheap/free for schools;                                                                 [2 marks]
+
+
+5.   (a)   Award up to [2 marks max].
+           Hackers;
+           Will attempt to gain access rights;
+           OR
+           Viruses;
+           Could damage important data or hardware;
+           Etc.                                                                              [2 marks]
+
+     (b)   Award [2 marks] for each implication discussed, ×2 up to [4 marks max].
+
+           Example:
+           Lack of privacy;
+           Students could be prevented from visiting unsuitable sites (games, chat rooms,
+           etc.);
+           Students could be prevented in copying/receiving/sending work from/to other
+           students;                                                                         [4 marks]
+                                                 –5–                N13/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+6.   Award up to [2 marks max].
+     Memory management;
+     Resource handling;
+     Program and data management;
+     Coordinating processing;
+     Communicating with peripherals;
+     Etc.                                                                                    [2 marks]
+
+
+7.   (a)   A data structure in which elements are added/deleted only from one end (called the top
+           of the stack);                                                                      [1 mark]
+
+     (b)   Award [1 mark] for each application up to [2 marks max].
+           Performing calculations / evaluating arithmetic and logic expressions;
+           Translating from one to another computer language;
+           Transfer of control from one to another method (store return addresses);          [2 marks]
+
+
+8.   (a)
+               A           B         C       A + B ·C
+               0           0         0           0
+               0           0         1           1
+               0           1         0           0
+               0           1         1           0
+               1           0         0           1
+               1           0         1           1
+               1           1         0           1
+               1           1         1           1
+
+           Award [3 marks] if all rows are correct. Award [2 marks] if only 6 or 7 rows
+           are correct. Award [1 mark] if only 4 or 5 rows are correct.                      [3 marks]
+
+     (b)   Award [1 mark] for each correct gate up to [2 marks max].
+
+           A
+           B         not                                       or            A + B·C
+                                              and
+
+           C                                                                                 [2 marks]
+                                                            –6–         N13/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+9.    (a)     (i)     Register in ALU which holds all temporary results;                       [1 mark]
+
+              (ii)    Random access memory, holds programs that are currently executed, data
+                      and results;                                                             [1 mark]
+
+      (b)     (i)     Interrupt allows current job to be temporarily suspended;
+                      To perform another job with higher priority;                             [2 marks]
+
+              (ii)    Award [1 mark max].
+                      Polling;
+                      DMA;                                                                     [1 mark]
+
+
+10.   A5(16) = 10100101(2) ;
+      5E(16) = 1011110 (2) ;
+      X(2) = 10100101(2) + 1011110(2) =100000011(2) ;                                          [3 marks]
+
+
+11.   Award [1 mark] for each labelled flowchart symbol up to [5 marks max].
+
+
+                        Transaction
+                            file
+
+
+
+                     validation
+
+                                            Invalid
+                                      transactions/report
+      Valid transactions/file
+
+
+
+
+                     sorting
+                                                  Sorted valid
+                                                transactions/file
+                                                                                               [5 marks]
+                                                   –7–               N13/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+                                               SECTION B                                   Total: [60 marks]
+
+12.   (a)   Award [2 marks] for any benefit outlined up to [4 marks max].
+            The design can be precisely drawn/inputted by a pen;
+            Held in a graphics file/stored within the memory;
+            Using the pen, changes can be easily made;
+            And the contents of the memory immediately updated;                                   [4 marks]
+
+      (b)   Designer’s computer connected to the Internet (broadband, fibre optic or other);
+            Secure link to company’s server;                                                      [2 marks]
+
+      (c)   When large graphic files are compressed they occupy less memory space on
+            the designer’s and company’s computer;
+            Transmission of smaller files is faster and cheaper;                                  [2 marks]
+
+      (d)   The data files should be encrypted/secured because they may be
+            intercepted/read;
+            And then misused by other designers or companies;                                     [2 marks]
+
+                                                                                           Total: [10 marks]
+
+
+13.   (a)   Award up to [2 marks max].
+            Interview;
+            Observation;
+            Questionnaires;
+            Studying literature;
+            Etc.                                                                                  [2 marks]
+
+      (b)   Two or more prototypes allow the system’s owners/management to choose;
+            Whichever is the best for the company / whichever they can afford;                    [2 marks]
+
+      (c)   Award up to [6 marks max].
+            New jobs in a town in an area where previously the main industry had been
+            coal mining, but employees will need training, new skills requested for using
+            the new system;
+            The communication system in the area should be improved, in a major city it
+            already exists;
+            Some employees might be redundant, they could either lose a job or be sent to
+            work in some other departments/to another town;
+            Management and owners will also need training to use the system, some should
+            move with their families to the new location;
+            Job conditions and requirements are changed so managers will spend a lot of
+            time in (re)organizing work;
+            Owners may be happy because the increased efficiency and income;
+            Or unhappy because of decreased efficiency/income;                                    [6 marks]
+
+                                                                                           Total: [10 marks]
+                                                 –8–               N13/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+14.   (a)   Batch processing;                                                             [1 mark]
+
+      (b)   (i)    Award up to [1 mark max].
+                   Wireless link;
+                   Cable;                                                                 [1 mark]
+
+            (ii)   Award up to [1 mark max].
+                   Broadband connection;
+                   Satellite link;                                                        [1 mark]
+
+      (c)   Analog form of temperature data measured by sensors;
+            Should be converted to digital form;
+            So it can be stored and processed by the computer;                           [3 marks]
+
+      (d)   Award [2 marks] for a strategy explained, ×2 up to [4 marks].
+            All temperatures are stored in weather station;
+            And also on the central server;
+            So data can easily be recovered;
+            Two computer systems could be used;
+            The original and “mirrored” system;
+            So if one fails the other can be used;                                       [4 marks]
+
+                                                                                  Total: [10 marks]
+                                                    –9–               N13/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+15.   (a)   Award up to [5 marks max].
+            Begin at the root;
+            Move to a left;
+            Or a right subtree of a node;
+            Depending on whether the name is less than;
+            Or greater than the name in that node;
+            Eventually an empty subtree will be reached;
+            In which the new name is to be inserted;                                                 [5 marks]
+
+      (b)   Award [1 mark] for showing that there are two links in each node, [1 mark] for
+            the correct binary tree with the name Chris in the root up to [2 marks max].
+
+
+             null   Chris
+
+
+                               null    Colin
+
+
+                                                  null    Lise
+
+
+                                                                     null      Richard null          [2 marks]
+
+
+
+      (c)   Award up to [3 marks max].
+            The efficiency of searching the binary tree in part (b) is O(n);
+            Same as efficiency of searching a linked list;
+            Because this binary tree is not well balanced;
+            Balanced binary tree has efficiency O(log2n);                                            [3 marks]
+
+                                                                                              Total: [10 marks]
+                                                                – 10 –                 N13/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+16.   (a)   Award [1 mark] for the correct binary representation, [1 mark] for the decimal
+            value up to [2 marks max].
+            The binary representation of the least positive number is
+
+              0      0      0       0       0         0        0       1
+
+            and its value in decimal is 2-7 (=0. 0078125(10))                                                       [2 marks]
+
+      (b)   Award [1 mark] for the correct binary representation, [1 mark] for the decimal
+            value up to [2 marks max].
+            The binary representation of the most negative number is
+
+              1      0      0       0       0         0        0       0
+
+            and its value in decimal is –1(10)                                                                      [2 marks]
+
+      (c)   (i)    Award [1 mark] for labelling the range of positive numbers, [1 mark] for
+                   labelling the range of negative numbers up to [2 marks max].                                     [2 marks]
+
+            (ii)   Award [1 mark] for labelling the underflow area.                                                  [1 mark]
+
+            (iii) Award [1 mark] for labelling both overflow areas.                                                  [1 mark]
+
+                   Example sketch
+
+                             most                  least     zero   least              most
+                                        negative                            positive
+
+
+                         overflow                          underflow                    overflow
+
+      (d)   Award [1 mark] for each comparison up to [2 marks max].
+
+                                                  Fixed point                           Floating point
+                                                representation                          representation
+             Speed of calculation          Faster than floating point              Slower than fixed point
+                                           arithmetic                              arithmetic
+             Programmer’s time             More time needed to                     Less time needed
+                                           program
+             Range/accuracy                Better accuracy with                    Wider range decreases
+                                           decreased range                         accuracy                         [2 marks]
+
+                                                                                                             Total: [10 marks]
+                                                   – 11 –           N13/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+17.   (a)   (i)    k<0;                                                                    [1 mark]
+
+            (ii)   k>=0;                                                                   [1 mark]
+
+      (b)   Award up to [4 marks max].
+            Award [1 mark] for correct first pass through method;
+            Award [1 mark] for correct second and third pass;
+            Award [1 mark] for ending recursion correctly;
+            Award [1 mark] for correct final answer;
+
+             =X[5] * func(4, X);
+            =X[5] * X[4] * func(3, X) =X[5] *X[4] * X[3] * func(2, X);
+            (=X[5] *X[4] *X[3] * X[2] * func(1, X))
+            (=X[5] *X[4] *X[3] *X[2] * X[1] * func(0, X))
+            (=X[5] *X[4] *X[3] *X[2] *X[1] * X[0] * func(-1, X))
+            =X[5] *X[4] *X[3] *X[2] *X[1] * X[0] * 1;
+            =1 *1*2*4*10*3*1 =240;                                                        [4 marks]
+
+      (c)   Calculates and returns product;
+            Of the first k+1 elements in the array X;                                     [2 marks]
+
+      (d)   Accept either description or code.
+
+            An iterative method could be used. Initialize a variable (product) to 1;
+            Loop changing values of j from k down to 0. Multiply the variable(product)
+            with the value X[j];
+            OR
+            int func (int k, int [] X)
+              { int p = 1;
+                 for (int j=k; j >= 0; j = j-1)
+                      { p = p * X[j];}
+                 return p;
+              }                                                                           [2 marks]
+
+                                                                                   Total: [10 marks]
+

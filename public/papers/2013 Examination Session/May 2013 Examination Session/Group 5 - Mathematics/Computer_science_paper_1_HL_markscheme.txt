@@ -1,0 +1,475 @@
+M13/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+
+
+                  MARKSCHEME
+
+
+                          May 2013
+
+
+
+                COMPUTER SCIENCE
+
+
+
+                        Higher Level
+
+
+
+                               Paper 1
+
+
+
+
+13 pages
+                              –2–           M13/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+
+
+This markscheme is confidential and for the exclusive use of
+examiners in this examination session.
+
+It is the property of the International Baccalaureate and must not
+be reproduced or distributed to any other person without the
+authorization of the IB Assessment Centre.
+                                                 –5–             M13/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+Subject Details:            Computer Science HL Paper 1 Markscheme
+Mark Allocation
+
+Section A: Candidates are required to answer all questions. Total 40 marks.
+Section B: Candidates are required to answer all questions. Total 60 marks.
+           Maximum total = 100 marks.
+
+General
+
+A markscheme often has more specific points worthy of a mark than the total allows. This is intentional.
+Do not award more than the maximum marks allowed for that part of a question.
+
+When deciding upon alternative answers by candidates to those given in the markscheme, consider the
+following points:
+
+      Each statement worth one point has a separate line and the end is signified by means of
+        a semi-colon (;).
+
+      An alternative answer or wording is indicated in the markscheme by a “/”; either wording can
+        be accepted.
+
+      Words in ( … ) in the markscheme are not necessary to gain the mark.
+
+      If the candidate’s answer has the same meaning or can be clearly interpreted as being the
+        same as that in the markscheme then award the mark.
+
+      Mark positively. Give candidates credit for what they have achieved and for what they have
+        got correct, rather than penalizing them for what they have not achieved or what they have
+        got wrong.
+
+      Remember that many candidates are writing in a second language; be forgiving of
+        minor linguistic slips. In this subject effective communication is more important than
+        grammatical accuracy.
+
+     Occasionally, a part of a question may require a calculation whose answer is required for
+        subsequent parts. If an error is made in the first part then it should be penalized. However, if
+        the incorrect answer is used correctly in subsequent parts then follow through marks should
+        be awarded. Indicate this with “FT”.
+
+NOTE: The notation used in question parts 16(b) and 16(c) is off-syllabus, and after
+      analysis during the standardisation process it has been decided to discount
+      these question parts. Please only award NR for these question parts
+      regardless of working.
+                                                 –6–              M13/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+                                             SECTION A                                 Total: [40 marks]
+
+1.   Award up to [2 marks max] for max two forms.
+     Barcode scanner;
+     OCR/OMR scanner;
+     MICR reader;
+     Voice recognition;
+     Directly-interfaced sensors, eg a temperature probe;
+     Smart Card reader;                                                                        [2 marks]
+
+
+2.   Award up to [4 marks] as follows:
+     [1 mark] for a stated advantage and [1 mark] for an expansion relevant to protest groups.
+     [1 mark] for a stated disadvantage and [1 mark] for an expansion relevant to protest groups.
+
+     Example of answers:
+
+     Advantages / Disadvantages:
+                   Pervasiveness;
+                   Immediacy;
+                   Accessibility;
+                   Anonymity
+                   Visibility;
+                   Multimedia nature of social networks;
+                   Information stored on the server;
+
+     Expansion:    Help the group in organizing themselves quickly/broadly;
+                   Contribute spreading the reasons of the protest;
+                   Gain of visibility on media/political level;
+                   Support publishing multimedia files that can document the protest,
+                   and these can be used in several different ways (including defensive
+                   one or to gain consensus from public opinion);
+
+                   Allows members with different objectives (undercover agents,
+                   radical exponents, or those opposed to the groups aims) to monitor the
+                   activities of the group;
+                   Compromise the identity of the group members;
+                   Misdirect the group to thwart them from the original purposes;              [4 marks]
+                                                  –7–              M13/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+
+3.   Award [1 mark] for each use (two uses) up to [2 marks max]. Accept any software tool
+     used to develop a large project which is composed of multiple components/sub-systems.
+           Summarise requirements;
+           Developing flow diagrams;
+           Scheduling tasks in development;
+           Preparing documentation;
+           Controlling system versions;
+           Developing code;
+           A statement that indicates a recognition that these tools are for coordinating the
+           design and development of multiple subsystems/parts within a larger project;         [2 marks]
+
+4.   (a)   Award up to [2 marks max].
+           Controls fetching instructions from memory;
+           Controls/directs transfer of data within the CPU;
+           Via the memory data and address buses;
+           Interprets instructions;
+           Controls/directs execution of instructions;
+           Controls/directs storing data in memory;                                             [2 marks]
+
+     (b)   Award up to [2 marks max].
+           Registers hold memory addresses;
+           The larger register can address a larger number of distinct memory locations;
+           Size of memory is 2n where n is the number of bits in the register;                  [2 marks]
+           Do not accept “if one is bigger, the other is bigger” unless fully explained.
+
+
+5.   Award [1 mark] for naming the disadvantage and [1 mark] for an explanation up to
+     [2 marks max].
+
+     Possible answers (there may be others)
+
+     Performances drop;
+           Because of the time to switch among applications;
+           The time to search/access files on the hard disk;
+           Access speed of secondary memory versus primary;
+
+     May require more HW;
+          Because part of the hard disk is reserved to virtual memory, hence additional
+          storage space might be necessary;
+
+     Increase power consumption;
+           Because the overall processing time slows down;                                      [2 marks]
+
+
+6.   Award up to [2 marks max].
+     Scan files searching for viruses;
+     Remove the viruses / alerts the user;
+     Scan incoming files to detect if they contain known virus;                                 [2 marks]
+                                                   –8–                 M13/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+
+7.   Award [2 marks max] for one difference, in terms of both ASCII and Unicode.
+
+     Possible answers:
+     ASCII uses 7 bit;
+     Unicode extends it to 8/16/32 bit;
+     Hence Unicode requires more disk space;
+
+     ASCII encodes only 128 characters by assigning numbers;
+     Unicode may use different and more sophisticated representation;
+
+     ASCII American English alphabet+ control;
+     Unicode tries to include all possible existing alphabets;                             [2 marks]
+
+8.   (a)    Award [1mark] for the correct answer;
+            Award [1 mark] for the conversion up to [2 marks max];
+
+            (189)10  (161  11  160  13)10
+             (BD)16                                                                       [2 marks]
+
+     (b)    Award [1 mark] for correct result;
+            Award [1 mark] for correct working up to [2 marks max];
+                       1110 1011
+              1010 1100 1111
+            ----------------------------
+              1011 1011 1010  (BBA)16
+            (or similar guidelines if conversion to decimal is used)                       [2 marks]
+
+     (c)    Award up to [3 marks max].
+            It introduces the idea of exponent;
+            Significance of number of bit in the exponent;
+            Extends the range of large and small (positive/negative exponents);
+            The candidate provides an example to illustrate this;                          [3 marks]
+
+
+9.   Award [1 mark] for correct column x.
+     Award [1 mark] for correct column y.
+     Award [1 mark] for the correct final value (5) returned.
+
+       x       y    return
+       15     20    GCD(20,15)
+       20     15    GCD(15,5)
+       15      5    GCD(5,0)
+       5       0    5                                                                      [3 marks]
+                                                     –9–              M13/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+10.   Award [1 mark] for identifying the purpose and [1 mark] for a description, up to
+      [2 marks max].
+      It is used to detect the position in memory of the specific interrupt handling code, as
+      follows;
+      IR is updated with the offset position for the (appropriate) handling program;
+      Interrupt handling code address  base address  Interrupt register;                      [2 marks]
+
+
+11.   Award [2 marks max] for each type, up to [4 marks max].
+      Storing:
+      A dynamic data structure has no predefined fixed size, different from a static one;
+      A dynamic data structure can grow/decrease at run-time, different from a static one;
+      A dynamic data structure’s elements are stored in memory locations that are (chained
+      together but) not necessarily physically contiguous, different from a static one;
+      Access:
+      Elements in dynamic data structures are linked through pointers, possibly more than
+      one;
+      A static data structure does not use pointers, and obeys the specific operations of the
+      data structure;
+
+      Elements in a static data structure (array) can be either directly or sequentially
+      accessed;
+      Elements in a dynamic linked list cannot be directly accessed;
+      Elements in a dynamic linked list can only be sequentially accessed;                      [4 marks]
+
+
+12.   Key fields (primary key or combination of keys) are used to uniquely search/identify
+      a record;
+      And for classifying records (secondary key);                                              [2 marks]
+
+
+13.   Award [2 marks max] for each type, up to [4 marks max].
+      Truncation error:
+      A real value is assigned to an integer variable;
+      Only the integer part of the value will be stored, giving a loss of accuracy;
+      Overflow error:
+      We try to store a number that is too big to be represented in the allocated number of
+      bits;
+      For example, an integer in two’s complement, or a floating-point where the exponent
+      exceeds the allowed range of representation;
+      Underflow error:
+      We try to store a number that is too small, usually it is assimilated to zero;
+      It can cause run-time errors (division by zero) or trivialize calculations to zero;       [4 marks]
+                                                     – 10 –            M13/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+                                                 SECTION B                                 Total: [60 marks]
+
+14.   (a)   (i)    A computer (and its software) that provides services available through
+                   the network;                                                                    [1 mark]
+
+            (ii)   A computer/terminal (and its software) used to access the services in a
+                   network, by sending requests to the server;                                     [1 mark]
+
+      (b)   It passes data packets from input channels;
+            To all output channels;                                                               [2 marks]
+
+      (c)   (i)    Award up to [2 marks max].
+                   Assign different access rights to the files/parts of the file system;
+                   To different groups of users;                                                  [2 marks]
+
+            (ii)   Patients should log-on with a password or create an account;
+                   They should only have access to their own medical records;
+                   If they have access, it should be read only;
+                   They should have read/write access to the appointments/bookings in
+                   order to check/change their appointments;                                      [4 marks]
+
+                                                                                           Total: [10 marks]
+
+
+15.   (a)   The interface of a device with a computer, for data entry and/or exit;                 [1 mark]
+
+      (b)   Sender sends a request of communication on a channel to receiver;
+            Receivers replies with parameters/protocol/certificate ready to accept;
+            Sender verifies certificate and uses the given parameters for the transmission;       [3 marks]
+
+      (c)   Peripheral devices are often slow whereas CPU is fast;
+            CPU fills the buffer so that the fax can access the data at its own speed;
+            Allowing the CPU to work on other tasks;                                              [3 marks]
+
+      (d)   Through Direct Memory Access peripherals are connected directly to memory;
+            And CPU is bypassed;
+            Therefore CPU can be used (simultaneously and independently) for other
+            processing;                                                                           [3 marks]
+
+                                                                                           Total: [10 marks]
+                                                     – 11 –                M13/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+16.   (a)   Award [1 mark] for three correct and complete RGB input columns;
+            Award [1 mark] for correct output;
+
+              R      G     B     Output
+              0      0      0    undefined
+              0      0      1    B
+              0      1      0    G
+              0      1      1    C
+              1      0      0    R
+              1      0      1    M
+              1      1      0    Y
+              1      1      1    W                                                             [2 marks]
+
+
+      (b)   Award [1 mark] for final correct result;
+            Award [1 mark] for correct De Morgan;
+            Award [1 mark] for correct use of tautology rule;
+            Award [1 mark] for correct intermediate algebraic laws (associativity, unity,
+            absorption);
+
+            (( R i G i B ) + ( R i G i B )) + ( R i G i B ) = (DeMorgan)
+            (( R + G + B ) + ( R + G + B )) + ( R i G i B ) = (assoc)
+            ( R + R + G + G+ B + B ) + ( R i G i B ) = (absorption and tautology)
+            ( R + 1 + 1) + ( R i G i B ) = (unit)
+            1
+                                                                                               [4 marks]
+
+
+
+                                                                                             continued …
+                                                    – 12 –            M13/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+Question 16 continued
+
+     (c)   (i)    Award marks as follows, up to [2 marks max].
+                  Award [1 mark] for 3 not gates.
+                  Award [1 mark] for 2 and gates.
+
+
+                  R
+
+                  G
+
+
+                  B                                                                            [2 marks]
+
+           (ii)   Award up to [2 marks max].
+                  Example:
+                  Simplify/minimize the expression E;
+                  By applying Boolean algebra rules and laws (apply De Morgan’s law);
+                  And create the corresponding circuit;
+
+                  OR
+
+                  Apply De Morgan’s law;
+                  Consider the equivalent formula ( R  G  B );
+                  Its circuit contains a total of 3 gates (2 or and one negation);
+
+                  i.e. R
+                       G
+                       B                                                                       [2 marks]
+
+                                                                                        Total: [10 marks]
+                                                  – 13 –            M13/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+17.   (a)   Award up to [2 marks max].
+            Requirements;
+            Costs;
+            Benefits;
+            Estimates of the time for developing the project;
+            Possible difficulties and alternative solutions;
+            Risk analysis (costs/technical/legal);
+            Review of previously proposed solutions;                                              [2 marks]
+
+      (b)   Award [1 mark] for identifying a factor and [1 mark] for an expansion that
+            relates that factor to commercial or customized software up to [4 marks max].
+            Example factors to be considered:
+                  Cost;
+                  Time to develop/deploy;
+                  Availability of documentation and training materials;
+                  Suitability of the software for the task;
+
+            Example expansions:
+                 Cost –          Commercial software is usually cheaper to purchase than
+                                 developing customized software;
+                 Suitability – Commercial software is usually designed to appeal to a
+                                 large group of potential customers and may not contain
+                                 specialized features needed by the company / may contain
+                                 needlessly complex tools to support functions not needed
+                                 by the company;                                                  [4 marks]
+            Accept other realistic factors and expansions.
+
+      (c)   The customer could ask for modifications;
+            Adding some new/different features that affect the current design;
+            And that could affect the feasibility report in several ways;
+            Such as costs, delivery time, technical requirements;                                 [4 marks]
+            Accept these points if put in the context of “repeated analysis and design”.
+
+                                                                                           Total: [10 marks]
+                                                   – 14 –            M13/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+18.   (a)   923   ;                                                                         [1 mark]
+
+            OR
+
+            23*9+ ;
+
+      (b)   Pre-order;                                                                        [1 mark]
+
+      (c)     329;                                                                          [1 mark]
+
+      (d)   Perform post-order traversal on the tree;
+            Use a stack to put   329;
+            Pop from stack (to reverse it) and get the postfix representation;
+
+            OR
+
+            Perform post-order traversal on the tree;
+            Store the data in a queue;
+            Dequeue and get the postfix expression;                                          [3 marks]
+
+      (e)   A binary tree is structurally self-referential (by definition of binary tree);
+            Because each node in the tree is a root to a binary tree of smaller size, or
+            a node without descendants (leaf);
+            The traversal algorithm exploits the structural definition of binary trees and
+            can easily be implemented recursively;
+            Because a recursive method operates by calling a function from within the
+            function itself (left/right subtrees) and needs a termination condition
+            (leaf node);                                                                     [4 marks]
+
+                                                                                      Total: [10 marks]
+                                                   – 15 –            M13/5/COMSC/HP1/ENG/TZ0/XX/M
+
+
+19.   (a)   Data that can be represented by a continuous function;                            [1 mark]
+
+      (b)   Conversion is necessary before transmission;
+            Because a network is used to transmit further digital data to a control centre
+            (computerized centre);
+            Data in digital form can only be stored/processed by the computer;               [2 marks]
+
+      (c)   Award up to [4 marks max].
+            Polling allows the centre to better use its processing resources;
+            And to perform more significative data collection, with respect to the
+            subsequent analysis;
+            For example, the centre can decide to poll the devices;
+            In times of lower use of its processing units;
+            Or in specific times when the quality of the air is known to be worse;           [4 marks]
+
+      (d)   Award up to [3 marks max].
+            (RAM insufficient to store data, data are in disk)
+            Use sort-merge strategy/external sort to sort data in disk;
+            Portions of data are sorted and stored in temporary files;
+            Temporary files are merged afterwards;                                           [3 marks]
+
+                                                                                      Total: [10 marks]
+

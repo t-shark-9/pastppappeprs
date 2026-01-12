@@ -1,0 +1,216 @@
+M11/5/COMSC/SP1/ENG/TZ0/XX
+
+
+
+
+     22117013
+
+COMPUTER SCIENCE
+STANDARD LEVEL
+PAPER 1
+
+Thursday 19 May 2011 (afternoon)
+
+1 hour 30 minutes
+
+
+INSTRUCTIONS TO CANDIDATES
+
+ Do not open this examination paper until instructed to do so.
+ Section A: answer all the questions.
+ Section B: answer all the questions.
+
+
+
+
+2211-7013                                                                                          6 pages
+                                                           © International Baccalaureate Organization 2011
+                                                     –2–                 M11/5/COMSC/SP1/ENG/TZ0/XX
+
+                                                SECTION A
+
+Answer all the questions.
+
+1.    State two ways in which the functioning of a compiler differs from that of an interpreter.   [2 marks]
+
+
+2.    (a)   Convert the decimal number 17 into 6-bit two’s complement.                             [1 mark]
+
+      (b)   Convert the decimal number –17 into 6-bit two’s complement.                            [1 mark]
+
+      (c)   Convert the hexadecimal number A3(16) into binary.                                     [2 marks]
+
+
+3.    Outline the following functions of an operating system.
+
+      (a)   memory management                                                                      [2 marks]
+
+      (b)   security                                                                               [2 marks]
+
+
+4.    Outline one reason for using defragmentation software.                                       [2 marks]
+
+
+5.    Consider the method test() shown below.
+
+      public static double test(int x, int y)
+      {
+        if (y != 0)
+        {
+          return (double)(x % y) / y;
+        }
+        else
+        {
+          return 0;
+        }
+      }
+
+      (a)   State the value that would be returned after the call test(11, 2).                     [1 mark]
+
+      (b)   Identify a reason for the line if (y != 0).                                            [1 mark]
+
+      (c)   Suggest a reason for the code (double) that appears in the line
+
+                                  return (double)(x % y) / y; .                                    [2 marks]
+
+
+
+
+2211-7013
+                                                   –3–                 M11/5/COMSC/SP1/ENG/TZ0/XX
+
+6.    Explain two ways of reducing the time required to transmit data in a computer network.   [4 marks]
+
+
+7.    (a)   State a suitable file format for a graphics file that needs to be made publicly
+            available for low bandwidth download.                                               [1 mark]
+
+      (b)   Outline one advantage of using the file format for this purpose.                   [2 marks]
+
+
+8.    Compare bus topology with star topology for networking.                                  [3 marks]
+
+
+9.    (a)   Outline one benefit provided by high-level programming languages.                  [2 marks]
+
+      (b)   State two advantages of using modularity in programming.                           [2 marks]
+
+
+
+
+2211-7013                                                                                      Turn over
+                                                     –4–                 M11/5/COMSC/SP1/ENG/TZ0/XX
+
+                                                SECTION B
+
+Answer all the questions.
+
+10.   A college issues student ID cards that contain a magnetic strip. These cards can be
+      used in the college cafeteria to purchase meals.
+
+      There is a card reader in the cafeteria which is connected to a server via a local area
+      network (LAN).
+
+      (a)   Define the term LAN.                                                                   [1 mark]
+
+      The purchase of a meal requires two transactions with the server.
+
+      • Before a meal is chosen, the card is read and the account balance is displayed.
+        If the account has a negative balance no meal will be allowed. Otherwise the
+        student chooses a meal.
+
+      • After the student has chosen a meal, the cashier enters the cost of the meal which is
+        deducted from the account (which may become negative).
+
+      (b)   Identify the processes that take place in the server for both transactions.            [5 marks]
+
+      (c)   Discuss two possible improvements to the system.                                       [4 marks]
+
+
+11.   A children’s hospital has decided to provide Internet facilities to its long-term patients
+      to support their education during medical treatment.
+
+      Two schools have offered to support this initiative. School A will allow access to
+      class work stored on files. School B will provide classes where pupils in hospital can
+      interact in real-time with those in the school.
+
+      (a)   Identify two additional input devices that would be required for School B’s
+            approach.                                                                              [2 marks]
+
+      (b)   Compare the advantages of School A’s approach and School B’s approach for
+            the patients.                                                                          [4 marks]
+
+      (c)   Discuss the social implications of implementing this educational project
+            in hospitals.                                                                          [4 marks]
+
+
+
+
+2211-7013
+                                                      –5–             M11/5/COMSC/SP1/ENG/TZ0/XX
+
+12.   Consider the following method.
+
+      public static boolean whatPropertyIsIt(String s)
+      {
+        int i = 0;
+        int j = s.length() – 1;
+
+            while (i < j)
+            {
+              if (s.charAt(i) != s.charAt(j))
+              { return false; }
+              i = i + 1;
+              j = j – 1;
+            }
+            return true;
+      }
+
+      Note that s.charAt(i) is the character in the ith position of String s.
+      For example, where s is the string “abcde”, s.charAt(2) is the character ‘c’.
+
+      (a)     By copying and completing the following table, trace the method for the call
+              whatPropertyIsIt("xyzdyx").                                                    [4 marks]
+
+                  i        j     i < j s.charAt(i) != s.charAt(j) return value
+                  0        5      true            false
+
+
+
+
+      (b)     Identify the purpose of this program.                                           [1 mark]
+
+      (c)     Identify the termination conditions for the loop.                              [2 marks]
+
+      (d)     Explain the effect of changing the condition in the while loop to i <= j.      [3 marks]
+
+
+
+
+2211-7013                                                                                    Turn over
+                                                  –6–                M11/5/COMSC/SP1/ENG/TZ0/XX
+
+13.   A business is considering computerizing its operations and has employed a team of
+      system analysts to investigate possible solutions. The first task of this team is to
+      clearly define the problem.
+
+      (a)   Outline the benefits of two methods of data collection that will help them to
+            clearly define the problem.                                                      [4 marks]
+
+      Once the problem is defined, the analysis team will produce different types of
+      documentation.
+
+      (b)   Outline the documentation that would be presented to
+
+		(i)            the business;                                                               [2 marks]
+
+		(ii)           the design team.                                                            [2 marks]
+
+      (c)   Outline one additional piece of documentation that would be produced after the
+            analysis stage.                                                                  [2 marks]
+
+
+
+
+2211-7013
+

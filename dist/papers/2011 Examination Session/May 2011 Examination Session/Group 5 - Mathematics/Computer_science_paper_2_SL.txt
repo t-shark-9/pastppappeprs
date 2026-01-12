@@ -1,0 +1,197 @@
+M11/5/COMSC/SP2/ENG/TZ0/XX
+
+
+
+
+     22117014
+
+Computer science
+Standard level
+Paper 2
+
+Friday 20 May 2011 (morning)
+
+1 hour 30 minutes
+
+
+INSTRUCTIONS TO CANDIDATES
+
+• Do not open this examination paper until instructed to do so.
+• Answer all the questions.
+
+
+
+
+2211-7014                                                                                          5 pages
+                                                           © International Baccalaureate Organization 2011
+                                                   –2–                    M11/5/COMSC/SP2/ENG/TZ0/XX
+
+Answer all the questions.
+
+1.    The following integer array sales[] gives the sales figures for 6 salespersons for
+      one month.  The salespersons are identified with an ID number from 0 to 5.
+                      0          1         2          3           4          5
+                     250        360       500        245         123       520
+
+      (a)   State the sales for salesperson with ID 3 for this month.                              [1 mark]
+
+      (b)   Construct the code fragment started below, that outputs the highest number
+            of sales.
+
+            int bestSales = 0;
+            for (...
+            {
+              // lines of code missing
+            }
+            output("Best sales = " + bestSales);                                                   [3 marks]
+
+      (c)   Construct a modified algorithm to output the ID of the salesperson with the
+            highest number of sales.                                                               [2 marks]
+
+      Sales figures for an entire year are stored in the two-dimensional integer
+      array  theYearSales[][], with one row for each month and one column for
+      each salesperson.
+                          0          1         2          3           4          5
+                 0      250       360       500        245          123       520
+                 1      520       658       752        145          360        25
+                 2      850        96       542        875          563        25
+                 3     1000       528       753        654          125       583
+                 .
+                 .
+                 .
+
+      In the above illustration of the array, the sales by salesperson with ID 3 in March
+      were 875 as represented in  theYearSales[2][3].
+
+      (d)   State the sales by salesperson with ID 4 in February.                                  [1 mark]
+
+
+
+
+                                                              (This question continues on the following page)
+
+
+
+
+2211-7014
+                                                    –3–                 M11/5/COMSC/SP2/ENG/TZ0/XX
+
+(Question 1 continued)
+
+      (e)   Construct the method started below that returns the total sales for the year for a
+            given salesperson’s ID.
+
+            public int totalSales(int id)
+            {
+              // lines of code missing
+
+                return tot;
+            }                                                                                    [3 marks]
+
+      (f)   By making use of the  totalSales() method from part (e), construct the
+            method  bestSalesperson() that returns the ID of any salesperson with the
+            highest sales for the year.                                                          [6 marks]
+
+      (g)   Suggest the changes that would need to be made to output the salesperson’s
+            name instead of the ID.                                                              [4 marks]
+
+
+
+
+2211-7014                                                                                        Turn over
+                                                      –4–                 M11/5/COMSC/SP2/ENG/TZ0/XX
+
+2.    A program has been written for the purpose of processing data about cities and
+      producing a national survey.
+
+      For each city, the following data is stored:
+      • name
+      • area in km2
+      • population.
+
+      The following class  City has been devised for this purpose.
+
+      class City
+      {
+        public String name;
+        public double area;
+        public int population;
+
+            public City(String n, double a, int p)                // constructor
+            {
+              // lines of code missing
+            }
+
+            // other methods are available here
+      }
+
+      (a)     Outline the difference between the data types  int and  double.                      [2 marks]
+
+      (b)     With reference to the class defined above, explain the importance of making the
+              constructor  public.                                                                 [2 marks]
+
+      (c)     A  City object can be created as shown below.
+
+                           City c1 = new City("Cardiff", 75, 300000);
+
+              Explain what happens when the line above is executed.                                [3 marks]
+
+      (d)     State the value of the data item  c1.name.                                           [1 mark]
+
+      (e)     (i)    Describe an efficient way of creating 100 objects of class  City, that need
+                     to be adequately stored for further processing.                               [2 marks]
+
+              (ii)   Construct the method that returns the name of the city with the
+                     highest population.                                                           [4 marks]
+
+      (f)     The 100  City objects are to be sorted into ascending order of population,
+              using a bubble sort algorithm.  Without writing code, outline the steps needed to
+              sort the objects.                                                                    [6 marks]
+
+
+
+
+2211-7014
+                                                     –5–               M11/5/COMSC/SP2/ENG/TZ0/XX
+
+3.    This question requires the use of the case study.
+
+      (a)   With reference to the diagram on page 3 of the case study, explain the advantage
+            of networking the Air Traffic Control (ATC) system with the Flight Information
+            Display System (FIDS).                                                              [2 marks]
+
+      (b)   (i)    Identify one communication medium which would be used to connect
+                   different parts of the airport network.                                      [1 mark]
+
+            (ii)   Suggest reasons for the communication medium identified in part (i).         [2 marks]
+
+      (c)   Describe a suitable security measure that could confirm the identity of employees
+            as they pass through the various sections of the airport.                           [2 marks]
+
+      (d)   Describe two features related to computer systems found inside a modern airport
+            that improve the passenger experience.                                              [4 marks]
+
+      (e)   A modern airport relies on highly computerized systems.  By making reference
+            to one area of airport operation, discuss how this can be both an advantage and
+            a disadvantage for the traveller.                                                   [5 marks]
+
+      (f)   Suggest how tagging passengers inside an airport could
+
+            (i)    improve airport security;                                                    [2 marks]
+
+            (ii)   help the airlines maintain their schedules.                                  [2 marks]
+
+      (g)   (i)    With reference to the baggage system on page 9 of the case study,
+                   suggest two ways in which the use of computer simulation in the
+                   development of the baggage system would have been beneficial to the
+                   design team.                                                                 [4 marks]
+
+            (ii)   Explain why maintenance is an important part of the system design cycle.     [3 marks]
+
+      (h)   Explain why encryption should be an important feature of Wi-Fi hotspots.            [3 marks]
+
+
+
+
+2211-7014
+

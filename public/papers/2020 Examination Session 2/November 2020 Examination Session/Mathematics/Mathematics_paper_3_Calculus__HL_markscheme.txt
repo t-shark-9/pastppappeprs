@@ -1,0 +1,660 @@
+N20/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+
+
+                        Markscheme
+
+
+                        November 2020
+
+
+                               Calculus
+
+
+                           Higher level
+
+
+                               Paper 3
+
+
+
+
+14 pages
+                                           –2–                 N20/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+
+
+No part of this product may be reproduced in any form or by any electronic or
+mechanical means, including information storage and retrieval systems, without written
+permission from the IB.
+
+Additionally, the license tied with this product prohibits commercial use of any selected
+files or extracts from this product. Use by third parties, including but not limited to
+publishers, private teachers, tutoring or study services, preparatory schools, vendors
+operating curriculum mapping services or teacher resource digital platforms and app
+developers, is not permitted and is subject to the IB’s prior written consent via a license.
+More information on how to request a license can be obtained from
+https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-license/.
+
+Aucune partie de ce produit ne peut être reproduite sous quelque forme ni par quelque
+moyen que ce soit, électronique ou mécanique, y compris des systèmes de stockage et
+de récupération d’informations, sans l’autorisation écrite de l’IB.
+
+De plus, la licence associée à ce produit interdit toute utilisation commerciale de
+tout fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris,
+sans toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de
+tutorat ou d’aide aux études, des établissements de préparation à l’enseignement
+supérieur, des fournisseurs de services de planification des programmes
+d’études, des gestionnaires de plateformes pédagogiques en ligne, et des
+développeurs d’applications, n’est pas autorisée et est soumise au consentement écrit
+préalable de l’IB par l’intermédiaire d’une licence. Pour plus d’informations sur la
+procédure à suivre pour demander une licence, rendez-vous à l’adresse suivante :
+https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-license/.
+
+No se podrá reproducir ninguna parte de este producto de ninguna forma ni por ningún
+medio electrónico o mecánico, incluidos los sistemas de almacenamiento y
+recuperación de información, sin que medie la autorización escrita del IB.
+
+Además, la licencia vinculada a este producto prohíbe el uso con fines comerciales de
+todo archivo o fragmento seleccionado de este producto. El uso por parte de terceros
+—lo que incluye, a título enunciativo, editoriales, profesores particulares, servicios
+de apoyo académico o ayuda para el estudio, colegios preparatorios, desarrolladores
+de aplicaciones y entidades que presten servicios de planificación curricular u
+ofrezcan recursos para docentes mediante plataformas digitales— no está permitido
+y estará sujeto al otorgamiento previo de una licencia escrita por parte del IB. En este
+enlace encontrará más información sobre cómo solicitar una licencia:
+https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-license/.
+                                                   –3–                 N20/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+                                        Instructions to Examiners
+
+Abbreviations
+
+M      Marks awarded for attempting to use a valid Method; working must be seen.
+
+(M)    Marks awarded for Method; may be implied by correct subsequent working.
+
+A     Marks awarded for an Answer or for Accuracy; often dependent on preceding M marks.
+
+(A)    Marks awarded for an Answer or for Accuracy; may be implied by correct subsequent working.
+
+R      Marks awarded for clear Reasoning.
+
+N      Marks awarded for correct answers if no working shown.
+
+AG     Answer given in the question and so no marks are awarded.
+
+
+Using the markscheme
+
+1      General
+
+       Mark according to RM™ Assessor instructions. In particular, please note the following:
+
+       • Marks must be recorded using the annotation stamps. Please check that you are entering
+         marks for the right question.
+       • If a part is completely correct, (and gains all the “must be seen” marks), use the ticks with
+         numbers to stamp full marks.
+       • If a part is completely wrong, stamp A0 by the final answer.
+       • If a part gains anything else, it must be recorded using all the annotations.
+       • All the marks will be added and recorded by RM™ Assessor.
+
+
+2      Method and Answer/Accuracy marks
+
+       • Do not automatically award full marks for a correct answer; all working must be checked,
+         and marks awarded according to the markscheme.
+       • It is not possible to award M0 followed by A1, as A mark(s) depend on the preceding M mark(s),
+         if any.
+       • Where M and A marks are noted on the same line, eg M1A1, this usually means M1 for an
+         attempt to use an appropriate method (eg substitution into a formula) and A1 for using the
+         correct values.
+       • Where the markscheme specifies (M2), N3, etc., do not split the marks.
+                                                   –4–                 N20/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+    • Once a correct answer to a question or part-question is seen, ignore further correct working.
+       However, if further working indicates a lack of mathematical understanding do not award the final
+       A1. An exception to this may be in numerical answers, where a correct exact value is followed by
+       an incorrect decimal. However, if the incorrect decimal is carried through to a subsequent part,
+       and correct FT working shown, award FT marks as appropriate but do not award the final A1 in
+       that part.
+
+       Examples
+
+              Correct answer seen        Further working seen            Action
+        1.                                 5.65685...                     Award the final A1
+                  8 2                      (incorrect decimal value)      (ignore the further working)
+        2.        1
+                    sin 4 x                sin x                           Do not award the final A1
+                  4
+        3.        log a − log b            log (a − b)                     Do not award the final A1
+
+
+3   N marks
+
+    Award N marks for correct answers where there is no working.
+
+    • Do not award a mixture of N and other marks.
+    • There may be fewer N marks available than the total of M, A and R marks; this is deliberate as it
+      penalizes candidates for not following the instruction to show their working.
+
+
+4   Implied marks
+
+    Implied marks appear in brackets eg (M1), and can only be awarded if correct work is seen or if
+    implied in subsequent working.
+
+    • Normally the correct work is seen or implied in the next line.
+    • Marks without brackets can only be awarded for work that is seen.
+
+
+5   Follow through marks
+
+    Follow through (FT) marks are awarded where an incorrect answer from one part of a question is
+    used correctly in subsequent part(s). To award FT marks, there must be working present and
+    not just a final answer based on an incorrect answer to a previous part.
+
+    • If the question becomes much simpler because of an error then use discretion to award fewer
+      FT marks.
+    • If the error leads to an inappropriate value (eg sin  = 1.5 ), do not award the mark(s) for the final
+      answer(s).
+    • Within a question part, once an error is made, no further dependent A marks can be awarded,
+      but M marks may be awarded if appropriate.
+    • Exceptions to this rule will be explicitly noted on the markscheme.
+                                                         –5–                N20/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+6   Misread
+
+    If a candidate incorrectly copies information from the question, this is a misread (MR).
+    A candidate should be penalized only once for a particular misread. Use the MR stamp to indicate
+    that this has been a misread. Then deduct the first of the marks to be awarded, even if this is an
+    M mark, but award all others so that the candidate only loses [1 mark].
+
+    • If the question becomes much simpler because of the MR, then use discretion to award
+      fewer marks.
+    • If the MR leads to an inappropriate value (eg sin  = 1.5 ), do not award the mark(s) for the
+      final answer(s).
+
+
+7   Discretionary marks (d)
+
+    An examiner uses discretion to award a mark on the rare occasions when the markscheme does
+    not cover the work seen. In such cases the annotation DM should be used and a brief note written
+    next to the mark explaining this decision.
+
+
+8   Alternative methods
+
+    Candidates will sometimes use methods other than those in the markscheme. Unless the
+    question specifies a method, other correct methods should be marked in line with the markscheme.
+    If in doubt, contact your team leader for advice.
+
+    • Alternative methods for complete questions are indicated by METHOD 1, METHOD 2, etc.
+    • Alternative solutions for part-questions are indicated by EITHER . . . OR.
+    • Where possible, alignment will also be used to assist examiners in identifying where these
+      alternatives start and finish.
+
+
+9   Alternative forms
+
+    Unless the question specifies otherwise, accept equivalent forms.
+
+    • As this is an international examination, accept all alternative forms of notation.
+    • In the markscheme, equivalent numerical and algebraic forms will generally be written in
+      brackets immediately following the answer.
+    • In the markscheme, simplified answers, (which candidates often do not write in examinations),
+      will generally appear in brackets. Marks should be awarded for either the form preceding the
+      bracket or the form in brackets (if it is seen).
+
+      Example: for differentiating f ( x) = 2sin (5 x − 3) , the markscheme gives
+
+                        f  ( x) = ( 2cos(5x − 3) ) 5 ( = 10cos(5x − 3) )                   A1
+
+
+              Award A1 for ( 2cos(5x − 3) ) 5 , even if 10cos(5 x − 3) is not seen.
+                                                    –6–                 N20/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+10     Accuracy of Answers
+
+      Candidates should NO LONGER be penalized for an accuracy error (AP).
+
+      If the level of accuracy is specified in the question, a mark will be allocated for giving the answer to
+      the required accuracy. When this is not specified in the question, all numerical answers should be
+      given exactly or correct to three significant figures. Please check work carefully for FT.
+
+
+11    Crossed out work
+
+      If a candidate has drawn a line through work on their examination script, or in some other way
+      crossed out their work, do not award any marks for that work.
+
+
+12    Calculators
+
+      A GDC is required for paper 2, but calculators with symbolic manipulation features (for example,
+      TI-89) are not allowed.
+
+      Calculator notation
+      The Mathematics HL guide says:
+
+      Students must always use correct mathematical notation, not calculator notation.
+
+      Do not accept final answers written using calculator notation. However, do not penalize the use of
+      calculator notation in the working.
+
+
+13    More than one solution
+
+      Where a candidate offers two or more different answers to the same question, an examiner
+      should only mark the first response unless the candidate indicates otherwise.
+
+
+14.   Candidate work
+
+      Candidates are meant to write their answers to Section A on the question paper (QP), and
+      Section B on answer booklets. Sometimes, they need more room for Section A, and use the
+      booklet (and often comment to this effect on the QP), or write outside the box. This work should
+      be marked.
+
+      The instructions tell candidates not to write on Section B of the QP. Thus they may well have done
+      some rough work here which they assume will be ignored. If they have solutions on the answer
+      booklets, there is no need to look at the QP. However, if there are whole questions or whole part
+      solutions missing on answer booklets, please check to make sure that they are not on the QP,
+      and if they are, mark those whole questions or whole part solutions that have not been written on
+      answer booklets.
+                                                         –7–             N20/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+
+1.   attempt to use l’Hôpital’s rule                                                        M1
+
+               −2 x sin ( x 2 − 1)
+     = lim                                                                                 A1A1
+         x→1        e x−1 − 1
+     Note: Award A1 for the numerator and A1 for the denominator.
+
+     substitution of 1 into their expression                                               (M1)
+
+         0
+     =     hence use l’Hôpital’s rule again
+         0
+
+     Note: If the first use of l’Hôpital’s rule results in an expression which is not in
+     indeterminate form, do not award any further marks.
+
+
+     attempt to use product rule in numerator                                               M1
+
+               −4 x 2 cos ( x 2 − 1) − 2sin ( x 2 − 1)
+     = lim                                                                                  A1
+         x→1                    e x−1
+
+     = −4                                                                                    A1
+                                                                                                  [7 marks]
+                                                                      –8–   N20/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+2.   (a)   METHOD 1
+           an+1 ( 5 − 3x )
+                                 n +1
+                                                  n
+               =                                                                               M1
+                    n +1                    ( 5 − 3x )
+                                                          n
+            an
+
+                 n
+           =        ( 5 − 3x )                                                                  A1
+               n +1
+
+                  an+1
+           lim         = 5 − 3x                                                             (M1)
+           n→     an
+     Note: Award (M1) for finding the limit of their expression.
+
+           for convergence, 5 − 3x  1                                                          R1
+
+
+     Note: Award R1 for their limit  1 .
+
+
+                                              1       5       1
+           −1  5 − 3x  1 or −  − x                                                          A1
+                                              3       3       3
+
+     Note: If a candidate writes a correct inequality, without errors in working, but did not
+     explicitly write the absolute value of their limit, award R0A1.
+
+           4
+             x2                                                                               AG
+           3
+
+
+
+           METHOD 2
+                                 1
+
+                  ( 5 − 3x )
+                               n n
+
+           lim                                                                                  M1
+           n →         n
+
+                      5 − 3x
+           = lim           1
+                                                                                                A1
+               n →
+                           n
+                       n
+           = 5 − 3x                                                                             A1
+
+           for convergence, 5 − 3x  1                                                          R1
+
+
+     Note: Award R1 for their limit  1 .
+
+
+                                                  1       5       1
+           −1  5 − 3x  1 OR −  − x                                                          A1
+                                                  3       3       3
+
+           4
+             x2                                                                               AG
+           3
+                                                   –9–                N20/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+
+
+      Note: If the working for parts (a) and (b) is interchanged, award marks as per the
+      markscheme, but award A0 for the final mark in each case.
+
+                                                                                                  [5 marks]
+
+
+(b)        consider one of the endpoints                                                     M1
+
+                                   
+                                       1
+                      , series is  which diverges (harmonic or p-series)
+                    4
+           at x =                                                                            A1
+                    3             n =1 n
+
+
+
+                                       ( −1)
+                                              n
+
+           at x = 2 , series is                                                             A1
+                               n =1      n
+      Note: If candidates omit sigma, award A0A1, but subsequent marks can still be awarded.
+
+
+           EITHER
+
+             1    1                      1
+                    decreasing and lim = 0 hence series converges at x = 2               R1
+             n +1 n                  n→ n
+
+
+
+           OR
+
+           which converges by the alternating series test                                    R1
+
+           THEN
+
+                         4
+           interval is     x2                                                              A1
+                         3
+                                                                                                  [5 marks]
+                                                                                           Total [10 marks]
+                                                     – 10 –                N20/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+3.   (a)   (i) attempt to find equation of isoclines by setting x − y = −1,0,1                     M1
+
+
+
+
+                  3 parallel lines with positive gradient                                          A1
+
+                                         dy
+                  y-intercept = –c for      =c                                                     A1
+                                         dx
+     Note: To award A1, each y-intercept should be clear, but condone a missing label (eg.(0, 0)).
+
+             If candidates represent the lines using slope fields, but omit the lines, award maximum
+             of M1A0A1.
+
+                                     dy
+           (ii)   at point (1, 1),      =0                                                         A1
+                                     dx
+
+                  EITHER
+                  to the left of (1, 1), the gradient is negative                                  R1
+
+                  to the right of (1, 1), the gradient is positive                                 R1
+     Note: Accept any correct reasoning using gradient, isoclines or slope field.
+
+             If a candidate uses left/right or x < 1 / x > 1 without explicitly referring to the
+             point (1, 1) or a correct region on the diagram, award R0R1.
+
+                  OR
+                  d2 y      dy
+                     2
+                       = 1−                                                                        A1
+                  dx        dx
+
+                  d2 y
+                       = 1(  0 )                                                                  A1
+                  dx 2
+                                              dy
+     Note: accept correct reasoning that         is increasing as x increases.
+                                              dx
+
+                  THEN
+                  hence (1, 1) is a local minimum                                                  AG
+                                                – 11 –                N20/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+                                                                                            [6 marks]
+
+
+      integrating factor = e 
+                                   dx
+(b)                                                                                  (M1)
+
+      = ex                                                                           (A1)
+
+      dy x
+         e + ye x = xe x                                                             (M1)
+      dx
+
+      ye x =  xe x dx                                                                A1
+
+
+      = xe x −  e x dx                                                              (M1)
+
+
+      = xe x − e x ( +c )                                                             A1
+
+Note: Award A1 for the correct RHS.
+
+
+      substituting (1, 1) gives
+
+      e = e−e+c                                                                       M1
+
+      c=e
+
+      y = x − 1 + e1−x                                                                A1
+                                                                                            [8 marks]
+
+
+(c)   (i)    METHOD 1
+             EITHER
+             attempt to solve for the intersection x − 1 + e1− x = x − 1             (M1)
+
+             OR
+             attempt to find the difference x − 1 + e − ( x − 1)
+                                                     1− x
+                                                                                     (M1)
+
+             THEN
+
+             e1− x  0 for all x                                                      R1
+
+
+      Note: Accept e1− x  0 or equivalent reasoning.
+
+
+             therefore the curve does not intersect the isocline                      AG
+                                          – 12 –             N20/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+       METHOD 2
+       y = x − 1 is an (oblique) asymptote to the curve                      R1
+
+
+Note: Do not accept “the curve is parallel to y = x − 1 ”.
+
+
+                                       dy
+       y = x − 1 is the isocline for      =1                                 R1
+                                       dx
+
+       therefore the curve does not intersect the isocline                   AG
+
+
+       METHOD 3
+
+                                                   dy
+       The initial point is above y = x − 1 , so      1                     R1
+                                                   dx
+
+        x − y 1
+
+        y  x −1                                                            R1
+
+       therefore the curve does not intersect the isocline                   AG
+
+
+(ii)
+
+
+
+
+       concave up curve with minimum at approximately (1, 1)                 A1
+
+       asymptote of curve is isocline y = x − 1                              A1
+Note: Only award FT from (b) if the above conditions are satisfied.
+
+
+                                                                                  [4 marks]
+                                                                           Total [18 marks]
+                                                    – 13 –            N20/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+                                                       x 2 x3
+4.   (a)   (i)    substitution of x in ln(1 + x) = x −
+                                     2
+                                                          + − ...                    (M1)
+                                                       2 3
+
+                     x4 x6
+                  x − +
+                   2
+                                                                                      A1
+                     2 3
+
+           (ii)
+                  d
+                  dx
+                       (         )
+                     ln (1 + x 2 ) =
+                                       2x
+                                     1 + x2
+                                                                                     (M1)
+
+           Note: Award (M1) if this is seen in part (a)(i).
+
+                  attempt to differentiate their answer in part (a)                  (M1)
+
+                    2x          4 x3 6 x5
+                         = 2x −     +                                                 M1
+                  1 + x2         2    3
+           Note: Award M1 for equating their derivatives.
+
+                     x
+                         = x − x3 + x5                                                A1
+                  1 + x2
+                                                                                            [6 marks]
+                                                        – 14 –                    N20/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+(b)          f ( 0.4 )  0.149                                                                         A1
+
+Note: Accept an answer that rounds correct to 2 s.f. or better.
+
+                                                                                                             [1 mark]
+
+
+(c)   (i)    attempt to find the maximum of f
+                                                          (7)
+                                                                ( c ) for c  0, 0.4           (M1)
+
+
+             maximum of f
+                                  (7)
+                                        ( c ) occurs at c = 0.199                                (A1)
+
+
+              f ( 7) ( c )  1232.97... (for all c  0,0.4 )                                   (A1)
+
+             use of x = 0.4                                                                      (M1)
+
+             substitution of n = 6 and a = 0 and their value of x and their value of f
+                                                                                                 (7)
+                                                                                                       (c)
+             into Lagrange error term                                                            (M1)
+
+      Note: Award (M1) for substitution of n = 3 and a = 0 and their value of x and their
+      value of f
+                   ( 4)
+                          ( c ) into Lagrange error term.
+
+                          1232.97 ( 0.4 )
+                                               7
+
+             R6 ( 0.4 ) 
+                                7!
+
+             upper bound = 0.000401                                                                    A1
+
+      Note: Accept an answer that rounds correct to 1 s.f or better.
+
+
+      (ii)   f ( 7 ) ( c )  0 (for all c  0,0.4 )                                                  R1
+
+
+
+      Note: Accept R6 ( c )  0 or “the error term is negative”.
+
+
+
+
+             the answer in (b) is an overestimate                                                      A1
+
+      Note: The A1 is dependent on the R1.
+
+                                                                                                       [8 marks]
+                                                                                                Total [15 marks]
+

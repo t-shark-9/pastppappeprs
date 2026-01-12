@@ -1,0 +1,304 @@
+M10/5/FURMA/SP2/ENG/TZ0/XX
+
+
+
+
+       22107102
+
+
+Further mathematics
+STANDARD level
+Paper 2
+
+Friday 21 May 2010 (morning)
+
+2 hours
+
+
+Instructions to candidates
+
+ Do not open this examination paper until instructed to do so.
+ Answer all the questions.
+ Unless otherwise stated in the question, all numerical answers must be given exactly or correct
+  to three significant figures.
+
+
+
+
+2210-7102                                                                                           6 pages
+                                                            © International Baccalaureate Organization 2010
+                                                        –2–             M10/5/FURMA/SP2/ENG/TZ0/XX
+
+Please start each question on a new page. Full marks are not necessarily awarded for a correct answer
+with no working. Answers must be supported by working and/or explanations. In particular, solutions
+found from a graphic display calculator should be supported by suitable working, e.g. if graphs are used to
+find a solution, you should sketch these as part of your answer. Where an answer is incorrect, some marks
+may be given for a correct method, provided this is shown by written working. All students should therefore
+be advised to show their working.
+
+1.    [Maximum mark: 32]
+
+      The binary operator * is defined for a , b ∈  by a * b = a + b − ab .
+
+      (a)   (i)    Show that * is associative.
+
+		          (ii)   Find the identity element.
+
+		          (iii) Find the inverse of a ∈  , showing that the inverse exists for all values
+                  of a except one value which should be identified.
+
+		          (iv) Solve the equation x * x = 1.                                                    [15 marks]
+
+      (b)   The domain of * is now reduced to S = {0 , 2 , 3 , 4 , 5 , 6} and the arithmetic is
+            carried out modulo 7.
+
+		          (i)    Copy and complete the following Cayley table for {S , *} .
+
+
+                                        *     0     2     3   4    5    6
+                                        0     0     2     3   4    5    6
+                                        2     2     0     6   5    4    3
+                                        3     3
+                                        4     4
+                                        5     5
+                                        6     6
+
+		          (ii)   Show that {S , *} is a group.
+
+		          (iii) Determine the order of each element in S and state, with a reason,
+                  whether or not {S , *} is cyclic.
+
+		          (iv) Determine all the proper subgroups of {S , *} and explain how your results
+                 illustrate Lagrange’s theorem.
+
+		          (v)    Solve the equation 2 * x * x = 5 .                                             [17 marks]
+
+
+
+
+2210-7102
+                                                   –3–                 M10/5/FURMA/SP2/ENG/TZ0/XX
+
+2.    [Total mark: 16]
+
+      Part A [Maximum mark: 9]
+
+      The points D, E, F lie on the sides [BC], [CA], [AB] of the triangle ABC and [AD],
+      [BE], [CF] intersect at the point G. You are given that CD = 2BD and AG = 2GD .
+
+      (a)   By considering (BE) as a transversal to the triangle ACD, show that
+
+                                                  CE 3
+                                                    = .                                    [2 marks]
+                                                  EA 2
+
+      (b)   Determine the ratios
+
+                   AF
+		          (i)       ;
+                   FB
+
+                   BG
+		          (ii)      .                                                                    [7 marks]
+                   GE
+
+
+      Part B [Maximum mark: 7]
+
+                                              P
+                                       A                  B
+
+
+
+
+                             F                                     C
+
+
+
+
+                                       E                  D
+
+      The diagram shows a hexagon ABCDEF inscribed in a circle. All the sides of the
+      hexagon are equal in length. The point P lies on the minor arc AB of the circle.
+      Using Ptolemy’s theorem, show that
+
+                                   PE + PD = PA + PB + PC + PF .
+
+
+
+
+2210-7102                                                                                  Turn over
+                                                    –4–                M10/5/FURMA/SP2/ENG/TZ0/XX
+
+3.    [Maximum mark: 18]
+
+      The following diagram shows a weighted graph G .
+
+                             B                 8                   C
+
+
+                    4
+
+
+                                              4
+            A                5                                                 5
+                                                               3
+
+                   7
+
+
+                            F                  2                           9          D
+                                                                   E
+
+      (a)   (i)    Explain briefly what features of the graph enable you to state that G has
+                   an Eulerian trail but does not have an Eulerian circuit.
+
+		          (ii)   Write down an Eulerian trail in G .                                           [3 marks]
+
+      (b)   (i)    Use Kruskal’s algorithm to find and draw the minimum spanning tree for G .
+                   Your solution should indicate the order in which the edges are added.
+
+		          (ii)   State the weight of the minimum spanning tree.                                [5 marks]
+
+      (c)   Use Dijkstra’s algorithm to find the path of minimum total weight joining
+            A to D, and state its weight. Your solution should indicate clearly the use of
+            this algorithm.                                                                     [10 marks]
+
+
+
+
+2210-7102
+                                                           –5–                          M10/5/FURMA/SP2/ENG/TZ0/XX
+
+4.    [Maximum mark: 13]
+
+      (a)   The weights, X grams, of tomatoes may be assumed to be normally distributed
+            with mean µ grams and standard deviation σ grams. Barry weighs 21 tomatoes
+            selected at random and calculates the following statistics.
+
+                                         ∑ x = 1071; ∑ x = 54705  2
+
+
+
+
+		          (i)    Determine unbiased estimates of µ and σ 2 .
+
+		          (ii)   Determine a 95 % confidence interval for µ .                                           [8 marks]
+
+      (b)   The random variable Y has variance σ 2 , where σ 2 > 0 . A random sample
+                                                  2
+            of n observations of Y is taken and S n−1 denotes the unbiased estimator for σ 2 .
+            By considering the expression
+
+                                     Var ( S n −1 ) = E ( S n2−1 ) − {E ( S n −1 )} ,
+                                                                                  2
+
+
+
+
+            show that S n−1 is not an unbiased estimator for σ .                                          [5 marks]
+
+
+
+
+5.    [Maximum mark: 19]
+
+      After a shop opens at 09:00 the number of customers arriving in any interval of
+                                                                   t
+      duration t minutes follows a Poisson distribution with mean    .
+                                                                  10
+
+      (a)   (i)    Find the probability that exactly five customers arrive before 10:00 .
+
+		          (ii)   Given that exactly five customers arrive before 10:00 , find the probability
+                   that exactly two customers arrive before 09:30 .                                       [7 marks]
+
+      (b)   Let the second customer arrive at T minutes after 09:00 .
+
+		          (i)    Show that, for t > 0 ,
+
+                                                     t  −10t
+                                     P (T > t ) = 1 +  e .
+                                                   10 
+
+		          (ii)   Hence find in simplified form the probability density function of T .
+
+		          (iii) Evaluate E (T ) .
+                  (You may assume that, for n ∈  + and a > 0 , lim t n e − at = 0 .)                    [12 marks]
+                                                                               t →∞
+
+
+
+
+2210-7102                                                                                                 Turn over
+                                                                    –6–                    M10/5/FURMA/SP2/ENG/TZ0/XX
+
+6.    [Maximum mark: 22]
+
+      (a)   The diagram shows a sketch of the graph of y = x − 4 for x > 0 .
+
+                       y
+
+
+
+
+                                                     n     n +1   n+2    n+3                      x
+
+
+		          By considering this sketch, show that, for n ∈  + ,
+                                                      ∞
+                                                              1       ∞ dx     ∞
+                                                                                   1
+                                                      ∑
+                                                     r = n +1 r
+                                                                4
+                                                                  < ∫ n x 4
+                                                                            < ∑
+                                                                              r =n r
+                                                                                     4
+                                                                                       .                     [5 marks]
+
+                     ∞
+                         1
+      (b)   Let S = ∑ 4 .
+                    r =1 r
+
+
+
+            Use the result in (a) to show that, for n ≥ 2 , the value of S lies between
+
+                                              n −1
+                                                   1      1         n
+                                                                       1     1
+                                              ∑
+                                              r =1 r
+                                                     4
+                                                       +
+                                                         3n 3
+                                                              and ∑
+                                                                  r =1 r
+                                                                         4
+                                                                           + 3.
+                                                                            3n
+                                                                                                             [8 marks]
+
+
+      (c)   (i)    Show that, by taking n = 8 , the value of S can be deduced correct to three
+                   decimal places and state this value.
+
+                                                       π4
+		          (ii)   The exact value of S is known to be    where N ∈  + . Determine the
+                   value of N .                        N                                                     [6 marks]
+
+                           ∞
+                                (−1) r +1
+      (d)   Now let T = ∑                 .
+                           r =1   r4
+
+            Find the value of T correct to three decimal places.                                             [3 marks]
+
+
+
+
+2210-7102
+

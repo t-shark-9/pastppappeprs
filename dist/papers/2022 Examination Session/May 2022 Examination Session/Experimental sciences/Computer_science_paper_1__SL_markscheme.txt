@@ -1,0 +1,541 @@
+M22/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+
+
+                       Markscheme
+
+
+                               May 2022
+
+
+                     Computer science
+
+
+                         Standard level
+
+
+                               Paper 1
+
+
+
+
+13 pages
+                                            –2–                 M22/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+
+
+© International Baccalaureate Organization 2022
+
+All rights reserved. No part of this product may be reproduced in any form or by any
+electronic or mechanical means, including information storage and retrieval systems,
+without the prior written permission from the IB. Additionally, the license tied with this
+product prohibits use of any selected files or extracts from this product. Use by third
+parties, including but not limited to publishers, private teachers, tutoring or study services,
+preparatory schools, vendors operating curriculum mapping services or teacher resource
+digital platforms and app developers, whether fee-covered or not, is prohibited and is a
+criminal offense.
+
+More information on how to request written permission in the form of a license can be
+obtained from https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-
+license/.
+
+© Organisation du Baccalauréat International 2022
+
+Tous droits réservés. Aucune partie de ce produit ne peut être reproduite sous quelque
+forme ni par quelque moyen que ce soit, électronique ou mécanique, y compris des
+systèmes de stockage et de récupération d’informations, sans l’autorisation écrite
+préalable de l’IB. De plus, la licence associée à ce produit interdit toute utilisation de tout
+fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris, sans
+toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de tutorat ou
+d’aide aux études, des établissements de préparation à l’enseignement supérieur, des
+fournisseurs de services de planification des programmes d’études, des gestionnaires de
+plateformes pédagogiques en ligne, et des développeurs d’applications, moyennant
+paiement ou non, est interdite et constitue une infraction pénale.
+
+Pour plus d’informations sur la procédure à suivre pour obtenir une autorisation écrite
+sous la forme d’une licence, rendez-vous à l’adresse https://ibo.org/become-an-ib-school/
+ib-publishing/licensing/applying-for-a-license/.
+
+© Organización del Bachillerato Internacional, 2022
+
+Todos los derechos reservados. No se podrá reproducir ninguna parte de este producto
+de ninguna forma ni por ningún medio electrónico o mecánico, incluidos los sistemas de
+almacenamiento y recuperación de información, sin la previa autorización por escrito del
+IB. Además, la licencia vinculada a este producto prohíbe el uso de todo archivo o
+fragmento seleccionado de este producto. El uso por parte de terceros —lo que incluye,
+a título enunciativo, editoriales, profesores particulares, servicios de apoyo académico o
+ayuda para el estudio, colegios preparatorios, desarrolladores de aplicaciones y
+entidades que presten servicios de planificación curricular u ofrezcan recursos para
+docentes mediante plataformas digitales—, ya sea incluido en tasas o no, está prohibido
+y constituye un delito.
+
+En este enlace encontrará más información sobre cómo solicitar una autorización por
+escrito en forma de licencia: https://ibo.org/become-an-ib-school/ib-publishing/licensing/
+applying-for-a-license/.
+                                                    –3–                M22/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+Subject details:        Computer science SL paper 1 markscheme
+
+Mark allocation
+
+Section A: Candidates are required to answer all questions. Total 25 marks.
+Section B: Candidates are required to answer all questions. Total 45 marks.
+           Maximum total = 70 marks.
+
+General
+
+A markscheme often has more specific points worthy of a mark than the total allows. This is intentional.
+Do not award more than the maximum marks allowed for that part of a question.
+
+When deciding upon alternative answers by candidates to those given in the markscheme, consider the
+following points:
+
+• Each statement worth one point has a separate line and the end is signified by means of a
+   semi-colon (;).
+
+• An alternative answer or wording is indicated in the markscheme by a “/”; either wording can be
+   accepted.
+
+• Words in ( … ) in the markscheme are not necessary to gain the mark.
+
+• If the candidate’s answer has the same meaning or can be clearly interpreted as being the same as
+   that in the markscheme then award the mark.
+
+• Mark positively. Give candidates credit for what they have achieved and for what they have got
+   correct, rather than penalizing them for what they have not achieved or what they have got wrong.
+
+• Remember that many candidates are writing in a second language; be forgiving of minor linguistic
+   slips. In this subject effective communication is more important than grammatical accuracy.
+
+• Occasionally, a part of a question may require a calculation whose answer is required for subsequent
+   parts. If an error is made in the first part then it should be penalized. However, if the incorrect answer
+   is used correctly in subsequent parts then follow through marks should be awarded. Indicate this
+   with “FT”.
+
+
+General guidance
+
+ Issue            Guidance
+ Answering        • In the case of an “identify” question, read all answers and mark positively up to the
+ more than           maximum marks. Disregard incorrect answers.
+ the quantity     • In the case of a “describe” question, which asks for a certain number of facts
+ of                 eg “describe two kinds”, mark the first two correct answers. This could include two
+ responses          descriptions, one description and one identification, or two identifications.
+ prescribed       • In the case of an “explain” question, which asks for a specified number of
+ in the             explanations eg “explain two reasons …”, mark the first two correct answers.
+ questions          This could include two full explanations, one explanation, one partial
+                    explanation etc.
+                                                   –4–                M22/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+                                               Section A
+
+1.   Award [2 max].
+     Language differences / lexical differences present across datasets to be merged;
+     Data representation differences / different data structures (e.g., date format, incompatible file
+     formats);
+     Incompatible hardware;
+     Incompatible operating systems / different software versions;
+
+                                                                                                         [2]
+
+2.   Award [2 max]
+     User efficiency;
+     To ensure that users know how to use the system correctly;
+
+     Support/Troubleshoot;
+     To provide users help when they encounter errors;
+
+     Accuracy;
+     To ensure the correct methods are used to enable reliable output;
+
+     Improved user experience;
+     the user is aware of all available features, so they can make the most out of the system;
+                                                                                                         [2]
+
+
+3.   Award [2 max]
+     WAN covers a much larger area (national/international), LANs usually cover a smaller area
+     (such as a single site);
+     Nodes connected to WANs often make use of connections through public networks (such as
+     the telephone system), nodes connected to LANs are usually connected through private
+     infrastructure;
+     LANs are more secure than WANs (due to how WANs transmit the data /how far the data would
+     need to travel);
+     A higher bandwidth is available for transmission in a LAN than a WAN/ LANs can have a
+     higher data transfer rate than a WAN;
+     LAN is typically cheaper than WAN to implement/ maintain (as the equipment required for LAN is
+     less expensive);
+     WAN includes a large number of devices connected together, LAN includes less;
+     WANs are typically slower than LANs due to the distance data must travel;
+     WAN requires hardware to connect different networks, such as a router, LAN can be simple and
+     does not need to connect to other networks;
+
+                                                                                                         [2]
+                                                  –5–               M22/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+
+4.   Award [2 max]
+     The reason for compression when transmitting data is to save on transfer times;
+     As it reduces the number of bits needed to represent data (when compared with the original data);
+
+     Compressing data involves modifying/restructuring files, so that they take up less space;
+     And this results in cost savings in cloud storage;
+
+     To take up less bandwidth;
+     Because data compression reduces the size of files to be transmitted over a network;
+
+     Note to examiners: Award [1] for a reason (for example, to save data usage for sending files over
+     the internet, to save storage capacity, to speed up file transfer, to decrease costs for network
+     bandwidth, etc.), and award [1] for an expansion.
+
+                                                                                                     [2]
+
+5.   Award [2 max]
+     (The program written in HLL must be translated into machine code) so that the computer can
+     execute the program;
+     as the computer only understands machine language / as code written in HLL can only be
+     understood by humans and cannot be interpreted by the computers (which work in binary);
+                                                                                                     [2]
+
+6.   Award up to [4 max]
+     1 mark for every two correct rows;
+
+                             A        B       C         P       Q       X
+                             0        0       0         0       1       1
+                             0        0       1         0       0       1
+                             0        1       0         1       1       0
+                             0        1       1         1       0       1
+                             1        0       0         1       1       0
+                             1        0       1         1       0       1
+                             1        1       0         0       1       1
+                             1        1       1         0       0       1
+                                                                                                     [4]
+
+7.   (a)   Award [2 max]
+           Award [1] for showing workings.
+
+           (0)1101001;
+                                                                                                     [2]
+     (b)   Award [2 max]
+           Award [1] for showing workings.
+
+           C8;
+                                                                                                     [2]
+                                                   –6–                    M22/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+
+8.    Award [1 max]
+      memory management;
+      Note to examiners: allow any other correct function of a single-user operating system.
+                                                                                                     [1]
+
+
+9.    Award [1 max]
+      The extent to which a device can be used by specific/its users;
+      To achieve specific goals effectively/efficiently/satisfactorily;
+                                                                                                     [1]
+
+
+10.   Award [2 max]
+      Standards ensure compatibility between nodes on the network;
+      Through the use of common techniques/protocols/language;
+                                                                                                     [2]
+
+
+11.   Award [3 max]
+      Cache is high-speed memory;
+      Located between CPU and RAM;
+      Frequently used data/instructions are (temporarily) stored in cache memory;
+      To reduce the access time needed/Speed up retrieval time/To improve the speed of processing;
+      CPU searches as instruction’s address first in the cache, and if not found, in RAM;
+                                                                                                     [3]
+                                                    –7–                M22/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+                                                Section B
+12.   (a)   (i)    Award [1 max]
+                   End users/ employees/ customers/ community members/ media/ suppliers;
+                   Business owners/ managers/ shareholders/ investors;
+                                                                                                            [1]
+
+            (ii)   Award [2 max]
+                   User dissatisfaction;
+                   because the system does not meet user requirements;
+
+                   Developers not being paid for the final product;
+                   as the business owner requests are not evident in the final product/ or outside of the
+                   project's scope;
+
+                   Unsuccessful final product;
+                   the developed system may either solve a different problem/ is not user friendly as
+                   compared to the existing system;
+
+                   Note to examiners: Reward other reasonable responses.
+                                                                                                            [2]
+
+
+      (b)   Award [4 max]
+            Examining current systems (using interviews/ surveys/direct observation);
+            To compare the existing system against possible requirements to identify missing features;
+
+            Examining competing products;
+            To compare own system with competitors to enable decisions on features to add;
+
+            Review of organizational capabilities;
+            To determine how well the organization manages resources to gain an advantage over
+            competitors;
+
+            Literature searches;
+            To research current methods and to help inform development choices;
+
+            Mark as 2 and 2
+                                                                                                            [4]
+
+      (c)   Award [2 max]
+            Testing is important (at every stage) to make sure the system operates in line with user
+            requirements/as intended;
+            To prevent the end user being dissatisfied with the final system;
+
+            Testing is important to enable early discovery of errors;
+            to reduce time delay/ using more resources / avoid higher cost;
+
+                                                                                                            [2]
+                                            –8–                M22/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+
+(d)   Award [6 max]
+      Award [1] for method, award [1] for benefit and award [1] for drawback.
+
+      Parallel running;
+      The old and new systems run together, so if a problem is found with the new system, it can
+      be repaired/the old system can take over;
+      This is expensive as duplicate systems and staff are needed;
+      Pilot running;
+      The new system is only implemented in one branch of the organization so disruption is kept
+      to a minimum;
+      It can take a long time for the new system to be fully implemented / two systems are still in
+      operation within the organization, leading to duplication and possible errors;
+      Direct changeover;
+      The new system is implemented overnight so the changes happen very quickly;
+      If the new system fails, the company has no working system to fall back on;
+      Phased conversion;
+      Only one area/department/part of the system is updated at a time, so the disruption is kept to
+      a minimum;
+      Multiple systems which may not be compatible with each other will be running at the same
+      time;
+
+      Note to examiners: Accept other suitable examples of benefits and drawbacks.
+
+      Mark as 3 and 3.
+                                                                                                  [6]
+                                                  –9–                M22/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+13.   (a)   Award [2 max]
+            if;
+            then;
+            else;
+
+            Note to examiners: allow an alternative descriptive version such as:
+            test/condition;
+            action/consequence;
+            (optional) alternative action/consequence;
+
+                                                                                              [2]
+                                            – 10 –             M22/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+
+(b)   Award [5 max]
+      Award [1] for an appropriate loop with correct loop parameters to cover 30 array elements/all
+      students
+      Award [1] for correct use of indexes in two arrays (MARK and GRADE)
+      Award [1] for each if statement with correct condition and grade assignment up to [4].
+
+      Note to examiners: Award [4] if candidate has correctly used an alternative conditional
+      statement such as switch/ case.
+
+      Example answer 1:
+
+      loop COUNTER from 0 to 29
+          if MARK[COUNTER] >= 80
+            then GRADE[COUNTER] = "Distinction"
+            else
+               if MARK[COUNTER]>˝= 60
+                 then GRADE[COUNTER] = "Merit"
+                 else
+                   if MARK[COUNTER} >= 40
+                      then GRADE[COUNTER] = "Pass"
+                      else
+                           GRADE[COUNTER] = "Fail"
+                   end if
+               end if
+          end if
+      end loop
+
+      Example answer 2:
+
+      COUNTER = 1
+      loop while COUNTER <= 30
+          if MARK[COUNTER-1] >= 80
+              then GRADE[COUNTER-1] = "Distinction"
+          end if
+          if MARK[COUNTER-1] >= 60 and MARK[COUNTER-1] < 80
+                  then GRADE[COUNTER-1] = "Merit"
+          end if
+          if MARK[COUNTER-1} >= 40 and MARK[COUNTER-1] < 60
+                    then GRADE[COUNTER-1] = "Pass"
+          end if
+          if MARK[COUNTER-1} < 40
+                      GRADE[COUNTER-1] = "Fail"
+          end if
+          COUNTER = COUNTER + 1
+      end loop
+                                                                                                [5]
+
+(c)   Award [2 max]
+      Three arrays are parallel/ they have the same number of elements/ the same length;
+      the same array index can be used to represent name, grade and mark of the same student/
+      the array index makes sure that data from the three arrays lines up;
+
+                                                                                                [2]
+                                           – 11 –              M22/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+
+(d)   Award [3 max]
+      Award [1] for correct loop to check all students
+      Award [1] for correct conditional statement checking correct array
+      Award [1] for correct output
+
+      Example answer 1:
+
+      loop COUNTER from 0 to 29
+          if MARK[COUNTER] >= 60 then
+            output NAME[COUNTER], GRADE[COUNTER]
+          end if
+      end loop
+
+      Example answer 2:
+
+      loop C from 0 to 29
+        if GRADE[C].equals(“Merit”)OR GRADE[C].equals(“Distinction”)
+             then
+                 output NAME[C], GRADE[C]
+          end if
+      end loop
+
+                                                                                               [3]
+
+
+(e)   Award [3 max]
+      Award [1] for an input statement before the loop;
+      Award [1] for changing the conditional statement so that it checks the GRADE[] array for the
+      GRADE input (using the same variable)
+      Award [1] for outputting the name and marks of the student who has achieved the inputted
+      grade
+
+      Note to examiners: Accept a written explanation or an amended algorithm that corresponds
+      to candidate’s answer to part(d).
+
+      Example 1:
+
+      G=input()
+      COUNTER = 0
+      loop while COUNTER < 30
+          if GRADE[COUNTER] = G
+            then
+                 output(NAME[COUNTER], MARK[COUNTER])
+          end if
+          COUNTER = COUNTER + 1
+      end loop
+
+
+                                                                                               [3]
+                                                   – 12 –          M22/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+
+
+14.   (a)    Award [4 max]
+             Award [1] for TO_FIND and LOC columns;
+             Award [1] for ITERATE column;
+             Award [1] for DATA_ARR[ITERATE] column;
+             Award [1] for the correct output;
+
+                                                     DATA_ARR
+           TO_FIND         LOC         ITERATE       [ITERATE                 Output
+                                                        ]
+             39           FALSE           0             27
+             39           FALSE           1             29
+             39           FALSE           2             36
+             39            TRUE           3             39
+                                                                     39 is in the array
+
+                                                                                                [4]
+
+      (b)    Award [1 max]
+             LIMIT                                                                              [1]
+
+
+      (c)    Award [4 max]
+             Award [1] for LOW_LIM column;
+             Award [1] for UP_LIM column;
+             Award [1] for MID_VAL and DATA_ARR[MID_VAL] columns;
+             Award [1] for TO_FIND, LOC and Output columns;
+
+                                                                   DATA_ARR
+TO_FIND            LOC       LOW_LIM      UP_LIM       MID_VAL                         Output
+                                                                  [MID_VAL]
+      50          FALSE           0           11            5         42
+      50          FALSE           6           11            8         58
+      50          FALSE           6           7             6         45
+      50           TRUE           7           7             7         50
+                                                                              50 is in the array
+
+
+
+
+                                                                                                [4]
+
+
+      (d)    Award [1 max]
+             The value (of MID_VAL) changes during the operation of the algorithm;              [1]
+                                            – 13 –              M22/4/COMSC/SP1/ENG/TZ0/XX/M
+
+
+
+(e)   Award [5 max]
+
+      Award [3 max] for sequential search
+      The algorithm searches through every element in the array starting at the beginning
+      and working through one after the other;
+      …until the required item is found;
+      This method is potentially slow if the data set is large and the required element is
+      towards the end of the list;
+      The data does not need to be in any particular order;
+
+      Award [3 max] for binary search
+      The data must be sorted before it is stored;
+      After comparing the data set with the target data, half of the data can be discounted
+      using a simple condition;
+      …enabling the target to be more quickly located;
+
+      Note to examiners: Big O notation is not on the syllabus so answers with reference
+      to this are not expected, however, if this type of answer is seen, please allow, for example:
+
+      Sequential: main disadvantage is O(N) so inefficient;
+      advantage is that it works with an unsorted array;
+      Binary search: main advantage is that it’s efficient as it’s O(log n);
+      disadvantage is that the array must be sorted (and so must be sortable – not all data
+      has a defined sort order);
+      Binary search cannot be performed on a linked list but a sequential search can;
+                                                                                                      [5]
+

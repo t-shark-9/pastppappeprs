@@ -1,0 +1,327 @@
+M&N12/3/ITGSX/HP3/ENG/TZ0/XX/CS
+
+
+
+
+INFORMATION TECHNOLOGY IN A GLOBAL SOCIETY
+CASE STUDY: THEATRE BOOKING SYSTEM
+
+
+For use in May and November 2012.
+
+
+
+
+INSTRUCTIONS TO CANDIDATES
+
+• Case study booklet required for higher level paper 3 information technology in a global society
+  examinations.
+
+
+
+
+                                                                                                    9 pages
+                                                            © International Baccalaureate Organization 2011
+                                                      –2–           M&N12/3/ITGSX/HP3/ENG/TZ0/XX/CS
+
+Foreword
+
+The ITGS case study, Theatre Booking System, is the stimulus material for the research investigation
+required for May and November 2012 higher level paper 3.  All of the work related to the case study should
+reflect the integrated approach explained on pages 15–17 of the ITGS guide.
+
+Candidates should consider Theatre Booking System with respect to:
+• relevant IT systems in a social context
+• both local and global areas of impact
+• social and ethical impacts on individuals and societies
+• current challenges and solutions
+• future developments.
+
+Candidates are expected to use online booking systems to investigate the capabilities of various booking
+(and other) systems that are available in more than one language, to research real-life situations similar
+to Theatre Booking System and relate their findings to first-hand experiences wherever possible.  
+Information may be collected through a range of activities: secondary and primary research, field trips,
+guest speakers, personal interviews and e-mail correspondence.
+
+Responses to examination questions must reflect the synthesis of knowledge and experiences that the
+candidates have gained from their investigations.  In some instances, additional information may be provided
+in examination questions to allow candidates to generate new ideas.
+
+
+Introduction
+
+The Piedmonte canton of Switzerland lies in an area where four official languages (French, German, Romansh
+and Italian) are spoken.  Within the canton there is a capital city and a number of smaller towns.  There are also
+a number of theatres which provide high quality performances, both professional and amateur.  Two theatres
+have realized that there will be benefits of working together to provide an efficient ticket booking system and
+have begun to investigate how this may be done, creating the Piedmonte Theatre Consortium (PTC).
+
+Interviews were carried out with managers at the two theatres to elicit the problems with the current
+IT systems.
+                                               –3–          M&N12/3/ITGSX/HP3/ENG/TZ0/XX/CS
+
+                                 Cœur Théâtral – Small company
+
+     Overview
+
+     The Cœur Théâtral (CT) is a small theatre company situated on the outskirts of the capital city.
+     It has a full time manager and an administrative assistant, but most of the work is carried out
+     by a group of amateur theatre enthusiasts who act as producers, directors, actors, set designers,
+     and administrators.  It is dedicated to quality productions and only presents five plays per year,
+ 5   from late February to early December.  Each play runs for twelve performances over three weeks.  
+     When purchasing tickets for a performance, customers are encouraged to become a member of the
+     “Friends of Cœur Théâtral”.
+
+
+     Current IT system
+
+     • The details of all members are kept on a flat file database.  Mail merge letters are sometimes
+       sent from the database which contain special deals, details of special events and other such
+10     information.  The same database is also used to print mailing labels for those members who
+       have the “Retroscena” newsletter posted to them, and for the tickets and membership cards
+       when they need to be posted.  Members receive preference over other customers and they can
+       book early before booking is open to the public.
+     • The details of all telephone bookings are recorded in a spreadsheet – there is one page for each
+15     performance.  Each page of the spreadsheet contains a seating plan for a performance with the
+       name of the person and telephone number recorded in each seating location.
+     • Only payment by credit card is available for telephone bookings.  After processing, a receipt is
+       produced and sent with the tickets when posted or collected from the box office.  All bookings
+       are recorded for legal and financial purposes.
+20   • Cash sales at the door do not get a receipt and are recorded in a special folder.  Facilities for
+       credit and debit card sales are not available at the theatre.
+     • Details of all ticket purchases are sent to the accountant in order to check that the amount
+       deposited in the bank matches the tickets purchased.  Credit card purchases are automatically
+       recorded in the bank account and cash sales are deposited separately.  At the end of the year
+25     an analysis report for the ticket sales is produced – most of the analysis is done manually.  
+       The report contains the number of seats sold for each performance divided into categories,
+       e.g. member sales, door sales, concession sales, etc.  The report also contains an analysis based
+       on the various days of the three weeks for each performance.  Various percentage occupancy
+       rates are also calculated, however it is very time consuming.   Detailed financial analysis of
+30     types of tickets, as well as member and cash sales are not available.
+
+     The following problems were highlighted
+     The problems with the current system are:
+     • Most of the ticket and membership information is manually processed.
+     • The lack of integration of the various ways of recording and processing the data which is
+35     currently performed using a mixture of spreadsheet, database, desktop publishing and word
+       processing software.
+     • Double-booking issues.
+     • Payment problems with the processing of credit cards and cash, providing receipts.
+     • The lack of detailed analysis of the ticket sales and income.
+
+                                                                                            Turn over
+                                                 –4–           M&N12/3/ITGSX/HP3/ENG/TZ0/XX/CS
+
+                            Mälzerei Theatergruppe – Large company
+     Overview
+40   The Mälzerei Theatergruppe (MTG) runs a multi-theatre venue in the centre of the capital city,
+     with an all year programme.  There are three theatres within the complex, which are used for their
+     own productions and by other professional theatre companies.  They have their own customized
+     IT ticketing system accessible through their own web site.
+
+
+     Current IT system
+     The IT system they have at the moment is old and was developed in-house.   There are two
+45   sub-systems; an office network connected to the Internet and a stand-alone local network box
+     office system.  The office network has its own server and connection to the Internet, but is based
+     on old technology and is starting to develop problems.  This system is used for customer relations,
+     finance and analysis, production management, business communications and development of
+     advertising and web site material.
+
+50   The box office network has a separate server that is based on Microsoft Small Business Server 2003
+     and a Microsoft SQL database.   The separate server is used to keep credit card information and
+     customer details secure.   Both servers back-up to the same place but there is no transfer of data
+     between the two systems.  Since there is no electronic connection to the office network, all sales and
+     customer data is transferred to the office network using a USB memory stick.
+
+55   The M-ticket web site which was developed for the MTG a few years ago is run on the web site of an
+     Internet service provider (ISP); but the MTG is not happy with the user-interface and the features of
+     the web site.  Customers are complaining, since they often go to the web site for information about
+     productions, but find it easier to telephone the box office to make bookings as they can make special
+     requests for seats, get more personal attention and discuss various options.  The reporting facility of
+60   the web site is adequate but new needs for customer relations, requiring more complex data analysis,
+     are arising.
+
+     The following problems were highlighted
+     The problems with the current system are:
+     • The MTG does not have an in-house IT department and the two staff members who have been
+65     responsible for most of the IT maintenance and development are planning to leave soon.
+     • The office and box office hardware and software need upgrading and integrating where possible.
+     • The web site has been in operation for many years but is basically still the same as when it was
+       first developed, providing information but lacking interactivity and multimedia features, especially
+       an interactive seat-selection interface.
+70   • The quality of the reports produced needs improving.  They take a long time to produce, are poorly
+       presented (often as numbers without any visual representation of the data through the use of
+       graphs), and often do not contain detailed analysis that would be useful for making decisions and
+       assessing past performances.  The accuracy of the analysis and financial reports has sometimes
+       been challenged and requires a significant amount of time and effort to fix.
+75   • Keeping in contact with customers via e-mail has been a major strength and has developed a strong
+       community support for the MTG.  Now the management wants to make use of new technologies
+       such as smartphones, Twitter, and social web sites to build even stronger relationships and have
+       multiple means of contacting people and advertising.
+                                             –5–              M&N12/3/ITGSX/HP3/ENG/TZ0/XX/CS
+
+                     Example of a web-based booking system
+
+
+
+
+[Source: http://aticket.com.au/Box%20Office%20Express.html, © 2010 ATicket.  All rights reserved]
+
+
+
+
+                                                                                                    Turn over
+                                                –6–           M&N12/3/ITGSX/HP3/ENG/TZ0/XX/CS
+
+      Solution Requirements
+
+      Project management issues
+ 80   After a series of discussions, the PTC has accepted that they will need to purchase an IT system
+      from a supplier to resolve many of the problems that currently exist.
+
+      They have set the following objectives of the development strategy:
+      • The web site ticketing system should be a single unified ticketing system for purchasing tickets
+        and seat-selection for the PTC.
+ 85   • Tickets can be collected from the box office with suitable identification, or printed by the
+        customer after they are sent as a PDF document in a confirmation e-mail.
+      • Users must be able to easily input data, obtain information and carry out analyses as required.  
+      • The web site must be intuitive and function in five languages (the four official languages plus
+        English), and be able to include non-Latin alphabet languages later, such as Russian and Arabic.
+ 90   • The IT system must be handed over on 1 March 2014.
+
+      As a result of the developments, the PTC hopes to encourage other theatre companies in the canton
+      to join the scheme, creating a comprehensive theatre web site that would hopefully facilitate more
+      ticket sales to tourists and the local population.
+
+      However, the theatres have a limited budget and are aware that the solution may require compromises
+ 95   to be made.  They need to decide what will be the key features and also plan for future expansion.
+
+      The solution will need to include as many of the following features as possible.
+
+      Data management issues
+      Data migration
+      Data will need to be migrated from the existing systems and integrated into the new data structures
+100   in the most time and cost effective manner.
+
+      An efficient data management system – performances and customer relations
+      Each theatre company needs to be able to manage its part of the consortium web site; specifically
+      inputting details of performances and setting prices at least a year in advance for all performances
+      through a content management system (CMS), possibly web-based.
+
+105   Also, details of customers who purchase tickets need to be accessed and used to send them specific
+      information on special deals and newsletters, using a customer relationship management (CRM)
+      system.
+
+      Analysis of sales and other data
+      For the purpose of sales analysis, standard and customized reports need to be easily generated
+110   and exported in a variety of formats, for example, sales figures for each play which can be
+      analysed by day, ticket category or performance type.  A basic business intelligence package to
+      analyse sales, and to mine the customer and member data, would be desirable.
+                                                 –7–           M&N12/3/ITGSX/HP3/ENG/TZ0/XX/CS
+
+      Web site development and management issues
+      Ticketing
+115   The web site needs to provide interactive seat-selection from a theatre plan so that it avoids
+      double-bookings, and also needs to provide a secure online payment facility.   (The online
+      payment system does not need to be researched in-depth.)  The payment recording system must
+      be able to handle online bookings, telephone bookings and those made from the booking offices
+      in each theatre.
+
+120   Language provision
+      In Switzerland there are four official languages.   It is important that, for any system that is
+      developed, the user will be able to select their preferred language.  English will also be included.  
+      Information provided by the Swiss government has indicated that there will be a significant
+      increase in tourism from countries such as Russia and Saudi Arabia, so the web site may need to
+125   be developed in Russian and Arabic in the future.
+
+      Web site interface
+      The interface must be user-friendly and intuitive.   It needs to be able to easily switch from
+      one language to another, and also be compatible with all browsers, preferably without needing
+      additional software such as plug-ins.  This might be problematic, especially for some smartphones
+130   and tablet devices, as the inclusion of an interactive seat-selection feature may require the use of
+      client-side software such as browser plug-ins, Java or Adobe Flash Player.
+
+      The web site design also needs to give consideration to customers who may not be familiar with
+      using online booking systems, who may not have a credit card, or may want to have the tickets
+      physically sent to them rather than printing them themselves or picking them up at the venue.
+
+
+      Challenges faced
+135   The development of a new system must take into account the following issues which may make
+      the proposed solution too expensive or impractical.
+
+      Project management issues
+      The PTC needs to create a development strategy in order to bring all of the PTC theatres into
+      the new IT system.  The solution needs to be delivered on time, within budget and meeting the
+140   requirement specification as far as possible.  Various methodologies will need to be considered in
+      implementing the strategy, such as focusing on one theatre first and bringing the other online later;
+      compared with bringing both theatres online together.  A decision about implementing the system
+      has yet to be reached, and may depend on other considerations.
+
+      Suppliers
+145   The theatre companies will need to investigate various suppliers of ticketing systems which
+      could provide an existing system that can be customized, as well as companies that will build a
+      completely new system.
+
+      Due to maintenance and training issues, it is necessary to take all reasonable steps to ensure that
+      the system purchased meets the needs of all the theatres as closely as possible, and within the
+150   agreed budget.  The PTC sees the correct choice of supplier as a key factor in the success of the
+      development strategy.
+
+                                                                                                Turn over
+                                                 –8–           M&N12/3/ITGSX/HP3/ENG/TZ0/XX/CS
+
+      Data management issues
+      The new system could be based on one of the two options listed below:
+      • a distributed database system
+155   • a centralized database system, in association with a Virtual Private Network (VPN).
+
+      Both choices need to meet the rigorous requirements of modern database systems, such as
+      conforming to ACID (atomicity, consistency, isolation, durability) rules, and they need to manage
+      concurrency of access and processing through record locking, to prevent multiple bookings and
+      other problems.
+
+160   Data migration
+      Both theatre companies have substantial amounts of data saved in various formats in their existing
+      systems that should be copied across to the new system, such as customer and member details
+      and records of previous performances for comparisons.  This is potentially a major challenge for
+      the PTC.
+
+165   Analysis of sales and other data
+      The new database system needs to have the capability to produce detailed reports, in text and
+      graphical format, with statistical analysis.  This may require the purchase of a business intelligence
+      add-on package for the database system.
+
+      Web site development and management issues
+170   Language provision
+      The PTC is concerned about the additional costs and expertise required to develop and maintain
+      the web site in five languages.   They are aware that certain technical features, such as videos
+      and animations, may be difficult to produce and maintain in multiple languages and that there
+      could potentially be significant variations in quality between the different language versions.
+
+175   Web site interface
+      The new web site must function in a range of browsers without the need to install client-side
+      software; it must also accept and transmit the data inputted by the users and function correctly,
+      whatever security settings the user has selected.
+                                              –9–         M&N12/3/ITGSX/HP3/ENG/TZ0/XX/CS
+
+Specific Information Technology items, additional to those in the ITGS Guide, which are associated
+with the theatre booking system
+
+ACID
+Adobe Flash Player
+Centralized and distributed databases
+Client-side software
+Concurrency
+Customer relationship management (CRM) system
+Plug-ins
+Record locking
+Smartphone
+Tablet device
+
+
+
+Any individuals named in this case study are fictitious and any similarities with actual entities
+are purely coincidental.
+

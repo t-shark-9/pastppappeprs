@@ -1,0 +1,122 @@
+M10/5/MATHL/HP3/ENG/TZ0/DM
+
+
+
+
+       22107207
+
+
+mathematics
+Higher level
+Paper 3 – DISCRETE MATHEMATICS
+
+Thursday 20 May 2010 (afternoon)
+
+1 hour
+
+
+instructions to candidates
+
+ Do not open this examination paper until instructed to do so.
+ Answer all the questions.
+ Unless otherwise stated in the question, all numerical answers must be given exactly or correct
+  to three significant figures.
+
+
+
+
+2210-7207                                                                                           3 pages
+                                                            © International Baccalaureate Organization 2010
+                                                      –2–                 M10/5/MATHL/HP3/ENG/TZ0/DM
+
+Please start each question on a new page. Full marks are not necessarily awarded for a correct answer
+with no working. Answers must be supported by working and/or explanations. In particular, solutions
+found from a graphic display calculator should be supported by suitable working, e.g. if graphs are used to
+find a solution, you should sketch these as part of your answer. Where an answer is incorrect, some marks
+may be given for a correct method, provided this is shown by written working. You are therefore advised
+to show all working.
+
+1.    [Maximum mark: 14]
+
+      (a)   (i)    One version of Fermat’s little theorem states that, under certain conditions,
+
+                                                 a p−1 ≡ 1(mod p ) .
+
+			                Show that this result is not valid when a = 4 , p = 9 and state which
+                   condition is not satisfied.
+
+		          (ii)   Given that 564 ≡ n (mod 7) , where 0 ≤ n ≤ 6 , find the value of n .            [8 marks]
+
+      (b)   Find the general solution to the simultaneous congruences
+
+                                                 x ≡ 3 (mod 4)
+                                               3 x ≡ 2 (mod 5) .                                   [6 marks]
+
+
+
+
+2.    [Maximum mark: 9]
+
+      A graph G with vertices A, B, C, D, E has the following cost adjacency matrix.
+
+                                         A     B      C     D      E
+                                   A      –    12     10    17     19
+                                   B     12     –     13    20     11
+                                   C     10    13      –    16     14
+                                   D     17    20     16    –      15
+                                   E     19    11     14    15      –
+
+      (a)   (i)    Use Kruskal’s algorithm to find and draw the minimum spanning tree for G .
+
+		          (ii)   The graph H is formed from G by removing the vertex D and all the
+                   edges connected to D. Draw the minimum spanning tree for H and use it
+                   to find a lower bound for the travelling salesman problem for G .               [7 marks]
+
+      (b)   Show that 80 is an upper bound for this travelling salesman problem.                   [2 marks]
+
+
+
+
+2210-7207
+                                                       –3–                    M10/5/MATHL/HP3/ENG/TZ0/DM
+
+3.    [Maximum mark: 12]
+
+      The positive integer N is expressed in base 9 as (an an−1 ... a0 )9 .
+
+      (a)   Show that N is divisible by 3 if the least significant digit, a0 , is divisible by 3.   [3 marks]
+
+      (b)   Show that N is divisible by 2 if the sum of its digits is even.                         [3 marks]
+
+      (c)   Without using a conversion to base 10, determine whether or not (464860583)9
+            is divisible by 12.                                                                     [6 marks]
+
+
+
+
+4.    [Maximum mark: 18]
+
+      (a)   Show that, for a connected planar graph,
+
+                                                 v+ f −e = 2.                                       [7 marks]
+
+      (b)   Assuming that v ≥ 3 , explain why, for a simple connected planar graph, 3 f ≤ 2e
+            and hence deduce that e ≤ 3v − 6 .                                                      [4 marks]
+
+      (c)   The graph G and its complement G′ are simple connected graphs, each having
+            12 vertices. Show that G and G′ cannot both be planar.                                  [7 marks]
+
+
+
+
+5.    [Maximum mark: 7]
+
+      Given that a , b , c , d ∈  , show that
+
+                        (a − b)(a − c)(a − d )(b − c)(b − d )(c − d ) ≡ 0 (mod 3) .
+
+
+
+
+2210-7207
+

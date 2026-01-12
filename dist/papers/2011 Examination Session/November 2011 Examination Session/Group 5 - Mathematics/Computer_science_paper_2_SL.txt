@@ -1,0 +1,167 @@
+N11/5/COMSC/SP2/ENG/TZ0/XX
+
+
+
+
+     88117014
+
+COMPUTER SCIENCE
+STANDARD LEVEL
+PAPER 2
+
+Friday 18 November 2011 (morning)
+
+1 hour 30 minutes
+
+
+INSTRUCTIONS TO CANDIDATES
+
+• Do not open this examination paper until instructed to do so.
+• Answer all the questions.
+
+
+
+
+8811-7014                                                                                          4 pages
+                                                           © International Baccalaureate Organization 2011
+                                                        –2–                 N11/5/COMSC/SP2/ENG/TZ0/XX
+
+Answer all the questions.
+
+1.    Consider the two-dimensional array  Data and program fragment shown below.
+
+                                           2        3         4
+                                           2        1         5
+                                           6        3         8
+
+      public void amazing(int[][] a, int N)
+      {
+        int t;
+
+            for (int i = 0; i < N; i = i + 1)
+            {
+              for (int j = i; j < N; j = j + 1)
+              {
+                t = a[i][j];
+                a[i][j] = a[j][i];
+                a[j][i] = t;
+              }
+            }
+      }
+
+      (a)     (i)    Copy and complete the trace table started below for the call
+                     amazing(Data, 3).                                                               [3 marks]
+
+                                                        i         j
+                                                        0         0
+
+
+
+
+              (ii)   State the contents of the array  Data after each pass through the outer loop.   [3 marks]
+
+      (b)     As written, the method also performs its basic operation on the diagonal elements,
+              which are the elements  Data[0][0],  Data[1][1],  Data[2][2].
+
+              (i)    Outline why the operation on the diagonal elements is unnecessary.              [1 mark]
+
+              (ii)   Outline the changes needed to eliminate the problem in part (i).                [2 marks]
+
+      (c)     Construct a method that accepts a two-dimensional array with an equal number
+              of rows and columns and returns the product (multiplication) of the values in the
+              diagonal elements of the array.                                                        [4 marks]
+
+      (d)     Construct a method that accepts a two-dimensional array with an equal number
+              of rows and columns and returns an array in which each element contains the
+              sum of the corresponding row in the two-dimensional array.                             [7 marks]
+
+
+
+8811-7014
+                                                     –3–                  N11/5/COMSC/SP2/ENG/TZ0/XX
+
+2.    CW Express is a parcel delivery service.  Customers who send a parcel are not charged
+      until their parcel has been delivered. The amount charged depends on the weight of
+      the parcel.  A computer system is used to keep track of the parcels and to charge
+      the customers.
+
+      (a)   Construct a class for  Parcel objects (you do not need to write methods).  
+            The class contains the following variables:
+
+            •   parcel ID number (parcelID)
+            •   weight of the parcel (parcelWeight)
+            •   customer address (customerAddr)
+            •   delivery address (deliveryAddr)
+            •   the parcel has been delivered (isDelivered)
+            •   the customer has paid (isPaid).                                                    [4 marks]
+
+      When a driver returns from delivering a parcel, they update the data in the computer
+      to show that delivery was completed successfully.
+
+      An accountant uses a computer to get a list of all the parcels that have been successfully
+      delivered and not yet paid for.
+
+      (b)   Describe two types of users who use the CW Express computer system and the
+            type of data access that each needs.                                                   [4 marks]
+
+      (c)   Outline why access to some parts of the data should be restricted to
+            particular users.                                                                      [2 marks]
+
+      (d)   Describe two procedures that CW Express employees can follow to prevent
+            unauthorized access to the data.                                                       [4 marks]
+
+      An array  allParcels is used to store the  Parcel objects.
+
+      (e)   Construct a method that outputs a list of parcel ID numbers for all the parcels
+            that have been delivered but not yet paid for.                                         [6 marks]
+
+
+
+
+8811-7014                                                                                          Turn over
+                                                    –4–                  N11/5/COMSC/SP2/ENG/TZ0/XX
+
+3.    This question requires the use of the case study.
+
+      (a)   Each component system in Heathrow Terminal 5 (T5) was tested before the
+            terminal was opened to the public.  A variety of testing methods were used.
+
+            (i)    Define the term  parallel running.                                             [2 marks]
+
+            (ii)   Explain why simulations were used in testing the new baggage handling
+                   system.                                                                        [4 marks]
+
+            (iii) Identify two factors that should be considered when selecting a
+                  testing method.                                                                 [2 marks]
+
+      (b)   Ground services in T5 include a fleet of electric carts that help disabled
+            passengers to move between different parts of the airport.   Each cart has an
+            onboard computer that connects with the airport computer system to indicate its
+            location and to receive instructions.
+
+            (i)    Outline a suitable method of data communication between carts and the
+                   airport system.                                                                [2 marks]
+
+            (ii)   Describe two potential problems that could arise from this method of
+                   implementation.                                                                [4 marks]
+
+            (iii) Describe two ways in which the data communication between the carts
+                  and the airport computer system could be made secure.                           [4 marks]
+
+      (c)   Air traffic controllers continue to resist efforts to replace the current method of
+            paper strips for each flight.
+
+            (i)    With specific reference to the case study, identify two features of the
+                   paper strips method that air traffic controllers like.                         [2 marks]
+
+            (ii)   Suggest a way in which a computer-based system could provide the two
+                   features you identified in part (i).                                           [4 marks]
+
+            (iii) Discuss whether the safety concerns associated with replacing the
+                  paper strips method with a computer-based system can be overcome.               [6 marks]
+
+
+
+
+8811-7014
+

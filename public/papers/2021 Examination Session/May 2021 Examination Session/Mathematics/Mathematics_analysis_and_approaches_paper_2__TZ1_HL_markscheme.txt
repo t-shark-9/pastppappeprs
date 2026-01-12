@@ -1,0 +1,971 @@
+M21/5/MATHX/HP2/ENG/TZ1/XX/M
+
+
+
+
+                       Markscheme
+
+
+                               May 2021
+
+
+                    Mathematics:
+               analysis and approaches
+
+
+                           Higher level
+
+
+                               Paper 2
+
+
+
+
+22 pages
+                                            –2–                 M21/5/MATHX/HP2/ENG/TZ1/XX/M
+
+
+
+
+© International Baccalaureate Organization 2021
+
+All rights reserved. No part of this product may be reproduced in any form or by any
+electronic or mechanical means, including information storage and retrieval systems,
+without the prior written permission from the IB. Additionally, the license tied with this
+product prohibits use of any selected files or extracts from this product. Use by third
+parties, including but not limited to publishers, private teachers, tutoring or study services,
+preparatory schools, vendors operating curriculum mapping services or teacher resource
+digital platforms and app developers, whether fee-covered or not, is prohibited and is a
+criminal offense.
+
+More information on how to request written permission in the form of a license can be
+obtained from https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-
+license/.
+
+© Organisation du Baccalauréat International 2021
+
+Tous droits réservés. Aucune partie de ce produit ne peut être reproduite sous quelque
+forme ni par quelque moyen que ce soit, électronique ou mécanique, y compris des
+systèmes de stockage et de récupération d’informations, sans l’autorisation écrite
+préalable de l’IB. De plus, la licence associée à ce produit interdit toute utilisation de tout
+fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris, sans
+toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de tutorat ou
+d’aide aux études, des établissements de préparation à l’enseignement supérieur, des
+fournisseurs de services de planification des programmes d’études, des gestionnaires de
+plateformes pédagogiques en ligne, et des développeurs d’applications, moyennant
+paiement ou non, est interdite et constitue une infraction pénale.
+
+Pour plus d’informations sur la procédure à suivre pour obtenir une autorisation écrite
+sous la forme d’une licence, rendez-vous à l’adresse https://ibo.org/become-an-ib-school/
+ib-publishing/licensing/applying-for-a-license/.
+
+© Organización del Bachillerato Internacional, 2021
+
+Todos los derechos reservados. No se podrá reproducir ninguna parte de este producto
+de ninguna forma ni por ningún medio electrónico o mecánico, incluidos los sistemas de
+almacenamiento y recuperación de información, sin la previa autorización por escrito del
+IB. Además, la licencia vinculada a este producto prohíbe el uso de todo archivo o
+fragmento seleccionado de este producto. El uso por parte de terceros —lo que incluye,
+a título enunciativo, editoriales, profesores particulares, servicios de apoyo académico o
+ayuda para el estudio, colegios preparatorios, desarrolladores de aplicaciones y
+entidades que presten servicios de planificación curricular u ofrezcan recursos para
+docentes mediante plataformas digitales—, ya sea incluido en tasas o no, está prohibido
+y constituye un delito.
+
+En este enlace encontrará más información sobre cómo solicitar una autorización por
+escrito en forma de licencia: https://ibo.org/become-an-ib-school/ib-publishing/licensing/
+applying-for-a-license/.
+                                                  –3–                 M21/5/MATHX/HP2/ENG/TZ1/XX/M
+
+
+                                      Instructions to Examiners
+
+Abbreviations
+
+M    Marks awarded for attempting to use a correct Method.
+A    Marks awarded for an Answer or for Accuracy; often dependent on preceding M marks.
+R    Marks awarded for clear Reasoning.
+AG   Answer given in the question and so no marks are awarded.
+FT   Follow through. The practice of awarding marks, despite candidate errors in previous parts, for their
+     correct methods/answers using incorrect results.
+
+
+Using the markscheme
+
+1    General
+
+     Award marks using the annotations as noted in the markscheme eg M1, A2.
+
+
+2    Method and Answer/Accuracy marks
+
+     • Do not automatically award full marks for a correct answer; all working must be checked,
+       and marks awarded according to the markscheme.
+     • It is generally not possible to award M0 followed by A1, as A mark(s) depend on
+       the preceding M mark(s), if any.
+     • Where M and A marks are noted on the same line, e.g. M1A1, this usually means M1 for
+       an attempt to use an appropriate method (e.g. substitution into a formula) and A1 for using
+       the correct values.
+     • Where there are two or more A marks on the same line, they may be awarded
+       independently; so if the first value is incorrect, but the next two are correct, award A0A1A1.
+     • Where the markscheme specifies A3, M2 etc., do not split the marks, unless there is a note.
+     • The response to a “show that” question does not need to restate the AG line, unless a Note
+       makes this explicit in the markscheme.
+     • Once a correct answer to a question or part question is seen, ignore further working even if
+       this working is incorrect and/or suggests a misunderstanding of the question. This will
+       encourage a uniform approach to marking, with less examiner discretion. Although some
+       candidates may be advantaged for that specific question item, it is likely that these candidates
+       will lose marks elsewhere too.
+     • An exception to the previous rule is when an incorrect answer from further working is used in
+       a subsequent part. For example, when a correct exact value is followed by an incorrect
+       decimal approximation in the first part and this approximation is then used in the second part.
+       In this situation, award FT marks as appropriate but do not award the final A1 in the first part.
+       Examples:
+
+     Correct        Further            Any FT issues?
+                                                                  Action
+     answer seen    working seen
+1.                     5.65685...        No.                       Award A1 for the final mark
+       8 2           (incorrect          Last part in question.    (condone the incorrect further
+                    decimal value)                                 working)
+2.                    0.468111…          Yes.                      Award A0 for the final mark
+        35
+                     (incorrect          Value is used in          (and full FT is available in
+        72          decimal value)       subsequent parts.         subsequent parts)
+                                                –4–               M21/5/MATHX/HP2/ENG/TZ1/XX/M
+
+
+3   Implied marks
+
+    Implied marks appear in brackets e.g. (M1),and can only be awarded if correct work is seen or
+    implied by subsequent working/answer.
+
+
+4   Follow through marks (only applied after an error is made)
+
+    Follow through (FT) marks are awarded where an incorrect answer from one part of a question
+    is used correctly in subsequent part(s) (e.g. incorrect value from part (a) used in part (d) or
+    incorrect value from part (c)(i) used in part (c)(ii)). Usually, to award FT marks, there must be
+    working present and not just a final answer based on an incorrect answer to a previous part.
+    However, if all the marks awarded in a subsequent part are for the answer or are implied, then
+    FT marks should be awarded for their correct answer, even when working is not present.
+
+    For example: following an incorrect answer to part (a) that is used in subsequent parts, where
+    the markscheme for the subsequent part is (M1)A1, it is possible to award full marks for their
+    correct answer, without working being seen. For longer questions where all but the answer
+    marks are implied this rule applies but may be overwritten by a Note in the Markscheme.
+
+    • Within a question part, once an error is made, no further A marks can be awarded for work
+      which uses the error, but M marks may be awarded if appropriate.
+
+    • If the question becomes much simpler because of an error then use discretion to award
+      fewer FT marks, by reflecting on what each mark is for and how that maps to the simplified
+      version.
+
+    • If the error leads to an inappropriate value (e.g. probability greater than 1, sin q = 1.5 , non-
+      integer value where integer required), do not award the mark(s) for the final answer(s).
+
+    • The markscheme may use the word “their” in a description, to indicate that candidates may
+      be using an incorrect value.
+
+    • If the candidate’s answer to the initial question clearly contradicts information given in the
+      question, it is not appropriate to award any FT marks in the subsequent parts. This includes
+      when candidates fail to complete a “show that” question correctly, and then in subsequent parts
+      use their incorrect answer rather than the given value.
+
+    • Exceptions to these FT rules will be explicitly noted on the markscheme.
+
+    • If a candidate makes an error in one part but gets the correct answer(s) to subsequent
+      part(s), award marks as appropriate, unless the command term was “Hence”.
+                                               –5–                M21/5/MATHX/HP2/ENG/TZ1/XX/M
+
+
+5   Mis-read
+
+    If a candidate incorrectly copies values or information from the question, this is a mis-read
+    (MR). A candidate should be penalized only once for a particular misread. Use the MR stamp
+    to indicate that this has been a misread and do not award the first mark, even if this is an M
+    mark, but award all others as appropriate.
+
+    • If the question becomes much simpler because of the MR, then use discretion to award
+      fewer marks.
+
+    • If the MR leads to an inappropriate value (e.g. probability greater than 1, sin q = 1.5 , non-
+      integer value where integer required), do not award the mark(s) for the final answer(s).
+
+    • Miscopying of candidates’ own work does not constitute a misread, it is an error.
+
+    • If a candidate uses a correct answer, to a “show that” question, to a higher degree of
+      accuracy than given in the question, this is NOT a misread and full marks may be scored in
+      the subsequent part.
+
+    • MR can only be applied when work is seen. For calculator questions with no working and
+      incorrect answers, examiners should not infer that values were read incorrectly.
+
+
+6   Alternative methods
+
+    Candidates will sometimes use methods other than those in the markscheme. Unless the
+    question specifies a method, other correct methods should be marked in line with the
+    markscheme. If the command term is ‘Hence’ and not ‘Hence or otherwise’ then alternative
+    methods are not permitted unless covered by a note in the mark scheme.
+
+    • Alternative methods for complete questions are indicated by                         METHOD   1,
+      METHOD 2, etc.
+    • Alternative solutions for parts of questions are indicated by EITHER . . . OR.
+                                                      –6–                   M21/5/MATHX/HP2/ENG/TZ1/XX/M
+
+
+7   Alternative forms
+
+    Unless the question specifies otherwise, accept equivalent forms.
+
+    • As this is an international examination, accept all alternative forms of notation for example
+      1.9 and 1,9 or 1000 and 1,000 and 1.000 .
+
+    • Do not accept final answers written using calculator notation. However, M marks and
+      intermediate A marks can be scored, when presented using calculator notation, provided
+      the evidence clearly reflects the demand of the mark.
+
+    • In the markscheme, equivalent numerical and algebraic forms will generally be written in
+      brackets immediately following the answer.
+
+    • In the markscheme, some equivalent answers will generally appear in brackets. Not all
+      equivalent notations/answers/methods will be presented in the markscheme and examiners are
+      asked to apply appropriate discretion to judge if the candidate work is equivalent.
+
+8   Format and accuracy of answers
+
+    If the level of accuracy is specified in the question, a mark will be linked to giving the answer
+    to the required accuracy. If the level of accuracy is not stated in the question, the general rule
+    applies to final answers: unless otherwise stated in the question all numerical answers must
+    be given exactly or correct to three significant figures.
+
+    Where values are used in subsequent parts, the markscheme will generally use the exact
+    value, however candidates may also use the correct answer to 3 sf in subsequent parts. The
+    markscheme will often explicitly include the subsequent values that come “from the use of 3 sf
+    values”.
+
+    Simplification of final answers: Candidates are advised to give final answers using good
+    mathematical form. In general, for an A mark to be awarded, arithmetic should be completed,
+                                                                                       25
+    and any values that lead to integers should be simplified; for example,               should be written
+                                                                                       4
+        5
+    as    . An exception to this is simplifying fractions, where lowest form is not required
+        2
+                                                                                         10
+    (although the numerator and the denominator must be integers); for example,             may be left
+                                                                                          4
+                              5               10
+    in this form or written as . However,         should be written as 2, as it simplifies to an
+                              2                5
+    integer.
+
+    Algebraic expressions should be simplified by completing any operations such as addition
+    and multiplication, e.g. 4e 2 x ´ e3 x should be simplified to 4e5 x , and 4e2 x ´ e3 x - e4 x ´ e x should
+    be simplified to 3e 5 x . Unless specified in the question, expressions do not need to be
+    factorized, nor do factorized expressions need to be expanded, so x ( x + 1) and x 2 + x are
+    both acceptable.
+
+    Please note: intermediate A marks do NOT need to be simplified.
+                                                   –7–                M21/5/MATHX/HP2/ENG/TZ1/XX/M
+
+
+9     Calculators
+
+      A GDC is required for this paper, but If you see work that suggests a candidate has used any
+      calculator not approved for IB DP examinations (eg CAS enabled devices), please follow the
+      procedures for malpractice.
+
+
+10.   Presentation of candidate work
+
+      Crossed out work: If a candidate has drawn a line through work on their examination script,
+      or in some other way crossed out their work, do not award any marks for that work unless
+      an explicit note from the candidate indicates that they would like the work to be marked.
+
+      More than one solution: Where a candidate offers two or more different answers to the
+      same question, an examiner should only mark the first response unless the candidate
+      indicates otherwise. If the layout of the responses makes it difficult to judge, examiners
+      should apply appropriate discretion to judge which is “first”.
+                                                  –8–              M21/5/MATHX/HP2/ENG/TZ1/XX/M
+
+
+
+
+                                                Section A
+
+1.   (a)   a = 0.433156... , b = 4.50265...
+
+           a = 0.433 , b = 4.50                                                       A1A1
+
+                                                                                             [2 marks]
+
+     (b)   attempt to substitute x = 18 into their equation                           (M1)
+
+           y = 0.433 ´18 + 4.50
+           = 12.2994...
+           = 12.3                                                                       A1
+                                                                                             [2 marks]
+
+     (c)   x = 15 , y = 11                                                              A1
+                                                                                              [1 mark]
+     (d)
+
+
+
+
+                                                                                      A1A1
+
+     Note: Award marks as follows:
+          A1 for a straight line going through (15, 11)
+
+           A1 for intercepting the y-axis between their b ± 1.5 (when their line is
+             extended), which includes all the data for 3.3 ≤ x ≤ 25.3 .
+
+           If the candidate does not use a ruler, award A0A1 where appropriate.
+
+                                                                                            [2 marks]
+                                                                                      Total [7 marks]
+                                                   –9–                 M21/5/MATHX/HP2/ENG/TZ1/XX/M
+
+
+2.
+     Note: In this question, do not penalise incorrect use of strict inequality signs.
+
+     Let X = mass of a bag of sugar
+
+     (a)   evidence of identifying the correct area                                      (M1)
+
+           P( X < 995) = 0.0765637...
+
+           = 0.0766                                                                       A1
+                                                                                                [2 marks]
+     (b)   0.0766 ´100
+           »8                                                                             A1
+                                                                                                 [1 mark]
+
+     Note: Accept 7.66 .
+
+     (c)   recognition that P ( X > 1005|X ³ 995) is required                            (M1)
+
+           P ( X ³ 995 Ç X > 1005 )
+                  P ( X ³ 995 )
+
+           P( X > 1005)
+                                                                                         (A1)
+           P( X ³ 995)
+
+            0.07656… ⎛ 0.07656…⎞
+                         =
+           1− 0.07656… ⎜⎝ 0.9234… ⎟⎠
+
+           = 0.0829                                                                       A1
+
+                                                                                               [3 marks]
+                                                                                         Total [6 marks]
+                                                                           – 10 –                          M21/5/MATHX/HP2/ENG/TZ1/XX/M
+
+
+                           110
+3.   Amplitude is              = 55                                                                                       (A1)
+                            2
+     a = -55                                                                                                               A1
+
+     c = 65                                                                                                                A1
+
+
+     2p
+        = 20 OR −55cos(20b) + 65 = 10                                                                                     (M1)
+      b
+
+           p
+     b=         ( = 0.314 )                                                                                                A1
+           10
+                                                                                                                          Total [5 marks]
+
+4.   (a)    recognising v = 0                                                                                             (M1)
+
+               t = 6.74416...
+
+               = 6.74 (sec)                                                                                                A1
+            Note: Do not award A1 if additional values are given.
+
+                                                                                                                                 [2 marks]
+
+                   10                       6.74416...                 9.08837...                 10
+     (b)       ò        v ( t ) dt OR − ∫                v(t) dt + ∫                v(t) dt − ∫            v(t) dt        (A1)
+                0                       0                          6.74416...                 9.08837...
+
+
+
+
+               = 37.0968...
+
+               = 37.1 (m)                                                                                                  A1
+                                                                                                                                 [2 marks]
+
+     (c)    recognising acceleration at t = 7 is given by v '(7)                                                          (M1)
+
+            acceleration = 5.93430...
+
+                = 5.93 (ms-2)                                                                                              A1
+                                                                                                                                [2 marks]
+                                                                                                                          Total [6 marks]
+                                                      – 11 –                M21/5/MATHX/HP2/ENG/TZ1/XX/M
+
+
+5.   METHOD 1
+
+     product of a binomial coefficient, a power of 3 (and a power of x 2 ) seen            (M1)
+     evidence of correct term chosen                                                       (A1)
+
+                       ( ) ⎛⎜⎝ = n(n2+ 1) × 3 × x ⎞⎟⎠ OR n − r = 1
+                            2
+     n+1
+        C2 × 3n+1−2 × x 2                   n−1   4
+
+
+
+     equating their coefficient to 20412 or their term to 20412x 4                         (M1)
+
+     EITHER
+
+     n +1
+        C2 ´ 3n-1 = 20412                                                                  (A1)
+
+     OR
+
+     r +2
+           Cr ´ 3r = 20412 Þ r = 6                                                         (A1)
+
+     THEN
+
+     n=7                                                                                    A1
+
+
+     METHOD 2
+
+                     n+1
+       ⎛
+      n+1  x2 ⎞
+     3 ⎜ 1+ ⎟
+       ⎝   3⎠
+                                                               2
+                                                                        1
+     product of a binomial coefficient and a power of x            OR     seen             (M1)
+                                                           3            3
+     evidence of correct term chosen                                                       (A1)
+
+                            2
+      n +1    n +1æ x 2 ö æ n-1 n(n + 1) 4 ö
+     3 ´ C2 ´ ç ÷ ç = 3                   x ÷
+                  è 3ø è             2       ø
+     equating their coefficient to 20412 or their term to 20412x 4                         (M1)
+
+              n(n + 1)
+     3n−1 ×            = 20412                                                             (A1)
+                 2
+
+     n=7                                                                                               A1
+
+                                                                                           Total [5 marks]
+                                                             – 12 –           M21/5/MATHX/HP2/ENG/TZ1/XX/M
+
+
+
+6    (a)   attempt to find a vector perpendicular to Π1 and Π 2
+           using a cross product                                                             (M1)
+           æ 3ö æ 1 ö
+           ç ÷ ç ÷
+           ç 2 ÷ ´ ç -2 ÷ = ( 2 - ( -2 ) ) i + (1 - 3) j + ( -6 - 2 ) k
+           ç1÷ ç 1 ÷
+           è ø è ø
+              æ 4 öæ       æ 2 öö
+              ç ÷ç         ç ÷÷                                                              (A1)
+           = ç -2 ÷ ç = 2 ç -1 ÷ ÷
+              ç -8 ÷ ç     ç -4 ÷ ÷
+              è øè         è øø
+                                                (
+           equation is 4 x - 2 y - 8z = 0 Þ 2 x - y - 4 z = 0             )                   A1
+                                                                                                    [3 marks]
+
+     (b)   attempt to solve 3 simultaneous equations in 3 variables                          (M1)
+           æ 41 10 23 ö
+           ç , - , ÷ ( = (1.95, -0.476,1.10 ) )                                               A1
+           è 21 21 21 ø
+                                                                                                   [2 marks]
+                                                                                             Total [5 marks]
+
+
+                                                                    x
+7.   (a)   recognition of the need to integrate                                              (M1)
+                                                             (x + k)
+                                                                2         3
+
+
+
+                        x
+           ò                        dx ( = 1)
+               (x + k)
+                    2           3
+
+
+           EITHER
+                             du
+           u = x2 + k Þ         = 2 x (or equivalent)                                        (A1)
+                             dx
+                     x           1 -3
+           ò                dx = ò u 2 du
+               (            )    2
+                          3
+                   x2 + k
+                 1
+                         æ                  1
+                                                    ö
+           = -u 2 ( +c ) ç = - ( x 2 + k ) 2 ( +c ) ÷
+               -                          -
+                                                                                              A1
+                         è                          ø
+                                                                                                continued…
+                                                                         – 13 –   M21/5/MATHX/HP2/ENG/TZ1/XX/M
+
+
+Question 7 continued
+
+            OR
+                       x                    1        2x
+            ò                       dx =
+                                            2ò
+                                                               dx                                (A1)
+                 (x + k)                         (x + k)
+                   2            3                    2     3
+
+
+
+
+                                        1
+            = - ( x 2 + k ) 2 ( +c )
+                                    -
+                                                                                                  A1
+            THEN
+            attempt to use correct limits for their integrand and set equal to 1                  M1
+                       16 + k                                        4
+            é - 12 ù               é          ù                  1
+
+                                                 (         )
+                                                               -
+            ê -u ú         = 1 OR ê- x 2 + k ú = 1               2
+
+            ë      ûk              ë          û0
+                                 1
+                         1     -   æ   1      1        ö
+            - (16 + k ) 2 + k 2 = 1ç Þ
+                       -
+                                          -         = 1÷                                          A1
+                                   è    k    16 + k    ø
+                16 + k - k = k 16 + k                                                             AG
+
+                                                                                                        [5 marks]
+
+     (b)    attempt to solve                16 + k - k = k 16 + k                                (M1)
+            k = 0.645038...
+            = 0.645                                                                               A1
+                                                                                                       [2 marks]
+                                                                                                 Total [7 marks]
+
+8.   (a)    ( zw =)16                                                                             A1
+                                                                                                         [1 mark]
+
+     (b)                           () ( )
+            attempt to find arg z + arg w                                                        (M1)
+
+           arg ( zw) = arg ( z ) + arg ( w)
+                π 2kπ æ (1 - 2k ) π ö
+            =    -    ç=            ÷                                                             A1
+                5 5 è        5      ø
+                                                                                                        [2 marks]
+
+                                                                                                    continued…
+                                                        – 14 –        M21/5/MATHX/HP2/ENG/TZ1/XX/M
+
+
+Question 8 continued
+
+     (c)   (i)    zw Î Z Þ arg ( zw) is a multiple of π                                    (M1)
+                  Þ 1 - 2k is a multiple of 5                                              (M1)
+                  k =3                                                                       A1
+
+           (ii)   zw = 16 ( cos ( -π ) + isin ( -π ))
+                  -16                                                                       A1
+                                                                                                 [4 marks]
+                                                                                           Total [7 marks]
+
+
+                      50 OR         y-x
+9.   (a)   tan q =          cot q =                                                         A1
+                     y-x             50
+            y = x + 50 cot q                                                                AG
+     Note: 𝑦 − 𝑥 may be identified as a length on a diagram, and not written explicitly.
+
+                                                                                                  [1 mark]
+
+     (b)   attempt to differentiate with respect to t                                      (M1)
+           dy dx                 2 dq
+             =   - 50 ( cosecq )                                                            A1
+           dt dt                   dt
+           attempt to set speed of B equal to double the speed of A                        (M1)
+            dx dx                   2 dq
+           2   = - 50 ( cosecq )
+            dt dt                     dt
+           dx                  2 dq
+              = -50 ( cosecq )                                                              A1
+           dt                    dt
+                                                                                2
+
+           q = arctan 5 ( = 1.373…= 78.69…°) OR cosec q = 1 + cot q = 1 + æç ö÷ =
+                                                                 2   2       1    26
+                                                                                           (A1)
+                                                                           è 5 ø 25
+           Note: This A1 can be awarded independently of previous marks.
+
+           dx       æ 26 ö
+              = -50 ç ÷ ´ -0.1
+           dt       è 25 ø
+           So the speed of boat A is 5.2 (ms-1)                                             A1
+
+           Note: Accept 5.20 from the use of inexact values.
+
+                                                                                                 [6 marks]
+                                                                                           Total [7 marks]
+                                                     – 15 –            M21/5/MATHX/HP2/ENG/TZ1/XX/M
+
+
+                                                   Section B.
+
+10.   (a)   attempt to find the point of intersection of the graph of f and the line y = x (M1)
+            x = 5.56619...
+
+            = 5.57                                                                           A1
+
+                                                                                                  [2 marks]
+
+
+      (b)   f ¢( x) = -45e-0.5 x                                                            A1
+            attempt to set the gradient of f equal to -1                                  (M1)
+            -45e-0.5 x = -1
+            Q has coordinates      ( 2ln 45, 2) (accept (-2ln 1 , 2)                     A1A1
+                                                              45
+      Note: Award A1 for each value, even if the answer is not given as a coordinate pair.
+                                1
+                              ln
+            Do not accept       45 or ln 45 as a final value for x . Do not accept 2.0 or 2.00
+                             -0.5      0.5
+            as a final value for y .
+
+
+                                                                                                  [4 marks]
+
+      (c)   attempt to substitute coordinates of Q ( in any order)
+            into an appropriate equation                                                  (M1)
+            y - 2 = - ( x - 2ln 45) OR 2 = -2ln 45 + c                                       A1
+            equation of L is y = - x + 2ln 45 + 2                                            AG
+                                                                                                  [2 marks]
+
+                                                                                              continued…
+                                                                     – 16 –                           M21/5/MATHX/HP2/ENG/TZ1/XX/M
+
+
+Question 10 continued
+
+     (d)   (i) x = ln 45 + 1 = 4.81  (        )                                                                               A1
+
+           (ii) appropriate method to find the sum of two areas using integrals of the difference
+            of two functions                                                                (M1)
+
+           Note: Allow absent or incorrect limits.
+
+
+                          ( x - ( - x + 2ln 45 + 2 ) ) dx + ò              (90e            - ( - x + 2ln 45 + 2 ) ) dx
+               5.566...                                         7.613...
+           ò
+                                                                                  -0.5 x
+                                                                                                                         (A1)(A1)
+            4.806...                                        5.566...
+
+
+     Note: Award A1 for one correct integral expression including correct limits
+          and integrand.
+          Award A1 for a second correct integral expression including correct limits and
+          integrand.
+
+           = 1.51965...
+           = 1.52                                                                                                             A1
+                                                                                                                                    [5 marks]
+
+     (e)   by symmetry 2 ´1.52                                                                                              (M1)
+           = 3.03930...
+           = 3.04                                                                                                             A1
+     Note: Accept any answer that rounds to 3.0 (but do not accept 3).
+
+                                                                                                                                  [2 marks]
+                                                                                                                           Total [15 marks]
+                                                             – 27 –        M21/5/MATHX/HP2/ENG/TZ1/XX/M
+
+
+11.   (a)   attempt to solve 4 x 2 - 1 = 0 e.g. by factorising 4 x 2 - 1                   (M1)
+                1       1
+             p = , q = - or vice versa                                                     A1
+                2       2
+                                                                                                 [2 marks]
+
+      (b)   attempt to use quotient rule or product rule                                  (M1)
+
+       EITHER
+
+
+
+        f '( x) =
+                   (          )
+                  3 4 x 2 - 1 - 8 x ( 3 x + 2 ) æ -12 x 2 - 16 x - 3 ö
+                                                ç=                   ÷                   A1A1
+                          (           )         ç
+                                                     (         )     ÷
+                                    2                           2
+                           4x -1
+                              2
+                                                è    4 x -1
+                                                          2
+                                                                     ø
+      Note: Award A1 for each term in the numerator with correct signs, provided correct
+            denominator is seen.
+
+       OR
+
+
+                                  (        ) + 3( 4x -1)
+                                               -2             -1
+        f ' ( x ) = -8x ( 3x + 2 ) 4 x 2 - 1             2
+                                                                                         A1A1
+
+      Note: Award A1 for each term.
+
+                                                                                                 [3 marks]
+
+      (c)                                                          ( )       ( )
+            attempt to find the local min point on y = f ¢ x OR solve f ¢¢ x = 0          (M1)
+             x = -1.60                                                                     A1
+                                                                                                 [2 marks]
+
+                                                                                             continued…
+                                                – 18 –              M21/5/MATHX/HP2/ENG/TZ1/XX/M
+
+
+Question 11 continued
+
+     (d)
+
+
+
+
+                                                                              A1A1A1A1A1
+
+     Note: Award A1 for both vertical asymptotes with their equations, award A1 for
+           horizontal asymptote with equation, award A1 for each correct branch including
+           asymptotic behaviour, coordinates of minimum and maximum points (may be
+           seen next to the graph) and values of axes intercepts.
+           If vertical asymptotes are absent (or not vertical) and the branches overlap as a
+           consequence, award maximum A0A1A0A1A1.
+
+
+                                                                                                [5 marks]
+
+                                                                                               continued…
+                                                   – 19 –                M21/5/MATHX/HP2/ENG/TZ1/XX/M
+
+
+Question 11 continued
+
+           2
+e)   x=-     ( = -0.667 )                                                                       A1
+           3
+                                         4
+     (oblique asymptote has) gradient      ( = 1.33)                                          (A1)
+                                         3
+     appropriate method to find complete equation of oblique asymptote                         M1
+                      4     8
+                        x-
+                      3     9
+          3x + 2 4 x + 0 x - 1
+                    2
+
+
+                        8
+                  4 x2 + x
+                        3
+                    8
+                  - x -1
+                    3
+                    8    16
+                  - x-
+                    3     9
+                            7
+                            9
+                 4    8
+           y=      x - ( = 1.33x - 0.889 )                                                      A1
+                 3    9
+
+     Note: Do not award the final A1 if the answer is not given as an equation.
+
+                                                                                                       [4 marks]
+
+     f)    attempting to find at least one critical value   ( x = -0.568729..., x = 1.31872...) (M1)
+               2
+           -     < x < -0.569    OR    -0.5 < x < 0.5       OR    x > 1.32                A1A1A1
+               3
+
+     Note: Only penalize once for use of £ rather than < .
+
+                                                                                                    [4 marks]
+                                                                                             Total [20 marks]
+                                                     – 20 –        M21/5/MATHX/HP2/ENG/TZ1/XX/M
+
+
+                1     a   b
+12.   (a)            º +
+            x (k - x) x k - x
+            a ( k - x ) + bx = 1                                                      (A1)
+            attempt to compare coefficients OR substitute x = k and x = 0 and solve   (M1)
+                 1 and    1
+            a=         b=                                                               A1
+                 k        k
+                     1       1
+            f '( x) = +
+                     kx k ( k - x )
+                                                                                              [3 marks]
+
+                                           a   b
+      (b)   attempt to integrate their       +                                        (M1)
+                                           x k-x
+                       1 æ1 1 ö
+            f ( x) =
+                       k òè x k - x ø
+                          ç +       ÷ dx
+                1                            æ 1    x        ö
+            =     ( ln x - ln k - x ) ( +c ) ç = ln   ( +c ) ÷                        A1A1
+                k                            è k k-x         ø
+                                                                                              [3 marks]
+
+      Note: Award A1 for each correct term. Award A1A0 for a correct answer without modulus
+            signs. Condone the absence of +c.
+
+
+                                                                                          continued…
+                                                      – 21 –            M21/5/MATHX/HP2/ENG/TZ1/XX/M
+
+
+Question 12 continued
+
+     (c)   attempt to separate variables and integrate both sides                        M1
+
+                      1
+           5k ò             dP= ò 1dt
+                  P (k - P)
+           5 ( ln P - ln ( k - P )) = t + c                                              A1
+
+     Note: There are variations on this which should be accepted, such as
+           1                           1
+           k
+             ( ln P - ln ( k - P ) ) = t + c. Subsequent marks for these variations should be awarded as
+                                      5k
+           appropriate.
+
+           EITHER
+
+           attempt to substitute t = 0 , P = 1200 into an equation involving c           M1
+                                                æ      æ 1200 ö ö
+           c = 5 ( ln1200 - ln ( k - 1200 ) ) ç = 5ln ç           ÷÷                     A1
+                                                è      è k - 1200 ø ø
+           5 ( ln P - ln ( k - P )) = t + 5 ( ln1200 - ln ( k -1200))                    A1
+
+              æ P ( k - 1200 ) ö t
+           ln ç                   =
+              ç 1200 ( k - P ) ÷÷ 5
+              è                 ø
+            P ( k - 1200 )      t
+                           =e   5                                                        A1
+           1200 ( k - P )
+
+           OR
+
+              æ P ö t +c
+           ln ç   ÷=
+              èk-Pø 5
+                       t
+              P                                                                          A1
+                 = Ae 5
+           k-P
+           attempt to substitute t = 0 , P = 1200                                        M1
+             1200
+                    =A                                                                   A1
+           k - 1200
+                              t
+             P    1200e 5
+                =                                                                        A1
+           k - P k - 1200
+                                                                                            continued…
+                                                      – 22 –                 M21/5/MATHX/HP2/ENG/TZ1/XX/M
+
+
+Question 12 continued
+
+           THEN
+
+           attempt to rearrange and isolate P                                                     M1
+                                            t     t         t            t
+                                                          -            -
+           Pk - 1200 P = 1200ke - 1200 Pe OR Pke - 1200 Pe
+                                            5     5         5            5
+                                                                             = 1200k - 1200 P
+                 k       k - 1200
+           OR      -1 =         t
+                 P
+                         1200e 5
+             æ                  t
+                                  ö          t
+                                                    æ -t          -
+                                                                    t
+                                                                            ö
+           P ç k - 1200 + 1200e 5 ÷ = 1200ke 5 OR P ç ke 5 - 1200e 5 + 1200 ÷ = 1200k             A1
+             è                    ø                 è                       ø
+                        1200k
+           P=                        t
+                                                                                                  AG
+                                 -
+                ( k - 1200 ) e       5
+                                         + 1200
+                                                                                                        [8 marks]
+
+     (d)   attempt to substitute t = 10 , P = 2400                                              (M1)
+                            1200k
+           2400 =                                                                                (A1)
+                    ( k - 1200) e-2 + 1200
+           k = 2845.34...
+           k = 2845                                                                               A1
+
+     Note: Award (M1)(A1)A0 for any other value of k which rounds to 2850
+                                                                                                        [3 marks]
+
+
+     (e)   attempt to find the maximum of the first derivative graph OR zero
+                                                           k
+           of the second derivative graph OR that P =        ( = 1422.67...)                    (M1)
+                                                           2
+           t = 1.57814...
+           = 1.58 (days)                                                                          A2
+
+     Note: Accept any value which rounds to 1.6.
+                                                                                                       [3 marks]
+                                                                                                Total [20 marks]
+

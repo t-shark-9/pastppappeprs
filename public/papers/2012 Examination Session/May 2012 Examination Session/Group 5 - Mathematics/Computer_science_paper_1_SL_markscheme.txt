@@ -1,0 +1,442 @@
+M12/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+
+
+                   MARKSCHEME
+
+
+                           May 2012
+
+
+
+                COMPUTER SCIENCE
+
+
+                      Standard Level
+
+
+
+                               Paper 1
+
+
+
+
+13 pages
+                              –2–            M12/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+
+
+This markscheme is confidential and for the exclusive use of
+examiners in this examination session.
+
+It is the property of the International Baccalaureate and must not
+be reproduced or distributed to any other person without the
+authorization of IB Cardiff.
+                                                –3–              M12/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+General Marking Instructions
+
+After marking a sufficient number of scripts to become familiar with the markscheme and
+candidates’ responses to all or the majority of questions, Assistant Examiners (AEs) will be
+contacted by their Team Leader (TL). The purpose of this contact is to discuss the standard
+of marking, the interpretation of the markscheme and any difficulties with particular questions.
+It may be necessary to review your initial marking after contacting your TL. DO NOT BEGIN
+THE FINAL MARKING OF YOUR SCRIPTS IN RED INK UNTIL YOU RECEIVE
+NOTIFICATION THAT THE MARKSCHEME IS FINALIZED. You will be informed by
+e-mail, fax or post of modifications to the markscheme and should receive these about one week
+after the date of the examination. If you have not received them within 10 days you should
+contact your TL and IB Cardiff. Make an allowance for any difference in time zone
+before calling. AEs WHO DO NOT COMPLY WITH THESE INSTRUCTIONS MAY
+NOT BE INVITED TO MARK IN FUTURE SESSIONS.
+
+
+You should contact the TL whose name appears on your “Allocation of Schools listing” sheet.
+
+
+Note:
+Please use a personal courier service when sending sample materials to TLs unless postal services can
+be guaranteed. Record the costs on your examiner claim form.
+                                                    –4–              M12/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+General Marking Instructions
+1.    Once markscheme is received mark in pencil until final markscheme is received.
+
+2.    Follow the markscheme provided, do not use decimals or fractions and mark only in RED.
+
+3.    Where a mark is awarded, a tick () should be placed in the text at the precise point where it
+      becomes clear that the candidate deserves the mark.
+
+4.    Sometimes, careful consideration is required to decide whether or not to award a mark. Indeed,
+      another examiner may have arrived at the opposite decision. In these cases write a brief annotation
+      in the left-hand margin to explain your decision. You are encouraged to write comments where it
+      helps clarity, especially for moderation and re-marking.
+
+5.    Unexplained symbols or personal codes/notations on their own are unacceptable.
+
+6.    Record subtotals (where applicable) in the right-hand margin against the part of the answer to which
+      they refer. Show a mark for each part question (a), (b), etc. Do not circle sub-totals. Circle the total
+      mark for the question in the right-hand margin opposite the last line of the answer.
+
+7.    Where an answer to a part question is worth no marks, put a zero in the right-hand margin.
+
+8.    Section A: Add together the total for the section and write it in the Examiner Column on the cover
+                 sheet.
+      Section B: Record the mark awarded for each of the four questions answered in the Examiner
+                 Column on the cover sheet.
+      Total:     Add up the marks awarded and enter this in the box marked TOTAL in the Examiner
+                 Column on the cover sheet.
+
+9.    After entering the marks on the cover sheet check your addition of all marks to ensure that you have
+      not made an arithmetical error. Check also that you have transferred the marks correctly to the
+      cover sheet. We have script checking and a note of all clerical errors may be given in feedback
+      to all examiners.
+
+10.   Every page and every question must have an indication that you have marked it. Do this by writing
+      your initials on each page where you have made no other mark.
+
+11.   A candidate can be penalized if he/she clearly contradicts him/herself within an answer. Once again
+      make a comment to this effect in the left-hand margin.
+                                                 –5–             M12/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+Subject Details:             Computer Science SL Paper 1 Markscheme
+Mark Allocation
+
+Section A:    Candidates are required to answer all questions. Total 30 marks.
+Section B:    Candidates are required to answer all questions. Total 40 marks.
+              Maximum total = 70 marks.
+
+General
+
+A markscheme often has more specific points worthy of a mark than the total allows. This is intentional.
+Do not award more than the maximum marks allowed for that part of a question.
+
+When deciding upon alternative answers by candidates to those given in the markscheme, consider the
+following points:
+
+      Each statement worth one point has a separate line and the end is signified by means of a
+        semi-colon (;).
+
+      An alternative answer or wording is indicated in the markscheme by a “/”; either wording can
+        be accepted.
+
+      Words in ( … ) in the markscheme are not necessary to gain the mark.
+
+      If the candidate’s answer has the same meaning or can be clearly interpreted as being the
+        same as that in the markscheme then award the mark.
+
+      Mark positively. Give candidates credit for what they have achieved and for what they have
+        got correct, rather than penalizing them for what they have not achieved or what they have got
+        wrong.
+
+      Remember that many candidates are writing in a second language; be forgiving of minor
+        linguistic slips. In this subject effective communication is more important than grammatical
+        accuracy.
+
+     Occasionally, a part of a question may require a calculation whose answer is required for
+        subsequent parts. If an error is made in the first part then it should be penalized. However, if
+        the incorrect answer is used correctly in subsequent parts then follow through marks should
+        be awarded. Indicate this with “FT”.
+                                                    –6–              M12/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+                                               SECTION A                                   Total: [30 marks]
+
+1.   Early detection of errors in source code through syntax analysis;
+     Reusability/portability of programs across different platforms;
+     Conversion of source code to executable/object code;                                         [2 marks]
+
+2.   Award up to [4 marks max].
+     Validation aims to reduce data errors, especially at input stage;
+     Data not in a prescribed format for processing are discarded;
+     To prevent propagation of invalid data in the system;
+     Verification aims to establish the accuracy of the input data;
+     And limits errors introduced by human operators in inputting data;                           [4 marks]
+
+
+3.   Award up to [2 marks max].
+     CPU has more primary memory and more registers than a microprocessor;
+     CPU stores more programs in ROM than a microprocessor does;
+     CPU executes more programs (faster) than a microprocessor;
+     Input/output in some microprocessors can be analogue;                                        [2 marks]
+
+
+4.   To manage the (fair) access to shared resources (processor time, memory, etc.);
+     Among several competing processes that run simultaneously;
+     To monitor the functioning of hardware resources and report malfunctions;                    [2 marks]
+
+5.   Award [1 mark] for each type of data, up to [3 marks max].
+     Normal data and data within the range limits:
+         The system shall correctly work for the correct data as expected;
+
+     Extreme data:
+          The system will correctly handle data of correct type, but out of range –
+          error message;
+
+     Abnormal Data:
+         The system will handle data of the incorrect type – error message;                       [3 marks]
+
+
+6.   Award [1 mark] for clearing or erasing pre-existing data from the dis. Award up to
+     [2 marks max].
+     An empty file system is set up (or multiple file systems are, if the disk is partitioned);
+     A boot sector is installed, with code for booting programs;
+     (That are possibly stored elsewhere in the disk;)
+     Accept more detailed descriptions on the role of blocks, block tables, booting
+     sectors, etc.                                                                                [2 marks]
+                                                  –7–               M12/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+7.    (a)   25  25  25 ( 32768) ;                                                        [1 mark]
+
+      (b)   70  100  2 Bytes  14 000 Bytes (or 14 kB, or 14 000  1024  13.67 kiB);     [1 mark]
+
+      (c)   Award [1 mark] for each modality, up to [2 marks max].
+            Choose a different colour representation;
+            And augment the number of pixels to be stored in 2 bytes;
+
+            Resize the initial dimensions;
+            To store with the same colour encoding a smaller number of pixels;
+
+            Accept bitmap and explanation of how it works.
+            Do not accept compression only, without explanations.                           [2 marks]
+
+
+8.    8;                                                                                    [1 mark]
+
+
+9.    (a)   Award [1 mark] for each part of 4 bits, up to [2 marks max].
+            1101 0100                                                                       [2 marks]
+      (b)   212;                                                                            [1 mark]
+
+
+10.   Award [1 mark] for describing the role/position of cache;
+      Award [1 mark] for how it is used by the CPU;
+      Cache between CPU and RAM, temporary store for program instructions, to
+      speed-up retrieval;
+      CPU searches an instruction’s address first in the cache, and if not found, in RAM;   [2 marks]
+
+
+11.   Award up to [1 mark max]. Possible answers include:
+      Increased security:
+            More expensive to produce, hence risks of forgery is reduced;
+      Faster to read/process:
+            Understandable by both humans and machines;
+            No interpretation needed;                                                       [1 mark]
+                                                  –8–              M12/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+12.   Award marks as follows up to [4 marks max].
+      Award [1 mark] for the disadvantage;
+      Award [1 mark] for the explanation;
+      For two cases.
+
+      Time consuming;
+           Because several persons with several roles might be interviewed;
+           And interviews must target these different categories of people;
+
+      Interviewees may talk about about different things, making comparisons difficult;
+
+      Answers may not reflect the expectation of persons in roles different from the one of
+      the interviewee;
+            This can result in contradictory or inconsistent data;
+
+      People are often biased/untruthful in interviews;
+           This can produce incorrect data that can mislead the design team;
+
+      Possible not homogeneous interpretations of collected data;
+           Interviewers might value some details more than others;                            [4 marks]
+                                                    –9–                 M12/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+                                                SECTION B                              Total: [40 marks]
+
+13.   (a)   Award marks as follows up to [5 marks max].
+            Award [1 mark] for showing the mainframe;
+            Award [1 mark] for correct use of switch and possible gateways (to connect
+            LAN to WAN);
+            Award [1 mark] for showing the servers at regional centres;
+            Award [1 mark] for correctly depicting the elements of the LANs;
+            Award [1 mark] for clearly labelling the elements;
+
+            Several answers are possible: here it is depicted as a star-of-bus.
+            Bus-of-stars (Bus as backbone), star-of-stars (with several switches) and
+            ring-star are viable alternatives.
+
+
+
+                                                           Switch
+                                                           Server at regional centre
+                                                           Terminal/operator
+                                                           Mainframe
+
+
+                                                                                              [5 marks]
+
+      (b)   (i)    Optical cable, general telecom lines;                                       [1 mark]
+
+            (ii)   Twisted pair, coaxial cable;
+                   Accept “air” and “Ethernet cable” but do NOT accept “Ethernet”
+                   without the “cable” modifier.                                               [1 mark]
+
+      (c)   Because a switch inspects the data packet received (destination);
+            It forwards the packet to the appropriate server only;
+            Hence the performances of the network are better than with a hub that would
+            broadcast;                                                                        [3 marks]
+
+                                                                                       Total: [10 marks]
+                                                      – 10 –       M12/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+14.   (a)               ;                                                            [1 mark]
+
+      (b)   Award marks as follows up to [3 marks max].
+            Award [1 mark] for a correct  column;
+            Award [1 mark] for correct columns  and ;
+            Award [1 mark] for correct column ;
+                                                                             
+              {0, 0, 0, 0, 0, 0}       0        3
+              {3, 0, 0, 0, 0, 0}       1       10
+              {3, 7, 0, 0, 0, 0}       2       11
+              {3, 7, 1, 0, 0, 0}       3       13
+              {3, 7, 1, 2, 0, 0}       4       22
+              {3, 7, 1, 2, 0, 0}                         4
+              {3, 7, 1, 2, 0, 0}                         5                                     [3 marks]
+
+      (c)   Because the  command already initializes all elements of with 0 (default
+            value of ); Must identify a reason (accept “initialized”) not just “because
+            its already all zeros.                                                              [1 mark]
+
+      (d)   Parameters   and         such that        ;
+            Do not award the mark if there is reference to the variable .                    [1 mark]
+
+      (e)   (i)   Award [1 mark] for each situation up to [2 marks max].
+                  An array such that the sum of all its elements is not greater than
+                  the capacity;
+                  The last existing element will increment the index array for the next
+                  iteration, giving an “out of bound” message;                                 [2 marks]
+
+
+                                                                                             continued …
+                                                     – 11 –            M12/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+Question 14 continued
+
+             (ii)    Award [1 mark] for each suggestion up to [2 marks max].
+                        the  must check also the current index of the array;
+                         (This alone is not sufficient to handle the last element of the array)
+
+                          extend the array files, with one element more (copied into a
+                           temporary structure), to correctly perform the comparisons of
+                           indexes on the last element;
+
+                     Example of working code – (code not required, but some students might
+                     return it).
+
+                                                           
+                
+                    
+                           
+                        ! 
+
+              "#
+             $  "#
+              
+
+                !    
+                %
+                
+
+                    &      &
+                    !   
+                    ' 
+                   !$    (('$   
+                   
+                    &'  ' !  
+                    !!"  '"#  !!  
+                    ''"#
+                   )
+                     &
+                     )                                                                              [2 marks]
+
+                                                                                             Total: [10 marks]
+                                                     – 12 –               M12/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+15.   (a)   Card’s details (company/number) extracted from chip;
+            Send request of authorization to company transmitting card number, pin, public
+            key and (limit of) 70 EUR and waits for reply message;                              [2 marks]
+
+      (b)   The current expenditure;                                                             [1 mark]
+
+      (c)   Award marks as follows up to [4 marks max].
+            Award [1 mark] for the two inputs (Card and fuel type)
+            Award [1 mark] for process of calculating bill and producing output;
+            Award [1 mark] for indicating access/communication to store for update;
+            Award [1 mark] for returning the card in both failed/success authorization;
+            Award [1 mark] for dispensing fuel;
+            Award [1 mark] for card validation/transaction;
+
+
+
+                        Card and
+                        fuel type
+
+
+
+                    Validation and
+                    authorization
+                                                              Print-out
+                                                               request
+                Fail            Success
+
+
+                                                         Calculate bill;
+                 Return card         Dispense fuel
+                                                       update expenditure
+
+
+                       Card                                   Receipt
+
+
+            Different styles for drawing flowcharts are acceptable. Award marks whenever
+            the criteria stated above are clearly visible in the drawing.                        [4 marks]
+
+      (d)   Award up to [3 marks max].
+            If the customer is attacked;
+            A robber can fill his car instead, and also steal the card;
+            But the limit of 70 EUR minimizes the loss for the customer;                         [3 marks]
+
+                                                                                          Total: [10 marks]
+                                                  – 13 –              M12/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+16.   (a)   The update process involves all records (linear cost);
+            Low processing overhead in using sequential access for a global update;       [2 marks]
+
+      (b)   Award [1 mark] for any statement such as:
+            Binary search;
+            Because the records are ordered;                                              [2 marks]
+
+      (c)   Award up to [2 marks max].
+            Open file;
+            Find record with binary search using product code;
+            When found, compare price with boundaries;
+            Close file;                                                                   [2 marks]
+
+      (d)   The file needs to be entirely rewritten;
+            To maintain the logical order of the record (sequence);                       [2 marks]
+
+      (e)   Award up to [2 marks max].
+            Records placed randomly on disk, directly retrieved via a primary key;
+            Access time for a record is constant (fast for interactive processing);
+            (and independent from the other records);
+
+            Fully/partially indexed files are not SL, but might be known. Accept these
+            answers.                                                                      [2 marks]
+

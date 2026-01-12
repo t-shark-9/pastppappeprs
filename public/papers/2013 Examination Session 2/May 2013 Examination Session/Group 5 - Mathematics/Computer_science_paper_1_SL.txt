@@ -1,0 +1,203 @@
+M13/5/COMSC/SP1/ENG/TZ0/XX
+
+
+
+
+     22137013
+
+COMPUTER SCIENCE
+STANDARD LEVEL
+PAPER 1
+
+Tuesday 14 May 2013 (afternoon)
+
+1 hour 30 minutes
+
+
+INSTRUCTIONS TO CANDIDATES
+
+   Do not open this examination paper until instructed to do so.
+   Section A: answer all the questions.
+   Section B: answer all the questions.
+   The maximum mark for this examination paper is [70 marks].
+
+
+
+
+2213-7013                                                                                            6 pages
+                                                             © International Baccalaureate Organization 2013
+                                                       –2–             M13/5/COMSC/SP1/ENG/TZ0/XX
+
+                                               SECTION A
+
+Answer all the questions.
+
+1.    State two forms of direct data entry.                                                    [2 marks]
+
+
+2.    Outline one advantage and one disadvantage to protest groups of communicating by
+      social networks.                                                                         [4 marks]
+
+
+3.    Identify two uses of CASE development tools in the development of a
+      computer-controlled manufacturing process.                                               [2 marks]
+
+
+4.    With reference to the CPU,
+
+      (a)   Outline the function of the control unit                                           [2 marks]
+
+      (b)   Describe how the size of the registers is related to the size of primary memory.   [2 marks]
+
+
+5.    Describe a disadvantage of the use of virtual memory.                                    [2 marks]
+
+
+6.    Outline the function of virus-checker software.                                          [2 marks]
+
+
+7.    Outline one difference between ASCII and UNICODE representation.                         [2 marks]
+
+
+8.    (a)   Express the decimal number 189 as hexadecimal.  You must show your working.        [2 marks]
+
+      (b)   Convert –87 to an 8 bit two’s complement representation.                           [2 marks]
+
+
+9.    Consider the following fragment of code.
+
+      int x = 15;
+      int y = 6;
+      double z = x;
+      double v = z/y;
+
+      State the value for v, explaining your answer.                                           [3 marks]
+
+
+
+
+2213-7013
+                                                  –3–                 M13/5/COMSC/SP1/ENG/TZ0/XX
+
+10.   Discuss, with an example, when the use of a mirrored system is essential.         [3 marks]
+
+
+11.   Describe the error-check sum in data transmission.                                [2 marks]
+
+
+
+
+2213-7013                                                                               Turn over
+                                                    –4–                 M13/5/COMSC/SP1/ENG/TZ0/XX
+
+                                                SECTION B
+
+Answer all the questions.
+
+12.   A LAN in a health centre allows two receptionists and four doctors to share three
+      PCs and a printer which are connected to a server.   The LAN has a star topology,
+      and uses cables.
+
+      (a)   (i)    Define the term server.                                                       [1 mark]
+
+            (ii)   Define the term client.                                                       [1 mark]
+
+      (b)   Outline the role of a hub in a star topology.                                        [2 marks]
+
+      The doctors can access only the medical records of the patients; the receptionists
+      cannot access the medical records of the patients and deal only with registering new
+      patients and booking appointments.
+
+      (c)   (i)    Describe how the access of the doctors and the receptionists can be
+                   restricted to the appropriate parts of the file system.                       [2 marks]
+
+            It is proposed to allow patients partial access to the health centre’s system over
+            the internet.
+
+            (ii)   Explain the type and level of access that should be granted to the patients
+                   and how this would be achieved.                                               [4 marks]
+
+
+
+
+2213-7013
+                                                   –5–                   M13/5/COMSC/SP1/ENG/TZ0/XX
+
+13.   Consider the following method.
+
+      public boolean property(String s)
+      {
+        int len=s.length();
+        int m;
+        if (len%2 != 0)
+        {m=len/2 + 1 ;}
+        else {m=len/2;}
+        int i=0;
+        int j=m;
+        while (i<m && j<len)
+        {
+          if (s.charAt(i) != s.charAt(j))
+          {return false;}
+          i=i+1;
+          j=j+1;
+        }
+        return true;
+      }
+
+      (a)   State the value of m when the string s is “abcdefg”.                            [1 mark]
+
+      (b)   By copying and completing the following table, trace the method for the call
+            property (“xyzdxyx”).                                                          [4 marks]
+
+              i      j      i<m && j<len        s.charAt(i)!= s.charAt(j)         return
+              0      …             …                                                 …
+
+
+
+
+      (c)   Identify a string for which the program would return true.                      [1 mark]
+
+      (d)   Identify the termination conditions for the loop.                              [2 marks]
+
+      (e)   Explain how the use of the return statement affects the efficiency of the
+            method property().                                                             [2 marks]
+
+
+
+
+2213-7013                                                                                  Turn over
+                                                     –6–                 M13/5/COMSC/SP1/ENG/TZ0/XX
+
+14.   An IT solutions company will provide a system for a major customer.  The system
+      analysis has been carried out and a feasibility report has been presented to the customer.
+
+      (a)   State two pieces of information that the feasibility report may contain.               [2 marks]
+
+      The company is considering using either commercial software or customized software.
+
+      (b)   Discuss the factors that will affect their decision.                                   [4 marks]
+
+      (c)   Explain why more than one cycle of analysis and design might be desirable.             [4 marks]
+
+
+15.   A charity organization has designed its own website.  This website can be accessed
+      through different browsers.
+
+      (a)   Identify a language for constructing web pages.                                        [1 mark]
+
+      (b)   Outline the function of a browser, as an application.                                  [2 marks]
+
+      (c)   Suggest, with reasons, if the browser behaves as an interpreter or a compiler of
+            the language identified in part (a).                                                   [3 marks]
+
+      It is possible to make donations through the website.  Donations are not anonymous
+      and can be further referred to by the donors, for tax return purposes.
+
+      (d)   Suggest how the organization can ensure that data is secure from
+            unauthorized access.                                                                   [4 marks]
+
+
+
+
+2213-7013
+

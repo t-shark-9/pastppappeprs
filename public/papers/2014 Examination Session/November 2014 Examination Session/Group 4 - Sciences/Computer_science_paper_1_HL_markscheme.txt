@@ -1,0 +1,445 @@
+N14/4/COMSC/HP1/ENG/TZ0/XX/M
+
+
+
+
+                   MARKSCHEME
+
+
+                      November 2014
+
+
+
+                COMPUTER SCIENCE
+
+
+
+                        Higher Level
+
+
+
+                               Paper 1
+
+
+
+
+12 pages
+                            –2–           N14/4/COMSC/HP1/ENG/TZ0/XX/M
+
+
+
+
+This markscheme is the property of the International
+Baccalaureate and must not be reproduced or distributed to any
+other person without the authorization of the IB Assessment
+Centre.
+                                                  –3–              N14/4/COMSC/HP1/ENG/TZ0/XX/M
+
+
+
+Subject Details:             Computer Science HL Paper 1 Markscheme
+Mark Allocation
+
+Section A: Candidates are required to answer all questions. Total 25 marks.
+Section B: Candidates are required to answer all questions. Total 75 marks.
+           Maximum total = 100 marks.
+
+General
+
+A markscheme often has more specific points worthy of a mark than the total allows. This is intentional.
+Do not award more than the maximum marks allowed for that part of a question.
+
+When deciding upon alternative answers by candidates to those given in the markscheme, consider the
+following points:
+
+          Each statement worth one point has a separate line and the end is signified by means of
+           a semi-colon (;).
+
+          An alternative answer or wording is indicated in the markscheme by a “/”; either wording can
+           be accepted.
+
+          Words in ( … ) in the markscheme are not necessary to gain the mark.
+
+          If the candidate’s answer has the same meaning or can be clearly interpreted as being the
+           same as that in the markscheme then award the mark.
+
+          Mark positively. Give candidates credit for what they have achieved and for what they have
+           got correct, rather than penalizing them for what they have not achieved or what they have
+           got wrong.
+
+          Remember that many candidates are writing in a second language; be forgiving of
+           minor linguistic slips. In this subject effective communication is more important than
+           grammatical accuracy.
+
+          Occasionally, a part of a question may require a calculation whose answer is required for
+           subsequent parts. If an error is made in the first part then it should be penalized. However, if
+           the incorrect answer is used correctly in subsequent parts then follow through marks should
+           be awarded. Indicate this with “FT”.
+
+
+General guidance
+
+ Issue          Guidance
+ Answering      • In the case of an “identify” question read all answers and mark positively up to the
+ more than        maximum marks. Disregard incorrect answers.
+ the quantity   • In the case of a “describe” question, which asks for a certain number of facts
+ of responses     eg “describe two kinds”, mark the first two correct answers. This could include two
+ prescribed       descriptions, one description and one identification, or two identifications.
+ in the         • In the case of an “explain” question, which asks for a specified number of
+ questions        explanations eg “explain two reasons …”, mark the first two correct answers.
+                  This could include two full explanations, one explanation, one partial explanation etc.
+                                                   –4–               N14/4/COMSC/HP1/ENG/TZ0/XX/M
+
+
+                                               SECTION A                                 Total: [25 marks]
+
+1.   (a)   Award up to [2 marks max].
+           Made up of rows and columns used to organize data;
+           Automatically (re)calculates results when data is entered/changed;
+           Helps people to get various results/many combinations quickly;
+           Built in graphics, charts allow easier and faster interpretation of data;
+           Etc.                                                                                  [2 marks]
+
+     (b)   A set of programs through which a computer manages/controls its own resources;         [1 mark]
+
+
+2.   Part of a processor that performs arithmetic and logical operations;                         [1 mark]
+
+
+3.   Binary numbers have base 2, hexadecimal numbers have base 16 (24=16);
+     Each digit (letter/number) in a hexadecimal number can be represented by the group of
+     four binary digits;                                                                   [2 marks]
+
+
+4.   (a)   A data structure;
+           Which can only be accessed at one end / the last (first) element in is the first (last)
+           one out;
+           Note: accept “LIFO” for the 2nd marking point.                                          [2 marks]
+
+     (b)   Award up to [2 marks max].
+           Used in calculations, evaluation of expressions;
+           Translations from one programming language to another;
+           Transferring control from one part of a program to another (such as storing return
+           addresses, running recursive processes);
+           Etc.                                                                               [2 marks]
+
+
+5.   Award up to [4 marks max].
+     Award [1 mark] for each correct row. Accept 1/0 instead of true/false.
+     For all 4 correct input combinations award [1 mark].
+
+         A         B          X
+       true       true      false
+       false      true       true
+       true      false       true
+       false     false      false                                                                [4 marks]
+
+
+6.   Award up to [3 marks max].
+     A large/difficult program could be divided into smaller/easier parts (sub-programs);
+     A sub-program could be used many times in this and other programs;
+     A sub-program could be written independently;
+     A sub-program could be tested independently;
+     Easier maintenance – only sub-program could be changed/modified as needed;
+     Etc.                                                                                        [3 marks]
+                                                 –5–              N14/4/COMSC/HP1/ENG/TZ0/XX/M
+
+
+7.   Award up to [3 marks max]. Award [1 mark] for each correct output.
+
+           K         K>1       P      output
+           3          true     1        3
+           2          true     2        2
+           1         false     2        2
+
+     Note: candidates are not expected to produce the whole trace table, only the outputs.    [3 marks]
+
+
+8.   A technique which allows one unit to check the status of another unit;
+     At regular intervals;                                                                    [2 marks]
+
+
+9.   (a) A set of rules / standards to coordinate data transmission (between a sender and a
+     receiver);                                                                               [1 mark]
+
+     (b)       Award up to [2 marks max].
+               To ensure data integrity;
+               To control data flow;
+               Provide error checking;
+               Minimize congestion;
+               Prevent deadlock;
+               To allow communication;
+               Etc.                                                                           [2 marks]
+                                                    –6–              N14/4/COMSC/HP1/ENG/TZ0/XX/M
+
+
+                                             SECTION B                                  Total: [75 marks]
+
+10.   (a)   Award up to [5 marks max]. Award [1 mark] for each labelled flow chart symbol.
+
+
+
+
+                                                                                                  [5 marks]
+
+      (b)   Award up to [2 marks max].
+            Updating inventory database;
+            Storing transactions for later auditing;
+            Producing reports (such as transfer report, reorder report etc);
+            Re-pricing;
+            Batch processing takes place;                                                        [2 marks]
+
+      (c)   Award up to [3 marks max].
+            Natural disasters;
+            Viruses;
+            Hackers;
+            Disgruntled employees;
+            Hard disk failure;
+            Server stolen;
+            Etc.                                                                                  [3 marks]
+
+      (d)   Award up to [3 marks max].
+            Loss of hardware should not be a major problem and it is not too expensive for the
+            company, if the hardware is insured then new substitute hardware could be found
+            quickly (repurchased);
+            Loss of software should not be a critical problem if owner has made backup
+            copies (reinstalled);
+            Loss of data could be quite expensive for the company and it could also extend to
+            security problems – misusing information about company and individuals that are
+            stored in the company’s database;
+            Difficult/impossible to replace data;
+
+            Note: Accept answers that assume the user still has a copy of the “lost” data.        [3 marks]
+                                            –7–              N14/4/COMSC/HP1/ENG/TZ0/XX/M
+
+
+(e)   Award up to [2 marks max].
+      Passwords;
+      Cryptography;
+      Internal controls/separation of employees functions/secured waste, etc;
+      Antivirus programs;
+      Backup systems (removable media, offsite storage);
+      Strengthen physical security in company;
+      Etc.                                                                             [2 marks]
+
+                                                                                Total: [15 marks]
+                                                  –8–             N14/4/COMSC/HP1/ENG/TZ0/XX/M
+
+
+11.   (a)   Award [1 mark] for the correct loop.
+            Award [1 mark] for increasing the sum for the correct value.
+
+            S=0
+            loop for K=0 to 6
+                 S=S+A[K, K]
+            end loop                                                                          [2 marks]
+
+      (b)   Award marks as follows, up to [8 marks max].
+            Award [2 marks] for correctly calculating sum of the second diagonal:
+                  [1 mark] for the correct loop and [1 mark] for increasing the sum for the
+                  correct value.
+            Award [1 mark] for a correct use of the Boolean variable, MAGIC.
+            Award [1 mark] for correct outer loop.
+            Award [1 mark] for correct inner loop.
+            Award [1 mark] for correct calculation of the row sum.
+            Award [1 mark] for correct calculation of column sum.
+            Award [1 mark] for comparing row sum and column sum with diagonal sum.	  
+
+            Example:
+            MAGIC= TRUE
+            SD1=0
+            SD2=0
+            loop for K=0 to 5
+                 SD1=SD1+A[K, K]
+                 SD2=SD2+A[K, N-K]
+            end loop
+            if SD1 != SD2
+                 MAGIC = FALSE
+            end if
+            K=0
+            loop while (K<=5) AND MAGIC
+                 SR=0
+                 SC=0
+                 loop for Z=0 to 5
+                      SR=SR+A[K, Z]
+                      SC=SC+A[Z, K]
+                 end for
+                 if (SR != SD1) OR (SC!=SD1)
+                      MAGIC = FALSE
+                 end if
+                 K=K+1
+            end while
+            if MAGIC= TRUE
+                 output “The array is a magic square”
+            else
+                 output “The array is not a magic square”
+            end if                                                                            [8 marks]
+                                             –9–               N14/4/COMSC/HP1/ENG/TZ0/XX/M
+
+
+
+(c)   Award [1 mark] if the “off the edge” rule seen.
+      Award [1 mark] if the “off the top” rule seen.
+      Award [1 mark] if the “cell already filled” rule seen.
+      Award [2 marks] for whole square complete.
+
+       17    24     1     8    15
+       23     5     7    14    16
+        4     6    13    20    22
+       10    12    19    21     3
+       11    18    25     2     9                                                    [5 marks]
+
+                                                                              Total: [15 marks]
+                                                  – 10 –            N14/4/COMSC/HP1/ENG/TZ0/XX/M
+
+
+12.   (a)   Award up to [2 marks max].
+            They should specify program objectives;
+            They should specify program users/collect the information from the users;
+            They should specify output requirements;
+            They should specify input requirements;
+            They should specify processing requirements;
+            They should document the requirements and objectives;
+            Etc.                                                                                 [2 marks]
+
+      (b)   Award [1 mark max] for any two of the following:
+            Pseudocode
+            Program flowcharts
+            Structure diagrams                                                                    [1 mark]
+
+      (c)   Award up to [3 marks max].
+            Award [1 mark] for an explanation of why beta testing is appropriate.
+            Award [1 mark] for an explanation of why it is not appropriate.
+            Award [1 mark] for contrasting the two and making a decision.
+
+            Example:
+            Not appropriate, as beta testing involves other people, but the timescale may not
+            permit this;
+            However the involvement of other people provides increased objectivity;
+            Therefore alpha-testing is better;                                                [3 marks]
+
+      (d)   Award up to [3 marks max].
+            Is programming language complex or easy to use / do all students know
+            the syntax?;
+            Is there a good base of prewritten library functions?;
+            Is portability good?;
+            Is the compiler available over a wide range of hardware and software platforms?;
+            Is speed of execution good?;
+            Is the language appropriate to the problem?;
+            Is it Web-based/mobile?;
+            Etc.                                                                             [3 marks]
+
+      (e)   (i)    Designing algorithms and producing documentation;                              [1 mark]
+
+            (ii)   First defining the problem and then designing algorithms/coding;               [1 mark]
+
+      (f)   Award up to [4 marks	  max].	                                                             	  
+            Points may include:
+            It shows only if the project is on schedule;
+            It does not show what to do if one part of project is taking longer than expected;
+            It does not show who is responsible for a particular activity;
+            It does not show what should be done in other projects which depend on this one;
+            So the result might be an extension of time;
+            It does not identify critical activities and actions to be taken;
+            To make sure the project is not going over the budget;
+            Does not show dependence between tasks;
+            Etc.                                                                               [4 marks]
+
+                                                                                         Total: [15 marks]
+                                                 – 11 –            N14/4/COMSC/HP1/ENG/TZ0/XX/M
+
+
+13.   (a)   Award up to [2 marks max].
+            Movement sensor;
+            Touch sensor / pressure;
+            Heat sensor (infrared);                                                             [2 marks]
+
+      (b)   Award [1 mark] for the method and [1 mark] for how it is delivered, up to
+            [2 marks max].
+            Flashing light / Text message;
+            Appears on device;
+
+            OR
+
+            Siren;
+            Fitted around prison;                                                               [2 marks]
+
+      (c)   (i)    Cable;                                                                       [1 mark]
+
+            (ii)   Award up to [1 mark max].
+                   Satellite;
+                   Radio;
+                   Wi-fi transmission;                                                          [1 mark]
+
+      (d)   Encryption;                                                                         [1 mark]
+
+      (e)   Award up to [2 marks max].
+            Security system can make sure guards are in correct place/area;
+            Make sure guards are moving;
+            See who is closest to an incident;                                                  [2 marks]
+
+      (f)   Award up to [6 marks max].
+            Award up to [2 marks] for an argument for people carrying GPS.
+            Award up to [2 marks] for an argument against people carrying GPS.
+            Award up to [2 marks] for some comparison and conclusion.
+
+            Examples:
+            People who are under house arrest can be controlled/monitored by the authorities;
+            Allowing a curfew or restricted movement to be enforced;
+            Which is preferable as otherwise they would be locked up;
+            Children forced by parents/teachers to carry a device;
+            Creates a lack of trust / infringes on their liberties;
+
+            Accept appropriate conclusion based on candidate’s examples.                        [6 marks]
+
+                                                                                       Total: [15 marks]
+                                                  – 12 –           N14/4/COMSC/HP1/ENG/TZ0/XX/M
+
+
+14.   (a)   (i)    Award marks as follows, up to [3 marks max].
+                   Award [1 mark] for the external pointer to the list and no further nodes at
+                   the end.
+                   Award [1 mark] for showing internal pointers.
+                   Award [1 mark] for showing that each node contains data and pointer fields.
+                   Example diagram
+
+
+
+
+                                                                                                 [3 marks]
+
+            (ii)   Award up to [3 marks max].
+                   Temporary pointer should be set to point to the beginning of the list;
+                   Follow the internal pointers;
+                   And compare the data in the node pointed to by the temporary pointer with
+                   the searched data;
+                   If found stop searching;
+                   If the end of the list is reached then the searched data is not on the list; [3 marks]
+
+      (b)   (i)    BORIS, JANE, IVY, ANNIE, ROBERT, MARK;                                        [1 mark]
+
+            (ii)   Inorder traversal;                                                            [1 mark]
+
+      (c)   Award up to [4 marks max].
+            If the name to be deleted is placed in a node which has two children then find the
+            replacement node (the largest value in its left sub-tree / the smallest value in its
+            right sub-tree) and its parent node;
+            If the replacement node is either the leaf node or has one child;
+            Set the data fields in the node to be deleted to the data value in the replacement
+            node;
+            Delete the replacement node;
+            If the replacement node to be deleted is a leaf node then just set the pointer in its
+            parent node to null;
+            If the replacement node to be deleted has one child then set the pointer in its
+            parent node to point to its child;                                                    [4 marks]
+
+      (d)   Award up to [3 marks max].
+            A linked list takes n comparisons to find a name, average search time is
+            proportional to number of elements;
+            When the binary tree is well balanced, it takes log2n comparisons to find a name
+            (no more than n comparisons);
+            So, a binary tree is usually more efficient, however in extreme cases will only take
+            as long as a linked list;                                                            [3 marks]
+
+                                                                                        Total: [15 marks]
+

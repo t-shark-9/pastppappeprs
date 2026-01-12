@@ -1,0 +1,370 @@
+No part of this product may be reproduced in any form or by any electronic or
+mechanical means, including information storage and retrieval systems, without written
+permission from the IB.
+
+Additionally, the license tied with this product prohibits commercial use of any selected
+files or extracts from this product. Use by third parties, including but not limited to
+publishers, private teachers, tutoring or study services, preparatory schools, vendors
+operating curriculum mapping services or teacher resource digital platforms and app
+developers, is not permitted and is subject to the IB’s prior written consent via a license.
+More information on how to request a license can be obtained from
+http://www.ibo.org/contact-the-ib/media-inquiries/for-publishers/guidance-for-third-party-
+publishers-and-providers/how-to-apply-for-a-license.
+
+Aucune partie de ce produit ne peut être reproduite sous quelque forme ni par quelque
+moyen que ce soit, électronique ou mécanique, y compris des systèmes de stockage et
+de récupération d’informations, sans l’autorisation écrite de l’IB.
+
+De plus, la licence associée à ce produit interdit toute utilisation commerciale de tout
+fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris, sans
+toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de tutorat
+ou d’aide aux études, des établissements de préparation à l’enseignement supérieur,
+des fournisseurs de services de planification des programmes d’études, des
+gestionnaires de plateformes pédagogiques en ligne, et des développeurs
+d’applications, n’est pas autorisée et est soumise au consentement écrit préalable de
+l’IB par l’intermédiaire d’une licence. Pour plus d’informations sur la procédure à suivre
+pour demander une licence, rendez-vous à l’adresse http://www.ibo.org/fr/contact-the-
+ib/media-inquiries/for-publishers/guidance-for-third-party-publishers-and-providers/how-
+to-apply-for-a-license.
+
+No se podrá reproducir ninguna parte de este producto de ninguna forma ni por ningún
+medio electrónico o mecánico, incluidos los sistemas de almacenamiento y
+recuperación de información, sin que medie la autorización escrita del IB.
+
+Además, la licencia vinculada a este producto prohíbe el uso con fines comerciales de
+todo archivo o fragmento seleccionado de este producto. El uso por parte de terceros
+—lo que incluye, a título enunciativo, editoriales, profesores particulares, servicios de
+apoyo académico o ayuda para el estudio, colegios preparatorios, desarrolladores de
+aplicaciones y entidades que presten servicios de planificación curricular u ofrezcan
+recursos para docentes mediante plataformas digitales— no está permitido y estará
+sujeto al otorgamiento previo de una licencia escrita por parte del IB. En este enlace
+encontrará más información sobre cómo solicitar una licencia: http://www.ibo.org/es/
+contact-the-ib/media-inquiries/for-publishers/guidance-for-third-party-publishers-and-
+providers/how-to-apply-for-a-license.
+N19/3/ITGSX/HP1/ENG/TZ0/XX
+
+
+
+
+Information technology in a global society
+Higher level
+Paper 1
+
+
+Friday 15 November 2019 (afternoon)
+
+
+2 hours 15 minutes
+
+
+Instructions to candidates
+y   Do not open this examination paper until instructed to do so.
+y   Section A: a
+                nswer two questions.
+y   Section B: a
+                nswer one question.
+y   Each question is worth [20 marks].
+y   The maximum mark for this examination paper is [60 marks].
+
+
+
+
+                                                                                               8819 – 5511
+      9 pages                                              © International Baccalaureate Organization 2019
+  –2–        N19/3/ITGSX/HP1/ENG/TZ0/XX
+
+
+
+
+Blank page
+                                                           –3–                      N19/3/ITGSX/HP1/ENG/TZ0/XX
+
+                                                      Section A
+Answer two questions. Each question is worth [20 marks].
+1.    Biometric authorization
+      Bright Creativa is an advertising company with approximately 100 employees, who work in
+      their head office in Seattle. The company has decided to introduce a biometric authorization
+      system using fingerprint scanners (see Figure 1). This enables the employees to gain
+      access to the company’s resources, for example to enter the building, log on to the company
+      network and even purchase items from the company cafe.
+                      Figure 1: An employee using biometric authorization to access
+                                       the office at Bright Creativa
+
+
+
+
+ [Source: adapted image (recoloured) “Fingerprint scanner in Tel Aviv” by David Shankbone (https://commons.wikimedia.org/).
+             Under copyright and creative commons licence 3.0 (https://creativecommons.org/licenses/by/3.0/).]
+
+      The system is linked to the company database. The employee’s identification number
+      (employee ID) is the primary key field in the Employee table, which stores their personal
+      details. The company database includes other tables that store data on when they access
+      the building, the frequency that they log on to the network and the items they purchase from
+      the cafe. Some employees are concerned about the increased level of surveillance within the
+      company, but the company has reassured these employees that a privacy policy has been
+      developed.
+                                    [Source: © International Baccalaureate Organization 2019]
+
+      (a)    (i)     Identify two fields that could be in the Employee table of the database.                           [2]
+
+             (ii)    Identify two characteristics of a relational database.                                             [2]
+
+             (iii)   Identify two methods that could be used to ensure that the data input to the
+                      database is accurate.                                                                             [2]
+
+      (b)    As part of the implementation of the biometric authorization system, Bright Creativa has
+             written a privacy policy.
+
+             Explain three features that Bright Creativa would need to include in a privacy policy
+             linked to the company’s biometric authorization system.                                                    [6]
+
+      (c)    To what extent is the employees’ improved access to company resources outweighed
+              by their concerns about the level of surveillance by the company?                                         [8]
+
+                                                                                                                Turn over
+                                                       –4–                       N19/3/ITGSX/HP1/ENG/TZ0/XX
+
+2.   Wildfire modelling
+
+     The fire control centre in the Kinakora National Park in New Zealand often has to cope with
+     the natural phenomenon of wildfires. Staff have been collecting data about wildfires since 1970.
+
+     The size of each fire is measured and the vegetation types affected are recorded. Data on
+     the weather conditions is collected from sensors in the park. The staff at the fire control
+     centre use this information to fight the fire.
+
+     A new computer modelling system is being developed using the product development life
+     cycle (PDLC). With data collected from previous fires, this new system will improve the
+     quality of the information available when fighting future fires.
+
+     The new system will enable staff at Kinakora National Park to send information to tourists in
+     the park to warn them when they are in danger from a fire.
+
+                              [Source: © International Baccalaureate Organization 2019]
+
+
+     (a)   (i)     Identify two stages of the product development life cycle (PDLC).                    [2]
+
+           (ii)    Identify two methods that could be used to train the staff to use the new
+                   modelling system.                                                                    [2]
+
+           (iii)   Identify two measurements that could be taken by the weather sensors in the
+                   Kinakora National Park.                                                              [2]
+
+     (b)   Two methods for informing tourists about wildfires in Kinakora National Park are:
+            y Short Message Service (SMS) texting/text messaging
+           y Posting information on the Kinakora National Park website.
+
+           Analyse these two methods.                                                                   [6]
+
+     (c)   Evaluate Kinakora National Park’s decision to use computer modelling to develop
+           strategies for dealing with wildfires.                                                       [8]
+                                                        –5–                      N19/3/ITGSX/HP1/ENG/TZ0/XX
+
+3.   Online learning
+
+     TailorEd is a free online learning system that personalizes students’ learning by providing
+     teachers with data about how students are progressing in their courses. Students create a
+     personal profile and work through the assignments at their own pace. Teachers can log in to
+     the learning system to see how the students are progressing. However, concerns have been
+     expressed about the amount of data that is being collected.
+
+     The school has found that when students access the course platform some content is being
+     blocked by the school firewall. The network administrator has been asked to investigate the
+     situation. Teachers believe that it would be more appropriate to train the students to use the
+     platform responsibly, rather than use technology to block their access to certain websites.
+
+                              [Source: © International Baccalaureate Organization 2019]
+
+
+     (a)   (i)     Identify two ways that the TailorEd system could provide feedback to the students. [2]
+
+           (ii)    Identify two ways that the data collected about students’ academic progress
+                   could be used by TailorEd.[2]
+
+           (iii)   Outline how a firewall functions.                                                    [2]
+
+     (b)   There are two possible methods for ensuring students use the TailorEd online learning
+           system responsibly. They are:
+           y Restrict access to sites that may be considered inappropriate.
+           y Educate the students about acceptable use.
+
+           Analyse these two options.                                                                   [6]
+
+     (c)   To what extent do the benefits of collecting students’ progress data outweigh the
+           concerns of the students, teachers and parents?                                              [8]
+
+
+
+
+                                                                                                   Turn over
+                                                        –6–                      N19/3/ITGSX/HP1/ENG/TZ0/XX
+
+                                                   Section B
+
+Answer one question. Each question is worth [20 marks].
+
+4.   Neural networks are changing surveillance
+
+     Currently, security cameras record activities in supermarkets and a security guard watches
+     the camera footage in real time. If the guard sees something suspicious, action can be taken.
+     The company AI Security Innovations is looking at ways to further develop this technology
+     using artificial intelligence (AI) to automate the process.
+
+     The field of AI is developing rapidly, and is being transformed by machine learning using
+     neural networks. AI Security Innovations wants to link the cameras to an AI system that can
+     distinguish between something innocent, such as a child playing with a toy gun, and a crime,
+     such as shoplifting (see Figure 2). These AI security cameras will be designed to make the
+     decision about whether to intervene or not. This could include “locking down” the premises to
+     secure all exits so that the suspect cannot escape, or sending an alert in real time to the police.
+
+                                Figure 2: An example of a security camera
+
+
+
+
+                    [Source: https://pixabay.com/photos/video-camera-surveillance-camera-3121655/]
+
+
+     These cameras will be part of extremely sophisticated detection systems based on pattern
+     recognition. They will be able to detect humans, rapidly separate authorized personnel from
+     intruders and match faces from multiple camera sources in order to track people moving from
+     location to location. Researchers are even exploring systems that can detect the presence of
+     concealed guns based on the way an individual walks.
+
+     (a)   (i)     Identify two characteristics of machine learning.                                      [2]
+
+           (ii)    Outline one reason why neural networks may be used for the processing of data
+                   from devices such as surveillance cameras.                                             [2]
+
+           (iii)   Outline how pattern recognition works.                                                 [2]
+
+     (b)   Explain why an agile project management methodology would be used in the
+           development of the new AI surveillance camera system.                                          [6]
+
+     (c)   To what extent should pattern recognition in AI systems be trusted to make decisions
+           about sending real-time alerts to the police?                                                  [8]
+
+5.   Automated medical image analysis
+                                                         –7–                        N19/3/ITGSX/HP1/ENG/TZ0/XX
+
+    EBBZS IT, based in Groningen, Holland intends to develop a system using artificial
+    intelligence (AI) to assist doctors at Joelstraat Hospital to interpret medical images. The
+    legacy system at the hospital is an expert system, but it is unable to keep pace with the
+    advances in digital imaging.
+
+    Due to the increased quality of the digital images (see Figure 3), the new AI system will
+    be able to learn from them to assist doctors when diagnosing patients’ illnesses. It will also
+    be able to cope with the significant increase in the volume of patients and the increased
+    complexity of their symptoms and conditions. The managers at Joelstraat Hospital, including
+    the information system manager, are unsure which changeover method to use to change
+    from the expert system to the new AI-based system.
+
+                        Figure 3: Examples of images used in the new AI system
+
+
+
+
+    [Source: adapted image (resized and recoloured) “Normal axial T2-weighted MR image of the brain” by Novaksean
+                           (en.wikipedia.org). Under copyright and creative commons licence 4.0
+                                  (https://creativecommons.org/licenses/by-sa/4.0/deed.en).
+Lefevre, N, Naouri, JF, Herman, S, Gerometta, A, Klouche, S and Bohu, Y. 2016. A current review of the meniscus imaging:
+   proposition of a useful tool for its radiologic analysis. Radiol Res Pract. 8329296. Published online 2016 Feb 11. doi:
+      10.1155/2016/8329296. Under Creative Commons Attribution License. Copyright © 2016 Nicolas Lefevre et al.]
+
+
+    (a)    (i)     Identify two features of a legacy system.                                                            [2]
+
+           (ii)    Identify two reasons why a feasibility study is used during project development.                     [2]
+
+           (iii)   Identify two stakeholders that the information systems manager should consult in
+                   the initial investigation.                                                                           [2]
+
+    (b)    Two changeover methods that could be used for the introduction of the new AI system are:
+           y Direct changeover
+           y Phased changeover.
+
+           Analyse these two changeover methods.                                                                        [6]
+
+    (c)    Joelstraat Hospital currently bases the diagnoses of patients’ illnesses on:
+           y Information provided by the expert system
+           y Discussions between the doctors and the patients.
+
+           The new AI system will be a significant improvement over the current expert system.
+
+           To what extent should the diagnosis of patients’ illnesses be based on the information
+           provided by the AI system?                                                                                   [8]
+
+
+
+
+                                                                                                                Turn over
+                                                     –8–                      N19/3/ITGSX/H P1/ENG/TZ0/XX
+
+6.   Robotic mops
+
+     The FluffyMopa is a robotic mop that is used to clean floors. It does this by spraying water
+     onto the surface and then moving across the area to clean and dry it (see Figure 4). The
+     FluffyMopa has the following features:
+     y Sensors to prevent the FluffyMopa colliding with walls
+     y Sensors to detect the dirtiness of the floor, or the nature of the floor surface
+     y WiFi receiver for control via a cell/mobile phone
+     y Programmable cleaning schedule.
+
+                                        Figure 4: The FluﬀyMopa
+
+
+
+
+                                      FluffyMop
+                                               a
+
+
+
+
+     Systems analysts have gathered customer feedback about the FluffyMopa and have
+     recommended that a new version, the FM2, is developed. The FM2 could include features such as:
+     y An app* that enables video output to a cell/mobile phone
+     y Natural language processing capabilities
+     y A camera to enable it to map the home.
+
+     The timeline for the development of the FM2 has been set out in a Gantt chart.
+
+
+                               [Source: © International Baccalaureate Organization 2019]
+
+
+
+
+* app: an app (application software) is typically a small, specialized program
+  downloaded onto mobile devices; apps can also run on the internet, on a computer,
+  or on a cell/mobile phone or other electronic device
+
+
+
+(This question continues on the following page)
+                                                    –9–                    N19/3/ITGSX/HP1/ENG/TZ0/XX
+
+(Question 6 continued)
+
+     (a)   (i)    Identify two characteristics of a robot.                                                   [2]
+
+           (ii)   The FluffyMopa is fitted with a proximity sensor that uses ultrasound to avoid
+                  collisions with walls and furniture.
+
+                  Identify the steps that the FluffyMopa would take to prevent collisions occurring.         [4]
+
+     (b)   (i)    Distinguish between a Gantt chart and a Pert chart.                                        [2]
+
+           (ii)   Explain why alpha and beta testing would be necessary for the development of
+                  the FM2.                                                                                   [4]
+
+     (c)   During the development of the FM2, an app was created that could enable an owner of
+           a FM2 to carry out the following tasks remotely:
+           y Check the quality of the cleaning using video footage from the FM2.
+           y Check the amount of charge remaining in the battery.
+           y Use natural language processing so that the owner can give instructions such as “OK
+              Fluffy, clean the kitchen floor now”, or “Fluffy, return to the docking station to recharge”.
+
+           Discuss whether the FM2 should be developed to include these additional features.                 [8]
+

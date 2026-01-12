@@ -1,0 +1,475 @@
+M10/5/COMSC/HP1/ENG/TZ0/XX/M+
+
+
+
+
+                    MARKSCHEME
+
+
+                                May 2010
+
+
+
+                  COMPUTER SCIENCE
+
+
+                          Higher Level
+
+
+
+                                Paper 1
+
+
+
+
+15 pages
+                              –2–          M10/5/COMSC/HP1/ENG/TZ0/XX/M+
+
+
+
+
+This markscheme is confidential and for the exclusive use of
+examiners in this examination session.
+
+It is the property of the International Baccalaureate and must not
+be reproduced or distributed to any other person without the
+authorization of IB Cardiff.
+                                                 –5–            M10/5/COMSC/HP1/ENG/TZ0/XX/M+
+
+
+Subject Details:             Computer Science HL Paper 1 Markscheme
+Mark Allocation
+
+Section A:    Candidates are required to answer all questions. Total 40 marks.
+Section B:    Candidates are required to answer all questions. Total 60 marks.
+              Maximum total = 100 marks.
+
+General
+
+A markscheme often has more specific points worthy of a mark than the total allows. This is intentional.
+Do not award more than the maximum marks allowed for that part of a question.
+
+When deciding upon alternative answers by candidates to those given in the markscheme, consider the
+following points:
+
+      Each statement worth one point has a separate line and the end is signified by means of a
+        semi-colon (;).
+
+      An alternative answer or wording is indicated in the markscheme by a “/”; either wording can
+        be accepted.
+
+      Words in ( … ) in the markscheme are not necessary to gain the mark.
+
+      If the candidate’s answer has the same meaning or can be clearly interpreted as being the
+        same as that in the markscheme then award the mark.
+
+      Mark positively. Give candidates credit for what they have achieved and for what they have
+        got correct, rather than penalising them for what they have not achieved or what they have got
+        wrong.
+
+      Remember that many candidates are writing in a second language; be forgiving of minor
+        linguistic slips. In this subject effective communication is more important than grammatical
+        accuracy.
+
+     Occasionally, a part of a question may require a calculation whose answer is required for
+        subsequent parts. If an error is made in the first part then it should be penalized. However, if
+        the incorrect answer is used correctly in subsequent parts then follow through marks should
+        be awarded. Indicate this with “FT”.
+                                                   –6–             M10/5/COMSC/HP1/ENG/TZ0/XX/M+
+
+
+                                              SECTION A                                 Total: [40 marks]
+
+1.   Award up to [2 marks max].
+     A list of available tools/hardware/software etc.;
+     Facilities;
+     Communication;
+     People available;
+     Schedule for the next stage;
+     etc.                                                                                         [2 marks]
+
+
+2.   (a)   11A                                                                                    [2 marks]
+
+     (b)   0001 0001 1010 ;                                                                       [1 mark]
+
+     (c)   Overflow;                                                                              [1 mark]
+
+
+3.   Award up to [2 marks max].
+     The ALU receives data to be processed;
+     Performs arithmetical;
+     And logical operations;
+     (Uses logic gates) to perform the calculations;
+     (Uses logic gates) to perform comparisons;
+     Returns the answer to the accumulator / (output registers);                                  [2 marks]
+
+
+4.   Accept any reasonable answers, given that characteristics evolve rapidly.
+
+     Award up to [2 marks max] for an appropriate application of each with reference to backup.
+     Example:
+     Tape could be used for regular backup of large amounts of data, flash memory to back
+     up immediately when needed.
+
+     Award up to [2 marks max] for the advantages/disadvantages of each.
+     Example1:
+     Flash memory is more portable between machines – tape has large capacity and can be
+     programmed to back up as a batch job.
+     Example2:
+     Tape has sequential access (slower), flash memory has direct access (faster).
+     Example3:
+     Tape is cheaper per GB but hardware needed is more expensive.                       [4 marks]
+
+
+5.   Private class members can only be accessed from within the class (in which they
+     are defined);
+     Public class members can be accessed from outside the class;                    [2 marks]
+                                                     –7–             M10/5/COMSC/HP1/ENG/TZ0/XX/M+
+
+
+6.    (a)   Award [1 mark] for suitable macro and [1 mark] for appropriate package up to
+            [2 marks max].
+            Example:
+            A macro to clear/update entries in a spreadsheet;
+            A macro to type a name using a hotkey in a word processor;
+            Creating a circle for a given radius in a graphics package;                  [2 marks]
+
+      (b)   Award [1 mark] for each suitable advantage.
+            Example:
+            Saves time as code does not have to be reproduced;
+            Portability – can be used again (sometimes across different applications);
+            Adaptability – can easily be changed to suit needs;                                  [2 marks]
+
+
+7.    Award up to [3 marks max].
+      Checksum is computed from data;
+      Groups of bits are added before transmission and the sum appended to the group;
+      When the data is received the actual sum is compared with the check sum;
+      If the two are the same it is assumed that the data has not been corrupted;
+      Otherwise a re-send would be requested;                                                    [3 marks]
+
+
+8.    Award up to [2 marks max].
+      Saves time for the programmer in the long term as an interface is created which may not
+      be accepted;
+      Early feedback from user could save later changes which could be difficult/time
+      consuming;
+      More user/programmer interaction – increases the programmers understanding of
+      the problem;                                                                            [2 marks]
+
+
+9.    (a)   Award [1 mark] for each appropriate use of an interrupt up to [2 marks max].
+            Example:
+            Interrupt used to indicate that a client wants access to the server (in a multi access
+            system);
+            A peripheral needs serving (load CD, printer etc.);
+            Software application reports an error;
+            Power problem alert (battery low, blackout etc.);                                      [2 marks]
+
+      (b)   Award up to [2 marks max].
+            Operating system is alerted that a service is needed (i.e. flag set);
+            Depending on the priority;
+            Current processing is suspended;
+            Stack used to store current state;
+            Service dealt with and processing resumed;                                           [2 marks]
+
+
+10.   Award up to [3 marks max].
+      Search engine accesses a list of URLs;
+      Indexed by key words;
+      List of addresses under these key words returned;
+      Accept reference to importance of key words in the ordering of the returned websites;      [3 marks]
+                                                      –8–             M10/5/COMSC/HP1/ENG/TZ0/XX/M+
+
+
+11.   Accept points in (i) that are given in (ii) for both (a) and (b).
+
+      (a)   (i)    Serial transmission receives/sends data bit by bit, sequentially;
+                   Is suitable for long distance cables as data is less likely to corrupt on one line; [2 marks]
+
+            (ii)   Connecting computers in a LAN;                                                     [1 mark]
+
+      (b)   (i)    Parallel transmission receives/sends data more than 1 (normally 8) bits at
+                   a time, in parallel;
+                   Is suitable for short distance since data on parallel line can get “out of sync”
+                   in long distance;                                                                [2 marks]
+
+            (ii)   Award [1 mark max].
+                   Transmission within the CPU;
+                   Transmission within the computer/from printer to computer;                         [1 mark]
+
+12.   (a)   Virtual memory is a way of appearing to extend primary memory;
+            By using part of secondary memory in the same way as primary memory;                     [2 marks]
+
+      (b)   Part of the program (or data) is held on hard disk;
+            Called in (by paging) when needed;                                                       [2 marks]
+                                                    –9–           M10/5/COMSC/HP1/ENG/TZ0/XX/M+
+
+
+                                               SECTION B                                 Total: [60 marks]
+
+13.   (a)   Data type for the thickness would need to be floating point (double);
+            Small changes would need to be recorded;                                             [2 marks]
+
+      (b)   Award [1 mark] for suitable method and [1 mark] for an elaboration up to
+            [2 marks max].
+
+            Example:
+            Use sensors on current routes (that could be replaced by the road bridge);
+            To count the amount of traffic which might use the bridge;
+            At different times of the day;
+
+            Example:
+            Use questionnaires/interviews at different points on the route;
+            At different times of the day;
+            To find out how many vehicles would use the bridge instead of the current routes;   [2 marks]
+
+      (c)   Award up to [4 marks max].
+            Simulate normal and extreme traffic flow;
+            Increase amount of traffic until bridge not stable;
+            Or amount of traffic impossible;
+            Repeat with different thicknesses;
+            To obtain suitable thickness;                                                       [4 marks]
+
+      (d)   Award [1 mark] for an advantage and [1 mark] for an elaboration up to
+            [2 marks max].
+
+            Example:
+            Saves cost;
+            Since once the software and hardware are bought they can be used for many
+            different projects whereas a physical model would have to be built each time;
+
+            Example:
+            More accurate;
+            As many more factors can be taken into account and smaller changes can
+            be made;                                                               [2 marks]
+
+                                                                                         Total: [10 marks]
+                                                  – 10 –           M10/5/COMSC/HP1/ENG/TZ0/XX/M+
+
+
+14.   (a)   Sequential / linear search (on key – customer name);
+            O(n);
+            Award FT mark for correct efficiency.                                               [2 marks]
+
+      (b)   Binary search (on key – customer ID);
+            O(log n);
+            Award FT mark for correct efficiency.                                               [2 marks]
+
+      (c)   Batch processing;                                                                   [1 mark]
+
+      (d)   Award [3 marks max] for advantages elaborated and [3 marks max] for
+            disadvantages elaborated up to [5 marks max].
+
+            Example advantages:
+            There is no extra cost;
+            Benefits can be gained immediately;
+            Since new system is better than the old;
+
+            Example disadvantages:
+            Staff re-training will be more lengthy/difficult/in advance/not on the system;
+            As they will need to be capable of using the system immediately without training;
+            If there is an unsuspected bug in the new system;
+            There is not a second system to fall back on/disastrous for the company;
+
+            Accept answers which give valid advantages or disadvantages to changing the
+            system when it is not being used.                                           [5 marks]
+
+                                                                                       Total: [10 marks]
+                                                – 11 –         M10/5/COMSC/HP1/ENG/TZ0/XX/M+
+
+
+15.   (a)   Held in ROM;
+            Award [1 mark] for any reasonable data that would be in ROM.
+            Example:
+            Instructions to be activated for each separate program;
+            Start up instructions;
+            Instructions to take information from sensors;                                  [2 marks]
+
+      (b)   Held in RAM;
+            Award [1 mark] for any reasonable data that would be in RAM.
+            Example:
+            Time to start set by user;
+            Settings input by user;
+            Current state of variables;                                                     [2 marks]
+
+      (c)   Award [3 marks] if correct answer arrived at even without working. Otherwise
+            award [1 mark] for each correct step ([2 marks max] if incorrect answer).
+
+            EITHER
+            M W H R W H R W H R W H R
+              W (H R H R) W R (H H )
+              W H W R
+
+            OR
+            M=W H R+W H R+W H R+W H R
+                 W (H R H R) W R (H H)
+                 W H W R
+
+            OR
+            M (notW and H and notR) or (notW and H and R) or (W and notH and R)
+                  or (W and H and R)
+                 notW(H and notR or H and R) or W and R(H or notH)
+                 (notW and H) or (W and R)                                                  [3 marks]
+
+      (d)   Award [1 mark] for each correct entry into each correct gate [3 marks max].
+            Allow follow through – i.e. if only two gates then [2 marks max].
+
+                 H
+                                               and
+                                not
+                 W
+                                                                  or        M
+
+                                               and
+
+                 R
+                                                                                            [3 marks]
+
+                                                                                     Total: [10 marks]
+                                                    – 12 –          M10/5/COMSC/HP1/ENG/TZ0/XX/M+
+
+
+16.   (a)   Award [1 mark max].
+            When
+            n / 10   0;
+            NOT (n / 10 > 0);
+            (n / 10 > 0) == false;                                                                      [1 mark]
+
+      (b)   There are many different ways of tracing a recursive algorithm. Accept any
+            method but award marks as follows:
+
+            [1 mark] for each correct call (i.e. n and b correct) to question up to [4 marks max].
+            [1 mark] for returning and adding to the final return of 11.
+
+            Award up to [2 marks max] for a consistent error which demonstrates
+            understanding of recursion.
+
+            Example:
+                              n      n / 10 > 0      b    y   return
+                              1011      True         1    1   8 0 2 1 11
+                              101       True         2    2   8 0 2 10
+                              10        True         4    0   8 0 8
+                              1         False        8        8
+
+            Example:
+            Entering question with n = 1011; b = 1
+              n / 10 > 0 is true
+                y = 1
+                Entering question with n = 101; b = 2
+                  n / 10 > 0 is true
+                  y = 2
+                  Entering question with n = 10; b = 4
+                    n / 10 > 0 is true
+                      y = 0
+                    Entering question with n = 1; b = 8
+                       n / 10 > 0 is false
+                    Returning with 8
+                 Returning with 0 + 8 = 8
+              Returning with 2 + 8 = 10
+            Returning with 1 + 10 = 11
+
+            Result = 11
+
+            Example:
+            n     y     question
+            1011 1      (1011, 1)
+            101 2       (101, 2)
+            10 0        (10, 4)
+            1    8      (1, 8)
+
+            Returned 1 2 0 8 11                                                                        [5 marks]
+
+
+                                                                                                     continued …
+                                             – 13 –        M10/5/COMSC/HP1/ENG/TZ0/XX/M+
+
+
+Question 16 continued
+
+     (c)   Award [2 marks] for an advantage explained and [2 marks] for a disadvantage
+           explained.
+           Advantage:
+                 Less code to write;
+                 Less repetition than in iteration methods;
+           Disadvantage:
+                 More complicated to code;
+                 Slower Execution;
+                 Can use more memory when executed;                                    [4 marks]
+
+                                                                               Total: [10 marks]
+                                                 – 14 –         M10/5/COMSC/HP1/ENG/TZ0/XX/M+
+
+
+17.   (a)   Award marks as follows up to [4 marks max].
+            Award [1 mark] for correct root (the word “Root” does not have to appear).
+            Award [2 marks] for correct order (allow mirror image).
+            (Award [1 mark] if there is no more than one mistake.)
+            (Award [1 mark] if there is only the German word.)
+            Award [1 mark] for correct null pointers.                                         [4 marks]
+
+
+
+
+      (b)   (i)    Award [1 mark] for a suitable advantage and [1 mark] for an elaboration
+                   up to [2 marks max].
+                   Example:
+                   A binary tree is quick to search;
+                   Especially if it is well balanced as the number of comparisons is small; [2 marks]
+
+            (ii)   Award [1 mark] for a suitable advantage and [1 mark] for an elaboration
+                   up to [2 marks max].
+                   Example:
+                   A single linked list is efficient in adding and deleting items;
+                   As only the pointers have to be readjusted;                             [2 marks]
+
+      (c)   Award [1 mark] for a suitable suggestion and [1 mark] for an elaboration up to
+            [2 marks max].
+            Example:
+            A second set of pointers could be introduced to give English alphabetical order;
+            Head (root) pointer would point to the first word in English and the tail would be
+            after the last word in alphabetical order;
+            Doubly linked list with two external pointers;
+            First to give German and second to give English alphabetical order;                [2 marks]
+
+                                                                                      Total: [10 marks]
+                                                  – 15 –          M10/5/COMSC/HP1/ENG/TZ0/XX/M+
+
+
+18.   (a)   Verification: The potential member will have to type in their password twice and
+            it will be checked against the first one;
+            Validation: The format of payment details/personal details will be checked
+            against the expected format and rejected if they are not of the correct format;  [2 marks]
+
+      (b)   Award up to [3 marks max].
+            When member first applies the payment method;
+            The personal details should be encrypted;
+            Each time the member logs in, user name and password should be encrypted;
+            For transmission between member computer and server (accept this once
+            anywhere);                                                                [3 marks]
+
+      (c)   Award up to [2 marks max].
+            The protocols are an agreed way/set of rules for communicating when transferring
+            data;
+            Protocol ensures that the data is accepted and understood by the receiver;
+            Packets of data include information to get from sender to receiver;
+            Each packet will contain destination/number in packet;
+            Protocols ensure that machines with different platforms can communicate;         [2 marks]
+
+      (d)   Each time an order is confirmed/article bought the number in stock is reduced
+            by one;                                                                                [1 mark]
+
+      (e)   Award up to [2 marks max].
+            When a member makes an enquiry (if stock is low);
+            That item is made unavailable/blocked to others;
+            If bought the item is then unavailable until restocked or removed from site;
+            If not bought it is unblocked;
+
+            Accept also
+            A system that does not block but halts a member in the process of buying;
+            To say that it is no longer available if another member has bought in the
+            meantime;                                                                 [2 marks]
+
+                                                                                           Total: [10 marks]
+

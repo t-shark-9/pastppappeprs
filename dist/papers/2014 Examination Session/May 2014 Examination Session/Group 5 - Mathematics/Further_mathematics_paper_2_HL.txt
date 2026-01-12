@@ -1,0 +1,375 @@
+M14/5/FURMA/HP2/ENG/TZ0/XX
+
+
+
+
+      22147102
+
+FURTHER MATHEMATICS
+HIGHER LEVEL
+PAPER 2
+
+Thursday 22 May 2014 (morning)
+
+2 hours 30 minutes
+
+
+INSTRUCTIONS TO CANDIDATES
+
+ Do not open this examination paper until instructed to do so.
+ Answer all questions.
+ Unless otherwise stated in the question, all numerical answers should be given exactly or
+  correct to three significant figures.
+ A graphic display calculator is required for this paper.
+ A clean copy of the Mathematics HL and Further Mathematics HL formula booklet is required
+  for this paper.
+ The maximum mark for this examination paper is [150 marks].
+
+
+
+
+2214-7102                                                                                       9 pages
+                                                        © International Baccalaureate Organization 2014
+                                                    –2–               M14/5/FURMA/HP2/ENG/TZ0/XX
+
+Please start each question on a new page. Full marks are not necessarily awarded for a correct answer
+with no working. Answers must be supported by working and/or explanations. In particular, solutions
+found from a graphic display calculator should be supported by suitable working. For example, if graphs
+are used to find a solution, you should sketch these as part of your answer. Where an answer is incorrect,
+some marks may be given for a correct method, provided this is shown by written working. You are therefore
+advised to show all working.
+
+1.    [Maximum mark: 9]
+
+      The random variable X has the binomial distribution B(n , p ) , where n > 1 .
+
+      Show that
+
+            X
+      (a)     is an unbiased estimator for p ;                                                        [2]
+            n
+
+                  2
+      (b)    X  is not an unbiased estimator for p2 ;                                               [4]
+             
+            n
+
+            X ( X − 1)
+      (c)              is an unbiased estimator for p2 .                                              [3]
+            n (n − 1)
+
+
+
+
+2214-7102
+                                                     –3–                  M14/5/FURMA/HP2/ENG/TZ0/XX
+
+2.    [Maximum mark: 18]
+
+                                                                    nπ                      
+      (a)   The set S contains the eighth roots of unity given by cis   , n ∈  , 0 ≤ n ≤ 7  .
+                                                                    4                       
+
+		(i)              Show that {S , ×} is a group where × denotes multiplication of complex numbers.
+
+		          (ii)   Giving a reason, state whether or not {S , ×} is cyclic.                                [7]
+
+      (b)   The group {G , ×20 } is defined on the set {1, 3, 7, 9, 11, 13, 17, 19} where ×20 denotes
+            multiplication modulo 20.
+
+		          (i)    Copy and complete the following Cayley table for {G , ×20 } .
+
+                                     1     3     7     9    11    13      17   19
+                              1      1     3     7     9    11    13      17   19
+                              3      3     9     1     7    13    19      11   17
+                              7      7     1     9     3    17    11      19   13
+                              9      9     7     3
+                             11     11    13    17
+                             13     13    19    11
+                             17     17    11    19
+                             19     19    17    13
+
+		          (ii)   Determine the order of each element of {G , ×20 } .
+
+		          (iii) Giving a reason, state whether or not {S , ×} and {G , ×20 } are isomorphic.
+
+		          (iv) Find a cyclic subgroup of {G , ×20 } of order 4 and state all its generators.
+
+		          (v)    Find a non-cyclic subgroup of {G , ×20 } of order 4.                                   [11]
+
+
+
+
+2214-7102                                                                                            Turn over
+                                                    –4–                M14/5/FURMA/HP2/ENG/TZ0/XX
+
+3.    [Maximum mark: 19]
+
+      The vertices and weights of the graph G are given in the following table.
+
+              Vertices       A           B           C           D           E          F
+                 A            –          18          19          17          20         21
+                 B           18           –          14          21          12         10
+                 C           19          14           –          20          15         20
+                 D           17          21          20           –          16         22
+                 E           20          12          15          16           –         13
+                 F           21          10          20          22          13         –
+
+      (a)   (i)    Use Kruskal’s algorithm to find the minimum spanning tree for G , indicating
+                   clearly the order in which the edges are included.
+
+		          (ii)   Draw the minimum spanning tree for G .                                                [4]
+
+      (b)   Consider the travelling salesman problem for G .
+
+		          (i)    An upper bound for the problem can be found by doubling the weight of the
+                   minimum spanning tree. Use this method to find an upper bound.
+
+		          (ii)   Starting at A, use the nearest neighbour algorithm to find another upper bound.
+
+		          (iii) By first removing A, use the deleted vertex algorithm to find a lower bound for
+                  the problem.                                                                    [10]
+
+      (c)   The travelling salesman problem is now modified so that starting at A, the vertices B and
+            C have to be visited first in that order, then D, E, F in any order before returning to A.
+
+		          (i)    Solve this modified problem.
+
+		          (ii)   Comment whether or not your answer has any effect on the upper bound to the
+                   problem considered in (b).                                                            [5]
+
+
+
+
+2214-7102
+                                                     –5–                   M14/5/FURMA/HP2/ENG/TZ0/XX
+
+4.    [Maximum mark: 18]
+
+                                   1       2 3 4
+                                                  
+                                     3      8 11 8 
+      The matrix A is given by A =                  .
+                                   1       3 4 λ
+                                                  
+                                   λ       5 7 6
+
+                                   2           x
+                                               
+                                    4           y
+      (a)   Given that λ = 2 , B =      and X =   ,
+                                   µ          z
+                                               
+                                   3          t
+
+		          (i)    find the value of µ for which the equations defined by AX = B are consistent and
+                   solve the equations in this case;
+
+		          (ii)   define the rank of a matrix and state the rank of A .                              [10]
+
+      (b)   Given that λ = 1 ,
+
+		          (i)    show that the four column vectors in A form a basis for the space of
+                   four-dimensional column vectors;
+
+
+                                      6
+                                       
+                                        28
+		          (ii)   express the vector   as a linear combination of these basis vectors.              [8]
+                                       12 
+                                       
+                                       15 
+
+
+5.    [Maximum mark: 18]
+
+                                           dy
+      Consider the differential equation                2cos 4 x given that y = 1 when x = 0 .
+                                              + y tan x =
+                                           dx
+
+      (a)   Solve the differential equation, giving your answer in the form y = f ( x) .               [9]
+
+      (b)   (i)    By differentiating both sides of the differential equation, show that
+                                           d2 y
+                                              2
+                                                +y=−10sin x cos3 x .
+                                           dx
+
+		          (ii)   Hence find the first four terms of the Maclaurin series for y .                     [9]
+
+
+
+
+2214-7102                                                                                        Turn over
+                                                       –6–              M14/5/FURMA/HP2/ENG/TZ0/XX
+
+6.    [Maximum mark: 13]
+
+      (a)   Consider the recurrence relation aun +1 + bun + cun −1 =
+                                                                   0.
+
+		Show that =un Aλ n + Bµ n satisfies this relation where A , B are arbitrary constants
+  and λ , µ are the roots of the equation ax 2 + bx + c =.
+                                                         0                                         [3]
+
+      (b)
+
+
+                           0     1     2     3     4       5   6   7      8   9   10
+
+		A particle P executes a random walk on the line above such that when it is at point
+   n (1 ≤ n ≤ 9, n ∈  + ) it has a probability 0.4 of moving to n + 1 and a probability 0.6 of
+  moving to n − 1 . The walk terminates as soon as P reaches either 0 or 10. Let pn denote
+  the probability that the walk terminates at 0 starting from n .
+
+		(i)              Show that 2 pn +1 − 5 pn + 3 pn −1 =
+                                                      0.
+
+		          (ii)   By solving this recurrence relation subject to the boundary conditions p0 = 1 ,
+                                          1.510 − 1.5n
+                   p10 = 0 show that pn =              .                                           [10]
+                                           1.510 − 1
+
+
+
+
+2214-7102
+                                                    –7–                    M14/5/FURMA/HP2/ENG/TZ0/XX
+
+7.    [Maximum mark: 14]
+
+      (a)
+
+                           y
+
+
+
+                                                          P′ ( x′ , y′ )
+
+
+
+
+                                                                             P ( x , y)
+
+
+
+                                 θ
+                                     α
+                          O                                                               x
+
+
+		          The diagram above shows the points P ( x , y ) and P′ ( x′ , y′ ) which are equidistant from
+            the origin O. The line (OP) is inclined at an angle α to the x-axis and POP  ˆ ′= θ .
+
+		          (i)    By first noting that OP = x sec α , show that
+                                                             =   x′ x cosθ − y sin θ and find a similar
+                   expression for y′ .
+
+		          (ii)   Hence write down the 2 × 2 matrix which represents the anticlockwise rotation
+                   about O which takes P to P′ .                                                           [7]
+
+      (b)   The ellipse E has equation 5 x 2 + 5 y 2 − 6 xy =
+                                                            8.
+
+		          (i)    Show that if E is rotated clockwise about the origin through 45 , its equation
+                           x2
+                   becomes     + y2 =
+                                    1.
+                            4
+
+		          (ii)   Hence determine the coordinates of the foci of E .                                      [7]
+
+
+
+
+2214-7102                                                                                          Turn over
+                                                               –8–                           M14/5/FURMA/HP2/ENG/TZ0/XX
+
+8.    [Maximum mark: 27]
+
+      (a)   (i)    Using l’Hôpital’s rule, show that
+
+                                                             xn
+                                                        lim λ x =0; n ∈  + , λ ∈  +
+                                                        x →∞ e
+
+
+
+
+		          (ii)   Using mathematical induction on n , prove that
+
+                                                    ∞                     n!
+                                                 ∫ xe
+                                                            −λ x
+                                                        n
+                                                                   dx=              ; n ∈  , λ ∈ +               [13]
+                                                   0                     λ   n +1
+
+
+
+
+      (b)   The random variable X has probability density function
+
+                                                 λ n +1 x n e − λ x
+                                                                        x ≥ 0, n ∈  + , λ ∈  +
+                                       f ( x) =         n!
+                                                 otherwise
+                                                
+
+            Giving your answers in terms of n and λ , determine
+
+		(i)              E(X ) ;
+
+		          (ii)   the mode of X .                                                                                  [6]
+
+      (c)   Customers arrive at a shop such that the number of arrivals in any interval of duration
+            d hours follows a Poisson distribution with mean 8d . The third customer on a particular
+            day arrives T hours after the shop opens.
+
+		(i)                               t ) e −8t (1 + 8t + 32t 2 ) .
+                   Show that P (T > =
+
+		          (ii)   Find an expression for the probability density function of T .
+
+		          (iii) Deduce the mean and the mode of T .                                                               [8]
+
+
+
+
+2214-7102
+                                                   –9–                   M14/5/FURMA/HP2/ENG/TZ0/XX
+
+9.    [Maximum mark: 14]
+
+                                                                             A
+
+
+
+
+     G                                                   F
+                                                                                                E
+                                                                     O
+
+                                                     B
+                                                                    D
+
+                                                                                                         C
+
+      The diagram above shows a point O inside a triangle ABC. The lines (AO), (BO), (CO) meet
+      the lines (BC), (CA), (AB) at the points D, E, F respectively. The lines (EF), (BC) meet at the
+      point G.
+
+                                                                                           BD     BG
+      (a)   Show that, with the usual convention for the signs of lengths in a triangle,      = −    .       [6]
+                                                                                           DC     GC
+
+      (b)   The lines (FD), (CA) meet at the point H and the lines (DE), (AB) meet at the point I.
+            Show that the points G, H, I are collinear.                                                      [8]
+
+
+
+
+2214-7102
+

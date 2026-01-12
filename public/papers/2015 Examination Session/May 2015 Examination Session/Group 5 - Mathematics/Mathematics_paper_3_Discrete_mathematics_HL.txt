@@ -1,0 +1,158 @@
+m15/5/MATHL/HP3/eng/TZ0/DM
+
+
+
+
+Mathematics
+Higher level
+Paper 3 – discrete mathematics
+
+
+Thursday 21 May 2015 (afternoon)
+
+
+1 hour
+
+
+Instructions to candidates
+yyDo not open this examination paper until instructed to do so.
+yyAnswer all the questions.
+yyUnless otherwise stated in the question, all numerical answers should be given exactly or
+  correct to three significant figures.
+yyA graphic display calculator is required for this paper.
+yyA clean copy of the mathematics HL and further mathematics HL formula booklet is
+  required for this paper.
+yyThe maximum mark for this examination paper is [60 marks].
+
+
+
+
+                                                                                              2215 – 7207
+     4 pages                                              © International Baccalaureate Organization 2015
+                                                   –2–                  m15/5/MATHL/HP3/eng/TZ0/DM
+
+Please start each question on a new page. Full marks are not necessarily awarded for a correct answer
+with no working. Answers must be supported by working and/or explanations. In particular, solutions
+found from a graphic display calculator should be supported by suitable working. For example, if
+graphs are used to find a solution, you should sketch these as part of your answer. Where an answer
+is incorrect, some marks may be given for a correct method, provided this is shown by written working.
+You are therefore advised to show all working.
+
+1.   [Maximum mark: 14]
+
+     (a)   The weights of the edges of a graph H are given in the following table.
+
+
+                                      A     B    C     D     E      F   G
+                                A     –     5     4    –     –      –    –
+                                B     5     –     –    –     5      –    –
+                                C     4     –     –    5     2      –    –
+                                D     –     –     5    –     3      –    6
+                                E     –     5     2    3     –      5    4
+                                F     –     –     –    –     5      –    1
+                                G     –     –     –    6     4      1    –
+
+
+		         (i)     Draw the weighted graph H .
+
+		         (ii)    Use Kruskal’s algorithm to find the minimum spanning tree of H . Your solution
+                   should indicate the order in which the edges are added.
+
+		         (iii)   State the weight of the minimum spanning tree.                                   [8]
+
+
+
+
+(This question continues on the following page)
+                                                    –3–                    m15/5/MATHL/HP3/eng/TZ0/DM
+
+(Question 1 continued)
+
+     (b)   Consider the following weighted graph.
+
+                                                              P
+
+                                                              3
+
+                                                             Q
+
+                                               1                       7
+
+                                               2          S        5
+                              R                                                  T
+
+                                               4                   4
+
+
+
+
+                                                         5
+
+		         (i)    Write down a solution to the Chinese postman problem for this graph.
+
+		         (ii)   Calculate the total weight of the solution.                                           [3]
+
+     (c)   (i)    State the travelling salesman problem.
+
+		         (ii)   Explain why there is no solution to the travelling salesman problem for this graph.   [3]
+
+
+2.   [Maximum mark: 7]
+
+     The graph K2 , 2 is the complete bipartite graph whose vertex set is the disjoint union of two
+     subsets each of order two.
+
+     (a)   Draw K2 , 2 as a planar graph.                                                               [2]
+
+     (b)   Draw a spanning tree for K2 , 2 .                                                            [1]
+
+     (c)   Draw the graph of the complement of K2 , 2 .                                                 [1]
+
+     (d)   Show that the complement of any complete bipartite graph does not possess a
+           spanning tree.                                                                               [3]
+
+
+
+
+                                                                                                  Turn over
+                                                     –4–                     m15/5/MATHL/HP3/eng/TZ0/DM
+
+3.   [Maximum mark: 16]
+
+     The sequence {un } , n ∈  , satisfies the recurrence relation un + 1 = 7un − 6 .
+
+     (a)   Given that u0 = 5 , find an expression for un in terms of n .                             [5]
+
+     The sequence {vn } , n ∈  , satisfies the recurrence relation vn + 2 = 10vn + 1 + 11vn .
+
+     (b)   Given that v0 = 4 and v1 = 44 , find an expression for vn in terms of n .                 [7]
+
+     (c)   Show that vn − un ≡ 15 (mod 16) , n ∈  .                                                 [4]
+
+
+4.   [Maximum mark: 12]
+
+     A simple connected planar graph, has e edges, v vertices and f faces.
+
+     (a)   (i)    Show that 2e ≥ 3 f if v > 2 .
+
+		         (ii)   Hence show that K5 , the complete graph on five vertices, is not planar.           [6]
+
+     (b)   (i)    State the handshaking lemma.
+
+		         (ii)   Determine the value of f , if each vertex has degree 2.                            [4]
+
+     (c)   Draw an example of a simple connected planar graph on 6 vertices each of degree 3.        [2]
+
+
+5.   [Maximum mark: 11]
+
+     (a)   State the Fundamental theorem of arithmetic for positive whole numbers greater
+           than 1.                                                                                   [2]
+
+     (b)   Use the Fundamental theorem of arithmetic, applied to 5577 and 99 099, to calculate
+           gcd (5577 , 99 099) and lcm (5577 , 99 099) , expressing each of your answers as a
+           product of prime numbers.                                                                 [3]
+
+     (c)   Prove that gcd (n , m) × lcm (n , m) = n × m for all n , m ∈ + .                         [6]
+

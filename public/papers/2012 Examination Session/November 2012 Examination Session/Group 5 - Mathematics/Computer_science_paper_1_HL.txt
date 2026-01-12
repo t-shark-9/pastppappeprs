@@ -1,0 +1,281 @@
+N12/5/COMSC/HP1/ENG/TZ0/XX
+
+
+
+
+     88127011
+
+COMPUTER SCIENCE
+HIGHER LEVEL
+PAPER 1
+
+Thursday 8 November 2012 (afternoon)
+
+2 hours 15 minutes
+
+
+INSTRUCTIONS TO CANDIDATES
+
+   Do not open this examination paper until instructed to do so.
+   Section A: answer all the questions.
+   Section B: answer all the questions.
+   The maximum mark for this examination paper is [100 marks].
+
+
+
+
+8812-7011                                                                                            6 pages
+                                                             © International Baccalaureate Organization 2012
+                                                   –2–                 N12/5/COMSC/HP1/ENG/TZ0/XX
+
+                                               SECTION A
+
+Answer all the questions.
+
+1.    State two characteristics that should be considered when comparing different
+      computers.                                                                                [2 marks]
+
+
+2.    Describe how increasing the size of cache memory improves the performance of
+      a computer.                                                                               [2 marks]
+
+
+3.    Outline the need for an A–D converter in a voice recognition system.                      [2 marks]
+
+
+4.    Outline one advantage to computer system designers of using the prototyping approach.     [2 marks]
+
+
+5.    Describe how a parity check is used to ensure data integrity in the transmission
+      of data.                                                                                  [3 marks]
+
+
+6.    An international organization has offices in five different world regions.  Compare the
+      use of e-mail with video conferencing for communication between the staff.                [4 marks]
+
+
+7.    Define the term latency, in terms of hard disk operation.                                 [1 mark]
+
+
+8.    Numbers are represented in  floating point format that uses 8 bits for the mantissa and
+      4 bits for the exponent.
+
+      (a)   Describe how the binary number 1110.011 would be represented in this format.        [3 marks]
+
+      (b)   Define the term overflow.                                                           [1 mark]
+
+
+9.    Convert the following infix expression into a postfix expression.
+
+                                        A + B * C + D                                           [1 mark]
+
+
+10.   Calculate the value of the following prefix expression.
+
+                                        – + * 5 2 3 7                                           [1 mark]
+
+
+
+8812-7011
+                                                     –3–              N12/5/COMSC/HP1/ENG/TZ0/XX
+
+11.   State two resources that could be shared on a LAN.                                       [2 marks]
+
+
+12.   State two possible communication links that could be used to connect the LAN to
+      a WAN.                                                                                   [2 marks]
+
+
+13.   A two-dimensional array  int[][] X = new int[3][3] currently holds the
+      following data.
+
+                                           1     1     1
+                                           2     2     1
+                                           1     1     1
+
+
+      After tracing the code given below redraw the grid and show the new contents of  X.      [3 marks]
+
+      for (int i = 0; i < 3; i = i + 1)
+      {
+        for (int j = 0; j < 3; j = j + 1)
+        {
+          if (i == j)
+          { X[i][j] = X[i][j]; }
+          else if (i > j)
+          { X[i][j] = 1; }
+          else
+          { X[i][j] = 0; }
+        }
+      }
+
+
+
+14.   A processor is executing a program.
+
+      (a)   State where all instructions and data are stored.                                   [1 mark]
+
+      (b)   State the name of the register that holds the address of the next instruction to
+            be executed.                                                                        [1 mark]
+
+      (c)   Outline the purpose of an accumulator.                                             [2 marks]
+
+
+15.   Outline the purpose of buses in the execution of the statement  x = a + b; .             [3 marks]
+
+
+16.   Describe one advantage and one disadvantage of the growing use of computers
+      in society.                                                                              [4 marks]
+
+
+
+
+8812-7011                                                                                      Turn over
+                                                    –4–                  N12/5/COMSC/HP1/ENG/TZ0/XX
+
+                                                SECTION B
+
+Answer all the questions.
+
+17.   A system analyst has been asked to oversee the computerization of a new department
+      of a large firm and uses interviews and questionnaires to collect data.
+
+      (a)   Outline one advantage of using:
+
+            (i)    interviews rather than questionnaires;                                         [2 marks]
+
+            (ii)   questionnaires rather than interviews.                                         [2 marks]
+
+      At the end of the analysis stage a  feasibility report is produced which contains several
+      possible solutions.
+
+      (b)   Explain why more than one possible solution is proposed.                              [2 marks]
+
+      The hardware and software have now been installed.
+
+      (c)   Explain two tasks that should be carried out before the new computer system can
+            be fully implemented.                                                                 [4 marks]
+
+
+18.   At the end of each school year up to 200 students take an examination.  Exams are
+      marked by the teacher and results input using a keyboard.   Sample data about two
+      students is shown below.
+
+                      Student Code: 9902-008        Score: 28        Passed: No
+                      Student Code: 9902-028        Score: 82        Passed: Yes
+
+      (a)   (i)    State appropriate data types for the three data items listed above.            [3 marks]
+
+            (ii)   Describe a data structure that could be used to hold data about all students
+                   in the school.                                                                 [3 marks]
+
+      A multiple choice examination will be used the following year in order to capture and
+      process the data automatically.
+
+      (b)   Suggest suitable input devices and data preparation requirements so that this can
+            be carried out.                                                                       [4 marks]
+
+
+
+
+8812-7011
+                                                        –5–                  N12/5/COMSC/HP1/ENG/TZ0/XX
+
+19.   An IB student is constructing a Java program while a set of documents such as essays,
+      lab reports and other homework is being printed out.
+
+      (a)      Identify the mode of operation that allows this concurrent performance.             [1 mark]
+
+      (b)      (i)    Define the term queue as a data structure.                                   [1 mark]
+
+               (ii)   Identify two different queues that are used in this example.                [2 marks]
+
+      (c)      Outline the meaning of the term double buffering with respect to printing.         [2 marks]
+
+      (d)      Explain how interrupts are used to fill the printer buffer.                        [4 marks]
+
+
+20.   The logical representation of a list that holds students’ names and scores is as follows.
+
+                         Brown,                Smith,               …            Aral,
+            head
+
+
+
+
+                                                                                         null
+                         K.M.                  A.M.                              K.Y.
+                         82                    37                                64
+
+      (a)      Describe the difference between logical and physical representation of data.       [2 marks]
+
+      (b)      (i)    Identify the type of search that could be used to find a given student in
+                      the list.                                                                    [1 mark]
+
+               (ii)   State the BigO efficiency of the search algorithm.                           [1 mark]
+
+      To speed up the search for a particular student a binary tree can be used to hold data.
+
+      (c)      (i)    Describe how a binary tree holding student names and scores would
+                      be structured.                                                              [4 marks]
+
+               (ii)   Explain how the score for a particular student can be found.                [2 marks]
+
+
+
+
+8812-7011                                                                                         Turn over
+                                                    –6–                  N12/5/COMSC/HP1/ENG/TZ0/XX
+
+21.   Consider the following recursive method.
+
+      public int calculate(int n)
+      {
+        if ((n == 0) || (n == 1))
+        { return 1; }
+        else
+        { return n + calculate(n – 1); }
+      }
+
+      (a)   Identify the terminating condition for this method.                                   [1 mark]
+
+      (b)   Determine the value of variable  y , showing all of your working.
+
+                               int y = calculate(calculate(2));                                   [5 marks]
+
+      (c)   (i)    State the range of integer values for which the formal parameter  n
+                   is correct.                                                                    [1 mark]
+
+            (ii)   Identify the error that will occur if  calculate() is called with an
+                   incorrect argument.                                                            [1 mark]
+
+            (iii) State the modification to  calculate() that will prevent the error occurring.   [1 mark]
+
+            (iv) Identify the data structure which holds the parameter values and returns
+                 addresses during execution of the method.                                        [1 mark]
+
+
+22.   (a)   Express the logical xor operation using a truth table.                                [2 marks]
+
+      (b)   (i)    Construct the Boolean expression for output  X in terms of inputs  A ,
+                   B and  C for the following truth table.                                        [2 marks]
+
+                                              A     B     C       X
+                                              0     0     0       0
+                                              0     0     1       0
+                                              0     1     0       1
+                                              0     1     1       1
+                                              1     0     0       1
+                                              1     0     1       1
+                                              1     1     0       0
+                                              1     1     1       0
+
+            (ii)   Simplify the expression.                                                       [3 marks]
+
+      (c)   Draw the logic circuit for the following expression.
+
+                                          H = W + Y•Z + W•Y                                       [3 marks]
+
+
+8812-7011
+

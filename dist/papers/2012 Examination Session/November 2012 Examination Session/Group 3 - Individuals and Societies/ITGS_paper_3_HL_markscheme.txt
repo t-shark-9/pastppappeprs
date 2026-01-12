@@ -1,0 +1,316 @@
+N12/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+
+
+                   MARKSCHEME
+
+
+                       November 2012
+
+
+
+      INFORMATION TECHNOLOGY IN A
+            GLOBAL SOCIETY
+
+
+
+                         Higher Level
+
+
+
+                               Paper 3
+
+
+
+
+9 pages
+                              –2–             N12/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+
+
+This markscheme is confidential and for the exclusive use of
+examiners in this examination session.
+
+It is the property of the International Baccalaureate and must not
+be reproduced or distributed to any other person without the
+authorization of the IB Assessment Centre.
+                                                  –3–                N12/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+
+Examiners should be aware that in some cases, candidates may take a different approach, which if
+appropriate should be rewarded. If in doubt, check with your Team Leader.
+
+If candidates answer more than the prescribed number of questions:
+
+• In the case of an “identify” question read all answers and mark positively up to the maximum marks.
+  Disregard incorrect answers.
+
+• In the case of a “describe” question, which asks for a certain number of facts e.g. “describe two kinds”,
+  mark the first two correct answers. This could include two descriptions, one description and
+  one identification, or two identifications.
+
+• In the case of an “explain” question, which asks for a specified number of explanations e.g. “explain
+  two reasons”, mark the first two correct answers. This could include two full explanations,
+  one explanation, one partial explanation etc.
+                                                   –4–              N12/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+
+1.   The management of the Piedmonte Theatre Consortium (PTC) wants its website to
+     be able to show short video clips of forthcoming productions. When a user tried
+     to view one of these, the video failed to play and the following error message
+     appeared.
+
+     (a)   Outline why the video failed to play.                                                  [2 marks]
+
+           Answers may include:
+           • the video is not a Flash video
+           • the Flash player plug-in is an old version
+           • there are errors in the Flash script / ActionScript
+           • there are errors in the swf file
+           • there are errors in the FLV (Flash Video) file
+           • the file is corrupt.
+
+           Accept for one mark only: lack of appropriate codec/ plugin/ client-side software
+           to play the video
+
+           Do not accept : Lack of the client-side software “Adobe flash player”
+
+           Award [1 mark] for each reason given up to a maximum of [2 marks].
+
+     (b)   Describe one possible solution.                                                        [2 marks]
+
+           Answers may include:
+           • uninstall Flash player / install latest version of Flash player – this will ensure
+             that it is unlikely that the problem is at the user end
+           • upgrade the Flash Player plugin
+           • debug Flash script / ActionScript–– there may be errors that prevent the file
+             loading
+           • correct the corrupted file on the server
+           • refresh the page (if the file has been corrupted on transfer from the server, it
+             may work on a second attempt)
+           • implement a compatible video format by the PTC
+           • install a code/ plugin/ client-software that can recognize the particular format.
+
+
+     Award [1 mark] for each solution given up to a maximum of [2 marks].
+                                                 –5–                N12/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+
+2.   Both theatre companies have substantial amounts of data saved in various formats
+     in their existing systems. This data includes information such as customer and
+     member details and records of previous performances. All of this data has to be
+     copied to the new system.
+
+     Explain why the developers might encounter problems when transferring existing
+     data to the new system.                                                        [6 marks]
+
+     Answers may include:
+     • the data stored may be duplicated / some entities may have the same name but have
+       different properties
+     • problems of accuracy and time when digitizing/scanning any legacy data which is to
+       be included and is currently not in digital format
+     • transfer medium failure/ power failure/network connectivity issues
+     • fields may be of different data types/lengths
+     • the data stored may be duplicated due to existing flat-file database
+     • the properties/attributes/fields of the entities or tables may be different
+     • the data may need to be “normalized” to avoid data redundancy
+     • examples of how data, such as performances/dates may be in incompatible formats
+     • methods of coding data will be different, e.g. codes for seat allocation / membership
+       types etc.
+     • the ETL (Extract Transform and Load) software may not be able to read the existing
+       file format.
+     • the existing file format may be unknown and would have to be reverse engineered
+     • the character encoding/character set/code page/character map/codeset of the files
+       may be different so extended characters (eg. accented letters) in text fields could be
+       wrongly copied
+     • file structures may be different / key fields may be different / may need to create new
+       indexes
+     • the new system may report relational integrity errors / dependencies may not be
+       fulfilled.
+
+     [1–2 marks]
+     A limited response that indicates very little understanding of the topic or the reason is
+     not clear.
+
+     [3–4 marks]
+     A reasonable description of the problems that may arise from data transfer.
+     The answer may be unbalanced and lack appropriate reasoning at the lower end of
+     the band.
+
+     [5–6 marks]
+     A clear, detailed and balanced explanation of data transfer with clear evidence of
+     technical understanding.
+                                                 –6–                N12/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+3.   The PTC website needs to offer a range of functions which are easy to use,
+     informative and enjoyable. It is also intended that it should function in a number
+     of languages.
+
+     To what extent is there a conflict between the site’s functionality and providing the
+     site in many languages? You should make references to suitable sites that you
+     have investigated.                                                                    [8 marks]
+
+     Answers may include:
+     • The best possible result would be to have all desirable features/functions available in
+       all target languages
+     • equality of access depends on the same functionality being available in multiple
+       languages
+     • there are time/cost constraints to consider in adding translations
+     • there are many languages therefore pragmatic decisions have to be made about which
+       to include as not all user requirements may be possible
+     • each additional language may require a significant amount of development time if
+       there are embedded media (videos may need subtitling etc or new videos may need
+       to be created).
+     • when information is changed it will have to be updated in a number of different
+       language pages so there is much higher cost of maintenance required for a multi-
+       lingual site
+     • some languages have totally different constructions, making it impossible to have the
+       same paradigm for the site’s design.
+     • there may be more considerations involved than just translating text, (for example
+       retaining the same meaning, or space limitations on the website for longer text)
+     • some characters may not be rendered properly (this is less of a problem than
+       previously – Unicode makes it more likely that characters will be rendered properly)
+     • many people speak English or one of the main European languages so non-native
+       speakers may still be able to use the site and not need a translation to their first
+       language.
+                                         –7–                N12/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+
+SL and HL paper 1 part (c) and HL paper 3 question 3 markband
+     Marks                                      Level descriptor
+                         • A response with no knowledge or understanding of the relevant
+    No marks               ITGS issues and concepts.
+                         • A response that includes no appropriate ITGS terminology.
+                         • A response with minimal knowledge and understanding of the
+                           relevant ITGS issues and concepts.
+                         • A response that       includes   minimal    use   of   appropriate
+      Basic                ITGS terminology.
+   1–2 marks             • A response that has no evidence of judgments and/or conclusions.
+                         • No reference is made to the scenario in the stimulus material in
+                           the response.
+                         • The response may be no more than a list.
+                         • A descriptive response with limited knowledge and/or
+                           understanding of the relevant ITGS issues and/or concepts.
+                         • A response that       includes    limited   use   of   appropriate
+                           ITGS terminology.
+    Adequate
+   3–4 marks             • A response that has evidence of conclusions and/or judgments
+                           that are no more than unsubstantiated statements. The analysis
+                           underpinning them may also be partial or unbalanced.
+                         • Implicit references are made to the scenario in the stimulus
+                           material in the response.
+                         • A response with knowledge and understanding of the relevant
+                           ITGS issues and/or concepts.
+                         • A response that uses ITGS terminology appropriately in places.
+   Competent
+   5–6 marks             • A response that includes conclusions and/or judgments that have
+                           limited support and are underpinned by a balanced analysis.
+                         • Explicit references to the scenario in the stimulus material are
+                           made at places in the response.
+                         • A response with a detailed knowledge and understanding of the
+                           relevant ITGS issues and/or concepts.
+                         • A response that uses ITGS terminology appropriately throughout.
+    Proficient           • A response that includes conclusions and/or judgments that are
+                           well supported and underpinned by a balanced analysis.
+   7–8 marks
+                         • Explicit references are made appropriately to the scenario in the
+                           stimulus material throughout the response.
+                         • There are explicit references to sites that the student has
+                           researched.
+                                                 –8–               N12/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+
+4.   Two prospective suppliers of the new system for the PTC have different
+     approaches for developing the new system.
+     • One has already supplied a ticketing system to a theatre company in Germany
+       which it says can be modified to suit the needs of the two companies.
+     • The other proposes to start from the beginning and develop a new system.
+
+     With explicit references to systems that you have studied, evaluate the merits of
+     these two approaches.                                                             [12 marks]
+
+     Answers may include:
+     The template/modified solution:
+     • available more quickly
+     • available more quickly
+     • likely to be cheaper
+     • likely to have more bugs removed
+     • it has been more thoroughly user tested
+     • feedback from the previous customer
+     • support issues already developed
+     • example systems/situations described.
+     • certain legal issues may be a factor in weighing up the two options (especially if the
+       existing software is copyright).
+     • technologies used in the existing system may be outdated but it will be necessary to
+       use them in the modified option, whereas a new development will allow the choice of
+       the newest technologies, standards and protocols
+     • a modified system may have unwanted functionality that cause confusion or security
+       issues
+     • may need technical staff not present or training the existing staff
+     • documentation / Training materials already available.
+
+     The new solution:
+     • could be more explicitly tailored to the customer’s needs
+     • PTC will have unique problems / better to design in special features from the start
+       can use more modern development methodology
+     • can adapt to user’s preferred platform
+     • more costly and time consuming
+     • many new systems developments fail to reach their completion, but altering an
+       existing piece of software gives more guarantee that the result will be functional.
+
+     N.B. Many of these points can be expressed in a reverse manner.
+                                          –9–                N12/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+
+HL paper 3 question 4 markband
+      Marks                                       Level descriptor
+                        • A response with no knowledge or understanding of the relevant
+     No marks             ITGS issues and concepts.
+                        • A response that includes no appropriate ITGS terminology.
+                        • A response with minimal knowledge and understanding of the
+                          relevant ITGS issues and concepts.
+                        • A response that        includes    minimal   use   of   appropriate
+                          ITGS terminology.
+       Basic
+                        • A response that has no evidence of judgments, conclusions or future
+     1–3 marks            strategies.
+                        • No reference is made to the information in the case study or
+                          independent research in the response.
+                        • The response may be no more than a list.
+                        • A descriptive response with limited knowledge and/or
+                          understanding of the relevant ITGS issues and/or concepts.
+                        • A response that         includes   limited   use   of   appropriate
+                          ITGS terminology.
+      Adequate
+     4–6 marks          • A response that has evidence of conclusions, judgments or future
+                          strategies that are no more than unsubstantiated statements.
+                          The analysis underpinning them may also be partial or unbalanced.
+                        • Implicit references are made to the information in the case study or
+                          independent research in the response.
+                        • A response with knowledge and understanding of the relevant ITGS
+                          issues and/or concepts.
+                        • A response that uses ITGS terminology appropriately in places.
+     Competent
+                        • A response that includes future strategies, conclusions and/or
+     7–9 marks            judgments that have limited support and are underpinned by a
+                          balanced analysis.
+                        • Explicit references to the information in the case study or
+                          independent research are made at places in the response.
+                        • A response with a detailed knowledge and understanding of the
+                          relevant ITGS issues and/or concepts.
+                        • A response that uses ITGS terminology appropriately throughout.
+     Proficient
+    10–12 marks         • A response that includes conclusions, judgments or future strategies
+                          that are well supported and underpinned by a balanced analysis.
+                        • Explicit references are made appropriately to the information in the
+                          case study and independent research throughout the response.
+

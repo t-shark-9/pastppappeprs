@@ -1,0 +1,420 @@
+M12/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+
+
+                   MARKSCHEME
+
+
+                               May 2012
+
+
+
+      INFORMATION TECHNOLOGY IN A
+            GLOBAL SOCIETY
+
+
+
+                         Higher Level
+
+
+
+                               Paper 3
+
+
+
+
+12 pages
+                              –2–             M12/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+
+
+This markscheme is confidential and for the exclusive use of
+examiners in this examination session.
+
+It is the property of the International Baccalaureate and must not
+be reproduced or distributed to any other person without the
+authorization of IB Cardiff.
+                                               –3–             M12/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+Examiners should be aware that in some cases, candidates may take a different approach, which if
+appropriate should be rewarded. If in doubt, check with your Team Leader.
+
+In the case of an “identify” question read all answers and mark positively up to the maximum marks.
+Disregard incorrect answers. In all other cases where a question asks for a certain number of facts
+e.g. “describe two kinds”, mark the first two correct answers. This could include two descriptions,
+one description and one identification, or two identifications.
+                                                  –4–               M12/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+1.   (a)   Define the term cookie.                                                                [2 marks]
+
+           A cookie is:
+            information stored by your browser on your computer
+            A small text file stored by the browser on the user’s computer.
+
+           Award [1 mark] for either of the correct statements above.
+
+           A cookie also:
+            contains information about a web site that has been visited
+            contains name-value pairs of information, e.g. ID – id number
+            can be linked to the web site’s database that contains data about your visits,
+             such as preferences, location, pages visited. Other information such as login
+             information, last page visited, preferences to customize the web site such as
+             colour, language
+            is non-executable
+            can have expiry dates or persist until deleted by the user
+            can be encrypted for security and privacy reasons
+            can be used to enhance a user’s visit to a web site as information is stored that
+             is used to customize the visit
+            can help load a webpage quickly with your preferences from previous visits.
+
+           Award [1 mark] for further development about information contained in a cookie.
+
+     (b)   Describe how a cookie could enhance the experience of the user on the
+           PTC web site.                                                         [2 marks]
+
+           The information stored in the cookie is used to enhance the user’s next visits
+           to the theatre web site by retrieving details of:
+            which language was used in the last visit, which will avoid the necessity to
+              select the desired language on the web site
+            previous bookings and to present the current plays being performed at the last
+              theatre visited, which is assumed to be the user’s preferred theatre
+            payment methods and personal details so they do not need to be entered again
+            special needs, such as the address to send the tickets to as the user does not
+              have the facility to print the tickets themselves
+            the favourite genre of the user so that current and future plays of that genre can
+              be suggested to the user
+            the ID number so that the user does not need to remember it to receive these
+              benefits.
+
+           Award [1 mark] for a general description or indirect enhancement of how
+           recorded information can be used to customize the theatre booking experience for
+           the user based on the previous visit to the web site, e.g. that an ID is used to
+           retrieve the user’s previous preferences.
+
+           Award [2 marks] for a description of a specific benefit, similar to those above,
+           that clearly describes how the user’s experience is enhanced.
+           Only one enhancement is required.
+                                                  –5–               M12/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+2.   The database used by the PTC needs to conform to the ACID (atomicity,
+     consistency, isolation and durability) rules.
+
+     With reference to a customer making an online booking with the PTC for seats
+     using a credit card, explain how the lack of conformity with two of the ACID rules
+     affects the successful functioning of the PTC database booking system.             [6 marks]
+
+     These rules are needed to ensure the reliability and integrity of the data stored in
+     a database. The following transactions and problems are only samples of what
+     could happen.
+
+      Atomicity
+       Rule – Atomicity means that a transaction is not finally accepted into the database
+       until the processing of the data in the transaction is complete for all fields and the
+       data has satisfied all the rules of the database. If any part fails due to problems with
+       the data processing, the database system or the hardware, the transaction is
+       rolled back.
+       Problems – If one part of this transaction was not completed the database may
+       contain a seat that has not been booked but has been paid for or a seat that has been
+       booked but not paid for.
+
+      Consistency
+       Rule – There must be consistency between data fields in a record, as well as
+       consistency of individual data in a particular field with the validation rules of
+       the database.
+       Problems – If some of the data entered by the user when paying for the seats is not
+       valid then the whole transaction will be rejected, e.g. the credit card number is not a
+       valid number, or the date is not a valid date. If this happens, the theatre will not
+       receive the money for the seat or the buyer may not receive the tickets for the
+       date wanted. Another type of consistency problem would occur if a patron decided
+       to not subscribe to the theatre for that year. The record of the patron should be
+       deleted and also any reference to the patron in the section of the database that is used
+       to send out a newsletter each month; otherwise extra newsletters would be sent out
+       causing a waste of time and money.
+
+      Isolation
+       Rule – Data cannot be accessed and used in other database operations until a
+       transaction has been fully completed. Hence concurrent transactions on the same
+       record in the database cannot be performed at the same time.
+       Problems – If the transaction described above is not isolated from other transactions
+       by marking/locking it in the process of being booked, then a double transaction for
+       the same seat can occur. This could result in one person booking the seat and
+       another person paying for it; or one person thinking that two seats have been booked
+       but actually only one has been booked and paid for.
+                                             –6–                M12/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+ Durability
+  Rule – Durability is the guarantee that the data changes from a fully completed
+  transaction will survive a failure of the system (hardware and software).
+  A transaction log is one way that this can be achieved, or a real-time back-up can
+  be used.
+  Problems – If during the transaction there is a power surge, or some other equipment
+  or software problem, the transaction may not be complete, i.e. all parts of the
+  transaction have been entered into the database, checked and confirmed. This could
+  result in the seat being booked but not paid for or vice versa; or the transaction not
+  being processed at all, but a confirmation message being sent to say that it has been.
+
+Two rules need to be identified and explained for the maximum [6 marks]. If only one
+is discussed the maximum that can be awarded for this question is [3 marks].
+
+For each rule:
+[1 mark]
+The answer defines the rule.
+
+[2–3 marks]
+The answer identifies how the rule applies to a theatre database booking system and
+explains how the lack of conformity would affect the reliability and integrity of the data.
+                                                   –7–              M12/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+3.   Discuss the features of an appropriate user interface for the PTC online booking
+     system that would create a quality experience for the user.                      [8 marks]
+
+     List of features of the booking system web site that were highlighted in the
+     case study:
+      interactive selection of seats from a live theatre plan
+      intuitive interface and structure – the student may discuss features here such as use of
+        colour, spacing and alignment, titles, use of blocks of text, instructions
+      users will be able to select preferred language from the four national languages,
+        French, German, Romansh and Italian, and English, and if tourism increases, Russian
+        and Arabic
+      be compatible with all browsers – impact of lack of compatibility should be included
+        in discussion
+      secure online payment facility
+      each theatre company needs a section for themselves
+      an opening screen that integrates the main features of the web site – search, selection
+        of theatres, current productions, future productions, etc.
+      be able to switch from one language to another
+      no need for additional software such as plug-ins and other client side software
+      printing of tickets by users
+      other payment systems for those who do not have a credit card
+      special needs – for those who do not have easy access to computer equipment
+        (through physical disability or some other reason), or may not be familiar with online
+        booking systems
+      use of video, animations and other multimedia features on the web site.
+
+     Other features may be added if appropriate.
+
+     In this question it is expected there will be a balance in the ITGS terminology between
+     IT technical terminology and the terminology related to social and ethical impacts.
+     For this question the answer will need to focus on the impact on the user as he/she
+     uses the booking system to research productions, and to book and pay for tickets.
+
+     N.B. Award no more than [3 marks] if no new information is added to that in the
+     Case Study.
+                                       –8–              M12/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+SL and HL paper 1 part (c) and HL paper 3 question 3 markband
+        Marks            Level descriptor
+                        •   A response with no knowledge or understanding of the
+      No marks              relevant ITGS issues and concepts.
+                        •   A response that includes no appropriate ITGS terminology.
+                        •   A response with minimal knowledge and understanding of
+                            the relevant ITGS issues and concepts.
+                        •   A response that includes minimal use of appropriate
+                            ITGS terminology.
+        Basic
+                        •   A response that has no evidence of judgments and/or
+      1–2 marks             conclusions.
+                        •   No reference is made to the scenario in the stimulus material
+                            in the response.
+                        •   The response may be no more than a list.
+                        •   A descriptive response with limited knowledge and/or
+                            understanding of the relevant ITGS issues and/or concepts.
+                        •   A response that includes limited use of appropriate
+                            ITGS terminology.
+      Adequate          •   A response that has evidence of conclusions and/or
+      3–4 marks             judgments that are no more than unsubstantiated statements.
+                            The analysis underpinning them may also be partial
+                            or unbalanced.
+                        •   Implicit references are made to the scenario in the stimulus
+                            material in the response.
+                        •   A response with knowledge and understanding of the
+                            relevant ITGS issues and/or concepts.
+                        •   A response that uses ITGS terminology appropriately
+                            in places.
+      Competent
+                        •   A response that includes conclusions and/or judgments that
+      5–6 marks
+                            have limited support and are underpinned by a balanced
+                            analysis.
+                        •   Explicit references to the scenario in the stimulus material
+                            are made at places in the response.
+                        •   A response with a detailed knowledge and understanding of
+                            the relevant ITGS issues and/or concepts.
+                        •   A response that uses ITGS terminology appropriately
+      Proficient            throughout.
+      7–8 marks         •   A response that includes conclusions and/or judgments that
+                            are well supported and underpinned by a balanced analysis.
+                        •   Explicit references are made appropriately to the scenario in
+                            the stimulus material throughout the response.
+                                                –9–               M12/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+4.   The development of the IT system is due to start in June 2012 and be handed over
+     on 1 March 2014. Formulate a development strategy that will enable the
+     customized IT system to be delivered to the theatres that meets their requirements
+     on time and within budget.                                                         [12 marks]
+
+     It should be recognized that, given time constraints, answers are likely to include a
+     much narrower range of issues and concepts than identified below. There is no
+     “correct” answer.
+
+     Examiners must be prepared to award full marks to answers which synthesize and
+     evaluate even if they do not examine all the stimulus materials.
+
+     The development strategy must address the following:
+      the development and implementation of the IT system
+      the requirements of the IT system
+      the agreed time requirements
+      the agreed budget requirements.
+
+     The case study provides the following requirements which should be addressed in
+     the response:
+      The theatres have a limited budget and are aware that the solution may require
+        compromises in terms of features and functionality.
+      Centralized web site for information about the venues, the productions, ticketing and
+        seat selection:
+        the web site has five languages
+         the web site has interactive seat selection
+         online payment facility
+         user friendly and includes consideration of customers with special needs, is
+           compatible with many browsers and contains multimedia features (preferably with
+           no plug-ins needed).
+      Each theatre company needs to be able to manage its own part of the web site, and
+        have access to sales and customer data for analysis and customer relationship
+        management:
+         production of analysis reports, hopefully using business intelligence software
+         use of customer relationship management system software
+         the migration of data about current customers to the new system
+         using a content management system to manage the web site.
+      The new system needs to be up and running by 1 March 2014.
+      The choice of supplier, including the choice of the customization of an existing
+        system or the development of a completely new system.
+      Data integrity issues – security of data access and use, backup of data.
+      The new system could be based on one of the two options listed below:
+         a distributed database system
+         a centralized database system, in association with a Virtual Private
+           Network (VPN).
+
+     The candidate must demonstrate an understanding of the application of the SDLC and
+     Project Management in the context of the needs of the PTC – requirements, timeline
+     and budget. The strategy should provide details of the developmental process to be
+     followed and a justification of the process, including how the requirements above will
+     be achieved.
+                                           – 10 –             M12/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+The response should refer to the ideas stated below, but may not address all within the
+time constraint.
+
+Choice of development methodology
+The candidate justifies the development methodology, Waterfall, Agile or a hybrid of
+both.
+It is likely that the Waterfall method will be used and this may be inferred if the
+response shows a sequential development.
+The length of time for each stage, assuming the Waterfall method is used, should be
+realistic.
+
+Analysis stage
+Performed by the PTC committee, or a sub-group, who need to engage the services of a
+systems analyst.
+ Data collection – e.g. questionnaires, interviews, observation, literature searches to
+   provide analysis of current situation and organizational requirements.
+ Identification of suitable system(s) is made – both customization of a product and
+   development of a new system from the ground up.
+ Identification of possible suppliers is made as well.
+ Feasibility study.
+
+This report will need to go to the full PTC committee who will make the final decision.
+Customization of a product or development from the ground-up, a choice of supplier(s)
+is made and requirements specification documents are produced.
+
+Design stage
+The supplier will take the requirements specification documents and develop a plan and
+a design that satisfies the requirements and the constraints imposed by the budget,
+timeline and the various features required.
+ Project plan (who, why, what, when and how) part of the project is developed by the
+   systems analyst.
+ Detailed designs are produced.
+ Choice of developmental strategy – e.g. waterfall, agile or a mixture of both –
+   is also determined in the design stage.
+ Acceptance of the plan.
+
+The design is accepted by the full PTC committee and development starts.
+
+Development stage
+ Development of the IT solution – choice of suppliers and developers of specialized
+  parts of the system are selected, e.g. network and hardware suppliers, specialized
+  database and web site developers, etc.
+ Development of the web site – database and setting up of the hardware and software
+  ready for comprehensive testing.
+ Initial testing, alpha testing – would most likely take place in the premises of the
+  supplier and must satisfy the requirements specified.
+                                             – 11 –             M12/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+ Implementation stage
+ Training and support of staff, documentation to support the new IT system.
+ Changeover methods.
+ Beta testing – the testing of the system in situ at the theatres which should utilize the
+   staff as well. It would need to be thorough and include all areas of operation,
+   including data security, backups and disaster recovery plans. Beta testing would
+   also include the use of “real data” migrated from the records of previous
+   performances and productions in the two theatres.
+ Maintenance – maintenance contracts should have been part of the original
+   negotiations.
+                                            – 12 –              M12/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+HL paper 3 question 4 markband
+        Marks            Level descriptor
+                         •   A response with no knowledge or understanding of the relevant
+       No marks              ITGS issues and concepts.
+                         •   A response that includes no appropriate ITGS terminology.
+                         •   A response with minimal knowledge and understanding of the
+                             relevant ITGS issues and concepts.
+                         •   A response that includes minimal use of                   appropriate
+                             ITGS terminology.
+         Basic
+                         •   A response that has no evidence of judgments, conclusions or
+       1–3 marks             future strategies.
+                         •   No reference is made to the information in the case study or
+                             independent research in the response.
+                         •   The response may be no more than a list.
+                         •   A descriptive response with limited knowledge and/or
+                             understanding of the relevant ITGS issues and/or concepts.
+                         •   A response that         includes    limited   use   of    appropriate
+                             ITGS terminology.
+       Adequate
+                         •   A response that has evidence of conclusions, judgments or future
+       4–6 marks
+                             strategies that are no more than unsubstantiated statements. The
+                             analysis underpinning them may also be partial or unbalanced.
+                         •   Implicit references are made to the information in the case study
+                             or independent research in the response.
+                         •   A response with knowledge and understanding of the relevant
+                             ITGS issues and/or concepts.
+                         •   A response that uses ITGS terminology appropriately in places.
+       Competent         •   A response that includes future strategies, conclusions and/or
+       7–9 marks             judgments that have limited support and are underpinned by a
+                             balanced analysis.
+                         •   Explicit references to the information in the case study or
+                             independent research are made at places in the response.
+                         •   A response with a detailed knowledge and understanding of the
+                             relevant ITGS issues and/or concepts.
+                         •   A response       that   uses   ITGS    terminology       appropriately
+                             throughout.
+       Proficient        •   A response that includes conclusions, judgments or future
+      10–12 marks            strategies that are well supported and underpinned by a
+                             balanced analysis.
+                         •   Explicit references are made appropriately to the information in
+                             the case study and independent research throughout
+                             the response.
+

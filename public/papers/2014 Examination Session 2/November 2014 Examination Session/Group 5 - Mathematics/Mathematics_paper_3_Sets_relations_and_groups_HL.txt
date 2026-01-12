@@ -1,0 +1,154 @@
+N14/5/MATHL/HP3/ENG/TZ0/SG
+
+
+
+
+      88147209
+
+MATHEMATICS
+HIGHER LEVEL
+PAPER 3 – SETS, RELATIONS AND GROUPS
+
+Thursday 13 November 2014 (afternoon)
+
+1 hour
+
+
+INSTRUCTIONS TO CANDIDATES
+
+ Do not open this examination paper until instructed to do so.
+ Answer all the questions.
+ Unless otherwise stated in the question, all numerical answers should be given exactly or
+  correct to three significant figures.
+ A graphic display calculator is required for this paper.
+ A clean copy of the Mathematics HL and Further Mathematics HL formula booklet is required
+  for this paper.
+ The maximum mark for this examination paper is [60 marks].
+
+
+
+
+8814-7209                                                                                       4 pages
+                                                        © International Baccalaureate Organization 2014
+                                                     –2–                 N14/5/MATHL/HP3/ENG/TZ0/SG
+
+Please start each question on a new page. Full marks are not necessarily awarded for a correct answer
+with no working. Answers must be supported by working and/or explanations. In particular, solutions
+found from a graphic display calculator should be supported by suitable working. For example, if graphs
+are used to find a solution, you should sketch these as part of your answer. Where an answer is incorrect,
+some marks may be given for a correct method, provided this is shown by written working. You are therefore
+advised to show all working.
+
+1.    [Maximum mark: 12]
+
+      A group with the binary operation of multiplication modulo 15 is shown in the following
+      Cayley table.
+
+                                 ×15   1    2    4    7    8    11 13 14
+                                  1    1    2    4    7    8    11 13 14
+                                  2    2    4    8   14    1    7    11 13
+                                  4    4    8    1   13    2    14   7   11
+                                  7    7   14 13      4    11   2    1    8
+                                  8    8    1    2   11    4    13 14     7
+                                  11 11     7   14    2    13   a    b    c
+                                 13 13 11        7    1    14   d    e    f
+                                 14 14 13 11          8    7    g    h    i
+
+
+      (a)   Find the values represented by each of the letters in the table.                          [3]
+
+      (b)   Find the order of each of the elements of the group.                                      [3]
+
+      (c)   Write down the three sets that form subgroups of order 2.                                 [2]
+
+      (d)   Find the three sets that form subgroups of order 4.                                       [4]
+
+
+
+
+8814-7209
+                                                        –3–                 N14/5/MATHL/HP3/ENG/TZ0/SG
+
+2.    [Maximum mark: 8]
+
+                                              4x +1
+      Define f :  \ {0.5} →  by f ( x) =          .
+                                              2x −1
+
+      (a)   Prove that f is an injection.                                                              [4]
+
+      (b)   Prove that f is not a surjection.                                                          [4]
+
+
+3.    [Maximum mark: 11]
+
+      Consider the set A consisting of all the permutations of the integers 1, 2 , 3 , 4 , 5 .
+
+  (a)       Two members of A are given by p = (1 2 5) and q = (1 3) (2 5) .
+		          Find the single permutation which is equivalent to q  p .                                 [4]
+
+      (b)   State a permutation belonging to A of order
+
+		(i)             4;
+
+		(ii)            6.                                                                                   [3]
+
+
+      (c)   Let P = {all permutations in A where exactly two integers change position},
+            and Q = {all permutations in A where the integer 1 changes position}.
+
+		          (i)   List all the elements in P ∩ Q .
+
+		(ii)            Find n ( P ∩ Q′) .                                                                   [4]
+
+
+
+
+8814-7209                                                                                        Turn over
+                                                          –4–            N14/5/MATHL/HP3/ENG/TZ0/SG
+
+4.    [Maximum mark: 10]
+
+      The group {G , ∗} has identity eG and the group {H , } has identity eH . A homomorphism f
+      is such that f : G → H . It is given that f ( eG ) = eH .
+
+
+            Prove that for all a ∈ G , f (a −1 ) = ( f (a ) ) .
+                                                            −1
+      (a)                                                                                            [4]
+
+      Let {H , } be the cyclic group of order seven, and let p be a generator.
+      Let x ∈ G such that f ( x) = p 2 .
+
+      (b)   Find f ( x −1 ) .                                                                        [2]
+
+      (c)   Given that f ( x ∗ y ) = p , find f ( y ) .                                              [4]
+
+
+5.    [Maximum mark: 19]
+
+      (a)   State Lagrange’s theorem.                                                                [2]
+
+
+      {G , ∗} is a group with identity element e . Let a , b ∈ G .
+
+      (b)   Verify that the inverse of a ∗ b −1 is equal to b ∗ a −1 .                               [3]
+
+      Let {H , ∗} be a subgroup of {G , ∗} . Let R  be a relation defined on  G by
+
+                                                 aRb ⇔ a ∗ b −1 ∈ H .
+
+      (c)   Prove that R is an equivalence relation, indicating clearly whenever you are using one
+            of the four properties required of a group.                                              [8]
+
+      (d)   Show that aRb ⇔ a ∈ Hb , where Hb is the right coset of H containing b .                 [3]
+
+      It is given that the number of elements in any right coset of H is equal to the order of H .
+
+      (e)   Explain how this fact together with parts (c) and (d) prove Lagrange’s theorem.          [3]
+
+
+
+
+8814-7209
+

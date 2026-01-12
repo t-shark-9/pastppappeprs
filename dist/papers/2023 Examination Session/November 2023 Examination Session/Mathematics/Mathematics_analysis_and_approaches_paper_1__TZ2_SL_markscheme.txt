@@ -1,0 +1,905 @@
+8823 – 7114M
+
+
+
+
+               Markscheme
+
+
+               November 2023
+
+
+   Mathematics: analysis and approaches
+
+
+               Standard level
+
+
+                Paper 1 TZ2
+
+
+
+
+19 pages
+                                            –2–                                         8823 – 7114M
+
+
+
+
+© International Baccalaureate Organization 2023
+
+All rights reserved. No part of this product may be reproduced in any form or by any
+electronic or mechanical means, including information storage and retrieval systems,
+without the prior written permission from the IB. Additionally, the license tied with this
+product prohibits use of any selected files or extracts from this product. Use by third
+parties, including but not limited to publishers, private teachers, tutoring or study services,
+preparatory schools, vendors operating curriculum mapping services or teacher resource
+digital platforms and app developers, whether fee-covered or not, is prohibited and is a
+criminal offense.
+
+More information on how to request written permission in the form of a license can be
+obtained from https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-
+license/.
+
+© Organisation du Baccalauréat International 2023
+
+Tous droits réservés. Aucune partie de ce produit ne peut être reproduite sous quelque
+forme ni par quelque moyen que ce soit, électronique ou mécanique, y compris des
+systèmes de stockage et de récupération d’informations, sans l’autorisation écrite
+préalable de l’IB. De plus, la licence associée à ce produit interdit toute utilisation de tout
+fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris, sans
+toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de tutorat ou
+d’aide aux études, des établissements de préparation à l’enseignement supérieur, des
+fournisseurs de services de planification des programmes d’études, des gestionnaires de
+plateformes pédagogiques en ligne, et des développeurs d’applications, moyennant
+paiement ou non, est interdite et constitue une infraction pénale.
+
+Pour plus d’informations sur la procédure à suivre pour obtenir une autorisation écrite
+sous la forme d’une licence, rendez-vous à l’adresse https://ibo.org/become-an-ib-school/
+ib-publishing/licensing/applying-for-a-license/.
+
+© Organización del Bachillerato Internacional, 2023
+
+Todos los derechos reservados. No se podrá reproducir ninguna parte de este producto
+de ninguna forma ni por ningún medio electrónico o mecánico, incluidos los sistemas de
+almacenamiento y recuperación de información, sin la previa autorización por escrito del
+IB. Además, la licencia vinculada a este producto prohíbe el uso de todo archivo o
+fragmento seleccionado de este producto. El uso por parte de terceros —lo que incluye,
+a título enunciativo, editoriales, profesores particulares, servicios de apoyo académico o
+ayuda para el estudio, colegios preparatorios, desarrolladores de aplicaciones y
+entidades que presten servicios de planificación curricular u ofrezcan recursos para
+docentes mediante plataformas digitales—, ya sea incluido en tasas o no, está prohibido
+y constituye un delito.
+
+En este enlace encontrará más información sobre cómo solicitar una autorización por
+escrito en forma de licencia: https://ibo.org/become-an-ib-school/ib-publishing/licensing/
+applying-for-a-license/.
+                                                 –3–                                       8823 – 7114M
+
+
+                                       Instructions to Examiners
+
+Abbreviations
+
+M    Marks awarded for attempting to use a correct Method.
+
+A    Marks awarded for an Answer or for Accuracy; often dependent on preceding M marks.
+
+R    Marks awarded for clear Reasoning.
+
+AG   Answer given in the question and so no marks are awarded.
+
+FT   Follow through. The practice of awarding marks, despite candidate errors in previous parts, for their
+     correct methods/answers using incorrect results.
+
+
+Using the markscheme
+
+1    General
+
+     Award marks using the annotations as noted in the markscheme eg M1, A2.
+
+
+2    Method and Answer/Accuracy marks
+
+     • Do not automatically award full marks for a correct answer; all working must be checked, and
+       marks awarded according to the markscheme.
+     • It is generally not possible to award M0 followed by A1, as A mark(s) depend on the preceding M
+       mark(s), if any.
+     • Where M and A marks are noted on the same line, e.g. M1A1, this usually means M1 for an
+       attempt to use an appropriate method (e.g. substitution into a formula) and A1 for using the
+       correct values.
+     • Where there are two or more A marks on the same line, they may be awarded independently; so
+       if the first value is incorrect, but the next two are correct, award A0A1A1.
+     • Where the markscheme specifies A3, M2 etc., do not split the marks, unless there is a note.
+     • The response to a “show that” question does not need to restate the AG line, unless a Note
+       makes this explicit in the markscheme.
+     • Once a correct answer to a question or part question is seen, ignore further working even if this
+       working is incorrect and/or suggests a misunderstanding of the question. This will encourage a
+       uniform approach to marking, with less examiner discretion. Although some candidates may be
+       advantaged for that specific question item, it is likely that these candidates will lose marks
+       elsewhere too.
+     • An exception to the previous rule is when an incorrect answer from further working is used in a
+       subsequent part. For example, when a correct exact value is followed by an incorrect decimal
+       approximation in the first part and this approximation is then used in the second part. In this
+       situation, award FT marks as appropriate but do not award the final A1 in the first part.
+                                                    –4–                                        8823 – 7114M
+
+
+         Examples:
+
+     Correct         Further            Any FT issues?
+                                                                   Action
+     answer seen     working seen
+1.                     5.65685...         No.                       Award A1 for the final mark
+       8 2            (incorrect          Last part in question.    (condone the incorrect further
+                     decimal value)                                 working)
+2.      35            0.468111…           Yes.                      Award A0 for the final mark
+                      (incorrect          Value is used in          (and full FT is available in
+        72           decimal value)       subsequent parts.         subsequent parts)
+
+
+3     Implied marks
+
+      Implied marks appear in brackets e.g. (M1) and can only be awarded if correct work is seen or
+      implied by subsequent working/answer.
+
+
+4     Follow through marks (only applied after an error is made)
+
+      Follow through (FT) marks are awarded where an incorrect answer from one part of a question is
+      used correctly in subsequent part(s) (e.g. incorrect value from part (a) used in part (d) or incorrect
+      value from part (c)(i) used in part (c)(ii)). Usually, to award FT marks, there must be working
+      present and not just a final answer based on an incorrect answer to a previous part. However, if all
+      the marks awarded in a subsequent part are for the answer or are implied, then FT marks should be
+      awarded for their correct answer, even when working is not present.
+
+      For example: following an incorrect answer to part (a) that is used in subsequent parts, where the
+      markscheme for the subsequent part is (M1)A1, it is possible to award full marks for their correct
+      answer, without working being seen. For longer questions where all but the answer marks are
+      implied this rule applies but may be overwritten by a Note in the Markscheme.
+
+      • Within a question part, once an error is made, no further A marks can be awarded for work which
+        uses the error, but M marks may be awarded if appropriate.
+
+      • If the question becomes much simpler because of an error then use discretion to award fewer
+        FT marks, by reflecting on what each mark is for and how that maps to the simplified version.
+
+      • If the error leads to an inappropriate value (e.g. probability greater than 1, sin θ = 1.5 , non-integer
+        value where integer required), do not award the mark(s) for the final answer(s).
+
+      • The markscheme may use the word “their” in a description, to indicate that candidates may be
+        using an incorrect value.
+
+      • If the candidate’s answer to the initial question clearly contradicts information given in the
+        question, it is not appropriate to award any FT marks in the subsequent parts. This includes
+        when candidates fail to complete a “show that” question correctly, and then in subsequent parts
+        use their incorrect answer rather than the given value.
+
+      • Exceptions to these FT rules will be explicitly noted on the markscheme.
+
+      • If a candidate makes an error in one part but gets the correct answer(s) to subsequent part(s),
+        award marks as appropriate, unless the command term was “Hence”.
+                                                 –5–                                       8823 – 7114M
+
+
+5   Mis-read
+
+    If a candidate incorrectly copies values or information from the question, this is a mis-read (MR). A
+    candidate should be penalized only once for a particular misread. Use the MR stamp to indicate
+    that this has been a misread and do not award the first mark, even if this is an M mark, but award all
+    others as appropriate.
+    • If the question becomes much simpler because of the MR, then use discretion to award
+      fewer marks.
+
+    • If the MR leads to an inappropriate value (e.g. probability greater than 1, sin θ = 1.5 , non-integer
+      value where integer required), do not award the mark(s) for the final answer(s).
+
+    • Miscopying of candidates’ own work does not constitute a misread, it is an error.
+
+    • If a candidate uses a correct answer, to a “show that” question, to a higher degree of accuracy
+      than given in the question, this is NOT a misread and full marks may be scored in the subsequent
+      part.
+
+    • MR can only be applied when work is seen. For calculator questions with no working and
+      incorrect answers, examiners should not infer that values were read incorrectly.
+
+
+6   Alternative methods
+
+    Candidates will sometimes use methods other than those in the markscheme. Unless the question
+    specifies a method, other correct methods should be marked in line with the markscheme. If the
+    command term is ‘Hence’ and not ‘Hence or otherwise’ then alternative methods are not permitted
+    unless covered by a note in the mark scheme.
+
+    • Alternative methods for complete questions are indicated by                          METHOD        1,
+      METHOD 2, etc.
+    • Alternative solutions for parts of questions are indicated by EITHER . . . OR.
+
+
+7   Alternative forms
+    Unless the question specifies otherwise, accept equivalent forms.
+
+    • As this is an international examination, accept all alternative forms of notation for example 1.9
+      and 1,9 or 1000 and 1,000 and 1.000 .
+
+    • Do not accept final answers written using calculator notation. However, M marks and
+      intermediate A marks can be scored, when presented using calculator notation, provided the
+      evidence clearly reflects the demand of the mark.
+
+    • In the markscheme, equivalent numerical and algebraic forms will generally be written in
+      brackets immediately following the answer.
+
+    • In the markscheme, some equivalent answers will generally appear in brackets. Not all
+      equivalent notations/answers/methods will be presented in the markscheme and examiners are
+      asked to apply appropriate discretion to judge if the candidate work is equivalent.
+                                                     –6–                                         8823 – 7114M
+
+
+8     Format and accuracy of answers
+
+      If the level of accuracy is specified in the question, a mark will be linked to giving the answer to the
+      required accuracy. If the level of accuracy is not stated in the question, the general rule applies to
+      final answers: unless otherwise stated in the question all numerical answers must be given exactly
+      or correct to three significant figures.
+
+      Where values are used in subsequent parts, the markscheme will generally use the exact value,
+      however candidates may also use the correct answer to 3 sf in subsequent parts. The markscheme
+      will often explicitly include the subsequent values that come “from the use of 3 sf values”.
+
+      Simplification of final answers: Candidates are advised to give final answers using good
+      mathematical form. In general, for an A mark to be awarded, arithmetic should be completed, and
+                                                                              25                     5
+      any values that lead to integers should be simplified; for example,        should be written as . An
+                                                                              4                      2
+      exception to this is simplifying fractions, where lowest form is not required (although the numerator
+                                                               10                                       5
+      and the denominator must be integers); for example,         may be left in this form or written as .
+                                                                4                                       2
+                 10
+      However,      should be written as 2, as it simplifies to an integer.
+                  5
+
+      Algebraic expressions should be simplified by completing any operations such as addition and
+      multiplication, e.g. 4e 2 x × e3 x should be simplified to 4e5 x , and 4e 2 x × e3 x − e 4 x × e x should be
+      simplified to 3e5 x . Unless specified in the question, expressions do not need to be factorized, nor do
+      factorized expressions need to be expanded, so x ( x + 1) and x 2 + x are both acceptable.
+
+      Please note: intermediate A marks do NOT need to be simplified.
+
+9     Calculators
+
+      No calculator is allowed. The use of any calculator on this paper is malpractice and will result in no
+      grade awarded. If you see work that suggests a candidate has used any calculator, please follow
+      the procedures for malpractice.
+
+
+10.   Presentation of candidate work
+
+      Crossed out work: If a candidate has drawn a line through work on their examination script, or in
+      some other way crossed out their work, do not award any marks for that work unless an explicit note
+      from the candidate indicates that they would like the work to be marked.
+
+      More than one solution: Where a candidate offers two or more different answers to the same
+      question, an examiner should only mark the first response unless the candidate indicates otherwise.
+      If the layout of the responses makes it difficult to judge, examiners should apply appropriate
+      discretion to judge which is “first”.
+                                                     –7–           8823 – 7114M
+
+
+                                                   Section A
+
+
+1.   (a)   a=5                                                             A1
+                                                                     [1 mark]
+
+
+
+
+     (b)   (i)       period = π                                            A1
+
+
+                          2π        2π
+           (ii)      b=      OR π =                                      (A1)
+                           π        b
+                     =2                                                    A1
+                                                                    [3 marks]
+
+
+
+
+                            π
+     (c)   substituting       into their f ( x )                         (M1)
+                            6
+
+              π        π
+            f   = 5cos  
+              6        3
+
+               π 1
+           cos   =                                                     (A1)
+               3 2
+                 5
+           =                                                               A1
+                 2
+                                                                    [3 marks]
+                                                               Total [7 marks]
+                                                            –8–                                 8823 – 7114M
+
+
+2.   (a)   attempt to form ( g  f )( x )                                                             (M1)
+
+           ( ( g  f )( x ) ) =( x − 3) + k
+                                     2        2
+                                                  ( = x − 6x + 9 + k )
+                                                      2            2
+                                                                                                        A1
+
+                                                                                                 [2 marks]
+
+
+
+
+     (b)   substituting x = 2 into their ( g  f )( x ) and setting their expression = 10             (M1)
+
+                          10 OR 2 − 6 ( 2 ) + 9 + k =
+           ( 2 − 3) + k 2 =      2                 2
+                    2
+                                                     10
+
+           k2 = 9                                                                                     (A1)
+           k = ±3                                                                                       A1
+                                                                                                 [3 marks]
+                                                                                            Total [5 marks]
+
+
+
+
+3.   (a)   ( P ( A ∪ B )= ) 0.65 + 0.75 − 0.6 OR 0.05 + 0.6 + 0.15                                    (A1)
+
+           = 0.8                                                                                        A1
+                                                                                                 [2 marks]
+
+
+
+
+     (b)   recognition that A′ ∩ B′ = ( A ∪ B )′ OR A′ ∩ B′ =1 − A ∪ B
+           (region/value may be seen in a correctly shaded/labeled Venn diagram)                      (M1)
+
+           (= 1 − 0.8)
+           = 0.2                                                                                        A1
+
+     Note: For the final mark, 0.2 must be stated as the candidate’s answer, or
+           labeled as P ( A′ ∩ B′ ) in their Venn diagram. Just seeing an unlabeled 0.2
+           in the correct region of their diagram earns M1A0.
+                                                                                                 [2 marks]
+                                                                                            Total [4 marks]
+                                                    –9–                                      8823 – 7114M
+
+
+4.   (a)   METHOD 1
+
+           attempt to form at least one equation, using either S 4 or S5                          (M1)
+
+           65 25 p − 5q
+           =                   (13
+                                = 5 p − q ) and =
+                                                40 16 p − 4q (10
+                                                              = 4 p − q)                           (A1)
+
+           valid attempt to solve simultaneous linear equations in p and q by substituting
+           or eliminating one of the variables.                                                   (M1)
+            p =3, q =2                                                                           A1A1
+
+     Note: If candidate does not explicitly state their values of p and q, but gives
+           Sn 3n 2 − 2n , award final two marks as A1A0.
+           =
+
+
+           METHOD 2
+
+           attempt to form at least one equation, using either S 4 or S5                          (M1)
+
+                  5
+           65
+           =        ( 2u1 + 4d )    ( 26
+                                      = 2u1 + 4d ) and =
+                                                       40 2 ( 2u1 + 3d ) ( 20
+                                                                           = 2u1 + 3d )            (A1)
+                  2
+           valid attempt to solve simultaneous linear equations in u1 and d by substituting
+           or eliminating one of the variables.                                                   (M1)
+
+           u1 = 1 , d = 6                                                                           A1
+
+                  n
+           Sn =
+                  2
+                    ( 2 + 6 ( n − 1) ) = 3n2 − 2n
+      =p 3=
+          and q 2                                                                                   A1
+
+     Note: If candidate does not explicitly state their values of p and q, do not award
+           the final mark.
+                                                                                              [5 marks]
+
+
+
+
+     (b)   u=
+            5 S5 − S4 OR substituting their values of u1 and d into u=
+                                                                     5 u1 + 4d
+                                                          5
+           OR substituting their value of u1 into=
+                                                 65         ( u1 + u5 )                           (M1)
+                                                          2
+                                                              5
+           ( u=5 ) 65 − 40 OR ( u5 = )1 + 4 × 6 OR =
+                                                   65           (1 + u5 )
+                                                              2
+           = 25                                                                                     A1
+                                                                                              [2 marks]
+                                                                                       Total [7 marks]
+                                                   – 10 –                                     8823 – 7114M
+
+
+5.   METHOD 1
+     EITHER
+     attempt to use Pythagoras’ theorem in a right-angled triangle.                                (M1)
+
+            ) 24
+     ( 5 −1 =
+            2   2
+                                                                                                   (A1)
+
+
+
+     OR
+     attempt to use the Pythagorean identity cos 2 α + sin 2 α =
+                                                               1                                   (M1)
+                         2
+        2 ˆ = 1−  1 
+     sin BAC                                                                                       (A1)
+                  
+                 5
+
+
+     THEN
+
+          ˆ = 24 (may be seen in area formula)
+     sin BAC                                                                                         A1
+              5
+                              1                                                         ˆ )
+     attempt to use ‘Area =     ab sin C ' (must include their calculated value of sin BAC         (M1)
+                              2
+
+      1          24
+     = ×10 × 6 ×                                                                                   (A1)
+      2          5
+     = 12 (cm2)                                                                                      A1
+                                                                                              [6 marks]
+
+
+                                                                                              continued…
+                                                     – 11 –                                        8823 – 7114M
+
+
+Question 5 continued
+
+
+     METHOD 2
+     attempt to find perpendicular height of triangle BAC                                               (M1)
+     EITHER
+
+     height
+         =                 ˆ
+                  6 × sin BAC
+     attempt to use the Pythagorean identity cos 2 α + sin 2 α =
+                                                               1                                        (M1)
+                                2
+                         1
+     height =     6 × 1−                                                                              (A1)
+                         5
+
+                24  12 
+     =6 ×          =                                                                                    A1
+                5  5
+
+
+     OR
+                   6
+     adjacent =                                                                                         (A1)
+                  5
+     attempt to use Pythagoras’ theorem in a right-angled triangle.                                     (M1)
+
+
+                    6  12 
+     height = 6 −       =  (may be seen in area formula)                                              (A1)
+                    25  5 
+
+
+     THEN
+                                1
+     attempt to use ‘Area =       base×height ' (must include their calculated value for height)        (M1)
+                                2
+      1      12
+     = ×10 ×
+      2       5
+     = 12 (cm2)                                                                                           A1
+                                                                                                   [6 marks]
+                                                  – 12 –                                  8823 – 7114M
+
+
+6.   attempt to apply binomial expansion                                                       (M1)
+
+                1 + nC1kx + nC2 k 2 x 2 +  OR C1k = 12 OR C2 = 28
+                                               n           n
+     (1 + kx ) =
+              n
+
+
+
+
+     nk = 12                                                                                   (A1)
+
+
+     n ( n − 1)              n!
+                = 28 OR              = 28                                                      (A1)
+          2             ( n − 2 )!2!
+
+     n 2 − n − 56 =0 OR n ( n − 1) =
+                                   56
+
+
+     valid attempt to solve                                                                    (M1)
+
+     ( n − 8)( n + 7 ) =
+                       0 OR 8 ( 8 − 1) =
+                                       56 OR finding correct value in Pascal’s triangle
+
+
+       8
+     ⇒n=                                                                                         A1
+         3
+     ⇒k =                                                                                        A1
+         2
+
+     Note: If candidate finds n = 8 with no working shown, award M1A0A0M1A1A0.
+                                              3
+           If candidate finds n = 8 and k =     with no working shown, award
+                                              2
+           M1A0A0M1A1A1.
+                                                                                          [6 marks]
+                                                  – 13 –                                   8823 – 7114M
+
+
+                                                Section B
+
+7.   (a)   (i)     p=9                                                                             A1
+
+           (ii)    600 < n ≤ 800                                                                   A1
+
+     Note:Award A0 if candidate answers 700.
+
+                                                                                            [2 marks]
+
+
+     (b)   (i)     median = 600                                                                    A1
+
+
+           (ii)    80% of 800 = 640                                                               (A1)
+
+                   40 (performances less than 80% of tickets sold)                                (A1)
+                   20 (performances)                                                               A1
+                                                                                            [4 marks]
+
+
+
+
+     (c)   (i)     any reasonable answer which suggests a biased sample (must include reason,
+                   do not accept reasons such as “sample size is too small”, or answers that simply
+                   say “not representative of entire audience” without a valid reason)              A1
+                   eg likely to come from the same part of the theatre OR be part of same group
+                   OR be from priority seating OR it is convenience sampling
+
+
+           (ii)    every 20th person                                                              A1A1
+
+     Note: Award A1 for recognizing that sampling occurs at regular intervals eg
+          “every”.
+          Award A1 for interval length is 20.
+
+
+           (iii)   quota (sampling method)                                                         A1
+                                                                                            [4 marks]
+
+
+                                                                                           continued…
+                                                – 14 –                        8823 – 7114M
+
+
+Question 7 continued
+
+
+     (d)   (i)    75% (of 36000 spent between $3 and $25)                           (M1)
+                  = 27000                                                             A1
+
+           (ii)    a=7                                                                A1
+                                                                               [3 marks]
+
+
+
+
+     (e)   (i)    METHOD 1
+                  old mean is 600 (tickets)                                         (A1)
+                  recognising new mean is old mean + 17                             (M1)
+                  600 + 17
+                  = 617 (tickets)                                                     A1
+                  METHOD 2
+                  new total number of tickets = 36000 + 60 × 17(=
+                                                                37020)              (A1)
+
+                               36000 + 60 ×17 37020
+                  new mean =                 (=     )                               (M1)
+                                    60          60
+                  = 617 (tickets)                                                     A1
+
+
+           (ii)   no effect on the variance                                           A1
+                                                                               [4 marks]
+                                                                         Total [17 marks]
+                                                        – 15 –                         8823 – 7114M
+
+
+
+
+8.   (a)   x=0                                                                                A1
+                                                                                         [1 mark]
+
+
+
+
+     (b)   (i)     setting ln(2 x − 9)= 2ln x − ln d                                          M1
+
+                   attempt to use power rule                                                (M1)
+
+                   2ln x = ln x 2 ( seen anywhere )
+                   attempt to use product/quotient rule for logs                            (M1)
+
+                                  x2        x2
+                   ln(2 x − 9) =
+                               ln    OR ln                               ln x 2
+                                                  = ln d OR ln(2 x − 9)d =
+                                  d        2x − 9
+                                            2
+                   x2             x
+                    = 2 x − 9 OR                          x2
+                                        = d OR (2 x − 9)d =                                   A1
+                   d             2x − 9
+                   x 2 − 2dx + 9d =
+                                  0                                                          AG
+
+
+                                                2
+           (ii)    discriminant = ( −2d ) − 4 × 1× 9d                                        (A1)
+
+                   recognizing discriminant > 0                                             (M1)
+
+                   (−2d ) 2 − 4 ×1× 9d > 0 OR (2d ) 2 − 4 × 9d > 0 OR 4d 2 − 36d > 0          A1
+
+                   d 2 − 9d > 0                                                              AG
+
+
+           (iii)   setting d ( d − 9) > 0 OR d (d − 9) = 0 OR sketch graph
+                                        2
+                   OR sign test OR d        > 9d                                            (M1)
+
+                   d < 0 or d > 9 , but d ∈ 
+                                                    +
+
+
+                   d > 9 (or ]9,∞[ )                                                          A1
+
+                                                                                       [9 marks]
+
+
+                                                                                       continued…
+                                                    – 16 –                    8823 – 7114M
+
+
+Question 8 continued
+
+
+
+     (c)   x 2 − 20 x + 90 ( =
+                             0)                                                       A1
+
+           attempting to solve their 3 term quadratic equation                      (M1)
+
+                                            20 ± (−20) 2 − 4 ×1× 90 
+           (   ( x − 10 ) − 10 =
+                      2
+                                )
+                               0 or  ( x =)
+                                                     2
+                                                                     
+                                                                     
+                                                                    
+
+    =x 10
+        = − 10 ( =
+                 p ) or x 10
+                           = + 10 ( q )                                             (A1)
+
+           subtracting their values of x                                            (M1)
+
+           distance = 2 10                                                            A1
+
+           ( a 2,=b 10 )
+           =
+
+     Note: Accept 1       40 OR 40 .
+
+
+                                                                               [5 marks]
+                                                                         Total [15 marks]
+                                                                           – 17 –                                                      8823 – 7114M
+
+
+9.   (a)   attempt to use either the quotient or product rule                                                                                  (M1)
+
+           8 ( x 2 + 1) − 8 x × 3 × 2 x ( x 2 + 1)
+                           3                              2
+
+                                                                               (       ) + 8x × ( −3) × 2 x ( x + 1)
+                                                                                   2   −3                          2     −4
+                                                                   OR 8 x + 1                                                                  A1A1
+                                   ( x + 1)
+                                        2     6
+
+
+
+
+                                                                                       (         ) and A1 for
+                                                                                            2    3
+     Note: Award A1 for correctly applying chain rule to x + 1
+           everything else correct.
+
+
+
+               8( x2 + 1 − 6 x2 )                 8 ( x 2 + 1) ( x 2 + 1 − 6 x 2 )
+                                                               2
+                                                                                                 8 − 40 x 2            8 x 2 + 8 − 48 x 2
+           =                                OR                                              OR                    OR                             A1
+                   ( x + 1)
+                                    4
+                                                              ( x 2 + 1)                         ( x 2 + 1)               ( x 2 + 1)
+                       2                                                   6                                  4                        4
+
+
+
+
+               8 (1 − 5 x 2 )
+           =                                                                                                                                    AG
+                ( x + 1)
+                   2           4
+
+
+
+                                                                                                                                           [4 marks]
+
+
+                                                                                                                                           continued…
+                                                                    – 18 –                          8823 – 7114M
+
+
+Question 9 continued
+
+
+     (b)   EITHER
+
+                                                       u x 2 + 1 or u = x 2
+           attempts to integrate by substitution using =                                                 (M1)
+                                       du                  du
+           u = x2 + 1 ⇒                   2 x OR u = x 2 ⇒
+                                          =                   2x
+                                                              =
+                                       dx                  dx
+     Note: If candidate simply states =  u x 2 + 1 or u = x 2 , but does not attempt to
+          substitute into their integral, do not award the (M1).
+
+                 8x                        4                   8x             4
+           ∫ x + 1 dx = ∫ u du OR ∫ x + 1 dx = ∫ ( u + 1) du                                             (A1)
+            ( )                    ( )
+                 2            3            3                        3             3
+                                                               2
+
+
+
+
+                              (+c) OR −2 ( u + 1) (+c)
+                         −2                              −2
+           = −2u                                                                                         (A1)
+
+           OR
+           attempts to apply integration by inspection                                                   (M1)
+
+                     2x
+           4∫                         dx
+                ( x + 1)
+                     2            3
+
+
+
+
+                  1
+           = 4 ×  −  ( x 2 + 1) (+c)
+                                 −2
+                                                                                                      (A1)(A1)
+                  2
+                                                                                      1
+     Note: Award A1 for correct power of ( x 2 + 1) and A1 for −                        .
+                                                                                      2
+           THEN
+
+                                                     2
+           −2 ( x 2 + 1) + c OR −
+                                  −2
+                                                              + c (final answer must include +c )          A1
+                                               ( x + 1)
+                                                 2        2
+
+
+
+                                                                                                    [4 marks]
+
+
+                                                                                                    continued…
+                                                                     – 19 –                                               8823 – 7114M
+
+
+Question 9 continued
+
+
+     (c)    recognizing g ′( x) = f ′( x) ⇒ g ( x) = f ( x) + k (may be seen in diagram/drawing)                                      A1
+
+
+
+            area of R is given by subtracting functions f and g in integral(s)                                                   (M1)
+                3                         3                     3                                       3             3
+             ± ∫ kdx OR
+                      =               ∫       g − f dx OR ∫ f ( x ) + k - f ( x ) dx OR ∫ f ( x ) dx − ∫ g ( x ) dx
+               0                      0                        0                                       0             0
+
+
+
+
+                                                           3                           3                      3                  3
+                                                                                                  
+                                     2                    2                   2               2
+            = ± [ kx ]0
+                     3
+                          OR  −           + kx  −  −           OR  −            −  −         + kx  (A1)
+                              ( x 2 + 1)2        ( x 2 + 1)2       ( x 2 + 1)2   ( x 2 + 1)2      
+                                               0             0                 0                  0
+
+
+                 27
+             ±3k =                                                                                                                   (A1)
+                  2
+                    27   9      
+             k=±       =± =±4.5 
+                     6   2      
+
+
+                          8x                  9                     8x             9                          9             9
+           g ( x)
+           =                          −           =
+                                                AND g ( x)                     +           (accept f ( x) +     AND f ( x) − )        A1
+                      ( x2 + 1)                                ( x2 + 1)
+                                  3                                        3
+                                              2                                    2                          2             2
+
+                                                                                                                           [5 marks]
+                                                                                                                     Total [13 marks]
+

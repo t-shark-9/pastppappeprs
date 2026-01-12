@@ -1,0 +1,247 @@
+M12/5/COMSC/SP1/ENG/TZ0/XX
+
+
+
+
+     22127013
+
+COMPUTER SCIENCE
+STANDARD LEVEL
+PAPER 1
+
+Friday 18 May 2012 (afternoon)
+
+1 hour 30 minutes
+
+
+INSTRUCTIONS TO CANDIDATES
+
+   Do not open this examination paper until instructed to do so.
+   Section A: answer all the questions.
+   Section B: answer all the questions.
+   The maximum mark for this examination paper is [70 marks].
+
+
+
+
+2212-7013                                                                                            7 pages
+                                                             © International Baccalaureate Organization 2012
+                                                     –2–                 M12/5/COMSC/SP1/ENG/TZ0/XX
+
+                                                SECTION A
+
+Answer all the questions.
+
+1.    State two ways in which a compiler will help in the development of a program.               [2 marks]
+
+
+2.    Explain why both validation and verification are important when processing data.            [4 marks]
+
+
+3.    State two differences between the CPU in a desktop computer and the microprocessor
+      in a washing machine.                                                                       [2 marks]
+
+
+4.    Outline the resource monitoring function of an operating system.                            [2 marks]
+
+
+5.    In the context of software development, outline the types of data necessary to fully test
+      the system.                                                                                 [3 marks]
+
+
+6.    Outline the function of formatting a disk for its first use by an operating system.         [2 marks]
+
+
+7.    A picture measures 70 by 100 pixels and is stored as a graphic file.   The colour
+      representation uses 5 bits for red, 5 bits for green and 5 bits for blue.
+
+      (a)   Calculate how many different colours can be represented.                              [1 mark]
+
+      (b)   Each pixel is stored in two bytes.  Calculate the size of the graphic file.           [1 mark]
+
+      (c)   State two ways of storing the file in 12 kB RAM.                                      [2 marks]
+
+
+8.    Consider the following fragment of code.
+
+      int x = 3;
+      int[] a = {3, 16, 27, 8, 15, 29, 11, 18};
+      int y = a[x] % 3;
+      if (y == 0) output (a[y])
+      else output (a[y + 1]);
+
+      State the value that is output.                                                             [1 mark]
+
+
+
+
+2212-7013
+                                                   –3–                M12/5/COMSC/SP1/ENG/TZ0/XX
+
+9.    (a)   State the content of an 8 bit register which stores the hexadecimal number D4.   [2 marks]
+
+      (b)   Express the result in part (a) as a decimal number.                               [1 mark]
+
+
+10.   Outline the role of a cache in a microprocessor.                                       [2 marks]
+
+
+11.   Identify one advantage of using Magnetic Ink Character Recognition (MICR) instead
+      of Optical Character Recognition (OCR).                                                 [1 mark]
+
+
+12.   Explain two disadvantages of using interviews as a technique for data collection.      [4 marks]
+
+
+
+
+2212-7013                                                                                    Turn over
+                                                     –4–                  M12/5/COMSC/SP1/ENG/TZ0/XX
+
+                                                SECTION B
+
+Answer all the questions.
+
+13.   A company has set up a nationwide telephone call centre for enquiries.  Depending on
+      the phone number of the caller, a mainframe (central server) redirects incoming calls
+      to one of the four servers, each of them located at a regional centre.  The calls will then
+      be directed to the operators in the regional call centre, working with their computers.  
+      The network developed is hybrid.
+
+      (a)   Construct a labelled diagram showing a suitable hybrid network made up of two
+            basic topologies.                                                                       [5 marks]
+
+      (b)   Suggest a physical transmission medium for communication:
+
+            (i)    between the mainframe and the four servers at regional centres;                  [1 mark]
+
+            (ii)   between the server and the operators’ computers.                                 [1 mark]
+
+      (c)   Explain why switches would be used, rather than hubs, in this hybrid network.           [3 marks]
+
+
+
+
+2212-7013
+                                                    –5–                 M12/5/COMSC/SP1/ENG/TZ0/XX
+
+14.   An array  files  stores the sizes of some files, which we assume to be whole numbers.  
+      The order of the elements in  files   respects the chronological order of creation of
+      the files.  An application that performs a backup on a USB memory stick uses  files  
+      to preliminarily compare the current capacity of the stick with the sizes required for
+      each file as they appear in the array, before actually starting copying.  The application
+      uses the method below.  The method is incorrect and we study it for debugging and
+      for improvements.
+
+      public int[] checkcapacity(int[] files, int capacity)
+      {
+        int s = files.length;
+        int[] b = new int[s];
+        int i = 0;
+        int sum = files[i];
+        while (sum <= capacity)
+        {
+          b[i] = files[i];
+          i = i + 1;
+          sum = sum + files[i];
+        }
+        for (int j = i; j < s; j = j + 1)
+        {
+          b[j] = 0;
+          return b;
+        }
+      }
+
+      (a)   State the terminating condition for the  while  loop.                                  [1 mark]
+
+      (b)   By copying and completing the table started below, trace the method
+            when  files  is the array  {3, 7, 1, 2, 9, 8}  and  capacity  is 15.                  [3 marks]
+
+                            b                      i             sum             j
+                   {0, 0, 0, 0 ,0 ,0}              0              3
+
+
+
+
+      (c)   Suggest why the  for  loop is superfluous and hence can be safely removed.             [1 mark]
+
+      (d)   Identify which values for the parameters will cause the  while   loop to never
+            execute.                                                                               [1 mark]
+
+      (e)   (i)    Suggest which values for the parameters would cause the program to
+                   produce a run-time error.                                                      [2 marks]
+
+            (ii)   Suggest how this situation could be avoided by modifying the program.          [2 marks]
+
+
+
+
+2212-7013                                                                                         Turn over
+                                                    –6–                  M12/5/COMSC/SP1/ENG/TZ0/XX
+
+15.   In a self-service fuel station, each pump has a touchscreen display equipped with a
+      credit card reader and a printer for receipts.  All these peripherals are connected to
+      a common computer that can communicate with the various credit card companies.  
+      The pumps are set to deliver up to a maximum of 70 EUR of fuel.
+
+      The customer inserts the payment card, enters the PIN and chooses the type of fuel.  
+      The card is returned after validation and authorization from the credit card company,
+      and only if these operations were successful can the fuel be dispensed.  Finally, the
+      customer can choose to have a printed receipt with the actual expenditure.
+
+      (a)   Describe the process that takes place at the station’s computer after the card’s
+            PIN is entered through the touchscreen.                                            [2 marks]
+
+      (b)   Identify one piece of information that the computer at the fuel station needs to
+            communicate to the credit card company if the authorization was successful.        [1 mark]
+
+      (c)   Construct the system flowchart for the scenario described above.                   [4 marks]
+
+      At night, the self-service fuel station may not be a particularly safe place.
+
+      (d)   Explain why the owner of the fuel station has decided to set a limit of 70 EUR.    [3 marks]
+
+
+
+
+2212-7013
+                                                       –7–                 M12/5/COMSC/SP1/ENG/TZ0/XX
+
+16.   A sequential file on a disk of a central computer stores records on some products,
+      including the following information:
+      •     a unique alphanumeric product code
+      •     product name
+      •     minimum price
+      •     maximum price.
+
+      The two price fields determine the price range in which the product can be sold.  
+      They are updated once a week.
+
+      The file is mostly used for reference.  The records are ordered on the alphanumeric
+      product code.
+
+      (a)     Outline why sequential access is suitable for the update.                            [2 marks]
+
+      (b)     Suggest with reasons an efficient procedure for a retailer to store records of
+              fixed-length on some products.                                                       [2 marks]
+
+      An application needs to access the file for consultation, to verify that the price of a
+      certain product currently on the shelf falls within the established boundaries.
+
+      (c)     Outline the steps required in this process.                                          [2 marks]
+
+      During the next file update, a record for a new product needs to be added.
+
+      (d)     Evaluate the effects of this operation on the file, in the given scenario.           [2 marks]
+
+      The retailer now wants to access the file remotely, to perform an interactive processing,
+      and discovers that access times to the file are too slow.
+
+      (e)     Explain why a direct access file would be an appropriate file organization in this
+              novel scenario.                                                                      [2 marks]
+
+
+
+
+2212-7013
+

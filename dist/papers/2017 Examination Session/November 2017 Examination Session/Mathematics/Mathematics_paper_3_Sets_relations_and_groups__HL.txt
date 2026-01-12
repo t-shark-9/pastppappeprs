@@ -1,0 +1,121 @@
+N17/5/MATHL/HP3/ENG/TZ0/SG
+
+
+
+
+Mathematics
+Higher level
+Paper 3 – sets, relations and groups
+
+
+Thursday 16 November 2017 (afternoon)
+
+
+1 hour
+
+
+Instructions to candidates
+yy Do not open this examination paper until instructed to do so.
+yy Answer all the questions.
+yy Unless otherwise stated in the question, all numerical answers should be given exactly or
+   correct to three significant figures.
+yy A graphic display calculator is required for this paper.
+yy A clean copy of the mathematics HL and further mathematics HL formula booklet is
+   required for this paper.
+yy The maximum mark for this examination paper is [50 marks].
+
+
+
+
+                                                                                               8817 – 7209
+     3 pages                                               © International Baccalaureate Organization 2017
+                                                      –2–                  N17/5/MATHL/HP3/ENG/TZ0/SG
+
+Please start each question on a new page. Full marks are not necessarily awarded for a correct answer
+with no working. Answers must be supported by working and/or explanations. In particular, solutions
+found from a graphic display calculator should be supported by suitable working. For example, if
+graphs are used to find a solution, you should sketch these as part of your answer. Where an answer
+is incorrect, some marks may be given for a correct method, provided this is shown by written working.
+You are therefore advised to show all working.
+
+1.   [Maximum mark: 11]
+
+     Consider the group {G , ×18} defined on the set {1 , 5 , 7 , 11 , 13 , 17} where ×18 denotes
+     multiplication modulo 18. The group {G , ×18} is shown in the following Cayley table.
+
+                                   ×18     1     5     7     11    13    17
+                                    1      1     5     7     11    13    17
+                                    5      5     7    17      1    11    13
+                                    7      7    17    13      5     1    11
+                                   11     11     1     5     13    17     7
+                                   13     13    11     1     17     7     5
+                                   17     17    13    11      7     5     1
+
+     (a)   (i)    Find the order of elements 5 , 7 and 17 in {G , ×18} .
+
+		         (ii)   State whether or not {G , ×18} is cyclic, justifying your answer.                 [6]
+
+     The subgroup of {G , ×18} of order two is denoted by {K , ×18}.
+
+     (b)   Write down the elements in set K .                                                       [1]
+
+     (c)   Find the left cosets of K in {G , ×18} .                                                 [4]
+
+
+2.   [Maximum mark: 8]
+
+     A , B and C are three subsets of a universal set.
+
+     (a)   Represent each of the following sets on a Venn diagram,
+
+		(i)             A∆B, the symmetric difference of the sets A and B ;
+
+		(ii)            A ∩ (B ∪ C ) .                                                                    [2]
+
+     Consider the sets P = {1 , 2 , 3} , Q = {2 , 3 , 4} and R = {1 , 3 , 5} .
+
+     (b)   (i)    For sets P , Q and R , verify that P ∪ (Q∆R) ≠ (P ∪ Q)∆(P ∪ R) .
+
+		         (ii)   In the context of the distributive law, describe what the result in part (b)(i)
+                  illustrates.                                                                      [6]
+                                                     –3–                   N17/5/MATHL/HP3/ENG/TZ0/SG
+
+3.   [Maximum mark: 9]
+
+     The relation R is defined on  ×  such that (x1 , y1)R(x2 , y2) if and only if x1 y1 = x2 y2 .
+
+     (a)   Show that R is an equivalence relation.                                                     [5]
+
+     (b)   Determine the equivalence class of R containing the element (1 , 2) and illustrate this
+           graphically.                                                                                [4]
+
+
+4.   [Maximum mark: 14]
+
+     The set S is defined as the set of real numbers greater than 1 .
+     The binary operation * is defined on S by x * y = (x - 1)(y - 1) + 1 for all x , y ∈ S .
+
+     (a)   Show that x * y ∈ S for all x , y ∈ S .                                                     [2]
+
+     (b)   Show that the operation * on the set S is
+
+		(i)              commutative;
+
+		(ii)             associative.                                                                        [7]
+
+     (c)   Show that 2 is the identity element.                                                        [2]
+
+     Let a ∈ S .
+
+     (d)   Show that each element a ∈ S has an inverse.                                                [3]
+
+
+5.   [Maximum mark: 8]
+
+     Let f : G → H be a homomorphism between groups {G , *} and {H , } with identities eG
+     and eH respectively.
+
+     (a)   Prove that f (eG) = eH .                                                                    [2]
+
+     (b)   Prove that Ker( f ) is a subgroup of {G , *} .                                              [6]
+

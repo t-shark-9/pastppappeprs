@@ -1,0 +1,129 @@
+N17/5/MATHL/HP3/ENG/TZ0/DM
+
+
+
+
+Mathematics
+Higher level
+Paper 3 – discrete mathematics
+
+
+Thursday 16 November 2017 (afternoon)
+
+
+1 hour
+
+
+Instructions to candidates
+yy Do not open this examination paper until instructed to do so.
+yy Answer all the questions.
+yy Unless otherwise stated in the question, all numerical answers should be given exactly or
+   correct to three significant figures.
+yy A graphic display calculator is required for this paper.
+yy A clean copy of the mathematics HL and further mathematics HL formula booklet is
+   required for this paper.
+yy The maximum mark for this examination paper is [50 marks].
+
+
+
+
+                                                                                               8817 – 7207
+     3 pages                                               © International Baccalaureate Organization 2017
+                                                   –2–                    N17/5/MATHL/HP3/ENG/TZ0/DM
+
+Please start each question on a new page. Full marks are not necessarily awarded for a correct answer
+with no working. Answers must be supported by working and/or explanations. In particular, solutions
+found from a graphic display calculator should be supported by suitable working. For example, if
+graphs are used to find a solution, you should sketch these as part of your answer. Where an answer
+is incorrect, some marks may be given for a correct method, provided this is shown by written working.
+You are therefore advised to show all working.
+
+1.   [Maximum mark: 11]
+
+     Mathilde delivers books to five libraries, A, B, C, D and E. She starts her deliveries at
+     library D and travels to each of the other libraries once, before returning to library D.
+     Mathilde wishes to keep her travelling distance to a minimum.
+
+     The weighted graph H , representing the distances, measured in kilometres, between the
+     five libraries, has the following table.
+
+
+                                           A      B      C     D      E
+
+                                     A      –     18    19     16    21
+
+                                     B     18     –     15     22    17
+
+                                     C     19     15     –     20    17
+
+                                     D     16     22    20      –    19
+
+                                     E     21     17    17     19     –
+
+
+     (a)   Draw the weighted graph H .                                                                [2]
+
+     (b)   Starting at library D use the nearest-neighbour algorithm, to find an upper bound for
+           Mathilde’s minimum travelling distance. Indicate clearly the order in which the edges
+           are selected.                                                                              [5]
+
+     (c)   By first removing library C, use the deleted vertex algorithm, to find a lower bound for
+           Mathilde’s minimum travelling distance.                                                    [4]
+
+
+2.   [Maximum mark: 10]
+
+     Consider the recurrence relation
+
+                                un = 5un-1 -6un-2 , u0 = 0 and u1 = 1 .
+
+     (a)   Find an expression for un in terms of n .                                                  [6]
+
+     (b)   For every prime number p > 3 , show that p | up-1 .                                        [4]
+                                                    –3–                N17/5/MATHL/HP3/ENG/TZ0/DM
+
+3.   [Maximum mark: 11]
+
+     (a)   (i)    Draw the complete bipartite graph κ3,3 .
+
+		         (ii)   Prove that κ3,3 is not planar.                                                        [5]
+
+     (b)   A connected graph G has v vertices. Prove, using Euler’s relation, that a spanning
+           tree for G has v - 1 edges.                                                                  [2]
+
+     Consider κn , a complete graph with n vertices, n ≥ 2 . Let T be a fixed spanning tree of κn .
+
+     (c)   If an edge E is chosen at random from the edges of κn , show that the probability that
+                                        2
+           E belongs to T is equal to     .                                                             [4]
+                                        n
+
+
+4.   [Maximum mark: 9]
+
+     Consider the system of linear congruences
+
+                                              x ≡ 2(mod 5)
+                                              x ≡ 5(mod 8)
+                                              x ≡ 1(mod 3).
+
+     (a)   With reference to the integers 5, 8 and 3, state why the Chinese remainder theorem
+           guarantees a unique solution modulo 120 to this system of linear congruences.                [2]
+
+     (b)   Hence or otherwise, find the general solution to the above system of linear
+           congruences.                                                                                 [7]
+
+
+5.   [Maximum mark: 9]
+
+     (a)   Convert the decimal number 1071 to base 12.                                                  [3]
+
+     (b)   Write the decimal number 1071 as a product of its prime factors.                             [1]
+
+     The decimal number 1071 is equal to a060 in base b , where a > 0 .
+
+     (c)   (i)    Using your answers to part (a) and (b), prove that there is only one possible value
+                  for b and state this value.
+
+		         (ii)   Hence state the value of a .                                                          [5]
+

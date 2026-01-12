@@ -1,0 +1,1380 @@
+M23/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+
+
+                       Markscheme
+
+
+                               May 2023
+
+
+   Mathematics: analysis and approaches
+
+
+                           Higher level
+
+
+                               Paper 1
+
+
+
+
+31 pages
+                                            –2–                 M23/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+
+
+© International Baccalaureate Organization 2023
+
+All rights reserved. No part of this product may be reproduced in any form or by any
+electronic or mechanical means, including information storage and retrieval systems,
+without the prior written permission from the IB. Additionally, the license tied with this
+product prohibits use of any selected files or extracts from this product. Use by third
+parties, including but not limited to publishers, private teachers, tutoring or study services,
+preparatory schools, vendors operating curriculum mapping services or teacher resource
+digital platforms and app developers, whether fee-covered or not, is prohibited and is a
+criminal offense.
+
+More information on how to request written permission in the form of a license can be
+obtained from https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-
+license/.
+
+© Organisation du Baccalauréat International 2023
+
+Tous droits réservés. Aucune partie de ce produit ne peut être reproduite sous quelque
+forme ni par quelque moyen que ce soit, électronique ou mécanique, y compris des
+systèmes de stockage et de récupération d’informations, sans l’autorisation écrite
+préalable de l’IB. De plus, la licence associée à ce produit interdit toute utilisation de tout
+fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris, sans
+toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de tutorat ou
+d’aide aux études, des établissements de préparation à l’enseignement supérieur, des
+fournisseurs de services de planification des programmes d’études, des gestionnaires de
+plateformes pédagogiques en ligne, et des développeurs d’applications, moyennant
+paiement ou non, est interdite et constitue une infraction pénale.
+
+Pour plus d’informations sur la procédure à suivre pour obtenir une autorisation écrite
+sous la forme d’une licence, rendez-vous à l’adresse https://ibo.org/become-an-ib-school/
+ib-publishing/licensing/applying-for-a-license/.
+
+© Organización del Bachillerato Internacional, 2023
+
+Todos los derechos reservados. No se podrá reproducir ninguna parte de este producto
+de ninguna forma ni por ningún medio electrónico o mecánico, incluidos los sistemas de
+almacenamiento y recuperación de información, sin la previa autorización por escrito del
+IB. Además, la licencia vinculada a este producto prohíbe el uso de todo archivo o
+fragmento seleccionado de este producto. El uso por parte de terceros —lo que incluye,
+a título enunciativo, editoriales, profesores particulares, servicios de apoyo académico o
+ayuda para el estudio, colegios preparatorios, desarrolladores de aplicaciones y
+entidades que presten servicios de planificación curricular u ofrezcan recursos para
+docentes mediante plataformas digitales—, ya sea incluido en tasas o no, está prohibido
+y constituye un delito.
+
+En este enlace encontrará más información sobre cómo solicitar una autorización por
+escrito en forma de licencia: https://ibo.org/become-an-ib-school/ib-publishing/licensing/
+applying-for-a-license/.
+                                                    –3–                 M23/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+                                        Instructions to Examiners
+
+Abbreviations
+
+M    Marks awarded for attempting to use a correct Method.
+
+A    Marks awarded for an Answer or for Accuracy; often dependent on preceding M marks.
+
+R    Marks awarded for clear Reasoning.
+
+AG   Answer given in the question and so no marks are awarded.
+
+FT   Follow through. The practice of awarding marks, despite candidate errors in previous parts, for their
+     correct methods/answers using incorrect results.
+
+
+Using the markscheme
+
+1    General
+
+     Award marks using the annotations as noted in the markscheme eg M1, A2.
+
+
+2    Method and Answer/Accuracy marks
+
+     • Do not automatically award full marks for a correct answer; all working must be checked, and
+       marks awarded according to the markscheme.
+     • It is generally not possible to award M0 followed by A1, as A mark(s) depend on the preceding M
+       mark(s), if any.
+     • Where M and A marks are noted on the same line, e.g. M1A1, this usually means M1 for an attempt
+       to use an appropriate method (e.g. substitution into a formula) and A1 for using the correct values.
+     • Where there are two or more A marks on the same line, they may be awarded independently; so if
+       the first value is incorrect, but the next two are correct, award A0A1A1.
+     • Where the markscheme specifies A3, M2 etc., do not split the marks, unless there is a note.
+     • The response to a “show that” question does not need to restate the AG line, unless a Note makes
+       this explicit in the markscheme.
+     • Once a correct answer to a question or part question is seen, ignore further working even if this
+       working is incorrect and/or suggests a misunderstanding of the question. This will encourage a
+       uniform approach to marking, with less examiner discretion. Although some candidates may be
+       advantaged for that specific question item, it is likely that these candidates will lose marks elsewhere
+       too.
+     • An exception to the previous rule is when an incorrect answer from further working is used in a
+       subsequent part. For example, when a correct exact value is followed by an incorrect decimal
+       approximation in the first part and this approximation is then used in the second part. In this situation,
+       award FT marks as appropriate but do not award the final A1 in the first part.
+                                                   –4–                 M23/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+        Examples:
+
+     Correct         Further            Any FT issues?
+                                                                   Action
+     answer seen     working seen
+1.                     5.65685...         No.                       Award A1 for the final mark
+       8 2            (incorrect          Last part in question.    (condone the incorrect further
+                     decimal value)                                 working)
+2.      35            0.468111…           Yes.                      Award A0 for the final mark
+                      (incorrect          Value is used in          (and full FT is available in
+        72           decimal value)       subsequent parts.         subsequent parts)
+
+
+3    Implied marks
+
+     Implied marks appear in brackets e.g. (M1),and can only be awarded if correct work is seen or
+     implied by subsequent working/answer.
+
+
+4    Follow through marks (only applied after an error is made)
+
+     Follow through (FT) marks are awarded where an incorrect answer from one part of a question is
+     used correctly in subsequent part(s) (e.g. incorrect value from part (a) used in part (d) or incorrect
+     value from part (c)(i) used in part (c)(ii)). Usually, to award FT marks, there must be working
+     present and not just a final answer based on an incorrect answer to a previous part. However, if all
+     the marks awarded in a subsequent part are for the answer or are implied, then FT marks should be
+     awarded for their correct answer, even when working is not present.
+
+     For example: following an incorrect answer to part (a) that is used in subsequent parts, where the
+     markscheme for the subsequent part is (M1)A1, it is possible to award full marks for their correct
+     answer, without working being seen. For longer questions where all but the answer marks are
+     implied this rule applies but may be overwritten by a Note in the Markscheme.
+
+     • Within a question part, once an error is made, no further A marks can be awarded for work which
+       uses the error, but M marks may be awarded if appropriate.
+
+     • If the question becomes much simpler because of an error then use discretion to award fewer
+       FT marks, by reflecting on what each mark is for and how that maps to the simplified version.
+
+     • If the error leads to an inappropriate value (e.g. probability greater than 1, sin θ = 1.5 , non-integer
+       value where integer required), do not award the mark(s) for the final answer(s).
+
+     • The markscheme may use the word “their” in a description, to indicate that candidates may be
+       using an incorrect value.
+
+     • If the candidate’s answer to the initial question clearly contradicts information given in the question,
+       it is not appropriate to award any FT marks in the subsequent parts. This includes when candidates
+       fail to complete a “show that” question correctly, and then in subsequent parts use their incorrect
+       answer rather than the given value.
+
+     • Exceptions to these FT rules will be explicitly noted on the markscheme.
+
+     • If a candidate makes an error in one part but gets the correct answer(s) to subsequent part(s),
+       award marks as appropriate, unless the command term was “Hence”.
+                                                 –5–                M23/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+
+5   Mis-read
+
+    If a candidate incorrectly copies values or information from the question, this is a mis-read (MR). A
+    candidate should be penalized only once for a particular misread. Use the MR stamp to indicate
+    that this has been a misread and do not award the first mark, even if this is an M mark, but award all
+    others as appropriate.
+    • If the question becomes much simpler because of the MR, then use discretion to award
+      fewer marks.
+
+    • If the MR leads to an inappropriate value (e.g. probability greater than 1, sin θ = 1.5 , non-integer
+      value where integer required), do not award the mark(s) for the final answer(s).
+
+    • Miscopying of candidates’ own work does not constitute a misread, it is an error.
+
+    • If a candidate uses a correct answer, to a “show that” question, to a higher degree of accuracy than
+      given in the question, this is NOT a misread and full marks may be scored in the subsequent part.
+
+    • MR can only be applied when work is seen. For calculator questions with no working and incorrect
+      answers, examiners should not infer that values were read incorrectly.
+
+
+
+6   Alternative methods
+
+    Candidates will sometimes use methods other than those in the markscheme. Unless the question
+    specifies a method, other correct methods should be marked in line with the markscheme. If the
+    command term is ‘Hence’ and not ‘Hence or otherwise’ then alternative methods are not permitted
+    unless covered by a note in the mark scheme.
+
+    • Alternative methods for complete questions are indicated by                          METHOD        1,
+      METHOD 2, etc.
+    • Alternative solutions for parts of questions are indicated by EITHER . . . OR.
+
+
+7   Alternative forms
+    Unless the question specifies otherwise, accept equivalent forms.
+
+    • As this is an international examination, accept all alternative forms of notation for example 1.9 and
+      1,9 or 1000 and 1,000 and 1.000 .
+
+    • Do not accept final answers written using calculator notation. However, M marks and intermediate
+      A marks can be scored, when presented using calculator notation, provided the evidence clearly
+      reflects the demand of the mark.
+
+    • In the markscheme, equivalent numerical and algebraic forms will generally be written in brackets
+      immediately following the answer.
+
+    • In the markscheme, some equivalent answers will generally appear in brackets. Not all equivalent
+      notations/answers/methods will be presented in the markscheme and examiners are asked to apply
+      appropriate discretion to judge if the candidate work is equivalent.
+                                                     –6–                 M23/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+8     Format and accuracy of answers
+
+      If the level of accuracy is specified in the question, a mark will be linked to giving the answer to the
+      required accuracy. If the level of accuracy is not stated in the question, the general rule applies to
+      final answers: unless otherwise stated in the question all numerical answers must be given exactly
+      or correct to three significant figures.
+
+      Where values are used in subsequent parts, the markscheme will generally use the exact value,
+      however candidates may also use the correct answer to 3 sf in subsequent parts. The markscheme
+      will often explicitly include the subsequent values that come “from the use of 3 sf values”.
+
+      Simplification of final answers: Candidates are advised to give final answers using good
+      mathematical form. In general, for an A mark to be awarded, arithmetic should be completed, and
+                                                                              25                     5
+      any values that lead to integers should be simplified; for example,        should be written as . An
+                                                                              4                      2
+      exception to this is simplifying fractions, where lowest form is not required (although the numerator
+                                                               10                                       5
+      and the denominator must be integers); for example,         may be left in this form or written as .
+                                                                4                                       2
+                 10
+      However,      should be written as 2, as it simplifies to an integer.
+                  5
+
+      Algebraic expressions should be simplified by completing any operations such as addition and
+      multiplication, e.g. 4e 2 x × e3 x should be simplified to 4e5 x , and 4e 2 x × e3 x − e 4 x × e x should be
+      simplified to 3e5 x . Unless specified in the question, expressions do not need to be factorized, nor do
+      factorized expressions need to be expanded, so x ( x + 1) and x 2 + x are both acceptable.
+
+      Please note: intermediate A marks do NOT need to be simplified.
+
+9     Calculators
+
+      No calculator is allowed. The use of any calculator on this paper is malpractice and will result in no
+      grade awarded. If you see work that suggests a candidate has used any calculator, please follow
+      the procedures for malpractice.
+
+
+10.   Presentation of candidate work
+
+      Crossed out work: If a candidate has drawn a line through work on their examination script, or in
+      some other way crossed out their work, do not award any marks for that work unless an explicit note
+      from the candidate indicates that they would like the work to be marked.
+
+      More than one solution: Where a candidate offers two or more different answers to the same
+      question, an examiner should only mark the first response unless the candidate indicates otherwise.
+      If the layout of the responses makes it difficult to judge, examiners should apply appropriate
+      discretion to judge which is “first”.
+                                                     –7–                 M23/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+                                                  Section A
+1.   (a)   recognizing f ( x ) = 0                                                               (M1)
+
+           x = −1                                                                                  A1
+                                                                                            [2 marks]
+
+
+
+
+     (b)   (i)     x = 2 (must be an equation with x )                                             A1
+                          7
+           (ii)    y=       (must be an equation with y )                                          A1
+                          2
+                                                                                            [2 marks]
+
+
+
+
+     (c)   EITHER
+           interchanging x and y                                                                 (M1)
+           2 xy − 4 x = 7 y + 7
+           correct working with y terms on the same side: 2 xy − 7 y = 4 x + 7                   (A1)
+
+
+           OR
+           2 yx − 4 y = 7 x + 7
+           correct working with x terms on the same side: 2 yx − 7 x = 4 y + 7                   (A1)
+
+                                                                4y + 7
+           interchanging x and y OR making x the subject x =                                     (M1)
+                                                                2y − 7
+
+
+           THEN
+                          4x + 7                     7
+            f −1 ( x) =          (or equivalent)  x ≠                                            A1
+                          2x − 7                     2
+
+
+                                                                                            [3 marks]
+                                                                                       Total [7 marks]
+                                                   –8–             M23/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+2.   (a)   (i)    summing frequencies of riders or finding complement                      (M1)
+                                  34
+                  probability =                                                              A1
+                                  40
+
+
+           (ii)   attempt to find expected value                                           (M1)
+                  16  13         2       3 
+                    +  2 ×  +  3×  +  4 × 
+                  40  40   40   40 
+
+
+
+                  60
+                     ( = 1.5)                                                                A1
+                  40
+                                                                                      [4 marks]
+
+
+
+
+     (b)   evidence of their rides/visitor ×1000 or ÷10                                    (M1)
+           1500 OR 0.15
+           150 (times)                                                                       A1
+                                                                                      [2 marks]
+                                                                                 Total [6 marks]
+                                                    –9–                  M23/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+3.   1 − 2sin 2 x =
+                  sin x                                                                            A1
+     2sin 2 x + sin x − 1 =0
+     valid attempt to solve quadratic                                                            (M1)
+
+                                   −1 ± 1 − 4(2)(−1)
+     (2sin x − 1)(sin x + 1) OR
+                                         2(2)
+     recognition to solve for sin x                                                              (M1)
+
+
+               1
+     sin x =     OR sin x = −1
+               2
+     any correct solution from sin x = −1                                                          A1
+                                         1
+     any correct solution from sin x =                                                             A1
+                                         2
+
+     Note: The previous two marks may be awarded for degree or radian
+           values, irrespective of domain.
+
+         π π 5π
+     x= − , ,                                                                                      A1
+         2 6 6
+
+     Note: If no working shown, award no marks for a final value(s).
+                               π π 5π
+           Award A0 for − , ,         if additional values also given.
+                               2 6 6
+
+
+
+
+                                                                                       Total [6 marks]
+                                               – 10 –   M23/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+4.   recognition of quadratic in e x                                           (M1)
+
+     ( e ) − 3e + ln k ( =
+       x 2        x
+                         0 ) OR A − 3 A + ln k ( =
+                                       2
+                                                 0)
+     recognizing discriminant ≥ 0 (seen anywhere)                              (M1)
+
+     ( −3) − 4(1)(ln k ) OR 9 − 4 ln k
+          2
+                                                                                (A1)
+
+              9
+     ln k ≤           (A1)
+              4
+     e9/4 (seen anywhere)                                                        A1
+     0 < k ≤ e9/4                                                                A1
+                                                                           [6 marks]
+                                                  – 11 –             M23/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+5.   (a)   recognition that period is 4m OR substitution of a point on f ( except the origin)       (M1)
+
+                  2π
+           4m =      OR 1 = sin qm
+                   q
+                π
+           m=                                                                                         A1
+                2q
+                                                                                                [2 marks]
+
+
+
+
+                                        3
+     (b)   horizontal scale factor is     (seen anywhere)                                            (A1)
+                                        2
+           Note: This (A1) may be earned by seeing a period of 6m , half period of 3m or the
+           correct x-coordinate of the maximum/minimum point.
+
+
+
+
+                                                                                                 A1A1A1
+
+     Note: Curve must be an approximate sinusoidal shape (sine or cosine).
+           Only in this case, award the following:
+           A1 for correct amplitude.
+           A1 for correct domain.
+           A1 for correct max and min points and correct x-intercepts.
+
+                                                                                                [4 marks]
+                                                                                        Total [6 marks]
+                                                   – 12 –           M23/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+                                                                            2
+        1       π      1                                       x                3 
+6.   A = x 2 sin OR A = x 2 sin 60 OR triangle height h =x2 −                 =x         (A1)
+        2       3      2                                       2               2 
+
+         1 2 3       1  3                 3 2
+     =    x  =  OR A =x   x                x                                             A1
+         2  2        2  2                4   
+
+                              π    3
+     Note: Award A1 for sin     =    . This may be seen at a later stage.
+                              3   2
+     attempt to use chain rule or implicit differentiation                                   (M1)
+     dA dA dx
+      =   ×
+     dt dx dt
+     dA      3      dx    dA 1    π      dx
+      =        × 2x    OR   =× sin × 2 x                                                      (A1)
+     dt     4       dt    dt 2    3      dt
+         2 3
+     =       ×5 3 ×4
+          4
+     dA
+        = 30(cm 2s −1 )                                                                        A1
+     dt
+
+     Note: Award a maximum of (A1)A1(M1)(A0)A1 for a correct answer with
+           incorrect derivative notation seen throughout.
+
+
+                                                                                         [5 marks]
+                                                     – 13 –           M23/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+7.   METHOD 1
+     3i (is a root )                                                                           A1
+     (other complex root is) −3i                                                               A1
+
+     Note: Award A1A1 for P ( 3i ) = 0 and P ( −3i ) =
+                                                     0 seen in their working.
+             Award A1 for each correct root seen in sum or product of their roots.
+
+     EITHER
+     attempt to find P ( 3i ) = 0 or P ( −3i ) =
+                                               0                                              (M1)
+
+                        36
+                           ( 3i ) − ( 3i ) =
+                                 2        3
+     4m − 3mi +                             0
+                        m
+                        36
+     4m − 3mi −            ( −9 ) + 27i =
+                                        0
+                        m
+     attempt to equate the real or imaginary parts                                            (M1)
+                                 36
+     27 − 3m =
+             0 OR 9 ×               4m
+                                    =
+                                 m
+     OR
+                                                36
+     attempt to equate sum of three roots to                                                  (M1)
+                                                m
+
+                                                   36
+     Note: Accept sum of three roots set to −         .
+                                                   m
+                                                          36
+             Award M0 for stating sum of roots is ±          .
+                                                          m
+
+                        36      36 
+     3i − 3i + r =         ⇒ r = 
+                        m       m
+     substitute their r into product of roots                                                 (M1)
+                    36                     36
+     ( 3i )( −3i )   =
+                                                 
+                         4m OR ( z 2 + 9 )  − z 
+                   m                     m    
+          36       4m 36
+     9×      4m OR
+             =        =
+          m         9   m
+
+
+                                                                                         continued…
+                                                – 14 –      M23/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+Question 7 continued
+
+
+     OR
+     attempt to equate product of three roots to 4m                                 (M1)
+
+     Note: Accept product of three roots set to −4m .
+           Award M0 for stating product of roots is ±4m .
+
+                                 4m 
+     ( 3i )( −3i ) × =
+                     r 4m  ⇒ =
+                              r      
+                                  9 
+     substitute their r into sum of roots                                           (M1)
+                 4m 36            4m    
+     3i − 3i +
+                  9
+                             (
+                    = OR z 2 + 9 
+                     m            9
+                                    ) − z
+                                         
+     4m 36
+        =
+      9   m
+     THEN
+     m=9                                                                             (A1)
+     third root is 4                                                                  A1
+                                                                                [6 marks]
+                                                         – 15 –                  M23/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+Question 7 continued
+
+
+     METHOD 2
+     3i (is a root )                                                                                                 A1
+     (other complex root is) −3i                                                                                     A1
+     recognition that the other factor is ( z + 3i) and attempt to write P ( z ) as product of three
+     linear factors or as product of a quadratic and a linear factor                                               (M1)
+                                                                                                     4m
+            ( z − 3i )( z + 3i )( r − z ) OR ( z − 3i )( z + 3i ) = z 2 + 9 ⇒ P ( z ) =( z 2 + 9 )  − z 
+     P( z ) =
+                                                                                                     9    
+
+     Note: Accept any attempt at long division of P ( z ) by z 2 + 9 .
+             Award M0 for stating other factor is ( z + 3i) or obtaining z 2 + 9
+             with no further working.
+
+     attempt to compare their coefficients                                                                         (M1)
+                       4m 36
+     −9 =−m OR            =
+                        9   m
+     m=9                                                                                                            (A1)
+     third root is 4                                                                                                 A1
+
+     Note: Award a maximum of A0A0(M1)(M1)(A1)A1 for a final answer
+                   ( z 3i )( z + 3i )( 4 − z ) seen or stating all three correct
+           P ( z ) =−
+             factors with no evidence of roots throughout their working.
+
+                                                                                                               [6 marks]
+                                                     – 16 –          M23/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+8.   (a)   attempt to reflect f in the x OR y axis                                            (M1)
+
+
+
+
+                                                                                          A1A1A1
+
+
+     Note: For a curve with an approximately correct shaped right-hand
+           branch, award:
+           A1 for correct asymptotic behaviour at y = 2 (either side)
+           A1 for correctly reflected RHS of the graph in the y-axis with
+           smooth maximum at (0, 3).
+           A1 for labelled x-intercept at (− a,0) and labelled asymptote
+           at y = 2 with sharp points (cusps) at the x-intercepts.
+
+                                                                                         [4 marks]
+
+
+
+
+     (b)   k =0                                                                                 A1
+           4≤k <9                                                                               A2
+
+
+     Note: If final answer incorrect, award A1 for critical values 4 and 9 seen
+           anywhere.
+           Exception to FT:
+           Award a maximum of A0A2FT if their graph from (a) is not
+           symmetric about the y-axis.
+
+
+                                                                                         [3 marks]
+                                                                                    Total [7 marks]
+                                                      – 17 –                 M23/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+9.   METHOD 1 (subtracting volumes)
+
+                                         h2           h2
+     radius of cylinder, R is     r2 −          2  2
+                                            OR R= r −    (seen anywhere)                                      (A1)
+                                         4            4
+                            h     h    h
+     correct limits 0 and     OR − and   (seen anywhere)                                                      (A1)
+                            2     2    2
+     EITHER
+
+                                    (
+                      = π ∫ r 2 − y 2 dy
+     volume of part sphere                   )
+     correct integration                                                                                       A1
+
+              y3
+     r2 y −
+              3
+     attempt to substitute their limits into their integrated expression                                     (M1)
+     r 2 h h3
+          −
+      2 24
+                                                       (       )
+     recognition that the volume of the ring is π ∫ r 2 − y 2 dy − πR 2 h where R ≠ r                        (M1)
+
+                                    h2 
+     π ∫ ( r 2 − y 2 ) dy − π  r 2 − h (or equivalent)
+                                    4 
+     correct equation                                                                                         (A1)
+
+         r 2 h h3           πh3      h3 h3
+     2π       −  − πr 2 h +     π OR
+                                  =      − = 1 (or equivalent)
+         2 24                4       4 12
+     OR
+
+                                                                      2     2
+                                                                                  
+                                                     ∫(
+     recognition that the volume of the ring is π  r − y
+                                                           2   2
+                                                                   ) −  r − h4   dy (or equivalent)       (M1)
+                                                                                
+     correct integration                                                                                       A1
+
+     h2    y3
+        y−
+     4     3
+     attempt to substitute their limits into their integrated expression                                     (M1)
+
+     h3 h3
+       −
+     8 24
+     correct equation                                                                                         (A1)
+
+         h3 h3          h3 h3 
+     2π  −  =   π OR 2  −  =   1 (or equivalent)
+         8 24           8 24 
+     THEN
+
+     h= 36                                                                                                     A1
+                                                                                                         [7 marks]
+                                                                                                         continued…
+                                                     – 18 –                M23/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+Question 9 continued
+
+
+     METHOD 2 (volume of cylindrical hole)
+
+                                  2  h2           h2
+     radius of cylinder, R is    r −        2  2
+                                        OR R= r −    (seen anywhere)                                     (A1)
+                                     4            4
+                      h
+     correct limits     and r (seen anywhere)                                                            (A1)
+                      2
+
+                                   (
+                      = π ∫ r 2 − y 2 dy
+     volume of part sphere                  )
+     correct integration                                                                                  A1
+              y3
+     r2 y −
+              3
+     attempt to substitute their limits into their integrated expression                                (M1)
+
+     2r 3 r 2 h h3
+         −     +
+      3    2 24
+                                                                  (        )
+     recognition that the volume of the cylindrical hole is π ∫ r 2 − y 2 dy + πR 2 h where R ≠ r       (M1)
+
+                                    h2   4         
+     π ∫ ( r 2 − y 2 ) dy + π  r 2 − h  = πr 3 − π  (or equivalent)
+                                    4   3          
+     correct equation                                                                                    (A1)
+
+         2r 3 r 2 h h 3        πh3 4 3          h3 h3
+     2π      −             2
+                    +  + πr h −    =   πr − π OR   − = −1 (or equivalent)
+         3     2 24             4   3           12 4
+
+     h= 36                                                                                                A1
+                                                                                                    [7 marks]
+                                                                                                    continued…
+                                                   – 19 –                  M23/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+Question 9 continued
+
+
+     METHOD 3 (shells)
+
+                                    2  h2           h2
+     radius of cylinder, R is      r −        2  2
+                                          OR R= r −    (seen anywhere)                              (A1)
+                                       4            4
+     attempt to use shells method                                                                  (M1)
+
+     2π ∫ x r 2 − x 2 dx
+
+                                   h2
+     correct limits r and   r2 −      (seen anywhere)                                               (A1)
+                                   4
+     correct integration                                                                             A1
+
+         1 2 2 32
+     −
+         3
+           (r − x )
+     attempt to substitute their limits into their integrated expression                           (M1)
+                        3
+                           
+      1   2  2 h2   2 
+     − 0 − r − r −  
+      3           4  
+                          
+     correct equation                                                                               (A1)
+                                    3
+                                       
+        −2π   2  2 h   2 2
+                                                 2π h3 
+     2×       0 −  r −  r −          π
+                                         = OR 2  × =    π
+         3                4              3 8
+                                      
+
+     h= 36                                                                                           A1
+                                                                                               [7 marks]
+                                                               – 20 –          M23/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+                                                          Section B
+10.   (a)   (i)      recognition that n = 5                                                           (M1)
+                     S5 = 45                                                                            A1
+
+
+            (ii)     METHOD 1
+                     recognition that S5 + u6 =
+                                              S6                                                      (M1)
+
+                     u6 = 15                                                                            A1
+
+
+                     METHOD 2
+                                               6
+                     recognition that=
+                                     60          ( S1 + u6 )                                          (M1)
+                                               2
+                     60 3 ( 5 + u6 )
+                     =
+
+                     u6 = 15                                                                            A1
+
+
+                     METHOD 3
+                     substituting their u1 and d values into u1 + ( n − 1) d                          (M1)
+
+                     u6 = 15                                                                            A1
+
+                                                                                                  [4 marks]
+
+
+
+
+      (b)   recognition that u1 = S1 (may be seen in (a)) OR substituting their u6 into S6            (M1)
+
+            OR equations for S5 and S6 in terms of u1 and d
+
+                                6
+            1 + 4 OR =
+                     60           ( u1 + 15)
+                                2
+            u1 = 5                                                                                      A1
+
+                                                                                                  [2 marks]
+
+
+                                                                                                  continued…
+                                                      – 21 –     M23/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+Question 10 continued
+
+
+     (c)   EITHER
+
+           valid attempt to find d (may be seen in (a) or (b))                           (M1)
+
+           d =2                                                                          (A1)
+
+           OR
+
+           valid attempt to find S n − S n −1                                            (M1)
+
+
+           n 2 + 4n − ( n 2 − 2n + 1 + 4n − 4 )                                          (A1)
+
+           OR
+
+                                  n
+           equating n 2 + 4n =      ( 5 + un )                                           (M1)
+                                  2
+
+           2n + 8 = 5 + un (or equivalent)                                               (A1)
+
+           THEN
+
+               5 2(n − 1) OR u=
+           un =+              n 2n + 3                                                     A1
+
+                                                                                     [3 marks]
+
+
+           recognition that v2 r = v4 OR ( v3 )= v2 × v4
+                                  2               2
+     (d)                                                                                 (M1)
+
+           r 2 = 3 OR v3 =   (±)5 3                                                      (A1)
+
+           r= ± 3                                                                          A1
+
+     Note: If no working shown, award M1A1A0 for           3.
+                                                                                    [3 marks]
+
+
+
+
+     (e)   recognition that r is negative                                                (M1)
+
+                      45 
+              −15 3  =
+           v5 =       −                                                                   A1
+                       3
+                                                                                    [2 marks]
+                                                                              Total [14 marks]
+                                                      – 22 –              M23/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+11.   (a)   L AC + CB
+            =
+            3               3               
+                                    3       
+             4
+             = cos α ⇒ AC=   4 ⇒ AC=
+                                        sec α                                                          A1
+            AC              cos α     4       
+                                              
+             6                  6                 
+               = sin α  ⇒ CB=       ⇒ CB= 6cosecα                                                      A1
+            CB                sin α               
+                      3
+            so L
+            =           sec α + 6cosecα                                                                 AG
+                      4
+                                                                                                   [2 marks]
+
+
+
+
+                     dL    3
+      (b) =
+          (i)                sec α tan α − 6cosecα cot α                                                 A1
+                     dα    4
+
+
+                                       dL
+            (ii)    attempt to write      in terms of sin α ,cos α or tan α (may be seen in (i))       (M1)
+                                       dα
+                      3                    3                   3 3           
+                        sin α                tan α               tan α − 6 
+                   dL         6cos α    dL 4           6        4
+                   = 4 2 −           OR    =       −          =              
+                   dα cos α sin α2
+                                        dα  cos α sin α tan α  cos α tan 2 α 
+                                                                             
+                     dL    3                      3
+                                              0 OR tan 3 α − 6 =
+                        0 ⇒ sin 3 α − 6cos3 α =
+                        =                                       0 (or equivalent)                       (A1)
+                     dα    4                      4
+                     tan 3 α = 8                                                                         A1
+                     tan α = 2                                                                           A1
+                     α = arctan 2                                                                       AG
+                                                                                                   [5 marks]
+
+                                                                                                   continued…
+                                                  – 23 –              M23/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+Question 11 continued
+
+
+     (c)   (i)    attempt to use product rule (at least once)                                       (M1)
+
+      d2L 3                     3
+     =       sec α tan α tan α + sec α sec 2 α
+      dα 2
+           4                    4
+                  +6cosecα cot α cot α + 6cosecα cosec 2α (or equivalent)                           A1A1
+
+                           3                    3
+     Note: Award A1 for      sec α tan α tan α + sec α sec 2 α and A1 for
+                           4                    4
+             +6cosecα cot α cot α + 6cosecα cosec 2α . Allow unsimplified correct
+             answer.
+
+                   d2L 3                 3                                    
+                   =      sec α tan 2 α + sec3 α + 6cosecα cot 2 α + 6cosec3α 
+                   dα
+                       2
+                         4                4                                    
+
+
+           (ii)   attempt to find a ratio other than tan α using an appropriate trigonometric
+                  identity OR a right triangle with at least two side lengths seen                  (M1)
+
+                                                                d2 L
+     Note: Award M0 for α = arctan 2 substituted into their          with no
+                                                                dα 2
+             further progress.
+
+                  one correct ratio                                                                  (A1)
+
+                                               5           1          1             2
+                  sec α = 5 OR cosecα =          OR cot α = OR cosα =    OR sin α =
+                                              2            2           5             5
+
+     Note: M1A1 may be seen in part (d).
+                                                                 3
+                  3             3           5   1 2  5
+                      ( )
+                       5 (2 ) +     ( )
+                                          3
+                            2
+                                      5 + 6     + 6     (or equivalent)                         A2
+                  4             4           2  2     2 
+                  12 5 15 5 3 5 15 5
+                      +    +   +
+                    4    4   4    4
+
+     Note: Award A1 for only two or three correct terms.
+          Award a maximum of (M1)(A1)A1 on FT from c(i).
+
+                  d 2 L 45
+                       =   5                                                                         AG
+                  dα 2 4
+                                                                                                [7 marks]
+
+                                                                                                continued…
+                                                   – 24 –           M23/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+Question 11 continued
+
+
+                 d2L
+     (d)   (i)        > 0 OR concave up (or equivalent)                                               R1
+                 dα 2
+                        dL
+                 (and      = 0 , when α = arctan 2 , hence L is a minimum)
+                        dα
+
+
+                            3                
+                ( Lmin )
+           (ii) =
+                            4
+                                ( 5 ) + 6  25                                                     (A1)
+                                             
+
+                     15 5
+                 =                                                                                    A1
+                       4
+                                                                                               [3 marks]
+
+
+                      15 9 15 5
+     (e)   (=
+            11.25 )       >     (or equivalent comparative reasoning)                                 R1
+                        4    4
+           the pole cannot be carried (horizontally from the passageway into the room)                A1
+
+     Note: Do not award R0A1.
+
+                                                                                               [2 marks]
+                                                                                         Total [19 marks]
+                                                          – 25 –                  M23/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+12.   (a)   2t + 1× 0 + 0 × (3 + t ) (=2t ) (seen anywhere)                                                (A1)
+
+            one correct magnitude         12 + 12 + 02 , (2t ) 2 + (3 + t ) 2                              (A1)
+
+            correct substitution of their magnitudes and scalar product                                     M1
+                                                    π       π                   2t
+            2t =   2 × (2t ) 2 + (3 + t ) 2 × cos     OR cos =
+                                                    3       3             2 × 5t 2 + 6t + 9
+                                                  1           2t
+            4t
+            =      2 ( 4t 2 + 9 + 6t + t 2 ) OR     =                   (or equivalent)                     A1
+                                                  2   2 ( 5t + 6t + 9 )
+                                                            2
+
+
+
+
+            4=
+             t     10t 2 + 12t + 18                                                                        AG
+                                                                                                      [4 marks]
+
+
+
+
+      (b)   correct quadratic equation                                                                      A1
+            16t 2 = 10t 2 + 12t + 18 , 6t 2 − 12t − 18 =
+                                                       0 , t 2 − 2t − 3 =0
+            valid attempt to solve their quadratic set =0                                                 (M1)
+
+                                12 ± (−12) 2 − 4 × 6 × (−18)           2
+            (t + 1)(t − 3) OR                                OR (t − 1) − 4                                (A1)
+                                           12
+            t =3                                                                                            A1
+
+      Note: Award A0 if additional answer(s) given.
+
+                                                                                                      [4 marks]
+
+                                                                                                     continued…
+                                                       – 26 –       M23/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+Question 12 continued
+
+
+     (c)   METHOD 1
+           recognizing shortest distance from A is perpendicular to L1                      (M1)
+
+
+
+
+                                        π         x
+     OR                           sin     =
+                                        3         →
+                                                  PA
+
+
+
+
+                             ( = 72, 6 2 ) (seen anywhere)
+             →
+            PA = 62 + 62                                                                     (A1)
+
+
+             3   x
+               =                                                                             (A1)
+            2    72
+                 216
+   =x            =
+                 2
+                         (   54 , 3 6         )
+                                    216
+           shortest distance is
+                                    2
+                                              (
+                                        = 54 , 3 6       )                                    A1
+
+                                                                                        [4 marks]
+
+
+                                                                                      continued…
+                                                 – 27 –         M23/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+Question 12 continued
+
+
+          METHOD 2
+                                                            →
+                                                      v × PA
+          recognition that the distance required is                                     (M1)
+                                                        v
+
+                 1 6
+             1    
+    =             1 × 0                                                                  (A1)
+              2    
+                 0 6
+
+                  6
+             1  
+      =            −6                                                                    (A1)
+              2  
+                  −6 
+
+          shortest distance is      (
+                                 54 = 3 6   )                                             A1
+
+                                                                                    [4 marks]
+                                                                                  continued…
+                                                           – 28 –                     M23/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+Question 12 continued
+
+
+          METHOD 3
+                                                                        →
+                                                               v ⋅ PA
+          recognition that the base of the triangle is                                                        (M1)
+                                                                    v
+
+                1 6
+            1    
+                 1 ⋅ 0
+             2    
+                0 6
+
+
+
+
+             6
+       =          (
+             = 3 2 OR
+              2
+                             )                                                                                 (A1)
+
+
+
+
+                                     ( = 72, 6 2 ) (seen anywhere)
+            →
+           PA = 62 + 62                                                                                        (A1)
+
+
+                                 →
+     Note: The value of PA
+                         =               62 + 62 may be seen as part of the working
+
+                                                           2
+
+                                                                            ( 72 ) − (3 2 )
+                                                       →                          2           2
+                                       d
+            of their shortest distance,=                   b2
+                                                       PA −=
+
+
+          shortest distance is             (
+                                        54 = 3 6   )                                                            A1
+
+                                                                                                          [4 marks]
+                                                                                                        continued…
+                                                            – 29 –                 M23/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+Question 12 continued
+
+
+          METHOD 4
+          Let B be a general point on L1 ( λ ,8 + λ , −3) such that AB is perpendicular to L1
+
+                                       →            →
+          attempt to find vector AB OR AB (the shortest distance from A to L1 )                            (M1)
+
+
+                             1          0  1 6                   1
+            →    →         →
+                               →        →
+                                   →
+                                                                           
+           AB =OB− OA =OP +λ  1  − OA  = 8  +λ  1  −  8  =AP + λ  1   ( λ ∈  )
+                             0          −3   0   3               0
+                                                                  
+
+              −6     1
+            →
+                             →
+                                                        ( λ − 6 ) + (8 + λ − 8)2 + ( −3 − 3)
+                                                                2                              2
+          AB  0  + λ  1  OR AB=
+          =                                                                                                  A1
+              −6     0
+                      
+
+                      ( λ − 6 ) + λ 2 + ( −6 ) =(                          )
+            →
+                               2               2
+           AB=                                           2λ 2 − 12λ + 72
+
+          EITHER
+
+            d  →
+                      2
+                          
+                AB        = 0 ⇒ 4λ − 12 = 0 ⇒ λ = 3                                                       A1
+           dλ            
+          OR
+            →
+                      2 ( λ − 3) + 54 to obtain λ = 3
+                                   2
+           AB=                                                                                               A1
+
+          OR
+
+            −6 + λ   1 
+                     
+            λ  ⋅  1  = 0 ⇒ −6 + λ + λ = 0 ⇒ λ = 3                                                        A1
+            −6   0 
+                     
+          THEN
+
+          shortest distance is             (
+                                       54 = 3 6     )                                                        A1
+
+                                                                                                       [4 marks]
+
+
+                                                                                                    continued…
+                                                  – 30 –                 M23/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+Question 12 continued
+
+
+     (d)   attempt to find the vector product of two direction vectors                              (M1)
+
+           1 6
+              
+           1×0
+           0 6
+              
+               1
+                
+           n =  −1 (or any scalar multiple of this) (accept n =< 1, −1, −1 > or equivalent)         A1
+                −1
+                
+
+     Note: Award A0 for a final answer given in coordinate form.
+
+                                                                                                [2 marks]
+                                                                                                continued…
+                                                     – 31 –                M23/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+Question 12 continued
+
+
+     (e)    substituting their x into volume formula and equating                                    (M1)
+            1
+                 (       )
+                   2
+              π 3 6 h = 90 3π
+            3
+            h = 5 3 (seen anywhere)                                                                    A1
+                                                                           →         →
+            recognition that the position vector of vertex is given by OA + µ n OR OA + h × nˆ       (M1)
+
+            6       1
+                     
+             8  + µ  −1 OR ( 6 + µ ,8 − µ ,3 − µ )
+             3       −1
+                     
+            EITHER
+            recognition that µ n = h (where µ is a parameter)                                        (M1)
+
+            µ n = 5 3 OR                                                       (
+                                   µ 2 + ( − µ ) + ( − µ ) =5 3 OR 3µ 2 = 75 ⇒ 3µ =
+                                                2    2
+                                                                                  5 3    )
+            µ = ±5 (accept µ = 5 )                                                                    (A1)
+            OR
+            attempt to find cone’s height vector h × nˆ                                              (M1)
+
+                         1
+                     1  
+           =nˆ             −1                                                                         (A1)
+                      3  
+                          −1
+                     1
+                 1  
+            5 3×       −1
+                  3  
+                      −1
+            THEN
+
+              6  1           6  5 
+                                
+            =  8  ± 5  −1 =
+                                  8  ±  −5  
+               3   −1         3   −5  
+                                
+
+            vertex = (11,3, −2 ) and (1,13,8 ) (accept position vectors)                            A1A1
+
+     Note: Award a maximum of (M0)A0(M1)(M1)(A1)A1A1FT for
+              39 17 3         9 47 27                      →
+
+                ,  , −   and   ,  ,    obtained using x = PA from
+              4 4      4     4 4 4 
+             part (c).
+
+                                                                                                 [7 marks]
+                                                                                         Total [21 marks]
+

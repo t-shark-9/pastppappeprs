@@ -1,0 +1,383 @@
+M11/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+
+
+                   MARKSCHEME
+
+
+                           May 2011
+
+
+
+                COMPUTER SCIENCE
+
+
+                      Standard Level
+
+
+
+                               Paper 1
+
+
+
+
+12 pages
+                              –2–            M11/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+
+
+This markscheme is confidential and for the exclusive use of
+examiners in this examination session.
+
+It is the property of the International Baccalaureate and must not
+be reproduced or distributed to any other person without the
+authorization of IB Cardiff.
+                                                   –3–              M11/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+General Marking Instructions
+Subject Details:               Computer Science SL Paper 1 Markscheme
+Mark Allocation
+
+Section A:      Candidates are required to answer all questions. Total 30 marks.
+Section B:      Candidates are required to answer all questions. Total 40 marks.
+                Maximum total = 70 marks.
+
+General
+
+A markscheme often has more specific points worthy of a mark than the total allows. This is intentional.
+Do not award more than the maximum marks allowed for that part of a question.
+
+When deciding upon alternative answers by candidates to those given in the markscheme, consider the
+following points:
+
+            Each statement worth one point has a separate line and the end is signified by means of a
+             semi-colon (;).
+
+            An alternative answer or wording is indicated in the markscheme by a “/”; either wording can
+             be accepted.
+
+            Words in ( … ) in the markscheme are not necessary to gain the mark.
+
+            If the candidate’s answer has the same meaning or can be clearly interpreted as being the
+             same as that in the markscheme then award the mark.
+
+            Mark positively. Give candidates credit for what they have achieved and for what they have
+             got correct, rather than penalizing them for what they have not achieved or what they have got
+             wrong.
+
+            Occasionally, a part of a question may require a calculation whose answer is required for
+             subsequent parts. If an error is made in the first part then it should be penalized.
+                                                  –4–              M11/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+                                              SECTION A                              Total: [30 marks]
+
+1.   Award up to [2 marks max].
+     A compiler produces an executable / machine code / object code file whereas an
+     interpreter compiles and executes each line of code without saving a compiled copy.
+
+     A compiler does not execute any code until the translation process is complete
+     whereas an interpreter executes each line of code as soon as it has translated it.
+
+     A compiler will not run any code until all syntax errors are eliminated whereas an
+     interpreter will translate and execute each line of code until it encounters a
+     syntax error.                                                                          [2 marks]
+
+
+2.   Note: The answers in part (a) and part (b) are to be 6-bit numbers. If a student has
+           used a different number of bits but has the correct numbers, award [0 marks]
+           for part (a) and [1 mark] for follow-through on part (b).
+
+     (a)   010001;                                                                           [1 mark]
+
+     (b)   101111;                                                                           [1 mark]
+
+     (c)   Award [1 mark] for each block.
+           1010 0011                                                                        [2 marks]
+
+
+3.   (a)   Allocates an appropriate section / amount of memory;
+           For each program (currently) running;
+           Do not accept answers describing the management of hard drives.                  [2 marks]
+
+     (b)   Deals with passwords / access levels;
+           So that only the appropriate person(s) can work with particular files;
+           Do not accept answers describing firewall and anti-virus functions.              [2 marks]
+
+
+4.   Defragmentation software places sections of the same file next to each other;
+     To allow for faster access (to that file);
+     Do not credit answers which imply that extra space is created.                         [2 marks]
+
+
+5.   (a)   (double)(11 % 2) / 2 = 1/2 = 0.5 ;                                                [1 mark]
+
+     (b)   To prevent a possible “division by zero” / run-time/execution error / program
+           from crashing;                                                                    [1 mark]
+
+     (c)   Award up to [2 marks max].
+           Because (otherwise) the operator “/” will perform integer division;
+           And return the answer 0;
+           And the method has to return a double;
+           The cast (double) ensures that (x % y) is of type double;
+           So real division is carried out;
+                                     –5–             M11/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+So the cast / (double) converts the answer to a double;                  [2 marks]
+                                                      –6–           M11/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+6.   Data could be compressed (before sending);
+     Which means less data to send;
+
+     High speed lines / fibre optics / dedicated lines could be used;
+     Which allow faster transmission than “traditional lines”;
+     In lieu of suggesting a type of high-speed cable, allow good explanations of how
+     increased bandwidth means that more bits can sent in a given time interval and
+     thus the time required to transmit the file will be reduced.                           [4 marks]
+
+
+7.   (a)   Possible answers include:
+           .jpg/.jpeg, .bmp, .png, .gif, .tif/.tiff, .svg…;                                 [1 mark]
+
+     (b)   Award [1 mark] for a general comment. Award [1 mark] more for a detailed
+           response, up to [2 marks max]. Possible answers include:
+           .jpg/.jpeg: Lossy compression (reduced size);
+                       Good for artificial images;
+                       Widely supported;
+                       Compatible compression with pdf;
+           .bmp:     Uncompressed files (large size);
+                     Simplicity of use;
+                     Widely accepted by Windows programs;
+           Do NOT accept any statements suggesting that bitmap files are smaller or
+           compressed.
+           .png:         Opensource development;
+                         Supports truecolours (16 million), indexed colours, grayscale;
+                         Supports both lossless and lossy compression;
+                         Adequate for streaming;
+                         Adopted by modern browsers;
+           .gif:         It handles 256 colours: adequate for shapes/diagrams/cartoon;
+                         Supports lossless compression;
+                         Supports image animation;
+           .tif/.tiff:   Widely available;
+                         Developed for professional use (graphics/photo industry);
+                         Conceived for scanners/fax;
+                         Specific applications: museum documentation and medical imagery;
+           .svg:         Vector graphics;
+                         Unlimited scalability;
+                         Higher compression for certain types of images;                    [2 marks]
+                                                –7–              M11/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+8.   Award marks as follows up to [3 marks max].
+     Award [1 mark] for describing the bus network topology;
+     Award [1 mark] for describing the star network topology;
+     Award [1 mark] for comparing the two topologies;
+
+     Bus topology:    Each computer/server connected to one single bus cable through
+                      some connector;
+                      Easy to add new machines, but the traffic on the cable reduces the
+                      performances;
+                      One wire only, hence cheap to implement;
+                      High risk of failure (if the cable breaks all the network breaks);
+                      High costs of maintenance;
+                      Adequate for LAN only;
+                      A message is sent on the bus and only the machine with the
+                      identical IP address as in the message filters it and accepts it;
+
+     Star topology:   Each machine of the network has a one-to-one connection to a hub
+                      in the network;
+                      Easy to add new machine to the network;
+                      The hub acts as a repeater of the signal, and can send it to long
+                      distances;
+                      The hub is the only point of failure;
+                      Easy to maintain;
+                      Adequate for LAN, with possibility of getting out of the LAN
+                      through the hub/router;
+                      A message is sent directly to the machine, passing through the hub;   [3 marks]
+                                                  –8–              M11/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+9.   (a)   Award [1 mark] for benefit, [1 mark] for outline, up to [2 marks max].
+           Machine-independence;
+           High-level syntax abstracts away the computational details of the machine;
+
+           User-friendly;
+           They may include constructions similar to natural language;
+
+           Intuitive;
+           Beneficial for non-expert programmers;
+
+           Portability;
+           Programs are more easily portable across platforms through intermediate
+           representations/translations;
+
+           Robustness/formal verification/certification;
+           Programs’ correctness can be formally verified/certified;
+
+           Fast prototyping;
+           Fewer lines of code, which has been shown to correlate with speed of
+           development and number of bugs;                                                  [2 marks]
+
+     (b)   Award up to [2 marks max].
+           Analysis/correctness of the entire program depends on the analysis/correctness
+           of its modules and their mutual relations;
+           Better maintenance of the system;
+           Incremental extensibility/update of the system by adding/modifying modules;
+           Better portability of the system;
+           Reusability, modules can be used again in other contexts than what they were
+           originally designed for;                                                         [2 marks]
+                                                   –9–              M11/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+                                              SECTION B                                 Total: [40 marks]
+
+10.   (a)   Award up to [1 mark max].
+            A computer network covering a small physical area;
+            Whose links do not need telecommunication lines;
+            Often characterized by high data-transfer rate;
+            Do not accept “Local Area Network”                                                  [1 mark]
+
+      (b)   Award [1 mark] each for processes related to the server, up to [5 marks max].
+            Do not accept processes that are not related to the server, such as scanning the
+            card with the card reader.
+            It must be clear that a process is connected to the server in order for it to
+            receive a mark.
+
+            1. Server receives request to access an account with a specified ID.
+            2. The student’s account record is retrieved from the server’s database.
+            3. The account balance is extracted from the account record.
+            4. The server sends either authorization to select a meal or a denial.
+            5. Server receives request to update an account with a specified ID.
+            6. The account balance is reduced by the specified amount.                         [5 marks]
+
+      (c)   For each of two suggested improvements, award [1 mark] for a good
+            improvement (see examples) and award [1 mark] more for an explanation up
+            to [4 marks max].
+
+            Award only [1 mark max] for anything related to converting the system to one
+            that bills students (or debits their accounts).
+
+            Examples:
+            Introducing a way to top-up the account balance;
+            Introducing a way for students to pay the difference between the meal cost and
+            their account balance;
+            Improve the security of the account/card;
+            Change to use a “smart card” as a payment card;                                    [4 marks]
+
+                                                                                        Total: [10 marks]
+                                                      – 10 –             M11/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+11.   (a)   Award [1 mark] for each input device, up to [2 marks max].
+            Web-cam;
+            Microphone;
+            Tablet;
+            Interactive whiteboard;
+            Scanner;
+            Do not accept “network card”.                                                              [2 marks]
+
+      (b)   Award up to [2 marks max] for the advantages provided by each school.
+
+            School A
+            Coursework can be accessed by the patient at any time;
+            At times compatible with the schedule of medical treatments;
+            According to the wish/will of the patient;
+
+            School B
+            The patient can virtually join the classroom;
+            Providing a way of socializing with the classmates;
+            And means of direct participation/immediate feedback on taught topics;                     [4 marks]
+
+      (c)   Award up to [4 mark max].
+            The impact of long-term hospitalization on the success of the studies is reduced;
+            The patient would still feel part of the school community;
+            Schoolmates could psychologically/emotionally better accept the disease;
+            Extra formations/skills on the school’s technicians/teachers might be needed;
+            Increase the sensibility/receptivity of the wide public and politicians on the subject;    [4 marks]
+
+                                                                                                Total: [10 marks]
+                                                    – 11 –            M11/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+12.   (a)   For all columns except the third one (i < j), award [1 mark] for a fully
+            complete and correct column.
+
+              i     j      i < j      s.charAt(i) != s.charAt(j)             return value
+             0      5       true                     false
+             1      4       true                     false
+             2      3       true                      true                        false
+                                                                                                    [4 marks]
+
+      (b)   Award up to [1 mark max].
+            To recognize palindromes;
+            Words that are read the same way from left-to-right and right-to-left;                   [1 mark]
+
+      (c)   Award [1 mark] for detecting both (correct) conditions, [1 mark] for appropriately
+            using the Boolean operators.
+
+            (i < j) and characters at indexes i and j are different
+            OR
+            (i >= j)                                                                                [2 marks]
+
+      (d)   Award [1 mark] for detecting the effect, [2 marks max] for the explanation.
+
+            Effect:
+            Strings of odd length (e.g. radar) are treated differently than before;
+
+            Explanation:
+            The original code does not check the character in the ‘pivot’ position;
+            The modified version checks that for i = j the corresponding character is the same;
+            All the other cases are treated similarly because the test i <= j extends the test i < j; [3 marks]
+
+                                                                                            Total: [10 marks]
+                                                     – 12 –            M11/5/COMSC/SP1/ENG/TZ0/XX/M
+
+
+13.   (a)   Award [1 mark] for the method of data collection, [1 mark] for the benefit,
+            up to [4 marks max].
+            Observation;
+            Allows the analyst to see exactly how the processes are carried out;
+
+            Questionnaires;
+            Can cover every aspect;
+            Might get the “official” answers rather than the real ones;
+
+            Research;
+            Allows analyst to see how other similar businesses solve the problem;
+            Different businesses get different results so research may not reveal the
+            best solution;
+
+            Interviews;
+            Interaction allows all aspects to be thoroughly investigated;
+            Can be time-consuming;                                                                   [4 marks]
+
+      (b)   (i)    Award [1 mark] each for up to two items from the
+                   Feasibility report;
+                   A brief description of the proposed system;
+                   Estimated costs;
+                   Economic / technical / and legal responsibility;
+                   Possible completion date;                                                         [2 marks]
+
+            (ii)   Award [1 mark] each for up to two items from the
+                   Requirements specification;
+                   A (precise) definition of the problem;
+                   A definition of inputs and outputs;
+                   A list of tools/facilities/people available for developing the solution;
+                   A schedule for the next stages of the project;
+                   Systems flowchart (or similar diagrams);                                          [2 marks]
+
+      (c)   Award up to [2 marks max]. Accept documentation produced at any stage
+            after the analysis stage.
+            User guide;
+            For the personnel that will use the system;
+
+            Flowcharts / code;
+            To aid programmers in future modifications;                                              [2 marks]
+
+                                                                                              Total: [10 marks]
+

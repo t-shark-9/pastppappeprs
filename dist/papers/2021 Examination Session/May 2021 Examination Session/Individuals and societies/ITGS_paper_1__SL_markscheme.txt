@@ -1,0 +1,684 @@
+M21/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+
+
+                        Markscheme
+
+
+                               May 2021
+
+
+                 Information technology
+                    in a global society
+
+
+                          Standard level
+
+
+                               Paper 1
+
+
+
+
+15 pages
+                                            –2–                  M21/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+
+
+© International Baccalaureate Organization 2021
+
+All rights reserved. No part of this product may be reproduced in any form or by any
+electronic or mechanical means, including information storage and retrieval systems,
+without the prior written permission from the IB. Additionally, the license tied with this
+product prohibits use of any selected files or extracts from this product. Use by third
+parties, including but not limited to publishers, private teachers, tutoring or study services,
+preparatory schools, vendors operating curriculum mapping services or teacher resource
+digital platforms and app developers, whether fee-covered or not, is prohibited and is a
+criminal offense.
+
+More information on how to request written permission in the form of a license can be
+obtained from https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-
+license/.
+
+© Organisation du Baccalauréat International 2021
+
+Tous droits réservés. Aucune partie de ce produit ne peut être reproduite sous quelque
+forme ni par quelque moyen que ce soit, électronique ou mécanique, y compris des
+systèmes de stockage et de récupération d’informations, sans l’autorisation écrite
+préalable de l’IB. De plus, la licence associée à ce produit interdit toute utilisation de tout
+fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris, sans
+toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de tutorat ou
+d’aide aux études, des établissements de préparation à l’enseignement supérieur, des
+fournisseurs de services de planification des programmes d’études, des gestionnaires de
+plateformes pédagogiques en ligne, et des développeurs d’applications, moyennant
+paiement ou non, est interdite et constitue une infraction pénale.
+
+Pour plus d’informations sur la procédure à suivre pour obtenir une autorisation écrite
+sous la forme d’une licence, rendez-vous à l’adresse https://ibo.org/become-an-ib-school/
+ib-publishing/licensing/applying-for-a-license/.
+
+© Organización del Bachillerato Internacional, 2021
+
+Todos los derechos reservados. No se podrá reproducir ninguna parte de este producto
+de ninguna forma ni por ningún medio electrónico o mecánico, incluidos los sistemas de
+almacenamiento y recuperación de información, sin la previa autorización por escrito del
+IB. Además, la licencia vinculada a este producto prohíbe el uso de todo archivo o
+fragmento seleccionado de este producto. El uso por parte de terceros —lo que incluye,
+a título enunciativo, editoriales, profesores particulares, servicios de apoyo académico o
+ayuda para el estudio, colegios preparatorios, desarrolladores de aplicaciones y
+entidades que presten servicios de planificación curricular u ofrezcan recursos para
+docentes mediante plataformas digitales—, ya sea incluido en tasas o no, está prohibido
+y constituye un delito.
+
+En este enlace encontrará más información sobre cómo solicitar una autorización por
+escrito en forma de licencia: https://ibo.org/become-an-ib-school/ib-publishing/licensing/
+applying-for-a-license/.
+                                                   –3–                 M21/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+1.   A cashless society
+
+     Note to examiners:
+     • All part (a) questions are marked using ticks and annotations where appropriate.
+     • Part (b) and part (c) are marked using markbands. Use annotations and text comments to
+       provide a rationale behind the marks you awarded. Do not use ticks.
+
+     (a)   When a user wants to make a payment with the Swish app, the app will need to
+           collect data about the transaction.
+
+           (i)    Identify two items of data that the app could collect from the user making
+                  the payment.                                                                  [2]
+
+                  Answers may include:
+                  • the name of the person making the payment / username / ID Number
+                    (accept other personal identifiers)
+                  • password
+                  • phone number of the person making the payment
+                  • bank account to be used for the transaction (in the case that there is
+                    more than one account linked to the Swish app)
+                  • amount of the transaction/cost of the item
+                  • message (to indicate what the transaction was for) / personal greeting
+                    card.
+                  • name of person receiving the payment
+                  • Swish account details / phone number of the person receiving the
+                    payment.
+
+                  Note: Do not accept data that are system generated, e.g., date/time of
+                  transaction, transaction id, etc.
+
+                  Award [1] for identifying each item of data that the app would collect from
+                  the user making the payment up to maximum of [2] marks.
+
+           (ii)   Identify the steps taken by the app to make the payment into the bank
+                  account of the person receiving the money.                                    [4]
+
+                  Answers may include:
+                  • user is verified
+                  • buyer ’s / payer’s bank account is accessed (by the app)
+                  • authorization from the bank for the amount required – amount of the
+                    transaction is compared to the amount of money/credit available in the
+                    buyer’s bank account
+                  • authorization from the bank for the amount required – amount of the
+                    transaction is compared to the limit the bank permits for Swish
+                    transactions
+                  • determine the seller’s / payee’s bank in order to initiate a transfer
+                  • if authorized, then transfer of money from buyer’s bank to seller’s bank
+                  • if not authorized, then error message (to buyer and seller)
+                  • message sent (to buyer and seller) to confirm transaction.
+
+                  Award [1] for identifying each step taken by the app to complete the
+                  transaction up to maximum of [4] marks.
+                                           –4–                 M21/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+(b)   Explain why it is important that any data sharing agreement between the Swish
+      app and the Swedish banks has policies that address both the storing and
+      sharing of app users’ data.                                                        [6]
+
+      Answers may include:
+      Storing:
+         • to ensure that data is protected by a strong security network (firewalls,
+            anti-malware protection, encryption etc)
+         • to provide strong security for any machines that have access to the data
+         • to ensure that access to data is restricted to people who have a need to
+            know
+         • to provide protections against loss of data are in place
+         • to provide protections against any attacks aimed at stealing or changing
+            the data
+         • to provide a plan for backup and recovery.
+         • to make sure that only relevant data is stored
+         • to prevent data being stored after people have left the Swish platform.
+         • to make sure that data being stored adheres to data protection laws as
+            governed in specific locations, e.g., data stored in Sweden follows GDPR
+
+      Sharing:
+        • to ensure that data is only shared with the consent of the app users
+        • to ensure that any data shared should be anonymized as far as possible to
+            prevent the identity of the app user being determined
+        • to ensure that app users should be informed if there are any additional
+            organizations that their data may be shared with and for what purpose
+        • to ensure that data will be shared using secure means.
+
+      Award [1] for a reason why it is important that any data sharing agreement
+      between the Swish app and the Swedish banks has policies that address the
+      processing/sharing of app users’ data and [2] for developments of that reason up
+      to maximum of [3] marks.
+
+      Mark as [3] + [3]
+                                              –5–                  M21/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+(c)   Many people in Sweden have seen the advantages of using the Swish app. It
+      allows friends to share a restaurant bill, to pay where credit or debit cards are not
+      accepted, to easily pay for babysitting or parking tickets, or make a donation at
+      church. However, some people in Sweden have expressed concerns about not
+      using cash and making the Swish app the only means of payment.
+
+      To what extent do the advantages of the Swish app as the only means of
+      payment outweigh the disadvantages.                                                     [8]
+
+      Answers may include:
+      Advantages of using Swish:
+        • no need to carry cash / credit cards – no risk of being stolen/no risk of not
+           having enough cash
+        • no risk of credit card being used fraudulently
+        • transactions are recorded – there is proof of payment
+        • payments can be done immediately – no need to wait until person has
+           time to go to bank to get cash
+        • can solve other problems regarding money – bills can be shared, one
+           person pays and money is transferred
+        • in an emergency money can be transferred to dependents without them
+           being close (eg children at university)
+        • allows money transactions between individuals
+        • transfers of money are in real time (instantly) and free of charge
+        • amount of money to be transferred is limited thus minimising the loss of
+           money.
+        • many people are already used to the app so it would be a good choice if
+           the country were going cashless.
+        • easier for users to track budgets / spending as all transactions are on one
+           app.
+
+      Disadvantages of using Swish:
+         • Swedish banks will be able to obtain more data on their users’ transaction
+            habits (privacy concern)
+         • is not available to people who do not have a bank account so a potential
+            digital divide concern
+         • it only works within Sweden, or people who have a Swedish bank account
+            so may be problematic for tourists
+         • removes the anonymity of the payee in transactions – Swish stores a
+            user’s transaction history. This would include date, item, recipient of the
+            money and cost of the item
+         • the bank controls the maximum amount of money that can be transferred
+            – this may limit a person’s spending
+         • the transition from a society that uses cash for transactions to one that
+            does not may not be possible and in trying to make this transition it may
+            cause considerable harm to many citizens.
+         • use of the Swish app (specifically) would give the company an unfair
+            monopoly over the technology
+         • Digital Divide – smartphones ownership and use by mature adults
+         • if a person loses his/her phone or breaks it or its battery runs out, he/she
+            has no way to pay for anything.
+         • failure in / lack of phone network coverage could affect when and where
+            people could use the app.
+         • Failure of the system / technical issues / down time which would prevent
+            people from making transactions.
+      Accept implicit and explicit references to the Swish app.
+      Please see generic markband information sheet on page 15.
+                                                    –6–                     M21/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+
+2.   Automatic crop watering system
+
+     (a)   (i)    Identify three characteristics of proprietary software.                            [3]
+
+                  Answers may include:
+                   • software is copyrighted
+                   • commercial software
+                   • relicensing, distribution or copying is prohibited
+                   • the user/organization must accept the agreement prior to installing or
+                      using the software
+                    • requires a subscription or monthly fee
+                    • has customer support and maintenance of the software provided by
+                      its developers as part of the purchase of the software.
+
+                  Award [1] for identifying each characteristic of proprietary software up to
+                  maximum of [3] marks.
+
+           (ii)   A computer program uses the data provided by the rain sensor to decide
+                  whether to water the trees. Identify the steps in this program.                    [3]
+
+                  Answers may include:
+                   • the sensor gathers analog data
+                   • the analog data is converted into digital data
+                   • the computer compares the data to a preset level within the program
+                      to determine if it is raining.
+
+                    Either:
+                    o if it is raining the computer program will not start/will stop watering
+                    o if it is not raining the watering continues as programmed.
+
+                   Or:
+                   o if the ground reaches a certain dampness then the watering is
+                       stopped
+                   o if the ground has not reached a certain dampness then the watering
+                       continues as programmed.
+
+                  Award [1] for identifying each step the computer program will use when
+                  deciding whether to water the trees up to maximum of [3] marks.
+                                             –7–                  M21/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+(b)   Water is becoming increasingly scarce in Chacra Province and the provincial
+      government is concerned there will be a point when there is not enough water for
+      all of the farms to water their crops or fruit trees.
+
+      To manage water for the watering of crops and fruit trees, the provincial
+      government of Chacra Province intends to create a computer model to calculate
+      how much water each farm in the province will receive.
+
+      Explain three factors that will contribute to the accuracy of the model.                [6]
+
+      Answers may include:
+        • quality of data input
+        • high quality data will allow for a more accurate model to be developed as
+           this data will be more reliable / current water levels within each area must
+           be accurate.
+
+         •   frequency of readings taken
+         •   more frequent readings may be able to pick up more subtle changes in the
+             patterns of rainfall to increase the accuracy of the model / if we take daily
+             readings and use these to create the model, that will be more accurate
+             that monthly readings.
+
+         •   number of variables taken into account when developing the model
+         •   more variables will enable other, potentially less important, factors to be
+             considered when developing the model / what crops are farmed in
+             different areas in the province / the weather conditions in different areas of
+             the province.
+
+         •   number of assumptions that have been built into the model
+         •   if any of the assumptions are weak or false the model will be inaccurate.
+
+         •   quantity of data input
+         •   if the sample of data is larger, then the resulting model would be more
+             accurate / spans several years.
+
+      Award [1] for identifying a factor that will contribute to the accuracy of the model
+      and [1] for explanation why that will contribute to the accuracy of the model up to
+      maximum of [2] marks.
+
+      OR
+
+      Award [1] for each example given and an additional [1] if the explanation
+      contributes to the accuracy of the model up to a maximum of [2] marks.
+
+      Mark as [2] + [2] + [2]
+
+      Check with your team leader before accepting additional answers.
+                                           –8–                 M21/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+(c)   The farmers of Chacra Province are concerned about the provincial government
+      using a computer model to determine the amount of water they will be allowed to
+      use to water their fruit trees.
+
+      To what extent should the farmers of Chacra Province rely on their knowledge
+      and experience, rather than the computer-based solution provided by the
+      provincial government, to manage the watering of the fruit trees?                 [8]
+
+      Answers may include:
+      Knowledge and experience will:
+        • allow the farmers to see more than water needs for a plant (sick leaves,
+           buds falling, etc) without needing to develop a model
+        • be able to include other factors that may arise from time to time such as
+           quality of the water (eg coming with mud) and adjust their watering
+           accordingly
+        • be able to resolve potential issues that cannot be programmed into the
+           computer, or would be outside of the scope of a computational solution
+        • provide expertise that cannot be quantified/ensure that in a worst-case
+           scenario some of the farmers will be able to grow crops/trees.
+
+      Use of the provincial model will:
+        • allow water to be distributed evenly between the farmers on a “needs”
+            basis rather than based on the opinions of one or two stronger characters
+        • a scientific approach has limits (e.g. there may be variables which the
+            model does not take into account), the decisions around the water
+            requirements of the trees may be based as much on intuition as
+            algorithms and models.
+        • model may be biased or influenced by politics e.g. farmers may not have
+            fully disclosed their data / government may favour certain groups or
+            industries.
+
+      Use of the proprietary computer system will:
+        • reduce the amount of time farmers need to spend visibly checking their
+            fields
+        • allow exact water usage to be measured and lead to potential efficiencies
+            in its usage
+        • will provide quantitative data that could be used as a model for other
+            farmers growing the same trees in similar locations.
+
+      Please see generic markband information sheet on page 15.
+                                                   –9–                     M21/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+3.   Technology disruption in Orams Academy
+
+     (a)   (i)     Identify two characteristics of cloud-based storage.                             [2]
+
+                   Answers may include:
+                    • data is stored on remote servers accessed from the internet, or
+                       "cloud”
+                    • data can be accessed from anywhere as long as the person has an
+                       Internet connection
+                    • online space allows users to store data, photos, music, and videos
+                    • documents stored in the cloud can be shared with others (most of the
+                       time) instead of sending them via emails
+                    • cloud storage providers may provide other services like backups
+                    • requires a username and password for access.
+
+                   Award [1] for each characteristic of cloud-based storage identified up to [2]
+                   marks.
+
+           (ii)    Identify two reasons why there might be a lack of bandwidth at times on the
+                   school’s network.                                                                [2]
+
+                   Answers may include:
+                    • many students are using the internet (e.g. for social media) at certain
+                       times of the day (e.g. lunchtimes)
+                    • a large number of classes are working simultaneously on
+                       collaborative projects (ie Google docs)
+                    • due to geographic location, local ISPs may not be able to offer
+                       enough bandwidth so that at certain times there isn’t enough for all
+                       the users / shared bandwidth causes internet speeds to fluctuate
+                    • technical issues at the ISP’s end may cause slow internet bandwidth
+                       supply to its clients for periods of time
+                    • large videos are being streamed or downloaded to show in
+                       classrooms
+                    • network design or infrastructure is not optimal / outdated equipment
+                       causes frequent outages.
+
+                   Award [1] for each reason identified up to [2] marks.
+
+           (iii)   Identify two potential disadvantages of using online collaborative tools.        [2]
+
+                   Answers may include:
+                    • information in the file could be modified and/or deleted by some of the
+                       collaborators by mistake
+                    • internet is needed to view the most updated version of the documents
+                       and work / to share and collaborate
+                    • different bandwidths/internet connection of the different users may
+                       make collaboration inefficient. / More difficult to communicate if a user
+                       has poor internet connection, decreasing productivity
+                    • collaborative tools may not work optimally if the number of users gets
+                       too big.
+
+                   Award [1] for identifying each disadvantage of using online collaborative
+                   tools up to [2] marks.
+                                            – 10 –                M21/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+(b)   An acceptable-use policy will be required for the appropriate use of virtual
+      learning environments and collaborative online tools in Orams Academy.
+
+      Explain three elements that would be included in an acceptable-use policy for
+      Orams Academy.                                                                       [6]
+
+      Answers may include:
+        • a philosophy of Orams Academy relating to the use of online environments
+        • which acts as a guiding statement and provides the overarching principles
+           for online behavior.
+
+         •   a code of conduct
+         •   that provides clear and unambiguous directions about how staff and
+             students should act while online / using appropriate language in text chats
+             / avoiding bullying behaviour / avoiding copying or plagiarism.
+         please check with team leader for other answers
+
+         •   an outline of the sanctions
+         •   that would be imposed if staff or students did not adhere to the code of
+             conduct.
+
+         •   a disclaimer
+         •   so that Orams Academy is not responsible for the actions of the staff or
+             students if an illegal activity is carried out / managers at Orams Academy
+             are able to supervise everything that is posted onto the VLE / managers at
+             Orams Academy would be able to read students’ messages.
+         please check with team leader for other answers
+
+         •   data privacy and protection
+         •   so it will be transparent who owns the data created in VLE, for how long
+             and what type of data is collected by the VLE servers.
+
+      Award [1] for an element that would be included in an acceptable-use policy for
+      Orams Academy and [1] for a development of that reason up to maximum of [2]
+      marks.
+
+      OR
+
+      Award [1] for each example given and an additional [1] for a development of this
+      example up to a maximum of [2] marks.
+
+      Mark as [2] + [2] + [2].
+
+      Check with your team leader before accepting additional examples.
+                                             – 11 –                M21/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+
+(c)   Discuss whether Daniela should make every teacher at Orams Academy use the
+      same learning platform or she should allow each teacher to choose their own
+      preferred learning management approach.                                                 [8]
+
+      Answers may include:
+      A single learning platform:
+        • means that all of the information is centralized and can be easily accessed
+           by staff, students and parents
+        • the training requirements for staff are reduced as they only have to use one
+           system
+        • prevents the use of a range of formats that may be incompatible meaning
+           that resources cannot be shared, or may need adapting to work on a
+           different platform
+        • having a common learning platform would make it convenient for the IT
+           dept. to take backup/restore and roll-over data to new academic year.
+        • makes it easier for senior managers to monitor the actions of staff, to view
+           lessons etc for consistency
+        • can be integrated into any acceptable-user policy or training requirements
+        • may be costly and based on proprietary software meaning that fixes could
+           be expensive and take a long time to happen
+        • if the single platform is inaccessible for any reason, then all learning
+           content would be inaccessible.
+
+      Teachers choosing their own preferred learning management approach:
+        • allows teachers to use their expertise of particular tools
+        • allows teachers to feel they are being allowed to use their creativity and
+          innovative approach to the teaching and learning
+        • may integrate with social media tools that may be blocked by the school
+          and provide a better user experience
+        • may provide better functionality than a “one size fits all” approach
+        • may lead to staff or students working outside of an acceptable-user
+          policy/using the sites inappropriately
+        • the training requirements for staff will be increased if the staff are unfamiliar
+          with the platforms / training will only occur on an ad hoc basis / training
+          might be decreased since staff are already familiar with the tools they
+          choose to use
+        • expertise of a platform may depend on particular teachers – if they leave
+          then no one may be able to support students with this tool.
+
+      Please see generic markband information sheet on page 15.
+                                                    – 12 –                M21/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+4.   Voice simulation
+
+     (a)   (i)     Lyrebird uses a person’s voice-print to determine their identity.
+
+                   Identify two other methods of biometric identification that could be used to
+                   determine a person’s identity.                                                  [2]
+
+                   Answers may include:
+                    • fingerprints
+                    • eye/retinal scans
+                    • palm prints/hand geometry
+                    • facial recognition.
+
+                   Award [1] for each method of biometric feature identified up to [2] marks.
+
+           (ii)    Identify two audio file formats that could be used to store the voice-print.    [2]
+
+                   Answers may include:
+                    • MP3
+                    • WAV
+                    • WMA
+                    • OGG
+                    • AAC
+                    • FLAC
+                    • AVI.
+
+                   Award [1] for each audio file format identified up to [2] marks.
+
+           (iii)   The voice-print created can be compressed using lossless or lossy
+                   compression.
+
+                   Describe the difference between lossless and lossy compression.                 [2]
+
+                   Answers may include:
+                    • lossless compression is when the original data can be recreated after
+                       compression/no quality is lost
+                    • lossy compression is when some of the quality may be lost when the
+                       data is decompressed/the decompression is based on a best-fit
+                       algorithm by the compression software and may not perfectly recreate
+                       the original file.
+
+                   Award [1] for a correct identification of a difference between lossy and
+                   lossless compression and [1] for a further development up to [2] marks.
+                                               – 13 –               M21/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+
+
+ (b)    Analyse whether it would be appropriate for Lyrebird to release the biometric data
+        of a user to a third party.                                                                     [6]
+
+        Answers may include:
+        It would be appropriate:
+            • to law enforcement agencies for a warrant, subpoena, or court order
+            • in response to requests by regulatory, legal or government agencies as
+              the information cannot be obtained by any other means
+            • by with-holding this information it would be working against the ethical
+              principles of Lyrebird
+            • if it is necessary or appropriate to do so to protect our rights, property, or
+              safety
+            • where the user has provided Lyrebird with written consent to disclosure of
+              your biometric data.
+
+        It would not be appropriate:
+            • where the releasing of the data would lead to harm being caused to the
+              person whose data is being released, for example, data that is linked to an
+              underlying medical condition
+            • where it is in direct contradiction to the policies that Lyrebird have for the
+              sharing of data
+            • as it could be harmful to the reputation of Lyrebird
+            • as it is an invasion of privacy to release personal data without consent
+            • it is illegal under the laws of the country in which Lyrebird operates (e.g.
+              GDPR).
+
+Marks                                           Level descriptor
+
+          No knowledge or understanding of ITGS issues and concepts. No use of appropriate
+  0
+          ITGS terminology.
+
+          A limited response that indicates very little understanding of the topic or the reason is not
+ 1–2      clear. Uses little or no appropriate ITGS terminology. No reference is made to the
+          scenario in the stimulus material. The response is theoretical.
+
+          A description, unbalanced or partial analysis of the issues related to the release the
+ 3–4      biometric data of a user to a third party. There is some use of appropriate ITGS
+          terminology in the response.
+
+          A balanced and detailed analysis of the relative advantages and disadvantages of the
+          release the biometric data of a user to a third party. Explicit and relevant references are
+ 5–6
+          made to the scenario in the stimulus material. There is appropriate ITGS terminology
+          throughout the response.
+                                            – 14 –              M21/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+(c)   To what extent do the benefits of using Lyrebird’s voice cloning software
+      outweigh the concerns that may arise from its use?                                 [8]
+
+      Answers may include:
+      Benefits may include:
+        • could help people who have lost their voice
+        • could create better voice activated interfaces
+        • characters in video games could have individual voices, could clone your
+            own voice as a playable character
+        • could provide interactive training and learning
+        • could be used in educational software to produce a more realistic
+            experience
+        • any device that requires speech could be enhanced by more natural
+            voices (appointment reminders, personal assistant applications,
+            audiobooks, etc)
+        • parents could use the software to “read” to their children.
+
+      Concerns may include:
+        • could be used to create fake news or weaken the public’s confidence in
+           news of all kinds
+        • increase in robocalls with realistic voices – scammers will be able to
+           deceive people more easily, or make fake calls to the police
+        • may lead to systems that use voice as a method of authentication become
+           compromised as scammers are able to quickly create a user’s voiceprint
+           and access the system.
+
+      Please see generic markband information sheet on page 15.
+                                             – 15 –               M21/3/ITGSX/SP1/ENG/TZ0/XX/M
+
+
+SL and HL paper 1 part (c) and HL paper 3 question 3 markband
+
+
+        Marks                                         Level descriptor
+
+                       • A response with no knowledge or understanding of the relevant ITGS
+      No marks           issues and concepts.
+                       • A response that includes no appropriate ITGS terminology.
+
+                       • A response with minimal knowledge and understanding of the relevant
+                         ITGS issues and concepts.
+                       • A response that includes minimal use of appropriate
+        Basic
+                         ITGS terminology.
+      1–2 marks
+                       • A response that has no evidence of judgments, conclusions or future
+                         strategies.
+                       • The response may be no more than a list.
+
+                       • A descriptive response with limited knowledge and/or understanding of
+                         the relevant ITGS issues and/or concepts.
+                       • A response that includes limited use of appropriate
+      Adequate
+                         ITGS terminology.
+      3–4 marks
+                       • A response that has evidence of conclusions, judgments or future
+                         strategies that are no more than unsubstantiated statements.
+                         The analysis underpinning them may also be partial or unbalanced.
+
+                       • A response with knowledge and understanding of the relevant ITGS
+                         issues and/or concepts.
+     Competent
+                       • A response that uses ITGS terminology appropriately in places.
+     5–6 marks
+                       • A response that includes conclusions and/or judgments that have
+                         limited support and are underpinned by a balanced analysis.
+
+                       • A response with a detailed knowledge and understanding of the
+                         relevant ITGS issues and/or concepts.
+      Proficient
+                       • A response that uses ITGS terminology appropriately throughout.
+      7–8 marks
+                       • A response that includes conclusions, judgments or future strategies
+                         that are well supported and underpinned by a balanced analysis.
+

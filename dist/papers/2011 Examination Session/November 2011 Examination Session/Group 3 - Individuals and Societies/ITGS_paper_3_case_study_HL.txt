@@ -1,0 +1,257 @@
+M&N11/3/ITGSX/HP3/ENG/TZ0/XX/CS
+
+
+
+
+Information technology in a global society
+CASE STUDY: DEVELOPING AND RUNNING AN ONLINE BUSINESS
+
+
+For use in May and November 2011.
+
+
+
+
+INSTRUCTIONS TO CANDIDATES
+
+• Case study booklet required for higher level paper 3 information technology in a global society
+  examinations.
+
+
+
+
+                                                                                                    7 pages
+                                                            © International Baccalaureate Organization 2010
+                                                   –2–           M&N11/3/ITGSX/HP3/ENG/TZ0/XX/CS
+
+Foreword
+
+The ITGS case study, Developing and Running an Online Business, is the stimulus material for the research
+investigation required for May and November 2011 higher level paper 3.  All of the work related to the
+case study should reflect the integrated approach explained on page 8 of the ITGS guide.
+
+Candidates should consider Developing and Running an Online Business with respect to:
+• web content management systems (Web CMSs) and providers
+• businesses that sell online
+• companies that provide services for businesses that sell online
+• web sites that sell similar products online.
+
+Candidates are expected to research real-life situations similar to Developing and Running an Online Business
+and relate their findings to first-hand experiences wherever possible.   Information should be collected
+through secondary research and primary investigations, such as field trips, guest speakers,
+personal interviews, e-mail correspondence, hands-on activities and other appropriate methods.
+
+Candidates are expected to research the vocabulary and concepts that are related to the IT technologies
+in the case study.
+
+Responses to examination questions must reflect the synthesis of knowledge and experiences that
+the candidates have gained from their investigations.   In some instances, additional information may
+be provided in examination questions to allow candidates to generate new ideas.
+                                                   –3–             M&N11/3/ITGSX/HP3/ENG/TZ0/XX/CS
+
+     Overview
+
+     Carmen Machado owns a business, Foto Creativa, specializing in providing memorabilia
+     for families.  She is based in Santander, northern Spain, and runs the business from a shop in the
+     centre of the city.
+
+     Carmen studied in England for several years and was awarded a university degree
+ 5   in Creative Digital Media.   When she returned to Spain she set up a simple web site to help
+     advertise her business.  Over the three years that the business has operated it has increased its range
+     of services to include the following:
+     • digitizing photos, modifying and improving images/photos from customers
+     • editing video, converting video and home movies to digital media
+10   • creating and selling digital photo albums
+     • “stitching” photos together to form one image
+     • creating multimedia presentations combining text, images, videos, animation and other
+        digital elements
+     • selling posters, mugs, t-shirts and other products with customer images and photographs.
+
+                                Examples of products sold by Foto Creativa
+
+
+
+
+                                    [Source: http://evansonart.com, 6 November 2009]
+
+
+15   Carmen has found that as her business has grown, she has had less time to provide a good service
+     to all of her customers.
+
+
+
+
+                                                                                                Turn over
+                                             –4–          M&N11/3/ITGSX/HP3/ENG/TZ0/XX/CS
+
+     Current IT systems
+
+     Carmen’s shop, Foto Creativa, has the following IT resources:
+     • two computers, each with a large, high resolution monitor suitable for professional
+       photography and video
+20   • a scanner
+     • a photo-quality printer
+     • a “high-end” digital camera and digital video camera
+     • a laptop suitable for demonstrating and displaying work to customers
+     • professional software for photography and video work
+25   • desktop publishing software
+     • web development software
+     • a small network with a server, including a RAID backup system
+     • broadband Internet access
+     • a spreadsheet for keeping all financial and customer records.
+
+30   Carmen is currently using almost all of the free 50 MB web space provided by her
+     Internet service provider (ISP).  This only allows her to have HTML pages, with images and text
+     in English and Spanish.
+
+     She realizes that to improve her web site, which will include completely redesigning it,
+     she is going to need to make major decisions.
+
+35   Carmen carried out some initial research into developing the improved web site herself,
+     but soon realized that researching, designing, building and testing, hosting and marketing
+     an online business would take more time than she could afford.  Also, she knew she did not
+     have the technical knowledge to do this and therefore sought the advice of Sergio Martinez,
+     an e-commerce consultant.
+
+
+     Web content management system (Web CMS) and applications
+
+40   To run an e-commerce business successfully, Carmen needs a web content management system
+     (Web CMS) to:
+     • organize and present information about her products and services through a consistent
+       user interface
+     • provide e-marketing
+45   • interface data from the central database
+     • provide secure access to customers to view and upload files
+     • provide an e-commerce facility (with a shopping cart service).
+                                              –5–          M&N11/3/ITGSX/HP3/ENG/TZ0/XX/CS
+
+     However, there are technical requirements that Carmen must meet whether she chooses
+     a free or commercial Web CMS.  She will need:
+50   • a domain name
+     • a hosting account – one of the more popular configurations includes:
+         - MySQL database management system (DBMS)
+         - PHP / other scripting language
+         - Linux operating system
+55       - Apache web server
+     • a shopping cart system – purchased or open source
+     • a payment merchant account
+     • SSL-encrypted web site pages.
+
+
+     User interface
+
+     Successful businesses use a standard appearance and structure for their web sites and documents.
+60   Carmen must ensure that all the web pages have a consistent appearance.   She is considering
+     whether to use commercial or open source software to develop the web site.
+
+
+     E-marketing
+
+     Carmen wishes to expand the marketing of her products and services over the Internet.  
+     She is considering implementing some of the following:
+     • an opt-in e-newsletter
+65   • ad banners
+     • a blog on her web site
+     • RSS feeds
+     • bulk e-mails
+     • site traffic analysis / web-counters
+70   • multimedia content.
+
+     Also search engine optimization can increase the likelihood of Carmen generating more business.  
+     There are many ways to enable her company to appear higher up on a search result list.  
+     Some methods are paid for and others will require knowledge of how search engines work.
+
+
+     Database and applications
+
+     Underpinning any e-business there is always a database.   In this case, it holds details
+75   of customers, products and orders.  As with any other database, it is best managed with a DBMS,
+     which provides applications with an interface to the underlying data.  A DBMS will also prevent
+     unintentional data corruption.   MySQL is a widely used DBMS that can be accessed by many
+     programming languages such as PHP.   Many shopping cart services and other web-based
+     applications are written in PHP interfacing with MySQL.
+
+
+
+
+                                                                                          Turn over
+                                                 –6–           M&N11/3/ITGSX/HP3/ENG/TZ0/XX/CS
+
+      Providing security
+
+ 80   In addition to the security measures required for running an e-commerce web site with
+      a shopping cart, it is necessary to provide secure methods for ensuring the protection of customer
+      data and the files that they upload for processing by Foto Creativa.
+
+      Consideration has to be given to the installation of anti-virus and anti-spyware software, in addition
+      to firewall and Internet security tools to protect the web site and its underlying data.
+
+
+      E-commerce with shopping cart
+
+ 85   In order to sell products or services from a web site, Carmen will need to set up a shopping cart.  
+      This can be implemented through a third party web site or run from her own web site.
+
+      Hosting your own shopping cart is generally seen as a much more affordable solution and involves
+      a number of challenges.  However, running a shopping cart through a third party web site will also
+      have its share of challenges.
+
+
+      Challenges faced
+
+ 90   Carmen has decided that she needs further information on how to develop the business
+      in the future.   Sergio identified issues that would require further investigation before any final
+      decision could be made about how to develop the business further:
+      • how customers and potential customers can be informed of new products and offers through the
+         web site or other e-marketing techniques
+ 95   • different project management techniques to develop the new web site
+      • how a range of multimedia features can be effectively integrated on the web site
+      • how products are purchased through the use of an appropriate shopping cart service
+      • a range of open source and commercial Web CMSs
+      • methods of payment for goods (and delivery) purchased using the shopping cart,
+100      such as PayPal, credit card payments and direct deposit to account
+      • appropriate privacy and other policies for the web site
+      • search engine optimization so that the web site appears on the first page of results
+      • the role of web site traffic analysis
+      • techniques that can be used to secure a web site
+105   • policies that could lead to a secure web site
+      • the relationships between the data, the DBMS and applications
+      • the features offered by a range of web-hosting services.
+                                                  –7–           M&N11/3/ITGSX/HP3/ENG/TZ0/XX/CS
+
+Specific Information Technology items, additional to those in the ITGS Guide, which are associated
+with developing and running an online business web site
+
+Backup strategies
+Cascading Style Sheets (CSS)
+Denial of service attack
+Domain Name System
+Gantt chart
+HTML
+HTTPS
+Internet service provider (ISP)
+IP address
+JavaScript
+MySQL
+Open source
+Page ranking
+Pay per click advertising
+Payment merchant account
+Payment options – e.g. PayPal / credit card payment / direct deposit to an account
+PHP
+Project management
+RAID
+RSS feeds
+Search engine optimization
+Shopping cart software
+Site traffic analysis
+SQL
+Web 2.0 technologies
+Web content management system (Web CMS)
+
+
+
+Any individuals named in this case study are fictitious and any similarities with actual entities
+are purely coincidental.
+

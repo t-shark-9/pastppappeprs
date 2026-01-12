@@ -1,0 +1,531 @@
+M11/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+
+
+                   MARKSCHEME
+
+
+                           May 2011
+
+
+
+          MATHEMATICS
+SERIES AND DIFFERENTIAL EQUATIONS
+
+
+
+                        Higher Level
+
+
+
+                               Paper 3
+
+
+
+
+11 pages
+                           –2–         M11/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+
+
+This markscheme is confidential and for the exclusive use of
+examiners in this examination session.
+
+It is the property of the International Baccalaureate and
+must not be reproduced or distributed to any other person
+without the authorization of IB Cardiff.
+                                                   –3–             M11/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+                                       Instructions to Examiners
+
+Abbreviations
+
+M     Marks awarded for attempting to use a correct Method; working must be seen.
+
+(M)   Marks awarded for Method; may be implied by correct subsequent working.
+
+A     Marks awarded for an Answer or for Accuracy; often dependent on preceding M marks.
+
+(A)   Marks awarded for an Answer or for Accuracy; may be implied by correct subsequent working.
+
+R     Marks awarded for clear Reasoning.
+
+N     Marks awarded for correct answers if no working shown.
+
+AG    Answer given in the question and so no marks are awarded.
+
+
+Using the markscheme
+
+1     General
+
+      Write the marks in red on candidates’ scripts, in the right hand margin.
+
+      • Show the breakdown of individual marks awarded using the abbreviations M1, A1, etc.
+      • Write down the total for each question (at the end of the question) and circle it.
+
+
+2     Method and Answer/Accuracy marks
+
+      • Do not automatically award full marks for a correct answer; all working must be checked, and
+        marks awarded according to the markscheme.
+      • It is not possible to award M0 followed by A1, as A mark(s) depend on the preceding M mark(s), if
+        any.
+      • Where M and A marks are noted on the same line, e.g. M1A1, this usually means M1 for an
+        attempt to use an appropriate method (e.g. substitution into a formula) and A1 for using the
+        correct values.
+      • Where the markscheme specifies (M2), N3, etc., do not split the marks.
+      • Once a correct answer to a question or part-question is seen, ignore further working.
+
+3     N marks
+
+      Award N marks for correct answers where there is no working.
+
+      •   Do not award a mixture of N and other marks.
+      •   There may be fewer N marks available than the total of M, A and R marks; this is deliberate as it
+          penalizes candidates for not following the instruction to show their working.
+                                                  –4–             M11/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+4   Implied marks
+
+    Implied marks appear in brackets e.g. (M1), and can only be awarded if correct work is seen or if
+    implied in subsequent working.
+
+    • Normally the correct work is seen or implied in the next line.
+    • Marks without brackets can only be awarded for work that is seen.
+
+5   Follow through marks
+
+    Follow through (FT) marks are awarded where an incorrect answer from one part of a question is
+    used correctly in subsequent part(s) or subpart(s). Usually, to award FT marks, there must be
+    working present and not just a final answer based on an incorrect answer to a previous part.
+    However, if the only marks awarded in a subpart are for the answer (i.e. there is no working
+    expected), then FT marks should be awarded if appropriate.
+
+    • If the question becomes much simpler because of an error then use discretion to award fewer FT
+      marks.
+    • If the error leads to an inappropriate value (e.g. sin θ = 1.5 ), do not award the mark(s) for the final
+      answer(s).
+    • Within a question part, once an error is made, no further dependent A marks can be awarded, but
+      M marks may be awarded if appropriate.
+    • Exceptions to this rule will be explicitly noted on the markscheme.
+
+6   Mis-read
+
+    If a candidate incorrectly copies information from the question, this is a mis-read (MR). Apply a MR
+    penalty of 1 mark to that question. Award the marks as usual and then write –1(MR) next to the total.
+    Subtract 1 mark from the total for the question. A candidate should be penalized only once for a
+    particular mis-read.
+
+    • If the question becomes much simpler because of the MR, then use discretion to award fewer
+      marks.
+    • If the MR leads to an inappropriate value (e.g. sin θ = 1.5 ), do not award the mark(s) for the final
+      answer(s).
+
+7   Discretionary marks (d)
+
+    An examiner uses discretion to award a mark on the rare occasions when the markscheme does not
+    cover the work seen. The mark should be labelled (d) and a brief note written next to the mark
+    explaining this decision.
+
+8   Alternative methods
+
+    Candidates will sometimes use methods other than those in the markscheme. Unless the question
+    specifies a method, other correct methods should be marked in line with the markscheme. If in doubt,
+    contact your team leader for advice.
+
+    • Alternative methods for complete questions are indicated by METHOD 1, METHOD 2, etc.
+    • Alternative solutions for part-questions are indicated by EITHER . . . OR.
+    • Where possible, alignment will also be used to assist examiners in identifying where these
+      alternatives start and finish.
+                                                     –5–              M11/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+9    Alternative forms
+
+     Unless the question specifies otherwise, accept equivalent forms.
+
+     • As this is an international examination, accept all alternative forms of notation.
+     • In the markscheme, equivalent numerical and algebraic forms will generally be written in
+       brackets immediately following the answer.
+     • In the markscheme, simplified answers, (which candidates often do not write in examinations), will
+       generally appear in brackets. Marks should be awarded for either the form preceding the bracket or
+       the form in brackets (if it is seen).
+        Example: for differentiating=
+                                    f ( x) 2sin (5 x − 3) , the markscheme gives:
+
+            f ′ ( x)
+            =           ( 2cos (5 x −=
+                                     3) ) 5 ( 10cos (5 x − 3) )                              A1
+
+        Award A1 for ( 2cos (5 x − 3) ) 5 , even if 10cos (5 x − 3) is not seen.
+
+
+10   Accuracy of Answers
+
+     If the level of accuracy is specified in the question, a mark will be allocated for giving the answer to
+     the required accuracy.
+
+     • Rounding errors: only applies to final answers not to intermediate steps.
+     • Level of accuracy: when this is not specified in the question the general rule applies: unless
+       otherwise stated in the question all numerical answers must be given exactly or correct to three
+       significant figures.
+
+     Candidates should be penalized once only IN THE PAPER for an accuracy error (AP). Award the
+     marks as usual then write (AP) against the answer. On the front cover write –1(AP). Deduct 1 mark
+     from the total for the paper, not the question.
+
+     • If a final correct answer is incorrectly rounded, apply the AP.
+     • If the level of accuracy is not specified in the question, apply the AP for correct answers not given
+       to three significant figures.
+
+     If there is no working shown, and answers are given to the correct two significant figures, apply the
+     AP. However, do not accept answers to one significant figure without working.
+
+11   Crossed out work
+
+     If a candidate has drawn a line through work on their examination script, or in some other way
+     crossed out their work, do not award any marks for that work.
+
+12   Calculators
+
+     A GDC is required for paper 2, but calculators with symbolic manipulation features (e.g. TI-89) are
+     not allowed.
+
+     Calculator notation
+     The Mathematics HL guide says:
+         Students must always use correct mathematical notation, not calculator notation.
+     Do not accept final answers written using calculator notation. However, do not penalize the use of
+     calculator notation in the working.
+                                                           –6–             M11/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+1.   (a)   METHOD 1
+
+                   ln (1 + e x ); f (0) =
+            f ( x) =                    ln 2                                                 A1
+                        x
+                      e              1
+     =f ′( x)         =   x
+                            ; f ′(0)                                                         A1
+                     1+ e            2
+
+                                                1              1
+       Note: Award A0 for f ′( x) =                 ; f ′(0) =
+                                             1 + ex            2
+
+                     e x (1 + e x ) − e 2 x           1
+=f ′′( x)             =                     ; f ′′(0)                                      M1A1
+                          (1 + e x ) 2                4
+
+                                                             1
+       Note: Award M0A0 for f ′′( x) if f ′( x) =                is used
+                                                          1 + ex
+
+                                    1    1
+           ln (1 + e x ) = ln 2 +     x + x 2 + ...                                        M1A1
+                                    2    8
+                                                                                                    [6 marks]
+
+           METHOD 2
+                                        1 2
+           ln (1 + e x ) = ln (1 + 1 + x +x + …)                                           M1A1
+                                        2
+                                       1    1
+                       = ln2 + ln (1 + x + x 2 + …)                                          A1
+                                       2    4
+                                                                   2
+                               1       1 2        1 1   1 2   
+                       = ln2 +  x + x + …           x + x + … + …                       A1
+                               2       4          2 2   4     
+                               1      1     1
+                       = ln2 + x + x 2 − x 2 + …                                             A1
+                               2      4     8
+                               1      1 2
+                       = ln2 + x + x + …                                                     A1
+                               2      8
+                                                                                                    [6 marks]
+
+     (b)   METHOD 1
+                                                       x2
+                            x                             + x 3 terms & above − x − ln 4
+                                                  2ln 2 + x +
+                2ln (1 + e ) − x − ln 4                4
+           lim                          = lim                                              M1A1
+           x →0           x2              x →0                    x2
+                                               1              1
+                                        = lim  + powers of x  =                          M1A1
+                                           x →0 4
+                                                              4
+       Note: Accept + … as evidence of recognition of cubic and higher powers.
+
+       Note: Award M1AOM1A0 for a solution which omits the cubic and higher powers.
+
+                                                                                                    [4 marks]
+
+
+
+                                                                                                  Continued…
+                                                             –7–             M11/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+Question 1 continued
+
+            METHOD 2
+            using l’Hôpital’s Rule
+                  2ln (1 + e x ) − x − ln 4        2e x ÷ (1 + e x ) − 1
+            lim                             = lim                                           M1A1
+             x →0            x2               x →0         2x
+                                                   2e ÷ (1 + e x ) 2 1
+                                                      x
+                     = lim                     =                                            M1A1
+                                              x→ 0         2             4
+                                                                                                    [4 marks]
+
+                                                                                             Total [10 marks]
+
+
+                                  dy
+2.    (a)   use of y → y + h                                                                 (M1)
+                                  dx
+                                          dy                       dy
+            x       y                                            h
+                                          dx                       dx
+            0       1                     1                      0.1                          A1
+            0.1     1.1                   1.22                   0.122                        A1
+            0.2     1.222                 1.533284               0.1533284                    A1
+            0.3     1.3753284             1.981528208            0.1981528208                 A1
+            0.4     1.573481221                                                              (A1)
+
+            approximate value of y = 1.57                                                     A1
+
+        Note: Accept values in the tables correct to 3 significant figures.
+                                                                                                    [7 marks]
+
+      (b)   the approximate value is less than the actual value because it is assumed that
+             dy
+                 remains constant throughout each interval whereas it is actually an
+             dx
+            increasing function                                                            R1
+                                                                                                    [1 mark]
+
+                                                                                              Total [8 marks]
+                                                            –8–   M11/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+                             dy       dv
+3.      put y = vx so that      = v+x                                              M1
+                             dx       dx
+        substituting,                                                              M1
+              dv v 2 x 2 + 3vx 2 + 2 x 2
+        v+x =                            (= v 2 + 3v + 2)                         (A1)
+              dx            x2
+          dv
+         x = v 2 + 2v + 2                                                          A1
+          dx
+               dv          dx
+        ∫ v 2 + 2v + 2 = ∫ x                                                       M1
+
+               dv          dx
+        ∫ (v + 1)2 + 1 = ∫ x                                                      (A1)
+
+        arctan (v + 1)= ln x + c                                                   A1
+
+     Note: Condone absence of c at this stage.
+                 y
+        arctan ( + 1)= ln x + c                                                    M1
+                 x
+        When x = 1, y = −1                                                         M1
+        c=0                                                                        A1
+        y
+          + 1 =tan ln x
+        x
+        y = x (tan ln x – 1)                                                       A1
+                                                                                         [11 marks]
+                                                                         –9–           M11/5/MATHL/HP3/ENG/TZ0/SE/M
+
+                       π
+4.    (a)   I 0 = ∫ e − x sin x dx                                                                            M1
+                     0
+
+                                                          π
+        Note: Award M1 for I 0 = ∫ e − x sin x dx
+                                                         0
+
+
+
+            Attempt at integration by parts, even if inappropriate modulus signs
+            are present.                                                                                      M1
+                                          π         π                          π   π
+            − e − x cos x  − ∫ e − x cos x dx or − e − x sin x  + ∫ e − x cos x dx
+            =                                                                                                 A1
+                              0   0                                    0   0
+                                          π                    π     π                              π    π
+            − e − x cos x  − e − x sin x  − ∫ e − x sin x dx or − e − x sin x + e − x cos x  − ∫ e − x sin x dx A1
+            =
+                              0                  0   0                                                  0   0
+                                          π                    π                           π
+            − e − x cos x  − e − x sin x  − I 0 or − e − x sin x + e − x cos x  − I 0
+            =                                                                                                 M1
+                              0                  0                                         0
+
+
+        Note: Do not penalise absence of limits at this stage
+
+            I 0= e −π + 1 − I 0                                                                               A1
+                 1
+            I0
+            =       (1 + e −π )                                                                               AG
+                 2
+        Note: If modulus signs are used around cos x , award no accuracy marks but do
+              not penalise modulus signs around sin x .
+                                                                                                                     [6 marks]
+
+                       ( n +1) π
+      (b)   In = ∫                 e − x sin x dx
+                       nπ
+
+            Attempt to use the substitution=y x – nπ                                                          M1
+            (putting=y x – nπ , dy = dx and [ nπ , (n + 1)π] → [0, π] )
+                             π
+                            ∫ e
+                                   − ( y + nπ )
+     =so I n                                      sin ( y + nπ) dy                                            A1
+                            0
+                                      π
+     = e − nπ ∫ e − y sin ( y + nπ) dy                                                                        A1
+                                     0
+                                      π
+                   = e − nπ ∫ e − y sin y dy                                                                  A1
+                                     0
+
+                   = e − nπ I 0                                                                               AG
+                                                                                                                     [4 marks]
+
+              ∞                                    ∞
+      (c)   ∫ e
+                  −x
+                           sin x dx = ∑ I n                                                                   M1
+              0
+                                                  n=0
+                                                  ∞
+                                              = ∑ e − nπ I 0                                                 (A1)
+                                                  n=0
+
+            the ∑ term is an infinite geometric series with common ratio e −π                                (M1)
+            therefore
+              ∞        I0
+            ∫ e
+                  −x
+                           sin x dx =                                                                        (A1)
+              0     1 − e −π
+                      1 + e −π   eπ + 1 
+                  = =                                                                                       A1
+                    2(1 − e )  2(e π − 1) 
+                             −π
+
+
+                                                                                                                     [5 marks]
+
+                                                                                                             Total [15 marks]
+                                                      – 10 –          M11/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+5.   (a)   using a ratio test,
+            Tn +1      x n +1    n!    x
+               =               × = n
+                                                                                         M1A1
+             Tn      (n + 1)!    x   n +1
+
+
+      Note: Condone omission of modulus signs.
+
+            → 0 as n → ∞ for all values of x                                               R1
+           the series is therefore convergent for x ∈                                     A1
+                                                                                                  [4 marks]
+
+                  x2     x3
+     (b)   (i)    e x − 1= x +
+                     +       +…                                                           M1
+                   2 2×3
+                  x2     x3
+            < x+ +           + … (for x > 0)                                               A1
+                   2 2× 2
+                x
+           =         (for x < 2)                                                           A1
+                  x
+              1−
+                  2
+               2x
+           =         (for 0 < x < 2)                                                      AG
+              2− x
+
+                              2x  2+ x
+           (ii)   ex < 1 +       =                                                         A1
+                             2− x 2− x
+                                 1
+                     2 + x x
+                  e<                                                                     A1
+                    2− x
+                                     1                                            1
+                  replacing x by       (and noting that the result is true for n > and
+                                     n                                            2
+                  therefore  + )                                                         M1
+
+                                 n
+                     2n + 1 
+                  e<                                                                    AG
+                     2n − 1 
+                                                                                                  [6 marks]
+
+
+
+                                                                                                continued …
+                                                    – 11 –           M11/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+Question 5 continued
+
+                                  x 2 x3
+      (c)   (i)    1 − e− x = x −    + +…                                                         A1
+                                  2    6
+                   for 0 < x < 2 , the series is alternating with decreasing terms so that the
+                   sum is greater than the sum of an even number of terms                         R1
+                   therefore
+                                  x2
+                   1 − e− x > x −                                                                AG
+                                  2
+
+                                    x2
+            (ii)   e− x < 1 − x +
+                                    2
+                                1
+                   ex >                                                                          M1
+                                   x2 
+                           1 − x +    
+                                   2 
+                                           1
+                             2      x
+                    e>            2 
+                                                                                                  A1
+                        2 − 2x + x 
+                                   1                                         1
+                   replacing x by (and noting that the result is true for n > and
+                                   n                                         2
+                   therefore  + )
+                                               n
+                         2n 2     
+                   e> 2                                                                        AG
+                      2n − 2n + 1 
+                                                                                                       [4 marks]
+
+      (d)   from (b) and (c), e < 2.718282…and e > 2.718281…                                      A1
+            we conclude that e = 2.71828 correct to 5 decimal places                              A1
+                                                                                                       [2 marks]
+
+                                                                                                 Total [16 marks]
+

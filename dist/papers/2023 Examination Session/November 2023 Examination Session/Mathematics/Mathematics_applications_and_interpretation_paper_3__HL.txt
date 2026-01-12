@@ -1,0 +1,364 @@
+© International Baccalaureate Organization 2023
+
+All rights reserved. No part of this product may be reproduced in any form or by any
+electronic or mechanical means, including information storage and retrieval systems,
+without the prior written permission from the IB. Additionally, the license tied with this
+product prohibits use of any selected files or extracts from this product. Use by third
+parties, including but not limited to publishers, private teachers, tutoring or study services,
+preparatory schools, vendors operating curriculum mapping services or teacher resource
+digital platforms and app developers, whether fee-covered or not, is prohibited and is a
+criminal offense.
+
+More information on how to request written permission in the form of a license can be
+obtained from https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-
+license/.
+
+© Organisation du Baccalauréat International 2023
+
+Tous droits réservés. Aucune partie de ce produit ne peut être reproduite sous quelque
+forme ni par quelque moyen que ce soit, électronique ou mécanique, y compris des
+systèmes de stockage et de récupération d’informations, sans l’autorisation écrite
+préalable de l’IB. De plus, la licence associée à ce produit interdit toute utilisation de tout
+fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris, sans
+toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de tutorat ou
+d’aide aux études, des établissements de préparation à l’enseignement supérieur, des
+fournisseurs de services de planification des programmes d’études, des gestionnaires de
+plateformes pédagogiques en ligne, et des développeurs d’applications, moyennant
+paiement ou non, est interdite et constitue une infraction pénale.
+
+Pour plus d’informations sur la procédure à suivre pour obtenir une autorisation écrite
+sous la forme d’une licence, rendez-vous à l’adresse https://ibo.org/become-an-ib-school/
+ib-publishing/licensing/applying-for-a-license/.
+
+© Organización del Bachillerato Internacional, 2023
+
+Todos los derechos reservados. No se podrá reproducir ninguna parte de este producto
+de ninguna forma ni por ningún medio electrónico o mecánico, incluidos los sistemas de
+almacenamiento y recuperación de información, sin la previa autorización por escrito del
+IB. Además, la licencia vinculada a este producto prohíbe el uso de todo archivo o
+fragmento seleccionado de este producto. El uso por parte de terceros —lo que incluye,
+a título enunciativo, editoriales, profesores particulares, servicios de apoyo académico o
+ayuda para el estudio, colegios preparatorios, desarrolladores de aplicaciones y
+entidades que presten servicios de planificación curricular u ofrezcan recursos para
+docentes mediante plataformas digitales—, ya sea incluido en tasas o no, está prohibido
+y constituye un delito.
+
+En este enlace encontrará más información sobre cómo solicitar una autorización por
+escrito en forma de licencia: https://ibo.org/become-an-ib-school/ib-publishing/licensing/
+applying-for-a-license/.
+Mathematics: applications and interpretation
+Higher level
+Paper 3
+
+31 October 2023
+
+Zone A afternoon   Zone B afternoon   Zone C afternoon
+
+
+1 hour
+
+Instructions to candidates
+y Do not open this examination paper until instructed to do so.
+y A graphic display calculator is required for this paper.
+y Answer all the questions in the answer booklet provided.
+y Unless otherwise stated in the question, all numerical answers should be given exactly or
+  correct to three significant figures.
+y A clean copy of the mathematics: applications and interpretation formula booklet is
+  required for this paper.
+y The maximum mark for this examination paper is [55 marks].
+
+
+
+
+                                                                                              8823 – 7203
+      7 pages                                             © International Baccalaureate Organization 2023
+                                                      –2–                                           8823 – 7203
+
+
+Answer both questions in the answer booklet provided. Please start each question on a new page.
+Full marks are not necessarily awarded for a correct answer with no working. Answers must be
+supported by working and/or explanations. Solutions found from a graphic display calculator should be
+supported by suitable working. For example, if graphs are used to find a solution, you should sketch
+these as part of your answer. Where an answer is incorrect, some marks may be given for a correct
+method, provided this is shown by written working. You are therefore advised to show all working.
+
+1.   [Maximum mark: 28]
+
+     This question uses differential equations to model the maximum velocity of a skydiver
+     in free fall.
+
+     In 2012, Felix Baumgartner jumped from a height of 40 000 m. He was attempting to travel
+     at the speed of sound, 330 m s-1, whilst free-falling to the Earth.
+
+     Before making his attempt, Felix used mathematical models to check how realistic his
+     attempt would be. The simplest model he used suggests that
+
+                                                     dv
+                                                        =g
+                                                     dt
+     where v m s-1 is Felix’s velocity and g m s-2 is the acceleration due to gravity. The time since
+     he began to free-fall is t seconds and the displacement from his initial position is s metres.
+
+     Throughout this question, the direction towards the centre of the Earth is taken to be positive
+     and v is a positive quantity.
+
+     When s = 0 , it is given that Felix jumps with an initial velocity   v = 10 .
+
+                                                   dv     dv
+     (a)   (i)	Use the chain rule to show that      = v .[1]
+                                                   dt     ds
+                                                                                    dv
+           (ii)    Assuming that g is a constant, solve the differential equation v     = g to find
+                   v  as a function of s .                                         d s             [4]
+
+           (iii)   Using   g = 9.8 , determine whether the model predicts that Felix will succeed
+                   in travelling at the speed of sound at some point before s = 40 000 .
+                   Justify your answer.                                                                    [3]
+
+     (b)   To test the model
+
+                                                    dv
+                                                       =g,
+                                                    dt
+
+           Felix conducted a trial jump from a lower height, and data for v against t was found.
+
+           (i)     If the model is correct, describe the shape of the graph of v against t .               [2]
+
+(This question continues on the following page)
+                                                     –3–                                          8823 – 7203
+
+
+(Question 1 continued)
+
+           Felix’s data are plotted on the following graph.
+
+                                v
+                         300
+
+                         250
+
+                         200
+
+                         150
+
+                         100
+
+                           50
+
+
+                              0                                                    t
+                                    5     10    15    20    25    30    35    40
+
+           (ii)    Use the plot to comment on the validity of the model in part (a).                     [1]
+
+     (c)   An improved model considers air resistance, using
+
+                                                 dv
+                                                     g  kv 2
+                                                 dt
+
+           where k is a positive constant. You are reminded that initially   s = 0 and v = 10 .
+
+                           dv     dv
+           (i)     By using    = v , solve the differential equation to find v in terms of s , g  and k .
+                            dt    ds
+                   You may assume that g - kv2 > 0 .                                                     [5]
+
+           Felix uses the graph of v against t shown in part (b) to estimate the value of k .
+
+           (ii)    The gradient is estimated to be 9.672 when v = 40 . Taking g to be 9.8, use this
+                   information to show that Felix found that k = 8 × 10-5 .                              [2]
+
+           (iii)   Hence, find the value of v predicted by this model, as s tends to infinity.           [2]
+
+           (iv)    Find the upper bound for the velocity according to this model, given that
+                   0 < s ≤ 40 000 . Give your answer to four significant figures.                        [2]
+
+(This question continues on the following page)
+
+
+
+
+                                                                                                  Turn over
+                                                       –4–                                     8823 – 7203
+
+
+(Question 1 continued)
+
+     The assumption that the value of g is constant is not correct. It can be shown that
+
+                                                      3.98 1014
+                                               g                           .
+                                                     6.4110  s 
+                                                                        2
+                                                                6
+
+
+
+     Hence, the new model is given by
+
+                                      dv     3.98 1014
+                                  v                                
+                                                           8 105 v 2 .       
+                                                           
+                                                        2
+                                      ds           6
+                                           6.4110  s
+
+     When s = 0 , it is known that v = 10 .
+
+     (d)   Use Euler’s method with a step length of 4000 to estimate the value of v
+           when s = 40 000.[4]
+
+     (e)   After Felix completed his record-breaking jump, he found that the answer from part (d)
+           was not supported by data collected during the jump.
+
+           (i)    Suggest one improvement to the use of Euler’s method which might increase
+                  the accuracy of the prediction of the model.                                        [1]
+
+           (ii)   Suggest one factor not explicitly considered by the model in part (d) which might
+                  lead to a difference between the model’s prediction and the data collected.         [1]
+                                                     –5–                                             8823 – 7203
+
+
+2.   [Maximum mark: 27]
+
+     This question is about applying ideas from logarithms, calculus and probability to an
+     unfamiliar mathematical theory called information theory.
+
+     Claude Shannon developed a mathematical theory called information theory to measure the
+     information gained when random events occur. He defined the information, I, that is gained
+     when an event with probability p occurs as
+
+                                                   I = - ln p
+
+     where 0 < p ≤ 1 . For example, no information is gained ( I = 0 ) when an event is certain
+     to occur ( p = 1 ).
+
+     (a)   (i)	Sketch the graph of I = - ln p , for 0 < p ≤ 1 , labelling all axes intercepts and
+                 asymptotes.[3]
+
+           (ii)    Show, using calculus, that I is a decreasing function of p .                             [3]
+
+           (iii)   Interpret what “ I is a decreasing function of p ” means in the given context.           [1]
+
+     (b)   A computer selects at random an integer x from 1 to 10, inclusive. Each outcome is
+           equally likely.
+
+           Alessia is trying to determine the value of x and asks if x is odd.
+
+           (i)     Write down the probability that x is odd.                                                [1]
+
+           (ii)    Alessia is told that x is odd. Find how much information Alessia gains.                  [2]
+
+           The computer then selects at random an integer y from 1 to 10, inclusive.
+           Each outcome is equally likely.
+
+           Daniel is trying to determine the value of y and asks if y is 7. He is told that it is not 7.
+
+           (iii)   Find how much information Daniel gains.                                                  [2]
+
+(This question continues on the following page)
+
+
+
+
+                                                                                                     Turn over
+                                                    –6–                                            8823 – 7203
+
+
+(Question 2 continued)
+
+     If a random variable has n possible outcomes with probabilities p1 , p2 … pn , then the
+     expected information gained, E ( I ) , is defined as
+
+                                                      n
+                                            E  I     pr ln pr .
+                                                     r 1
+
+
+     (c)   For the integer guessing game described in part (b), when Daniel asks if y is 7,
+           there are two possible outcomes: “ y is 7” or “ y is not 7”.
+
+           (i)     Show that the expected information gained by Daniel is 0.325, correct to
+                   three significant figures.                                                             [2]
+
+           (ii)    Alessia asks if x is odd. Show that her expected information gained is
+                   greater than Daniel’s expected information gained.                                     [2]
+
+     Information theory can be applied to a variety of situations.
+
+     (d)   When a coin is flipped, the outcome is either heads or tails. The coin may be biased.
+           Let p be the probability of the outcome being heads.
+
+           (i)     Find, in terms of p , the information gained when the outcome is tails.                [1]
+
+           (ii)    Find, in terms of p , the expected information gained when the coin is
+                   flipped once.                                                                          [1]
+
+           (iii)   Hence, find the value of p when the expected information gained is maximized.          [2]
+
+     A famous puzzle uses 12 balls which appear identical. 11 have the same weight, but one is
+     either lighter or heavier than the others. A pair of scales can be repeatedly used to compare
+     the weights of different combinations of the balls.
+
+
+
+
+     The outcome of each weighing can be “balanced”, “left-hand side heavier” or “right-hand
+     side heavier”. The aim of the puzzle is to identify the ball which is the different weight, and
+     whether it is heavier or lighter than the others, in as few weighings as possible.
+
+(This question continues on the following page)
+                                                           –7–                                           8823 – 7203
+
+
+(Question 2 continued)
+
+       (e)       Angela wants to decide how many balls should be compared to each other in the
+                 first weighing. She produces the following table to help plan her strategy.
+
+                                                      Probability         Probability            Expected
+    Number of balls            Probability of
+                                                     of left-hand        of right-hand      information, E ( I )
+     on each side                balanced
+                                                     side heavier        side heavier       (3 decimal places)
+
+                                       5                    1                   1
+             1                                                                                     0.566
+                                       6                   12                  12
+
+                                       2                   1                    1
+             2                                                                                       ᴢ
+                                       3                   6                    6
+
+
+             3                         x                    y                   y                  1.040
+
+
+                                       1                   1                    1
+             4                                                                                     1.099
+                                       3                   3                    3
+
+                                       1                    5                   5
+             5                                                                                     1.028
+                                       6                   12                  12
+
+                                                           1                    1
+             6                         0                                                           0.693
+                                                           2                    2
+
+                 (i)     Find the value of x . Justify your answer.                                             [2]
+
+                 (ii)    Find the value of y .                                                                  [2]
+
+                 (iii)   Find the value of z .                                                                  [2]
+
+                 (iv)    Use the table to suggest the best choice for Angela’s first weighing.
+                         Justify your answer.                                                                   [1]
+
+
+
+
+

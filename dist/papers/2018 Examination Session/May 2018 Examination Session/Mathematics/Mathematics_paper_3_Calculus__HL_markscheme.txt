@@ -1,0 +1,758 @@
+M18/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+
+
+                        Markscheme
+
+
+                               May 2018
+
+
+                               Calculus
+
+
+                           Higher level
+
+
+                               Paper 3
+
+
+
+
+15 pages
+                          –2–            M18/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+
+
+This markscheme is the property of the International
+Baccalaureate and must not be reproduced or distributed
+to any other person without the authorization of the IB
+Global Centre, Cardiff.
+                                                  –3–                M18/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+                                       Instructions to Examiners
+
+Abbreviations
+
+M     Marks awarded for attempting to use a valid Method; working must be seen.
+
+(M)   Marks awarded for Method; may be implied by correct subsequent working.
+
+A     Marks awarded for an Answer or for Accuracy; often dependent on preceding M marks.
+
+(A)   Marks awarded for an Answer or for Accuracy; may be implied by correct subsequent working.
+
+R     Marks awarded for clear Reasoning.
+
+N     Marks awarded for correct answers if no working shown.
+
+AG    Answer given in the question and so no marks are awarded.
+
+
+Using the markscheme
+
+1     General
+
+      Mark according to RM™ Assessor instructions. In particular, please note the following:
+
+       Marks must be recorded using the annotation stamps. Please check that you are entering
+        marks for the right question.
+       If a part is completely correct, (and gains all the “must be seen” marks), use the ticks with
+        numbers to stamp full marks.
+       If a part is completely wrong, stamp A0 by the final answer.
+       If a part gains anything else, it must be recorded using all the annotations.
+       All the marks will be added and recorded by RM™ Assessor.
+
+
+2     Method and Answer/Accuracy marks
+
+       Do not automatically award full marks for a correct answer; all working must be checked,
+        and marks awarded according to the markscheme.
+       It is not possible to award M0 followed by A1, as A mark(s) depend on the preceding M mark(s),
+        if any.
+       Where M and A marks are noted on the same line, eg M1A1, this usually means M1 for an
+        attempt to use an appropriate method (eg substitution into a formula) and A1 for using the
+        correct values.
+       Where the markscheme specifies (M2), N3, etc., do not split the marks.
+                                                   –4–                 M18/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+     Once a correct answer to a question or part-question is seen, ignore further correct working.
+      However, if further working indicates a lack of mathematical understanding do not award the final
+      A1. An exception to this may be in numerical answers, where a correct exact value is followed by
+      an incorrect decimal. However, if the incorrect decimal is carried through to a subsequent part,
+      and correct FT working shown, award FT marks as appropriate but do not award the final A1 in
+      that part.
+
+      Examples
+
+               Correct answer seen       Further working seen             Action
+         1.                                5.65685                        Award the final A1
+                  8 2                      (incorrect decimal value)       (ignore the further working)
+         2.       1
+                    sin 4 x                sin x                           Do not award the final A1
+                  4
+         3.       log a  log b            log( a  b )                    Do not award the final A1
+
+
+3   N marks
+
+    Award N marks for correct answers where there is no working.
+
+     Do not award a mixture of N and other marks.
+     There may be fewer N marks available than the total of M, A and R marks; this is deliberate as it
+      penalizes candidates for not following the instruction to show their working.
+
+
+4   Implied marks
+
+    Implied marks appear in brackets eg (M1), and can only be awarded if correct work is seen or if
+    implied in subsequent working.
+
+     Normally the correct work is seen or implied in the next line.
+     Marks without brackets can only be awarded for work that is seen.
+
+
+5   Follow through marks
+
+    Follow through (FT) marks are awarded where an incorrect answer from one part of a question is
+    used correctly in subsequent part(s). To award FT marks, there must be working present and
+    not just a final answer based on an incorrect answer to a previous part.
+
+     If the question becomes much simpler because of an error then use discretion to award fewer
+      FT marks.
+     If the error leads to an inappropriate value (eg sin   1.5 ), do not award the mark(s) for the
+      final answer(s).
+     Within a question part, once an error is made, no further dependent A marks can be awarded,
+      but M marks may be awarded if appropriate.
+     Exceptions to this rule will be explicitly noted on the markscheme.
+                                                        –5–                   M18/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+6   Misread
+
+    If a candidate incorrectly copies information from the question, this is a misread (MR). A candidate
+    should be penalized only once for a particular misread. Use the MR stamp to indicate that this has
+    been a misread. Then deduct the first of the marks to be awarded, even if this is an M mark, but
+    award all others so that the candidate only loses [1 mark].
+
+     If the question becomes much simpler because of the MR, then use discretion to award
+      fewer marks.
+     If the MR leads to an inappropriate value (eg sin   1.5 ), do not award the mark(s) for the
+      final answer(s).
+
+
+7   Discretionary marks (d)
+
+    An examiner uses discretion to award a mark on the rare occasions when the markscheme does
+    not cover the work seen. In such cases the annotation DM should be used and a brief note written
+    next to the mark explaining this decision.
+
+
+8   Alternative methods
+
+    Candidates will sometimes use methods other than those in the markscheme. Unless the
+    question specifies a method, other correct methods should be marked in line with the markscheme.
+    If in doubt, contact your team leader for advice.
+
+     Alternative methods for complete questions are indicated by METHOD 1, METHOD 2, etc.
+     Alternative solutions for part-questions are indicated by EITHER . . . OR.
+     Where possible, alignment will also be used to assist examiners in identifying where these
+      alternatives start and finish.
+
+
+9   Alternative forms
+
+    Unless the question specifies otherwise, accept equivalent forms.
+
+     As this is an international examination, accept all alternative forms of notation.
+     In the markscheme, equivalent numerical and algebraic forms will generally be written in
+      brackets immediately following the answer.
+     In the markscheme, simplified answers, (which candidates often do not write in examinations),
+      will generally appear in brackets. Marks should be awarded for either the form preceding the
+      bracket or the form in brackets (if it is seen).
+
+      Example: for differentiating f ( x )  2 sin(5 x  3) , the markscheme gives:
+
+                        f ( x)   2cos(5 x  3)  5     10cos(5x  3)                A1
+
+
+              Award A1 for  2 cos(5 x  3)  5 , even if 10 cos(5 x  3) is not seen.
+                                                   –6–                 M18/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+10   Accuracy of Answers
+
+     Candidates should NO LONGER be penalized for an accuracy error (AP).
+
+     If the level of accuracy is specified in the question, a mark will be allocated for giving the answer to
+     the required accuracy. When this is not specified in the question, all numerical answers should be
+     given exactly or correct to three significant figures. Please check work carefully for FT.
+
+
+11   Crossed out work
+
+     If a candidate has drawn a line through work on their examination script, or in some other way
+     crossed out their work, do not award any marks for that work.
+
+
+12   Calculators
+
+     A GDC is required for paper 3, but calculators with symbolic manipulation features (eg TI-89) are
+     not allowed.
+
+     Calculator notation The mathematics HL guide says:
+     Students must always use correct mathematical notation, not calculator notation.
+     Do not accept final answers written using calculator notation. However, do not penalize the use of
+     calculator notation in the working.
+
+
+13   More than one solution
+
+     Where a candidate offers two or more different answers to the same question, an examiner
+     should only mark the first response unless the candidate indicates otherwise.
+                                                            –7–                      M18/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+1.   (a)   METHOD 1
+           ln( n  2)  n  2                                                                       (A1)
+                   1          1
+                              (for n  0 )                                                         A1
+               ln(n  2) n  2
+                                                                              
+                                                                      1             1
+      Note: Award A0 for statements such as                
+                                                           n  0 ln( n  2)
+                                                                             
+                                                                              n0 n  2
+                                                                                        .
+
+                 However condone such a statement if the above A1 has already been awarded.
+
+            
+                      1
+            n  2 (is a harmonic series which) diverges
+           n0
+                                                                                                     R1
+
+      Note: The R1 is independent of the A1s.
+                                                             1
+                 Award R0 for statements such as “              diverges”.
+                                                            n2
+
+                  
+                          1
+           so     ln(n  2) diverges by the comparison test
+                 n 0
+                                                                                                     AG
+
+
+           METHOD 2
+            1   1
+                (for n  2 )                                                                        A1
+           ln n n
+                                                                        
+                                                                  1         1
+      Note: Award A0 for statements such as                
+                                                           n  2 ln n
+                                                                       
+                                                                        n2 n
+                                                                              .
+
+                 However condone such a statement if the above A1 has already been awarded.
+
+           a correct statement linking n and n  2 eg,
+                                                       
+                      1              1             1          1
+           
+           n  0 ln( n  2)
+                             
+                              n  2 ln n
+                                         or 
+                                            n 0 n  2
+                                                        
+                                                         n 2 n
+                                                                                                     A1
+
+                                 
+                                       1
+      Note: Award A0 for       n.
+                                n 0
+
+
+            
+                 1
+            n (is a harmonic series which) diverges
+           n2
+                                       
+                                             1
+           (which implies that          ln n diverges by the comparison test)
+                                       n2
+                                                                                                     R1
+
+      Note: The R1 is independent of the A1s.
+                                                            
+                                                                  1                  1
+                 Award R0 for statements such as            n diverges and “ n diverges”.
+                                                           n 0
+                                                                      
+                                                                             1
+                 Award A1A0R1 for arguments based on                  n.
+                                                                      n 1
+
+                  
+                          1
+           so     ln(n  2) diverges by the comparison test
+                 n 0
+                                                                                                     AG
+
+                                                                                                       continued…
+                                                       –8–                   M18/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+Question 1 continued
+
+                                         (3x) n 1 ln(n  2)
+     (b)   applying the ratio test lim                                                          M1
+                                   n  ln( n  3)   (3x) n
+                               ln(n  2)
+            3x (as lim                    1)                                                   A1
+                          n  ln( n  3)
+
+
+      Note: Condone the absence of limits and modulus signs.
+
+      Note: Award M1A0 for 3 x n . Subsequent marks can be awarded.
+
+                               1       1
+           series converges for x
+                               3       3
+                            1        1
+           considering x   and x                                                              M1
+                            3        3
+      Note: Award M1 to candidates who consider one endpoint.
+
+                                      
+                       1                        1
+           when x       , series is                   which is divergent (from (a))            A1
+                       3             n  0 ln  n  2 
+
+                                    
+                                           1
+      Note: Award this A1 if        ln  n  2 is not stated but reference to part (a) is.
+                                   n 0
+
+
+
+                                           1
+                                                   n
+                                   
+                     1
+           when x   , series is                                                               A1
+                     3            n  0 ln  n  2 
+
+
+                     1 converges (conditionally) by the alternating series test
+                      n
+            
+
+           n  0 ln  n  2 
+                                                                                                 R1
+
+           (strictly alternating, un  un 1 for n  0 and lim  un   0 )
+                                                           n 
+
+                                                          1     1
+           so the interval of convergence of S is          x                                  A1
+                                                          3     3
+      Note: The final A1 is dependent on previous A1s – ie, considering
+                                          1         1
+                correct series when x     and x  and on the final R1.
+                                          3         3
+                                                                        1
+                Award as above to candidates who firstly consider x   and
+                                                                        3
+                                                                            1
+                then state conditional convergence implies divergence at x  .
+                                                                            3
+                                                                                                      [7 marks]
+
+                                                                                               Total [10 marks]
+                                                     –9–               M18/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+2.   considering continuity at x  2
+      lim f ( x )  1 and lim f ( x )  4a  2b                                             (M1)
+     x2                  x2
+
+     4a  2b  1                                                                               A1
+     considering differentiability at x  2
+                1        x2
+     f ( x)                                                                                (M1)
+               2ax  b x  2
+     lim f ( x )  1 and lim f ( x )  4a  b                                            (M1)
+     x2                     x2
+
+     Note: The above M1 is for attempting to find the left and right limit of their derived
+           piecewise function at x  2 .
+
+     4a  b  1                                                                               A1
+           3
+     a   and b  2                                                                           A1
+           4
+                                                                                                     [6 marks]
+
+
+                           R
+               1              1
+3.   (a)    4 x3 dx  Rlim
+                           x 3
+                            4
+                                  dx                                                          (A1)
+
+     Note: The above A1 for using a limit can be awarded at any stage.
+           Condone the use of lim .
+                                       x
+             Do not award this mark to candidates who use  as the upper limit throughout.
+
+                    1 2    1 2  
+                           R          
+
+             lim   x      x                                                          M1
+              R 
+                    2  4   2  4 
+                    1               
+             lim    R 2  42  
+              R 
+                    2               
+               1
+                                                                                              A1
+              32
+                                                                                                     [3 marks]
+
+
+                                                                                                 continued…
+                                                    – 10 –       M18/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+Question 3 continued
+
+     (b)
+
+
+
+
+                                                                              A1A1A1A1
+           A1 for the curve
+           A1 for rectangles starting at x  4
+           A1 for at least three upper rectangles
+           A1 for at least three lower rectangles
+     Note: Award A0A1 for two upper rectangles and two lower rectangles.
+
+           sum of areas of the lower rectangles  the area under the curve  the sum
+           of the areas of the upper rectangles so
+                                
+                1       1            1
+           
+           n 5 n
+                  3
+                      x 3
+                            dx  
+                                 n4 n
+                                       3
+                                                                                        AG
+                      4
+                                                                                              [4 marks]
+
+                                  1
+     (c)   a lower bound is                                                             A1
+                                 32
+     Note: Allow FT from part (a).
+                                                                                               [1 mark]
+
+     (d)   METHOD 1
+            
+                  1   1
+            n  32
+           n 5
+                  3
+                                                                                       (M1)
+                   
+            1        1  1 1
+                3                                                                  (M1)
+           64 n5 n 32 64
+            
+               1      3
+           
+           n4 n
+                 3
+                    , an upper bound
+                     64
+                                                                                        A1
+
+     Note: Allow FT from part (a).
+
+
+                                                                                          continued…
+                                                                  – 11 –                M18/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+Question 3 continued
+
+           METHOD 2
+           changing the lower limit in the inequality in part (b) gives
+                         
+            
+               1        1   1
+           
+           n4 n
+                 3
+                    3 x3 dx        3 
+                                   n 3 n 
+                                                                                                                  (A1)
+
+                                             R
+               1           1 
+           
+           n4 n
+                 3
+                    lim  x 2 
+                     R 
+                           2 3
+                                                                                                                  (M1)
+
+            
+                 1       1
+            n  18 , an upper bound
+           n4
+                 3                                                                                                  A1
+
+     Note: Condone candidates who do not use a limit.
+                                                                                                                          [3 marks]
+
+                                                                                                                 Total [11 marks]
+
+
+                         2 arcsin  x 
+4.   (a)    f  x                                                                                            M1A1
+                                 1  x2
+      Note: Award M1 for an attempt at chain rule differentiation.
+             Award M0A0 for f   x   2arcsin  x  .
+
+
+            f   0  0                                                                                            AG
+                                                                                                                          [2 marks]
+
+     (b)                                 
+           differentiating gives 1  x 2 f    x   2 xf   x   f   x   xf   x   0 
+                                                     3
+                                                                                                              M1A1
+           differentiating again gives 1  x  f    x   2 xf    x   3 f   x   3 xf    x   f   x   0 
+                                                         2    4            3                            3
+
+
+                                                                                                                M1A1
+      Note: Award M1 for an attempt at product rule differentiation of at least one
+            product in each of the above two lines.
+            Do not penalise candidates who use poor notation.
+
+           1  x  f    x   5 xf    x   4 f   x   0
+                     2       4                3
+                                                                                                                    AG
+                                                                                                                          [4 marks]
+
+
+                                                                                                                        continued…
+                                                               – 12 –                M18/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+Question 4 continued
+
+           attempting to find one of f   0  , f    0  or f    0  by substituting x  0
+                                                           3              4
+     (c)
+           into relevant differential equation(s)                                                     (M1)
+
+                                                                 d  2 arcsin  x  
+      Note: Condone f   0  found by calculating                                 at x  0 .
+                                                                 dx     1  x2 
+
+            f  0   0, f   0   0 
+            f   0   2 and f    0   4 f   0   0  f    0   8
+                                    4                                4
+                                                                                                       A1
+                                        2 2 8 4
+            f 3  0   0 and so         x  x                                                       A1
+                                        2!    4!
+      Note: Only award the above A1, for correct first differentiation in part (b) leading to
+             f    0   0 stated or f    0   0 seen from use of the general Maclaurin series.
+                3                         3
+
+
+              Special Case: Award (M1)A0A1 if f    0   8 is stated without justification or
+                                                                 4
+
+
+              found by working backwards from the general Maclaurin series.
+
+                                                                                                     1 4
+           so the Maclaurin series for f  x  up to and including the term in x 4 is x 2             x
+                                                                                                     3
+                                                                                                       AG
+                                                                                                             [3 marks]
+
+                                  1           1
+     (d)   substituting x          into x 2  x 4                                                     M1
+                                  2           3
+                                                                     13
+           the series approximation gives a value of
+                                                                     48
+                    13
+           so π 2      36
+                    48
+                   39 
+            9.75                                                                                   A1
+                   4 
+      Note: Accept 9.76.
+
+                                                                                                             [2 marks]
+
+                                                                                                     Total [11 marks]
+                                                   – 13 –        M18/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+5.   (a)   METHOD 1
+           dy y  p 1 1
+              x                                                              (M1)
+           dx x       x
+                                         1
+                                        x dx
+           integrating factor  e                                                M1
+               ln x
+           e                                                                   (A1)
+             1
+                                                                                A1
+             x
+           1 dy y             1
+                 2  x p2  2                                                 (M1)
+           x dx x             x
+            d  y   p2    1
+               x  2
+           dx  x          x
+           y      1 p 1 1
+                   x  C                                                       A1
+           x p 1          x
+      Note: Condone the absence of C .
+                 1
+           y        x p  Cx  1
+                p 1
+                                                  1
+           substituting x  1 , y  1  C                                     M1
+                                                 p 1
+      Note: Award M1 for attempting to find their value of C .
+
+                 1
+           y
+                p 1
+                      x p  x  1                                              A1
+
+                                                                                       [8 marks]
+
+
+                                                                                   continued…
+                                                         – 14 –   M18/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+Question 5 continued
+
+           METHOD 2
+                                     dy      dv
+           put y  vx so that           vx                                       M1(A1)
+                                     dx      dx
+           substituting,                                                                 M1
+                    dv 
+           x  v  x   vx  x p  1                                                   (A1)
+                    dx 
+             dv               1
+           x  x p 1                                                                   M1
+             dx               x
+           dv                1
+                x p 2  2
+           dx               x
+                  1             1
+           v          x p 1   C                                                      A1
+                 p 1           x
+      Note: Condone the absence of C .
+                  1
+           y         x p  Cx  1
+                 p 1
+                                                     1
+           substituting x  1 , y  1  C                                             M1
+                                                    p 1
+      Note: Award M1 for attempting to find their value of C .
+
+                  1
+           y
+                 p 1
+                       x p  x  1                                                     A1
+
+                                                                                               [8 marks]
+
+     (b)   (i)    METHOD 1
+                             dy           dy
+                  find          and solve     0 for x
+                             dx           dx
+                  dy       1
+                     
+                  dx p  1
+                               px p 1  1                                             M1
+
+                  dy
+                       0  px p 1  1  0                                              A1
+                  dx
+                  px p 1  1
+      Note: Award a maximum of M1A0 if a candidate’s answer to part (a) is incorrect.
+
+                      p 1       1
+                  x                                                                    AG
+                                 p
+
+
+                                                                                           continued…
+                                                         – 15 –                     M18/5/MATHL/HP3/ENG/TZ0/SE/M
+
+
+Question 5 continued
+
+                 METHOD 2
+                                    dy
+                 substitute             0 and their y into the differential equation and solve for x
+                                    dx
+                 dy         xp  x 
+                     0           1  x 1
+                                            p
+                                                                                                    M1
+                 dx          p  1 
+                 x p  x  x p  px p                                                               A1
+                 px p 1  1
+      Note: Award a maximum of M1A0 if a candidate’s answer to part (a) is incorrect.
+
+                     p 1       1
+                 x                                                                                 AG
+                                p
+
+          (ii)   there are two solutions for x when p is odd (and p  1 )                           A1
+                                                                      p 1       1
+                 if p  1 is even there are two solutions (to x                   )
+                                                                                 p
+                                                                                 p 1       1
+                 and if p  1 is odd there is only one solution (to x                        )     R1
+                                                                                            p
+            Note: Only award the R1 if both cases are considered.
+                                                                                                         [4 marks]
+
+                                                                                                  Total [12 marks]
+

@@ -1,0 +1,992 @@
+M15/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+
+
+                       Markscheme
+
+
+                               May 2015
+
+
+                     Computer science
+
+
+                           Higher level
+
+
+                               Paper 2
+
+
+
+
+23 pages
+                          –2–            M15/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+
+
+This markscheme is the property of the International
+Baccalaureate and must not be reproduced or distributed
+to any other person without the authorization of the IB
+Assessment Centre.
+                                                    –3–                M15/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+Subject details:               Computer science HL paper 2 markscheme
+
+Mark allocation
+
+Candidates are required to answer all questions in one Option. Total 65 marks.
+
+General
+
+A markscheme often has more specific points worthy of a mark than the total allows. This is intentional.
+Do not award more than the maximum marks allowed for that part of a question.
+
+When deciding upon alternative answers by candidates to those given in the markscheme, consider the
+following points:
+
+     •     Each statement worth one point has a separate line and the end is signified by means of
+           a semi-colon (;).
+
+     •     An alternative answer or wording is indicated in the markscheme by a “/”; either wording can
+           be accepted.
+
+     •     Words in ( … ) in the markscheme are not necessary to gain the mark.
+
+     •     If the candidate’s answer has the same meaning or can be clearly interpreted as being the
+           same as that in the markscheme then award the mark.
+
+     •     Mark positively. Give candidates credit for what they have achieved and for what they have
+           got correct, rather than penalizing them for what they have not achieved or what they have
+           got wrong.
+
+     •     Remember that many candidates are writing in a second language; be forgiving of
+           minor linguistic slips. In this subject effective communication is more important than
+           grammatical accuracy.
+
+     •     Occasionally, a part of a question may require a calculation whose answer is required for
+           subsequent parts. If an error is made in the first part then it should be penalized. However,
+           if the incorrect answer is used correctly in subsequent parts then follow through marks
+           should be awarded. Indicate this with “FT”.
+
+
+
+General guidance
+
+  Issue            Guidance
+  Answering        • In the case of an “identify” question read all answers and mark positively up to the
+  more than          maximum marks. Disregard incorrect answers.
+  the quantity     • In the case of a “describe” question, which asks for a certain number of facts
+  of                 eg “describe two kinds”, mark the first two correct answers. This could include two
+  responses          descriptions, one description and one identification, or two identifications.
+  prescribed       • In the case of an “explain” question, which asks for a specified number of
+  in the             explanations eg “explain two reasons …”, mark the first two correct answers.
+  questions          This could include two full explanations, one explanation, one partial explanation etc.
+                                                  –4–                M15/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+Option A — Databases
+
+1.   (a)   Award up to [2 max].
+
+           Data (the booking code) are unorganized/unstructured/unprocessed terms;
+           Whereas information (hotel’s email) is organized/structured/processed data;
+
+           OR
+
+           Data lacks meaning e.g. on their own data elements, Code, name, room;
+           Whereas information is interpreted data (the code interpreted by the system) and
+           has meaning (eg email provides meaningful information to the tourist about the
+           use of the Code);                                                              [2]
+
+     (b)   Award up to [2 max].
+           Accept answers that relate to the scenario but address the following points.
+
+            The minimal step of operation/update to be performed on a database;
+            That guarantees consistency/integrity of the database;
+            And recovery upon failure;
+
+           For example:
+           Minimal set of actions that complete/make the booking;
+           So that database is accurate/consistent/has integrity;
+           So that database is updated to prevent others booking room;
+           So that recovery can be run on failure;                                          [2]
+
+     (c)   Award up to [3 max].
+           Accept answers that relate to the scenario but address the following points.
+
+            Modifications on data are made persistent in the database only if the transaction
+             terminates;
+            A roll-back operation is performed if a failure occurs prior to termination of the
+             transaction;
+            And this keeps the database in the original consistent status;
+
+           For example:
+           Transactions conform to rules before update to database;
+           Transactions must complete fully to make the changes permanent/persistent;
+           Allows roll-back operation in case of failure;
+           To ensure database is consistent while performing transactions;            [3]
+
+     (d)   Award up to [2 max].
+           An example must be seen for the second mark to be awarded.
+           (It means concurrent control;)
+           It says/defines/specifies how and when the changes of a process are visible to
+           concurrent operations;
+           For example, using locks on data to prevent concurrent writing that would lead to
+           inconsistency as in the case of two people booking the same room;             [2]
+                                               –5–              M15/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+(e)   Award up to [6 max].
+      Award [2] for general technical explanation of benefits of data sharing and [2] for
+      each of at least two plausible examples in the given setting (user, hotel, service
+      provider). The general explanation points may come within the examples.
+
+      General explanation (“What it is”)
+      Data sharing/replication: all/part of one/several source databases are
+      shared/replicated according to the needs of different user groups;
+      The information needed by the group is made ‘closer’ to the user;
+      Hence, less focus on transmission/traffic (expensive or slow or not available or
+      not convenient), but requires more storage space (but storage is cheap);
+
+      Tourist
+      Can quickly/efficiently access;
+      A wide choice of hotels/offers/prices;
+
+      Best Fare
+      Can efficiently display offers on a wide selection of hotels;
+      Can develop/extend existing software when new hotels are created;
+      Can develop/re-use the same application without major modifications;
+
+      Hotel
+      The hotel needs to rely on new applications and increasing speed is an issue
+      (cost/maintenance);
+      Allowing the sharing of information in the source database gives more visibility to
+      the hotel, making it more competitive;
+      The hotel can continue to locally operate only on part of the data in the source
+      database, using less advanced software;
+      Allows hotel to change prices and offers in real-time;                           [6]
+                                                  –6–                M15/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+2.   (a)   Award up to [2 max].
+           Role of strategic importance for an organization and full of responsibilities;
+           Responsible for performance, integrity, security of the information of the
+           organization, by taking care of;
+           Management/administration/development/maintainance/redesign/upgrades of the
+           database to ensure security and integrity of data, of their use and access;
+           And any loss/bad performance implies a loss for the organization;
+
+           OR
+
+           Ensure performance of the database;
+           Make changes as required to functions of database;
+           Make sure data integrity is maintained;
+           Make sure database is backed up;
+           Make sure data security is maintained;
+           Authorizing access to the database;
+           Coordinating and monitoring use of database;                                       [2]
+
+     (b)   Award up to [2 max].
+           It is a data structure that stores metadata;
+           eg meaning of data/relations among data/labelling and tags such as
+           origin/use/format;
+
+           OR
+
+           Data Dictionary states the meaning of fields in a data table;
+           Data Dictionary states why the relationships between tables exists;
+           Data Dictionary stores information about the meaning of data;                      [2]
+
+     (c)   Award marks as follows up to [6 max].
+           Award [1] for stating why a specified type of user needs a certain type of view,
+           and a further [1] for elaborating, for up to three groups of users.
+
+           Database Administrator
+           Must be able to see everything;
+           In order to make changes to data/types;
+
+           Hospital staff
+           Will need reading and/or writing access to patient/medicine data;
+           Will need to edit patient / medicine data;
+           Administrative role of quantities and orders;
+           Depending on role/responsibilities;
+
+           External hospital staff
+           Have read-only access to medicine data;
+           To compare with their own stock (in case of emergencies);
+
+           Views allow users to display/extract from the database only selected/filtered
+           information;
+           And options are available to group/sort/aggregate the records on views;
+           Useful for different users that may retain more or less valuable the information
+           depending on their use/need;
+           Examples may include:
+           needs from the surgeons on site / needs from the administration / needs for
+           emergencies / needs for lending to nearby hospitals.                             [6]
+                                                    –7–                M15/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+3.   (a)   Award up to [3 max].
+           Keys are not indicated;
+           Some attributes are not displaying a value;
+           Some values are not atomic (description);
+
+           OR
+
+           Keys are not indicated;
+           As a single order relates to many product codes;
+           Rows have blank attributes/cells eg OrderNr, total price;
+           Description contains two parts – not atomic;                                     [3]
+
+     (b)   Award up to [3 max].
+           Reduce total data storage;
+           Update is easier;
+           Easier to protect sensitive information through the use of keys;
+           Atomic values in attributes give uniformity in writing queries;
+           More complex operations can be implemented more easily by queries on
+           rows/columns;                                                                    [3]
+
+     (c)   Award up to [2 max].
+           It cannot be a primary key;
+           Because the same value is associated to two different orders / Not unique for a
+           primary key;                                                                   [2]
+
+     (d)   Award up to [2 max].
+           Split the field into two fields;
+           One for the type and one for the size;                                           [2]
+
+     (e)   Award up to [3 max].
+           Award [1] for returning correct first table with key OrderNr.
+           Award [1] for returning second table with correct composite primary key
+           formed by both OrderNr and ProductCode.
+           Award [1] for splitting description into two subfields.
+
+       OrderNr                OrderDate                   TotalPrice
+       100                    10/10/2014                  190.00
+       101                    11/10/2014                  190.00
+       102                    11/10/2014                  600.00
+
+       OrderNr     ProductCode       Description1    Description2      Quantity   UnitPrice
+       100         WS                Wood            Small             1          30.00
+       100         WL                Wood            Large             1          80.00
+       100         PS                Plastic         Small             2          40.00
+       101         PS                Plastic         Small             1          40.00
+       101         PM                Plastic         Medium            2          75.00
+       102         XX                Extra-Strong    Large             3          200.00                    [3]
+
+           Note: Award partial marks to correct alternative solutions, if primary keys and primary
+                 composite keys are clearly indicated so that it is possible to verify the correctness of
+                 the tables. No marks awarded to attempted solutions that do not have evidence of
+                 keys.
+                                              –8–                M15/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+
+(f)   Award up to [2 max].
+      All non-key attributes are dependent on;
+      All parts of the primary key;                                                     [2]
+
+(g)   Award up to [5 max].
+      (Step 1: From 1NF to 2NF)
+      Award [1] for detecting that Description1, Description2 and UnitPrice do not obey
+      the criterion in (f).
+      Award [1] for correct table with composite key OrderNr+Product Code and one
+      more, non-key, field.
+      Award [1] for correct table with ProductCode and remaining fields.
+      Award [1] for removing duplicates in this latter.
+
+      (Step 2: From 2NF to 3NF)
+      Award [1] for verifying that 2NF is already in 3NF (ie all non-key attributes are not
+      dependent on any other non-key attribute).
+
+        OrderNr                OrderDate                  TotalPrice
+        100                    10/10/2010                 190.00
+        101                    11/10/2010                 190.00
+        102                    11/10/2010                 600.00
+
+        OrderNr     ProductCode       Quantity
+        100         WS                1
+        100         WL                1
+        100         PS                2
+        101         PS                1
+        101         PM                2
+        102         XX                3
+
+        ProductCode       Description1     Description2     UnitPrice
+        WS                Wood             Small            30.00
+        WL                Wood             Large            90.00
+        PS                Plastic          Small            40.00
+        PS                Plastic          Small            40.00
+        PM                Plastic          Medium           75.00
+        XX                Extra-strong     Large            200.00                                    [5]
+
+      Note: Accept alternative solutions, for partial marks, provided that there is evidence of the
+            keys/composite keys to verify their correctness with respect to normalisation.
+                                                 –9–               M15/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+4.   (a)   Award [3 max] as follows.
+           Award [2] for explanation and [1] for an example.
+
+           Dimensions specify the features according to which the data shall be stored;
+           One of the dimensions is time;
+           Another dimension is identified eg Type (commercial, individual, trust…),
+           Location (Region1, Region2,…);
+           The basic unit of organization is a 3-dimensional cube, that can be linked
+           together to add more dimensions;                                               [3]
+
+     (b)   Award up to [3 max].
+           The tax data warehouse has comprehensive taxpayer information;
+           eg business type, business nature, income, geographic location, associations
+           with other taxpayers, property details;
+           And taxpayers may be profiled to detect cases of tax fraud or tax non-
+           compliance;
+
+           The data in a data warehouse may be enriched with data from external sources
+           (census, credit bureau);
+           And data mining techniques/specific queries may assist in analysing past
+           behaviours and future trends/expectations;
+           Possibly the analysis may be drilled down along some dimensions, eg the
+           region/location helping the decision-making process;                        [3]
+
+     (c)   Award up to [3 max] as follows.
+           Award [2] for a general description and [1] for an example.
+           Statistical techniques are used to detect outlying data;
+           That does not fit the assumed model;
+
+           Example:
+           Can be used to predict future trends;
+           Can be used to infer the parameters where the gap with the model is wider;
+           And identify/detect events or subset of data;                                  [3]
+
+     (d)   Award up to [3 max].
+           No, because;
+           A database management system (in the majority of their models) is oriented to
+           support transactions;
+           Whereas a data warehouse is oriented to support analysis of subject-oriented
+           historical collections of data;
+           The temporal dimension is absent in data in a database management system; [3]
+                                             – 10 –              M15/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+(e)   (i)    Award up to [2 max].
+             Data originate from different external sources and have different formats;
+             And need to be transformed/standardized into a common format;
+             eg a field “Gender” may have a different number of possible values in
+             different sources or different range.                                      [2]
+
+      (ii)   Award up to [6 max].
+             Award [3] for each of the two required applications.
+
+             For data migration (from one database to another):
+                  Data are extracted from different sources/locations;
+                  Transformed to make it conform with the target destination;
+                  And loaded in the new system;
+                  The script that implements the ELT process can introduce links
+                  among data, and this is what makes them useful;
+                  eg migration of mail applications (managing attachments, problem of
+                  formats, links to attached files, tags, filters, date);
+                  eg conversion of one database to another one of different type;
+
+             To consolidate historical data (in a data warehouse):
+                  A data warehouse can be set to collect historical data from several
+                  diverse smaller databases with ETL;
+                  Not all data extracted are necessary for the archive;
+                  Data can be manipulated/filtered/interpreted thinking of their long-
+                  term uses in the data warehouse;
+                  The archive can be cleaned up to remove duplicates/corrupt
+                  information after Transformation;
+                  Eventually the archive is separated from the transactional component
+                  of the system;
+                  This architecture is simpler to maintain eg archiving old dispatched
+                  orders for which the return by date has passed by more than one
+                  year;
+
+             To create data marts:
+                  A data mart can be defined by means of ETL;
+                  A data mart is a “slice” of a data warehouse (with a role comparable
+                  to a view in database);
+                  It can be created at lower costs for the needs of a specific group of
+                  users in a big organization;
+                  eg the marketing department for its business intelligence activities; [6]
+                                                 – 11 –                M15/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+Option B — Modelling and simulation
+
+5.   (a)   Award up to [4 max].
+           Group the five samples into “number in sample” and “lengths in sample”;
+           Record the total number divided by the number of samples as the representative
+           total for that year;
+           Lengths added and divided by total number as the average length;
+           Store as data for that year;                                                 [4]
+
+     (b)   Award up to [2 max].
+           Date;
+           The number of fish in the lake (accept “Amount of Fish”);
+           (Average) length of fish in the lake;                                            [2]
+
+     (c)   Award [1] for using sample data, [1] for correct calculation and [1] for correct
+           decision up to [3 max].
+           For example:
+           In a spreadsheet, date, estimated number of fish, estimated average length
+           would be in columns A – C, one row per year;
+           Column D could hold % decrease since 5 years (D6 = 100*(B6 – B1)/B1);
+           No license if D6<–5;
+           No license if C6<=20;                                                            [3]
+
+     (d)   Award up to [6 max].
+           Award [2] for testing the effectiveness of the rules, [2] for how changes could be
+           made if needed.
+                By looking at the trend in number of fish;
+                Change % up or down if needed;
+                And size should increase or decrease;
+                Making tolerance bigger or smaller if need be;
+           Award [2] for testing the effectiveness of data collection.
+                By sampling more often and comparing for similar yearly results;
+                By sampling in different places and comparing;
+                If results are not very different, improve sampling method;                [6]
+                                                 – 12 –             M15/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+6.   (a)   Award [1] for two reasonable factors, up to [2 max].
+           For example:
+           Temperature, precipitation, hours of sunshine, wind speed, wind direction,
+           humidity.                                                                            [2]
+
+     (b)   Award up to [3 max].
+           For example:
+           Each factor plotted separately;
+           For one year;
+           In a bar chart or line graph;
+           Which would show the time trend;
+           Accept answers that work on analysing differences.                             [3]
+
+     (c)   Award up to [4 max]. Accept any reasonable method of analysing the model
+           over time.
+           For example:
+           Displacement measurement would mean keeping measurements over more
+           years;
+           Fitting a mathematical model to the shape;
+           And comparing for change in model;
+           Could be done by “sliding” (translating) the shape or calculating differences
+           between months;                                                               [4]
+
+     (d)   Award [2] for advantages, [2] for disadvantages and [2] for consistent
+           conclusion, up to [6 marks max].
+
+           For example:
+           The advantages are that some external factors (such as carbon emissions) could
+           be examined and possibly rectified;
+
+           Knowing in advance that a climate is changing makes it possible to plan for
+           agricultural changes such as crop replacements etc;
+
+           Can repeat the simulation many times/with altered variables;
+           Can simulate with historic data to validate model;
+
+           A disadvantage is that the predictions may not be correct as other unknown
+           factors are not included;
+           Cyclic pattern is difficult to include;
+           Problem is too complex to simulate;
+
+           Overall, if it is possible to know about impending changes, as long as these are
+           constantly monitored and updated;
+           The advantages outweigh the disadvantages since disasters may be
+prevented; [6]
+                                                  – 13 –              M15/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+7.   (a)   Award [1] for the fact that the source comes from (binary) data, [1] for changing
+           the format to image.
+           For example:
+           Visualization is the transfer of (binary) data in memory;
+           To an image (visual representation of pixels);                                  [2]
+           Note: Do not award marks for answers that are not relevant to Computer Science.
+
+     (b)   Award [1] for representation of image in colour, [2] for explaining the effect of
+           light on an object, [2] for transformation by rendering.
+
+           All images are represented in memory pixel by pixel or via vector methods;
+           With associated colour;
+           A 3D object has varying shades of colour according to the source of light;
+           Direction of view, reflection;
+           (Mathematical equations based on angle of view etc;)
+           Transform each pixel into the appropriate shade of colour;
+           Hence the object (image) is rendered to give impression of 3D;                      [5]
+
+     (c)   Since the game is online there is no need for the program to be on the computer.
+           Award up to [2] for hardware and [2] for software, limited to a total of [3 max].
+
+           Software:
+           Operating system needs to be able to handle fast input/output;
+           Suitable application programs (Direct X) to handle multimedia;
+
+           Hardware:
+           Fast video card;
+           Enough hard disk to hold data;
+           Large RAM;
+           Efficient sound card;
+           GPU;                                                                         [3]
+           Note: Answers addressing joysticks/special goggles for augmented reality etc.
+           should not get marks as they play no role here.
+
+     (d)   Award [2] for advantages, [2] for disadvantages and [1] for a conclusion, up to
+           [5 marks max].
+           For example:
+                Fun / Break from routine activity / Relax;
+                Possible to meet new friends online;
+                In some cases develops strategy skills;
+
+                 Addictive, things that need to be done can get ignored;
+                 Isolation from human contact into an unreal world;
+                 Start confusing reality with virtual world;
+
+                 As long as addiction is avoided/time spent restricted, participating is
+                 harmless and enjoyable/a part of modern life which will not change;           [5]
+                                                   – 14 –              M15/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+8.   (a)   Award up to [3 max].
+           (Each of the hidden units/nodes internal to the system and not on the input/output
+           layer;)
+           Receive values from the input nodes;
+           These are multiplied by weights – predetermined values;
+           And sent to each of the output nodes;
+           (Combining to form a solution;)
+           More nodes allows a greater number of possibilities;                           [3]
+
+     (b)   Award marks [2] for similarities, and [2] for differences up to [4 max].
+           Both are created using a training set;
+           And adjusted to meet a predetermined fitness function;
+
+           In OCR, most input will resemble the characters defined in the fitness function;
+           Handwriting excepted;
+           In speech recognition it is important that the input resembles what was input
+           during the training;
+           Which may not be the case as voices have more variation than text;               [4]
+
+     (c)   Award up to [2 max].
+           Speech synthesis is ‘only’ text-to-speech;
+           Natural language generation involves semantics;
+           (eg generating answers from databases in response to queries.)                      [2]
+
+     (d)   Award up to [4 max].
+           Heuristics uses probabilities and supervised learning sets;
+           Limits the learning to the breadth of the learning sets;
+
+           Cognitive approach uses unsupervised learning;
+           With an attempt to create the appropriate syntax and semantics;
+           In the way a child learns language;                                                 [4]
+
+     (e)   Award [2] for inputs, [1] for setting an acceptable value, [1] for setting priorities,
+           [2] for evolving new solutions from old, [1] for finishing when an acceptable level
+           reached, up to [7 max].
+
+           The inputs would need to be a set of constraints;
+           For example, number of hours for each teacher;
+           Number of classes – students in class etc;
+           Put priority on those that must be met;
+           To create a % corresponding to success;
+           Create random solutions;
+           Evolve new solutions from first set, involving methods such as mutation or
+           crossover;
+           Measure success and repeatedly combine most successful;
+           Until measure of success is acceptable;                                             [7]
+                                                    – 15 –             M15/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+Option C — Web science
+
+9.    (a)   Award up to [2 max].
+            HTML is a programming/scripting/markup language;
+            HTTP is a protocol/standard;                                                      [2]
+
+      (b)   Award [1 max].
+            Both are scripting/markup languages;
+            Both make use of tags/elements;                                                   [1]
+
+      (c)   XML can use easily identifiable field names for data;
+            As in the name or species field;                                                  [2]
+
+      (d)   Award up to [2 max].
+            The XML code contains records;
+            Each record contains data identified by field names;
+            These field names match with the field names in the database;                     [2]
+
+      (e) Award up to [2 max].
+          It will (successfully) map the URL to an IP address in its own database;
+          If it cannot, it will pass the request to (a more authoritative) name server;
+          Returns NXDOMAIN when the requested domain is known to be
+unassigned/invalid;     [2]
+
+      (f)   (i)    Award up to [2 max].
+                   A protocol is a rule that must be followed (for a certain successful process
+                   to take place);
+                   Whilst a standard is a set of (technical) specifications that should be
+                   followed (to allow for functionality);                                     [2]
+
+            (ii)   Award marks as follows:
+
+                   Protocol:
+                   Award [1] for identifying a web protocol.
+                   Award [1] for identifying the problem if absent.
+                   Award [1] for discussing this problem with an example.
+
+                   Standard:
+                   Award [1] for identifying a web standard.
+                   Award [1] for identifying the problem if absent.
+                   Award [1] for discussing this problem with an example.
+
+                   For example:
+                   TCP;
+                   If there was no transport protocol;
+                   Packets would be lost;
+
+                   HTML;
+                   If there was no standard scripting language for displaying webpages;
+                   Different web browsers may not display all pages;
+
+                   Note: Do not accept answers that only say that “something will not
+work”.      [6]
+                                                   – 16 –             M15/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+10.   (a)   Award up to [2 max].
+            To give a (rating) value;
+            For a specific search query/term;
+
+            Note: Do not award marks for a general answer such as “returns/identifies the
+            most popular web page”.                                                       [2]
+
+      (b)   Award up to [2 max].
+            The PageRank value of page A;
+            The number of outlinks from page A;                                                [2]
+
+      (c)   Award up to [2 max].
+            The keyword in a meta-tag might have different meanings;
+            eg “star”;
+            So a webpage about astronomy might be listed by a search engine when the
+            search query/user was searching for a famous actor;
+            Even though the page was indexed correctly;                              [2]
+            Accept any reasonable examples.
+
+      (d)   Award [2 max] for a good explanation of any example (even if terminology is
+            missing) for up to three examples, [6 max].
+
+            For example:
+            Hidden content;
+            Extra keywords are hidden in places that are not visible to the user, eg text in
+            background colour/off screen/in comment tags etc;
+
+            Keyword stuffing;
+            Repeating the keywords many times in the meta-tags;
+
+            Use of link farms;
+            Creating/making use of dummy pages that link to your page (to increase the
+            number of inlinks);                                                                [6]
+                                                  – 17 –              M15/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+11.   (a)   Award up to [2 max].
+            Audio;
+            Video;
+            Picture;
+            (ie files with colour, sound or movement)                                        [2]
+
+      (b)   Award up to [4 max].
+            Open standards are a freely available set of specifications;
+            For example, the use of (freely available) HTML;
+
+            Interoperability allows different systems to work together;
+            In the above example, different web browsers can download and read the same
+            web pages / different software systems (eg web server and SQL server) can
+            interact;                                                                 [4]
+
+      (c)   Award [2 max] for each example, for two examples, up to [4 marks].
+            Incorporation of multimedia into web pages;
+            Which allows users to incorporate videos;
+            Interactive webpages;
+            That allows friends to write on their walls etc;
+            User-generated content;
+            That allows users to personalize their webpage;
+            Instant-messaging;
+            That allows (fast) communication between friends;                                [4]
+
+      (d)   Full marks can only be awarded if the discussion compares the security issues of
+            both alternatives.
+            Award [3 max] if only one alternative has been addressed.
+            Award [2] for addressing in detail each alternative, [1] for an outline.
+            Award [2] for a reasoned conclusion for either side.
+
+            Cloud storage:
+            Operations are hidden from the company which could lead to doubts
+            No company loyalty so not the same level of dedication and care
+            The cloud operators are professionals in this area – this is what they do
+            The cloud operators are likely to have the most up-to-date systems
+
+            Company storage:
+            Operations are not hidden from the company
+            Due to company loyalty a (potential) better level of dedication and care
+            It is a small company so IT department will be small / not of the highest expertise
+            No need to continue updating security systems
+
+            Example conclusion: Cloud storage has been around long enough to have
+            demonstrated that it is a very secure method of storing your data, so the security
+            concerns are unfounded and the cost savings make it a sensible decision.
+
+            OR
+
+            The company has data that is extremely sensitive, eg a bank, therefore all
+            security must be kept in house.                                                  [6]
+                                                   – 18 –              M15/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+12.   (a)   (i)    Award up to [2 max].
+                   The nodes represent web pages;
+                   The lines (of the arrows) represent links;
+                   The arrows show the direction of the linkage;                              [2]
+
+            (ii)   Award up to [2 max].
+                   Because by following the links;
+                   It is not possible to go to Page A (or Page F) from any of the others;     [2]
+
+      (b)   IN
+            This contains web pages which only have outlinks;
+            Such as newly formed pages;
+
+            OUT
+            This contains pages which only have inlinks;
+            Such as reference pages;                                                          [4]
+
+      (c)   Award marks as follows, up to [4 max].
+            Award [1] for the idea of working through a page looking for page links.
+            Award [1] for jumping to that page if found.
+            Award [1] for the idea of returning to the previous page (recursively) if it comes to
+            a dead end.
+            Award [1] for repeating this process for an extended period of time.
+
+            Example:
+            1: return the (current) web page;
+            2: the algorithm works its way down the page looking for a URL (link to another
+            page);
+            3: if it finds it, it jumps to that page and repeats steps 1 and 2;
+            4: if it does not, it returns the previous URL and continues (recursively) from
+            where it left off;                                                              [4]
+                                                   – 19 –              M15/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+13.   Award up to [2 max].
+      Award [1] for showing that they understand what an ontology is.
+      Award [1] for giving an example showing the conflict.
+      Award [1] for showing how the conflict is resolved by the ontology.
+      Award [1] for indicating that the use of standard tags will enable data to be more easily
+      processed.
+
+      An ontology is a standardized form of tagging;
+      If two different tags for the same file name are used (eg Publisher, Publishing House);
+      The alternatives will be mapped onto one standard tag (eg Publisher);
+      If all book publishers used the same tags, the book seller would be able to import data
+      without problems;                                                                     [2]
+
+
+14.   Award up to [6 max].
+      Award [3 max] for references to technology, and [2] for each ethical issue, up to a
+      maximum of two issues.
+
+      Each employee would have a badge (or similar) that would contain a sensor or
+      RFID tag;
+        That would identify them;
+        And register their position;
+        These would wirelessly connect to a central server that tracks their movements;
+
+         Examples of ethical issues include:
+         Employers could argue that as employees are being paid for all of the time that they
+         are at work;
+         Then they (the employers) have the right to establish exactly where they are in
+         relation to where they should be;
+         Employees could point to privacy issues;
+         And that any relationships formed at work with colleagues should not be recorded;
+         Note: To gain [2] for an ethical issue, the issue must be both specifically identified
+         and relevant.                                                                         [6]
+                                                  – 20 –              M15/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+Option D — Object-oriented programming
+
+15.   (a)   Award up to [4 max].
+            Award [1] for an advantage and [1] for an elaboration for up to two advantages.
+
+            Re-use objects/modules across sub-groups;
+            Which will speed up development;
+            Work can be split up across the sub-groups;
+            Which will speed up development;
+            Sub-groups can re-use objects;
+            Without having to re-program;
+            Quicker to test;
+            As each module is small/independent;                                                [4]
+
+      (b)   Award up to [4 max].
+            Award [1] for an issue and [1] for an explanation stating its importance, for two
+            issues, up to [4 max].
+
+            Testing;
+            Of system is extremely important to see that loans, fines, borrowing and rights
+            work correctly;
+            (Any one of the reasons on the list, not all required)
+            Acknowledgement of code sources;
+            Important to avoid any potential legal issues;
+            Accept other reasonable explanations that clearly refer to ethical aspects for the
+            work of the programmers.                                                         [4]
+
+      (c)   Award up to [3 max].
+            By using private for variables for example studentID;
+            Data can be protected from accidental changes;
+            From outside the object;                                                            [3]
+
+      (d)   Award up to [2 max].
+            Student newStudent = new Student(93003, "Smith")
+            Award [1] for Student newStudent
+            Award [1] for new Student(93003, "Smith").                                          [2]
+
+      (e)   Award up to [3 max].
+            Static means that the variable is declared once only;
+            Static variable is a class variable not re-declared in each object;
+            And not each time an object is created;
+            The variable represents the number of times a Loan object is created;
+            And hence is a total of how many books have been borrowed;                          [3]
+
+      (f)   Award up to [3 max].
+            ST.addLoan (new Loan(212000, "The Stars"))
+            Award [1] for ST.addLoan.
+            Award [1] for new.
+            Award [1] for Loan (212000, "The Stars").                                           [3]
+                                                   – 21 –              M15/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+16.   (a)   (i)     Jones;                                                                     [1]
+
+            (ii)    The Spooks;                                                                [1]
+
+            (iii)   The Animals;                                                               [1]
+
+      (b)   Award up to [7 max].
+            Award [1] for correct signature (do not accept non-void/return methods.
+            StudentID must be passed as a parameter).
+            Award [1] for correct identification of student s.
+            Award [1] for printing student’s name.
+            Award [1] for correct loop with limit of i<10 or equivalent expressions.
+            Award [1] for correct identification of current loan.
+            Award [1] for test on loan.
+            Award [1] for printout of both Title and Date of the current loaned book.
+
+            For example:
+            public void showDetails (int StudentID )
+            {
+              Student s = borrowers[StudentID];
+              System.out. println(s. getStudentName());
+              for (int i=0; i<10; i++)
+              {
+                 Loan currentLoan = s.getLoan(i);
+                 if (currentLoan != null)
+                 {
+                    System.out.println(currentLoan.getBookTitle();
+                    System.out.println(currentLoan.getDate();
+                 }
+              }
+            }
+                                                                                               [7]
+            Note: Award [1] for both final System.out.println statements. Marks are not
+            awarded if methods are used that are not defined or already present in the
+            specification.
+
+
+      (c)   Award up to [3 max].
+            There is no way to determine the fines;
+            There is no way to differentiate between the short term and long term loan books;
+            There is no way to indicate if a student’s borrowing rights are suspended;
+            Nothing to prevent error or check number of books borrowed                    [3]
+
+      (d)   Award up to [2 max] for any acceptable description.
+
+            For example:
+            Add a Boolean variable to represent the borrowing rights;
+            Initially set this variable to true;
+            The variable is set to true unless rights are suspended when it is set to false;
+            etc;                                                                               [2]
+                                                      – 22 –          M15/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+17.   (a)   Award up to [2 max].
+            Inheritance reduces the amount of coding / reduces repetition of code;
+            By allowing sub-classes to inherit the methods / attributes of their superclass; [2]
+
+      (b)   Award up to [2 max].
+            Variable for the fine (per day);
+            Variable for the borrowing limit;
+            Variable timeLimit;                                                              [2]
+
+      (c)   A suitable diagram will look like this.
+
+
+
+
+            Award [1] for all four correct classes as shown.
+            Award [1] for showing the links in the correct place (any arrow or line).
+            Award [2] for distinguishing either with labels (Student has a Loan / Short is a
+            Loan) or use of different arrows for the different relationships between Student–
+            Loan and Loan–Short/Long.                                                        [4]
+
+      (d)   Award up to [3 max].
+            Add a static count variable;
+            To the shortTerm class and to the longTerm class;
+            A method can be called to display count by adding the two above together;        [3]
+                                                     – 23 –            M15/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+18.   (a)   Award up to [4 max].
+            The books are stored in separate arrays;
+            In separate objects;
+            These can only be searched using a linear search;
+            As no index is available;
+            Also, parts of each array will be empty;
+            So this would be slow/inefficient;                                            [4]
+
+      (b)   (i)    Award up to [2 max].
+                   A binary tree;
+                   Using the book ID as the index;                                        [2]
+
+            (ii)   Award up to [4 max].
+                   Every time a loan object is created;
+                   Book object inserted using bookID;
+                   The student ID stored also;
+                   To locate the student ID the binary tree would be searched;
+                   Using the bookID;
+                   The studentID returned;
+                   Used to access the borrowers array to find the student name;           [4]
+
+      (c)   Award up to [4 max].
+            Award [1] for an advantage and [1] for an elaboration, [1] for a disadvantage and
+            [1] for an elaboration.
+
+            Advantage:
+            There will be less wasted memory;
+            As only the required number of locations will be used;
+
+            Disadvantage:
+            It will be slower to locate a specific student;
+            As a linear search will be needed compared to direct access with the array;   [4]
+
+      (d)   Award up to [6 max]. Award [1] for each correct line of code (shown below;
+            accept equivalents).
+
+            LinkedList p = new LinkedList ()
+            LinkedList head = p.getHead()
+            Set temp to head
+            Moving through the list
+            Recognizing that the last node has been reached
+            Setting the shortTerm object to be the last and its pointer to null           [6]
+

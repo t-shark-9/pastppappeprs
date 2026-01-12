@@ -1,0 +1,495 @@
+M21/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+
+
+                        Markscheme
+
+
+                                May 2021
+
+
+                 Information technology
+                    in a global society
+
+
+                               Higher level
+
+
+                                 Paper 3
+
+
+
+
+12 pages
+                                            –2–                  M21/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+
+
+© International Baccalaureate Organization 2021
+
+All rights reserved. No part of this product may be reproduced in any form or by any
+electronic or mechanical means, including information storage and retrieval systems,
+without the prior written permission from the IB. Additionally, the license tied with this
+product prohibits use of any selected files or extracts from this product. Use by third
+parties, including but not limited to publishers, private teachers, tutoring or study services,
+preparatory schools, vendors operating curriculum mapping services or teacher resource
+digital platforms and app developers, whether fee-covered or not, is prohibited and is a
+criminal offense.
+
+More information on how to request written permission in the form of a license can be
+obtained from https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-
+license/.
+
+© Organisation du Baccalauréat International 2021
+
+Tous droits réservés. Aucune partie de ce produit ne peut être reproduite sous quelque
+forme ni par quelque moyen que ce soit, électronique ou mécanique, y compris des
+systèmes de stockage et de récupération d’informations, sans l’autorisation écrite
+préalable de l’IB. De plus, la licence associée à ce produit interdit toute utilisation de tout
+fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris, sans
+toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de tutorat ou
+d’aide aux études, des établissements de préparation à l’enseignement supérieur, des
+fournisseurs de services de planification des programmes d’études, des gestionnaires de
+plateformes pédagogiques en ligne, et des développeurs d’applications, moyennant
+paiement ou non, est interdite et constitue une infraction pénale.
+
+Pour plus d’informations sur la procédure à suivre pour obtenir une autorisation écrite
+sous la forme d’une licence, rendez-vous à l’adresse https://ibo.org/become-an-ib-school/
+ib-publishing/licensing/applying-for-a-license/.
+
+© Organización del Bachillerato Internacional, 2021
+
+Todos los derechos reservados. No se podrá reproducir ninguna parte de este producto
+de ninguna forma ni por ningún medio electrónico o mecánico, incluidos los sistemas de
+almacenamiento y recuperación de información, sin la previa autorización por escrito del
+IB. Además, la licencia vinculada a este producto prohíbe el uso de todo archivo o
+fragmento seleccionado de este producto. El uso por parte de terceros —lo que incluye,
+a título enunciativo, editoriales, profesores particulares, servicios de apoyo académico o
+ayuda para el estudio, colegios preparatorios, desarrolladores de aplicaciones y
+entidades que presten servicios de planificación curricular u ofrezcan recursos para
+docentes mediante plataformas digitales—, ya sea incluido en tasas o no, está prohibido
+y constituye un delito.
+
+En este enlace encontrará más información sobre cómo solicitar una autorización por
+escrito en forma de licencia: https://ibo.org/become-an-ib-school/ib-publishing/licensing/
+applying-for-a-license/.
+                                                  –3–                  M21/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+1.   (a)   FaceToFace used the coffee shop as a proof of concept for the facial recognition
+           application.
+
+           Outline one reason why the coffee shop was used as a proof of concept.               [2]
+
+           Answers may include:
+             • small scale environment (the coffee shop)
+             • making it relatively easy for FaceToFace to develop their software.
+
+              •   coffee shop may be on a larger scale (as it is in a University)
+              •   the variety of customers may help better test the application.
+
+              •   the FaceToFace team were familiar with the way the coffee shop operated
+              •   meaning less information would need to be gathered/researched to create
+                  user requirements.
+
+              •   less chance of legal problems with the collection and storage of data
+              •   the customers can see the data collected and can query the staff of the
+                  coffee shop if they want to.
+
+              •   it was convenient for the FaceToFace team to visit the coffee shop
+              •   making it easier to gather information while gathering additional user
+                  information and/or developing/testing prototypes.
+
+              •   cooperation of manager/staff is likely
+              •   as the coffee shop is situated on campus, the manager and staff would be
+                  willing to assist Mike and colleagues by trialling the system and answering
+                  questions.
+
+              •   coffee shop had an easily identified problem
+              •   success of the facial recognition could easily be tested against the known
+                  problem.
+
+              •   coffee shop had a loyalty card system set up already
+              •   success of the facial recognition could be tested to replace the loyalty
+                  card.
+
+           Note: the candidate must link the answer to the coffee shop, outlining why the
+           coffee shop is suitable.
+
+           Award [1] for identifying a reason why the coffee shop was used as a proof of
+           concept and [1] for a development of that reason up to [2] marks.
+                                             –4–                 M21/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+
+(b)   Outline one reason why the facial recognition application may not be able to
+      capture an accurate image of the customer’s face.                                      [2]
+
+      Answers may include:
+        • bad lighting/wearing makeup/wearing glasses or other objects on the face
+        • that hinders the obtaining of a clear image or is compulsory to be worn
+           (e.g. masks in a pandemic).
+
+         •   the location of the camera
+         •   that does not allow the camera angle to take an image of the full face, or is
+             too far away to capture enough detail.
+
+         •   A low-quality camera
+         •   That does not capture enough detail to allow the software to identify the
+             nodal points.
+
+         •   the customer may move so the image may be blurry
+         •   and as a consequence, the quality is not good enough quality.
+
+      Award [1] for identifying the circumstances with the FR software system that
+      could lead to reduced accuracy in correctly identifying a person and [1] for a
+      development of the reason why the circumstance could hinder the correct
+      identification up to [2] marks.
+                                                   –5–                  M21/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+2.   Explain the processes The FaceToFace facial recognition application uses to identify a
+     person using faceprints.                                                                     [6]
+
+     Answers may include:
+     The whole process has two stages:
+        • the creation and storage of a faceprint
+        • the process for identification of an unknown person using a faceprint.
+
+     Not all the steps in stage one are required, especially the creation of the faceprint. But
+     at the least, what a faceprint is, composed of measurements and nodes, needs to be
+     described in the process of matching.
+
+     Stage One: The faceprint creation and storage
+        • image of the person’s face is taken by camera
+        • the software identifies nodal points and other features on the face
+        • the number of nodal points and other features can range from less than a 100 to
+           more than 30 000 for 3-D facial recognition
+        • other features of the face can also be measured such as skin tone, colour
+        • the nodal points are endpoints used to measure variables of the person’s face,
+           such as the length or width of the nose, the depth of the eye sockets and the
+           shape of the cheekbones. Features other than length/width can also be
+           measured such as colour, patterns of lines on the face, patterns of skin-tones
+           on the face
+        • the measurements are stored as data and can be aggregated to create a
+           faceprint of the person’s face
+        • this aggregation is stored in the FaceToFace database as a record of the
+           faceprint of the person who agrees to be part of the FR scheme.
+
+     Stage Two: Using the faceprint to identify a person
+        • a person is identified by matching a faceprint image taken of that person with a
+            faceprint stored in the database
+        • a reasonable match would be reported as a possible identification on the output
+            screen
+        • additional material that may be included but is not necessary: Since facial
+            recognition software can be inaccurate the identification could/should be
+            checked by a human.
+                                           –6–                 M21/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+
+ Marks                                    Level descriptor
+
+            • No knowledge or understanding of ITGS issues and concepts. No use of
+   0
+              appropriate ITGS terminology.
+
+            • A limited response that indicates very little understanding of the process used
+              by facial recognition software to produce a metric that can be used to accurately
+1–2 marks     identify an unknown face. Uses little or no appropriate ITGS terminology. No
+              reference is made to the scenario in the stimulus material. The response may
+              only be theoretical and/or a general descriptive.
+
+            • A description or superficial explanation of the process used by facial recognition
+              software to produce a metric that can be used to accurately identify an unknown
+3–4 marks
+              face. There is some use of appropriate ITGS terminology in the response. The
+              description may omit some essential details of the two stages.
+
+            • An explanation of the process used by facial recognition software to produce a
+              metric that can be used to accurately identify an unknown face. Explicit and
+5–6 marks     relevant references are made to the scenario in the stimulus material. There is
+              appropriate ITGS terminology throughout the response. Candidates are likely to
+              have addressed both stages in detail.
+                                                  –7–                  M21/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+3.   FaceToFace has told HomeThings that any potentially negative impacts on
+     stakeholders arising from the collection and use of the data from the application must
+     be minimized. Additionally, before FaceToFace will agree to the implementation of the
+     facial recognition application, HomeThings will need to carry out an impact
+     assessment.
+
+     Discuss what factors should be considered when policies are developed by
+     HomeThings for the management of the data collected by the facial recognition
+     application.                                                                                 [8]
+
+
+     Answers may include:
+     Candidates would be expected to describe a range of considerations and discuss their
+     appropriateness, based on the potential impacts, and how they would be used in the
+     policies to manage the collection and use of the data. This balancing of the nature of
+     the data collected, its sensitivity (which seems on the surface to be relatively harmless)
+     and the potential ramifications of the data being used inappropriately is likely to move
+     the candidate into the higher markbands.
+
+     A candidate who displays lateral thinking is to be given credit. For example, some
+     candidates may argue that HomeThings does not hold the data and therefore is not
+     responsible for the management of the data but FaceToFace is. Another example of
+     lateral thinking would be an argument that some considerations are not important and
+     can be ignored.
+
+     Data collected:
+     The data collected does not need to be specified in detail, but better responses
+     (competent and proficient bands) would have examples appropriate to the scenario,
+     most likely taken from or modified from the Case Study or candidates’ own research.
+     The type, amount, frequency and sensitivity of the data collected, the storage and use
+     (actual or potential) of the data and linking of the data are the source of the negative
+     impacts.
+
+     Factors:
+     The main considerations (factors) would be those related to the various data privacy
+     principles that most countries now use as a basis for their privacy laws.
+
+     Customer considerations:
+      • A customer’s legal and ethical privacy rights could be breached with potential
+          impacts:
+            ◊ customers may not know about the exact data collected
+            ◊ customers may not have the option of finding out exactly what is stored
+               about them
+            ◊ customers may be worried about the use that will be made of the data
+            ◊ customers may be worried about the security of the data collected
+            ◊ customers who stop going to the store may be worried about the length of
+               time the data is kept/if their data can be deleted.
+      • in practice the impact may be on a day to day basis:
+            ◊ customers may not want intrusive advertising sent to them, or staff
+               approaching them by name while browsing the store – they may want to
+               remain anonymous or want to be left alone
+            ◊ in a large store it is hard to have an opt-in mechanism, so an opt-out
+               mechanism would be needed. This could be overlooked by many
+               customers leading to other negative impacts
+                                             –8–                  M21/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+        ◊   linking of sales to images of customers or customer records could result in
+            staff asking how the product is performing next time the customer visits the
+            store. Customers may find this intrusive.
+
+Staff considerations:
+  • records of staff activities which may be used by HomeThings for surveillance and
+      work performance assessment in a negative way – breaching the right to privacy
+  • lack of trust of the company impacting on the work environment for staff
+  • being watched all the time may mean staff cannot relax and interact normally with
+      other staff.
+
+HomeThings considerations:
+ • non-compliance with the letter or the spirit of relevant privacy laws, potentially
+    leading to a privacy breach with legal consequences and/or negative publicity
+ • loss of trust by customers through lack of transparency in response to public
+    concern about handling personal information
+ • damage to the reputation of HomeThings if it fails to meet expectations about
+    how personal information will be protected
+ • lack of concern for customers and staff with the absence of identification of
+    privacy risks
+ • unnecessary costs for remedies when privacy of staff and/or customers has been
+    damaged.
+
+Impacts can be real or potential which means they may be generic in nature. Better
+responses (competent and proficient bands) would have examples appropriate to the
+scenario and their own research. Unrealistic impacts not directly related to the scenario
+are to be ignored.
+
+A conclusion based on a discussion of importance would be expected, with reasons to
+support such conclusions provided.
+
+Marking Guidelines
+Adequate (3-4 marks): candidates will most likely describe factors, with little discussion
+on their importance, potential impact or appropriateness
+
+Competent (5-6 marks): candidates will describe the factors and then include some
+discussion on their importance, potential impact or appropriateness
+
+Proficient (7-8 marks): candidates would be expected to include a balanced analysis of
+the respective importance of the factors. To reach the higher markband, links between
+the factors and the management of the data would be expected.
+
+Please see generic markband on page 9.
+                                              –9–                  M21/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+SL and HL paper 1 part (c) and HL paper 3 question 3 markband
+
+    Marks                                     Level descriptor
+
+                • A response with no knowledge or understanding of the relevant ITGS issues
+  No marks        and concepts.
+                • A response that includes no appropriate ITGS terminology.
+
+                • A response with minimal knowledge and understanding of the relevant ITGS
+                  issues and concepts.
+                • A response that includes minimal use of appropriate
+    Basic
+                  ITGS terminology.
+  1–2 marks
+                • A response that has no evidence of judgments and/or conclusions.
+                • No reference is made to the scenario in the stimulus material in the response.
+                • The response may be no more than a list.
+
+                • A descriptive response with limited knowledge and/or understanding of the
+                  relevant ITGS issues and/or concepts.
+                • A response that includes limited use of appropriate
+                  ITGS terminology.
+  Adequate
+                • A response that has evidence of conclusions and/or judgments that are no more
+  3–4 marks
+                  than unsubstantiated statements. The analysis underpinning them may also be
+                  partial or unbalanced.
+                • Implicit references are made to the scenario in the stimulus material in the
+                  response.
+
+                • A response with knowledge and understanding of the relevant ITGS issues
+                  and/or concepts.
+                • A response that uses ITGS terminology appropriately
+  Competent       in places.
+  5–6 marks     • A response that includes conclusions and/or judgments that have limited
+                  support and are underpinned by a balanced analysis.
+                • Explicit references to the scenario in the stimulus material are made at places in
+                  the response.
+
+                • A response with a detailed knowledge and understanding of the relevant ITGS
+                  issues and/or concepts.
+                • A response that uses ITGS terminology appropriately throughout.
+  Proficient
+  7–8 marks     • A response that includes conclusions and/or judgments that are well supported
+                  and underpinned by a balanced analysis.
+                • Explicit references are made appropriately to the scenario in the stimulus
+                  material throughout the response.
+                                                 – 10 –               M21/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+4.   A high school principal has approached Carol about implementing the facial recognition
+     application in his school. The school already has security cameras in open areas, the
+     cafeteria and the corridors. The proposals to introduce the facial recognition application
+     has divided opinion within FaceToFace and the school community.
+
+     Discuss whether FaceToFace’s facial recognition application should be introduced in
+     this high school.                                                                            [12]
+
+     Answers may include:
+     For the introduction:
+       • increased efficiency and effectiveness of the school in roll-marking and the
+           running of the cafeteria. Freeing up teacher time to carry out other [less
+           mundane] duties
+       • the principal may take a utilitarianist approach that although a few students or
+           teachers may be disadvantaged, the overall benefits outweigh the concerns
+           about monitoring or surveillance
+       • may lead to less students being out of lesson as the FR application will be able to
+           instantly detect their movement in corridors and if necessary trigger an alert to a
+           senior member of staff or assist with discipline in other ways
+       • if the FR application is discussed with all stakeholders and introduced with their
+           consent it should be seen as a “friend rather than a foe”
+       • a positive example of negotiated ethics that satisfies all stakeholders.
+       • enhanced security of the school identifying intruders and can be used for
+           monitoring and tracing participants if thefts or bullying happen
+       • a committee to monitor the use of FR can be set up to handle complaints and
+           problems.
+
+     Against the introduction:
+      • the technology may not be 100 % reliable so there may be examples of incorrect
+          identification of students. Teachers may still be required to spend time on
+          investigating false positives etc
+      • the position of any existing cameras may lead to the FR application not
+          functioning as well as intended
+      • will the FR application be cost effective?
+      • will teachers use the data collected about students, eg using data from the
+          library, cafeteria, that gives the number of hours a student spends there, rather
+          than managing them by face-to-face interaction?
+      • students and teachers may see this as a form of surveillance, so privacy
+          concerns may need to be addressed. Collating the movement of students and
+          teachers over time is problematic.
+      • as many of the students are under 18 parental consent may be required, how will
+          the school deal with parents who do not want to opt in to the new facial
+          recognition system?
+      • use may grow to active monitoring of the school areas and activities in
+          classrooms by a special employer in a room with monitors
+      • biometric information cannot be changed – implications if it is compromised
+      • concerns if this information is shared eg between schools or with outside
+          organisations like the police
+      • how rigorous is the ethical and impact analysis carried out by FaceToFace?
+      • parents and students would most likely want to be able to check the data
+          collected and may even challenge its accuracy
+      • the implementation of a committee to monitor its use would be needed which
+          could be a problem in itself to setup and operate
+      • racial bias – due to bias in algorithms may not work effectively in a multicultural
+          environment.
+                                             – 11 –               M21/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+
+Note to markers: the format of the ethical and impact analysis used by the school is not
+specified. The balanced analysis referred to in the markscheme is the student’s own
+analysis. The student may refer to different techniques that could be used by the
+school, eg negotiations, and others in the case study or from their own research. The
+marks for referring to these are applied under this part of the rubric: Explicit references
+are made appropriately to the information in the case study and independent research
+throughout the response.
+
+Please see generic markband on page 12.
+                                             – 12 –               M21/3/ITGSX/HP3/ENG/TZ0/XX/M
+
+
+HL paper 3 question 4 markband
+
+
+       Marks                                          Level descriptor
+
+                      • A response with no knowledge or understanding of the relevant ITGS
+      No marks          issues and concepts.
+                      • A response that includes no appropriate ITGS terminology.
+
+                      • A response with minimal knowledge and understanding of the relevant
+                        ITGS issues and concepts.
+                      • A response that includes minimal use of appropriate
+                        ITGS terminology.
+       Basic
+                      • A response that has no evidence of judgments, conclusions or future
+     1–3 marks
+                        strategies.
+                      • No reference is made to the information in the case study or
+                        independent research in the response.
+                      • The response may be no more than a list.
+
+                      • A descriptive response with limited knowledge and/or understanding of
+                        the relevant ITGS issues and/or concepts.
+                      • A response that includes limited use of appropriate
+                        ITGS terminology.
+     Adequate
+                      • A response that has evidence of conclusions, judgments or future
+     4–6 marks
+                        strategies that are no more than unsubstantiated statements.
+                        The analysis underpinning them may also be partial or unbalanced.
+                      • Implicit references are made to the information in the case study or
+                        independent research in the response.
+
+                      • A response with knowledge and understanding of the relevant ITGS
+                        issues and/or concepts.
+                      • A response that uses ITGS terminology appropriately in places.
+     Competent
+                      • A response that includes conclusions and/or judgments that have
+     7–9 marks
+                        limited support and are underpinned by a balanced analysis.
+                      • Explicit references to the information in the case study or independent
+                        research are made at places in the response.
+
+                      • A response with a detailed knowledge and understanding of the
+                        relevant ITGS issues and/or concepts.
+                      • A response that uses ITGS terminology appropriately throughout.
+     Proficient
+                      • A response that includes conclusions, judgments or future strategies
+    10–12 marks
+                        that are well supported and underpinned by a balanced analysis.
+                      • Explicit references are made appropriately to the information in the
+                        case study and independent research throughout the response.
+

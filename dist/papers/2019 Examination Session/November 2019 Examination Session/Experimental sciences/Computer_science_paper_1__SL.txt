@@ -1,0 +1,221 @@
+No part of this product may be reproduced in any form or by any electronic or
+mechanical means, including information storage and retrieval systems, without written
+permission from the IB.
+
+Additionally, the license tied with this product prohibits commercial use of any selected
+files or extracts from this product. Use by third parties, including but not limited to
+publishers, private teachers, tutoring or study services, preparatory schools, vendors
+operating curriculum mapping services or teacher resource digital platforms and app
+developers, is not permitted and is subject to the IB’s prior written consent via a license.
+More information on how to request a license can be obtained from
+http://www.ibo.org/contact-the-ib/media-inquiries/for-publishers/guidance-for-third-party-
+publishers-and-providers/how-to-apply-for-a-license.
+
+Aucune partie de ce produit ne peut être reproduite sous quelque forme ni par quelque
+moyen que ce soit, électronique ou mécanique, y compris des systèmes de stockage et
+de récupération d’informations, sans l’autorisation écrite de l’IB.
+
+De plus, la licence associée à ce produit interdit toute utilisation commerciale de tout
+fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris, sans
+toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de tutorat
+ou d’aide aux études, des établissements de préparation à l’enseignement supérieur,
+des fournisseurs de services de planification des programmes d’études, des
+gestionnaires de plateformes pédagogiques en ligne, et des développeurs
+d’applications, n’est pas autorisée et est soumise au consentement écrit préalable de
+l’IB par l’intermédiaire d’une licence. Pour plus d’informations sur la procédure à suivre
+pour demander une licence, rendez-vous à l’adresse http://www.ibo.org/fr/contact-the-
+ib/media-inquiries/for-publishers/guidance-for-third-party-publishers-and-providers/how-
+to-apply-for-a-license.
+
+No se podrá reproducir ninguna parte de este producto de ninguna forma ni por ningún
+medio electrónico o mecánico, incluidos los sistemas de almacenamiento y
+recuperación de información, sin que medie la autorización escrita del IB.
+
+Además, la licencia vinculada a este producto prohíbe el uso con fines comerciales de
+todo archivo o fragmento seleccionado de este producto. El uso por parte de terceros
+—lo que incluye, a título enunciativo, editoriales, profesores particulares, servicios de
+apoyo académico o ayuda para el estudio, colegios preparatorios, desarrolladores de
+aplicaciones y entidades que presten servicios de planificación curricular u ofrezcan
+recursos para docentes mediante plataformas digitales— no está permitido y estará
+sujeto al otorgamiento previo de una licencia escrita por parte del IB. En este enlace
+encontrará más información sobre cómo solicitar una licencia: http://www.ibo.org/es/
+contact-the-ib/media-inquiries/for-publishers/guidance-for-third-party-publishers-and-
+providers/how-to-apply-for-a-license.
+N19/4/COMSC/SP1/ENG/TZ0/XX
+
+
+
+
+Computer science
+Standard level
+Paper 1
+
+
+Friday 8 November 2019 (afternoon)
+
+
+1 hour 30 minutes
+
+
+Instructions to candidates
+yyDo not open this examination paper until instructed to do so.
+yySection A: a
+              nswer all questions.
+yySection B: a
+              nswer all questions.
+yyThe maximum mark for this examination paper is [70 marks].
+
+
+
+
+                                                                                             8819 – 7014
+     5 pages                                             © International Baccalaureate Organization 2019
+                                                    –2–                N19/4/COMSC/SP1/ENG/TZ0/XX
+
+                                               Section A
+
+Answer all questions.
+
+1.   (a)	Identify one fundamental operation of a computer.                                   [1]
+
+     (b)   Distinguish between fundamental and compound operations of a computer.             [2]
+
+
+2.   (a)	Identify one cause of data loss.                                                    [1]
+
+     (b)   Describe one way offsite storage can be used to prevent data loss.                 [2]
+
+
+3.   (a)	State the function of the control unit (CU) in the central processing unit (CPU).   [1]
+
+     (b)   Explain the purpose of cache memory.                                               [3]
+
+
+4.   Colours are represented by a computer as a combination of the three primary colours:
+     red, green and blue.
+
+     Numerical values are used to represent the different shades of each primary colour.
+     These values range from 0 to 255 in decimal, or 00 to FF in hexadecimal.
+
+     (a)   State why hexadecimal numbers are frequently used in computing.                    [1]
+
+     (b)   State the number of bits used to represent a non-primary colour, such as yellow.   [1]
+
+     (c)   State the maximum number of colours that can be represented in a computer pixel.   [1]
+
+
+5.   Copy and complete the following truth table where:
+
+                                               X = A XOR B
+                                               Y = A NOR C
+                                              Z = X OR NOT Y
+
+                            A        B          C         X       Y         Z
+
+                            0        0          0
+
+[4]
+                                                   –3–                   N19/4/COMSC/SP1/ENG/TZ0/XX
+
+6.   Explain why abstraction is required in the design of algorithms.                           [3]
+
+
+7.   Construct a trace table for the following algorithm.
+
+     K = 1
+     N = 1
+     M = 2
+     loop while K < 5
+        output(N,M)
+        K = K + 1
+        N = N + 2
+        M = M * 2
+     end loop                                                                                   [5]
+
+
+
+
+                                                                                           Turn over
+                                                   –4–                  N19/4/COMSC/SP1/ENG/TZ0/XX
+
+                                              Section B
+
+Answer all questions.
+
+8.   An organization is implementing a new computer system.
+
+     (a)   Identify two organizational issues related to the implementation of the new system.   [2]
+
+     The management considered phased conversion and direct changeover as methods
+     of implementation.
+
+     (b)   Evaluate these two methods of implementation.                                         [5]
+
+     (c)   (i)	State one type of testing that involves users.                                   [1]
+
+           (ii)   Identify three consequences of inadequate testing.                             [3]
+
+     (d)   Discuss the social and ethical issues associated with the introduction of a new
+           computer system.                                                                      [4]
+
+
+9.   (a)	Outline two advantages of a school using a computer network.                           [4]
+
+     (b)   Describe the purpose of the following hardware components of a network:
+
+           (i)    Router[2]
+
+           (ii)   Network interface card (NIC)                                                   [2]
+
+     (c)   Outline why protocols are necessary.                                                  [2]
+
+     (d)   Define the term data encryption.[1]
+
+     (e)   Evaluate the use of trusted media access control (MAC) addresses as one method of
+           network security.                                                                     [4]
+                                                       –5–                   N19/4/COMSC/SP1/ENG/TZ0/XX
+
+10.   Consider the following algorithm.
+
+      N = 372
+      X = N DIV 100
+      Y = X + 10 * (N MOD 100 DIV 10)
+      Z = Y + (N MOD 10) * 100
+
+      (a)   Determine the values of variables X, Y, and Z after execution of this algorithm. Show
+            your working.                                                                                    [3]
+
+      NUMBERS is a collection that holds only positive integers.
+
+      A three-digit number has three digits: a hundreds digit, a tens digit and a units digit.
+      For example, for 406, its hundreds digit is 4, its tens digit is 0 and its units digit is 6.
+
+      An algorithm is needed to copy each three-digit number from the collection NUMBERS, where
+      the hundreds digit is smaller than its tens digit and its tens digit is smaller than its units digit,
+      into a one-dimensinal array named THREE. If there are no such numbers in the collection
+      then an appropriate message should be displayed.
+
+      For example:
+
+      If NUMBERS = {9, 3456, 12, 237, 45679, 368, 296}
+
+      then the contents of the array, THREE, is:
+
+                                                 [0]          [1]
+
+                                                 237          368
+
+      If NUMBERS = {1234, 56, 90, 324, 876}
+
+      then the array THREE is empty and a message such as “No such numbers”, should be outputted.
+
+      (b)   Construct this algorithm. You may assume that the array THREE is initialized with a
+            sufficient number of elements.                                                                   [8]
+
+      (c)   Describe how a selection sort algorithm could be used to sort the array THREE in
+            ascending order.                                                                                 [4]
+
+
+
+
+

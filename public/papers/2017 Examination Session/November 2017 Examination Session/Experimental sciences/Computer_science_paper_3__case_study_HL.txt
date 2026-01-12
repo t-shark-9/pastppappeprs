@@ -1,0 +1,243 @@
+M&N17/4/COMSC/HP3/ENG/TZ0/XX/CS
+
+
+
+
+Computer science
+Case study: computer science in medicine
+
+
+For use in May 2017 and November 2017
+
+
+
+
+Instructions to candidates
+yyCase study booklet required for higher level paper 3.
+
+
+
+
+     5 pages                                              © International Baccalaureate Organization 2016
+                                                   –2–           M&N17/4/COMSC/HP3/ENG/TZ0/XX/CS
+
+Introduction
+
+Computer science has had a considerable impact on medical diagnosis, treatment and research.
+This case study explores some of these impacts. Note that in this case study, doctor and surgeon refer
+to medically qualified people with specific jobs. A health carer may be a doctor or surgeon, but also
+includes anyone involved in treating medical conditions, such as physiotherapists and nurses. Health
+centre refers to an establishment where medical services are available such as a hospital or clinic.
+
+The original idea of a patient or doctor entering symptoms into a computer and receiving an accurate
+diagnosis in return has only been partially realized. However, diagnosis decision support systems (DDSS)
+and clinical decision support systems (CDSS) are being used and constantly improved.
+A DDSS is intended to diagnose a condition from a given set of symptoms, and a CDSS includes the
+ability to suggest treatment in specific situations. Some of the most successful systems so far, have
+been those designed for the diagnosis and treatment of specific conditions, such as tumours.
+
+A doctor needs experience and access to knowledge in order to make a correct diagnosis. Medical
+practices change over time as new discoveries are made about diseases, symptoms and treatments.
+This means repeated re-training for doctors as well as continual access to the latest information.
+Moreover, in some remote areas a trained doctor is not available to make a diagnosis. A diagnostic
+system incorporating an up-to-date knowledge base would be helpful in such situations.
+
+Just as a doctor uses knowledge, experience and trained skills to interpret the symptoms of a patient,
+a diagnostic system has a knowledge base and a method of analysis known as an inference engine
+for interrogating the knowledge base and proposing a diagnosis from a given set of inputs. Current
+knowledge bases are continually expanding due to the increased amount of information about conditions
+and their causes, and also the incorporation of data in different formats from medical imagery. At the
+same time, the efficiency of the inference engine is increasing with techniques involving fuzzy logic and
+pattern recognition.
+
+Health policies
+
+Health policies are a major part of government planning and require a large part of the financial budget in
+most countries. Private health centres also have to balance cost with health benefits when investing in
+medical personnel and computer systems.
+
+Doctor Metaxis, a medical computer consultant who works as an advisor for governments and also
+advises private health centres, explained some of the current computer methods being employed.
+
+“The use of diagnostic systems was originally envisaged as being a way of saving money by using
+machines instead of doctors. However, the systems are expensive and still need expert interpretation.
+An experienced doctor can derive symptoms from the physical aspect and behaviour of a patient.
+Similarly, the medical history and background of the patient is often known to the doctor which is a factor
+to take into account when deciding on treatment. These are important pointers to certain conditions and
+appropriate treatments, which are currently not easily incorporated into diagnostic systems.
+A comprehensive policy on electronic health records could change that.”
+
+Electronic health records
+
+Many governments are now looking to enforce compatible electronic health records (EHR) across all
+health services. The concept of EHRs relies on patients having up-to-date medical information and
+appropriate personal information stored electronically. This has been happening for some time with
+health centres digitally storing their own patients’ data. The plan is to extend the EHR to have only
+one record for each person, which can be accessed and amended in any health centre and by any
+authorized health carer.
+                                                     –3–            M&N17/4/COMSC/HP3/ENG/TZ0/XX/CS
+
+The most ambitious plan is perhaps that of the European Economic Community (EEC). In 2012, a new
+action plan for 2012–2020 was adopted proposing a series of measures and expressing a commitment
+to remove the existing barriers to “a fully mature and interoperable eHealth system in Europe”*. The
+information in each record will include demographic data, hospital visits, past illnesses, allergies, scans,
+X-rays and much more. There are obvious potential advantages for the individual, for researchers and
+also for health care planners, but there are some implications that need to be considered as well.
+
+Doctor Metaxis has been approached by a government representative of one of the countries involved.
+The representative needs advice as to how they could conform to such a new system. Doctor Metaxis
+explained that there are many factors to take into account.
+
+“Apart from the different languages and health practices across the European Union, there are also
+hardware and software compatibilities that have to be considered. Implementing such a system is
+extremely expensive and complex, as has been shown in the UK; attempts in some other countries have
+allegedly led to clinical mistakes. The attitudes of patients and the impact on medical staff need to be
+considered. On the other hand, those involved in bioinformatics, are particularly interested in the vast
+amount of data that could be used for predictive diagnosis and the possibility of including DNA in the
+records could lead to advances in genomic bioinformatics.”
+
+Telemedicine
+
+Doctor Metaxis went on to talk about telemedicine. This is expanding, particularly where access to a
+medical expert is difficult, and in situations when a patient is able to receive their care at home rather
+than in hospital. It can be used by surgeons in different areas to collaborate during a complicated
+operation, via communication lines.
+
+“Another advantage of telemedicine is that a specialist can see and speak to the patient together with
+any health carer as well as have access to measurements such as temperature and heartbeat which can
+be relayed over the internet.
+
+“I have been asked to design a computer system for a new clinic, Tall Trees, which will be opening next
+year in a small village with a large rural community. The clinic intends to include telemedicine in its
+services, in order to offer health care to all. In particular the clinic requires from me, technical details and
+information on the latest medical electronic advances. Starting from scratch, they want to incorporate
+the latest technology. I will recommend that they consider incorporating the technology relating to the
+internet of health things.”
+
+Internet of health things (IoHT)
+
+An addition to telemedicine is the rapid development of the internet of health things, which can be
+incorporated into telemedicine. It can also be used by people wishing to monitor their own health, thanks
+to the use of wearables and the incorporation of near field communication (NFC) and radio-frequency
+identification (RFID) into many mobile devices. This allows medical data to be relayed continually to
+a health centre. Doctor Metaxis mentioned that many people now access the internet for a possible
+diagnosis of symptoms, and to help interpret results, such as blood tests. This trend is expanding, with
+the increased amount of information on health available through the internet.
+
+Doctor Metaxis also offers advice to health departments that have a fixed budget from the government to
+spend on medical services in hospitals.
+
+“Of course, the hospitals want to employ the latest techniques to give the best possible service.
+Medical imagery can help in meeting their needs.”
+
+
+
+                                                                                                     Turn over
+                                                   –4–           M&N17/4/COMSC/HP3/ENG/TZ0/XX/CS
+
+Medical imagery
+
+Medical imagery is an important part of diagnosis and treatment. Magnetic resonance imaging (MRI),
+computed tomography scan (CT scan) and ultrasound are three available systems. Ultrasound is
+non-invasive, is widely available and less expensive when compared to the other two; hence it is
+used extensively when there is a choice of methods. The image below shows the different parts of
+the system from the transducer to the sonogram shown on the display.
+
+                       Transducer
+                                                  Transducer
+                                                   controls
+                Sound backing
+                                                 • Frequency
+             PZ crystals                         • Duration
+                                                 • Scan mode              Disk
+
+
+
+
+                                                     CPU                         Printer
+
+
+
+
+                                           Removed for copyright
+                                                                           Input
+                                                   reasons                devices
+                                           The image showed an
+                                            ultrasound image of a
+                                          human fetus in the womb.
+
+                                                    Display
+
+
+The transducer emits high frequency sound waves at the points chosen. The way in which these are
+reﬂected back is processed to build up an image of the area scanned in the form of a sonogram. The
+2D images of the sonogram can be used to make a 3D image. There is no doubt that the advances in
+the quality and analysis of medical imagery are giving excellent results, but they can be computationally
+intensive and expensive and need trained personnel for interpretation. One recent and useful
+development is the extension of ultrasound 3D imaging to augmented reality imaging.
+
+Research into the use of augmented reality imaging, points towards revolutionary changes in medical
+practice for diagnosis and for surgery; it provides simulations for medical students, it increases accuracy
+in the operating room and it offers valuable assistance in telemedicine. This together with robotic
+controlled surgery has the potential to make the operating theatre a safer place. A radio controlled
+robotic instrument can be guided by a surgeon to the exact position where an intervention is needed,
+thanks to the quality of the 3D image. The surgeon can also be working from a distance.
+
+Doctor Metaxis summarized the issues considered by governments and private clinics looking to update
+their systems.
+
+“Research is funded by companies hoping to make money with results, and also by governments
+wanting to improve health for their population. Exciting developments in technology could improve
+the standard of health globally. The latest advance in robotic controlled surgery can mean savings in
+hospital costs and can be monitored by expert surgeons from a distance. The computer analysis of
+medical images has the potential to give early diagnoses which in turn could save lives and health costs.
+However there is an initial expenditure in machines and electronic communication which has to be
+considered as well as the difference this makes to training medical staff.”
+                                                 –5–          M&N17/4/COMSC/HP3/ENG/TZ0/XX/CS
+
+Challenges faced
+
+Doctor Metaxis and his clients must focus on the following challenges:
+yythe feasibility and consequences of developing a coherent EHR system;
+yythe effect of technological developments on health carers;
+yydevelopment and implication of bioinformatics for predictive diagnosis;
+yycombining electronic and human resources in order to get health services to those in remote or
+  underdeveloped areas.
+
+
+
+Additional terminology to the guide
+
+Augmented reality
+Bioinformatics
+Clinical decision support system (CDSS)
+Computed tomography scan (CT scan)
+Diagnosis decision support system (DDSS)
+Electronic health record (EHR)
+Fuzzy logic
+Genomic bioinformatics
+Inference engine
+Internet of health things (IoHT)
+Knowledge base
+Medical imagery
+Magnetic resonance imaging (MRI)
+Near field communication (NFC)
+Pattern recognition
+Predictive diagnosis
+Radio-frequency identification (RFID)
+Robotic controlled surgery
+Sonogram
+Telemedicine
+Telesurgery
+Transducer
+Ultrasound
+
+
+Some companies, products, or individuals named in this case study are fictitious and any
+similarities with actual entities are purely coincidental.
+
+
+
+* European Commission, eHealth Action Plan 2012–2020, http://ec.europa.eu/health/
+  ehealth/docs/com_2012_736_en.pdf (2012)
+

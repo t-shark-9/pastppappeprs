@@ -1,0 +1,802 @@
+M22/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+
+
+                       Markscheme
+
+
+                               May 2022
+
+
+   Mathematics: analysis and approaches
+
+
+                           Higher level
+
+
+                               Paper 3
+
+
+
+
+20 pages
+                                            –2–                 M22/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+
+
+© International Baccalaureate Organization 2022
+
+All rights reserved. No part of this product may be reproduced in any form or by any
+electronic or mechanical means, including information storage and retrieval systems,
+without the prior written permission from the IB. Additionally, the license tied with this
+product prohibits use of any selected files or extracts from this product. Use by third
+parties, including but not limited to publishers, private teachers, tutoring or study services,
+preparatory schools, vendors operating curriculum mapping services or teacher resource
+digital platforms and app developers, whether fee-covered or not, is prohibited and is a
+criminal offense.
+
+More information on how to request written permission in the form of a license can be
+obtained from https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-
+license/.
+
+© Organisation du Baccalauréat International 2022
+
+Tous droits réservés. Aucune partie de ce produit ne peut être reproduite sous quelque
+forme ni par quelque moyen que ce soit, électronique ou mécanique, y compris des
+systèmes de stockage et de récupération d’informations, sans l’autorisation écrite
+préalable de l’IB. De plus, la licence associée à ce produit interdit toute utilisation de tout
+fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris, sans
+toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de tutorat ou
+d’aide aux études, des établissements de préparation à l’enseignement supérieur, des
+fournisseurs de services de planification des programmes d’études, des gestionnaires de
+plateformes pédagogiques en ligne, et des développeurs d’applications, moyennant
+paiement ou non, est interdite et constitue une infraction pénale.
+
+Pour plus d’informations sur la procédure à suivre pour obtenir une autorisation écrite
+sous la forme d’une licence, rendez-vous à l’adresse https://ibo.org/become-an-ib-school/
+ib-publishing/licensing/applying-for-a-license/.
+
+© Organización del Bachillerato Internacional, 2022
+
+Todos los derechos reservados. No se podrá reproducir ninguna parte de este producto
+de ninguna forma ni por ningún medio electrónico o mecánico, incluidos los sistemas de
+almacenamiento y recuperación de información, sin la previa autorización por escrito del
+IB. Además, la licencia vinculada a este producto prohíbe el uso de todo archivo o
+fragmento seleccionado de este producto. El uso por parte de terceros —lo que incluye,
+a título enunciativo, editoriales, profesores particulares, servicios de apoyo académico o
+ayuda para el estudio, colegios preparatorios, desarrolladores de aplicaciones y
+entidades que presten servicios de planificación curricular u ofrezcan recursos para
+docentes mediante plataformas digitales—, ya sea incluido en tasas o no, está prohibido
+y constituye un delito.
+
+En este enlace encontrará más información sobre cómo solicitar una autorización por
+escrito en forma de licencia: https://ibo.org/become-an-ib-school/ib-publishing/licensing/
+applying-for-a-license/.
+                                              –3–               M22/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+                                  Instructions to Examiners
+
+Abbreviations
+
+M    Marks awarded for attempting to use a correct Method.
+
+A    Marks awarded for an Answer or for Accuracy; often dependent on preceding M marks.
+
+R    Marks awarded for clear Reasoning.
+
+AG Answer given in the question and so no marks are awarded.
+
+FT   Follow through. The practice of awarding marks, despite candidate errors in previous parts,
+     for their correct methods/answers using incorrect results.
+
+
+Using the markscheme
+
+1    General
+
+     Award marks using the annotations as noted in the markscheme eg M1, A2.
+
+
+2    Method and Answer/Accuracy marks
+
+     • Do not automatically award full marks for a correct answer; all working must be checked,
+       and marks awarded according to the markscheme.
+     • It is generally not possible to award M0 followed by A1, as A mark(s) depend on the
+       preceding M mark(s), if any.
+     • Where M and A marks are noted on the same line, e.g. M1A1, this usually means M1 for
+       an attempt to use an appropriate method (e.g. substitution into a formula) and A1 for
+       using the correct values.
+     • Where there are two or more A marks on the same line, they may be awarded
+       independently; so if the first value is incorrect, but the next two are correct, award
+       A0A1A1.
+     • Where the markscheme specifies A3, M2 etc., do not split the marks, unless there is a
+       note.
+     • The response to a “show that” question does not need to restate the AG line, unless a
+       Note makes this explicit in the markscheme.
+     • Once a correct answer to a question or part question is seen, ignore further working even
+       if this working is incorrect and/or suggests a misunderstanding of the question. This will
+       encourage a uniform approach to marking, with less examiner discretion. Although some
+       candidates may be advantaged for that specific question item, it is likely that these
+       candidates will lose marks elsewhere too.
+     • An exception to the previous rule is when an incorrect answer from further working is used
+       in a subsequent part. For example, when a correct exact value is followed by an incorrect
+       decimal approximation in the first part and this approximation is then used in the second
+       part. In this situation, award FT marks as appropriate but do not award the final A1 in the
+       first part.
+                                                 –4–               M22/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+Examples:
+
+     Correct        Further            Any FT issues?          Action
+     answer         working seen
+     seen
+1.                    5.65685...        No.                     Award A1 for the final mark
+       8 2           (incorrect         Last      part    in    (condone the incorrect further
+                    decimal value)      question.               working)
+2.      35           0.468111…          Yes.                    Award A0 for the final mark
+                     (incorrect         Value is used in        (and full FT is available in
+        72          decimal value)      subsequent parts.       subsequent parts)
+
+
+3    Implied marks
+
+     Implied marks appear in brackets e.g. (M1),and can only be awarded if correct work is
+     seen or implied by subsequent working/answer.
+
+
+4    Follow through marks (only applied after an error is made)
+
+     Follow through (FT) marks are awarded where an incorrect answer from one part of a
+     question is used correctly in subsequent part(s) (e.g. incorrect value from part (a) used in
+     part (d) or incorrect value from part (c)(i) used in part (c)(ii)). Usually, to award FT marks,
+     there must be working present and not just a final answer based on an incorrect answer
+     to a previous part. However, if all the marks awarded in a subsequent part are for the answer
+     or are implied, then FT marks should be awarded for their correct answer, even when
+     working is not present.
+
+     For example: following an incorrect answer to part (a) that is used in subsequent parts,
+     where the markscheme for the subsequent part is (M1)A1, it is possible to award full marks
+     for their correct answer, without working being seen. For longer questions where all but
+     the answer marks are implied this rule applies but may be overwritten by a Note in the
+     Markscheme.
+
+     • Within a question part, once an error is made, no further A marks can be awarded for
+       work which uses the error, but M marks may be awarded if appropriate.
+
+     • If the question becomes much simpler because of an error then use discretion to award
+       fewer FT marks, by reflecting on what each mark is for and how that maps to the simplified
+       version.
+
+     • If the error leads to an inappropriate value (e.g. probability greater than 1, sin  = 1.5 , non-
+       integer value where integer required), do not award the mark(s) for the final answer(s).
+
+     • The markscheme may use the word “their” in a description, to indicate that candidates
+       may be using an incorrect value.
+
+     • If the candidate’s answer to the initial question clearly contradicts information given in the
+       question, it is not appropriate to award any FT marks in the subsequent parts. This
+                                              –5–               M22/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+      includes when candidates fail to complete a “show that” question correctly, and then in
+      subsequent parts use their incorrect answer rather than the given value.
+
+    • Exceptions to these FT rules will be explicitly noted on the markscheme.
+
+    • If a candidate makes an error in one part but gets the correct answer(s) to subsequent
+      part(s), award marks as appropriate, unless the command term was “Hence”.
+
+
+5   Mis-read
+
+    If a candidate incorrectly copies values or information from the question, this is a mis-read
+    (MR). A candidate should be penalized only once for a particular misread. Use the MR
+    stamp to indicate that this has been a misread and do not award the first mark, even if this
+    is an M mark, but award all others as appropriate.
+    • If the question becomes much simpler because of the MR, then use discretion to award
+      fewer marks.
+
+    • If the MR leads to an inappropriate value (e.g. probability greater than 1, sin  = 1.5 , non-
+      integer value where integer required), do not award the mark(s) for the final answer(s).
+
+    • Miscopying of candidates’ own work does not constitute a misread, it is an error.
+
+    • If a candidate uses a correct answer, to a “show that” question, to a higher degree of
+      accuracy than given in the question, this is NOT a misread and full marks may be scored
+      in the subsequent part.
+
+    • MR can only be applied when work is seen. For calculator questions with no working and
+      incorrect answers, examiners should not infer that values were read incorrectly.
+
+
+6   Alternative methods
+
+    Candidates will sometimes use methods other than those in the markscheme. Unless the
+    question specifies a method, other correct methods should be marked in line with the
+    markscheme. If the command term is ‘Hence’ and not ‘Hence or otherwise’ then alternative
+    methods are not permitted unless covered by a note in the mark scheme.
+
+    • Alternative methods for complete questions are indicated by METHOD                         1,
+      METHOD 2, etc.
+    • Alternative solutions for parts of questions are indicated by EITHER . . . OR.
+                                                   –6–                 M22/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+7   Alternative forms
+
+    Unless the question specifies otherwise, accept equivalent forms.
+
+    • As this is an international examination, accept all alternative forms of notation for
+      example 1.9 and 1,9 or 1000 and 1,000 and 1.000 .
+
+    • Do not accept final answers written using calculator notation. However, M marks and
+      intermediate A marks can be scored, when presented using calculator notation, provided
+      the evidence clearly reflects the demand of the mark.
+
+    • In the markscheme, equivalent numerical and algebraic forms will generally be written
+      in brackets immediately following the answer.
+
+    • In the markscheme, some equivalent answers will generally appear in brackets. Not all
+      equivalent notations/answers/methods will be presented in the markscheme and
+      examiners are asked to apply appropriate discretion to judge if the candidate work is
+      equivalent.
+
+
+8   Format and accuracy of answers
+
+    If the level of accuracy is specified in the question, a mark will be linked to giving the answer
+    to the required accuracy. If the level of accuracy is not stated in the question, the general
+    rule applies to final answers: unless otherwise stated in the question all numerical answers
+    must be given exactly or correct to three significant figures.
+
+    Where values are used in subsequent parts, the markscheme will generally use the exact
+    value, however candidates may also use the correct answer to 3 sf in subsequent parts.
+    The markscheme will often explicitly include the subsequent values that come “from the use
+    of 3 sf values”.
+
+    Simplification of final answers: Candidates are advised to give final answers using good
+    mathematical form. In general, for an A mark to be awarded, arithmetic should be completed, and
+                                                                             25                     5
+    any values that lead to integers should be simplified; for example,         should be written as .
+                                                                             4                      2
+    An exception to this is simplifying fractions, where lowest form is not required (although the
+                                                                         10
+    numerator and the denominator must be integers); for example,           may be left in this form or
+                                                                          4
+                 5            10
+    written as     . However,    should be written as 2, as it simplifies to an integer.
+                 2             5
+
+    Algebraic expressions should be simplified by completing any operations such as addition and
+    multiplication, e.g. 4e2 x  e3 x should be simplified to 4e5 x , and 4e2 x  e3 x − e4 x  e x should be
+    simplified to 3e5 x . Unless specified in the question, expressions do not need to be factorized, nor
+    do factorized expressions need to be expanded, so x ( x + 1) and x 2 + x are both acceptable.
+
+    Please note: intermediate A marks do NOT need to be simplified.
+                                            –7–               M22/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+9   Calculators
+
+    A GDC is required for this paper, but If you see work that suggests a candidate has used
+    any calculator not approved for IB DP examinations (eg CAS enabled devices), please follow
+    the procedures for malpractice.
+
+
+10. Presentation of candidate work
+
+    Crossed out work: If a candidate has drawn a line through work on their examination script,
+    or in some other way crossed out their work, do not award any marks for that work unless
+    an explicit note from the candidate indicates that they would like the work to be marked.
+
+    More than one solution: Where a candidate offers two or more different answers to the
+    same question, an examiner should only mark the first response unless the candidate
+    indicates otherwise. If the layout of the responses makes it difficult to judge, examiners
+    should apply appropriate discretion to judge which is “first”.
+                                                   –8–                M22/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+1.   (a)   (i)
+
+
+
+
+                  approximately symmetric about the x-axis graph of y 2 = x3                    A1
+                  including cusp/sharp point at (0, 0)                                          A1
+                                                                                          [2 marks]
+
+
+           (ii)   approximately symmetric about the x-axis graph of y 2 = x3 + 1 with
+                  approximately correct gradient at axes intercepts                             A1
+                  some indication of position of intersections at x = −1, y = 1                A1
+                                                                                          [2 marks]
+
+
+     Note: Final A1 can be awarded if intersections are in approximate correct place
+           with respect to the axes shown. Award A1A1A1A0 if graphs ‘merge’ or
+           ‘cross’ or are discontinuous at x-axis but are otherwise correct. Award
+           A1A0A0A0 if only one correct branch of both curves are seen.
+     Note: If they sketch graphs on separate axes, award a maximum of 2 marks for
+             the ‘best’ response seen. This is likely to be A1A1A0A0.
+                                                                                        continued…
+                                                   –9–                  M22/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+Question 1 continued
+
+
+     (b)   (i)    (0, 1) and (0, − 1)                                                                  A1
+                                                                                                  [1 mark]
+
+
+           (ii)   Any two from:
+                  y 2 = x3 has a cusp/sharp point, (the other does not)
+                  graphs have different domains
+                  y 2 = x3 + 1 has points of inflexion, (the other does not)
+                  graphs have different x-axis intercepts (one goes through the origin, and the
+                  other does not)
+                  graphs have different y-axis intercepts                                              A1
+
+
+     Note: Follow through from their sketch in part (a)(i). In accordance with marking
+           rules, mark their first two responses and ignore any subsequent.
+
+
+                                                                                                  [1 mark]
+                                                                                              continued…
+                                                    – 10 –              M22/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+Question 1 continued
+
+
+     (c)   Any two from:
+           as x → , y → 
+
+           as x →  , y 2 = x3 + b is approximated by y 2 = x3 (or similar)
+
+           they have x intercepts at x = − 3 b
+
+           they have y intercepts at y = (  ) b
+
+           they all have the same range
+           y = 0 (or x -axis) is a line of symmetry
+
+           they all have the same line of symmetry ( y = 0 )
+
+           they have one x -axis intercept
+           they have two y -axis intercepts
+           they have two points of inflexion
+           at x -axis intercepts, curve is vertical/infinite gradient
+           there is no cusp/sharp point at x -axis intercepts                                  A1A1
+
+
+     Note: The last example is the only valid answer for things “not” present. Do not
+           credit an answer of “they are all symmetrical” without some reference to
+           the line of symmetry.
+     Note: Do not allow same/ similar shape or equivalent.
+     Note: In accordance with marking rules, mark their first two responses and ignore
+            any subsequent.
+                                                                                            [2 marks]
+                                                                                          continued…
+                                                        – 11 –           M22/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+Question 1 continued
+
+
+     (d)   (i)    METHOD 1
+                  attempt to differentiate implicitly                                              M1
+                        dy
+                  2y       = 3x 2 + 1                                                              A1
+                        dx
+                  dy 3x 2 + 1                 dy
+                     =        OR () 2 x3 + x    = 3x 2 + 1                                        A1
+                  dx   2y                     dx
+
+                  dy     3x 2 + 1
+                     =                                                                           AG
+                  dx    2 x3 + x
+
+
+                  METHOD 2
+
+                  attempt to use chain rule y = () x3 + x                                         M1
+                                      1
+                  dy      1         −
+                     = () ( x3 + x) 2 (3x 2 + 1)                                               A1A1
+                  dx      2
+
+
+                                              1
+                                  1       −
+     Note: Award A1 for () ( x3 + x) 2 , A1 for (3x2 + 1) .
+                                  2
+
+
+                  dy     3x 2 + 1
+                     =                                                                           AG
+                  dx    2 x3 + x
+                                                                                             [3 marks]
+
+
+           (ii)   EITHER
+                                                          dy
+                  local minima/maxima occur when             =0
+                                                          dx
+                  1 + 3x 2 = 0 has no (real) solutions (or equivalent)                             R1
+
+
+                  OR
+
+                  ( x  0  ) 3x + 1  0 , so ddyx  0
+                    2                 2
+                                                                                                   R1
+
+
+
+                  THEN
+                  so, no local minima/maxima exist                                                AG
+                                                                                              [1 mark]
+                                                                                           continued…
+                                                              – 12 –        M22/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+Question 1 continued
+
+
+     (e)   EITHER
+                                                           d2 y
+           attempt to use quotient rule to find                                                      M1
+                                                           dx 2
+                                                                      1
+                                                                  −
+           d2 y         12 x x + x3 − (1 + 3x 2 )( x + x3 ) 2 (1 + 3x 2 )
+                = (  )                                                                            A1A1
+           dx 2                         4( x + x3 )
+
+
+
+     Note: Award A1 for correct 12x x + x3 and correct denominator, A1 for correct
+                                        1
+                                    −
+             −(1 + 3x 2 )( x + x3 ) 2 (1 + 3 x 2 ) .
+     Note: Future A marks may be awarded if the denominator is missing or incorrect.
+
+
+                            d2 y
+           stating or using      = 0 (may be seen anywhere)                                         (M1)
+                            dx 2
+                                                       1
+                                                   −
+           12 x x + x3 = (1 + 3x 2 )( x + x3 ) 2 (1 + 3x 2 )
+
+
+           OR
+                                                           d2 y
+           attempt to use product rule to find                                                       M1
+                                                           dx 2
+                            1 2
+                                                     3              1
+           d2 y 1
+               = ( 3x + 1)  −  ( 3x + 1)( x + x ) + 3x ( x + x ) 2
+                     2                       3     −        3     −
+                                                     2                                             A1A1
+           dx 2 2           2
+
+
+     Note: Award A1 for correct first term, A1 for correct second term.
+
+
+                     d2 y
+           setting        =0                                                                        (M1)
+                     dx 2
+                                                                                              continued…
+                                                      – 13 –          M22/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+Question 1 continued
+
+
+           OR
+                                                      dy
+           attempts implicit differentiation on 2 y      = 3x 2 + 1                             M1
+                                                      dx
+                    2
+             dy    d2 y
+           2  + 2 y 2 = 6x                                                                    A1
+             dx    dx
+
+                                  d2 y
+           recognizes that             =0                                                     (M1)
+                                  dx 2
+           dy
+              =  3x
+           dx
+                  3x 2 + 1
+           ()               = (  ) 3x                                                        (A1)
+                 2 x3 + x
+
+
+           THEN
+           12 x ( x + x3 ) = (1 + 3x 2 )2
+           12 x 2 + 12 x 4 = 9 x 4 + 6 x 2 + 1
+           3x 4 + 6 x 2 − 1 = 0                                                                 A1
+           attempt to use quadratic formula or equivalent                                     (M1)
+
+                  −6  48
+           x2 =
+                      6
+
+                               2 3 −3
+           ( x  0 ) x =             ( p = 2, q = −3, r = 3)                                   A1
+                                 3
+
+
+     Note: Accept any integer multiple of p, q and r (e.g. 4, −6 and 6).
+
+
+                                                                                          [7 marks]
+                                                                                        continued…
+                                                   – 14 –             M22/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+Question 1 continued
+
+
+     (f)   (i)    attempt to find tangent line through ( −1, −1)                              (M1)
+
+                           3
+                  y + 1 = − ( x + 1) OR y = −1.5 x − 2.5                                        A1
+                           2
+                                                                                          [2 marks]
+
+
+           (ii)   attempt to solve simultaneously with y 2 = x3 + 2                           (M1)
+
+
+     Note: The M1 mark can be awarded for an unsupported correct answer in an
+           incorrect format (e.g. (4.25, -8.875)).
+
+
+                          17 71 
+                  obtain    ,−                                                                A1
+                          4   8
+                                                                                          [2 marks]
+                                                                                        continued…
+                                                    – 15 –   M22/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+Question 1 continued
+
+
+     (g)   attempt to find equation of  QS                                          (M1)
+
+           y −1    79
+                = − ( = −1.88095          )                                           (A1)
+           x +1    42
+           solve simultaneously with y 2 = x3 + 2                                     (M1)
+
+                        127 
+           x = 0.28798  =                                                             A1
+                        441 
+                               13175 
+           y = −1.4226        =                                                       A1
+                               9261 
+           ( 0.288, −1.42 )
+
+           OR
+           attempt to find vector equation of  QS                                   (M1)
+
+            x   −1      214 
+                =
+                   +   79                                                      (A1)
+            y  1       − 8 
+                      21
+           x = −1 +      
+                      4
+                    79
+           y = 1−      
+                    8
+                                          2             3
+                             79            21 
+           attempt to solve 1 −    =  −1 +   + 2                                (M1)
+                                8          4 
+            = 0.2453
+                        127 
+           x = 0.28798  =                                                             A1
+                        441 
+                               13175 
+           y = −1.4226        =                                                       A1
+                               9261 
+           ( 0.288, −1.42 )
+                                                                                 [5 marks]
+                                                                           [Total 28 marks]
+                                                        – 16 –                  M22/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+2.   (a)   attempt to expand ( x −  )( x −  )( x −  )                                                  M1
+
+           = ( x 2 − ( +  ) x +  ) ( x −  ) OR = ( x −  ) ( x 2 − (  +  ) x +  )                A1
+
+           ( x + px + qx + r ) = x − ( +  +  ) x + ( +  +  ) x − 
+                 3     2             3                  2
+                                                                                                          A1
+
+           comparing coefficients:
+            p = − ( +  +  )                                                                           AG
+           q = ( +  +  )                                                                           AG
+
+           r = −                                                                                      AG
+
+
+     Note: For candidates who do not include the AG lines award full marks.
+                                                                                                    [3 marks]
+
+
+
+
+     (b)   (i)       p 2 − 2q = ( +  +  )2 − 2( +  +  )                                         (A1)
+
+                     attempt to expand ( +  +  )2                                                    (M1)
+
+                     =  2 +  2 +  2 + 2( +  +  ) − 2( +  +  ) or equivalent                A1
+
+                     =2 + 2 + 2                                                                       AG
+
+
+     Note: Accept equivalent working from RHS to LHS.
+                                                                                                    [3 marks]
+                                                                                                  continued…
+                                                       – 17 –                M22/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+Question 2 continued
+
+
+          (ii)   EITHER
+                 attempt to expand ( −  )2 + ( −  )2 + ( −  )2                                 (M1)
+
+                 = ( 2 +  2 − 2 ) + (  2 +  2 − 2 ) + ( 2 +  2 − 2 )                       A1
+
+                 = 2( 2 +  2 +  2 ) − 2( +  +  )
+
+                 = 2 ( p 2 − 2q ) − 2q or equivalent                                                   A1
+
+                 = 2 p 2 − 6q                                                                         AG
+
+
+                 OR
+                 attempt to write 2 p 2 − 6q in terms of  ,  ,                                    (M1)
+
+                 = 2 ( p 2 − 2q ) − 2q
+
+                 = 2( 2 +  2 +  2 ) − 2( +  +  )                                              A1
+
+                 = ( 2 +  2 − 2 ) + (  2 +  2 − 2 ) + ( 2 +  2 − 2 )                       A1
+
+                 = ( −  )2 + ( −  )2 + ( −  )2                                                  AG
+
+
+     Note: Accept equivalent working where LHS and RHS are expanded to identical
+           expressions.
+
+
+                                                                                                 [3 marks]
+                                                                                               continued…
+                                                      – 18 –               M22/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+Question 2 continued
+
+
+     (c)    p 2  3q  2 p 2 − 6q  0
+            ( −  )2 + ( −  )2 + ( −  )2  0                                                   A1
+
+           if all roots were real ( −  )2 + (  −  )2 + ( −  )2  0                             R1
+
+
+     Note: Condone strict inequality in the R1 line.
+     Note: Do not award A0R1.
+
+
+            roots cannot all be real                                                               AG
+                                                                                               [2 marks]
+
+
+
+
+     (d)    p 2 = (−7)2 = 49 and 3q = 51                                                             A1
+
+           so p 2  3q  the equation has at least one complex root                                  R1
+
+
+
+     Note: Allow equivalent comparisons; e.g. checking 2 p 2  6q
+
+                                                                                               [2 marks]
+
+
+
+
+     (e)   (i)    use of GDC (eg graphs or tables)                                                 (M1)
+                  q = 12                                                                             A1
+                                                                                               [2 marks]
+
+
+           (ii)   complex roots appear in conjugate pairs (so if complex roots occur the
+                  other root will be real OR all 3 roots will be real).
+                  OR
+                  a cubic curve always crosses the x -axis at at least one point.                    R1
+                                                                                                [1 mark]
+                                                                                             continued…
+                                                      – 19 –               M22/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+Question 2 continued
+
+
+     (f)    (i)     attempt to expand ( +  +  +  )2                                                   (M1)
+
+                    ( +  +  +  )2 =  2 +  2 +  2 +  2 + 2( +  +  +  +  +  )
+                                                                                                          (A1)
+                      2 +  2 +  2 +  2 = ( +  +  +  )2 − 2( +  +  +  +  +  )
+
+                    (   +  +  +  = ) p − 2q
+                          2     2    2    2     2
+                                                                                                           A1
+
+                                                                                                     [3 marks]
+
+
+            (ii)     p 2  2q OR p 2 − 2q  0                                                              A1
+
+
+                   Note: Allow FT on their result from part (f)(i).
+                                                                                                      [1 mark]
+
+
+
+
+     (g)    4  6 OR 22 − 2  3  0                                                                        R1
+            hence there is at least one complex root.                                                      AG
+
+
+           Note: Allow FT from part (f)(ii) for the R mark provided numerical reasoning
+                  is seen.
+                                                                                                      [1 mark]
+                                                                                                    continued…
+                                                        – 20 –         M22/5/MATHX/HP3/ENG/TZ2/XX/M
+
+
+Question 2 continued
+
+
+     (h)   (i)     ( p  2q ) (81  2  24) (so) nothing can be deduced
+                      2
+                                                                                                     R1
+
+     Note: Do not allow FT for the R mark.
+                                                                                               [1 mark]
+
+
+           (ii)    −1                                                                                A1
+                                                                                               [1 mark]
+
+
+           (iii)   attempt to express as a product of a linear and cubic factor                      M1
+                   ( x + 1)( x3 − 10 x 2 + 34 x − 12)                                             A1A1
+
+
+     Note: Award A1 for each factor. Award at most A1A0 if not written as a product.
+
+
+                   since for the cubic, p 2  3q (100  102)                                         R1
+                   there is at least one complex root                                               AG
+                                                                                              [4 marks]
+                                                                                       [Total: 27 marks]
+

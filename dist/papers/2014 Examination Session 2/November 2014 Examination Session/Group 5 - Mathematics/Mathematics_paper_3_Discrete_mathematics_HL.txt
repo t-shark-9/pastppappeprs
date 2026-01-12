@@ -1,0 +1,168 @@
+N14/5/MATHL/HP3/ENG/TZ0/DM
+
+
+
+
+      88147207
+
+mathematics
+Higher level
+Paper 3 – DISCRETE MATHEMATICS
+
+Thursday 13 November 2014 (afternoon)
+
+1 hour
+
+
+INSTRUCTIONS to candidates
+
+ Do not open this examination paper until instructed to do so.
+ Answer all the questions.
+ Unless otherwise stated in the question, all numerical answers should be given exactly or
+  correct to three significant figures.
+ A graphic display calculator is required for this paper.
+ A clean copy of the Mathematics HL and Further Mathematics HL formula booklet is required
+  for this paper.
+ The maximum mark for this examination paper is [60 marks].
+
+
+
+
+8814-7207                                                                                       4 pages
+                                                        © International Baccalaureate Organization 2014
+                                                    –2–                N14/5/MATHL/HP3/ENG/TZ0/DM
+
+Please start each question on a new page. Full marks are not necessarily awarded for a correct answer
+with no working. Answers must be supported by working and/or explanations. In particular, solutions
+found from a graphic display calculator should be supported by suitable working. For example, if graphs
+are used to find a solution, you should sketch these as part of your answer. Where an answer is incorrect,
+some marks may be given for a correct method, provided this is shown by written working. You are therefore
+advised to show all working.
+
+1.    [Maximum mark: 14]
+
+      Let f (n) = n5 − n , n ∈  + .
+
+      (a)   Find the values of f (3) , f (4) and f (5) .                                                  [2]
+
+      (b)   Use the Euclidean algorithm to find
+
+		(i)              gcd ( f (3), f (4) ) ;
+
+		(ii)             gcd ( f (4), f (5) ) .                                                                 [4]
+
+      (c)   Explain why f (n) is always exactly divisible by 5.                                           [1]
+
+      (d)   By factorizing f (n) explain why it is always exactly divisible by 6.                         [4]
+
+      (e)   Determine the values of n for which f (n) is exactly divisible by 60.                         [3]
+
+
+2.    [Maximum mark: 10]
+
+      (a)   Use the pigeon-hole principle to prove that for any simple graph that has two or more
+            vertices and in which every vertex is connected to at least one other vertex, there must be
+            at least two vertices with the same degree.                                                   [4]
+
+      Seventeen people attend a meeting.
+
+      (b)   Each person shakes hands with at least one other person and no-one shakes hands with
+            the same person more than once. Use the result from part (a) to show that there must be
+            at least two people who shake hands with the same number of people.                           [4]
+
+      (c)   Explain why each person cannot have shaken hands with exactly nine other people.              [2]
+
+
+
+
+8814-7207
+                                                          –3–              N14/5/MATHL/HP3/ENG/TZ0/DM
+
+3.    [Maximum mark: 13]
+
+      The following graph represents the cost in dollars of travelling by bus between 10 towns in a
+      particular province.
+
+                                                                   E
+
+
+                                                11                         9
+
+                            B                        13            F       6            I
+                    10                                                                          11
+                                            7                          5
+                                                                                   4
+                              18
+            A                                                                                          J
+                                                     D             7           G        8
+                   11                   9
+                                                               5                            5
+                             C
+
+                                                                               H
+
+
+      (a)       Use Dijkstra’s algorithm to find the cheapest route between A and J, and state its cost.    [7]
+
+      For the remainder of the question you may find the cheapest route between any two towns
+      by inspection.
+
+      It is given that the total cost of travelling on all the roads without repeating any is $139.
+      A tourist decides to go over all the roads at least once, starting and finishing at town A.
+
+      (b)       Find the lowest possible cost of his journey, stating clearly which roads need to be
+                travelled more than once. You must fully justify your answer.                               [6]
+
+
+4.    [Maximum mark: 10]
+
+      (a)       Solve, by any method, the following system of linear congruences
+
+                                                 x ≡ 9 (mod 11)
+                                                 x ≡ 1 (mod 5) .                                            [3]
+
+      (b)       Find the remainder when 4182 is divided by 11 .                                             [4]
+
+      (c)       Using your answers to parts (a) and (b) find the remainder when  4182 is divided by 55 .    [3]
+
+
+
+
+8814-7207                                                                                             Turn over
+                                                    –4–                 N14/5/MATHL/HP3/ENG/TZ0/DM
+
+5.    [Maximum mark: 13]
+
+      Andy and Roger are playing tennis with the rule that if one of them wins a game when serving
+      then he carries on serving, and if he loses then the other player takes over the serve.
+
+                                                         1
+      The probability Andy wins a game when serving is       and the probability he wins a game when
+                                                         2
+                    1
+      not serving is .  Andy serves in the first game.  Let  un denote the probability that Andy wins
+                    4
+      the n game.
+           th
+
+
+
+
+      (a)   State the value of u1 .                                                                      [1]
+
+      (b)   Show that un satisfies the recurrence relation
+
+                                                     1       1
+                                                 un = un −1 + .                                          [4]
+                                                     4       4
+
+      (c)   Solve this recurrence relation to find the probability that Andy wins the  nth game.         [6]
+
+      (d)   After they have played many games, Pat comes to watch.  Use your answer from part (c)
+            to estimate the probability that Andy will win the game they are playing when Pat arrives.   [2]
+
+
+
+
+8814-7207
+

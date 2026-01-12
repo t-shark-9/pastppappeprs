@@ -1,0 +1,213 @@
+N18/4/COMSC/HP3/ENG/TZ0/XX/M
+
+
+
+
+                       Markscheme
+
+
+                        November 2018
+
+
+                     Computer science
+
+
+                           Higher level
+
+
+                               Paper 3
+
+
+
+
+6 pages
+                          –2–            N18/4/COMSC/HP3/ENG/TZ0/XX/M
+
+
+
+
+This markscheme is the property of the International
+Baccalaureate and must not be reproduced or distributed
+to any other person without the authorization of the
+IB Global Centre, Cardiff.
+                                                  –3–                N18/4/COMSC/HP3/ENG/TZ0/XX/M
+
+
+1.   (a)   Award [1] for each requirement up to [2 max].
+           That an automated driving system can carry out all of the actions of the task of
+           driving;
+           In all (roadway and environmental) conditions /
+           If the automation stops working the ADS brings the car to a safe stop;
+           Does not require a human driver;                                                          [2]
+
+     (b)   Award [1] for each characteristic of max-pooling up to [2 max].
+           Max-pooling selects the maximum value / removes all other values;
+           From each set of values in the receptive field/windows (allow description/example
+           here);
+           Max-pooling is a process that down samples an input reducing its dimensions /
+           reducing processing;
+
+           Award [1] for a correct diagram on its own.
+
+
+
+
+                                                                                                     [2]
+
+
+2.   (a)   Award [1] for each reason for the inclusion of both GPS and high density (HD)
+           mapping in autonomous car systems up to [4 max].
+           GPS is used to locate the vehicle’s position;
+           This will allow the correct (section of) the HD maps to be used;
+           GPS will also allow route-planning to take place;
+           HD maps display the vehicle’s location within the HD map / cross references the
+           GPS position to show location / contextualize the position in relation to prominent
+           features;
+           And will contain detailed features of the route (immediately ahead);
+           Such as (allow any 1 example) traffic signs, lane markings, prominent features
+           etc;
+           Allowing driving decisions to be planned in advance;                                  [4 max]
+                                                    –4–                N18/4/COMSC/HP3/ENG/TZ0/XX/M
+
+
+     (b)   Award marks as follows:
+           Award [2 max] for a valid consideration of the ethics looking at both sides of the
+           argument (award up to [2] for each side of the argument – [1] for a reasonable
+           attempt).
+
+           Sample answer could contain the following:
+
+           The concern could be that:
+           • Is it ethically correct to put other drivers at risk in this way?
+           • Public have not given their consent.
+           • Cars are not in the final state (beta testing) and bugs are present.
+           • As any errors could result in crashes/injuries.
+           • Cars should be fully tested away from the public.
+
+           The justification could include:
+           • Fully autonomous cars will vastly reduce accidents, so some risk in testing is
+             acceptable.
+           • A driver is always present during the beta-testing so risks are minimized.
+           • Only by testing in real conditions will the systems be perfected / CNN will learn
+             from real conditions.
+           • Very few deaths have been attributed to autonomous driving.                       [4 max]
+
+           Note: Only award [2] for either side if the argument if the answer captures the
+           main force of the argument.
+
+
+3.   Award [1] for any of the following mark points up to [6 max].
+     For each feature (map) that is being looked for there is one (corresponding) filter;
+     The depth of the filter (e.g. 5 x 5 x 3) must match the depth of the input / receptive field;
+     The filter is an array of numbers/weights/matrix;
+     Each filter moves through the input plane / convolutional layer in steps / filter slides or
+     convolves around the image;
+     As it convolves the values in the filter and multiplied with the original pixel values of the
+     image (i.e. elementwise multiplications);
+     At each step (i.e. after each elementwise multiplication) the sum of the dot products of
+     corresponding values in the field and the receptive field is calculated;
+     This calculated value becomes the corresponding value in the feature map;
+     A high value will indicate that the feature has been found (in the receptive field);
+     Every receptive field is looked at / the whole input is looked at;
+     So the feature can be recognized wherever it is;                                                    [6]
+                                                  –5–               N18/4/COMSC/HP3/ENG/TZ0/XX/M
+
+
+4.   The answer could include the following:
+
+     • Deep-learning algorithms.
+       These algorithms can be safely beta-tested on the actual routes that they will be
+       used on, before anybody actually moves into the town, thereby eliminating all risks.
+       The number of different objects that need to be recognized would be greatly
+       reduced again leading to more accurate decisions.
+
+     • Embedded technology.
+       A discussion involving the use of embedded technology/sensors in the
+       infrastructure. This could provide information regarding temporary closed routes /
+       accidents / traffic jams etc which would be relayed to all of the taxis using the
+       various protocols (see below).
+
+     • Protocols.
+       The use of vehicle-to-vehicle protocols would allow the broadcasting of relevant
+       traffic information from any one vehicle to all of the others. This may lead to a
+       recalculation of routes on the fly.
+       Vehicle-to-infrastructure protocols would relay information regarding pedestrian
+       crossing, priorities (replacing traffic lights) at the next intersection etc.
+
+     • Use of HD maps.
+       Due to the limited scope of the project (in terms of geographical size), all routes
+       could be mapped out in precisely producing detailed HD maps. These would allow
+       the deep learning algorithms to make accurate driving decisions.
+
+     • Use of route planning algorithms.
+       Dijkstra’s and the nearest neighbour algorithm could recalculate routes on the fly if
+       traffic jams or road closures occur. For the former, the “distances” between points
+       could be changed to reflect the additional time needed to traverse that section and
+       for the latter the link could be removed (temporarily) from the town’s route map.
+
+     • The possible drawbacks of using these algorithms.
+       Nearest neighbour might give a solution nowhere near the optimal (with an
+       unacceptably long last leg).
+       Or it might not give a completed solution at all, so there would need to be a backup
+       plan.
+       The running time of Dykstra’s algorithm increases rapidly as the number of nodes
+       increases which would result in a large computational cost for a town graph with a
+       large number of nodes
+
+     • An evaluation of the alternatives.
+       For both bus and taxi projects a brute force algorithm could be considered that
+       would evaluate every possible route in order to arrive at the optimal. But as the
+       number of nodes increase this algorithm becomes too costly.
+
+     • Conclusion.
+       A final measured conclusion is included in which the candidate links together the
+       various points in evaluating the probability of success.
+                                        –6–              N18/4/COMSC/HP3/ENG/TZ0/XX/M
+
+
+
+  Marks      Level descriptor
+
+             • No knowledge or understanding of the relevant issues and concepts.
+No marks
+             • No use of appropriate terminology.
+
+             •   Minimal knowledge and understanding of the relevant issues or concepts.
+  Basic
+             •   Minimal use of appropriate terminology.
+             •   The answer may be little more than a list.
+   1–3
+  marks      •   No reference is made to the information in the case study or independent
+                 research.
+
+             • A descriptive response with limited knowledge and/or understanding of the
+Adequate
+               relevant issues or concepts.
+             • A limited use of appropriate terminology.
+   4–6
+             • There is limited evidence of analysis.
+  marks
+             • There is evidence that limited research has been undertaken.
+
+             • A response with knowledge and understanding of the related issues and/or
+Competent
+               concepts.
+             • A response that uses terminology appropriately in places.
+   7–9
+             • There is some evidence of analysis.
+  marks
+             • There is evidence that research has been undertaken.
+
+             • A response with a detailed knowledge and clear understanding of the
+Proficient     computer science.
+             • A response that uses terminology appropriately throughout.
+ 10–12       • There is competent and balanced analysis.
+ marks       • Conclusions are drawn that are linked to the analysis.
+             • There is clear evidence that extensive research has been undertaken.
+
+
+                                                                                      [12]
+
+
+                                                                                Total: [30]
+

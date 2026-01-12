@@ -1,0 +1,861 @@
+M23/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+
+
+                       Markscheme
+
+
+                               May 2023
+
+
+   Mathematics: analysis and approaches
+
+
+                         Standard level
+
+
+                               Paper 2
+
+
+
+
+26 pages
+                                            –2–                 M23/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+
+
+© International Baccalaureate Organization 2023
+
+All rights reserved. No part of this product may be reproduced in any form or by any
+electronic or mechanical means, including information storage and retrieval systems,
+without the prior written permission from the IB. Additionally, the license tied with this
+product prohibits use of any selected files or extracts from this product. Use by third
+parties, including but not limited to publishers, private teachers, tutoring or study services,
+preparatory schools, vendors operating curriculum mapping services or teacher resource
+digital platforms and app developers, whether fee-covered or not, is prohibited and is a
+criminal offense.
+
+More information on how to request written permission in the form of a license can be
+obtained from https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-
+license/.
+
+© Organisation du Baccalauréat International 2023
+
+Tous droits réservés. Aucune partie de ce produit ne peut être reproduite sous quelque
+forme ni par quelque moyen que ce soit, électronique ou mécanique, y compris des
+systèmes de stockage et de récupération d’informations, sans l’autorisation écrite
+préalable de l’IB. De plus, la licence associée à ce produit interdit toute utilisation de tout
+fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris, sans
+toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de tutorat ou
+d’aide aux études, des établissements de préparation à l’enseignement supérieur, des
+fournisseurs de services de planification des programmes d’études, des gestionnaires de
+plateformes pédagogiques en ligne, et des développeurs d’applications, moyennant
+paiement ou non, est interdite et constitue une infraction pénale.
+
+Pour plus d’informations sur la procédure à suivre pour obtenir une autorisation écrite
+sous la forme d’une licence, rendez-vous à l’adresse https://ibo.org/become-an-ib-school/
+ib-publishing/licensing/applying-for-a-license/.
+
+© Organización del Bachillerato Internacional, 2023
+
+Todos los derechos reservados. No se podrá reproducir ninguna parte de este producto
+de ninguna forma ni por ningún medio electrónico o mecánico, incluidos los sistemas de
+almacenamiento y recuperación de información, sin la previa autorización por escrito del
+IB. Además, la licencia vinculada a este producto prohíbe el uso de todo archivo o
+fragmento seleccionado de este producto. El uso por parte de terceros —lo que incluye,
+a título enunciativo, editoriales, profesores particulares, servicios de apoyo académico o
+ayuda para el estudio, colegios preparatorios, desarrolladores de aplicaciones y
+entidades que presten servicios de planificación curricular u ofrezcan recursos para
+docentes mediante plataformas digitales—, ya sea incluido en tasas o no, está prohibido
+y constituye un delito.
+
+En este enlace encontrará más información sobre cómo solicitar una autorización por
+escrito en forma de licencia: https://ibo.org/become-an-ib-school/ib-publishing/licensing/
+applying-for-a-license/.
+                                                    –3–                 M23/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+                                        Instructions to Examiners
+
+Abbreviations
+
+M    Marks awarded for attempting to use a correct Method.
+
+A    Marks awarded for an Answer or for Accuracy; often dependent on preceding M marks.
+
+R    Marks awarded for clear Reasoning.
+
+AG   Answer given in the question and so no marks are awarded.
+
+FT   Follow through. The practice of awarding marks, despite candidate errors in previous parts, for
+     their correct methods/answers using incorrect results.
+
+
+Using the markscheme
+
+1    General
+
+     Award marks using the annotations as noted in the markscheme eg M1, A2.
+
+
+2    Method and Answer/Accuracy marks
+
+     • Do not automatically award full marks for a correct answer; all working must be checked, and
+       marks awarded according to the markscheme.
+     • It is generally not possible to award M0 followed by A1, as A mark(s) depend on the preceding M
+       mark(s), if any.
+     • Where M and A marks are noted on the same line, e.g. M1A1, this usually means M1 for an
+       attempt to use an appropriate method (e.g. substitution into a formula) and A1 for using the
+       correct values.
+     • Where there are two or more A marks on the same line, they may be awarded independently; so
+       if the first value is incorrect, but the next two are correct, award A0A1A1.
+     • Where the markscheme specifies A3, M2 etc., do not split the marks, unless there is a note.
+     • The response to a “show that” question does not need to restate the AG line, unless a Note
+       makes this explicit in the markscheme.
+     • Once a correct answer to a question or part question is seen, ignore further working even if this
+       working is incorrect and/or suggests a misunderstanding of the question. This will encourage a
+       uniform approach to marking, with less examiner discretion. Although some candidates may be
+       advantaged for that specific question item, it is likely that these candidates will lose marks elsewhere
+       too.
+     • An exception to the previous rule is when an incorrect answer from further working is used in a
+       subsequent part. For example, when a correct exact value is followed by an incorrect decimal
+       approximation in the first part and this approximation is then used in the second part. In this
+       situation, award FT marks as appropriate but do not award the final A1 in the first part.
+                                                    –4–                 M23/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+Examples:
+
+     Correct         Further            Any FT issues?
+                                                                   Action
+     answer seen     working seen
+1.                      5.65685...        No.                       Award A1 for the final mark
+       8 2            (incorrect          Last part in question.    (condone the incorrect further
+                     decimal value)                                 working)
+2.      35            0.468111…           Yes.                      Award A0 for the final mark
+                      (incorrect          Value is used in          (and full FT is available in
+        72           decimal value)       subsequent parts.         subsequent parts)
+
+
+3    Implied marks
+
+     Implied marks appear in brackets e.g. (M1),and can only be awarded if correct work is seen or
+     implied by subsequent working/answer.
+
+
+4    Follow through marks (only applied after an error is made)
+
+     Follow through (FT) marks are awarded where an incorrect answer from one part of a question is
+     used correctly in subsequent part(s) (e.g. incorrect value from part (a) used in part (d) or incorrect
+     value from part (c)(i) used in part (c)(ii)). Usually, to award FT marks, there must be working
+     present and not just a final answer based on an incorrect answer to a previous part. However, if all
+     the marks awarded in a subsequent part are for the answer or are implied, then FT marks should
+     be awarded for their correct answer, even when working is not present.
+
+     For example: following an incorrect answer to part (a) that is used in subsequent parts, where the
+     markscheme for the subsequent part is (M1)A1, it is possible to award full marks for their correct
+     answer, without working being seen. For longer questions where all but the answer marks are
+     implied this rule applies but may be overwritten by a Note in the Markscheme.
+
+     • Within a question part, once an error is made, no further A marks can be awarded for work which
+       uses the error, but M marks may be awarded if appropriate.
+
+     • If the question becomes much simpler because of an error then use discretion to award fewer
+       FT marks, by reflecting on what each mark is for and how that maps to the simplified version.
+
+     • If the error leads to an inappropriate value (e.g. probability greater than 1, sin  = 1.5 , non-integer
+       value where integer required), do not award the mark(s) for the final answer(s).
+
+     • The markscheme may use the word “their” in a description, to indicate that candidates may be
+       using an incorrect value.
+
+     • If the candidate’s answer to the initial question clearly contradicts information given in the
+       question, it is not appropriate to award any FT marks in the subsequent parts. This includes when
+       candidates fail to complete a “show that” question correctly, and then in subsequent parts use
+       their incorrect answer rather than the given value.
+
+     • Exceptions to these FT rules will be explicitly noted on the markscheme.
+
+     • If a candidate makes an error in one part but gets the correct answer(s) to subsequent part(s),
+       award marks as appropriate, unless the command term was “Hence”.
+                                                 –5–                 M23/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+5   Mis-read
+
+    If a candidate incorrectly copies values or information from the question, this is a mis-read (MR). A
+    candidate should be penalized only once for a particular misread. Use the MR stamp to indicate
+    that this has been a misread and do not award the first mark, even if this is an M mark, but award
+    all others as appropriate.
+    • If the question becomes much simpler because of the MR, then use discretion to award
+      fewer marks.
+
+    • If the MR leads to an inappropriate value (e.g. probability greater than 1, sin  = 1.5 , non-integer
+      value where integer required), do not award the mark(s) for the final answer(s).
+
+    • Miscopying of candidates’ own work does not constitute a misread, it is an error.
+
+    • If a candidate uses a correct answer, to a “show that” question, to a higher degree of accuracy
+      than given in the question, this is NOT a misread and full marks may be scored in the subsequent
+      part.
+
+    • MR can only be applied when work is seen. For calculator questions with no working and incorrect
+      answers, examiners should not infer that values were read incorrectly.
+
+
+6   Alternative methods
+
+    Candidates will sometimes use methods other than those in the markscheme. Unless the question
+    specifies a method, other correct methods should be marked in line with the markscheme. If the
+    command term is ‘Hence’ and not ‘Hence or otherwise’ then alternative methods are not permitted
+    unless covered by a note in the mark scheme.
+
+    • Alternative methods for complete questions are indicated by                          METHOD        1,
+      METHOD 2, etc.
+    • Alternative solutions for parts of questions are indicated by EITHER . . . OR.
+
+
+7   Alternative forms
+    Unless the question specifies otherwise, accept equivalent forms.
+
+    • As this is an international examination, accept all alternative forms of notation for example 1.9
+      and 1,9 or 1000 and 1,000 and 1.000 .
+
+    • Do not accept final answers written using calculator notation. However, M marks and intermediate
+      A marks can be scored, when presented using calculator notation, provided the evidence clearly
+      reflects the demand of the mark.
+
+    • In the markscheme, equivalent numerical and algebraic forms will generally be written in
+      brackets immediately following the answer.
+
+    • In the markscheme, some equivalent answers will generally appear in brackets. Not all
+      equivalent notations/answers/methods will be presented in the markscheme and examiners are
+      asked to apply appropriate discretion to judge if the candidate work is equivalent.
+                                                      –6–                  M23/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+8     Format and accuracy of answers
+
+      If the level of accuracy is specified in the question, a mark will be linked to giving the answer to the
+      required accuracy. If the level of accuracy is not stated in the question, the general rule applies to
+      final answers: unless otherwise stated in the question all numerical answers must be given exactly
+      or correct to three significant figures.
+
+      Where values are used in subsequent parts, the markscheme will generally use the exact value,
+      however candidates may also use the correct answer to 3 sf in subsequent parts. The
+      markscheme will often explicitly include the subsequent values that come “from the use of 3 sf
+      values”.
+
+      Simplification of final answers: Candidates are advised to give final answers using good
+      mathematical form. In general, for an A mark to be awarded, arithmetic should be completed, and
+                                                                                 25                     5
+      any values that lead to integers should be simplified; for example,           should be written as .
+                                                                                 4                      2
+      An exception to this is simplifying fractions, where lowest form is not required (although the
+                                                                             10
+      numerator and the denominator must be integers); for example,             may be left in this form or
+                                                                              4
+                   5            10
+      written as     . However,    should be written as 2, as it simplifies to an integer.
+                   2             5
+
+      Algebraic expressions should be simplified by completing any operations such as addition and
+      multiplication, e.g. 4e 2 x  e3 x should be simplified to 4e5 x , and 4e 2 x  e3 x − e 4 x  e x should be
+      simplified to 3e5 x . Unless specified in the question, expressions do not need to be factorized, nor
+      do factorized expressions need to be expanded, so x ( x + 1) and x 2 + x are both acceptable.
+
+      Please note: intermediate A marks do NOT need to be simplified.
+
+9     Calculators
+
+      A GDC is required for this paper, but if you see work that suggests a candidate has used any
+      calculator not approved for IB DP examinations (eg CAS enabled devices), please follow the
+      procedures for malpractice.
+
+
+10.   Presentation of candidate work
+
+      Crossed out work: If a candidate has drawn a line through work on their examination script, or in
+      some other way crossed out their work, do not award any marks for that work unless an explicit
+      note from the candidate indicates that they would like the work to be marked.
+
+      More than one solution: Where a candidate offers two or more different answers to the same
+      question, an examiner should only mark the first response unless the candidate indicates
+      otherwise. If the layout of the responses makes it difficult to judge, examiners should apply
+      appropriate discretion to judge which is “first”.
+                                              –7–              M23/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+                                            Section A
+
+1.   (a)   Let N be North
+            ˆ = 34 OR DJL
+           NJD          ˆ = 56 (must be labelled or indicated in diagram):                  (A1)
+            ˆ
+           JDL=99 ( )                                                                         A1
+
+                    11π
+     Note: Accept       , 1.73 (radians).
+                     20
+
+
+                                                                                        [2 marks]
+
+
+
+
+     (b)   attempt to apply the sine rule                                                    (M1)
+             DL      500            DL            500
+                  =        OR                =                                               (A1)
+           sin 56 sin 99    sin 0.977384... sin1.72787...
+           419.685...
+           DL = 420 (km)                                                                       A1
+
+     Note: Award M1A1A0 for 261 (km) from use of degrees with GDC set in radians
+           (with or without working).
+
+
+
+                                                                                        [3 marks]
+                                                                                   Total [5 marks]
+                                   –8–   M23/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+2.   (a)   9% (accept 0.09 )                                      A1
+                                                             [1 mark]
+
+
+
+
+     (b)   t = 5 (seen anywhere)                                 (A1)
+           24961.28...
+           25000 (dollars)                                        A1
+                                                            [2 marks]
+
+
+                                                           continued…
+                                                   –9–               M23/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+Question 2 continued
+
+
+     (c)   EITHER
+           n=5
+           I% = 3
+           PV = (    )15000
+           P/Y = 1
+           C/Y = 1                                                                                (A1)
+
+     Note: Award (A1) for use of a financial app in their technology with all entries
+           correct.
+
+           (  FV = (  )17389.11...)
+           OR
+                              5
+                     3 
+           15000 1 +    ( = 17389.11...)                                                        (A1)
+                  100 
+           THEN
+           subtracting their value from their answer to part (b)                                  (M1)
+           7572.17 …
+           7570 (dollars)                                                                           A1
+                                                                                             [3 marks]
+                                                                                        Total [6 marks]
+                                             – 10 –   M23/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+3.   (a)   attempt to substitute g into f                                    (M1)
+           (f   g )( x) = 2 tan x − tan3 x                                     A1
+                                                                         [2 marks]
+
+
+                                                                        continued…
+                                                   – 11 –               M23/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+Question 3 continued
+
+
+(b)
+
+
+
+
+                                                                                                     A1A1A1
+
+      Note: A1 for approximately correct odd function passing through the origin with a
+             maximum above y = 1 and a minimum below y = −1 .
+
+             A1 for endpoints at x = 1 and y in the intervals  0.6, 0.8 and  −0.8, −0.6
+
+             A1 for maximum in approximately correct position and labelled
+
+             ( 0.685,1.09 ) AND minimum in approximately correct position and labelled
+             ( −0.685, −1.09) . For approximate position, allow −0.8  x  −0.6 ,
+             −1.2  y  −1 for minimum and 0.6  x  0.8 , 1  y  1.2 for maximum. If
+             the candidate gives the coordinates of extrema below their sketch, only
+             award this mark if extrema are marked in the correct interval (eg by a dot).
+
+
+
+                                                                                                    [3 marks]
+                                                                                               Total [5 marks]
+                                                – 12 –   M23/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+4.   (a)   recognising to find y (25)                                           (M1)
+
+           y(25) = −0.6  252 + 23  25 + 110
+           = 310 (children)                                                       A1
+                                                                            [2 marks]
+
+
+
+
+     (b)   recognizing x on y is required                                       (M1)
+           0.0935114… and 7.43053…                                               (A1)
+           x = 0.0935 y + 7.43                                                    A1
+
+
+                                                                            [3 marks]
+                                                                           continued…
+                                                          – 13 –       M23/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+Question 4 continued
+
+
+     (c)   attempt to substitute their answer to part (a) into their regression equation for either
+           x or y                                                                                     (M1)
+           x = 0.0935114...  310 + 7.43053...( = 36.4190...)
+           36 (accept 37 or 36.4)                                                                      A1
+
+     Note: Award (M1)A1FT for x = 37 found from using y = 9.39 x − 41.5 .
+
+                                                                          
+            Award (M1)A0FT for a correct FT answer that lies outside 15, 46 .    
+
+                                                                                                 [2 marks]
+                                                                                           Total [7 marks]
+                                                    – 14 –            M23/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+5.   METHOD 1
+     Q1 =31.86 OR Q3 = 32.14                                                                        (A1)
+
+     recognition that the area under the normal curve below Q1 or above Q3 is 0.25 OR the
+     area between Q1 and Q3 is 0.5 (seen anywhere including on a diagram)                           (M1)
+
+
+     EITHER
+     equating an appropriate correct normal CDF function to its correct probability ( 0.25 or 0.5
+     or 0.75 )  (A2)
+
+
+     OR
+     z = −0.674489... OR z = 0.674489... (seen anywhere)                                            (A1)
+                      31.86 − 32                         32.14 − 32
+     −0.674489... =                   OR 0.674489... =                                              (A1)
+                                                            
+
+
+     THEN
+     0.207564...
+      = 0.208 (mm)                                                                                  A1
+
+
+     METHOD 2
+     recognition that the area under the normal curve below Q1 or above Q3 is 0.25 OR the
+     area between Q1 and Q3 is 0.5 (seen anywhere including on a diagram)                           (M1)
+
+     z = −0.674489... OR z = 0.674489...                                                            (A1)
+
+     ( Q1 = ) 32 − 0.674489... OR ( Q3 = ) 32 + 0.674489...                                       (A1)
+
+     ( Q3 − Q1 = ) 2  0.674489...
+     2  0.674489... = 0.28                                                                        (A1)
+     0.207564...
+      = 0.208 (mm)                                                                                  A1
+                                                                                        Total [5 marks]
+                                                    – 15 –               M23/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+6.   product of a binomial coefficient, a power of ax 3 and a power of b seen          (M1)
+     evidence of correct term chosen
+
+     for n = 8 : r = 2 (or r = 6 ) OR for n = 10 : r = 2 (or r = 8 )                                      (A1)
+
+     correct equations (may include powers of x)                                                          A1A1
+
+     8
+      C2 a 2b6 = 448 ( 28a 2b6 = 448  a 2b6 = 16 ) , 10C2 a 2b8 = 2880 ( 45a 2b8 = 2880  a 2b8 = 64 )
+
+     attempt to solve their system in a and b algebraically or graphically                                (M1)
+
+                 1
+     b=2; a=                                                                                              A1A1
+                 2
+
+                                                                                          1
+     Note: Award a maximum of (M1)(A1)A1A1(M1)A1A0 for b = 2 and/or a =                   .
+                                                                                          2
+
+
+                                                                                                    [7 marks]
+                                                    – 16 –             M23/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+                                                  Section B
+7.   (a)   (i)      96 () (exact)                                                              A1
+
+
+           (ii)     79.9970...
+                    80.0 () (accept 80 )                                                       A1
+                                                                                          [2 marks]
+
+
+
+
+     (b)   −4.71976...
+           −4.72 (°C min-1)                                                                     A2
+                                                                                           [2 mark]
+
+
+
+
+     (c)   3 valid descriptors, in any order:                                                   A2
+           •      at 3 minutes (or when t = 3 )
+           •      cooling/decreasing (do not accept “changing”)
+           •      4.72 °C min-1 (must include units) (accept approximately 5 deg/min)
+                                                                                          [2 marks]
+
+
+                                                                                         continued…
+                                                    – 17 –             M23/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+Question 7 continued
+
+
+     (d)   METHOD 1
+           valid attempt to solve H (t ) = 67 (accept an inequality)                           (M1)
+           eg intersection of graphs, use of logarithms.
+           6.11058…                                                                            (A1)
+           7 (min)                                                                               A1
+
+
+           METHOD 2
+           valid attempt to find crossover values                                              (M1)
+           (6, 67.4087…) and (7, 63.8406…)                                                     (A1)
+           7 (min)                                                                               A1
+                                                                                          [3 marks]
+
+
+
+
+     (e)   recognition that t →                                                               (M1)
+           21(C )                                                                               A1
+                                                                                          [2 marks]
+
+
+
+
+     (f)   METHOD 1 (working with slopes of H)
+           valid attempt to analyse progression of slopes of H                                 (M1)
+           lim H (t ) = 0                                                                       A1
+           t →
+
+
+
+
+           METHOD 2 (working with H  )
+           valid attempt to use H  and large values of t.                                     (M1)
+           lim H (t ) = 0                                                                       A1
+           t →
+
+                                                                                          [2 marks]
+                                                                                    Total [13 marks]
+                                                 – 18 –             M23/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+8.   (a)   (i)     p = 12                                                                          A1
+           (ii)    q = 100                                                                         A1
+                                                                                            [2 marks]
+
+
+
+
+                        100
+     (b)   P(Adult) =         ( = 0.625) (seen anywhere)                                         (A1)
+                        160
+                                                     3
+                                               100 
+     Note: Award A1 for ( X ~ ) B(3,0.625) or       but no further marks.
+                                               160 
+
+           recognition that choice of adults is without replacement (may be seen in tree diagram) (M1)
+           100 99 98
+                                                                                               (A1)
+           160 159 158
+           0.241372
+           0.241                                                                                   A1
+                                                                                            [4 marks]
+
+
+
+
+                                     x
+                     x  1         160
+     (c)   (i)             =  OR 48 + x                                                    (A1)(A1)
+                   48 + x  3 
+                                    160
+
+     Note: Award A1 for correct numerator and A1 for correct denominator.
+
+
+
+                   x = 24                                                                          A1
+                                   24  3 
+           (ii)    P( A  M ) =       =                                                          A1
+                                  160  20 
+                                                                                            [4 marks]
+
+
+                                                                                           continued…
+                                                   – 19 –                M23/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+Question 8 continued
+
+
+     (d)   METHOD 1 (using P( A | B) = P( A) )
+           recognition that A and M are independent if P( A | M ) = P( A)                        (M1)
+
+           1 100
+                                                                                                  R1
+           3 160
+           so they are not independent                                                             A1
+
+
+           METHOD 2 (using P( A)  P( B) = P( A  B) )
+           attempt to find the product P( A)  P( M ) OR P( A)  P( D)                           (M1)
+
+           100 72   24  9   3  100 88   76  11 19 
+                        OR                                                               R1
+           160 160 160  32 20  160 160 160  32 40 
+           so they are not independent                                                             A1
+
+     Note: Do not award R0A1.
+
+                                                                                            [3 marks]
+
+
+
+
+                                  88
+     (e)   P(dark chocolate) =       (= 0.55) (maybe seen in part (d))                           (A1)
+                                 160
+           recognize that the variable has a Binomial distribution                               (M1)
+           X    B (10,0.55)
+           recognition that P ( X  5) or 1 − P ( X  4) is required                             (M1)
+
+     Note: These two M marks are independent of each other.
+
+           0.738437…
+           0.738                                                                                   A1
+                                                                                            [4 marks]
+                                                                                      Total [17 marks]
+                                                  – 20 –   M23/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+9.   (a)   recognition that 45 = 10 + 10 + arc length                             (M1)
+           arc length = 25 (cm)                                                    (A1)
+
+           25 = 12                                                                 A1
+            = 2.08 correct to 3 significant figures                               AG
+                                                                              [3 marks]
+                                                                             continued…
+                                                      – 21 –                M23/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+Question 9 continued
+
+
+     (b)
+
+     Note: There are many different ways to dissect the cross-section to determine
+                                                                                 w
+            its area. In all approaches, candidates will need to find w or         . Award
+                                                                                 2
+            the first three marks for work seen anywhere.
+
+           EITHER
+           evidence of using the cosine rule OR sine rule                                          (M1)
+                                                              w            12
+           w2 = 122 + 122 − 2 12 12cos ( 2.08 ) OR               =                               (A1)
+                                                          sin(2.08) sin(0.530796...)
+                                w
+           w = 20.6977 or        = 10.3488...                                                     (A1)
+                                2
+           OR
+                                                                 2.08                 w
+           using trig ratios in a right triangle with angle           and side length              (M1)
+                                                                  2                   2
+                         w
+                2.08  2
+           sin       =                                                                           (A1)
+                2  12
+                                w
+           w = 20.6977 or        = 10.3488...                                                     (A1)
+                                2
+
+                                                         25
+     Note: Accept w = 20.7179 from use of            =      .
+                                                  2       24
+
+
+                                                                                              continued…
+                                                   – 22 –              M23/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+Question 9 continued
+
+
+          THEN
+          Let the points A, B, C, D, E, F, G, H lie on the figure as follows:
+
+
+
+
+          EITHER
+          (segment AHB =) sector OAB – triangle OAB                                          (M1)
+               1              1
+           =     122  2.08 − 122  sin 2.08 ( = 149.76 − 62.8655... = 86.8944...)         (A1)
+               2              2
+          valid approach to find total cross-sectional area (seen anywhere)                  (M1)
+          sector OAB – triangle OAB + rectangle CDBA
+
+          = 86.8944... + 10w ( = 86.8944... + 206.977...)
+
+
+                       25
+     Note: Use of  =     throughout leads to segment OAB = 87.2517... and cross-sectional
+                       12
+            area = 87.2517... + 207.179... .
+
+                                                                                         continued…
+                                                    – 23 –              M23/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+Question 9 continued
+
+
+          OR
+          trapezium CGOA (= rectangle CGOE + triangle EOA)                                   (M1)
+
+           =  (10 + (10 − 12 cos(1.04) ) ) 
+            1                                 20.6977...
+                                                         (= 72.0557)                         (A1)
+            2                                     2
+          valid approach to find total cross-sectional area (seen anywhere)                  (M1)
+          2 × trapezium CGOA + sector OAB
+                              1
+          = 2(72.0557...) +     122  2.08 ( = 144.111... + 149.76 )
+                              2
+
+                       25
+     Note: Use of  =     leads to area of trapezium CGOA = 72.2154... and cross-sectional
+                       12
+            area = 144.430... + 150 .
+
+
+
+          OR
+          2 x area of trapezium CGOA (= area of rectangle CDFE + 2 x triangle EOA)           (M1)
+                                                 1
+           20.6977...  (10 − 12cos(1.04) ) + 2  12cos(1.04) 12sin(1.04)                  (A1)
+                                                 2
+           ( = 81.2458... + 62.8655...)
+          valid approach to find total cross-sectional area (seen anywhere)                  (M1)
+          2 x trapezium CGOA + sector OAB
+                         1
+           = 144.111... + 122  2.08 ( = 144.111... + 149.76 )
+                         2
+
+                       25
+     Note: Use of  =     leads to 2 x area of trapezium CGOA = 144.430... and cross-sectional
+                       12
+            area = 144.430... + 150 .
+
+                                                                                          continued…
+                                                – 24 –              M23/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+Question 9 continued
+
+
+          THEN
+          area of cross-section = 293.871... ( 294.430... from exact answer)
+           = 294 (cm2)                                                                   A1
+
+                                                                                       [7 marks]
+                                                                                      continued…
+                                                        – 25 –           M23/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+Question 9 continued
+
+
+     (c)   METHOD 1
+           volume of gutter = 176323 OR 176658 (OR 600 their area) (seen anywhere)              A1
+           recognising rainfall can be represented by an integral                               (M1)
+                          250          2π  60              
+            R(t ) dt  = 2π sin 
+            60
+                                                  + 3000  60                                 (A1)
+            0                               5                 
+
+     Note: Accept any 60 second interval or any interval which is a multiple of 5
+
+                                                                     R(t ) dt .
+                                                                     5
+            seconds (one period) scaled up to 60 seconds e.g. 12
+                                                                     0
+
+
+           rainfall over 60 seconds = 180000 (cm3)                                               A1
+           the gutter will overflow because the rainfall > gutter volume                         A1
+
+
+
+           METHOD 2
+           volume of gutter = 176323 OR 176658 (OR 600 their area) (seen anywhere)              A1
+           recognition that cosine has a minimum value of -1                                    (M1)
+           R ( t )  −1 50 + 3000 ( cm3s −1 )                                                 (A1)
+
+           rainfall over 60 seconds  177000                                                    (A1)
+           the gutter will overflow because the rainfall > gutter volume                         A1
+                                                                                           continued…
+                                                – 26 –              M23/5/MATHX/SP2/ENG/TZ1/XX/M
+
+
+Question 9 continued
+
+
+          METHOD 3
+          volume of gutter = 176323 OR 176658 (OR 600 their area) (seen anywhere)            A1
+          recognising rainfall can be represented by an integral                            (M1)
+
+                                           R(t )dt = 176658
+                                           T
+          attempt to solve 60  58.8 OR                                                     (M1)
+                                           0
+
+          time to reach overflow point = 58.7875... OR 58.8990...                             A1
+          the gutter will overflow because 60  58.8 OR 60  58.9                             A1
+                                                                                       [5 marks]
+                                                                                 Total [15 marks]
+

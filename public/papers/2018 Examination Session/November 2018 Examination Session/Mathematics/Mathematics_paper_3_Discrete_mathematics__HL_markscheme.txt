@@ -1,0 +1,400 @@
+N18/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+
+
+                       Markscheme
+
+
+                        November 2018
+
+
+                  Discrete mathematics
+
+
+                           Higher level
+
+
+                               Paper 3
+
+
+
+
+10 pages
+                          –2–            N18/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+
+
+This markscheme is the property of the International
+Baccalaureate and must not be reproduced or distributed
+to any other person without the authorization of the
+IB Global Centre, Cardiff.
+                                                  –3–                N18/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+                                       Instructions to Examiners
+
+Abbreviations
+
+M     Marks awarded for attempting to use a valid Method; working must be seen.
+
+(M)   Marks awarded for Method; may be implied by correct subsequent working.
+
+A     Marks awarded for an Answer or for Accuracy; often dependent on preceding M marks.
+
+(A)   Marks awarded for an Answer or for Accuracy; may be implied by correct subsequent working.
+
+R     Marks awarded for clear Reasoning.
+
+N     Marks awarded for correct answers if no working shown.
+
+AG    Answer given in the question and so no marks are awarded.
+
+
+Using the markscheme
+
+1     General
+
+      Mark according to RM™ Assessor instructions and the document “Mathematics HL: Guidance
+      for e-marking November 2018”. It is essential that you read this document before you start
+      marking. In particular, please note the following:
+
+       Marks must be recorded using the annotation stamps. Please check that you are entering
+        marks for the right question.
+       If a part is completely correct, (and gains all the “must be seen” marks), use the ticks with
+        numbers to stamp full marks.
+       If a part is completely wrong, stamp A0 by the final answer.
+       If a part gains anything else, it must be recorded using all the annotations.
+       All the marks will be added and recorded by RM™ Assessor.
+
+
+2     Method and Answer/Accuracy marks
+
+       Do not automatically award full marks for a correct answer; all working must be checked,
+        and marks awarded according to the markscheme.
+       It is not possible to award M0 followed by A1, as A mark(s) depend on the preceding M mark(s),
+        if any.
+       Where M and A marks are noted on the same line, eg M1A1, this usually means M1 for an
+        attempt to use an appropriate method (eg substitution into a formula) and A1 for using the
+        correct values.
+       Where the markscheme specifies (M2), N3, etc., do not split the marks.
+                                                     –4–              N18/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+     Once a correct answer to a question or part-question is seen, ignore further correct working.
+      However, if further working indicates a lack of mathematical understanding do not award the final
+      A1. An exception to this may be in numerical answers, where a correct exact value is followed by
+      an incorrect decimal. However, if the incorrect decimal is carried through to a subsequent part,
+      and correct FT working shown, award FT marks as appropriate but do not award the final A1 in
+      that part.
+
+       Examples
+
+               Correct answer seen         Further working seen            Action
+         1.                                  5.65685                       Award the final A1
+                   8 2                       (incorrect decimal value)      (ignore the further working)
+         2.        1
+                     sin 4 x                 sin x                           Do not award the final A1
+                   4
+         3.        log a  log b             log (a  b)                     Do not award the final A1
+
+
+3   N marks
+
+    Award N marks for correct answers where there is no working.
+
+     Do not award a mixture of N and other marks.
+     There may be fewer N marks available than the total of M, A and R marks; this is deliberate as it
+      penalizes candidates for not following the instruction to show their working.
+
+
+4   Implied marks
+
+    Implied marks appear in brackets eg (M1), and can only be awarded if correct work is seen or if
+    implied in subsequent working.
+
+     Normally the correct work is seen or implied in the next line.
+     Marks without brackets can only be awarded for work that is seen.
+
+
+5   Follow through marks
+
+    Follow through (FT) marks are awarded where an incorrect answer from one part of a question is
+    used correctly in subsequent part(s). To award FT marks, there must be working present and
+    not just a final answer based on an incorrect answer to a previous part.
+
+     If the question becomes much simpler because of an error then use discretion to award fewer
+      FT marks.
+     If the error leads to an inappropriate value (eg sin   1.5 ), do not award the mark(s) for the final
+      answer(s).
+     Within a question part, once an error is made, no further dependent A marks can be awarded,
+      but M marks may be awarded if appropriate.
+     Exceptions to this rule will be explicitly noted on the markscheme.
+                                                        –5–                  N18/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+6   Misread
+
+    If a candidate incorrectly copies information from the question, this is a misread (MR). A candidate
+    should be penalized only once for a particular misread. Use the MR stamp to indicate that this has
+    been a misread. Then deduct the first of the marks to be awarded, even if this is an M mark, but
+    award all others so that the candidate only loses [1 mark].
+
+     If the question becomes much simpler because of the MR, then use discretion to award
+      fewer marks.
+     If the MR leads to an inappropriate value (eg sin   1.5 ), do not award the mark(s) for the
+      final answer(s).
+
+
+7   Discretionary marks (d)
+
+    An examiner uses discretion to award a mark on the rare occasions when the markscheme does
+    not cover the work seen. In such cases the annotation DM should be used and a brief note written
+    next to the mark explaining this decision.
+
+
+8   Alternative methods
+
+    Candidates will sometimes use methods other than those in the markscheme. Unless the
+    question specifies a method, other correct methods should be marked in line with the markscheme.
+    If in doubt, contact your team leader for advice.
+
+     Alternative methods for complete questions are indicated by METHOD 1, METHOD 2, etc.
+     Alternative solutions for part-questions are indicated by EITHER . . . OR.
+     Where possible, alignment will also be used to assist examiners in identifying where these
+      alternatives start and finish.
+
+
+9   Alternative forms
+
+    Unless the question specifies otherwise, accept equivalent forms.
+
+     As this is an international examination, accept all alternative forms of notation.
+     In the markscheme, equivalent numerical and algebraic forms will generally be written in
+      brackets immediately following the answer.
+     In the markscheme, simplified answers, (which candidates often do not write in examinations),
+      will generally appear in brackets. Marks should be awarded for either the form preceding the
+      bracket or the form in brackets (if it is seen).
+
+      Example: for differentiating f ( x )  2sin (5 x  3) , the markscheme gives:
+
+                        f  ( x)   2cos(5x  3)  5     10cos(5x  3)               A1
+
+              Award A1 for  2cos(5x  3)  5 , even if 10cos(5 x  3) is not seen.
+                                                   –6–                 N18/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+10   Accuracy of Answers
+
+     Candidates should NO LONGER be penalized for an accuracy error (AP).
+
+     If the level of accuracy is specified in the question, a mark will be allocated for giving the answer to
+     the required accuracy. When this is not specified in the question, all numerical answers should be
+     given exactly or correct to three significant figures. Please check work carefully for FT.
+
+
+11   Crossed out work
+
+     If a candidate has drawn a line through work on their examination script, or in some other way
+     crossed out their work, do not award any marks for that work.
+
+
+12   Calculators
+
+     A GDC is required for paper 3, but calculators with symbolic manipulation features (eg TI-89) are
+     not allowed.
+
+     Calculator notation The mathematics HL guide says:
+     Students must always use correct mathematical notation, not calculator notation.
+     Do not accept final answers written using calculator notation. However, do not penalize the use of
+     calculator notation in the working.
+
+
+13   More than one solution
+
+     Where a candidate offers two or more different answers to the same question, an examiner
+     should only mark the first response unless the candidate indicates otherwise.
+                                                   –7–                 N18/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+1.   (a)
+             105  1  77  28
+              77  2  28  21
+              28  1  21  7
+              21  3  7
+                                                                                          M1A1
+      Note: Award A1 for the first two correct lines.
+
+           therefore gcd(77, 105)  7                                                       A1
+                                                                                                  [3 marks]
+
+     (b)   the equation has a solution when c is a multiple of 7 (or equivalent reason)     A1
+                                                                                                   [1 mark]
+
+     (c)   METHOD 1
+           attempting to solve 11x  15 y  1
+           1  4 1 3                                                                    (M1)
+            4  1  (11  2  4)
+            3  4  1  11                                                                (A1)
+            3  (15  1  11)  1  11
+            3  15  4  11                                                               (A1)
+           a solution is x  4, y  3 (or equivalent eg x  11, y  8 )
+           x   4  15k and y  3  11k (or equivalent) ( k  )                           A1
+      Note: Accept linear combination layout.
+
+           METHOD 2
+           7  28  1  21                                                                (M1)
+            28  1  (77  2  28)
+            3  28  1  77                                                               (A1)
+            3  (105  1  77)  1  77
+            3  105  4  77                                                              (A1)
+           7  3  105  4  77  3  15  4  11  1
+           a solution is x  4, y  3 (or equivalent eg x  11, y  8 )
+           x   4  15k and y  3  11k (or equivalent) ( k  )                           A1
+      Note: Accept linear combination layout.
+                                                                                                  [4 marks]
+
+                                                                                           Total [8 marks]
+                                                     –8–             N18/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+
+2.   (a)   (i)    METHOD 1
+                  performing base 5 addition
+                   1         4       3
+                   +         2       4
+                   2         2       2
+                                                                                         (M1)
+                  (a  b)5  (222)5                                                        A1
+
+                  METHOD 2
+                  converting to base 10 , adding and then converting to base 5
+                  a  48, b  14                                                         (M1)
+                  a  b  62
+                   (222)5                                                                 A1
+
+           (ii)   METHOD 1
+                  performing base 5 multiplication
+                                 1       4   3
+                                        2   4
+                         1       2       3   2
+                         3       4       1   0
+                       1 0       1       4   2
+                                                                                      (M1)(A1)
+            Note: Award A1 for two correct partial products.
+                  (ab)5  (10142)5                                                         A1
+
+                  METHOD 2
+                  converting to base 10 , multiplying and then converting to base 5
+                  ab  672
+                  672  1 54  1 52  4  51  2                                    (M1)(A1)
+                  (ab)5  (10142)5                                                         A1
+                                                                                                 [5 marks]
+
+                                                                                             continued…
+                                                     –9–                    N18/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+Question 2 continued
+
+     (b)   5  1 mod 4                                                                    A1
+           so 5    5  1 mod 4 
+                 2                n
+                                                                                            R1
+           d n  5n    d1  5  d 0   d n  d n 1    d1  d 0  mod 4          M1A1
+            
+                            LHS                        RHS
+
+           LHS  0  mod 4  if and only if RHS  0  mod 4                                R1
+           therefore LHS is divisible by 4 if and only if RHS is divisible by 4             AG
+                                                                                                  [5 marks]
+
+     (c)   sum of digits  2 x  3                                                          A1
+           which is an odd integer                                                          R1
+           so not divisible by 4                                                            AG
+                                                                                                  [2 marks]
+
+                                                                                          Total [12 marks]
+
+
+3.   (a)   I n  2  I n 1  1.2  I n 1  I n                                         M1A1
+           I n2  2.2I n1  1.2I n  0                                                    AG
+                                                                                                  [2 marks]
+
+     (b)   I1  10 and I 2  22                                                             A1
+            Note: Award A1 if I1  10 and I 2  22 are stated in part (a) or (c).
+                                                                                                   [1 mark]
+
+           attempt to find the auxiliary equation   2.2  1.2  0
+                                                       2
+     (c)                                                                                    M1
+             1,   1.2                                                                  (A1)
+           the general solution is I n  A(1) n  B (1.2) n                                 M1
+           using given conditions (eg substituting n  1, 2 into I n )                      M1
+           A  1.2 B  10 and A  1.44 B  22                                               A1
+           A   50, B  50
+           I n   50  50(1.2) n                                                           A1
+                                                                                                  [6 marks]
+
+     (d)   n  25.313  26 (weeks)                                                      (M1)A1
+                                                                                                  [2 marks]
+
+     (e)   examples
+           I n are not all integers
+           I n eventually exceeds 5000
+          assuming that the rate remains constant
+          assuming people do not recover or get reinfected                                A1A1
+      Note: Accept other comparable explanations.
+                                                                                                  [2 marks]
+
+                                                                                          Total [13 marks]
+                                                   – 10 –              N18/5/MATHL/HP3/ENG/TZ0/DM/M
+
+
+4.   (a)   no because the graph has vertices ( A, B, D, F ) of odd degree                       R1
+                                                                                                       [1 mark]
+
+     (b)   the edges are added in the order
+           BI    5
+           DH    5                                                                              A1
+           AB    6
+           AF    6
+           CI    6                                                                              A1
+           CD    7
+           EF    7                                                                              A1
+           total weight  42                                                                    A1
+
+      Note: The orders of the edges with the same weight are interchangeable.
+            Accept indication of correct edge order on a diagram. For 7 correct
+            edges whose edge order is either incorrect or not indicated, award
+            A1A0A0A1. For 6 correct edges whose edge order is either
+            incorrect or not indicated, award A1A0A0A0.
+                                                                                                      [4 marks]
+
+
+     (c)   clear indication of using Dijkstra for example                                       M1
+
+             A        B       C      D       E     F   H      I              Vertex (time)
+                     6(A)     -      -       -   6(A)   -   7(A)                 A(0)           A1
+                            16(B)    -       -   6(A)   -   7(A)                 B(6)           A1
+                            16(B)    -     13(F)        -   7(A)                 F(6)           A1
+                            13(I)    -     13(F)      16(I)                      I(7)           A1
+                                                                                E(13)           AG
+                                                                                                      [5 marks]
+
+
+     (d)   there are 4 vertices of odd degree (A, F, B and D)                                  (A1)
+           attempting to list at least 2 possible pairings of odd vertices                      M1
+            A  F and B  D has minimum weight 6  17  23
+           A  B and F  D has minimum weight 6  18  24
+           A  D and F  B has minimum weight 20  12  32                                    A1A1
+
+      Note: Award A1A0 for 2 pairs.
+
+           minimum time is 116  23  139 (mins)                                           (M1)A1
+           roads repeated are AF, BC and CD                                                     A1
+                                                                                                      [7 marks]
+
+                                                                                              Total [17 marks]
+

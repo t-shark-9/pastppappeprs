@@ -1,0 +1,99 @@
+N18/4/COMSC/HP3/ENG/TZ0/XX
+
+
+
+
+Computer science
+Higher level
+Paper 3
+
+
+Monday 5 November 2018 (morning)
+
+
+1 hour
+
+
+Instructions to candidates
+yyDo not open this examination paper until instructed to do so.
+yyA clean copy of the computer science case study is required for this examination paper.
+yyRead the case study carefully.
+yyAnswer all questions.
+yyThe maximum mark for this examination paper is [30 marks].
+
+
+
+
+                                                                                            8818 – 7013
+     3 pages                                            © International Baccalaureate Organization 2018
+                                                        –2–                     N18/4/COMSC/HP3/ENG/TZ0/XX
+
+Answer all questions.
+
+1.   (a)	State the requirements for an autonomous vehicle to be classed at Level 5 on the
+           Society of Automotive Engineers’ (SAE) scale for autonomous driving.                         [2]
+
+     (b)   Define max-pooling.[2]
+
+
+2.   (a)	Outline the reasons for the inclusion of both GPS and high density mapping in
+           autonomous car systems.                                                                      [4]
+
+     (b)   In the case study Sven states that “…human error contributes to 90 % of all traffic
+           accidents.” He also points out that beta-testing of autonomous car systems are being
+           carried out on public roads.
+
+           Evaluate, from an ethical point of view, the decision taken by manufacturers to carry
+           out the beta-testing of autonomous vehicles on public roads.                                 [4]
+
+
+3.   The convolutional layer in convolutional neural networks makes use of filters to produce a
+     series of feature maps. Each of these feature maps will identify the presence of a specific
+     feature if it appears anywhere in the image.
+
+     Explain the processing that is carried out in the convolutional layer which allows this to happen. [6]
+
+
+4.   Two initiatives in the Levangerstadt plans are the bus and the taxi projects.
+
+     The diagram below shows a subset of the town’s intersections and the distances between
+     them. Taxis will make use Dijkstra’s algorithm to calculate the shortest route between two
+     points (intersections) and buses will make use of the nearest-neighbour algorithm to plot a
+     route that will link any combination of points.
+
+                                                    B
+
+                                                                        2
+                                        5                                             E
+                                                            6
+                                                                        3
+                         A                  6
+
+                                                    D
+                                    2                                            3
+                                                        1           6
+
+
+                                                C               7
+                                                                            F
+
+
+     The autonomous vehicles used for these two projects must not only be able to safely
+     navigate the chosen routes but also be able to respond to any temporary changes in the
+     environment.
+
+     In the case study Sven emphasized that they were creating a completely new environment
+     using the latest technology available.
+
+(This question continues on the following page)
+                                                  –3–                  N18/4/COMSC/HP3/ENG/TZ0/XX
+
+(Question 4 continued)
+
+     By focusing on the relevant technologies, protocols and path-finding algorithms, discuss how
+     the unique characteristics of this project will contribute to its chances of success. You should
+     make reference to the computer science identified in this case study.
+
+     Note: there is no need to calculate specific routes, but the diagram can be used to illustrate
+     any points in your discussion.                                                                    [12]
+

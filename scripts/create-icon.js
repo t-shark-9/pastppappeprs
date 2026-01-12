@@ -1,0 +1,34 @@
+const fs = require('fs');
+const path = require('path');
+const { createCanvas } = require('canvas');
+const pngToIco = require('png-to-ico');
+
+// Create a simple icon using canvas
+async function createIcon() {
+  const buildDir = path.join(__dirname, 'build');
+  
+  // Create PNG icon using a simple design
+  const sizes = [16, 32, 48, 64, 128, 256];
+  const pngPath = path.join(buildDir, 'icon.png');
+  
+  // For now, let's create a basic PNG file
+  // We'll create a 256x256 base icon
+  
+  const pngData = Buffer.from(
+    'iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAYAAABccqhmAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFHGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNy4yLWMwMDAgNzkuMWI2NWE3OWI0LCAyMDIyLzA2LzEzLTIyOjAxOjAxICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgMjQuMCAoTWFjaW50b3NoKSIgeG1wOkNyZWF0ZURhdGU9IjIwMjQtMDEtMDFUMTI6MDA6MDArMDE6MDAiIHhtcDpNb2RpZnlEYXRlPSIyMDI0LTAxLTAxVDEyOjAwOjAwKzAxOjAwIiB4bXA6TWV0YWRhdGFEYXRlPSIyMDI0LTAxLTAxVDEyOjAwOjAwKzAxOjAwIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyIgcGhvdG9zaG9wOkNvbG9yTW9kZT0iMyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo0NTY3ODkwMC0xMjM0LTU2NzgtOTBhYi1jZGVmMDEyMzQ1NjciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NDU2Nzg5MDAtMTIzNC01Njc4LTkwYWItY2RlZjAxMjM0NTY3IiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6NDU2Nzg5MDAtMTIzNC01Njc4LTkwYWItY2RlZjAxMjM0NTY3Ij4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo0NTY3ODkwMC0xMjM0LTU2NzgtOTBhYi1jZGVmMDEyMzQ1NjciIHN0RXZ0OndoZW49IjIwMjQtMDEtMDFUMTI6MDA6MDArMDE6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyNC4wIChNYWNpbnRvc2gpIi8+IDwvcmRmOlNlcT4gPC94bXBNTTpIaXN0b3J5PiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PukVl7IAABB8SURBVHic7d1tiFzXGcfx/5m5O7OzuzPZl+xmt0k2aTZJk+ZF2qRJ0zRpSpM0bdKkTdKkadI0TZo0TZPQ0hQKpVBKoRRKKZRCKfSFQl+o0BfqCwU+6AsV+kKFvlBBCqUgBUEE6QsFQQQRpCAIIogggggiiCCCCCKIIIIIIogggggiiFJKKaWUUkoppZRSSimllFJKKaWUUkoppZRSSimllFJKKaWUUkoppZRSSimllFJKKaWUUkoppZRSSimllFJKKaWUUkoppZRSSimllFJKKaWUUkoppZRSSimllFJKKaWUUkoppZRSSimllFJKKaVMq/8DfwF8CPg48FfAfwJ/B7wF+BPgjcAbgP8G/gJ4PfBr4FXAKeBe4Drg/4C/BF4FPAC8HHgl8D/AHwOvBPYCjwGvAJ4F/Bx4KXAF8FPgpcCLgB8DLwJeB/wn8FLgJcCPgZcCLwH+B/gn4HXAC4AfAG8CXgf8APB64AXA9wFvBp4PfA/wVuB5wHcBbwWeB/wv8Hbg+cD3gO8A3gY8D/ge4F3As4HvAt4FPBv4LuDdwLOB7wTeDTwLeCfwLcBzgO8E3gU8C/h24F3As4BvB94NPAt4G/Au4JnA24B3Ac8Evh14N/As4G3Au4FnAt8GvAt4BvA24N3AM4C3Au8Bng58K/Ae4GnAt wLvAZ4OfAvwHuBpwFuA9wBPA94M3AM8FXgz8B7gqcCbgPcCTwXeBLwXeCrwRuB9wFOBNwL3AU8B3gi8D3gy8AbgfcCTgdcD9wNPAt4A3A88CXg9cD/wJOB1wAPAE4HXAg8ATwReAzwIPBF4NfAA8ETg1cBDwBOAVwEHgCcArwQOAo8HXgEcBB4PXA48DDwOuAx4GHgccClwCHgscAlwCHgMcDFwGHg0cDEwBBwFXAQMAx4FXAQ8CzgKuAB4FnAEcD5wLDAEOA84DzgHOBe4F3gO8AzgHuBZwNOBu4FnAU8D7gKeBTwVuBN4NvAU4A7gOcBTgNuB5wBPBm4DngtMB24FbgCmA7cA64HpwE3AemAGsBZYD8wAVgPrgZnAKuBaYCawElgHzARWAOuAmcAyYB0wC1gCrAdmAfOB9cBsYC6wHpgNzAbWA3OA2cA6YA4wG1gL8wHJsJDZAAAAAElFTkSuQmCC',
+    'base64'
+  );
+  
+  fs.writeFileSync(pngPath, pngData);
+  console.log('Created placeholder PNG at:', pngPath);
+  
+  try {
+    const icoBuffer = await pngToIco(pngPath);
+    fs.writeFileSync(path.join(buildDir, 'icon.ico'), icoBuffer);
+    console.log('Created ICO at:', path.join(buildDir, 'icon.ico'));
+  } catch (err) {
+    console.error('Error creating ICO:', err);
+  }
+}
+
+createIcon().catch(console.error);

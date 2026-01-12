@@ -1,0 +1,1201 @@
+M18/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+
+
+                       Markscheme
+
+
+                               May 2018
+
+
+                     Computer science
+
+
+                           Higher level
+
+
+                               Paper 2
+
+
+
+
+29 pages
+                          –2–            M18/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+
+
+This markscheme is the property of the International
+Baccalaureate and must not be reproduced or distributed
+to any other person without the authorization of the IB
+Global Centre, Cardiff.
+                                                   –3–                M18/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+Option A — Databases
+
+1.   (a)
+
+
+
+
+OR
+
+
+
+
+           Bank, Customers and Loan correctly positioned;
+           for EACH 1 to n relationship / for “has customers” and “has loans” (accept words
+           to this effect);                                                                    [2]
+
+     (b)
+
+                  Loan_ID            Customer_ID             Amount               Type
+                 RD050789             987887982             430 000 000          Venture
+                 RG903540             124567552             231 900 000          Venture
+                 XY348801             648782904                 800 000           Home
+
+           Award [1] for any two correct rows, [2] for all three rows correct.                 [2]
+
+     (c)   Award up to [4 max].
+
+           Answers may include:
+
+           Step 1: From the table CUSTOMERS,ACCOUNTS;
+           Step 2: Choose Family_name attribute;
+           Step 3: For a condition of the Customer_ID matching in both the CUSTOMERS
+           and ACCOUNTS table;
+           Step 4: And also satisfying the condition of the Balance > 300 000;
+
+           SELECT CUSTOMERS.Family_name, ACCOUNTS_Balance
+           FROM CUSTOMERS INNER JOIN ACCOUNTS
+           ON CUSTOMERS.Customer_ID = ACCOUNTS,Customer_ID
+           WHERE ACCOUNTS.Balance > 300 000
+
+           Award [1] for identifying the FamilyName
+           Award [1] for checking that Customer_ID matches..
+           Award [1] for identifying the use of both CUSTOMERS and ACCOUNTS.
+           Award [1] for balance check of greater than 300 000.
+
+           Note: SQL is not required                                                           [4]
+                                            –4–               M18/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+(d)   Award up to [3 max].
+      Access control;
+      this means that different users will have different levels of access to the Galaxy
+      Bank database;
+      Therefore customers will only be able to access the information that they require
+      to carry out their transactions;
+      Whereas other users such as the DBA will have access to more of the database;
+      Ensuring that the sensitive information within the Galaxy Bank database is secure
+      from unauthorized access, editing etc.;                                              [3]
+
+      Note: do not accept responses pertaining to how access rights are granted.
+
+(e)   Award up to [3 max].
+      Row locking prevents two or more database users from updating the same data
+      at the same time;
+      When a row is locked it means that another database session cannot update that
+      data until the lock is released (which unlocks the data and allows other database
+      users to update that data;
+      If the database as a whole is locked, then only one database session can apply
+      any updates; Locks are done using statements;                                        [3]
+                                                   –5–                M18/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+2.   (a)   Award up to [2 max].
+           Insertion;
+           Deletion;
+           Modification;
+           Lost update;                                                                            [2]
+
+     (b)   Award [1] for each method of recovery followed by [1] for brief explanation up to
+           a maximum of [2].
+           Mark as [2] and [2]
+
+           Do not accept generic back up responses. It must be DBMS related.
+
+           System log;
+           In the event of a disk crash (any catastrophic failure);
+           The recovery method recovers a past copy of the database;
+           Backed up to archival storage and reconstructs a more current state by redoing
+           the operations of committed transactions, up to the time of failure.
+
+           Deferred Update;
+           To support ABORT and machine failure scenarios;
+           While a transaction runs, no changes made by that transaction are recorded in
+           the Database;
+           On a commit, new data is recorded in a log file and flushed to the disk;
+           New data is then recorded in the database itself;
+           On abort, do not do anything (the database has not been changed);
+           On a system restart after a system failure, REDO the log;
+           Data on disk is not updated until after a transaction commits fully;                    [4]
+
+     (c)   Award up to [3 max].
+           Authorizing/managing access to the database;
+           Coordinating and monitoring its use;
+           Capacity planning;
+           Routine backups to safeguard from data loss during crash;
+           Tried and tested strategies to recover the database after any crash;
+           reinstallation/overwrite of data; // Do not accept installation of new software alone
+           Manage security;                                                                        [3]
+
+     (d)   Award up to [3 max].
+           Important sensitive information like personal details such as names, social
+           security;
+           Number and addresses should be separated;
+           A unique identifier should be assigned to each customer;
+           This identifier is then used to access the booking details in the ShowTime;             [3]
+
+           Note: No generic access rights issues like authorisation should be accepted.
+           Do not accept Encryption as it is a general point and not specific to DBMS.
+                                                   –6–                M18/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+3.   (a)   Award up to [3 max].
+           Normalization leads to a reduction in the chance of data redundancy occurring;
+           Because each item of data only occurs on one location in the database;
+           Therefore this can reduce the possibility of update anomalies occurring;
+           More efficient use of memory;
+
+           Normalization reduces the likelihood of update anomalies occurring;
+           Because each item of data only occurs on one location in the database;
+           Therefore if the data is edited there is no chance that the data may exist in its
+           original form anywhere else in the database;
+
+           Normalization leads to smaller tables with less information in each row;
+           This leads to a reduction of input/output transfers;
+           Which means that the likelihood of CPU activities being suspended are
+           reduced/the CPU is able to work at full capacity;
+
+           Note: Do not award marks between clusters.                                           [3]
+
+     (b)   Use a text field for the School_phone_no with a length of 9 characters
+           (Accept limit check);
+           Use an input mask such as 000000000 to ensure only numbers can be entered;
+           Use a validation rule to ensure the first three entries can only be “065”            [3]
+           Accept format check;
+
+     (c)   Award up to [2 max].
+           Some values are not atomic in the Student_Choice and School_phone_no
+           fields/attributes;
+           repeat rows for students with multiple choices / phone numbers with one choice
+           per row;
+           Each record must have a unique key;
+
+           For Student_Choice have three columns, Stud_Choice1, Stud_Choice2 and
+           Stud_Choice3, with null values (or default values set to “none”) as appropriate or
+           two columns for School_phone_no;                                                     [2]
+                                           –7–                M18/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+
+(d)   Award up to [8 max].
+
+      Alternative 1
+      For a three table solution:
+
+      Student table
+      Award [1] for primary key: student_ID // Do not accept other suggestions for the
+      primary key.
+      Award [1] for attributes relating to student eg First_Name
+                                                      Family_Name
+                                                      Date_of_birth
+
+      Note: do not penalize additional attributes such as Student_choice.
+
+      School table
+      Award [1] for primary key. Either school_Name or user defined key such as
+      SchoolID // Do not accept a composite key.
+      Award [1] for attributes relating to school such as: School(School_Name)
+                                                           School_Post_code,
+                                                           School_phone_no.
+
+      Note: do not penalize additional attributes such as Student_choice.
+
+      Student choice Table/Instrument table
+      Award [1] for primary key. Either user-defined or a composite key.
+      Award [1] for attributes relating to choice such as Student_choice/Instrument
+      choice.
+
+      Award [1] for each foreign key up to a maximum of [2 max].
+                                              –8–             M18/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+      Alternative 2
+      For a four table solution
+
+      Student table
+      Award [1] for primary key: student_ID // Do not accept other primary keys
+      Award [1] for attributes relating to student eg First_Name
+                                                      Family_Name
+                                                      Date_of_birth
+
+      Note: do not penalize additional attributes such as Student_choice.
+
+      School table
+      Award [1] for primary key. Either school_Name or user defined key such as
+      SchoolID // Do not accept a composite key
+      Award [1] for attributes relating to school such as: School(School_Name)
+                                                           School_Post_code
+                                                           School_phone_no
+
+      Note: do not penalize for additional second School_Phone_no field.
+
+      Student choice Table/Instrument table
+      Award [1] for primary key. Either Lesson_ID or Instrument_ID // Do not accept a
+      composite key.
+      Award [1] for attributes relating to choice such as Student_choice/Instrument
+      choice.
+
+      Details Table/Lessons Table
+      Award [1] for primary key. Any ID or composite.
+      Award [1] for the correct foreign key in this table.
+
+      Note: This is the only table in which marks can be awarded for the use of a
+      composite [primary] key.
+
+
+(e)   2NF allows non-prime attributes to be functionally dependent on non-prime
+      attributes which means there are transitive dependencies at 2NF;
+      While 3NF allows non-prime attributes to be functionally dependent only on the
+      primary / super key and is already in 2NF;
+      Therefore it is not possible for update anomalies to occur when a database is in
+      3NF;                                                                               [3]
+                                                   –9–                 M18/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+4.   (a)   Award up to [2 max].
+           Deviation detection is a statistical technique;
+           Appropriate marketing of product;
+           Which is used to detect outlying data that does not fit the assumed model;
+           Therefore it can be used to predict the trends and patterns of demand for certain
+           consumer goods in the future;                                                              [2]
+
+     (b)   Award up to [3 max].
+           To speed query execution, which can be especially important in data warehouses
+           used by Singalytics;
+           May effectively be used in data warehouses as they contain pre-joined tables that
+           package data for common uses;
+           If the data is all present in a single table, there will be no need for joins, hence the
+           selects can be done very quickly;
+           A single table with all the required data allows much more efficient index usage;
+           If there is heavy read load and when the application is read intensive;
+           If the columns are indexed properly, then results can be filtered and sorted by
+           utilizing the same index;                                                                  [3]
+
+     (c)   Award up to [3 max].
+           To retrieve all the required data from the source system with as little resources as
+           possible;
+           Designed in a way that it does not affect the source system;
+           In terms or performance/ response time/ locking;
+           Makes it accessible for processing on the data;
+           Ensuring that historical data being extracted can be read by the current systems;
+           Ensuring the different data formats being extracted can all be converted or
+           scrubbed to become readable by the system and able to be formatted;
+           Ensuring that the data is relevant to what the user wishes to extract and utilise;         [3]
+
+     (d)   Award up to [2 max].
+           The content in the data warehouse is only valid for a time period;
+           Because the data undergoes changes dynamically;
+           A data warehouse's focus on change over time is time variant;                              [2]
+
+     (e)   Award up to [4 max].
+
+           Award [2 max] for the explanation and [2 max] for the example(s).
+
+           Associations:
+           Correlate the presence;
+           of a set of items with another range of values for another set of variables;
+           Breaks up data sets by variables such as gender, location, age;
+           It may be used to detect patterns independently from the geographic region,
+           females buy more dark colour trousers than males;
+
+           Examples:
+           when a female retail shopper buys a cotton shirt, she is likely to buy a stole.
+           Associations of the type Full arm formal shirts => Dark colour trousers; Full arm
+           formal shirts => cufflinks may produce enough confidence and support to be valid
+           association rules of interest;
+           If the application area has a natural classification of the item sets into hierarchies,
+           discovering associations within the hierarchies is of no particular interest;
+           Specifically its associations across hierarchies;
+
+           Note: For generic responses award [2 max].                                                 [4]
+                                             – 10 –              M18/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+(f)   Award up to [6 max].
+
+      Award [3 max] for the feature(s) and [3 max] for supporting
+      explanation/examples.
+
+      Features:
+      Enhanced modelling capabilities;
+      Extensibility/support new data types;
+      Object DBMS stores more complex data and relationships;
+      Improved performance;
+      Reusability;
+      Eliminates need for user defined keys;
+      Eliminates need for Joins;
+
+      Examples:
+      Inheritance property, we can re-use the attributes (size, fabric) and functionalities;
+      It reduces the cost of maintaining the same data multiple times;
+      All this information is encapsulated and, there is no fear being misused by other
+      objects. If we need any new feature we can easily add new class inherited from
+      parent class and that adds new features;
+      Reduces the overhead and maintenance costs;
+      So it becomes more flexible if any changes and apparel business changes with
+      fashion needs;
+      Codes are re-used because of the inheritance feature;                                    [6]
+                                                  – 11 –             M18/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+Option B — Modelling and simulation
+
+5.   (a)   Award [4 max]:
+           Award [1] for each fully correct row indicating variable name, type, and values
+           (no marks for incomplete information, but do allow abbreviated strings)
+
+           eg
+                  Variable                Data type               Range of values
+                   IType           String in (accept Char)             {f,l,m}
+                  IBrand                   Integer in                 {1,2,3}
+                                       String in (accept
+                   ICond                                              {vg,g,nr}
+                                      integers variants)
+                                    Integer (accept float
+                    IVol                                         Between 1 and 2000
+                                            variant)
+
+           Note: If a full column is missing, then award [1] for each correct column (for a
+           max of [2]).                                                                       [4]
+
+     (b)   (i)    Award [4 max]:
+                  Award [1]: correct initialisation of Initvalue.
+                  Award [1]: correct calculation of Temp.
+                  Award [1]: correct comparison of Temp with 90.
+                  Award [1]: correct return/output.
+
+                  proc Decide(Item, Vol)
+                  Var Temp
+                  if Item = f then Initvalue = 100
+                    else if Item = l then Initvalue = 30
+                      else if Item = m then Initvalue = 80;
+                  endif
+                  if Vol >= 500 then Temp = 0.7 * Initvalue    // accept <,>
+                    else if Vol =< 30 then Temp = 1.2 * Initvalue
+                      else Temp = Initvalue;
+                  endif
+                  if Temp > 90 then
+                    return "Reject"            // accept any 2 reasonable outputs
+                    else return "Accept";
+                  endif                                                                       [4]
+
+           (ii)   Any item of furniture with a volume < 500 dm3;
+                  Any musical instrument with a volume  30 dm3;
+
+                  Example answers:
+                  A piece of furniture with volume of 400 dm3;
+                  A piece of furniture with volume < 30 dm3;
+                  A flute with volume of 1 dm3;                                               [2]
+                                            – 12 –             M18/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+(c)   Award [2 max]:
+      Award [2] for completely correct answer (only the left or right-hand side needs to
+      be shown).
+      Award [1] for correctly writing just 4 factors from the left-hand side.
+
+      5 * 80 * 3 * 3 * (80/100) = $2880
+
+      Alternative expression for the left-hand side:
+      5 * (Item.IType.Initvalue) * (Item.IType.IBrand) *
+      (Item.IVol.Percentage) * (Item.ICond.Multiplier)                                     [2]
+
+(d)   Award up to [4 max].
+      Award [1] for some layout design.
+      Award [1] for each of the following elements:
+       correct formula for Itype
+       correct formula for Ivol
+       correct formula for Icond
+       correct formula for Selling Price.
+
+      Example for [4]:
+
+
+
+
+      Example for [1]:
+
+
+
+
+      Example for [2]:
+      Award [1] for the general layout.
+      Award [1] for detail (Vlookup table, explanations).                                  [4]
+
+(e)   Award [3 max]:
+      Type consistency, eg currency, integer, floating
+      Range consistency, depending on the decision procedure,
+      Value at the limits given by the specification (eg < or =<)
+
+      Accept any testing that relates to
+       normal data // Note: an example will get this mark
+       extreme data,
+       abnormal data.
+
+      Note: Answers must be more specific than alpha/beta testing, dry-run, etc.           [2]
+                                                   – 13 –             M18/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+6.   (a)   Award [4 max]:
+           Award [1] for identifying a problem, [1] for an elaboration.
+           Mark as [2] and [2].
+
+           There is no evidence that there are two knives to slice the bread roll;
+           so one of them could already be delayed;
+
+           There could be need of the same fillings;
+           meaning that the two bread rolls will be prepared with a slight delay;
+
+           One fork/spoon falls down and will need to be washed;
+           there must be a policy on who will wash it;
+
+           One ingredient is finished and needs replenishment;
+           there must be a policy on who collects the new bowl;
+
+           There can be concurrent access to the cash register
+           there must be a policy on who goes first;
+
+           No evidence that both persons have space/paper to wrap simultaneously on the table;
+           There must be a policy on who goes first;
+
+           Accept other reasonable answers.                                                      [4]
+
+     (b)   Award [3 max]:
+
+           Split the job in two separate sections;
+           one guy handles all the food, the other guy takes order, wraps, handles money;
+           to minimize possible clashes on resources;
+
+           Grouping similar tasks together:
+           Slice several bread rolls / stockpile bread rolls;
+           To be filled on demand;
+
+           Note: do not award marks for answers related to serving                               [3]
+
+     (c)   Award [3 max]:
+           A model is a / an accurate representation (either physical or digital) of a real-
+           world entity;
+           A simulation is an algorithm/method of implementing a model;
+           By changing the various parameters/variables of the model;
+           In order to investigate its subsequent behaviour;                                     [3]
+
+     (d)   Award [3 max]:
+           The number of utensils;
+           Washing times;
+           Time spent arranging the food on a plate;
+           The amount / quantity of ingredients
+           The number of customers/orders waiting
+           The number of servings for the dish they are currently preparing;
+
+           Accept other reasonable answers.
+           Accept application answers – option to include/exclude ingredients                    [3]
+                                             – 14 –              M18/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+(e)   Award [6 max]
+      Mark as [3] and [3].
+
+      The objective of reducing turn-around time,
+      May lead to hastily prepared dishes,
+      Which may be lacking in quality.
+
+      Trying to cook a batch of orders in 10 minutes,
+      May require the pans to be used for multiple dishes,
+      Impacting the unique taste of these dishes.
+
+      More appliances might need to be switched on, in case of large orders demand;
+      For example, an oven, which take time to heat up;
+      Causing some dishes to be undercooked;
+
+      The number of customers/orders;
+      May be too high;
+      To be dealt with in 10 minutes;
+
+      Being in charge of preparing a full dish, gives job satisfaction;
+      Lack of satisfaction may lead to loss of interest in the job;
+      affecting the quality of the cooking;                                               [6]
+                                                  – 15 –              M18/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+7.   (a)   (i)    Award [2 max].
+                  Award [1] for each of the two requested elements that provide input.
+
+                  Accept any ATD sensor explicitly stated by name.
+                  Accept: speedometer, fuel gauge, brake pads, human pushing a button.
+                  Do not accept: temp regulation unit (or any unit that is integrated in ECU).
+                  If in doubt, please contact your Team Leader.                                  [2]
+
+           (ii)   Award [2 max].
+                  May depend on the car maker and patents may be involved;
+                  For example, internal communications protocols across different systems
+                  may not be revealed;
+
+                  Different vehicles have different uses;
+                  it doesn’t make sense to have the same firmware for different requirements;
+
+                  Different models operate at different parameters,
+                  Requiring different algorithms;
+
+                  Different Countries may have different regulations;
+                  Therefore country-specific ECUs for the same model/type of car;                [2]
+
+     (b)   Award [4 max] for one example with explanations.
+
+           Example answers:
+           The quantity and/or direction of diffusion of CO2 and fine particulates can be
+           mapped using colour plots;
+           Over the whole duration of the test in a 3D space;
+           Choosing a colour in an intuitive way;
+           To show how the density evolves over time;
+
+           Examples:
+           Plotting 3D points for CO2 with vectors x,y,z ; // can be given BOD
+           Where x = time;
+           y = density of CO2;
+           z = temperature;
+
+           Note: do not accept generic answers that describe the process of 'rendering'.         [4]
+                                                  – 16 –                M18/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+8.    (a)   Award [4 max]:
+            Uses a (training) set of input data and known response values;
+            To compare the model's output with actual values from the past which will give an
+            error in the estimate;
+            The model is then changed in order to minimize this error;
+            This process is iterated until a sufficiently accurate model is produced;
+            Which can then be used to make predictions/classifications;                          [4]
+
+      (b)   Award [2 max].
+            Award [1] for evidence of multiplication between layers.
+            Award [1] for fully correct expression / answer.
+
+            60 * 36 + 36 * 6 + 6 * 1 = 2382                                                      [2]
+
+
+9.    (a)   Award [4 max].
+            Cluster analysis will attempt to group together images;
+            Into groups that have certain similarities;
+            This will be achieved by looking at characteristics;
+            Such as the presence of horizontal/vertical lines/windows/spires etc.                [4]
+
+       (b) Award [6 max]:
+           Award [2] + [2] + [2].
+
+            Award [2] for a description of GA, such as:
+            GA uses a fitness function (based on stored data);
+            to validate/discard the “adequacy” of some detected features;
+
+            Award [2] for one reason for appropriateness with amplification.
+            The features in images have been extracted in previous processing;
+            And can be represented in a suitable way to be used with genetic algorithms;
+
+            Award [2] for one reason against appropriateness with amplification
+            One has to decide which features shall drive the recognition process;
+            Choosing the wrong feature may lead to incorrect results;
+
+            If the GA merges similar features to build broad classes;
+            Then the recognition may not be precise enough;
+
+            If the GA focuses on several small details taken in isolation;
+            A limited number of features may be recognised;                                      [6]
+
+
+10.   Award [4 max].
+      Mark as [2] and [2].
+      Not all text can be translated literally;
+      Humans can bend the rules to make produce sense in the target language;
+
+      Machine translators can only use the data that has been programmed into them;
+      Cannot translate anything outside their knowledge base, eg obscure/new words/phrases;
+
+      Knowing which tone/register to use depends upon experience;
+      That machine learning algorithms do not yet have;
+
+      There are several 1000 different languages;
+      Linking all of them all is too big a task;                                                 [4]
+                                                  – 17 –              M18/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+Option C — Web science
+
+11.   (a)   Award up to [2 max].
+
+            Award [1 max] for Internet and [1 max] for WWW.
+
+            Internet is a network of (networks of) computers that can communicate one with
+            each other;
+            To exchange/access information through the WWW;
+
+            The WWW is a way to access/share/exchange information using software
+            applications;
+            Using the Internet as a physical medium;
+
+            Internet allows the transmission of data;
+            That constitute the information that applications on the WWW may want to
+            share/access/exchange;
+
+            The WWW provides, through hyperlinks, a level of connectivity of resources
+            (logical connectivity);
+            Which can be physically sparse, but connected in a network in the Internet;         [2]
+
+      (b)   Award up to [4 max]:
+
+            Award [1] for defining the term “standards” and award [1] for a development up to
+            [2 max];
+
+            Award [1] for defining the term “protocol(s)” and award [1] for a development up
+            to [2 max];
+
+            Standards are applied by the browser;
+            For interpreting the HTML (XML);
+            So that the all information will appear, and also (more or less) as expected;
+
+            Protocols are used;
+            To build up the communication at different levels of the architecture;
+            All browsers will rely upon the same internet protocols (TCP/IP);
+            That is essential for interoperability in transmission/communication;
+            So that the IP address is retrieved (via the DNS server);                           [4]
+
+            Award [2 max] for a generic response.
+
+      (c)   Award up to [2 max]:
+            HTTPS authenticates the web site;
+            HTTPS encrypts the data that need to be transferred;                                [2]
+                                             – 18 –              M18/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+(d)   Award up to [3 max]:
+      The bank needs to store all passwords in its server, including the credentials
+      given to the users;
+      So that the comparison with the individual’s entry happens in the bank with the
+      local database;
+      To the purpose of guaranteeing security;
+      And to possibly perform other operations (tracking log-ins or transactions);
+
+      The bank cannot send out password to be processed on the client’s side;
+      This will not be a guarantee for security for the bank/it may introduce
+      vulnerabilities/sensitive data cannot be sent out in the public domain;
+      Hence the comparison with the individual’s entry must happen in the bank with
+      the local database;
+
+      Note: Do not award marks between clusters.                                              [3]
+
+(e)   Award up to [3 max]:
+      XML is used to create/organize the data on the internal database;
+      By clicking the virtual button a script is run that transforms the information on the
+      database into the print-out form;
+      Stylesheet in XSLT transforms XML into an output form;
+      The script contains instructions on how to access the database (which fields are
+      relevant) and how to present the information for the final form for the printer;
+
+      By clicking the virtual button a script is run;
+      Which uses XML to retrieve/select the required data from the internal
+      database/server;
+      Which is displayed using XSLT into an appropriate output form (on the screen);
+      The script also contains instructions for the correct printout of data;
+
+      Note: Do not award marks between clusters.                                              [3]
+                                                    – 19 –              M18/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+12.   (a)   Award up to [3 max].
+
+            Note: An expansion from the technical/computational perspective only (not
+            sociological one) is expected about aspects of the chosen method of online
+            interaction.
+
+            Aspects that can gain credit:
+            Editing, permissions layer, ownership, tracking of updates, security (open to
+            vandalism/non-monitored contributors), open source (interoperability).
+
+            Software for wikis provides collaborative editing sharing of information of content,
+            directly from the browser;
+            Updates are usually tracked in wikis (also to be removed afterwards) as they
+            come from different authors / usually non-moderated / added content can also be
+            removed later on (also by others);
+            The evolution of a wiki is more immediate and spontaneous because updates are
+            immediately visible;
+            The wiki can easily be vandalized with incorrect/unauthoritative information, but it
+            can also be quickly amended/corrected if this is realized quickly;                     [3]
+
+      (b)   (i)    Award up to [1 max].
+                   It specifies how to access the resource/show the path/contains domain
+                   name, with the ftp protocol;                                                    [1]
+
+            (ii)   Award up to [3 max]:
+                   It sends a GET/PHP request to the server tri-events.cc;
+                   To execute en/general-info (index.php);
+                   And the result of this execution is made available to the client /browser
+                   (with ftp);
+                   (It specifies to use the ftp protocol to send the request and to return the
+                   resource;)
+
+                   Note: Do not accept DNS.                                                        [3]
+
+      (c)   Award up to [4 max].
+            Lossy compression results in files of smaller size;
+            It may be needed for video streaming because the server provides execution
+            through scripting;
+            And guaranteeing streaming without interruptions is a priority;
+            It may be a choice for downloading video for local execution to manage outgoing
+            traffic on popular servers/increases the speed (using smaller files);                  [4]
+                                                  – 20 –              M18/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+      (d)   Award up to [4 max].
+
+            Award [1 max] for identifying a technology that is needed award up to [3 max] for
+            an extension describing how the technology is used and interacts with other
+            components.
+
+            Example 1:
+            An interactive web page that has an auto-refresh/automatic update extension;
+            So that every N seconds a script is executed to reload the page;
+            The web page is linked to an underlined database/data source
+            OR interrogates specific databases/news databanks;
+            That are distributed and collectively provide regular updates;
+            And they can be displayed back using the script;
+
+            Example 2:
+            A dynamic web page equipped with a RSS feed;
+            That collects/aggregates news from sources that cover that live event;
+            The feed is in form of an update in XML;
+            Therefore, it can be used to feed an underlining (distributed) database or the web
+            page/uses syndication/can be immediately interpreted by the browser;
+            And it can then be processed by some script to be displayed back in the original
+            web page;                                                                             [4]
+
+
+13.   (a)   (i)   Award up to [3 max]:
+
+                  Award [1] for showing understanding of the need of each of the following:
+                  GPS, mapping software, underlying distributed information.
+
+                  The GPS of the device gives its current location (coordinates);
+
+                  Coordinates sent out through the Internet (with 3G/4G/5G/Wifi/using the
+                  specific features of the mobile device OS);
+
+                  Coordinates are linked to map software (eg Googlemaps) to retrieve
+                  current’s device position and neighbourhood information (using thematic
+                  databases);
+
+                  And integrated with further annotations (relative to museums) that can be
+                  provided by third-party services;
+                     OR by information incrementally gathered from users;
+                     OR by further databases (GIS services);
+                     OR by interrogating an (incremental) database accessible from the
+                     server where the app has been downloaded from, for its first installation;   [3]
+                                               – 21 –              M18/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+      (ii)   Award up to [2 max].
+
+             Award [1] for identifying a feature and award [1] for reasonable expansion of the
+             feature up to [2 max].
+
+             Example 1:
+             The design of the front-end (the user interface) with the specific mobile
+             device;
+             So that the commands are specific (and built-in) within the device, to
+             support interactive use;
+             (With the effect that the app can be used across a range of devices and
+             mobile operating systems;)
+
+             Example 2:
+             To personalize the app with a “history” on the client’s side, after the first use
+             of the application;
+             So that only the new information added in the database (underlying sources
+             used by the app) can be fetched by the client’s script;                             [2]
+
+(b)   (i)    Award up to [2 max].
+             Number of hits;
+             Popularity of linking pages;
+             Amount of links to the same page departing from the source page;
+             Trustworthiness of the linking domain;
+             Relevance of content between source and target page;
+             Time to download;
+             …(there are others).                                                                [2]
+
+      (ii)   Award up to [5 max].
+             Old information is more likely to be retrieved by web crawlers;
+             But this requires time to crawl;
+             But this interferes with the response time for the current search;
+             And it may even be penalised by policies in search engines;
+             Without returning currently relevant information;
+             Example of old information are old or broken links/orphan pages/old text
+             masked by comments in the HTML code, and it can be revised from time to
+             time;
+             Cleanly written code allows for a more efficient search process;
+             Which facilitates correct indexing;
+
+             Note: Award [2 max] for a generic response.                                         [5]
+
+(c)   Award up to [4 max].
+      In P2P all machines can interchangeably be client as well as server (no division
+      of client-server);
+      Data and services can be replicated across sites, and be retrieved from them;
+      Services are virtualized/reside on virtual machines;
+
+      Therefore, if one node is unavailable the service can still be provided by resorting
+      to other nodes;
+      OR
+      System updates can be made while not interrupting the provision of the service
+      OR
+      The failure of a node does not imply the failure of the entire network                     [4]
+                                                     – 22 –             M18/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+14.   (a)   Award up to [2 max]:
+            Nodes represent URLs/web site/web pages;
+            Each edge represents a direct link from one URLs/web sites/web pages to
+            another;
+            It is a small scale representation of some specific network of 16 nodes that can
+            be part of the WWW;                                                                  [2]
+
+      (b)   (i)     Award up to [2 max].
+                    Award [1] any two correct.
+                    Award [2] all correct.
+
+                    13, 9, 10, 14                                                                [2]
+
+            (ii)    Award up to [1 max].
+                    Expected: exactly these three nodes, in any order
+
+                    11, 12, 8                                                                    [1]
+
+            (iii)   Award up to [1 max].
+                    As it can reach and be reached by every other element in SCC;
+                    OR
+                    Because it is reachable from the IN and it reaches the OUT;                  [1]
+
+            (iv)    Award up to [1 max].
+                    Because it doesn’t reach the SCC;                                            [1]
+
+      (c)   Award up to [3 max]:
+            Starts from a set of seeds (initial nodes);
+            Visits the web pages, makes a copy of them/indexes/finds all the links on web
+            pages;
+            Follows the links/hyperlinks;
+            Returns a list of URL, usually ordered under some criteria;
+            eg to determine the “weight” of a node.                                              [3]
+
+      (d)   Award up to [4 max].
+
+            Award [1 max] for an initial statement and award up to [1 max] for an
+            expansion/development up to [2 max];
+
+            Mark as 2 and 2.
+
+            The site might have been protected by a login;
+            And the crawler cannot go deeper than the surface / cannot access the deep web;
+
+            The crawler is unable to access multimedia items;
+            and it analyses only text;
+
+            The sites containing these documentaries/interviews are still new;
+            and their presence on the web is not mature;
+
+            Page may contain a robots.txt file;
+            that prevents it from getting indexed;                                               [4]
+                                             – 23 –              M18/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+(e)   Award up to [6 max].
+      Collective intelligence refers to the large amount of knowledge/information that
+      exists on the WWW;
+      In areas such as blogs, wikis, forums (accept any suitable example);
+      Text based searches are based on specific words/terms;
+      Without considering the context / meaning that they are used in;
+      Therefore a lot of irrelevant data would be retrieved / a lot of relevant data would
+      be missed;
+      The semantic web implies a different/standard way of representing data
+      (audio/video/pictures);
+      That allows the representation of knowledge (rather than data);
+      So that more relevant information can be retrieved/collective intelligence can be
+      utilized;
+      And analysed directly by computers/machines;
+      However, this doesn’t necessarily mean that all of the information retrieved is
+      valid;
+      As anyone can post on the web / not all information is correct/some might be
+      biased;                                                                                [6]
+                                                  – 24 –             M18/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+Option D — Object-oriented programming
+
+15.   (a)   public;
+            Allows access to variables from outside of the class/unlimited access;
+
+            protected;
+            Allows access to variable from within the package (project) in which they are
+            created/subclasses;
+
+            final;
+            Prevents variables from being modified;
+
+            static;
+            Refers to variables that act on the class as a whole (and not on individual
+            objects);
+
+            Note:
+             Accept at most one example pertaining to methods.
+             Do not accept two examples pertaining to the same modifier.                      [4]
+
+      (b)   The OOP feature shown in the constructors (accept the 2 signatures) is
+            overloading (accept polymorphism);
+            The constructor methods have a different number / type of parameters / different
+            parameters;
+            The method calling the constructor / compiler will determine which of these
+            methods is selected;
+            By matching up with the parameters;                                                [4]
+
+      (c)   Silver;                                                                            [1]
+
+      (d)   Through the use of the (appropriate) array index / appropriate code description;
+
+            Example:
+            Individual object = allVisits[individual object’s location]                        [1]
+
+      (e)   public boolean isGold()
+            {
+              return (statusNow.equals("Gold"); // allows =
+            }
+
+            Award marks as follows:
+            Signature;
+            Correct comparison (allow use of getStatusNow());
+            Return (that matches the signature – allow FT);
+
+            Note:
+             Allow the equivalent use of IF/THEN statements.
+             Do not accept parameters to be passed.
+             Do not allow the use of totalPoints.                                             [3]
+                                                  – 25 –              M18/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+16.   (a)   Award [1] for three compartments, [1] for correct + and –, and [1] for correct
+            contents.
+
+                   Visits
+                   - hotelCode: String
+                   - days: int
+                   + Visits(String, int)
+                   + getDays():int
+
+            Note:
+             allow variations in the format, but must use + / –
+             accept additional getters/setters, but the given content must be present.        [3]
+
+      (b)   (i)      m102;                                                                     [1]
+
+            (ii)     0;                                                                        [1]
+
+            (iii)    6;                                                                        [1]
+
+      (c)   Example 1:
+            public int calculateTotalPoints()
+            {
+              int totalPoints = 0;
+              for (int x = 0; x < y; x++)
+              {
+                 totalPoints = totalPoints + allVisits[x].getDays();
+              }
+              totalPoints = totalPoints * 1000 + bonusPoints;
+              return totalPoints;
+            }
+
+            Award marks for correctly including the following:
+            Signature + matching return;
+            Loop through the number of visits (y); // do not allow length statements;
+            Any use of allVisits array;
+            Correct update of totalPoints (with or without bonusPoints);
+            Inclusion of bonus points outside of the loop (or if the loop is absent);
+
+            Example 2:
+            public int calculateTotalPoints()
+            {
+              int totalDays = 0;
+                 for (int x = 0; x < y; x++)
+                 {
+                   totalDays = totalDays + allVisits[x].getDays();
+                 }
+                 totalPoints = totalDays * 1000 + bonusPoints;
+                 return totalPoints;
+            }                                                                                  [5]
+                                            – 26 –             M18/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+(d)   public int daysMissing()
+      {
+        int pointsNeeded = 0;
+        int points;
+
+          // convert present status to minimum number of days
+          if (statusNow.equals("Silver"))     // allow = or use of
+                                              // isSilver()
+            pointsNeeded = 10000;
+          else if (statusNow.equals("Gold")) // allow = or use of
+                                              // isGold()
+            pointsNeeded = 50000;
+          points = pointsNeeded - calculateTotalPoints();
+          if (points > 0) // might be negative
+          {
+               return points/1000;
+          }
+          else
+          {
+               return 0;
+          }
+      }
+
+      Award marks for correctly including the following:
+      Signature + return of an integer;
+      All required declaration (initialization if needed);
+      Conversion to points/days for all 3 statuses // bronze can be the default;
+      Calculation of points missing (allow getTotalPoints() or the variable
+      totalPoints for calculateTotalPoints()) ;
+      Convert to days (divide by 1000) // allow if the conversion has already taken place;
+      Returning calculated number; // allow even if negative or if incorrect or without an
+      if else clause;
+      Returning 0 // when the points needed would have been negative / when
+      required points have already been gained;                                                  [7]
+
+(e)   A generic class / Status / Point / Bronze class can be used as a superclass;
+      Sub-classes can then be created (2 or 3) for the individual statuses;
+      Containing elements specific to them / overriding superclass methods;
+      And inheriting methods/variables required by all status levels from the
+      superclass;
+
+      Do not award more than [2] for a generic response.                                         [4]
+
+(f)   (In the Points class) statusNow = statusNextYear;
+      bonusPoints set to 0 (accept reset bonusPoints);
+      totalPoints set to 0 (accept reset totalPoints);
+      variable y (that counts the visits) needs to be set to 0;
+      statusNextYear = Bronze (accept reset statusNextYear);
+
+      Note: Do not accept “array allVisits reinitialised to empty”.                          [3 max]
+                                                  – 27 –             M18/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+17.   Award up to [ 7 max]. Note there are 9 marking points.
+
+      An array of objects / 2 parallel arrays would be created / any other appropriate
+      structure; // Do not allow 2D array;
+      Containing hotel codes and number of days;
+      Repeat/loop for each object in the allVisits array;
+       Inspect the hotel ids and days stayed / find a matching hotel;
+       Update the array(s); // see first note below
+       By increasing the number of days (for the specific hotel);
+      Sort / search / look for / find; // see first note below;
+      The object / hotel code with the largest number of days;
+      Find the name of the hotel using the hotel code / Hotel class;                        [7 max]
+
+      Note:
+       mps can be awarded even if the wrong values are being updated or searched for
+        (eg stays instead of days).
+       For mp 7 only allow the use of “look for” and “find” if accompanied by a suitable
+        description.
+                                                  – 28 –             M18/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+18.   (a)   Example 1:
+            The link list will enable space to be allocated dynamically/will only take up the
+            space required;
+            Because the number of customers is unknown / customers may join or leave the
+            loyalty scheme during the year;
+
+            Example 2:
+            Customers / objects / nodes can be easily added or deleted;
+            so customers may join or leave the loyalty scheme during the year;                      [2]
+
+      (b)   public ArrayList goldMails()
+            {
+              ArrayList al = new ArrayList(); // Allow use of <String> identifier
+              int s = allCustomers.size();
+              int x = 0;
+                 while(!(allPoints[x] == null)) // Allow(allPoints[x]!=null)
+              {
+                 if (allPoints[x].isGold())
+                 {
+                   String a = allPoints[x].getMemberId();
+                   for (int y = 0; y < s; y++)
+                   {
+                     String b = allCustomers.get(y).getMemberId();
+                     if (a.equals(b)) // allow =
+                        al.add(allCustomers.get(y).getEmail());
+                   }
+                 }
+                 x = x + 1
+              }
+              return al;
+            }
+
+            Award marks as follows:
+            Declaring a new ArrayList (with or without the String identifier);
+            Looping through the allPoints array;
+            Testing for “Gold”;
+            Loping through the allCustomers linked list (using the size or an iterator);
+            Correct check for identical ids;
+            Adding the email to the ArrayList;
+            Returning the arraylist;                                                            [6 max]
+
+            Note:
+             Do not allow any methods that are not part of the LinkedList or ArrayList
+              library classes – eg the length function for the linked list is invalid.
+             Do not penalize more than once for omitting the “gets”.
+             Allow the for loop: for (Customer currCust : allCustomers).
+             Allow for loop instead of a while loop.
+                                                  – 29 –            M18/4/COMSC/HP2/ENG/TZ0/XX/M
+
+
+19.   (a)   The method calls itself;
+            With a changing parameter;
+            There is a base (terminating) case;                                          [2 max]
+
+      (b)
+
+                parameter passed to                        output
+                     method
+                        3                                    3
+                        2                                    2
+                        1                                    1
+                        0
+                                                             1
+                                                             2
+                                                             3
+
+
+            Award marks as follows:
+            Outputting 6 values;
+            Correct parameter list
+            First 3 output numbers correct;
+            Last 3 output numbers correct;                                                   [4]
+
+      (c)   An infinite loop / program will never end/terminate;
+            Will eventually cause the program to crash;
+            As it runs out of memory for the parameters stored / Stack overflow;
+            As the base case is never reached;                                           [3 max]
+
+      (d)   Comments can be added;
+            Use of meaningful names;
+            Correct indentation;
+            Relationships/dependencies shown between class (UML) diagrams;                   [3]
+

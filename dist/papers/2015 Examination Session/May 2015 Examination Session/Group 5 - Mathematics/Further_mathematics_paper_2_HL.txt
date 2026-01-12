@@ -1,0 +1,219 @@
+m15/5/furma/HP2/eng/TZ0/XX
+
+
+
+
+Further mathematics
+Higher level
+Paper 2
+
+
+Thursday 21 May 2015 (morning)
+
+
+2 hours 30 minutes
+
+
+Instructions to candidates
+yyDo not open this examination paper until instructed to do so.
+yyAnswer all questions.
+yyUnless otherwise stated in the question, all numerical answers should be given exactly or
+  correct to three significant figures.
+yyA graphic display calculator is required for this paper.
+yyA clean copy of the mathematics HL and further mathematics HL formula booklet is
+  required for this paper.
+yyThe maximum mark for this examination paper is [150 marks].
+
+
+
+
+                                                                                              2215 – 7102
+     5 pages                                              © International Baccalaureate Organization 2015
+                                                    –2–                   m15/5/furma/HP2/eng/TZ0/XX
+
+Please start each question on a new page. Full marks are not necessarily awarded for a correct answer
+with no working. Answers must be supported by working and/or explanations. In particular,
+solutions found from a graphic display calculator should be supported by suitable working. For example,
+if graphs are used to find a solution, you should sketch these as part of your answer. Where an answer
+is incorrect, some marks may be given for a correct method, provided this is shown by written working.
+You are therefore advised to show all working.
+
+1.   [Maximum mark: 20]
+
+
+                                          dy
+     Consider the differential equation      = 2 x + y − 1 with boundary condition y = 1 when x = 0 .
+                                          dx
+     (a)   Using Euler’s method with increments of 0.2 , find an approximate value for y when
+           x = 1.                                                                                       [5]
+
+     (b)   Explain how Euler’s method could be improved to provide a better approximation.              [1]
+
+     (c)   Solve the differential equation to find an exact value for y when x = 1 .                    [9]
+
+     (d)   (i)    Find the first three non-zero terms of the Maclaurin series for y .
+
+		         (ii)   Hence find an approximate value for y when x = 1 .                                    [5]
+
+
+2.   [Maximum mark: 13]
+
+     In a large population of sheep, their weights are normally distributed with mean µ kg and
+     standard deviation σ kg . A random sample of 100 sheep is taken from the population.
+     The mean weight of the sample is X kg .
+
+     (a)   State the distribution of X , giving its mean and standard deviation.                        [2]
+
+
+     (b)   The sample values are summarized as       ∑ x = 3782 and ∑ x = 155341 where x kg is
+                                                                            2
+
+           the weight of a sheep.
+
+		         (i)    Find unbiased estimates for µ and σ2 .
+
+		         (ii)   Find a 95 % confidence interval for µ .                                               [6]
+
+     (c)   Test, at the 1 % level of significance, the null hypothesis µ = 35 against the alternative
+           hypothesis that µ > 35 .                                                                     [5]
+                                                        –3–              m15/5/furma/HP2/eng/TZ0/XX
+
+3.   [Maximum mark: 18]
+
+     In 1985 , the deer population in a national park was 330 . A year later it had increased
+     to 420 . To model these data the year 1985 was designated as year zero. The increase in
+     deer population from year n − 1 to year n is three times the increase from year n − 2 to
+     year n − 1 . The deer population in year n is denoted by xn .
+
+     (a)   Show that for n ≥ 2 , xn = 4xn−1 − 3xn−2 .                                               [3]
+
+     (b)   Solve the recurrence relation.                                                           [6]
+
+     (c)   Show using proof by strong induction that the solution is correct.                       [9]
+
+
+4.   [Maximum mark: 21]
+
+     Consider the ellipse having equation x2 + 3y2 = 2 .
+
+
+                                                                                  1 
+     (a)   (i)    Find the equation of the tangent to the ellipse at the point 1,   .
+                                                                                   3
+
+                                                                                 1 
+		         (ii)   Find the equation of the normal to the ellipse at the point 1,   .              [7]
+                                                                                  3
+     (b)   Given that the tangent crosses the x-axis at P and the normal crosses the y-axis
+           at Q , find the equation of (PQ) .                                                       [4]
+
+     (c)   Hence show that (PQ) touches the ellipse.                                                [4]
+
+     (d)   State the coordinates of the point where (PQ) touches the ellipse.                       [1]
+
+     (e)   Find the coordinates of the foci of the ellipse.                                         [4]
+
+     (f)   Find the equations of the directrices of the ellipse.                                    [1]
+
+
+
+
+                                                                                              Turn over
+                                                           –4–           m15/5/furma/HP2/eng/TZ0/XX
+
+5.   [Maximum mark: 19]
+
+     (a)   By considering the points (1 ,  0) and (0 ,  1) determine the 2 × 2 matrix which
+           represents
+
+		         (i)    an anticlockwise rotation of θ about the origin;
+
+		         (ii)   a reflection in the line y = (tan θ ) x .                                               [5]
+
+
+                                                                                     1
+     (b)   Determine the matrix A which represents a rotation from the direction   to the
+                                                                                     0
+                      1
+           direction   .
+                       3                                                                                [2]
+
+     (c)   A triangle whose vertices have coordinates (0 , 0) , (3 , 1) and (1 , 5) undergoes a
+           transformation represented by the matrix A−1 XA , where X is the matrix representing a
+           reflection in the x-axis . Find the coordinates of the vertices of the transformed triangle.   [6]
+
+     (d)   The matrix B = A−1 XA represents a reflection in the line y = mx . Find the value of m .       [6]
+
+
+6.   [Maximum mark: 15]
+
+     Gillian is throwing a ball at a target. The number of throws she makes before hitting the
+     target follows a geometric distribution, X ∼ Geo ( p) . When she uses a cricket ball the
+                                                                           1
+     number of throws she makes follows a geometric distribution with p =     . When she uses
+                                                                           4                 3
+     a tennis ball the number of throws she makes follows a geometric distribution with p = .
+                                                                                             4
+     There is a box containing a large number of balls, 80 % of which are cricket balls and the
+     remainder are tennis balls. The random variable A is the number of throws needed to hit the
+     target when a single ball is chosen at random from this box and used for all throws.
+
+     (a)   Find E (A) .                                                                                   [4]
+
+                                              r −1             r −1
+                                      1 3               3 1
+     (b)   Show that P ( A = r ) =     ×           +     ×  .                                         [4]
+                                      5 4              20  4 
+
+     (c)   Find P (A ≤ 5 | A > 3) .                                                                       [7]
+                                                     –5–                      m15/5/furma/HP2/eng/TZ0/XX
+
+7.   [Maximum mark: 16]
+
+     S is defined as the set of all 2 × 2 non-singular matrices. A and B are two elements of the
+     set S .
+
+
+                              ( ) =(A ) . −1 T
+                                   −1
+     (a)   (i)    Show that AT
+
+		         (ii)   Show that (AB)T = BT AT .                                                           [8]
+
+     (b)   A relation R is defined on S such that A is related to B if and only if there exists an
+           element X of S such that XAX T = B . Show that R is an equivalence relation.               [8]
+
+
+8.   [Maximum mark: 15]
+
+     (a)   Using a Taylor series, find a quadratic approximation for f (x) = sin x centred
+                       3π
+           about x =      .                                                                           [4]
+                        4
+     (b)   When using this approximation to find angles between 130  and 140  , find the
+           maximum value of the Lagrange form of the error term.                                      [7]
+
+     (c)   Hence find the largest number of decimal places to which sin x can be estimated for
+           angles between 130  and 140  .                                                           [1]
+
+     (d)   Explain briefly why the same maximum value of error term occurs for g (x) = cos x
+                              π
+           centred around       when finding approximations for angles between 40  and 50  .        [3]
+                              4
+
+9.   [Maximum mark: 13]
+
+     Let f be a homomorphism of a group G onto a group H .
+
+     (a)   Show that if e is the identity in G , then f (e) is the identity in H .                    [2]
+
+
+     (b)                                                 ( )
+           Show that if x is an element of G , then f x −1 = ( f ( x) ) .
+                                                                         −1
+                                                                                                      [2]
+
+     (c)   Show that if G is Abelian, then H must also be Abelian.                                    [5]
+
+     (d)   Show that if S is a subgroup of G , then f (S ) is a subgroup of H .                       [4]
+

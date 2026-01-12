@@ -1,0 +1,1043 @@
+M14/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+
+
+                   MARKSCHEME
+
+
+                               May 2014
+
+
+
+      INFORMATION TECHNOLOGY IN A
+            GLOBAL SOCIETY
+
+
+
+                         Higher Level
+
+
+
+                               Paper 1
+
+
+
+
+27 pages
+                                –2–            M14/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+
+
+This markscheme is confidential and for the exclusive use of
+examiners in this examination session.
+
+It is the property of the International Baccalaureate and must not be
+reproduced or distributed to any other person without the
+authorization of the IB Assessment Centre.
+                                                   –3–               M14/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+Examiners should be aware that in some cases, candidates may take a different approach, which if
+appropriate should be rewarded. If in doubt, check with your Team Leader.
+
+In the case of an “identify” question read all answers and mark positively up to the maximum marks.
+Disregard incorrect answers. In all other cases where a question asks for a certain number of facts
+eg “describe two kinds”, mark the first two correct answers. This could include two descriptions,
+one description and one identification, or two identifications.
+
+It should be recognized that, given time constraints, answers for part (c) questions are likely to include a
+much narrower range of issues and concepts than identified in the markband. There is no “correct”
+answer. Examiners must be prepared to award full marks to answers which synthesize and evaluate even
+if they do not examine all the stimulus material.
+                                                   –4–               M14/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+                                               SECTION A
+
+1.   Analysis of external examination grades by an international school
+
+     (a)   (i)    Identify two characteristics of a CSV file.                                      [2 marks]
+
+                  Answers may include:
+                  • comma separated values
+                  • a text file
+                  • a file without formatting where data in a record is separated by commas
+                  • a file that represents data in tabular form. Rows are represented by new
+                    lines and cells are separated by commas.
+
+                  Note: do not accept firewall or anti-virus software.
+                  Award [1 mark] for each of the above up to a maximum of [2 marks].
+
+           (ii)   Identify two reasons why the Oneto7 examination board would provide
+                  files in CSV format.                                                [2 marks]
+
+                  Answers may include:
+                  • a file format that is compatible with different spreadsheets and database
+                    formats
+                  • a CSV file carries no formatting, only text, therefore the file size depends
+                    only on the quantity of data it contains, ie the CSV file will be smaller
+                    than a formatted file from any application
+                  • CSV files are text files and can be opened with many applications,
+                    therefore can even transfer manually if needed.
+
+                  Award [1 mark] for each of the above up to a maximum of [2 marks].
+
+           (iii) Identify two characteristics of a “secure site”.                                  [2 marks]
+
+                  Answers may include:
+                  • accessed using HTTPS – Hypertext Transfer Protocol Secure
+                  • information sent to and from those sites cannot be accessed by anyone
+                    else (ie user needs to enter authentication information such as username
+                    and password in order to access the site)
+                  • Secure Sockets Layer (SSL) provides encryption – preventing
+                    information from being read in transit
+                  • Secure Sockets Layer (SSL) provides authentication (verifying that the
+                    site is who they claim to be).
+                  • Secure sites display a padlock/lock symbol
+                  • Secure sites use trusted certificates to check for authenticity
+
+                  Award [1 mark] for each of the above up to a maximum of [2 marks].
+                                             –5–                M14/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(b)   Schools can use either spreadsheets or database software to analyse these
+      exam results.
+
+      Analyse the use of these two software types for this purpose.                          [6 marks]
+
+                Advantages of a database                    Advantages of a spreadsheet
+               application in this scenario                          in this scenario
+       •   queries can be made and saved for         •   data in the form of tables can be
+           future use                                    clearly seen by all users
+       •   reports can use queries and produce       •   a user-friendly spreadsheet may allow
+           nicely formatted printed reports to be        the headmaster to produce his own
+           used repeatedly                               analysis
+       •   menus with buttons for the different      •   spreadsheets may show data in graphs
+           needs may be prepared for the                 – a great variety of different types of
+           headmaster to use                             graphs
+       •   database applications may share one       •   some data may be extracted into a
+           database      among      many     users       smaller set to be shared with others.
+           simultaneously
+       •   a relational database allows several
+           tables of data to be linked together in
+           a way that may be transparent to the
+           final user (the headmaster)
+       •   a database application may give the
+           user (headmaster) access to results
+           without giving access to make
+           accidental changes.
+
+
+            Disadvantages of a database                 Disadvantages of a spreadsheet
+             application in this scenario                        in this scenario
+       • its use may be complicated for the          • headmaster would need to know how
+         headmaster (outside the prepared              to use the spreadsheet
+         menu)                                       • unless macros are used, each type of
+       • may need preparation by an IT person          result needs to be obtained when
+         before the headmaster can use it              needed.
+       • cannot produce graphs.                      • where large amount of information is
+                                                       stored in a spreadsheet, it is difficult
+                                                       to analyse and display the results.
+                                     –6–              M14/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+[1–2 marks]
+A limited response that demonstrates minimal knowledge and understanding of the topic
+through simple statements and uses little or no appropriate ITGS terminology.
+
+[3–4 marks]
+A response that demonstrates some knowledge and understanding of the topic and
+describes features of spreadsheets or databases in this scenario that would make them
+appropriate. Some relevant examples relating to the scenario are used within the
+response. There is some use of appropriate ITGS terminology in the response.
+
+[5–6 marks]
+A thorough response that demonstrates knowledge and understanding of the topic and
+makes comparisons between spreadsheets and databases in this scenario and why they
+are, or not, appropriate. The response demonstrates thorough knowledge and
+understanding of the topic. Relevant examples relating to the scenario are used
+throughout the response. There is appropriate ITGS terminology throughout the
+response.
+                                            –7–               M14/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(c)   Oneto7, an examination board that serves 5000 schools, has been
+      contacted by a new company, schoolscompare.com.            This company,
+      schoolscompare.com, wishes to buy the data about students’ results from the
+      Oneto7 examination board.
+
+      Schools, parents and others can pay schoolscompare.com for a more detailed
+      analysis of the examination results. This analysis will be provided using data
+      bought from Oneto7, as well as other data they have acquired.
+
+      Discuss the implications of the Oneto7 examination board selling the data it
+      holds about the schools to schoolscompare.com.                               [8 marks]
+
+      Answers may include:
+      • Oneto7 examination board would have to ask schools to authorize the sharing
+        of their data
+      • Oneto7 examination board would have to wait for parents in the schools to
+        authorize the sharing of their son’s/daughter’s data
+      • Oneto7 would have the possibility of comparing its results with those of other
+        boards
+      • other boards would have access to Oneto7’s results
+      • a more in-depth analysis may be provided to the schools and parents
+      • parents would be able to compare their children’s results with others from the
+        same and other schools / boards
+      • schools may be assessed by prospective parents from these results
+      • universities and other institutions may use this information to evaluate their
+        prospective candidates
+      • policies of privacy and correct use of information would have to be put in place
+      • security issues to guarantee the reliability and integrity of the data must be
+        evaluated
+      • Oneto7 must investigate that schoolscompare.com has adequate security
+        measures
+      • agreement needed that Oneto7will not use the data for any purposes other than
+        analysis (eg distributing tutoring information to schools that did not perform
+        well).
+
+      Note: do not accept generic references to hacking or unauthorized access.
+      References must be explicitly related to the scenario.
+
+      In part (c) of this question it is expected there will be a balance in the ITGS
+      terminology between IT technical terminology and the terminology related to
+      social and ethical impacts.
+
+      Please see generic markband information sheet on page 27.
+                                                        –8–                  M14/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+2.   Online training
+
+     (a)   (i)    Calculate the length of time it took to download the 720 MB video.                        [2 marks]
+
+                  • using 1024 KB as 1MB:
+                    - 720 MB is 720 x 1024 KB = 737 280 KB
+                    - bandwidth of 800 kb/sec = 100 KB/sec (KB	  is	  kilobyte,	  kb	  is	  kilobit)
+                    - 737 280 ÷ 100 = 7372.8 seconds = 123 minutes = 2 hours 3 minutes
+
+                  • accept the approximate of 1000 KB as 1MB:
+                    - 720 x 1000 = 720 000 KB (KB	  is	  kilobyte,	  kb	  is	  kilobit)
+                    - bandwidth of 800 kb/sec = 100 KB/sec
+                    - 720 000 ÷ 100 = 7200 seconds or 120 minutes or 2 hours.
+
+                  Note: accept 123 minutes = 2.048 hours = 2 hours and 3 minutes or
+                  approximately 2 hours.
+
+                  Award [1 mark] for the correct calculation of file size into KB (720 MB is
+                  720 x 1024 = 737 280 KB or 720 x 1000 = 720 000 KB. Accept if some
+                  indication of units in the calculation. Award one mark for 737 280 or
+                  720 000.)
+
+                  Award [1 mark] for the correct calculation of file size into KB.
+                  Award [1 mark] for the correct calculation into time.
+
+           (ii)   Outline the difference between lossless and lossy compression.                            [2 marks]
+
+                  Lossless data compression
+                  Difference in the reconstruction of original data
+                  • lossless data compression uses algorithms that allow the exact original
+                     data to be reconstructed from the compressed data
+                  • lossy data compression does not allow the exact original data to be
+                     reconstructed from the compressed data as some data is removed during
+                     the compression.
+
+                  Difference in the loss of data
+                  • in lossless data compression no information is lost, it is only changed so
+                     that the file size is reduced.
+                  • in lossy data compression some information is taken from the file that
+                     will change the final image or sound and will make the file smaller.
+
+                  Difference in loss in quality
+                  • 	  in lossless data compression no information is lost and therefore no loss
+                     in quality
+                  • in lossy data compression some information is taken from the file that
+                     will result in some loss in quality which normally goes unnoticed.
+                                     –9–               M14/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+     Difference in the types of file that are compressed
+     • in lossless data compression is used to compress text and data files
+     • in lossy data compression is used to compress audio, video and image
+        files.
+
+Note: each bullet point refers to a difference between lossy compression and
+lossless compression.
+
+Award [1 mark] if there is a difference for either lossy or lossless compression
+with an implied reference to the other.
+
+Award up to a maximum of [2 marks] for an outline of a difference between lossy
+and lossless compression that explicitly refers to both methods of compression.
+
+(iii) Outline the difference between downloading and streaming videos.              [2 marks]
+
+     Answers may include:
+     • streaming is when video content is sent in compressed form over the
+       internet and displayed on the receiving device in real time. A
+       downloaded video is played from a local storage device
+     • when streaming a video the user does not have to wait to download the
+       video to play it / watch it. A downloaded video must be stored in order
+       to view it
+     • streaming a video involves playing the video on one device while the
+       media is displayed on another. The video is not moved or copied to the
+       device that is playing it. Downloaded video is played directly from local
+       media or storage device where it is stored
+     • a fast internet connection is needed to stream high definition videos from
+       the internet without interruption (about.com). When downloading
+       videos, a fast internet connection is not required
+     • when streaming video the user needs a player, which is a special program
+       that uncompresses and sends video data to the display and audio data to
+       the speakers. Downloaded videos are played with a media player that is
+       installed as a part of most operating systems
+     • a streaming video is not saved on your device. Once you stop playing,
+       the media is no longer available. A downloaded video is stored on local
+       media or storage device (ie downloaded videos can be moved to different
+       devices (by copying them, video is available whenever you want to play
+       it, must wait until the download is complete before you can watch the
+       media)
+
+Note: each bullet point refers to a difference between streaming videos and
+downloading videos.
+
+Award [1 mark] if there is only reference to streaming video or downloading
+video with an implied difference to the other.
+Award up to a maximum of [2 marks] for an outline of the difference between
+downloading and streaming videos.
+                                            – 10 –              M14/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(b)   Compare the use of online evaluation tasks versus face-to-face evaluation
+      tasks to assess the skills the trainees may have learned with the training
+      videos.                                                                    [6 marks]
+
+      Answers may include:
+          Face-to-face evaluation tasks                   Online evaluation tasks
+              specific to the scenario                     specific to the scenario
+       • examiner may ask the participant to      •   will have a limited set of questions
+         repeat the particular procedure              which may not be customized in
+         related to mining or to do                   case the participant needs more
+         something different that was not in          emphasis on certain aspects
+         the initial evaluation task              •   can be done by the participant at
+       • trainees can ask for a clarification         any time, from any place as long
+         of the tasks that is being evaluated         as the internet access available (ie
+       • practical aspects are easier to              poor access at times in the Andes)
+         assess face-to-face by seeing how        •   evaluation module will need to be
+         the participants react and use the           created and tested thoroughly,
+         system (eg mining equipment)                 considering several options and
+       • participants need to fix a time for          assigning value to the actions of
+         the evaluation to be held with the           the participants
+         examiner                                 •   no hands-on tasks can be included
+       • examiner can use judgment to                 in the evaluation
+         assess participant and ask to repeat     •   unbiased evaluation performed by
+         if he/she is nervous or if there was         the training system
+         an equipment failure                     •   online systems can give immediate
+       • evaluation may be subjective or              feedback to some types of
+         biased                                       evaluation tasks (eg multiple-
+       • the evaluation can be closely                choice)
+         monitored to ensure that no              •   it may be possible to get
+         unacceptable         assistance     is       unacceptable assistance during the
+         provided.                                    evaluation (ie friends, books).
+                                      – 11 –             M14/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+
+[1–2 marks]
+A limited response that demonstrates minimal knowledge and understanding of
+the topic and identifies features of either online or face-to-face evaluation tasks.
+No examples from the scenario have been provided. The response uses little or no
+appropriate ITGS terminology.
+
+[3–4 marks]
+A response that demonstrates some knowledge and understanding of the topic and
+describes how specific online or face-to-face evaluation tasks would be
+appropriate. Some relevant examples from the scenario are used within the
+response. There is some use of appropriate ITGS terminology in the response.
+
+[5–6 marks]
+A thorough response that demonstrates knowledge and understanding of the topic
+and makes comparisons between specific online and face-to-face evaluation tasks
+and why they are appropriate. The response demonstrates thorough knowledge
+and understanding of the topic. Relevant examples from the scenario are used
+throughout the response. There is appropriate ITGS terminology throughout the
+response.
+                                           – 12 –             M14/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(c)   Evaluate Fernando’s decision to download the videos and use them to train
+      his staff in the Andes.                                                   [8 marks]
+
+      Answers may include:
+      Mining personnel
+      • can use the videos several times and go through the steps of the training that
+        may have not been clear
+      • no need to travel to La Paz to watch the videos means that time will be saved
+        because the videos can be watched at the mining site
+      • staff will not be able to receive recognition after having done the training
+      • will not be able to interact with the interactive parts of the video
+      • may not be using the most up-to-date version of the videos.
+
+      Fernando
+      • will have to take a manual record of those who completed the training and of
+        their performance
+      • may lose credibility as he cannot guarantee that the training company will issue
+        certificates for those who do the training
+      • may make several copies of the videos and share them with many employees
+        who might need to go over the training
+      • needs to check if the training company allows the videos to be downloaded and
+        used offline
+      • if training videos were not available onsite, the employees would need to be
+        sent to La Paz from the mining site to be trained
+      • by downloading the videos, Fernando’s company may avoid additional costs
+        from the local ISP when trying to access the videos from the mining site in the
+        Andes
+      • the downloaded videos offer the miners more training opportunities (ie view
+        the videos as a group and group discussion of the various aspects of the video)
+      • due to poor internet access in the Andes, downloading the videos will ensure
+        that the trainees will have uninterrupted access to the videos.
+
+      Training company
+      • may lose track of its videos if several copies are made and given out to many
+        people
+      • downloading the videos may violate copyright policy (ie download policy may
+        only allow the use of one copy of the training videos, employees may share the
+        videos with other miners who are not in the company)
+      • will not be able to keep an updated record of the personnel who have received
+        the training.
+
+
+      Note: do not accept references to video quality due to compression.
+
+      In part (c) of this question it is expected there will be a balance in the ITGS
+      terminology between IT technical terminology and the terminology related to
+      social and ethical impacts.
+
+      Please see generic markband information sheet on page 27.
+                                                 – 13 –             M14/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+3.   Energy efficient data centres
+
+     (a)   (i)   Define the term terabyte.                                                        [1 mark]
+
+                 Answers may include:
+                 • 240 bytes
+                 • 1 099 511 627 776 bytes
+                 • 1024 gigabytes
+                 • 1 trillion bytes
+                 • 1012 bytes
+                 • 1000 GB.
+                 Note: units must be included in the response.
+                 Award [1 mark] for any of the above.
+
+           (ii) Identify three features/characteristics of data centres that make them
+                consume large amounts of energy.                                       [3 marks]
+
+                 Answers may include:
+                 • large amount of hardware (computers/servers/routers/switches) need
+                   energy to function
+                 • processing requiring large amounts of energy (ie large volume of CPU
+                   activity, inefficient processors)
+                 • redundant or backup power supplies
+                 • air conditioning is needed to cool equipment
+                 • need for the data centre to work 24/7 (ie run all of the equipment)
+                 • fire control systems
+                 • cabling with high energy consumption (ie some types of cabling require
+                   more energy than optic fibre cable, energy consumption can vary
+                   between types of optic fibre cable).
+
+                 Award [1 mark] for each of the above up to a maximum of [3 marks].
+
+           (iii) Identify two ways that data redundancy may occur in data centres.                [2 marks]
+
+                 Answers may include:
+                 • local backups (kept for security in case of device failure)
+                 • data centres are backed up in different locations (to allow a different data
+                   centre to pick up in case the previous one fails)
+                 • data centres (that store information from social networks) may have files
+                   saved by several users repeatedly.
+
+                 Award [1 mark] for each of the above up to a maximum of [2 marks].
+                                           – 14 –             M14/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(b)   Some governments have decided that data centres will be charged for their
+      environmental impact. This may be done by monitoring the volume of data
+      stored and the energy consumed to maintain the data centre.
+
+      Analyse this decision.                                                               [6 marks]
+
+      Answers may include:
+      • monitoring by government may be an invasion of privacy and may cause
+        clients to find a data centre in a country where these regulations do not exist
+      • some data centres will put more emphasis on the purchase of energy efficient
+        equipment even if these are more expensive
+      • some data centres will opt to downsize their facilities causing slower access or
+        lack of backup services causing discontent among clients
+      • data centres may investigate ways to reduce redundant data stored on their
+        servers
+      • data centres may increase the amount that they charge their clients for data
+        storage
+      • large data centres with high incomes may support economically projects for
+        more efficient energy generators (eg Facebook funding the changes from coal
+        to solar panels of the energy-producing companies)
+      • in order to implement this decision the government will have to monitor the
+        data centres. This has implications for cost, personnel and infrastructure.
+
+      Note: accept responses that address the impacts of the decision as well as those
+      that relate to the decision itself.
+
+      [1–2 marks]
+      A limited response that demonstrates minimal knowledge and understanding of
+      the topic and uses little or no appropriate ITGS terminology.
+
+      [3–4 marks]
+      A partial analysis, either lacking detail or balance, that demonstrates some
+      knowledge and understanding of the topic. Some relevant examples related to the
+      scenario are used within the response. There is some use of appropriate ITGS
+      terminology in the response.
+
+      [5–6 marks]
+      A balanced and detailed analysis of the issue which demonstrates thorough
+      knowledge and understanding of the topic. Relevant examples related to the
+      scenario are used throughout the response. There is appropriate ITGS
+      terminology throughout the response.
+                                            – 15 –             M14/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(c)   ORM, a large company, is expanding and the managers are concerned that
+      their IT systems will need an expensive upgrade to be able to manage the
+      increasing amount of data held by the company. The company is considering
+      moving all of its data to an external data centre and relying on their services
+      to store and provide access to this data.
+
+      Discuss whether ORM should move all of its data to a data centre.                      [8 marks]
+
+      Answers may include:
+      • costs – they will have to compare the cost of upgrading their local servers and
+        IT facilities with the cost of paying for the services of the external data centre
+        provider
+      • complexity of the change – they will have to take into account the complexity
+        of the change from their local in-house providers of IT services to the move of
+        data to the external data centre (time required, changeover period, reliability of
+        the files when moved to a different location – may be too large and time to
+        upload will make them unavailable)
+      • personnel – many of the ORM IT personnel may not be needed and will be
+        made redundant – social implications
+      • policies – they will have to carefully review the policies at the external data
+        centre to understand their responsibilities in the keeping of backups, privacy of
+        the information and availability of the services
+      • confidential information – ORM will need to determine whether data that
+        involves confidential company information should be stored on data centre
+        servers. Data can be accessed by personnel at the data centre.
+
+      Note: the external data centre does not belong to ORM.
+      Note: do not consider any references to hacking into the data centre servers.
+
+      In part (c) of this question it is expected there will be a balance in the ITGS
+      terminology between IT technical terminology and the terminology related to
+      social and ethical impacts.
+
+      Please see generic markband information sheet on page 27.
+                                                 – 16 –             M14/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+                                              SECTION B
+
+4.   Project management at Larssons
+
+     (a)   (i)   State three items that will be included in the project initiation
+                 document.                                                         [3 marks]
+
+                 Answers may include:
+                 • project definition
+                 • background (why is project needed, events that caused the need)
+                 • project objectives and desired outcomes (expected results)
+                 • project scope and exclusions / boundaries for the project (what is
+                   included and what is not)
+                 • constraints and assumptions (what will it not do)
+                 • users, suppliers, sponsors
+                 • interfaces (internal or external and interactions to other projects)
+                 • project approach (how will the solution will be delivered including skills
+                   required to achieve aims)
+                 • business case / justification for the business (estimated costs, risks,
+                   benefits)
+                 • project management team structure (definition of the different levels of
+                   the members of the team)
+                 • role descriptions (roles of members of the team)
+                 • quality management strategy (how will quality expectations be met,
+                   identifying responsible team members)
+                 • configuration management strategy (approach to identify, track and
+                   protect project assets)
+                 • risk management strategy (techniques to identify, assess and control the
+                   risks – include people responsible for this)
+                 • communications management strategy (informing stakeholders of project
+                   status methods and frequency of communication)
+                 • project plan (defining costs and timescales, define products, activities and
+                   resources required, update the plan throughout the lifecycle)
+                 • project controls (tools to help in decision making – tolerances and
+                   monitoring of these).
+
+                 Accept either the item (eg “background”) or a reasonable definition of the item
+                 (eg “why is project needed”)
+
+                 Award [1 mark] for each item up to a maximum of [3 marks].
+                                           – 17 –             M14/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+      (ii)   Identify three responsibilities of the Information Systems Manager.           [3 marks]
+
+             Answers may include:
+             • determines the IS strategy for the company
+             • establishes an information technology strategy
+             • decides on platforms
+             • line manages other IT staff
+             • has budgetary responsibility for IT
+             • evaluates user needs and system functionality and ensures that ICT
+               facilities meet these needs
+             • schedules upgrades and security backups of hardware and software
+               systems
+             • researches and installs new systems
+             • ensures the smooth running of all ICT systems
+             • ensures that software licensing laws are adhered to
+             • provides secure access to the network for remote users
+             • ensures the security of data from internal and external attack
+             • manages crisis situations, which may involve complex technical
+               hardware or software problems
+             • mentors and trains new ICT support staff
+             • keeps up to date with the latest technologies.
+
+             Award [1 mark] for each responsibility up to a maximum of [3 marks].
+
+(b)   Explain three problems that may arise if a project does not make use of a
+      properly designed project methodology such as PRINCE2.                    [6 marks]
+
+      Answers may include:
+      • scope creep – the project may drift into unplanned territory without a guiding
+        plan
+      • failure to deliver project results on time / on budget – items may get forgotten
+        or not allocated sufficient resources
+      • project team loses focus – individuals may go their own separate ways without
+        a definitive plan
+      • stakeholders lose ownership – the development team may lose sight of what the
+        client really wants
+      • critical path to complete project sub optimal – may lose sight of dependencies
+        and waste time
+      • failure to properly estimate project resources, time and costs – items may be
+        neglected or added
+      • project progress / risks / changes not communicated – this can lead to
+        disillusionment on the part of the clients
+      • project assumptions not explored properly – unexpected snags can turn up at a
+        late stage.
+
+       Award [1 mark] for each problem identified up to a maximum of [3 marks].
+       Award [1 mark] for each expansion on the problem up to a maximum of
+      [3 marks].
+                                           – 18 –             M14/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(c)   Project managers need a range of skills, including technical IT skills, to
+      ensure a project is completed on time and within budget.
+
+      To what extent is a project manager’s technical knowledge critical to the
+      success of the projects they manage?                                      [8 marks]
+
+      Answers may include:
+      • programming skills are needed in order to understand programmers’ issues
+      • understanding of project management methodologies so that the work is kept
+        on time, of a sufficient quality and to budget
+      • needs to have knowledge of all areas of the project to ensure it goes as planned
+      • technical knowledge allows the manager to evaluate the results
+      • having a range of skills, such as the ones below, is more critical than having
+        technical knowledge:
+          - be highly organized and a good multi-tasker because the project manager
+              has to manage multiple tasks simultaneously
+          - be a good leader; build consensus, inspire the team, build relationships
+              with key stakeholders
+          - be an effective communicator; needs to be clearly understood by all
+              stakeholders
+          - problem solver; can address the problem with minimal disruption
+          - able to delegate tasks
+          - able to set up and manage budgets.
+
+      In part (c) of this question it is expected there will be a balance in the ITGS
+      terminology between the IT technical terminology and the terminology related
+      to social and ethical impacts.
+
+      Please see generic markband information sheet on page 27.
+                                                 – 19 –          M14/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+5.   Updating Top Dog’s information system
+
+     (a)   (i)    Identify three reasons why the Top Dog owners have decided that it is
+                  time to replace their old information system.                         [3 marks]
+
+                  Answers may include:
+                  • maintenance costs too high
+                  • lack of maintenance provided
+                  • more economical alternatives
+                  • needs of the business have changed
+                  • legislation has forced changes
+                  • adopts a new hardware strategy / platform
+                  • better performance / interface wanted
+                  • old information system is not compatible with new developments in
+                    technology
+                  • old supplier ceases operating.
+
+                  Do not accept “the system (hardware/software) is outdated”
+                  Award [1 mark] for each reason up to a maximum of [3 marks].
+
+           (ii)   Identify three tasks that might need to be performed during the
+                  implementation of the new information system.                   [3 marks]
+
+                  Answers may include:
+                  • order new equipment
+                  • install new equipment
+                  • test new equipment
+                  • train users
+                  • install system on target computers
+                  • transfer data from old system
+                  • enter new data
+                  • a changeover
+                  • run in parallel to ensure working properly
+                  • backing up data.
+
+                  Award [1 mark] for each task up to a maximum of [3 marks].
+                                             – 20 –             M14/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(b)   The project manager is considering either direct changeover or phased
+      changeover for the implementation of the new information system for Top
+      Dog Veterinary Practice. Analyse these options.                         [6 marks]
+
+      Answers may include:
+      Direct changeover
+      • may take less time, new system is up and running immediately
+      • may be less confusing for staff as they have only one system to understand
+      • may lead to duplication of work if comparisons are made between the system
+      • will remove the issues of compatibility between the two systems that may
+        occur with a phased changeover
+      • training is required before the implementation
+      • high risk of data loss.
+
+      Phased changeover
+      • may provide time for staff to learn the new system (training) and may allow for
+        original system to be used in parallel
+      • may give time to appraise the new system as it is implemented – that is not
+        possible with direct changeover as implementation is done in smaller “chunks”
+      • may be possible to revert back to old system as changes may be less. May not
+        be possible with direct changeover
+      • allows closer monitoring of new system as each phase of the implementation
+        can be thoroughly evaluated before the next stage. However, this may extend
+        the time (and cost) required for the changeover
+      • low risk of data loss.
+
+      [1–2 marks]
+      A limited response that indicates very little understanding of the topic.
+
+      [3–4 marks]
+      A reasonable description of the differences between direct and phased
+      changeover methods. The answer may be unbalanced and lack appropriate
+      reasoning at the lower end of the band.
+
+      [5–6 marks]
+      A clear and detailed explanation of the differences between direct and phased
+      changeover methods.
+                                           – 21 –            M14/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(c)   Many companies now outsource their IT provision. This may involve
+      handing over responsibility for the running and maintenance of the
+      information system to a cloud computing provider.
+
+      To what extent would it be advantageous for Top Dog Veterinary Practice to
+      outsource its information system to a cloud computing provider?            [8 marks]
+
+      Answers may include:
+      • definition of cloud computing
+        - virtualization of resources
+        - services offered remotely
+        - transparent to user
+        - cloud computing is sold on demand
+        - the service is managed by the provider
+        - user can determine the amount of service they take
+        - users can log on to the network from any computer in the world
+        - issues related to outsourcing.
+
+      Pros
+      • access to a huge range of applications without having to download or install
+        anything
+      • applications can be accessed from any computer, anywhere in the world
+      • users can avoid expenditure on hardware and software; only using what they
+        need
+      • companies can share resources in one place
+      • consumption is billed as a utility with minimal upfront costs
+      • scalability via on-demand resources
+      • reduced need for onsite resources
+      • reduced need for skilled personnel
+      • the cloud computing provider becomes responsible for backing up the
+        company’s data.
+
+      Cons
+      • users do not physically possess storage of their own data, which leaves the
+        responsibility and control of data storage with the provider
+      • users could become dependent upon the cloud computing provider
+      • with data held externally, business continuity and disaster recovery are in the
+        hands of the provider
+      • data migration issues when changing cloud provider
+      • what happens if your cloud provider goes out of business?
+      • needs an active Internet connection
+      • confidentiality issues.
+
+      Do not accept “hacking” as this can happen regardless the information system is
+      outsourced or not.
+      In part (c) of this question it is expected there will be a balance in the ITGS
+      terminology between the IT technical terminology and the terminology related
+      to social and ethical impacts.
+
+      Please see generic markband information sheet on page 27.
+                                                 – 22 –            M14/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+                                             SECTION C
+
+6.   Expert systems in health care
+
+     (a)   (i)    Identify two characteristics of an expert system.                          [2 marks]
+
+                  Answers may include:
+                  • computer system that emulates a human expert
+                  • used to solve complex problems
+                  • uses reasoning
+                  • has inference engine
+                  • knowledge base
+                  • interface.
+
+                  Award [1 mark] for each point up to a maximum of [2 marks].
+
+           (ii)   Identify two reasons why a doctor would use an expert system in order
+                  to help diagnose a patient’s condition.                               [2 marks]
+
+                  Answers may include:
+                  • to have access to the latest information about the condition
+                  • to have the benefit of the knowledge from top experts in the field
+                  • to confirm their diagnosis with that of the expert system
+                  • to make sure that interactions / complications are properly taken into
+                    account
+                  • avoid mistakes in diagnosis
+                  • have greater time to spend on less common conditions as the expert
+                    system diagnoses the common conditions more quickly.
+
+                  Award [1 mark] for each reason up to a maximum of [2 marks].
+
+           (iii) Outline the relationship between the knowledge base and the knowledge
+                 engineer.                                                             [2 marks]
+
+                  Answers may include:
+                  • the knowledge engineer translates knowledge into computer usable form
+                    in the knowledge base
+                  • knowledge engineer has the experience / background to determine what
+                    should be included in the knowledge base
+                  • knowledge engineer can test the knowledge base to see if it performs
+                    adequately
+                  • knowledge engineer does not need to maintain contact with the
+                    knowledge base after it is implemented – otherwise no point in having
+                    the autonomous system.
+
+                  Award [1 mark] for each appropriate comment that outlines the
+                  relationship between the knowledge base and the knowledge engineer
+                  up to a maximum of [2 marks].
+                                             – 23 –             M14/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(b)   (i)    Explain the purpose of an expert system shell.                              [2 marks]
+
+             Answers may include:
+             • a means for creating an expert system
+             • has features for adding rules
+             • allows if/then conditions to be created
+             • provides interface between the expert system and its creator
+             • provides algorithms for making inferences from the rules.
+
+             Award [1 mark] for each appropriate comment that explains the purpose of
+             the expert system shell up to a maximum of [2 marks].
+
+      (ii)   Construct the inference rules that were put into the expert system by
+             the knowledge engineer.                                               [4 marks]
+
+             •   if age >=18 and age <=65 then check weight, (else no)
+             •   if weight >=50 kg then check blood pressure, (else no)
+             •   if blood pressure <180/100 then check hemoglobin, (else no)
+             •   if male and hemoglobin >=135 g/l then yes
+             •   else if female and hemoglobin >=125 g/l then yes, (else no).
+
+             Award [1 mark] for each interface rule up to a maximum of [4 marks].
+
+(c)   To what extent should Dr James trust the results produced by an expert
+      system in making her final decision about a course of treatment for a
+      patient?                                                               [8 marks]
+
+      Answers may include:
+      A doctor should trust the findings
+      • all known factors were taken into account when making decisions about the
+        treatment because they are programmed into the expert system
+      • they are making use of the knowledge of many experts in determining the
+        treatment
+      • a treatment may involve a complex situation that might be difficult for humans
+        to comprehend unaided by an expert system.
+
+      A doctor should not trust the findings
+      • from past experience in using the system, the expert “knowledge” seems to be
+        not reliable in providing an accurate diagnosis and treatment
+      • the patient has multiple illnesses and the expert system cannot make sensible
+        recommendations for treatment
+      • risks of new treatments not known so they could not be added to knowledge
+        base
+      • may encounter unprecedented situations and there is no data to draw on.
+
+      In part (c) of this question it is expected there will be a balance in the ITGS
+      terminology between the IT technical terminology and the terminology related
+      to social and ethical impacts.
+
+      Please see generic markband information sheet on page 27.
+                                                  – 24 –           M14/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+7.   Robots in war
+
+     (a)   (i)    Define the term artificial intelligence.                                      [2 marks]
+
+                  Answers may include:
+                  • human-like intelligence
+                  • study (and design) of intelligent agents
+                  • the science and engineering of making intelligent machines
+                  • an agent having qualities that we associate with intelligence eg learning
+                    ability / adaptability
+                  • the ability of machines to have thoughts and make decisions like humans.
+
+                  Award [1 mark] for a basic comment about AI with [1 mark] for each
+                  additional comment up to a maximum of [2 marks].
+
+           (ii)   Identify the steps that could be taken by the drone to identify a target.     [4 marks]
+
+                  Answers may include:
+                  • relay image to human operator
+                  • detect cell phone transmissions – if recognized as enemy then attack
+                  • pattern recognition algorithms – match against known images / determine
+                    if non-natural, ie man-made
+                  • the drone uses sensors to scan and identify the scene
+                  • the drone retrieves information from an expert system to identify which
+                    target matches the established criteria
+                  • heat detection – unexpected body heat could identify a human target
+                  • detect man-made light source.
+
+                  Any four steps, award [1 mark] each up to a maximum of [4 marks].
+                                            – 25 –            M14/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(b)   Analyse the decision to train soldiers using battlefield computer games.            [6 marks]
+
+      Answers may include:
+        • it is more cost-effective than training soldiers in a battlefield environment
+        • it is safer than training soldiers in a battlefield environment
+        • may give commanding officers an insight into how they may react in real life
+        • good tool to examine the best strategy to use when approaching a situation
+        • games should include normal and unusual situations
+        • through the games soldiers should be able to visualize the worst-case scenarios
+        • games should emphasize importance of reacting to warnings
+        • because it is a game, soldiers may not take it as seriously, may not think it is important
+        • soldiers might get fatigued by visual / aural signals
+        • lack of danger may reduce realism.
+
+      [1–2 marks]
+      A limited response that demonstrates minimal knowledge and understanding of
+      the topic and uses little or no appropriate ITGS terminology.
+
+      [3–4 marks]
+      A partial analysis, either lacking detail or balance, that demonstrates some
+      knowledge and understanding of the topic. Some relevant examples are used
+      within the response. There is some use of appropriate ITGS terminology in the
+      response.
+
+      [5–6 marks]
+      A balanced and detailed analysis of the issue which demonstrates thorough
+      knowledge and understanding of the topic. Relevant examples are used
+      throughout the response. There is appropriate ITGS terminology throughout the
+      response.
+                                          – 26 –            M14/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+(c)   To what extent is it acceptable in war that robots should be able to make
+      their own decisions?                                                      [8 marks]
+
+      Answers may include:
+      Benefits
+      • standard response to standard danger
+      • prevents panic responses
+      • prevents ill-judged responses
+      • less chance of not noticing a danger
+      • leaves operator free to make judgments.
+
+      Drawbacks
+      • response might be inappropriate / computer systems can make errors
+      • might be a new situation never anticipated
+      • might fail to take into account unexpected variables
+      • makes the operator less alert as the system is trusted
+      • unclear who is taking responsibility for lethal action.
+
+      In part (c) of this question it is expected there will be a balance in the ITGS
+      terminology between the IT technical terminology and the terminology related
+      to social and ethical impacts.
+
+      Please see generic markband information sheet on page 27.
+                                          – 27 –          M14/3/ITGSX/HP1/ENG/TZ0/XX/M
+
+
+SL and HL paper 1 part (c) and HL paper 3 question 3 markband
+        Marks                                  Level descriptor
+                           • A response with no knowledge or understanding of the
+       No marks              relevant ITGS issues and concepts.
+                           • A response that includes no appropriate ITGS terminology.
+                           • A response with minimal knowledge and understanding of
+                             the relevant ITGS issues and concepts.
+                           • A response that includes minimal use of appropriate
+         Basic               ITGS terminology.
+                           • A response that has no evidence of judgments and/or
+      1–2 marks              conclusions.
+                           • No reference is made to the scenario in the stimulus material
+                             in the response.
+                           • The response may be no more than a list.
+                           • A descriptive response with limited knowledge and/or
+                             understanding of the relevant ITGS issues and/or concepts.
+                           • A response that includes limited use of appropriate
+                             ITGS terminology.
+       Adequate
+                           • A response that has evidence of conclusions and/or
+      3–4 marks              judgments that are no more than unsubstantiated statements.
+                             The analysis underpinning them may also be partial
+                             or unbalanced.
+                           • Implicit references are made to the scenario in the stimulus
+                             material in the response.
+                           • A response with knowledge and understanding of the
+                             relevant ITGS issues and/or concepts.
+                           • A response that uses ITGS terminology appropriately
+      Competent              in places.
+                           • A response that includes conclusions and/or judgments that
+      5–6 marks
+                             have limited support and are underpinned by a balanced
+                             analysis.
+                           • Explicit references to the scenario in the stimulus material
+                             are made at places in the response.
+                           • A response with a detailed knowledge and understanding of
+                             the relevant ITGS issues and/or concepts.
+                           • A response that uses ITGS terminology appropriately
+       Proficient
+                             throughout.
+      7–8 marks            • A response that includes conclusions and/or judgments that
+                             are well supported and underpinned by a balanced analysis.
+                           • Explicit references are made appropriately to the scenario in
+                             the stimulus material throughout the response.
+

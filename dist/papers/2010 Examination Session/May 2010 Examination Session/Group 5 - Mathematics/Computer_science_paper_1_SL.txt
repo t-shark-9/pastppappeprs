@@ -1,0 +1,205 @@
+M10/5/COMSC/SP1/ENG/TZ0/XX
+
+
+
+
+       22107013
+
+
+Computer science
+Standard level
+Paper 1
+
+Thursday 6 May 2010 (afternoon)
+
+1 hour 30 minutes
+
+
+INSTRUCTIONS TO CANDIDATES
+
+ Do not open this examination paper until instructed to do so.
+ Section A: answer all the questions.
+ Section B: answer all the questions.
+
+
+
+
+2210-7013                                                                                          5 pages
+                                                           © International Baccalaureate Organization 2010
+                                                    –2–                  M10/5/COMSC/SP1/ENG/TZ0/XX
+
+                                               Section a
+
+Answer all the questions.
+
+1.    State two items that would be included in a requirements specification in addition to
+      inputs and outputs.                                                                       [2 marks]
+
+
+2.    (a)   State a suitable file format for a graphics file that is to be sent as an email
+            attachment.                                                                         [1 mark]
+
+      (b)   Outline one advantage of the file format for this purpose.                          [2 marks]
+
+
+3.    (a)   State the binary representation of the decimal number 24.                           [1 mark]
+
+      (b)   Using 6 bits state the two’s complement representation of the decimal number –24.   [1 mark]
+
+      (c)   A register has 8 bits. State the binary representation of the hexadecimal number
+            5F in this register.                                                                [2 marks]
+
+
+4.    Outline the function of the arithmetic and logic unit (ALU) in the central processing
+      unit (CPU).                                                                               [2 marks]
+
+
+5.    Identify one characteristic of
+
+      (a)   a sequential access file;                                                           [1 mark]
+
+      (b)   a direct access file.                                                               [1 mark]
+
+
+6.    (a)   Outline one example of an application, where a microprocessor is used.              [2 marks]
+
+      (b)   For the application outlined in part (a), state one input and one output.           [2 marks]
+
+
+7.    Describe the difference between private class members and public class members.           [2 marks]
+
+
+8.    (a)   Outline one use of a macro within an application.                                   [2 marks]
+
+      (b)   State two advantages of using the macro from part (a).                              [2 marks]
+
+
+9.    Describe how a check sum could ensure data integrity in the transmission of data.         [3 marks]
+
+
+10.   Compare magnetic tape with flash memory as media for backing up data.                     [4 marks]
+
+2210-7013
+                                                    –3–                M10/5/COMSC/SP1/ENG/TZ0/XX
+
+                                                  Section b
+
+Answer all the questions.
+
+11.   A chain of supermarkets gives discounts to regular customers who shop in any one of
+      their stores. The regular customers all have a card with a magnetic strip which stores
+      an identification number. Each item in the supermarket has a barcode that identifies
+      the item. This barcode is used to find the price of the item which is stored on a
+      computer in the store. Prices and discounts are marked on the shelves.
+
+      (a)   Identify two input devices needed at the checkout.                                 [2 marks]
+
+      Each store has a computer which holds prices and member discounts for each item.
+
+      (b)   Outline how the barcode is used to access the record of an item.                   [2 marks]
+
+      (c)   Describe the process of creating a bill for a regular customer who buys items,
+            some of which get a discount.                                                      [4 marks]
+
+      When the store is closed, prices and discounts are updated from a central computer.
+
+      (d)   Suggest why the prices and discounts are updated when the store is closed.         [2 marks]
+
+
+12.   A college server stores student assignments. Students can access their own assignments
+      at anytime, from any place, so that assignments can be worked on during weekends
+      and vacations. Teachers can continually access the work of their students.
+
+      (a)   Identify a transmission medium that would be appropriate
+
+		          (i)    within the college premises;                                                 [1 mark]
+
+		          (ii)   when away from the college.                                                  [1 mark]
+
+      (b)   Only a student and their teacher have access to the student’s work.
+
+		          (i)    Describe suitable security measures to protect the student’s work from
+                   being copied or modified.                                                   [3 marks]
+
+		          (ii)   State one system that would allow the teacher to comment on the
+                   student’s work.                                                              [1 mark]
+
+      Computer resources at the college are allocated according to need and priority.
+      The use of resources is recorded by the server.
+
+      (c)   Explain the role of the college server in controlling data storage and
+            printing services.                                                                 [4 marks]
+
+2210-7013                                                                                      Turn over
+                                                      –4–                M10/5/COMSC/SP1/ENG/TZ0/XX
+
+13.   Two arrays, student[] and grade[], are shown below.
+
+      student[]
+              [0]           [1]               [2]        [3]           [4]         [5]
+            Pietro       Michelle           Archie     Sol Me         Dyna        Clara
+
+      grade[]
+             [0]             [1]             [2]        [3]            [4]         [5]
+              7               4               5          2              5           9
+
+      The following method, deleteStudent(), is used to manipulate the two arrays.
+      It contains an error. It can be assumed that the student name entered into the method
+      is present in the array.
+
+      public void deleteStudent(String name)
+      {
+        int j = 0;
+        for (int c = 0; c < 6; c++)
+        {
+           if (student[c] == name)
+           { j = c; }
+        }
+        for (int c = j; c < 6; c++)
+        {
+           student[c] = student[c + 1];
+           grade[c] = grade[c + 1];
+        }
+      }
+
+      (a)     Copy and complete the table below for the first loop in the call
+
+                                           deleteStudent("Archie").                           [4 marks]
+
+               name          j      c      student[c] == name student[c]         grade[c]
+               Archie        0      0      false              Pietro             7
+                                    1      false              Michelle           4
+
+
+
+      (b)     (i)    Identify the error.                                                      [1 mark]
+
+		            (ii)   State the type of error.                                                 [1 mark]
+
+      (c)     Outline one way in which the method could be adapted to avoid the error.        [2 marks]
+
+      (d)     Suggest one way in which the efficiency of the method could be improved.        [2 marks]
+
+
+
+
+2210-7013
+                                                  –5–                 M10/5/COMSC/SP1/ENG/TZ0/XX
+
+14.   A specialised company is asked to design and implement a new computer system for
+      a factory. The new design will include automating some manufacturing processes.
+
+      (a)   Outline one method of data collection which the company could use in the
+            analysis stage.                                                                   [2 marks]
+
+      (b)   Describe the usefulness of producing more than one prototype of the new system.   [2 marks]
+
+      (c)   State two advantages of a modular design for the new software.                    [2 marks]
+
+      (d)   Discuss two social implications of introducing the new system into the factory.   [4 marks]
+
+
+
+
+2210-7013
+

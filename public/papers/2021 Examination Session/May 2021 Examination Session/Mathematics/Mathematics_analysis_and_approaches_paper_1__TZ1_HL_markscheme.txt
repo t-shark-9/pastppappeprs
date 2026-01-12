@@ -1,0 +1,1224 @@
+M21/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+
+
+                       Markscheme
+
+
+                               May 2021
+
+
+                    Mathematics:
+               analysis and approaches
+
+
+                           Higher level
+
+
+                               Paper 1
+
+
+
+
+26 pages
+                                            –2–                 M21/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+
+
+© International Baccalaureate Organization 2021
+
+All rights reserved. No part of this product may be reproduced in any form or by any
+electronic or mechanical means, including information storage and retrieval systems,
+without the prior written permission from the IB. Additionally, the license tied with this
+product prohibits use of any selected files or extracts from this product. Use by third
+parties, including but not limited to publishers, private teachers, tutoring or study services,
+preparatory schools, vendors operating curriculum mapping services or teacher resource
+digital platforms and app developers, whether fee-covered or not, is prohibited and is a
+criminal offense.
+
+More information on how to request written permission in the form of a license can be
+obtained from https://ibo.org/become-an-ib-school/ib-publishing/licensing/applying-for-a-
+license/.
+
+© Organisation du Baccalauréat International 2021
+
+Tous droits réservés. Aucune partie de ce produit ne peut être reproduite sous quelque
+forme ni par quelque moyen que ce soit, électronique ou mécanique, y compris des
+systèmes de stockage et de récupération d’informations, sans l’autorisation écrite
+préalable de l’IB. De plus, la licence associée à ce produit interdit toute utilisation de tout
+fichier ou extrait sélectionné dans ce produit. L’utilisation par des tiers, y compris, sans
+toutefois s’y limiter, des éditeurs, des professeurs particuliers, des services de tutorat ou
+d’aide aux études, des établissements de préparation à l’enseignement supérieur, des
+fournisseurs de services de planification des programmes d’études, des gestionnaires de
+plateformes pédagogiques en ligne, et des développeurs d’applications, moyennant
+paiement ou non, est interdite et constitue une infraction pénale.
+
+Pour plus d’informations sur la procédure à suivre pour obtenir une autorisation écrite
+sous la forme d’une licence, rendez-vous à l’adresse https://ibo.org/become-an-ib-school/
+ib-publishing/licensing/applying-for-a-license/.
+
+© Organización del Bachillerato Internacional, 2021
+
+Todos los derechos reservados. No se podrá reproducir ninguna parte de este producto
+de ninguna forma ni por ningún medio electrónico o mecánico, incluidos los sistemas de
+almacenamiento y recuperación de información, sin la previa autorización por escrito del
+IB. Además, la licencia vinculada a este producto prohíbe el uso de todo archivo o
+fragmento seleccionado de este producto. El uso por parte de terceros —lo que incluye,
+a título enunciativo, editoriales, profesores particulares, servicios de apoyo académico o
+ayuda para el estudio, colegios preparatorios, desarrolladores de aplicaciones y
+entidades que presten servicios de planificación curricular u ofrezcan recursos para
+docentes mediante plataformas digitales—, ya sea incluido en tasas o no, está prohibido
+y constituye un delito.
+
+En este enlace encontrará más información sobre cómo solicitar una autorización por
+escrito en forma de licencia: https://ibo.org/become-an-ib-school/ib-publishing/licensing/
+applying-for-a-license/.
+                                                 –3–                 M21/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+                                     Instructions to Examiners
+
+Abbreviations
+
+M    Marks awarded for attempting to use a correct Method.
+A    Marks awarded for an Answer or for Accuracy; often dependent on preceding M marks.
+R    Marks awarded for clear Reasoning.
+AG   Answer given in the question and so no marks are awarded.
+FT   Follow through. The practice of awarding marks, despite candidate errors in previous parts, for
+     their correct methods/answers using incorrect results.
+
+
+Using the markscheme
+
+1    General
+
+     Award marks using the annotations as noted in the markscheme eg M1, A2.
+
+
+2    Method and Answer/Accuracy marks
+
+     • Do not automatically award full marks for a correct answer; all working must be checked,
+       and marks awarded according to the markscheme.
+     • It is generally not possible to award M0 followed by A1, as A mark(s) depend on the
+       preceding M mark(s), if any.
+     • Where M and A marks are noted on the same line, e.g. M1A1, this usually means M1 for
+       an attempt to use an appropriate method (e.g. substitution into a formula) and A1 for using
+       the correct values.
+     • Where there are two or more A marks on the same line, they may be awarded
+       independently; so if the first value is incorrect, but the next two are correct, award A0A1A1.
+     • Where the markscheme specifies A3, M2 etc., do not split the marks, unless there is a note.
+     • The response to a “show that” question does not need to restate the AG line, unless a Note
+       makes this explicit in the markscheme.
+     • Once a correct answer to a question or part question is seen, ignore further working even if
+       this working is incorrect and/or suggests a misunderstanding of the question. This will
+       encourage a uniform approach to marking, with less examiner discretion. Although some
+       candidates may be advantaged for that specific question item, it is likely that these candidates
+       will lose marks elsewhere too.
+     • An exception to the previous rule is when an incorrect answer from further working is used in
+       a subsequent part. For example, when a correct exact value is followed by an incorrect
+       decimal approximation in the first part and this approximation is then used in the second part.
+       In this situation, award FT marks as appropriate but do not award the final A1 in the first part.
+       Examples:
+
+     Correct        Further           Any FT issues?
+                                                                 Action
+     answer seen    working seen
+1.                    5.65685...        No.                       Award A1 for the final mark
+       8 2           (incorrect         Last part in question.    (condone the incorrect further
+                    decimal value)                                working)
+2.                   0.468111…          Yes.                      Award A0 for the final mark
+        35
+                     (incorrect         Value is used in          (and full FT is available in
+        72          decimal value)      subsequent parts.         subsequent parts)
+                                                –4–               M21/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+3   Implied marks
+
+    Implied marks appear in brackets e.g. (M1),and can only be awarded if correct work is seen
+    or implied by subsequent working/answer.
+
+
+4   Follow through marks (only applied after an error is made)
+
+    Follow through (FT) marks are awarded where an incorrect answer from one part of a question
+    is used correctly in subsequent part(s) (e.g. incorrect value from part (a) used in part (d) or
+    incorrect value from part (c)(i) used in part (c)(ii)). Usually, to award FT marks, there must be
+    working present and not just a final answer based on an incorrect answer to a previous part.
+    However, if all the marks awarded in a subsequent part are for the answer or are implied, then
+    FT marks should be awarded for their correct answer, even when working is not present.
+
+    For example: following an incorrect answer to part (a) that is used in subsequent parts, where
+    the markscheme for the subsequent part is (M1)A1, it is possible to award full marks for their
+    correct answer, without working being seen. For longer questions where all but the answer
+    marks are implied this rule applies but may be overwritten by a Note in the Markscheme.
+
+    • Within a question part, once an error is made, no further A marks can be awarded for work
+      which uses the error, but M marks may be awarded if appropriate.
+
+    • If the question becomes much simpler because of an error then use discretion to award
+      fewer FT marks, by reflecting on what each mark is for and how that maps to the simplified
+      version.
+
+    • If the error leads to an inappropriate value (e.g. probability greater than 1, sin q = 1.5 , non-
+      integer value where integer required), do not award the mark(s) for the final answer(s).
+
+    • The markscheme may use the word “their” in a description, to indicate that candidates may
+      be using an incorrect value.
+
+    • If the candidate’s answer to the initial question clearly contradicts information given in the
+      question, it is not appropriate to award any FT marks in the subsequent parts. This includes
+      when candidates fail to complete a “show that” question correctly, and then in subsequent
+      parts use their incorrect answer rather than the given value.
+
+    • Exceptions to these FT rules will be explicitly noted on the markscheme.
+
+    • If a candidate makes an error in one part but gets the correct answer(s) to subsequent
+      part(s), award marks as appropriate, unless the command term was “Hence”.
+                                               –5–                M21/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+5   Mis-read
+
+    If a candidate incorrectly copies values or information from the question, this is a mis-read
+    (MR). A candidate should be penalized only once for a particular misread. Use the MR stamp
+    to indicate that this has been a misread and do not award the first mark, even if this is an M
+    mark, but award all others as appropriate.
+
+    • If the question becomes much simpler because of the MR, then use discretion to award
+      fewer marks.
+
+    • If the MR leads to an inappropriate value (e.g. probability greater than 1, sin q = 1.5 , non-
+      integer value where integer required), do not award the mark(s) for the final answer(s).
+
+    • Miscopying of candidates’ own work does not constitute a misread, it is an error.
+
+    • If a candidate uses a correct answer, to a “show that” question, to a higher degree of
+      accuracy than given in the question, this is NOT a misread and full marks may be scored in
+      the subsequent part.
+
+    • MR can only be applied when work is seen. For calculator questions with no working and
+      incorrect answers, examiners should not infer that values were read incorrectly.
+
+
+6   Alternative methods
+
+    Candidates will sometimes use methods other than those in the markscheme. Unless the
+    question specifies a method, other correct methods should be marked in line with the
+    markscheme. If the command term is ‘Hence’ and not ‘Hence or otherwise’ then alternative
+    methods are not permitted unless covered by a note in the mark scheme.
+
+    • Alternative methods for complete questions are indicated by                         METHOD   1,
+      METHOD 2, etc.
+    • Alternative solutions for parts of questions are indicated by EITHER . . . OR.
+                                                      –6–                   M21/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+7   Alternative forms
+
+    Unless the question specifies otherwise, accept equivalent forms.
+
+    • As this is an international examination, accept all alternative forms of notation for example
+      1.9 and 1,9 or 1000 and 1,000 and 1.000 .
+
+    • Do not accept final answers written using calculator notation. However, M marks and
+      intermediate A marks can be scored, when presented using calculator notation, provided
+      the evidence clearly reflects the demand of the mark.
+
+    • In the markscheme, equivalent numerical and algebraic forms will generally be written in
+      brackets immediately following the answer.
+
+    • In the markscheme, some equivalent answers will generally appear in brackets. Not all
+      equivalent notations/answers/methods will be presented in the markscheme and examiners
+      are asked to apply appropriate discretion to judge if the candidate work is equivalent.
+
+8   Format and accuracy of answers
+
+    If the level of accuracy is specified in the question, a mark will be linked to giving the answer
+    to the required accuracy. If the level of accuracy is not stated in the question, the general rule
+    applies to final answers: unless otherwise stated in the question all numerical answers must
+    be given exactly or correct to three significant figures.
+
+    Where values are used in subsequent parts, the markscheme will generally use the exact
+    value, however candidates may also use the correct answer to 3 sf in subsequent parts. The
+    markscheme will often explicitly include the subsequent values that come “from the use of 3 sf
+    values”.
+
+    Simplification of final answers: Candidates are advised to give final answers using good
+    mathematical form. In general, for an A mark to be awarded, arithmetic should be completed,
+                                                                                       25
+    and any values that lead to integers should be simplified; for example,               should be written as
+                                                                                       4
+     5
+       . An exception to this is simplifying fractions, where lowest form is not required
+     2
+                                                                                         10
+    (although the numerator and the denominator must be integers); for example,             may be left
+                                                                                          4
+                               5              10
+    in this form or written as . However,         should be written as 2, as it simplifies to an
+                               2               5
+    integer.
+
+    Algebraic expressions should be simplified by completing any operations such as addition
+    and multiplication, e.g. 4e 2 x ´ e3 x should be simplified to 4e5 x , and 4e2 x ´ e3 x - e4 x ´ e x should
+    be simplified to 3e 5 x . Unless specified in the question, expressions do not need to be
+    factorized, nor do factorized expressions need to be expanded, so x ( x + 1) and x 2 + x are
+    both acceptable.
+
+    Please note: intermediate A marks do NOT need to be simplified.
+                                                   –7–                M21/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+9     Calculators
+
+      No calculator is allowed. The use of any calculator on this paper is malpractice and will
+      result in no grade awarded. If you see work that suggests a candidate has used any
+      calculator, please follow the procedures for malpractice.
+
+
+10.   Presentation of candidate work
+
+      Crossed out work: If a candidate has drawn a line through work on their examination script,
+      or in some other way crossed out their work, do not award any marks for that work unless an
+      explicit note from the candidate indicates that they would like the work to be marked.
+
+      More than one solution: Where a candidate offers two or more different answers to the
+      same question, an examiner should only mark the first response unless the candidate
+      indicates otherwise. If the layout of the responses makes it difficult to judge, examiners
+      should apply appropriate discretion to judge which is “first”.
+                                                  –8–                 M21/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+                                                Section A
+
+1.   (a)   (i)         f ( 2) = 6                                                           A1
+           (ii)    (f       f )( 2 ) = −2                                                   A1
+                                                                                                   [2 marks]
+
+     (b)
+
+
+
+
+                                                                                      M1A1A1
+
+           Note: Award M1 for an attempt to apply any vertical stretch or vertical translation,
+                A1 for a correct horizontal line segment between −4 and 0
+                (located roughly at y = 3 ),
+                A1 for a correct concave down parabola including max point at (2,4) and for
+                correct end points at (0,3) and (6,0) (within circles). Points do not need to be
+                labelled.
+
+                                                                                                 [3 marks]
+                                                                                           Total [5 marks]
+
+
+2    METHOD 1 (finding u1 first, from S8)
+     4 ( u1 + 8) = 8                                                                       (A1)
+     u1 = −6                                                                                A1
+     u1 + 7d = 8 OR 4 ( 2u1 + 7d ) = 8 (may be seen with their value of u1 )               (A1)
+     attempt to substitute their u1                                                        (M1)
+     d =2                                                                                    A1
+
+     METHOD 2 (solving simultaneously)
+     u1 + 7d = 8                                                                           (A1)
+     4 ( u1 + 8) = 8 OR 4 ( 2u1 + 7d ) = 8 OR u1 = −3d                                     (A1)
+     attempt to solve linear or simultaneous equations                                     (M1)
+     u1 = −6, d = 2                                                                      A1A1
+
+                                                                                                   [5 marks]
+                                                  –9–              M21/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+3.   (a)   attempt to use definition of outlier
+           1.5  20 + Q3                                                          (M1)
+           1.5  20 + U  75 (  U  45 , accept U  45 ) OR 1.5  20 + Q3 = 75    A1
+           minimum value of U = 45                                                 A1
+
+                                                                                         [3 marks]
+
+     (b)   attempt to use interquartile range                                     (M1)
+           U − L = 20 (may be seen in part (a)) OR L  25 (accept L  25 )
+           minimum value of L = 25                                                 A1
+
+
+                                                                                        [2 marks]
+                                                                                  Total [5 marks]
+                                                        – 10 –             M21/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+4.   (a)     f  ( x ) = −2 ( x − h )                                                        A1
+                                                                                                    [1 mark]
+
+     (b)    g  ( x ) = e x −2 OR g  ( 3) = e3−2 (may be seen anywhere)                     A1
+
+            Note: The derivative of g must be explicitly seen, either in terms of x or 3.
+
+
+            recognizing f  ( 3) = g  ( 3)                                                 (M1)
+            −2 ( 3 − h ) = e3−2 ( = e )
+                                               e
+            −6 + 2h = e OR 3 − h = −                                                         A1
+                                               2
+
+           Note: The final A1 is dependent on one of the previous marks being awarded.
+
+                 e+6
+            h=                                                                               AG
+                  2
+                                                                                                   [3 marks]
+
+     (c)     f ( 3) = g ( 3)                                                                (M1)
+            − ( 3 − h ) + 2 k = e 3− 2 + k
+                       2
+
+
+
+            correct equation in k
+
+            EITHER
+
+                 e+6
+                               2
+                             3− 2
+            −3−     + 2k = e + k                                                           A1
+                 2 
+                   6−e−6         −e  
+                          2              2
+
+            k = e+        = e +                                                       A1
+                   2            2  
+
+            OR
+
+                        e+6
+                                    2
+                    
+            k = e + 3−                                                                     A1
+                        2 
+                                        e2 + 12e + 36
+            k = e + 9 − 3e − 18 +                                                            A1
+                                              4
+
+            THEN
+                      e2
+            k = e+                                                                           AG
+                      4
+                                                                                                  [3 marks]
+                                                                                            Total [7 marks]
+                                                      – 11 –               M21/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+5.   (a)
+           Note: Do not award the final A1 for proofs which work from both sides to find a
+                 common expression other than 2sin x cos x − 2sin 2 x .
+
+           METHOD 1 (LHS to RHS)
+           attempt to use double angle formula for sin 2x or cos 2x                        M1
+           LHS= 2sin x cos x + cos 2 x − 1 OR
+           sin 2 x + 1 − 2sin 2 x − 1 OR
+           2sin x cos x + 1 − 2sin 2 x − 1
+           = 2sin x cos x − 2sin 2 x                                                       A1
+           sin 2 x + cos 2 x − 1 = 2sin x(cos x − sin x) =RHS                              AG
+
+
+           METHOD 2 (RHS to LHS)
+           RHS = 2sin x cos x − 2sin 2 x
+               attempt to use double angle formula for sin 2x or cos 2x                    M1
+                 = sin 2 x + 1 − 2sin x − 1
+                                       2
+                                                                                           A1
+                 = sin 2 x + cos 2 x −1 = LHS                                              AG
+                                                                                                 [2 marks]
+
+
+     (b)   attempt to factorise                                                            M1
+           (cos x − sin x) ( 2sin x + 1) = 0                                               A1
+                                               sin x                          1
+           recognition of cos x = sin x             = tan x = 1 OR sin x = −             (M1)
+                                               cos x                          2
+           one correct reference angle seen anywhere, accept degrees                      (A1)
+            π    π          π 7π
+              OR   (accept − ,   )
+            4    6          6 6
+
+           Note: This (M1)(A1) is independent of the previous M1A1.
+
+                7π 11π π 5π
+           x=     ,   , ,                                                                  A2
+                 6 6 4 4
+
+            Note: Award A1 for any two correct (radian) answers.
+                  Award A1A0 if additional values given with the four correct (radian)
+                  answers. Award A1A0 for four correct answers given in degrees.
+
+
+                                                                                                [6 marks]
+                                                                                          Total [8 marks]
+                                                   – 12 –             M21/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+6.   METHOD 1
+
+     attempt to use a right angled triangle                                             M1
+
+
+
+
+     correct placement of all three values and  seen in the triangle                  (A1)
+
+     cot   0 (since cosec  0 puts  in the second quadrant)                          R1
+                5
+     cot  = −                                                                           A1
+               2
+                                          5
+     Note:Award M1A1R0A0 for cot  =         seen as the final answer
+                                         2
+           The R1 should be awarded independently for a negative value only given as a final
+           answer.
+
+                                                                                               [4 marks]
+
+     METHOD 2
+     Attempt to use 1 + cot 2  = cosec 2                                              M1
+                      9
+     1 + cot 2  =
+                      4
+                 5
+     cot 2  =                                                                         (A1)
+                 4
+                      5
+     cot  = 
+                     2
+     cot   0 (since cosec  0 puts  in the second quadrant)                          R1
+                 5
+     cot  = −                                                                           A1
+                2
+                                               5
+     Note:Award M1A1R0A0 for cot  =             seen as the final answer
+                                              2
+           The R1 should be awarded independently for a negative value only given as a final
+           answer.
+                                            – 13 –             M21/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+
+METHOD 3
+          2
+sin  =
+          3
+attempt to use sin 2  + cos 2  = 1                                               M1
+4
+  + cos 2  = 1
+9
+          5
+cos 2  =                                                                         (A1)
+          9
+               5
+cos  = 
+              3
+cos  0 (since cosec  0 puts  in the second quadrant)                           R1
+           5
+cos  = −
+          3
+           5
+cot  = −                                                                           A1
+          2
+                                        5
+Note:Award M1A1R0A0 for cot  =           seen as the final answer
+                                       2
+      The R1 should be awarded independently for a negative value only given as a final
+      answer.
+                                                                 – 14 –                M21/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+7.   METHOD 1
+     other two roots are a − bi and b − ai                                                             A1
+     sum of roots = −4 and product of roots = 400                                                      A1
+
+     attempt to set sum of four roots equal to −4 or 4 OR
+     attempt to set product of four roots equal to 400                                                 M1
+     a + bi + a − bi + b + ai + b − ai = − 4
+     2a + 2 b = − 4 (  a + b = −2 )                                                                   A1
+
+
+     ( a + bi ) ( a − bi ) ( b + ai )(b − ai ) = 400
+     ( a +b ) = 400
+        2    2 2
+                                                                                                       A1
+
+     a2 +b2 = 20
+     attempt to solve simultaneous equations                                                          (M1)
+     a = 2 or a = −4                                                                                 A1A1
+                                                                                                             [8 marks]
+
+     METHOD 2
+     other two roots are a − bi and b − ai                                                             A1
+     ( z − ( a + bi ) ) ( z − ( a − bi ) ) ( z − (b + ai )) ( z − (b − ai ) ) ( = 0)                   A1
+
+     ( ( z − a) + b )( ( z − b) + a ) ( = 0 )
+               2     2            2      2
+
+
+
+     ( z − 2az + a + b )( z − 2bz + b + a ) ( = 0 )
+        2                2   2     2             2       2
+                                                                                                       A1
+                                                     3
+     Attempt to equate coefficient of z and constant with the given quartic equation                   M1
+     −2a − 2b = 4 and ( a 2 + b ) = 4002 2
+                                                                                                       A1
+     attempt to solve simultaneous equations                                                          (M1)
+     a = 2 or a = −4                                                                                 A1A1
+                                                                                                             [8 marks]
+                                               – 15 –            M21/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+8.   attempt to differentiate numerator and denominator                                 M1
+
+           arctan 2 x 
+     lim              
+     x →0
+           tan 3x 
+
+             2 
+                      
+              1 + 4 x2 
+     = lim                                                                        A1A1
+       x →0 3sec 2 3 x
+
+
+
+     Note: A1 for numerator and A1 for denominator. Do not condone absence of limits.
+
+     attempt to substitute x = 0                                                    (M1)
+         2
+     =                                                                                  A1
+         3
+
+     Note: Award a maximum of M1A1A0M1A1 for absence of limits.
+                                                                                             [5 marks]
+                                                     – 16 –                M21/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+9.   (a)   METHOD 1
+           B has one less pen to select                                                   (M1)
+           EITHER
+           A and B can be placed in 6  5 ways                                            (A1)
+           C, D, E have 6 choices each                                                    (A1)
+           OR
+           A (or B), C, D, E have 6 choices each                                          (A1)
+           B (or A) has only 5 choices                                                    (A1)
+           THEN
+           5  64 ( = 6480 )                                                               A1
+
+           METHOD 2
+           total number of ways = 65                                                      (A1)
+           number of ways with Amber and Brownie together = 64                            (A1)
+           attempt to subtract (may be seen in words)                                     (M1)
+           65 − 6 4
+           = 5  64 ( = 6480 )                                                             A1
+                                                                                                 [4 marks]
+     (b)   METHOD 1
+           total number of ways = 6!( = 720 )                                             (A1)
+           number of ways with Amber and Brownie sharing a boundary
+                  = 2  7  4!( = 336 )                                                   (A1)
+           attempt to subtract (may be seen in words)                                     (M1)
+           720 − 336 = 384                                                                  A1
+
+           METHOD 2
+           case 1: number of ways of placing A in corner pen
+           3  4  3  2 1
+           Four corners total no of ways is 4  ( 3  4  3  2 1) = 12  4!( = 288 )    (A1)
+           case 2: number of ways of placing A in the middle pen
+           2  4  3  2 1
+           two middle pens so 2  ( 2  4  3  2 1) = 4  4!( = 96 )                    (A1)
+           attempt to add (may be seen in words)                                          (M1)
+           total no of ways = 288 + 96
+           = 16  4!( = 384 )                                                              A1
+                                                                                                [4 marks]
+                                                                                          Total [8 marks]
+                                                         – 17 –           M21/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+                                                       Section B
+
+10.   (a)   recognising probabilities sum to 1                                           (M1)
+                        1
+             p + p + p + p =1
+                        2
+                 2
+             p=                                                                           A1
+                 7
+                                                                                                [2 marks]
+
+      (b)   valid attempt to find E( X )                                                 (M1)
+                                         1
+            1 p + 2  p + 3  p + 4      p (= 8 p)
+                                         2
+                       16
+            E( X ) =                                                                      A1
+                        7
+                                                                                                [2 marks]
+
+      (c)   (i)    0  r 1                                                               A1
+
+            (ii)   Attempt to find a value of q                                          (M1)
+                                                        1
+                   0  1 − 3q  1 OR r = 0  q =          OR r = 1  q = 0
+                                                        3
+                            1
+                   0q                                                                   A1
+                            3
+                                                                                                [3 marks]
+
+      (d)   E(Y ) = 1 q + 2  q + 3  q + 4  r ( = 2 + 2r OR 4 − 6q )                  (A1)
+            one correct boundary value                                                    A1
+               1       1       1
+            1 + 2  + 3  + 4  0 ( = 2 ) OR
+               3       3       3
+            1 0 + 2  0 + 3  0 + 4 1( = 4 ) OR
+            2 + 2(0) ( = 2 ) OR
+            2 + 2(1) ( = 4 ) OR
+                                      1
+            4 − 6(0) ( = 4 ) OR 4 − 6   ( = 2 )
+                                      3
+            2  E(Y )  4                                                                 A1
+                                                                                                [3 marks]
+
+                                                                                            continued…
+                                                 – 18 –               M21/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+Question 10 continued
+
+     (e)   METHOD 1
+
+           evidence of choosing at least four correct outcomes from
+           1&2, 1&3, 1&4, 2&3, 2&4, 3&4                                                   (M1)
+
+           6    6
+             q + r OR 3 pq + 3 pr OR pq + pq + p (1 − 3q ) + pq + p (1 − 3q ) + p (1 − 3q ) (A1)
+           7    7
+
+           solving for either q or r                                                        M1
+           6               1  6  1− r  1                              1
+             (q + 1 − 3q) = OR       + r  = OR 3 pq + 3 p (1 − 3q ) =
+           7               2  7 3         2                           2
+                      1− r           1
+           OR 3 p           + 3 pr =
+                      3              2
+
+           EITHER two correct values
+                5          3
+           q=      and r =                                                               A1A1
+                24         8
+
+           OR one correct value
+                5         3
+           q=      OR r =                                                                   A1
+                24        8
+           substituting their value for q or r                                              A1
+                  5          3
+           4 − 6   OR 2 + 2  
+                  24        8
+
+           THEN
+
+                     11
+           E(Y ) =                                                                          A1
+                      4
+                                                                                                   [6 marks]
+
+                                                                                               continued…
+                                                 – 19 –              M21/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+Question 10 continued
+
+          METHOD 2 (solving for E(Y ) )
+          evidence of choosing at least four correct outcomes from
+          1&2, 1&3, 1&4, 2&3, 2&4, 3&4                                                    (M1)
+
+           6    6
+             q + r OR 3 pq + 3 pr OR pq + pq + p (1 − 3q ) + pq + p (1 − 3q ) + p (1 − 3q ) (A1)
+           7    7
+
+          rearranging to make q the subject                                                 M1
+                4 − E(Y )
+           q=
+                    6
+                                    1
+           3 pq + 3 p (1 − 3q ) =                                                           M1
+                                    2
+
+           6  4 − E(Y )  6        4 − E(Y )   1
+                        + 1 − 3             =                                        A1
+           7      6      7            6      2
+           2 ( E(Y ) − 1) 1
+                         =
+                 7         2
+
+                     11
+           E(Y ) =                                                                          A1
+                      4
+                                                                                                [6 marks]
+                                                                                         Total [16 marks]
+                                                        – 20 –         M21/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+                     −1 + 1
+11.   (a)   (i)             = 0 = 3−3                                                      A1
+                       2
+                    the point ( −1, 0,3) lies on L1 .                                     AG
+            (ii)    attempt to set equal to a parameter or rearrange cartesian form      (M1)
+                     x +1                                                    x +1 y − 0 z − 3
+                          = y = 3 − z =   x = 2 − 1, y =  , z = 3 −  OR     =     =
+                       2                                                       2    1    −1
+                                               2
+                                                
+                    correct direction vector  1  or equivalent seen in vector form      (A1)
+                                                −1
+                                                
+                         −1     2
+                                 
+                    r =  0  +   1  ( or equivalent )                                  A1
+                        3        −1
+                                 
+
+                    Note: Award A0 if r = is omitted.
+                                                                                                 [4 marks]
+
+      (b)   attempt to use the scalar product formula                                    (M1)
+            2a
+              
+             1   1  = (  ) 6 a + 2 cos 45
+                                   2
+                                                                                      (A1)(A1)
+             −1  −1
+              
+
+            Note: Award A1 for LHS and A1 for RHS
+
+
+                       (  ) 6 a 2 + 2 2  2a + 2 =  3 a 2 + 2
+            2a + 2 =
+                                2
+                                        (          ( )          )                       A1A1
+
+
+            Note: Award A1 for LHS and A1 for RHS
+
+            4a 2 + 8a + 4 = 3a 2 + 6
+            a 2 + 8a − 2 = 0                                                               A1
+            attempt to solve their quadratic                                               M1
+                   −8  64 + 8 −8  72
+            a=
+                        2
+                              =
+                                   2
+                                              (
+                                       = −4  3 2           )                              A1
+
+                                                                                                 [8 marks]
+
+                                                                                             continued…
+                                                       – 21 –                 M21/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+Question 11 continued
+
+     (c)   METHOD 1
+           attempt to equate the parametric forms of L1 and L2                                    (M1)
+            2 − 1 = ta
+           
+             = 1+ t                                                                              A1
+           3 −  = 2 − t
+           
+           attempt to solve equations by eliminating  or t                                       (M1)
+           2 + 2t − 1 = ta  1 = t ( a − 2 ) or 2 − 1 = (  − 1) a  a − 1 =  ( a − 2 )
+           Solutions exist unless a − 2 = 0
+           k =2                                                                                    A1
+
+           Note: This A1 is independent of the following marks.
+
+                 1         a −1
+           t=       or  =                                                                         A1
+                a−2        a−2
+                                  a         1         1    a a − 1 2a − 5  
+           A has coordinates          ,1 +     ,2 −        =
+                                                     a − 2    a − 2 a − 2 a − 2  
+                                                                        ,     ,                    A2
+                                  a−2      a−2
+
+           Note: Award A1 for any two correct coordinates seen or final answer in vector
+           form.
+
+           METHOD 2
+           no unique point of intersection implies direction vectors of L1 and L2 parallel
+           k =2                                                                                    A1
+
+           Note: This A1 is independent of the following marks.
+
+
+           attempt to equate the parametric forms of L1 and L2                                    (M1)
+            2 − 1 = ta
+           
+             = 1+ t                                                                              A1
+           3 −  = 2 − t
+           
+           attempt to solve equations by eliminating  or t                                       (M1)
+
+           2 + 2t − 1 = ta  1 = t ( a − 2 ) or 2 − 1 = (  − 1) a  a − 1 =  ( a − 2 )
+                 1         a −1
+           t=       or  =                                                                         A1
+                a−2        a−2
+                                  a         1         1    a a − 1 2a − 5  
+           A has coordinates          ,1 +     ,2 −        =
+                                                     a − 2    a − 2 a − 2 a − 2  
+                                                                        ,     ,                    A2
+                                  a−2      a−2
+
+                                                                                            continued…
+                                                                      – 22 –                      M21/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+Question 11 continued
+
+             Note: Award A1 for any two correct coordinates seen or final answer in vector
+             form.
+
+                                                                                                                       [7 marks]
+                                                                                                                Total [19 marks]
+
+12.   (a)    attempt to use the chain rule                                                                        M1
+
+                                    1
+                        1
+              f ( x) =   (1 + x ) 2
+                                  −
+                                                                                                                  A1
+                        2
+                                        3
+                          1
+             f ( x) = − (1 + x ) 2
+                                      −
+                                                                                                                  A1
+                          4
+                      1
+            =−                                                                                                    AG
+                 4 (1 + x)3
+
+                                                                     1
+            Note: Award M1A0A0 for f ( x) =                             or equivalent seen
+                                                                    1+ x
+                                                                                                                       [3 marks]
+      (b)    let n = 2
+                                1         1 1 1!     1
+                                                           −2
+              f  ( x ) =  −         =   −  (1 + x) 2                                                        R1
+                            4 (1 + x)3   4  0!
+                                        
+
+             Note:Award R0 for not starting at n = 2 . Award subsequent marks as
+                  appropriate.
+
+
+             assume true for n = k , (so f ( k ) ( x) =  − 
+                                                                      1
+                                                                            k −1
+                                                                                   ( 2k − 3)! (1 + x) 12 −k )     M1
+                                                                      4          (k − 2)!
+
+             Note:Do not award M1 for statements such as “let n = k ” or “ n = k is true”.
+                   Subsequent marks can still be awarded.
+
+             consider n = k + 1
+
+             LHS = f       ( k +1)
+                                      ( x) =
+                                                 (
+                                               d f ( k ) ( x)   )                                                 M1
+                                                     dx
+                1
+             = − 
+                          k −1
+                                 ( 2k − 3)!  1 − k  (1 + x) 12 −k −1 (or equivalent)
+                                                                                                                A1
+                4              (k − 2)!  2              
+
+             EITHER
+                                 1  ( 2k − 1) !
+                                                       k  1
+                                                            − k −1
+                            ( k +1)
+             RHS = f     ( x) =  −              (1 + x) 2        (or equivalent)                                A1
+                                 4  (k − 1)!
+                1  ( 2k − 1) (2k − 2)(2k − 3)!
+                    k                                     1
+                                                            − k −1
+             = −                                (1 + x) 2                                                       A1
+                4         (k − 1)( k − 2)!
+                                                                                                                    continued…
+                                                                      – 23 –              M21/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+
+Question 12 continued
+
+                                           ( 2k − 1)! = ( 2k − 1) (2k − 2)(2k − 3)!  = 2 ( 2k − 1) (2k − 3)! 
+          Note:Award A1 for                                                                                 
+                                            (k − 1)!             (k − 1)(k − 2)!              (k − 2)!      
+
+              1  1 
+           =  −  − 
+                                k −1
+                                       ( 2k − 1) (2k − 2)(2k − 3)! (1 + x) 12 −k −1                               A1
+              4  4                        (k − 1)(k − 2)!
+              1  1 k −1 ( 2k − 1) (2k − 3)!         1
+                                                           − k −1 
+            =  −  −                        (1 + x) 2        
+              2  4           (k − 2)!                         
+
+                                                                                    1
+          Note:Award A1 for leading coefficient of −                                  .
+                                                                                    4
+
+                                  k −1
+             1     1                 (2k − 3)!         1
+                                                             − k −1
+           =  − k  −                           (1 + x) 2                                                      A1
+             2     4                  (k − 2)!
+
+          OR
+
+          Note:The following A marks can be awarded in any order.
+
+
+              1
+           = − 
+                     k −1
+                            ( 2k − 3)!  1 − 2k  (1 + x) 12 −k −1
+                                    
+              4           (k − 2)! 
+                                              2
+              1  1  ( 2k − 1)( 2k − 3)!
+                        k −1                        1
+                                                      − k −1
+           =  −  −                      (1 + x) 2                                                             A1
+              2  4       (k − 2)!
+
+          Note:Award A1 for isolating ( 2k − 1) correctly.
+
+
+              1  1 
+           =  −  − 
+                                k −1
+                                           ( 2k − 1)!       (1 + x) 2
+                                                                       1
+                                                                           − k −1
+                                                                                                                  A1
+              2  4                 (2k − 2)(k − 2)!
+
+          Note:Award A1 for multiplying top and bottom by ( k − 1) or 2 ( k − 1) .
+
+
+              1  1 
+           =  −  − 
+                                k −1
+                                          ( 2k − 1)!     (1 + x) 2
+                                                                  1
+                                                                      − k −1
+                                                                                                                  A1
+              4  4                 (k − 1)(k − 2)!
+
+                                                                                    1
+          Note:Award A1 for leading coefficient of −                                  .
+                                                                                    4
+
+              1  ( 2k − 1) !
+                    k                  1
+                                         − k −1
+           = −               (1 + x) 2                                                                          A1
+              4  (k − 1)!
+
+                                                                                                                   continued…
+                                                               – 24 –     M21/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+Question 12 continued
+
+               1
+            = − 
+                      ( k +1) −1
+                                   ( 2 ( k + 1) − 3)! (1 + x) ( ) = RHS
+                                                         1
+                                                         2
+                                                           − k +1
+
+               4                 (( k + 1) − 2)!
+
+            THEN
+            since true for n = 2 , and true for n = k + 1 if true for n = k , the statement is
+            true for all n  , n  2 by mathematical induction                                    R1
+
+
+           Note:To obtain the final R1, at least four of the previous marks must have been
+                awarded.
+
+                                                                                                        [9 marks]
+
+     (c)    METHOD 1
+
+            h( x) = 1 + x emx
+            using product rule to find h ( x )                                                  (M1)
+                                        1
+            h ( x ) = 1 + x memx +         emx                                                   A1
+                                    2 1+ x
+                                         1             1                1
+            h( x) = m  1 + x me mx +         e mx  +      me mx −              e mx           A1
+                                       2 1+ x        2 1+ x         4 (1 + x )
+                                                                                 3
+
+
+
+            substituting x = 0 into h ( x )                                                     M1
+                         1   1   1           1
+            h(0) = m2 + m + m −  = m2 + m −                                                   A1
+                         2   2   4           4
+                                            x2
+            h ( x ) = h ( 0 ) + xh ( 0 ) + h ( 0 ) + ...
+                                            2!
+                           2                    7
+            equating x coefficient to                                                             M1
+                                                4
+            h ( 0 ) 7                     7
+                     =         h ( 0 ) = 
+               2!      4                    2
+
+            4m2 + 4m − 15 = 0                                                                     A1
+            ( 2m + 5)( 2m − 3) = 0
+                   5         3
+            m = − or m =                                                                          A1
+                   2         2
+
+
+                                                                                                        [8 marks]
+
+                                                                                                    continued…
+                                                             – 25 –          M21/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+Question 12 continued
+
+          METHOD 2
+
+          EITHER
+
+          attempt to find f ( 0 ) , f  ( 0 ) , f  ( 0 )                                  (M1)
+
+                                                        f ( 0) = 1
+                             1
+           f ( x ) = (1 + x ) 2
+                                    1
+                                                                  1
+                                                        f  (0) =
+                      1
+           f ( x) =    (1 + x )
+                                  −
+                                    2
+                      2                                           2
+                                    3
+                                                                         1
+                                                        f  ( 0 ) = −
+                        1
+           f ( x) = − (1 + x ) 2
+                                  −
+
+                        4                                                4
+                         1      1
+           f ( x ) = 1 + x − x 2 +                                                          A1
+                         2      8
+
+
+          OR
+
+
+          attempt to apply binomial theorem for rational exponents                          (M1)
+
+                                         1  1 
+                                          − 
+           f ( x ) = (1 + x ) = 1 + x +  
+                             1
+                                   1      2     2 2
+                             2                     x +
+                                   2         2!
+                         1    1
+           f ( x ) = 1 + x − x 2 +                                                          A1
+                         2    8
+
+          THEN
+
+                             m2 2
+           g ( x ) = 1 + mx +  x +                                                         (A1)
+                             2
+                      1     1                m2 2  
+           h ( x ) = 1 + x − x 2 + 1 + mx +   x +                                     (M1)
+                      2     8                2     
+                               m2 m 1
+          coefficient of x is
+                              2
+                                  + −                                                        A1
+                                2   2 8
+                                  7
+          attempt to set equal to   and solve                                                M1
+                                  4
+          m2 m 1 7
+              + − =
+            2 2 8 4
+          4m2 + 4m − 15 = 0                                                                  A1
+          ( 2m + 5)( 2m − 3) = 0
+                  5        3
+           m=−      or m =                                                                   A1
+                  2        2
+
+                                                                                                   [8 marks]
+
+                                                                                               continued…
+                                                                      – 26 –             M21/5/MATHX/HP1/ENG/TZ1/XX/M
+
+
+Question 12 continued
+
+          METHOD 3
+
+           g  ( x ) = memx and g  ( x ) = m2emx                                                      (A1)
+                                        x2
+           h ( x ) = h ( 0 ) + xh ( 0 ) + h ( 0 ) + ...
+                                        2!
+                       2                    7
+          equating x coefficient to                                                                      M1
+                                            4
+          h ( 0 ) 7                   7
+                   =       h ( 0 ) = 
+            2!       4                  2
+          using product rule to find h ( x ) and h ( x )                                             (M1)
+           h ( x ) = f ( x ) g  ( x ) + f  ( x ) g ( x )
+           h ( x ) = f ( x ) g  ( x ) + 2 f  ( x ) g  ( x ) + f  ( x ) g ( x )                   A1
+          substituting x = 0 into h ( x )                                                              M1
+           h ( 0 ) = f ( 0 ) g  ( 0 ) + 2 g  ( 0 ) f  ( 0 ) + g ( 0 ) f  ( 0 )
+                           1      1              1
+           = 1  m 2 + 2m  + 1  −   = m 2 + m −                                                    A1
+                           2      4              4
+           4m2 + 4m − 15 = 0                                                                             A1
+           ( 2m + 5)( 2m − 3) = 0
+                  5         3
+           m = − or m =                                                                                  A1
+                  2         2
+                                                                                                               [8 marks]
+
+                                                                                                       Total [20 marks]
+

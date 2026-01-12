@@ -1,0 +1,388 @@
+No part of this product may be reproduced in any form or by any electronic
+or mechanical means, including information storage and retrieval systems,
+without written permission from the IB.
+
+Additionally, the license tied with this product prohibits commercial use of
+any selected files or extracts from this product. Use by third parties,
+including but not limited to publishers, private teachers, tutoring or study
+services, preparatory schools, vendors operating curriculum mapping
+services or teacher resource digital platforms and app developers, is not
+permitted and is subject to the IB’s prior written consent via a license. More
+information on how to request a license can be obtained from http://
+www.ibo.org/contact-the-ib/media-inquiries/for-publishers/guidance-for-
+third-party-publishers-and-providers/how-to-apply-for-a-license.
+
+Aucune partie de ce produit ne peut être reproduite sous quelque forme ni
+par quelque moyen que ce soit, électronique ou mécanique, y compris des
+systèmes de stockage et de récupération d’informations, sans l’autorisation
+écrite de l’IB.
+
+De plus, la licence associée à ce produit interdit toute utilisation
+commerciale de tout fichier ou extrait sélectionné dans ce produit.
+L’utilisation par des tiers, y compris, sans toutefois s’y limiter, des éditeurs,
+des professeurs particuliers, des services de tutorat ou d’aide aux études,
+des établissements de préparation à l’enseignement supérieur, des
+fournisseurs de services de planification des programmes d’études, des
+gestionnaires de plateformes pédagogiques en ligne, et des développeurs
+d’applications, n’est pas autorisée et est soumise au consentement écrit
+préalable de l’IB par l’intermédiaire d’une licence. Pour plus d’informations
+sur la procédure à suivre pour demander une licence, rendez-vous à
+l’adresse http://www.ibo.org/fr/contact-the-ib/media-inquiries/for-publishers/
+guidance-for-third-party-publishers-and-providers/how-to-apply-for-a-
+license.
+
+No se podrá reproducir ninguna parte de este producto de ninguna forma ni
+por ningún medio electrónico o mecánico, incluidos los sistemas de
+almacenamiento y recuperación de información, sin que medie la
+autorización escrita del IB.
+
+Además, la licencia vinculada a este producto prohíbe el uso con fines
+comerciales de todo archivo o fragmento seleccionado de este producto. El
+uso por parte de terceros —lo que incluye, a título enunciativo, editoriales,
+profesores particulares, servicios de apoyo académico o ayuda para el
+estudio, colegios preparatorios, desarrolladores de aplicaciones y
+entidades que presten servicios de planificación curricular u ofrezcan
+recursos para docentes mediante plataformas digitales— no está permitido
+y estará sujeto al otorgamiento previo de una licencia escrita por parte del
+IB. En este enlace encontrará más información sobre cómo solicitar una
+licencia: http://www.ibo.org/es/contact-the-ib/media-inquiries/for-publishers/
+guidance-for-third-party-publishers-and-providers/how-to-apply-for-a-
+license.
+M19/5/FURMA/HP1/ENG/TZ0/XX
+
+
+
+
+Further mathematics
+Higher level
+Paper 1
+
+
+Thursday 23 May 2019 (afternoon)
+
+
+2 hours 30 minutes
+
+
+Instructions to candidates
+yyDo not open this examination paper until instructed to do so.
+yyAnswer all questions.
+yyUnless otherwise stated in the question, all numerical answers should be given exactly or
+  correct to three significant figures.
+yyA graphic display calculator is required for this paper.
+yyA clean copy of the mathematics HL and further mathematics HL formula booklet is
+  required for this paper.
+yyThe maximum mark for this examination paper is [150 marks].
+
+
+
+
+                                                                                              2219 – 7101
+     8 pages                                              © International Baccalaureate Organization 2019
+                                                   –2–                 M19/5/FURMA/HP1/ENG/TZ0/XX
+
+Full marks are not necessarily awarded for a correct answer with no working. Answers must be
+supported by working and/or explanations. In particular, solutions found from a graphic display
+calculator should be supported by suitable working. For example, if graphs are used to find a solution,
+you should sketch these as part of your answer. Where an answer is incorrect, some marks may be
+given for a correct method, provided this is shown by written working. You are therefore advised to
+show all working.
+
+1.   [Maximum mark: 12]
+
+     The graph G with vertices A , B , C , D and E has the weights shown in the following table.
+
+                                  A           B            C         D           E
+                      A           –           8            11        17          12
+                      B           8            –           14         9          13
+                      C           11          14            –        16          10
+                      D           17           9           16         –          15
+                      E           12          13           10        15           –
+
+     (a)   Justifying your answer, explain whether or not G contains an Eulerian circuit.                [2]
+
+     (b)   Prove that G cannot be drawn as a planar graph.                                               [3]
+
+     (c)   Starting at A , use the nearest-neighbour algorithm to find an upper bound for the
+           travelling salesman problem for G .[3]
+
+     (d)   By deleting vertex A , use the deleted vertex algorithm to find a lower bound for this
+           travelling salesman problem.                                                                  [4]
+
+
+2.   [Maximum mark: 9]
+
+     The function f is defined for x ≥ 0 by f (x) = ln(2ex - 1) .
+
+     (a)   Determine the Maclaurin series for f (x) as far as the term in x3 .[7]
+
+     (b)   Hence determine the value of
+                 f ( x)  2 x
+            lim               .[2]
+            x 0      x2
+                                                    –3–                 M19/5/FURMA/HP1/ENG/TZ0/XX
+
+3.   [Maximum mark: 12]
+
+                                           a b 
+     (a)   The matrix A is given by A         .
+                                           c d 
+
+           (i)    Show that the eigenvalues of A are real if (a - d )2 + 4bc ≥ 0 .
+
+           (ii)   Deduce that the eigenvalues are real if A is symmetric.                           [6]
+
+
+                                           3 2
+     (b)   The matrix B is given by B        .
+                                           2 3
+           (i)    Determine the eigenvalues of B .
+
+           (ii)   Determine the corresponding eigenvectors.                                         [6]
+
+
+4.   [Maximum mark: 8]
+
+     The positive integer N is given by 1321 when expressed in base b and 521 when expressed
+     in base b + 2 .
+
+     (a)   Determine the value of b .[4]
+
+     (b)   Express N
+
+           (i)    in base 10 ;
+
+           (ii)   in base 16 .                                                                      [4]
+
+
+5.   [Maximum mark: 9]
+
+     Consider the differential equation
+
+                                   dy                                   �
+                                       2 y tan x  sin x where 0 ≤ x <
+                                   dx                                   2
+     Given that y = 2 when x = 0 , solve the differential equation giving your answer in the
+     form y = f (x) .                                                                               [9]
+
+
+
+
+                                                                                               Turn over
+                                                           –4–              M19/5/FURMA/HP1/ENG/TZ0/XX
+
+6.   [Maximum mark: 8]
+
+     The group {G , *} has the following Cayley table.
+
+                  *          0                1             2      3               4    5
+                  0          4                5             0      1               2    3
+                  1          5                2             1      4               3    0
+                  2          0                1             2      3               4    5
+                  3          1                4             3      0               5    2
+                  4          2                3             4      5               0    1
+                  5          3                0             5      2               1    4
+
+     (a)   Determine the order of each of the elements of {G , *} .                                [4]
+
+     (b)   Hence find the subgroup S2 of order 2 and the subgroup S3 of order 3.[2]
+
+     (c)   Write down the coset with respect to S2 of each element of {G , *} not included in S2 .[2]
+
+
+7.   [Maximum mark: 12]
+
+                                                                             
+                                                                                (2) n x n
+     (a)   Determine the radius of convergence of the power series         
+                                                                           n 1     n
+                                                                                           .[5]
+
+
+                                                                        ln 1  x 
+     (b)   (i)    Use l’Hôpital’s rule to determine the value of lim                .
+                                                                   x 0      x
+           (ii)   Use the limit comparison test together with an appropriate series to determine
+                                       
+                                                     1
+                  whether the series    ln 1  n  is convergent or divergent.
+                                       n 1
+                                                                                                    [7]
+
+
+
+8.   [Maximum mark: 7]
+
+     The line AD is a median of the acute-angled triangle ABC and E is the midpoint of AD.
+     The line BE meets AC at the point F.
+
+     (a)   Draw a diagram to illustrate this situation.                                            [1]
+
+                                          CF
+     (b)   Determine the value of the ratio   .[4]
+                                          AF
+     (c)   The line CE meets AB at the point G. Giving a reason, write down the value of the
+                 BG
+           ratio     .[2]
+                 AG
+                                                       –5–                     M19/5/FURMA/HP1/ENG/TZ0/XX
+
+9.    [Maximum mark: 12]
+
+      Consider the system of equations
+
+                                             1 2 5   x   1 
+                                             2 3 8  y    3 
+                                                         
+                                              4 1 6   z    
+
+
+                       1 2 5 
+      where the matrix  2 3 8  is singular and µ is a constant.
+                                
+                        4 1 6 
+
+      (a)   Determine the value of µ for which the equations are consistent.                                 [4]
+
+      (b)   For this value of µ
+
+            (i)     solve the system of equations;
+
+            (ii)    find the values of x , y and z which minimize x2 + y2 + z2 and interpret your result
+                    geometrically.[8]
+
+
+10.   [Maximum mark: 10]
+
+      The continuous random variable X has cumulative distribution function F given by
+                                                          0, x < 0
+                                                 
+                                        F ( x) =  2                       .
+                                                  � arctan x , 0 ≤ x < ∞
+
+      (a)   (i)     Sketch the graph of F(x) for x ≥ 0 .
+
+            (ii)    Explain how it can be deduced from the graph of F(x) that the mode of X is zero.
+
+            (iii)   Determine the median of X .[5]
+
+      (b)   It is often stated that for certain probability distributions, the following approximation is true:
+
+                                    Median – Mode ≈ 2(Mean – Median) .
+
+            Explain why this approximation is not valid for the probability distribution defined above.      [5]
+
+
+
+
+                                                                                                      Turn over
+                                                         –6–           M19/5/FURMA/HP1/ENG/TZ0/XX
+
+11.   [Maximum mark: 10]
+
+      (a)   (i)     Show that the set S1 of three-dimensional vectors given by
+
+                           1   3  2  
+                                                   
+                    S1    5  , 5 , 8  
+                           2  1   4  
+                               
+
+                    is a basis for three-dimensional vectors.
+
+                                       9
+            (ii)    Express the vector 17  in terms of S1 .                                        [5]
+                                        
+                                        3 
+
+      (b)   (i)     Show that the set S2 of three-dimensional vectors given by
+
+                            1   3  2  
+                                                    
+                    S 2    5  , 5 , 8  
+                            2  1   3  
+                                
+
+                    is not a basis for three-dimensional vectors.
+
+            (ii)    State the dimension of the subspace spanned by S2 .
+
+                                                        2
+            (iii)   Determine whether or not the vector 7  belongs to this subspace.               [5]
+                                                         
+                                                         2 
+
+
+12.   [Maximum mark: 9]
+
+      The relation R is defined on + such that xRy if and only if x2 - y2 ≡ 0 (mod N ) where N ≥ 3
+      is a positive integer.
+
+      (a)   Show that R is an equivalence relation for all values of N .[6]
+
+      (b)   Show that N - 1 and N + 1 are in the same equivalence class as 1.[3]
+                                                      –7–                                  M19/5/FURMA/HP1/ENG/TZ0/XX
+
+13.   [Maximum mark: 11]
+
+      The function f : M → M where M is the set of 2 × 2 matrices, is given by f (X ) = AX
+      where A is a 2 × 2 matrix.
+
+      (a)   Given that A is non-singular, prove that f is a bijection.                                                                     [7]
+
+      It is now given that A is singular.
+
+      (b)   By considering appropriate determinants, prove that f is not a bijection.                                                      [4]
+
+
+14.   [Maximum mark: 12]
+
+      The Poisson random variable X with mean m has probability function
+
+                                                          e m m x
+                                            P( X  x)             , x∈.
+                                                             x!
+      (a)   Show that the probability generating function of X is given by
+
+                                                Gx (t )  e m (t 1) .[3]
+
+      (b)   A random sample X 1 , X 2 , X 3 is taken from the distribution of X . The random
+            variable Y is defined by Y = X 1 + 2X 2 + 3X 3 .
+
+                                                                                                             3 m m ( t  t 2  t 3 )
+            (i)    Show that the probability generating function of Y is given by G y (t )  e                    e                     .
+
+                                                             3 m m ( t  t 2  t 3 )
+            (ii)                               G y (t )  eof e
+                   By considering the series expansion                                  , determine an expression in
+                   terms of m for P(Y = 4) .                                                                                               [9]
+
+
+
+
+                                                                                                                         Turn over
+                                                   –8–                  M19/5/FURMA/HP1/ENG/TZ0/XX
+
+15.   [Maximum mark: 9]
+
+      An ellipse E has equation x2 + 2y2 = 2 . The point P has coordinates (x1 , y1) and is external
+      to the ellipse.
+
+      (a)   Write down the equation of the line L with gradient m passing through the point P .[1]
+
+      (b)   Show that the x coordinates of the points of intersection of the line L and the ellipse E
+            are given by the roots of the quadratic equation
+
+                        x2 (1 + 2m2) + 4mx ( y1 - mx1) + 2y12 + 2m2x12 - 4mx1 y1 - 2 = 0 .[3]
+
+      (c)   Show that the condition for the line L to be a tangent to E is given by
+
+                                    m2 (x12 - 2) - 2mx1 y1 + y12 - 1 = 0 .[3]
+
+      (d)   Hence show that the equation of the locus of points from which the two tangents to E
+            are perpendicular is x2 + y2 = 3 .                                                         [2]
+
+
+
+
+

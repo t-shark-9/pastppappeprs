@@ -1,0 +1,235 @@
+M17/4/COMSC/HP1/ENG/TZ0/XX
+
+
+
+
+Computer science
+Higher level
+Paper 1
+
+
+Friday 5 May 2017 (afternoon)
+
+
+2 hours 10 minutes
+
+
+Instructions to candidates
+yyDo not open this examination paper until instructed to do so.
+yySection A: answer all questions.
+yySection B: answer all questions.
+yyThe maximum mark for this examination paper is [100 marks].
+
+
+
+
+                                                                                            2217 – 7011
+     6 pages                                            © International Baccalaureate Organization 2017
+                                                   –2–                M17/4/COMSC/HP1/ENG/TZ0/XX
+
+                                               Section A
+
+Answer all questions.
+
+1.    Describe the use of beta testing.                                                            [2]
+
+
+2.    Identify two causes of data loss.                                                            [2]
+
+
+3.    Identify two reasons for releasing a software update.                                        [2]
+
+
+4.    Explain why cache memory can speed up the processing within a computer.                      [2]
+
+
+5.    One of the functions of an operating system is memory management.
+
+      Describe how this function prevents the system from crashing when more than one program is
+      run at the same time.                                                                        [2]
+
+
+6.    Identify any two of the layers of the OSI model.                                             [2]
+
+
+7.    Explain how compression of data may lead to negative consequences.                           [3]
+
+
+8.    Explain how the use of media access control (MAC) addresses can improve security.            [3]
+
+
+9.    Identify the components of a node in a doubly linked list.                                   [3]
+
+
+10.   Outline the reason why recursive solutions can be memory intensive.                          [2]
+
+
+11.   Identify two features of an autonomous agent acting within a larger system.                  [2]
+                                                    –3–                    M17/4/COMSC/HP1/ENG/TZ0/XX
+
+                                                Section B
+
+Answer all questions.
+
+12.   A large company has taken over another business. This takeover has required various
+      changes to be made. One of the changes requires data migration.
+
+      (a)   (i)   Define the term data migration.                                                          [1]
+
+		(ii)            Describe two problems, concerning data migration, which the company may have
+                  to overcome.                                                                             [4]
+
+      (b)   Other than data migration, describe two aspects of change management that may arise
+            from this takeover.                                                                            [4]
+
+      The company produces industrial chemicals. One of the chemical processes is represented
+      by the following logic diagram.
+
+
+      A
+                                                    OR
+                                                                          X
+
+                      B                                                                AND             C
+
+                                                                          Y
+                                                  NAND
+
+
+      (c)   (i)   Construct the truth table corresponding to this diagram.                                 [3]
+
+		(ii)            Identify the single logic gate that is equivalent to this diagram.                       [1]
+
+      (d)   Outline how truth tables can be used to test that any two logic diagrams are equivalent.       [2]
+
+
+
+
+                                                                                               Turn over
+                                                      –4–                     M17/4/COMSC/HP1/ENG/TZ0/XX
+
+13.   (a)   By copying the table below, trace the following algorithm using the data in the
+            collection DATA. Note: B and C are also collections and are initially empty.
+
+		 DATA = {2,4,-1,3}
+		 loop while DATA.hasNext()
+			 A = DATA.getNext()
+			 if A >= 0 then
+				 if A mod 2 = 0 then
+					B.addItem(A)
+				else
+					C.addItem(A)
+				end if
+			  end if
+		end loop
+
+                                                                              Contents      Contents
+            DATA.hasNext() ?          A    A >= 0?       A mod 2 = 0?
+                                                                                of B          of C
+
+
+
+
+                                                                                                                [3]
+
+      (b)   Outline the steps involved in performing a binary search on an array of ascending
+            numbers. Note: you can assume that the search value is present in the array and that
+            initially LOW is the index of the first value in the array and HI is the index of the last value.   [4]
+
+      (c)   A collection called NUMBERS is to be searched to see if it contains a specified value.  
+            Construct an algorithm in pseudocode to perform the following:
+            yyinput the number, S, to be searched for
+            yyread in the values from the NUMBERS collection into the array D. Note: you can
+               assume that the array is large enough and that the collection is not empty
+            yyperform a linear search for S on the array D
+            yyoutput the message “found ” or “not found ” as appropriate.                                       [5]
+
+      A binary search can be performed on the array D, if the values in D are in ascending order.
+      As the values are being read from NUMBERS into D they are checked to see if they are in order.
+
+      (d)   Without writing pseudocode, suggest how this check could be performed.                              [3]
+                                                   –5–                   M17/4/COMSC/HP1/ENG/TZ0/XX
+
+14.   A laptop computer supplements its primary memory by making use of virtual memory.
+
+      (a)   Outline the use of paging in relation to virtual memory.                                    [2]
+
+      The laptop has 1GB of random access memory (RAM) and a single processor.
+      The laptop is using one of the latest operating systems to run multimedia gaming programs.
+
+      (b)   Explain the limitations and consequences of using the laptop for this purpose.              [3]
+
+      One of the laptop’s game applications stores the data relating to the different actions of one
+      of its characters in a stack.
+
+      (c)   Suggest one reason why the character’s actions might be stored in a stack.                  [2]
+
+      At specific moments during the game this data is read from the stack (S) into a queue (Q).
+
+      (d)   Using appropriate access methods for stacks and queues, construct an algorithm that
+            reads the data from the stack and enters it into the queue. You should assume that the
+            queue structure exists and that both structures are of a fixed size.                        [6]
+
+      (e)   Outline one advantage of making the queue dynamic.                                          [2]
+
+
+15.   The collection WEATHER contains the temperatures that have been measured for one city
+      over the course of one week, starting on Monday and ending on Sunday. Each day,
+      24 readings were taken, one each hour, the first being at 00:00, the second at 01:00 and so
+      on. The data is stored in chronological order with the data for Monday stored in the collection
+      first, followed by Tuesday and so on.
+
+      (a)   State the total number of readings that were taken during this week.                        [1]
+
+      (b)   Construct the algorithm to read this data into a 2D array, A, that would allow the
+            temperature on a specific day at a specific time to be accessed directly.                   [4]
+
+      (c)   Construct the algorithm that will output the day, as a word (for example Tuesday), on
+            which the highest temperature was recorded.                                                 [6]
+
+      The process described at the start of question 15 is extended so that each week the value
+      and date of the highest temperature recorded that week are stored chronologically in a
+      collection, HIGHEST.
+
+      At any point in time, the data from the HIGHEST collection can be read into a suitable
+      data structure that will allow the details of the highest temperatures recorded to be
+      output in descending order.  The structure is chosen in order to minimize processing.
+
+      (d)   Explain how a suitable data structure can be constructed and used for this purpose.         [4]
+
+
+
+
+                                                                                                 Turn over
+                                                    –6–                M17/4/COMSC/HP1/ENG/TZ0/XX
+
+16.   An embedded system is used to control the speed of an electric motor.
+
+      (a)   With reference to the example, above, define an embedded system.                         [2]
+
+      The diagram shows the main components in a typical negative feedback system.
+
+             Input                                                                       Output
+                                       Controller                  Process
+
+
+
+
+                                                    Feedback
+
+
+
+      The control system for the electric motor consists of a negative feedback loop.
+
+      (b)   Outline the desired outcome of any feedback system.                                      [2]
+
+      (c)   List the steps involved in the feedback system for the electric motor. You should make
+            use of the appropriate technical terms of the control system process.                    [6]
+
+      A more complex control system is used to monitor and control the functioning of a
+      power station. This includes a dedicated operating system with sensors and output
+      transducers (actuators) placed at various places around the power station.
+
+      (d)   Explain the interaction between the components identified above, if interrupts are
+            generated by the sensors.                                                                [5]
+
