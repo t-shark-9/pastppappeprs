@@ -52,10 +52,6 @@ export default function Index() {
                 </>
               )}
             </Button>
-            <Button size="lg" variant="outline" onClick={() => navigate("/download")}>
-              <Download className="mr-2 h-5 w-5" />
-              Download App
-            </Button>
           </div>
         </div>
 

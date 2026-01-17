@@ -181,21 +181,6 @@ export function GlobalHeader() {
               </TooltipContent>
             </Tooltip>
 
-            {/* Download Desktop App */}
-            <Tooltip>
-              <TooltipTrigger asChild>
-                <Button 
-                  variant="ghost" 
-                  size="sm"
-                  onClick={() => navigate('/homepage/download')}
-                >
-                  <Download className="h-4 w-4" />
-                </Button>
-              </TooltipTrigger>
-              <TooltipContent>
-                <p>Download Desktop App</p>
-              </TooltipContent>
-            </Tooltip>
           </div>
 
           {/* Mobile Navigation */}
@@ -268,10 +253,6 @@ export function GlobalHeader() {
                 <DropdownMenuItem onClick={() => navigate('/homepage/study-planner')}>
                   <CalendarDays className="h-4 w-4 mr-2" />
                   Study Planner
-                </DropdownMenuItem>
-                <DropdownMenuItem onClick={() => navigate('/homepage/download')}>
-                  <Download className="h-4 w-4 mr-2" />
-                  Download App
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>

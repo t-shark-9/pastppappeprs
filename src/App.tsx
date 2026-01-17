@@ -133,8 +133,6 @@ const App = () => (
                         <Route path="/" element={<Index />} />
                         <Route path="/homepage/grade" element={<GradeYourWork />} />
                         <Route path="/grade" element={<GradeYourWork />} /> {/* legacy alias */}
-                        <Route path="/homepage/download" element={<Download />} />
-                        
                         {/* Work Area (formerly Dashboard) */}
                         <Route path="/work" element={<Dashboard />} />
                         <Route path="/work/assignment/new" element={<CreateAssignment />} />
@@ -169,8 +167,8 @@ const App = () => (
                         <Route path="/admin" element={<Admin />} />
                         <Route path="/admin/import-past-papers" element={<ImportPastPapers />} />
                         
-                        {/* Download (legacy alias – primary route is /homepage/download) */}
-                        <Route path="/download" element={<Download />} />
+                        {/* Prototype - Download Desktop App */}
+                        <Route path="/prototype" element={<Download />} />
                         
                         {/* Us Section */}
                         <Route path="/homepage/us" element={<Us />} />
