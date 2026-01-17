@@ -47,32 +47,8 @@ export default defineConfig(({ command, mode }) => ({
       // Limit parallel operations to reduce memory pressure
       maxParallelFileOps: 1,
       output: {
-        // Simplified manual chunks - only split the most important vendors
-        manualChunks: (id) => {
-          if (id.includes("node_modules")) {
-            // Core React
-            if (id.includes("react-dom")) return "vendor-react";
-            if (id.includes("react-router")) return "vendor-react";
-            if (id.includes("react/")) return "vendor-react";
-            
-            // Syncfusion is very large
-            if (id.includes("@syncfusion")) return "vendor-syncfusion";
-            
-            // Editor libraries
-            if (id.includes("@blocknote") || id.includes("@tiptap") || id.includes("prosemirror")) return "vendor-editor";
-            
-            // All other vendors in one chunk
-            return "vendor";
-          }
-          
-          // Split large data files into their own chunks
-          if (id.includes("/src/data/extractedFullQuestionsWithMarkScheme")) return "data-full-questions";
-          if (id.includes("/src/data/extractedPaperQuestions")) return "data-paper-questions";
-          if (id.includes("/src/data/extractedUnifiedExams")) return "data-exams";
-          if (id.includes("/src/data/unifiedExamData")) return "data-exams";
-          if (id.includes("/src/data/past-papers/")) return "data-past-papers";
-          if (id.includes("/src/data/")) return "data";
-        },
+        // Let Vite/Rollup handle chunking automatically - manual chunking was causing React loading issues
+        // manualChunks is disabled to fix "Cannot read properties of undefined (reading 'forwardRef')" error
       },
     },
   },
