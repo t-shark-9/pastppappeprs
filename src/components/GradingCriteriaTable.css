@@ -1,0 +1,283 @@
+/* Grading Criteria Table Styles */
+
+.grading-criteria-card {
+  margin-bottom: 1.5rem;
+}
+
+.grading-criteria-table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid hsl(var(--border));
+}
+
+.grading-criteria-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  background: hsl(var(--background));
+}
+
+.grading-criteria-table thead {
+  background: hsl(var(--muted));
+  border-bottom: 2px solid hsl(var(--border));
+}
+
+.grading-criteria-table th {
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+  color: hsl(var(--foreground));
+  font-size: 0.95rem;
+  letter-spacing: 0.025em;
+}
+
+.grading-criteria-table .marks-column {
+  width: 120px;
+  text-align: center;
+}
+
+.grading-criteria-table .descriptor-column {
+  width: auto;
+}
+
+.grading-criteria-table tbody tr {
+  border-bottom: 1px solid hsl(var(--border));
+  transition: background-color 0.2s ease;
+}
+
+.grading-criteria-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.grading-criteria-table tbody tr:hover {
+  background: hsl(var(--muted) / 0.3);
+}
+
+/* Level-specific row styling */
+.grading-criteria-table tbody tr.level-0 {
+  background: hsl(var(--destructive) / 0.05);
+}
+
+.grading-criteria-table tbody tr.level-1_2 {
+  background: hsl(var(--warning) / 0.05);
+}
+
+.grading-criteria-table tbody tr.level-3_4 {
+  background: hsl(var(--primary) / 0.05);
+}
+
+.grading-criteria-table tbody tr.level-5_6 {
+  background: hsl(var(--success) / 0.05);
+}
+
+.grading-criteria-table .marks-cell {
+  padding: 1.25rem 1rem;
+  text-align: center;
+  vertical-align: top;
+  font-weight: 600;
+}
+
+.marks-badge {
+  display: inline-block;
+  padding: 0.375rem 0.75rem;
+  background: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  min-width: 60px;
+  text-align: center;
+}
+
+.level-0 .marks-badge {
+  background: hsl(var(--destructive));
+  color: hsl(var(--destructive-foreground));
+}
+
+.level-1_2 .marks-badge {
+  background: hsl(var(--warning));
+  color: hsl(var(--warning-foreground));
+}
+
+.level-3_4 .marks-badge {
+  background: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+}
+
+.level-5_6 .marks-badge {
+  background: hsl(var(--success));
+  color: hsl(var(--success-foreground));
+}
+
+.grading-criteria-table .descriptor-cell {
+  padding: 1.25rem 1.5rem;
+  vertical-align: top;
+  line-height: 1.6;
+}
+
+.descriptor-content p {
+  margin-bottom: 0.5rem;
+}
+
+.descriptor-content p:last-child {
+  margin-bottom: 0;
+}
+
+.descriptor-content .bullet-point {
+  padding-left: 0.5rem;
+  position: relative;
+}
+
+.descriptor-content .bullet-point::before {
+  content: '';
+  position: absolute;
+  left: -0.5rem;
+  top: 0.6em;
+  width: 4px;
+  height: 4px;
+  background: hsl(var(--primary));
+  border-radius: 50%;
+}
+
+/* Clarifications Section */
+.clarifications-section {
+  margin-top: 1.5rem;
+  padding: 1.25rem;
+  background: hsl(var(--muted) / 0.5);
+  border-radius: 0.5rem;
+  border-left: 4px solid hsl(var(--primary));
+}
+
+.clarifications-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: hsl(var(--foreground));
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.clarifications-title::before {
+  content: "ℹ️";
+  font-size: 1.125rem;
+}
+
+.clarifications-content {
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: hsl(var(--muted-foreground));
+}
+
+.clarification-paragraph {
+  margin-bottom: 1rem;
+}
+
+.clarification-paragraph:last-child {
+  margin-bottom: 0;
+}
+
+.clarification-paragraph p {
+  margin-bottom: 0.375rem;
+}
+
+.clarification-paragraph p:last-child {
+  margin-bottom: 0;
+}
+
+.clarifications-content .bullet-point {
+  padding-left: 1.25rem;
+  position: relative;
+}
+
+.clarifications-content .bullet-point::before {
+  content: '•';
+  position: absolute;
+  left: 0.25rem;
+  color: hsl(var(--primary));
+  font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .grading-criteria-table {
+    font-size: 0.85rem;
+  }
+
+  .grading-criteria-table th,
+  .grading-criteria-table .marks-cell,
+  .grading-criteria-table .descriptor-cell {
+    padding: 0.75rem;
+  }
+
+  .marks-badge {
+    font-size: 0.8rem;
+    padding: 0.25rem 0.5rem;
+    min-width: 50px;
+  }
+
+  .clarifications-section {
+    padding: 1rem;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .grading-criteria-table-wrapper {
+    border: 1px solid #ddd;
+  }
+
+  .grading-criteria-table tbody tr {
+    page-break-inside: avoid;
+  }
+
+  .clarifications-section {
+    page-break-inside: avoid;
+  }
+
+  .marks-badge {
+    border: 1px solid #333;
+  }
+}
+
+/* Dark Mode Adjustments */
+@media (prefers-color-scheme: dark) {
+  .grading-criteria-table tbody tr.level-0 {
+    background: hsl(var(--destructive) / 0.1);
+  }
+
+  .grading-criteria-table tbody tr.level-1_2 {
+    background: hsl(var(--warning) / 0.1);
+  }
+
+  .grading-criteria-table tbody tr.level-3_4 {
+    background: hsl(var(--primary) / 0.1);
+  }
+
+  .grading-criteria-table tbody tr.level-5_6 {
+    background: hsl(var(--success) / 0.1);
+  }
+}
+
+/* Success color variable (add to your global CSS if not present) */
+:root {
+  --success: 142 76% 36%;
+  --success-foreground: 0 0% 100%;
+}
+
+.dark {
+  --success: 142 71% 45%;
+  --success-foreground: 0 0% 100%;
+}
+
+/* Warning color variable (add to your global CSS if not present) */
+:root {
+  --warning: 38 92% 50%;
+  --warning-foreground: 0 0% 100%;
+}
+
+.dark {
+  --warning: 38 92% 60%;
+  --warning-foreground: 0 0% 0%;
+}

@@ -1,0 +1,55 @@
+const sharp = require('sharp');
+const fs = require('fs');
+const path = require('path');
+const pngToIco = require('png-to-ico');
+
+const buildDir = path.join(__dirname, '..', 'build');
+
+// Create SVG icon with gradient
+const svgIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="48" fill="url(#grad1)"/>
+  <g transform="translate(48, 48) scale(6.67)">
+    <path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M22 10v6" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>`;
+
+async function createIcons() {
+  console.log('Creating icons...');
+  
+  // Create PNG from SVG
+  const pngPath = path.join(buildDir, 'icon.png');
+  await sharp(Buffer.from(svgIcon))
+    .resize(256, 256)
+    .png()
+    .toFile(pngPath);
+  console.log('Created PNG icon at:', pngPath);
+
+  // Create ICO from PNG
+  try {
+    const icoBuffer = await pngToIco(pngPath);
+    const icoPath = path.join(buildDir, 'icon.ico');
+    fs.writeFileSync(icoPath, icoBuffer);
+    console.log('Created ICO icon at:', icoPath);
+  } catch (err) {
+    console.error('Error creating ICO:', err.message);
+    // Fallback: copy PNG as a placeholder
+    console.log('Using PNG as placeholder for ICO');
+  }
+
+  // Create ICNS for macOS (just copy PNG for now)
+  const icnsPath = path.join(buildDir, 'icon.icns');
+  fs.copyFileSync(pngPath, icnsPath);
+  console.log('Created ICNS placeholder at:', icnsPath);
+
+  console.log('Icon creation complete!');
+}
+
+createIcons().catch(console.error);
