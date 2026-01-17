@@ -2,23 +2,16 @@
 import { createClient } from '@supabase/supabase-js';
 import type { Database } from './types';
 
-const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL;
-const SUPABASE_PUBLISHABLE_KEY = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY;
-
-// Debug: Check if environment variables are loaded
-if (!SUPABASE_URL || !SUPABASE_PUBLISHABLE_KEY) {
-  console.error('Missing Supabase environment variables!', {
-    SUPABASE_URL,
-    SUPABASE_PUBLISHABLE_KEY: SUPABASE_PUBLISHABLE_KEY ? 'Present' : 'Missing'
-  });
-}
+// Use environment variables with fallback to hardcoded values for production
+const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL || 'https://jimfuknlntcqgtqfwcod.supabase.co';
+const SUPABASE_PUBLISHABLE_KEY = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImppbWZ1a25sbnRjcWd0cWZ3Y29kIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjIxMjAyNDksImV4cCI6MjA3NzY5NjI0OX0.Flky3o6WN5t1g2emMO84mWiyQWnHqzpLoW2MgGl8wYA';
 
 // Import the supabase client like this:
 // import { supabase } from "@/integrations/supabase/client";
 
 export const supabase = createClient<Database>(
-  SUPABASE_URL || '', 
-  SUPABASE_PUBLISHABLE_KEY || '', 
+  SUPABASE_URL, 
+  SUPABASE_PUBLISHABLE_KEY, 
   {
     auth: {
       storage: localStorage,
