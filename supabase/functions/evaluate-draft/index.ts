@@ -221,7 +221,7 @@ Provide your evaluation as JSON with this structure:
 
 // Generate IB-specific system prompt (existing logic preserved)
 function generateIBSystemPrompt(schoolProgram: string, subject: string, taskType: string, wordCount: number): string {
-  let basePrompt = `You are an experienced IB examiner and academic coach. You understand IB assessment criteria, approaches to learning, and global contexts.`;
+  const basePrompt = `You are an experienced IB examiner and academic coach. You understand IB assessment criteria, approaches to learning, and global contexts.`;
 
   // Task-specific requirements for IB
   let taskRequirements = '';

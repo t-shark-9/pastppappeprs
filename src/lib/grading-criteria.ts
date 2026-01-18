@@ -165,7 +165,7 @@ export function parseGradingCriteria(text: string, taskType: string): CriterionS
     
     // Extract the content after the header
     const contentStart = block.indexOf(headerMatch[0]) + headerMatch[0].length;
-    let content = block.substring(contentStart).trim();
+    const content = block.substring(contentStart).trim();
     
     // Parse level descriptors
     const levels: CriterionLevel[] = [];

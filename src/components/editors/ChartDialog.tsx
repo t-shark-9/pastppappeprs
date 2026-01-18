@@ -405,7 +405,7 @@ export function ChartDialog({
       ...series,
       parsedData: parseData(series.data)
     }));
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+   
   }, [dataSeries, multipleSeriesMode]);
 
   // Reset state when dialog opens with new initial data

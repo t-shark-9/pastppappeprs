@@ -118,7 +118,7 @@ function parseFilename(filename: string): {
   const yearCode = parts[3];
   
   // Look up subject by 3-digit type code
-  let subject = SUBJECT_BY_TYPE[typeCode] || 'other';
+  const subject = SUBJECT_BY_TYPE[typeCode] || 'other';
   
   // Parse year
   const year = YEAR_MAP[yearCode] || (2000 + parseInt(yearCode, 10));

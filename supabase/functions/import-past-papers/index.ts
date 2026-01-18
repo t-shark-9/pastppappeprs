@@ -169,7 +169,7 @@ async function importPapers(supabase: SupabaseClient, data: PapersData, clearExi
   // Insert in batches
   for (let i = 0; i < records.length; i += batchSize) {
     const batch = records.slice(i, i + batchSize);
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+     
     const { error } = await supabase
       .from('past_papers')
       .upsert(batch as any, { onConflict: 'code', ignoreDuplicates: false });

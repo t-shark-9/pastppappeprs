@@ -1959,8 +1959,8 @@ export function BlockNoteEditor({
           if (!range.collapsed) return;
 
           // Get the text node and offset
-          let textNode: Node | null = range.startContainer;
-          let cursorPos = range.startOffset;
+          const textNode: Node | null = range.startContainer;
+          const cursorPos = range.startOffset;
           
           if (!textNode || textNode.nodeType !== Node.TEXT_NODE) return;
 
@@ -2026,7 +2026,7 @@ export function BlockNoteEditor({
 
       // Get the current block's text content
       const blockContent = currentBlock.content;
-      let newContent: any[] = [];
+      const newContent: any[] = [];
       let replaced = false;
 
       // Rebuild the content with the corrected word

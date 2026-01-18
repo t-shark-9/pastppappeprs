@@ -193,7 +193,7 @@ export default function StudyPlanner() {
     const endDate = new Date(examEvents[examEvents.length - 1].date);
     endDate.setDate(endDate.getDate() + 1);
     
-    let currentDate = new Date(startDate);
+    const currentDate = new Date(startDate);
     
     while (currentDate <= endDate) {
       const dateStr = currentDate.toISOString().split('T')[0];
