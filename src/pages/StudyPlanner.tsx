@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import { Separator } from "@/components/ui/separator";
 import { Checkbox } from "@/components/ui/checkbox";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { 
   Calendar as CalendarIcon, 
   BookOpen, 
@@ -18,7 +19,12 @@ import {
   CheckCircle2,
   Sparkles,
   ChevronRight,
-  RotateCcw
+  RotateCcw,
+  Coffee,
+  Brain,
+  Shuffle,
+  CircleDot,
+  HelpCircle
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -89,6 +95,91 @@ interface StudyDay {
   completed: boolean;
 }
 
+// Traffic Light Review types
+type TrafficLightStatus = 'green' | 'yellow' | 'red' | 'none';
+
+interface TopicStatus {
+  topicId: string;
+  status: TrafficLightStatus;
+}
+
+// Sample syllabus topics for each subject
+const SYLLABUS_TOPICS: Record<string, { id: string; name: string; }[]> = {
+  biology: [
+    { id: 'bio-1', name: '1. Cell Biology' },
+    { id: 'bio-2', name: '2. Molecular Biology' },
+    { id: 'bio-3', name: '3. Genetics' },
+    { id: 'bio-4', name: '4. Ecology' },
+    { id: 'bio-5', name: '5. Evolution & Biodiversity' },
+    { id: 'bio-6', name: '6. Human Physiology' },
+  ],
+  chemistry: [
+    { id: 'chem-1', name: '1. Stoichiometry' },
+    { id: 'chem-2', name: '2. Atomic Structure' },
+    { id: 'chem-3', name: '3. Periodicity' },
+    { id: 'chem-4', name: '4. Bonding' },
+    { id: 'chem-5', name: '5. Energetics' },
+    { id: 'chem-6', name: '6. Kinetics' },
+    { id: 'chem-7', name: '7. Equilibrium' },
+    { id: 'chem-8', name: '8. Acids & Bases' },
+    { id: 'chem-9', name: '9. Redox' },
+    { id: 'chem-10', name: '10. Organic Chemistry' },
+  ],
+  physics: [
+    { id: 'phys-1', name: '1. Measurements' },
+    { id: 'phys-2', name: '2. Mechanics' },
+    { id: 'phys-3', name: '3. Thermal Physics' },
+    { id: 'phys-4', name: '4. Waves' },
+    { id: 'phys-5', name: '5. Electricity & Magnetism' },
+    { id: 'phys-6', name: '6. Circular Motion' },
+    { id: 'phys-7', name: '7. Atomic & Nuclear' },
+    { id: 'phys-8', name: '8. Energy Production' },
+  ],
+  math_aa: [
+    { id: 'math-1', name: '1. Number & Algebra' },
+    { id: 'math-2', name: '2. Functions' },
+    { id: 'math-3', name: '3. Geometry & Trigonometry' },
+    { id: 'math-4', name: '4. Statistics & Probability' },
+    { id: 'math-5', name: '5. Calculus' },
+  ],
+  math_ai: [
+    { id: 'mathai-1', name: '1. Number & Algebra' },
+    { id: 'mathai-2', name: '2. Functions' },
+    { id: 'mathai-3', name: '3. Geometry & Trigonometry' },
+    { id: 'mathai-4', name: '4. Statistics & Probability' },
+    { id: 'mathai-5', name: '5. Calculus' },
+  ],
+  history: [
+    { id: 'hist-1', name: 'Paper 1: Source Analysis' },
+    { id: 'hist-2', name: 'Paper 2: World History Topics' },
+    { id: 'hist-3', name: 'Paper 3: HL Regional History' },
+  ],
+  economics: [
+    { id: 'econ-1', name: '1. Introduction to Economics' },
+    { id: 'econ-2', name: '2. Microeconomics' },
+    { id: 'econ-3', name: '3. Macroeconomics' },
+    { id: 'econ-4', name: '4. Global Economy' },
+  ],
+  psychology: [
+    { id: 'psych-1', name: 'Biological Approach' },
+    { id: 'psych-2', name: 'Cognitive Approach' },
+    { id: 'psych-3', name: 'Sociocultural Approach' },
+    { id: 'psych-4', name: 'Research Methods' },
+  ],
+  english_a_lit: [
+    { id: 'englit-1', name: 'Paper 1: Guided Analysis' },
+    { id: 'englit-2', name: 'Paper 2: Comparative Essay' },
+    { id: 'englit-3', name: 'HL Essay' },
+    { id: 'englit-4', name: 'Individual Oral' },
+  ],
+  english_a_langlit: [
+    { id: 'englanglit-1', name: 'Paper 1: Guided Analysis' },
+    { id: 'englanglit-2', name: 'Paper 2: Comparative Essay' },
+    { id: 'englanglit-3', name: 'HL Essay' },
+    { id: 'englanglit-4', name: 'Individual Oral' },
+  ],
+};
+
 // Load from localStorage
 const loadFromStorage = <T,>(key: string, defaultValue: T): T => {
   if (typeof window === 'undefined') return defaultValue;
@@ -120,6 +211,12 @@ export default function StudyPlanner() {
   const [step, setStep] = useState<'select' | 'plan'>(() => 
     loadFromStorage<SelectedSubject[]>('ib-study-planner-subjects', []).length > 0 ? 'plan' : 'select'
   );
+  const [activeTab, setActiveTab] = useState<'schedule' | 'interleaving' | 'traffic-light'>('schedule');
+  
+  // Traffic Light Review state
+  const [topicStatuses, setTopicStatuses] = useState<TopicStatus[]>(() => 
+    loadFromStorage('ib-study-planner-topics', [])
+  );
 
   // Save to localStorage whenever state changes
   useEffect(() => {
@@ -129,6 +226,82 @@ export default function StudyPlanner() {
   useEffect(() => {
     saveToStorage('ib-study-planner-completed', completedDays);
   }, [completedDays]);
+
+  useEffect(() => {
+    saveToStorage('ib-study-planner-topics', topicStatuses);
+  }, [topicStatuses]);
+
+  // Traffic light helpers
+  const getTopicStatus = (topicId: string): TrafficLightStatus => {
+    return topicStatuses.find(t => t.topicId === topicId)?.status || 'none';
+  };
+
+  const setTopicStatus = (topicId: string, status: TrafficLightStatus) => {
+    setTopicStatuses(prev => {
+      const existing = prev.find(t => t.topicId === topicId);
+      if (existing) {
+        if (status === 'none') {
+          return prev.filter(t => t.topicId !== topicId);
+        }
+        return prev.map(t => t.topicId === topicId ? { ...t, status } : t);
+      }
+      if (status === 'none') return prev;
+      return [...prev, { topicId, status }];
+    });
+  };
+
+  // Calculate traffic light stats
+  const trafficLightStats = useMemo(() => {
+    const allTopics = selectedSubjects.flatMap(s => SYLLABUS_TOPICS[s.id] || []);
+    const green = topicStatuses.filter(t => t.status === 'green').length;
+    const yellow = topicStatuses.filter(t => t.status === 'yellow').length;
+    const red = topicStatuses.filter(t => t.status === 'red').length;
+    const unrated = allTopics.length - green - yellow - red;
+    return { green, yellow, red, unrated, total: allTopics.length };
+  }, [selectedSubjects, topicStatuses]);
+
+  // Generate interleaving schedule for today
+  const interleavingSchedule = useMemo(() => {
+    if (selectedSubjects.length === 0) return [];
+    
+    // Create a 4-hour study session with 3 different subjects
+    const subjectsToStudy = selectedSubjects.slice(0, Math.min(3, selectedSubjects.length));
+    const schedule = [];
+    
+    const activities = [
+      'problems/practice questions',
+      'essay planning/writing',
+      'flashcards/active recall',
+      'past paper review',
+      'notes review & summarization',
+      'concept mapping'
+    ];
+    
+    subjectsToStudy.forEach((s, idx) => {
+      const subject = IB_SUBJECTS.find(sub => sub.id === s.id);
+      if (!subject) return;
+      
+      schedule.push({
+        type: 'study',
+        duration: 60,
+        subject: subject.name,
+        activity: activities[idx % activities.length],
+        color: subject.color
+      });
+      
+      if (idx < subjectsToStudy.length - 1) {
+        schedule.push({
+          type: 'break',
+          duration: 15,
+          subject: '',
+          activity: 'Take a break - stretch, hydrate, rest your eyes',
+          color: ''
+        });
+      }
+    });
+    
+    return schedule;
+  }, [selectedSubjects]);
 
   // Calculate days until May exams start
   const examStartDate = new Date('2026-05-01');
@@ -308,9 +481,11 @@ export default function StudyPlanner() {
   const resetPlan = () => {
     setSelectedSubjects([]);
     setCompletedDays([]);
+    setTopicStatuses([]);
     setStep('select');
     localStorage.removeItem('ib-study-planner-subjects');
     localStorage.removeItem('ib-study-planner-completed');
+    localStorage.removeItem('ib-study-planner-topics');
   };
 
   // Format date for display
@@ -528,114 +703,375 @@ export default function StudyPlanner() {
               </Button>
             </div>
 
-            {/* Study Plan */}
-            <Card>
-              <CardHeader>
-                <CardTitle className="flex items-center gap-2">
-                  <CalendarIcon className="h-5 w-5" />
-                  Your Study Schedule
-                </CardTitle>
-                <CardDescription>
-                  Check off each day as you complete your study sessions. The plan ensures you study each subject the day before its exam.
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="space-y-2">
-                  {studyPlan.map((day, index) => {
-                    const hasExam = day.subjects.some(s => s.isExamDay);
-                    const todayClass = isToday(day.date);
-                    const pastClass = isPast(day.date) && !todayClass;
-                    
-                    return (
-                      <div
-                        key={day.date}
-                        className={cn(
-                          "flex items-start gap-3 p-4 rounded-lg transition-all",
-                          hasExam ? "bg-orange-500/10 border border-orange-500/30" : 
-                          todayClass ? "bg-primary/10 border border-primary" :
-                          day.completed ? "bg-green-500/10 border border-green-500/30" :
-                          pastClass ? "bg-muted/30 opacity-60" :
-                          "bg-muted/30 hover:bg-muted/50"
-                        )}
-                      >
-                        <div className="pt-1">
-                          <Checkbox
-                            checked={day.completed}
-                            onCheckedChange={() => toggleDayComplete(day.date)}
-                            disabled={hasExam}
-                          />
-                        </div>
+            {/* Tabs for different views */}
+            <Tabs value={activeTab} onValueChange={(v) => setActiveTab(v as typeof activeTab)} className="space-y-4">
+              <TabsList className="grid w-full grid-cols-3">
+                <TabsTrigger value="schedule" className="gap-2">
+                  <CalendarIcon className="h-4 w-4" />
+                  <span className="hidden sm:inline">Schedule</span>
+                </TabsTrigger>
+                <TabsTrigger value="interleaving" className="gap-2">
+                  <Shuffle className="h-4 w-4" />
+                  <span className="hidden sm:inline">Daily Structure</span>
+                </TabsTrigger>
+                <TabsTrigger value="traffic-light" className="gap-2">
+                  <CircleDot className="h-4 w-4" />
+                  <span className="hidden sm:inline">Topic Review</span>
+                </TabsTrigger>
+              </TabsList>
+
+              {/* Schedule Tab */}
+              <TabsContent value="schedule">
+                <Card>
+                  <CardHeader>
+                    <CardTitle className="flex items-center gap-2">
+                      <CalendarIcon className="h-5 w-5" />
+                      Your Study Schedule
+                    </CardTitle>
+                    <CardDescription>
+                      Check off each day as you complete your study sessions. The plan ensures you study each subject the day before its exam.
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="space-y-2">
+                      {studyPlan.map((day, index) => {
+                        const hasExam = day.subjects.some(s => s.isExamDay);
+                        const todayClass = isToday(day.date);
+                        const pastClass = isPast(day.date) && !todayClass;
                         
-                        <div className="flex-1 min-w-0">
-                          <div className="flex items-center gap-2 mb-2">
-                            <span className={cn(
-                              "font-semibold",
-                              todayClass && "text-primary"
-                            )}>
-                              {formatDate(day.date)}
-                            </span>
-                            {todayClass && (
-                              <Badge variant="default" className="text-xs">TODAY</Badge>
+                        return (
+                          <div
+                            key={day.date}
+                            className={cn(
+                              "flex items-start gap-3 p-4 rounded-lg transition-all",
+                              hasExam ? "bg-orange-500/10 border border-orange-500/30" : 
+                              todayClass ? "bg-primary/10 border border-primary" :
+                              day.completed ? "bg-green-500/10 border border-green-500/30" :
+                              pastClass ? "bg-muted/30 opacity-60" :
+                              "bg-muted/30 hover:bg-muted/50"
                             )}
-                            {hasExam && (
-                              <Badge variant="destructive" className="text-xs gap-1">
-                                <AlertTriangle className="h-3 w-3" />
-                                EXAM DAY
-                              </Badge>
-                            )}
-                            {day.completed && !hasExam && (
-                              <Badge variant="secondary" className="text-xs gap-1 bg-green-500/20 text-green-700">
-                                <CheckCircle2 className="h-3 w-3" />
-                                Done
-                              </Badge>
-                            )}
-                          </div>
-                          
-                          <div className="flex flex-wrap gap-2">
-                            {day.subjects.map((s, idx) => {
-                              const subject = getSubject(s.subjectId);
-                              const level = getSubjectLevel(s.subjectId);
-                              if (!subject) return null;
+                          >
+                            <div className="pt-1">
+                              <Checkbox
+                                checked={day.completed}
+                                onCheckedChange={() => toggleDayComplete(day.date)}
+                                disabled={hasExam}
+                              />
+                            </div>
+                            
+                            <div className="flex-1 min-w-0">
+                              <div className="flex items-center gap-2 mb-2">
+                                <span className={cn(
+                                  "font-semibold",
+                                  todayClass && "text-primary"
+                                )}>
+                                  {formatDate(day.date)}
+                                </span>
+                                {todayClass && (
+                                  <Badge variant="default" className="text-xs">TODAY</Badge>
+                                )}
+                                {hasExam && (
+                                  <Badge variant="destructive" className="text-xs gap-1">
+                                    <AlertTriangle className="h-3 w-3" />
+                                    EXAM DAY
+                                  </Badge>
+                                )}
+                                {day.completed && !hasExam && (
+                                  <Badge variant="secondary" className="text-xs gap-1 bg-green-500/20 text-green-700">
+                                    <CheckCircle2 className="h-3 w-3" />
+                                    Done
+                                  </Badge>
+                                )}
+                              </div>
                               
+                              <div className="flex flex-wrap gap-2">
+                                {day.subjects.map((s, idx) => {
+                                  const subject = getSubject(s.subjectId);
+                                  const level = getSubjectLevel(s.subjectId);
+                                  if (!subject) return null;
+                                  
+                                  return (
+                                    <div 
+                                      key={`${s.subjectId}-${idx}`}
+                                      className={cn(
+                                        "flex items-center gap-2 px-3 py-1.5 rounded-md text-sm",
+                                        s.isExamDay ? "bg-orange-500/20 text-orange-700 dark:text-orange-300" : "bg-background"
+                                      )}
+                                    >
+                                      <span className={cn("w-2 h-2 rounded-full", subject.color)} />
+                                      <span className={cn(day.completed && !s.isExamDay && "line-through")}>
+                                        {subject.name}
+                                      </span>
+                                      {level && <Badge variant="outline" className="text-xs h-5">{level}</Badge>}
+                                      {s.examPaper && (
+                                        <span className="text-xs text-muted-foreground">
+                                          ({s.examPaper})
+                                        </span>
+                                      )}
+                                    </div>
+                                  );
+                                })}
+                              </div>
+                            </div>
+                          </div>
+                        );
+                      })}
+                    </div>
+                    
+                    {studyPlan.length === 0 && (
+                      <div className="text-center py-12 text-muted-foreground">
+                        <BookOpen className="h-12 w-12 mx-auto mb-4 opacity-50" />
+                        <p>No study plan generated yet</p>
+                        <Button variant="link" onClick={() => setStep('select')}>
+                          Select your subjects to get started
+                        </Button>
+                      </div>
+                    )}
+                  </CardContent>
+                </Card>
+              </TabsContent>
+
+              {/* Interleaving Tab */}
+              <TabsContent value="interleaving">
+                <Card>
+                  <CardHeader>
+                    <CardTitle className="flex items-center gap-2">
+                      <Shuffle className="h-5 w-5" />
+                      Daily Study Structure (Interleaving)
+                    </CardTitle>
+                    <CardDescription>
+                      Never study one subject for 4 hours straight. Switching topics forces your brain to "reload" information, strengthening long-term memory.
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent className="space-y-6">
+                    {/* Today's Interleaving Schedule */}
+                    <div>
+                      <h4 className="font-semibold mb-4 flex items-center gap-2">
+                        <Clock className="h-4 w-4" />
+                        Today's Recommended Structure
+                      </h4>
+                      <div className="space-y-3">
+                        {interleavingSchedule.map((block, idx) => (
+                          <div 
+                            key={idx}
+                            className={cn(
+                              "flex items-center gap-4 p-4 rounded-lg",
+                              block.type === 'break' ? "bg-amber-500/10 border border-amber-500/30" : "bg-muted/30"
+                            )}
+                          >
+                            <div className="flex items-center justify-center w-16 h-16 rounded-full bg-background border-2">
+                              {block.type === 'break' ? (
+                                <Coffee className="h-6 w-6 text-amber-500" />
+                              ) : (
+                                <Brain className="h-6 w-6 text-primary" />
+                              )}
+                            </div>
+                            <div className="flex-1">
+                              <div className="flex items-center gap-2 mb-1">
+                                {block.color && <span className={cn("w-3 h-3 rounded-full", block.color)} />}
+                                <span className="font-semibold">
+                                  {block.type === 'break' ? '☕ Break' : block.subject}
+                                </span>
+                                <Badge variant="outline" className="text-xs">
+                                  {block.duration} min
+                                </Badge>
+                              </div>
+                              <p className="text-sm text-muted-foreground">{block.activity}</p>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+
+                    <Separator />
+
+                    {/* Why Interleaving Works */}
+                    <div className="bg-primary/5 rounded-lg p-4">
+                      <h4 className="font-semibold mb-2 flex items-center gap-2">
+                        <Sparkles className="h-4 w-4 text-primary" />
+                        Why This Works
+                      </h4>
+                      <ul className="space-y-2 text-sm text-muted-foreground">
+                        <li className="flex items-start gap-2">
+                          <CheckCircle2 className="h-4 w-4 text-green-500 mt-0.5 shrink-0" />
+                          <span><strong>Better retention:</strong> Switching topics forces your brain to constantly retrieve and strengthen memories</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <CheckCircle2 className="h-4 w-4 text-green-500 mt-0.5 shrink-0" />
+                          <span><strong>Less fatigue:</strong> Variety keeps you engaged and prevents mental exhaustion</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <CheckCircle2 className="h-4 w-4 text-green-500 mt-0.5 shrink-0" />
+                          <span><strong>Exam simulation:</strong> IB exams test multiple subjects - train your brain to switch contexts</span>
+                        </li>
+                      </ul>
+                    </div>
+
+                    {/* Tips */}
+                    <div>
+                      <h4 className="font-semibold mb-3">📝 Pro Tips</h4>
+                      <div className="grid gap-3 sm:grid-cols-2">
+                        <div className="p-3 rounded-lg bg-muted/30">
+                          <p className="text-sm"><strong>Morning:</strong> Tackle hardest subjects when your brain is fresh</p>
+                        </div>
+                        <div className="p-3 rounded-lg bg-muted/30">
+                          <p className="text-sm"><strong>Breaks:</strong> Actually rest - no phone scrolling!</p>
+                        </div>
+                        <div className="p-3 rounded-lg bg-muted/30">
+                          <p className="text-sm"><strong>Variety:</strong> Mix methods - problems, flashcards, essays</p>
+                        </div>
+                        <div className="p-3 rounded-lg bg-muted/30">
+                          <p className="text-sm"><strong>Review:</strong> End with 10 min reviewing what you learned</p>
+                        </div>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+              </TabsContent>
+
+              {/* Traffic Light Tab */}
+              <TabsContent value="traffic-light">
+                <Card>
+                  <CardHeader>
+                    <CardTitle className="flex items-center gap-2">
+                      <CircleDot className="h-5 w-5" />
+                      Traffic Light Review
+                    </CardTitle>
+                    <CardDescription>
+                      Rate your confidence on each syllabus topic. Focus on 🔴 Red topics immediately, review 🟡 Yellow weekly, and 🟢 Green monthly.
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent className="space-y-6">
+                    {/* Stats Summary */}
+                    <div className="grid grid-cols-4 gap-3">
+                      <div className="text-center p-3 rounded-lg bg-green-500/10">
+                        <p className="text-2xl font-bold text-green-600">{trafficLightStats.green}</p>
+                        <p className="text-xs text-muted-foreground">🟢 Confident</p>
+                      </div>
+                      <div className="text-center p-3 rounded-lg bg-yellow-500/10">
+                        <p className="text-2xl font-bold text-yellow-600">{trafficLightStats.yellow}</p>
+                        <p className="text-xs text-muted-foreground">🟡 Review</p>
+                      </div>
+                      <div className="text-center p-3 rounded-lg bg-red-500/10">
+                        <p className="text-2xl font-bold text-red-600">{trafficLightStats.red}</p>
+                        <p className="text-xs text-muted-foreground">🔴 Focus</p>
+                      </div>
+                      <div className="text-center p-3 rounded-lg bg-muted/30">
+                        <p className="text-2xl font-bold text-muted-foreground">{trafficLightStats.unrated}</p>
+                        <p className="text-xs text-muted-foreground">⚪ Unrated</p>
+                      </div>
+                    </div>
+
+                    {/* Legend */}
+                    <div className="flex flex-wrap gap-4 p-3 rounded-lg bg-muted/30 text-sm">
+                      <div className="flex items-center gap-2">
+                        <div className="w-4 h-4 rounded-full bg-green-500" />
+                        <span>I can teach this</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <div className="w-4 h-4 rounded-full bg-yellow-500" />
+                        <span>I make mistakes</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <div className="w-4 h-4 rounded-full bg-red-500" />
+                        <span>I don't understand</span>
+                      </div>
+                    </div>
+
+                    <Separator />
+
+                    {/* Topics by Subject */}
+                    {selectedSubjects.map(selected => {
+                      const subject = IB_SUBJECTS.find(s => s.id === selected.id);
+                      const topics = SYLLABUS_TOPICS[selected.id] || [];
+                      
+                      if (topics.length === 0) return null;
+                      
+                      return (
+                        <div key={selected.id} className="space-y-3">
+                          <h4 className="font-semibold flex items-center gap-2">
+                            <span className={cn("w-3 h-3 rounded-full", subject?.color)} />
+                            {subject?.name} ({selected.level})
+                          </h4>
+                          <div className="space-y-2">
+                            {topics.map(topic => {
+                              const status = getTopicStatus(topic.id);
                               return (
                                 <div 
-                                  key={`${s.subjectId}-${idx}`}
+                                  key={topic.id}
                                   className={cn(
-                                    "flex items-center gap-2 px-3 py-1.5 rounded-md text-sm",
-                                    s.isExamDay ? "bg-orange-500/20 text-orange-700 dark:text-orange-300" : "bg-background"
+                                    "flex items-center justify-between p-3 rounded-lg transition-all",
+                                    status === 'green' ? "bg-green-500/10" :
+                                    status === 'yellow' ? "bg-yellow-500/10" :
+                                    status === 'red' ? "bg-red-500/10" :
+                                    "bg-muted/30"
                                   )}
                                 >
-                                  <span className={cn("w-2 h-2 rounded-full", subject.color)} />
-                                  <span className={cn(day.completed && !s.isExamDay && "line-through")}>
-                                    {subject.name}
-                                  </span>
-                                  {level && <Badge variant="outline" className="text-xs h-5">{level}</Badge>}
-                                  {s.examPaper && (
-                                    <span className="text-xs text-muted-foreground">
-                                      ({s.examPaper})
-                                    </span>
-                                  )}
+                                  <span className="text-sm">{topic.name}</span>
+                                  <div className="flex gap-1">
+                                    <Button
+                                      size="sm"
+                                      variant={status === 'green' ? 'default' : 'outline'}
+                                      className={cn(
+                                        "h-8 w-8 p-0 rounded-full",
+                                        status === 'green' && "bg-green-500 hover:bg-green-600"
+                                      )}
+                                      onClick={() => setTopicStatus(topic.id, status === 'green' ? 'none' : 'green')}
+                                    >
+                                      🟢
+                                    </Button>
+                                    <Button
+                                      size="sm"
+                                      variant={status === 'yellow' ? 'default' : 'outline'}
+                                      className={cn(
+                                        "h-8 w-8 p-0 rounded-full",
+                                        status === 'yellow' && "bg-yellow-500 hover:bg-yellow-600"
+                                      )}
+                                      onClick={() => setTopicStatus(topic.id, status === 'yellow' ? 'none' : 'yellow')}
+                                    >
+                                      🟡
+                                    </Button>
+                                    <Button
+                                      size="sm"
+                                      variant={status === 'red' ? 'default' : 'outline'}
+                                      className={cn(
+                                        "h-8 w-8 p-0 rounded-full",
+                                        status === 'red' && "bg-red-500 hover:bg-red-600"
+                                      )}
+                                      onClick={() => setTopicStatus(topic.id, status === 'red' ? 'none' : 'red')}
+                                    >
+                                      🔴
+                                    </Button>
+                                  </div>
                                 </div>
                               );
                             })}
                           </div>
                         </div>
+                      );
+                    })}
+
+                    {selectedSubjects.every(s => !SYLLABUS_TOPICS[s.id]) && (
+                      <div className="text-center py-8 text-muted-foreground">
+                        <HelpCircle className="h-12 w-12 mx-auto mb-4 opacity-50" />
+                        <p>Syllabus topics not available for your selected subjects yet.</p>
+                        <p className="text-sm">This feature works best with Sciences and Math subjects.</p>
                       </div>
-                    );
-                  })}
-                </div>
-                
-                {studyPlan.length === 0 && (
-                  <div className="text-center py-12 text-muted-foreground">
-                    <BookOpen className="h-12 w-12 mx-auto mb-4 opacity-50" />
-                    <p>No study plan generated yet</p>
-                    <Button variant="link" onClick={() => setStep('select')}>
-                      Select your subjects to get started
-                    </Button>
-                  </div>
-                )}
-              </CardContent>
-            </Card>
+                    )}
+
+                    {/* Review Schedule */}
+                    <div className="bg-primary/5 rounded-lg p-4">
+                      <h4 className="font-semibold mb-2">📅 Recommended Review Schedule</h4>
+                      <ul className="space-y-1 text-sm text-muted-foreground">
+                        <li>🔴 <strong>Red topics:</strong> Study these DAILY until they turn yellow</li>
+                        <li>🟡 <strong>Yellow topics:</strong> Review WEEKLY with practice questions</li>
+                        <li>🟢 <strong>Green topics:</strong> Quick review MONTHLY to maintain</li>
+                      </ul>
+                    </div>
+                  </CardContent>
+                </Card>
+              </TabsContent>
+            </Tabs>
           </>
         )}
       </div>
