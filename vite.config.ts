@@ -18,6 +18,8 @@ export default defineConfig(({ command, mode }) => ({
       "@babel/runtime/regenerator": "regenerator-runtime",
       // Fix assert module for ketcher-react
       "assert": "assert",
+      // Fix eventemitter3 constructor issue in production builds
+      "eventemitter3": "eventemitter3",
     },
   },
   define: {
@@ -42,6 +44,10 @@ export default defineConfig(({ command, mode }) => ({
       transformMixedEsModules: true,
       // Fix lodash default export issue – treat lodash as having a default export
       defaultIsModuleExports: (id: string) => id.includes('lodash'),
+      // Include eventemitter3 for proper CJS to ESM conversion
+      include: [/node_modules/],
+      // Force named exports for eventemitter3 to fix "EVe is not a constructor" error
+      requireReturnsDefault: 'auto',
     },
     rollupOptions: {
       // Limit parallel operations to reduce memory pressure
@@ -54,7 +60,28 @@ export default defineConfig(({ command, mode }) => ({
   },
   optimizeDeps: {
     // Include lodash and ketcher for pre-bundling so they are converted to ESM correctly
-    include: ['lodash', 'lodash-es', 'ketcher-react', 'ketcher-core', 'regenerator-runtime', 'assert', 'eventemitter3', 'events'],
+    include: [
+      'lodash', 
+      'lodash-es', 
+      'ketcher-react', 
+      'ketcher-core', 
+      'regenerator-runtime', 
+      'assert', 
+      'eventemitter3', 
+      'events',
+      // BlockNote and its dependencies
+      '@blocknote/core',
+      '@blocknote/react',
+      '@blocknote/mantine',
+      '@blocknote/ariakit',
+      '@tiptap/pm',
+      '@tiptap/core',
+      'prosemirror-state',
+      'prosemirror-view',
+      'prosemirror-model',
+    ],
+    // Force pre-bundling to fix constructor issues
+    force: true,
     esbuildOptions: {
       define: {
         global: 'globalThis',
