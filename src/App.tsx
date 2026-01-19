@@ -117,7 +117,7 @@ const App = () => (
             <TooltipProvider>
               <Toaster />
               <Sonner />
-              <BrowserRouter basename="/" future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
+              <BrowserRouter basename={import.meta.env.BASE_URL} future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
               <GhostSessionProvider>
                 <AuthProvider>
                   <LanguageInitializer />
