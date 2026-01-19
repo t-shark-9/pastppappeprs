@@ -54,7 +54,7 @@ export default defineConfig(({ command, mode }) => ({
   },
   optimizeDeps: {
     // Include lodash and ketcher for pre-bundling so they are converted to ESM correctly
-    include: ['lodash', 'lodash-es', 'ketcher-react', 'ketcher-core', 'regenerator-runtime', 'assert'],
+    include: ['lodash', 'lodash-es', 'ketcher-react', 'ketcher-core', 'regenerator-runtime', 'assert', 'eventemitter3', 'events'],
     esbuildOptions: {
       define: {
         global: 'globalThis',
