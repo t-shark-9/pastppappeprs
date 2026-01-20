@@ -44,9 +44,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { useCollaboration } from "@/hooks/use-collaboration";
-import { ShareModal } from "@/components/editor/ShareModal";
-import { CollaboratorAvatars } from "@/components/editor/CollaboratorAvatars";
+// Collaboration features removed
 
 const SUBJECTS = [
   { value: "biology", label: "Biology" },
@@ -104,23 +102,14 @@ export default function NotesEditor() {
   const [commandHandler, setCommandHandler] = useState<((command: string, selectedText?: string) => void) | null>(null);
   const [editorInstance, setEditorInstance] = useState<any>(null);
   
-  // Collaboration hook
-  const {
-    ydoc,
-    provider,
-    isConnected,
-    activeUsers,
-    collaborators,
-    isOwner,
-    canEdit,
-    addCollaborator,
-    removeCollaborator,
-    updateCollaboratorRole,
-  } = useCollaboration({
-    documentType: 'note',
-    documentId: noteId || '',
-    enabled: !!noteId,
-  });
+  // Collaboration disabled
+  const ydoc = null;
+  const provider = null;
+  const isConnected = false;
+  const activeUsers: any[] = [];
+  const collaborators: any[] = [];
+  const isOwner = true;
+  const canEdit = true;
 
   // Get user color for collaboration
   const getUserColor = (userId: string): string => {
@@ -1126,22 +1115,7 @@ export default function NotesEditor() {
                     pageCount={1}
                   />
                   
-                  {/* Collaboration UI */}
-                  <ShareModal
-                    isOwner={isOwner}
-                    collaborators={collaborators}
-                    documentTitle="My Notes"
-                    onAddCollaborator={addCollaborator}
-                    onRemoveCollaborator={removeCollaborator}
-                    onUpdateRole={updateCollaboratorRole}
-                    trigger={
-                      <Button variant="ghost" size="sm" className="gap-2">
-                        <Share2 className="h-4 w-4" />
-                        Share
-                      </Button>
-                    }
-                  />
-                  <CollaboratorAvatars users={activeUsers} />
+                  {/* Collaboration UI removed */}
                 </>
               )}
             </div>

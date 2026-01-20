@@ -26,9 +26,7 @@ import {
 import { ImportToBlockNoteModal } from "@/components/editor/ImportToBlockNoteModal";
 import { ExportDropdown } from "@/components/editor/ExportDropdown";
 import { Block } from "@blocknote/core";
-import { useCollaboration } from "@/hooks/use-collaboration";
-import { ShareModal } from "@/components/editor/ShareModal";
-import { CollaboratorAvatars } from "@/components/editor/CollaboratorAvatars";
+// Collaboration features removed
 import { FixedEditorToolbar } from "@/components/editor/FixedEditorToolbar";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import { SettingsModal } from "@/components/ui/settings-modal";
@@ -152,22 +150,14 @@ export default function Draft() {
   } | null>(null);
 
   // Collaboration hook - only enabled when we have a draft ID
-  const {
-    ydoc,
-    provider,
-    isConnected,
-    activeUsers,
-    collaborators,
-    isOwner,
-    canEdit,
-    addCollaborator,
-    removeCollaborator,
-    updateCollaboratorRole,
-  } = useCollaboration({
-    documentType: 'draft',
-    documentId: draftId || '',
-    enabled: !!draftId,
-  });
+  // Collaboration disabled
+  const ydoc = null;
+  const provider = null;
+  const isConnected = false;
+  const activeUsers: any[] = [];
+  const collaborators: any[] = [];
+  const isOwner = true;
+  const canEdit = true;
 
   // Comments hook
   const { addComment } = useDraftComments({ draftId });
@@ -1025,20 +1015,7 @@ export default function Draft() {
               author={user?.email || "Student"}
             />
 
-            {/* Collaboration UI - hide on mobile */}
-            {!isMobile && (
-              <div className="flex items-center gap-2 border-l pl-3 ml-1">
-                <CollaboratorAvatars users={activeUsers} />
-                <ShareModal
-                  isOwner={isOwner}
-                  collaborators={collaborators}
-                  documentTitle={title || "Untitled Draft"}
-                  onAddCollaborator={addCollaborator}
-                  onRemoveCollaborator={removeCollaborator}
-                  onUpdateRole={updateCollaboratorRole}
-                />
-              </div>
-            )}
+            {/* Collaboration UI removed */}
 
             {/* Save button hidden - auto-save handles saving */}
           </div>
