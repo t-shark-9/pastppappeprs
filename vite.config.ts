@@ -18,8 +18,8 @@ export default defineConfig(({ command, mode }) => ({
       "@babel/runtime/regenerator": "regenerator-runtime",
       // Fix assert module for ketcher-react
       "assert": "assert",
-      // Fix eventemitter3 constructor issue in production builds
-      "eventemitter3": "eventemitter3",
+      // Fix eventemitter3 "EVe is not a constructor" error - use a shim that provides proper default export
+      "eventemitter3": path.resolve(__dirname, "./src/lib/eventemitter3-shim.ts"),
     },
   },
   define: {
@@ -42,12 +42,15 @@ export default defineConfig(({ command, mode }) => ({
     // CommonJS options
     commonjsOptions: {
       transformMixedEsModules: true,
-      // Fix lodash default export issue – treat lodash as having a default export
-      defaultIsModuleExports: (id: string) => id.includes('lodash'),
-      // Include eventemitter3 for proper CJS to ESM conversion
+      // Include node_modules for proper CJS to ESM conversion
       include: [/node_modules/],
-      // Force named exports for eventemitter3 to fix "EVe is not a constructor" error
-      requireReturnsDefault: 'auto',
+      // Fix eventemitter3 "EVe is not a constructor" error - eventemitter3 doesn't have a default export
+      // but recharts expects one, so we need to tell rollup to use the module itself as the default
+      defaultIsModuleExports: (id: string) => {
+        if (id.includes('eventemitter3')) return true;
+        if (id.includes('lodash')) return true;
+        return 'auto';
+      },
     },
     rollupOptions: {
       // Limit parallel operations to reduce memory pressure
