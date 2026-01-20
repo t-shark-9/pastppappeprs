@@ -66,18 +66,12 @@ export default defineConfig(({ command, mode }) => ({
     include: [
       'lodash', 
       'lodash-es', 
-      'ketcher-react', 
-      'ketcher-core', 
       'regenerator-runtime', 
-      'assert', 
       'eventemitter3', 
-      'events',
       // BlockNote and its dependencies
       '@blocknote/core',
       '@blocknote/react',
       '@blocknote/mantine',
-      '@blocknote/ariakit',
-      '@tiptap/pm',
       '@tiptap/core',
       'prosemirror-state',
       'prosemirror-view',
