@@ -18,8 +18,6 @@ export default defineConfig(({ command, mode }) => ({
       "@babel/runtime/regenerator": "regenerator-runtime",
       // Fix assert module for ketcher-react
       "assert": "assert",
-      // Fix eventemitter3 "EVe is not a constructor" error - use a shim that provides proper default export
-      "eventemitter3": path.resolve(__dirname, "./src/lib/eventemitter3-shim.ts"),
     },
   },
   define: {
@@ -44,9 +42,15 @@ export default defineConfig(({ command, mode }) => ({
       transformMixedEsModules: true,
       // Include node_modules for proper CJS to ESM conversion
       include: [/node_modules/],
-      // Fix eventemitter3 "EVe is not a constructor" error - eventemitter3 doesn't have a default export
-      // but recharts expects one, so we need to tell rollup to use the module itself as the default
+      // Fix eventemitter3 "EVe is not a constructor" error
+      // eventemitter3 exports the class on module.exports directly (not .default)
+      // but Rollup's interop creates a .default property that is undefined
+      // Setting esmExternals to true tells Rollup to use named exports
+      esmExternals: true,
+      // Also configure requireReturnsDefault to handle the edge case
+      requireReturnsDefault: 'preferred',
       defaultIsModuleExports: (id: string) => {
+        // For eventemitter3, the module.exports IS the EventEmitter class itself
         if (id.includes('eventemitter3')) return true;
         if (id.includes('lodash')) return true;
         return 'auto';
