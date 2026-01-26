@@ -23,6 +23,7 @@ interface ManipulationResult {
   original: string;
   manipulated: string;
   type: string;
+  format?: string;
 }
 
 interface Question {
@@ -185,11 +186,15 @@ export default function PastPapersQuestions() {
     setSearchParams({ subject: activeSubject });
   }, [activeSubject, setSearchParams]);
 
-  const handleManipulate = async (question: Question, type: string) => {
+  const handleManipulate = async (question: Question, type: string, outputFormat: string = 'text') => {
     setIsLoading(true);
     try {
       const { data, error } = await supabase.functions.invoke('manipulate-question', {
-        body: { question: question.text, manipulationType: type }
+        body: { 
+          question: question.text, 
+          manipulationType: type,
+          outputFormat
+        }
       });
 
       if (error) throw error;
@@ -198,7 +203,8 @@ export default function PastPapersQuestions() {
       setResult({
         original: question.text,
         manipulated: data.manipulated,
-        type: type
+        type: type,
+        format: outputFormat
       });
     } catch (error) {
       console.error('Error manipulating question:', error);
@@ -540,6 +546,7 @@ export default function PastPapersQuestions() {
             original={result.original}
             manipulated={result.manipulated}
             type={result.type}
+            format={result.format}
             onClose={() => setResult(null)}
           />
         )}

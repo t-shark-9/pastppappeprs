@@ -28,6 +28,7 @@ import { usePastPapers, PastPaper } from "@/hooks/usePastPapers";
 
 // The base URL for the Supabase storage bucket (paper-uploads is public)
 const SUPABASE_STORAGE_URL = `https://jimfuknlntcqgtqfwcod.supabase.co/storage/v1/object/public/paper-uploads`;
+const SPECIMEN_STORAGE_URL = `https://jimfuknlntcqgtqfwcod.supabase.co/storage/v1/object/public/past-papers/specimen_papers`;
 
 // Fallback to R2 for older papers that might still be there
 const R2_DOMAIN = "https://pub-51fb18270b7f415792af570c9e90ef14.r2.dev";
@@ -149,17 +150,27 @@ function PaperLink({ paper }: PaperLinkProps) {
   // Construct URL - prefer Supabase storage (paper-uploads bucket), fallback to R2
   let href: string;
   
+  const isSpecimen = paper.session === 'Specimen' || paper.code?.startsWith('specimen_');
+
   if (paper.file_url) {
     // If we have a file_url, use it (could be full URL or just path)
     if (paper.file_url.startsWith('http')) {
       href = paper.file_url;
+    } else if (isSpecimen) {
+       // Specimen papers logic from user request
+       const cleanPath = paper.file_url.replace(/^specimen_papers\//, '');
+       href = `${SPECIMEN_STORAGE_URL}/${cleanPath}`;
     } else {
       // Assume it's in paper-uploads bucket
       href = `${SUPABASE_STORAGE_URL}/${paper.file_url}`;
     }
   } else {
     // No file_url - try to find file by name in paper-uploads bucket first
-    href = `${SUPABASE_STORAGE_URL}/${paper.name}`;
+    if (isSpecimen) {
+       href = `${SPECIMEN_STORAGE_URL}/${paper.name}`;
+    } else {
+       href = `${SUPABASE_STORAGE_URL}/${paper.name}`;
+    }
   }
 
   return (

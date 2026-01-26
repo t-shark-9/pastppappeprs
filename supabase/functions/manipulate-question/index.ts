@@ -13,9 +13,43 @@ interface ManipulationRequest {
   manipulationType: string;
   subject?: string;
   topic?: string;
+  outputFormat?: 'text' | 'latex' | 'html';
 }
 
-const getSystemPrompt = (type: string): string => {
+const getFormatInstructions = (format: string): string => {
+  if (format === 'latex') {
+    return `
+
+OUTPUT FORMAT: Return the result as properly formatted LaTeX suitable for a professional exam document.
+- Use \\section{} or \\subsection{} for question headers if needed
+- Use \\textbf{} for emphasis, \\textit{} for italics
+- Use appropriate math environments: $...$ for inline math, \\[...\\] for display math
+- Use \\begin{enumerate} or \\begin{itemize} for lists
+- Use \\ce{} for chemical formulas (mhchem package)
+- Include mark allocations in brackets like [2 marks]
+- Make the output copy-paste ready for a LaTeX document`;
+  }
+  
+  if (format === 'html') {
+    return `
+
+OUTPUT FORMAT: Return the result as clean, semantic HTML suitable for a web exam document.
+- Use <h3> or <h4> for question headers
+- Use <strong> for bold, <em> for italics
+- Use <ol> or <ul> for lists
+- Wrap math in appropriate tags like <span class="math">...</span>
+- Use <sub> and <sup> for subscripts and superscripts
+- Include mark allocations in <span class="marks">[2 marks]</span>
+- Use proper paragraph <p> tags
+- Make the output clean and ready to embed in a webpage`;
+  }
+  
+  return ''; // Plain text - no special formatting
+};
+
+const getSystemPrompt = (type: string, format: string = 'text'): string => {
+  const formatInstructions = getFormatInstructions(format);
+  
   const prompts: Record<string, string> = {
     rephrase: `You are an expert IB examiner. Rephrase the given exam question while:
 - Keeping the exact same difficulty level and mark allocation
@@ -75,7 +109,7 @@ Return ONLY the reversed question, nothing else.`,
 Return ONLY the recontextualized question, nothing else.`,
   };
 
-  return prompts[type] || prompts.rephrase;
+  return (prompts[type] || prompts.rephrase) + formatInstructions;
 };
 
 serve(async (req) => {
@@ -85,7 +119,7 @@ serve(async (req) => {
   }
 
   try {
-    const { question, manipulationType, subject, topic }: ManipulationRequest = await req.json();
+    const { question, manipulationType, subject, topic, outputFormat }: ManipulationRequest = await req.json();
 
     if (!question) {
       return new Response(
@@ -101,7 +135,7 @@ serve(async (req) => {
       );
     }
 
-    const systemPrompt = getSystemPrompt(manipulationType);
+    const systemPrompt = getSystemPrompt(manipulationType, outputFormat);
     const subjectContext = subject ? `Subject: ${subject}` : '';
     const topicContext = topic ? `Topic: ${topic}` : '';
 
