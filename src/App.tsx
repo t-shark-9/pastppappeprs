@@ -54,6 +54,7 @@ const Privacy = lazy(() => import("./pages/Privacy"));
 const Terms = lazy(() => import("./pages/Terms"));
 const Contact = lazy(() => import("./pages/Contact"));
 const Documentation = lazy(() => import("./pages/Documentation"));
+const LLMDocs = lazy(() => import("./pages/LLMDocs"));
 const GradeBoundaries = lazy(() => import("./pages/GradeBoundaries"));
 const EducationalSystems = lazy(() => import("./pages/EducationalSystems"));
 const GradingCriteriaSections = lazy(() => import("./pages/GradingCriteriaSections"));
@@ -154,6 +155,11 @@ const App = () => (
                         <Route path="/prototype/past-papers/browse" element={<PastPapers />} />
                         <Route path="/prototype/past-papers/ai" element={<PastPapersAI />} />
                         
+                        
+                        {/* LLM / AI Agent Pages */}
+                        <Route path="/llms" element={<LLMDocs />} />
+                        <Route path="/llms/:slug" element={<LLMDocs />} />
+
                         <Route path="/work/study" element={<Study />} />
                         <Route path="/work/flashcards" element={<Flashcards />} />
                         <Route path="/work/word-clone" element={<WordClone />} />
