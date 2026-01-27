@@ -51,6 +51,22 @@ export function GlobalHeader() {
         <div className="flex items-center justify-between gap-4">
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-2">
+            {/* Home Button */}
+            <Tooltip>
+              <TooltipTrigger asChild>
+                <Button 
+                  variant="ghost" 
+                  size="sm"
+                  onClick={() => navigate('/')}
+                >
+                  Home
+                </Button>
+              </TooltipTrigger>
+              <TooltipContent>
+                <p>Go to Home</p>
+              </TooltipContent>
+            </Tooltip>
+
             {/* Us Dropdown */}
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
@@ -264,14 +280,18 @@ export function GlobalHeader() {
               <TooltipTrigger asChild>
                 <Button 
                   variant="default" 
-                  size="sm"
+                  size="default"
                   onClick={handleGetStarted}
                   disabled={creatingGhost}
+                  className="gap-2 px-4"
                 >
                   {creatingGhost ? (
                     <Loader2 className="h-4 w-4 animate-spin" />
                   ) : (
-                    <PenLine className="h-4 w-4" />
+                    <>
+                      <span>Start Writing</span>
+                      <PenLine className="h-4 w-4" />
+                    </>
                   )}
                 </Button>
               </TooltipTrigger>

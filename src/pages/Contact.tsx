@@ -32,10 +32,10 @@ export default function Contact() {
                   <div>
                     <h3 className="font-semibold mb-1">Email</h3>
                     <a
-                      href="mailto:support@ibdpguide.com"
+                      href="mailto:support@tooessay.com"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      support@ibdpguide.com
+                      support@tooessay.com
                     </a>
                   </div>
                 </div>
@@ -51,26 +51,11 @@ export default function Contact() {
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <Phone className="h-5 w-5" />
-                  <div>
-                    <h3 className="font-semibold mb-1">Phone</h3>
-                    <a
-                      href="tel:+1234567890"
-                      className="text-muted-foreground hover:text-primary transition-colors"
-                    >
-                      +1 (234) 567-890
-                    </a>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-3">
                   <MapPin className="h-5 w-5" />
                   <div>
-                    <h3 className="font-semibold mb-1">Address</h3>
+                    <h3 className="font-semibold mb-1">Location</h3>
                     <p className="text-muted-foreground text-sm">
-                      123 Education Street<br />
-                      Innovation District<br />
-                      City, State 12345
+                      Global / Remote
                     </p>
                   </div>
                 </div>
