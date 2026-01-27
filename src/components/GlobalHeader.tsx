@@ -59,7 +59,7 @@ export function GlobalHeader() {
                   size="sm"
                   onClick={() => navigate('/')}
                 >
-                  Home
+                  <span>Home</span>
                 </Button>
               </TooltipTrigger>
               <TooltipContent>
