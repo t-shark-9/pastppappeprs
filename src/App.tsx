@@ -53,6 +53,7 @@ const Imprint = lazy(() => import("./pages/Imprint"));
 const Privacy = lazy(() => import("./pages/Privacy"));
 const Terms = lazy(() => import("./pages/Terms"));
 const Contact = lazy(() => import("./pages/Contact"));
+const Documentation = lazy(() => import("./pages/Documentation"));
 const GradeBoundaries = lazy(() => import("./pages/GradeBoundaries"));
 const EducationalSystems = lazy(() => import("./pages/EducationalSystems"));
 const GradingCriteriaSections = lazy(() => import("./pages/GradingCriteriaSections"));
@@ -159,6 +160,7 @@ const App = () => (
                         <Route path="/work/molecule" element={<Molecule />} />
                         <Route path="/molecule" element={<Molecule />} />
                         <Route path="/work/books" element={<Books />} />
+                        <Route path="/work/docs" element={<Documentation />} />
                         <Route path="/work/trash" element={<Trash />} />
                         <Route path="/work/settings" element={<Settings />} />
                         <Route path="/work/account" element={<Account />} />

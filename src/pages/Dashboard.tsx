@@ -494,6 +494,25 @@ export default function Dashboard() {
               </TooltipContent>
             </Tooltip>
 
+            <Tooltip>
+              <TooltipTrigger asChild>
+                <Card 
+                  className="cursor-pointer hover:shadow-lg transition-all border-2 border-dashed hover:border-primary/50 bg-card"
+                  onClick={() => navigate("/work/docs")}
+                >
+                  <CardHeader>
+                    <div className="flex items-center gap-2">
+                      <BookOpen className="h-5 w-5 text-primary" />
+                      <CardTitle>Documentation</CardTitle>
+                    </div>
+                  </CardHeader>
+                </Card>
+              </TooltipTrigger>
+              <TooltipContent className="max-w-xs">
+                <p>Guides, tutorials, and help resources to get the most out of the platform.</p>
+              </TooltipContent>
+            </Tooltip>
+
             {/* Past Papers - IB Only */}
             {(!isOfficeMode && isIBUser) && (
               <Tooltip>
