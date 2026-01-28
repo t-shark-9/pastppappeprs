@@ -49,6 +49,7 @@ declare global {
 
 interface Evaluation {
   overallScore: number;
+  isIBStudent?: boolean;
   totalMarks?: number;
   maxPossibleMarks?: number;
   criteriaGrades?: Array<{
@@ -1258,13 +1259,17 @@ export default function Draft() {
                                     <>
                                       <div className="text-4xl font-bold text-primary">{evaluation.totalMarks}/{evaluation.maxPossibleMarks}</div>
                                       <p className="text-sm text-muted-foreground mt-1">
-                                        IB Grade: <span className="font-bold text-primary">{evaluation.overallScore}/7</span>
+                                        {evaluation.isIBStudent && "IB Grade: "} <span className="font-bold text-primary">{evaluation.overallScore}/7</span>
                                       </p>
                                     </>
                                   ) : (
                                     <>
-                                      <div className="text-4xl font-bold text-primary">{evaluation.overallScore}/7</div>
-                                      <p className="text-sm text-muted-foreground mt-1">IB Grade</p>
+                                      <div className="text-4xl font-bold text-primary">
+                                        {evaluation.overallScore}/{evaluation.isIBStudent ? '7' : '10'}
+                                      </div>
+                                      <p className="text-sm text-muted-foreground mt-1">
+                                        {evaluation.isIBStudent ? 'IB Grade' : 'Overall Score'}
+                                      </p>
                                     </>
                                   )}
                                 </div>
@@ -1673,13 +1678,17 @@ export default function Draft() {
                                     <>
                                       <div className="text-4xl font-bold text-primary">{evaluation.totalMarks}/{evaluation.maxPossibleMarks}</div>
                                       <p className="text-sm text-muted-foreground mt-1">
-                                        IB Grade: <span className="font-bold text-primary">{evaluation.overallScore}/7</span>
+                                        {evaluation.isIBStudent && "IB Grade: "} <span className="font-bold text-primary">{evaluation.overallScore}/7</span>
                                       </p>
                                     </>
                                   ) : (
                                     <>
-                                      <div className="text-4xl font-bold text-primary">{evaluation.overallScore}/7</div>
-                                      <p className="text-sm text-muted-foreground mt-1">IB Grade</p>
+                                      <div className="text-4xl font-bold text-primary">
+                                        {evaluation.overallScore}/{evaluation.isIBStudent ? '7' : '10'}
+                                      </div>
+                                      <p className="text-sm text-muted-foreground mt-1">
+                                        {evaluation.isIBStudent ? 'IB Grade' : 'Overall Score'}
+                                      </p>
                                     </>
                                   )}
                                 </div>
