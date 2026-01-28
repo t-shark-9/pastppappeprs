@@ -113,7 +113,9 @@ ${gradingCriteria ? '5. SPECIFIC GRADE for EACH grading criterion listed above' 
 
 Format your response as JSON with this structure:
 {
-  "overallScore": <number 0-10>,
+  "overallScore": <number 1-7 (Final IB Grade based on standard grade boundaries)>,
+  "totalMarks": <number (Sum of earned marks)>,
+  "maxPossibleMarks": <number (Sum of max marks)>,
   ${gradingCriteria ? `"criteriaGrades": [
     {
       "criterion": "Name of criterion (must match criteria above)",

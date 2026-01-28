@@ -49,6 +49,8 @@ declare global {
 
 interface Evaluation {
   overallScore: number;
+  totalMarks?: number;
+  maxPossibleMarks?: number;
   criteriaGrades?: Array<{
     criterion: string;
     earnedMarks: number;
@@ -1253,7 +1255,12 @@ export default function Draft() {
                               <CardContent className="pt-6">
                                 <div className="text-center pb-4 border-b">
                                   <div className="text-4xl font-bold text-primary">{evaluation.overallScore}/7</div>
-                                  <p className="text-sm text-muted-foreground mt-1">Overall Score</p>
+                                  <p className="text-sm text-muted-foreground mt-1">IB Grade</p>
+                                  {evaluation.totalMarks !== undefined && evaluation.maxPossibleMarks !== undefined && (
+                                    <p className="text-xs text-muted-foreground mt-2">
+                                      Total Marks: {evaluation.totalMarks}/{evaluation.maxPossibleMarks}
+                                    </p>
+                                  )}
                                 </div>
                               </CardContent>
                             </Card>
@@ -1657,7 +1664,12 @@ export default function Draft() {
                               <CardContent className="pt-6">
                                 <div className="text-center pb-4 border-b">
                                   <div className="text-4xl font-bold text-primary">{evaluation.overallScore}/7</div>
-                                  <p className="text-sm text-muted-foreground mt-1">Overall Score</p>
+                                  <p className="text-sm text-muted-foreground mt-1">IB Grade</p>
+                                  {evaluation.totalMarks !== undefined && evaluation.maxPossibleMarks !== undefined && (
+                                    <p className="text-xs text-muted-foreground mt-2">
+                                      Total Marks: {evaluation.totalMarks}/{evaluation.maxPossibleMarks}
+                                    </p>
+                                  )}
                                 </div>
                               </CardContent>
                             </Card>
