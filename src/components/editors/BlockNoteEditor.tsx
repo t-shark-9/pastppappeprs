@@ -29,6 +29,7 @@ import { useAutocorrect } from "@/hooks/use-autocorrect";
 import { AutocorrectDropdown } from "@/components/editor/AutocorrectDropdown";
 import { NotesSearchDialog } from "@/components/editor/NotesSearchDialog";
 import { useFeatureFlags } from "@/contexts/FeatureFlagsContext";
+import { GrammarlyEditorPlugin } from "@grammarly/editor-sdk-react";
 
 interface BlockNoteEditorProps {
   initialContent?: string | Block[];
@@ -2204,7 +2205,8 @@ export function BlockNoteEditor({
       )}
 
       <div className={disablePagination ? "endless-editor-container" : "page-editor-container"} ref={editorContainerRef}>
-        <BlockNoteView 
+        <GrammarlyEditorPlugin clientId="client_9m1yKJ8B9s8d1j2j3j4j5">
+          <BlockNoteView 
             editor={editor} 
             theme="light" 
             slashMenu={false}
@@ -2324,6 +2326,7 @@ export function BlockNoteEditor({
             />
           )}
         </BlockNoteView>
+        </GrammarlyEditorPlugin>
 
         {/* Explain Bubble */}
         {explainBubble?.visible && (
